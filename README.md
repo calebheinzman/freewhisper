@@ -313,9 +313,9 @@ open "freewhisper://meetings?id=2026-08-25T09-43-27-standup"
 ## Development
 
 ```sh
-make build      # swift build, plus MLX's Metal kernels
-make metal      # MLX's Metal kernels only
-make test       # 183 tests
+make build      # xcodebuild the package: app, fwctl, MLX's Metal kernels
+make check      # swift build, for a fast typecheck only
+make test       # 189 tests
 make icon       # regenerate AppIcon.icns from the 1024px master
 make app        # assemble + sign the bundle
 make run        # app, then launch
@@ -325,10 +325,13 @@ make verify     # check signature, Gatekeeper and staple on the output
 make clean
 ```
 
-**One prerequisite beyond Xcode.** MLX runs the on-device summarizer on the GPU,
-and SwiftPM cannot compile Metal shaders — so `make build` compiles MLX's
-kernels with a one-off `xcodebuild` and stages the resulting bundle next to the
-SwiftPM binaries. That needs Xcode 26's separately-downloaded Metal toolchain:
+**One prerequisite beyond Xcode.** The app is built with `xcodebuild`, not
+`swift build` — MLX's Metal shaders cannot be compiled by SwiftPM at all, and
+SwiftPM's generated `Bundle.module` accessor cannot find a dependency's resources
+once the app is assembled into a `.app` (it looks in the bundle root, where
+codesign forbids anything from living, then falls back to the absolute build path
+it was compiled at). `make build` handles both. It needs Xcode 26's
+separately-downloaded Metal toolchain:
 
 ```sh
 xcodebuild -downloadComponent MetalToolchain   # ~700 MB, once

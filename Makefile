@@ -4,15 +4,24 @@ CONFIG      ?= debug
 BUILD_DIR   := build
 APP         := $(BUILD_DIR)/$(APP_NAME).app
 CONTENTS    := $(APP)/Contents
-BIN_DIR     := $(shell swift build -c $(CONFIG) --show-bin-path 2>/dev/null)
-
-# MLX runs the on-device summarizer on the GPU, and SwiftPM cannot compile Metal
-# shaders — mlx-swift says so itself. So the kernels come from a one-off
-# xcodebuild of the same package, which produces them as a resource bundle we
-# copy next to the SwiftPM binaries. Cached: it is only rebuilt when mlx-swift
-# changes, which is what keeps `make build` fast after the first run.
+# The app is built with xcodebuild rather than `swift build`, for two reasons
+# that both only bite once the app leaves this machine.
 #
-# Keyed by configuration. A release bundle must not ship debug kernels, and
+# SwiftPM generates a `Bundle.module` accessor that looks in
+# `Bundle.main.bundleURL` — for an .app that is the bundle *root*, where nothing
+# may live because codesign rejects unsealed content there — and then falls back
+# to the absolute .build path it happened to be compiled at. Inside a shipped
+# app both are wrong: the first does not exist, and the second points at
+# /Users/runner/work/... on a GitHub Actions runner. Any dependency reading its
+# own resources then traps. KeyboardShortcuts does exactly that when Settings
+# opens a shortcut recorder, and it took down v0.1.0.
+#
+# xcodebuild generates the other accessor, which checks `Bundle.main.resourceURL`
+# — Contents/Resources — first, which is where this Makefile puts the bundles.
+#
+# It also compiles MLX's Metal shaders, which SwiftPM cannot do at all.
+#
+# Keyed by configuration: a release bundle must not ship debug kernels, and
 # giving each configuration its own product directory means neither invalidates
 # the other's cache.
 XC_DERIVED  := .build/xcode
@@ -21,8 +30,7 @@ XC_CONFIG   := Release
 else
 XC_CONFIG   := Debug
 endif
-MLX_BUNDLE  := mlx-swift_Cmlx.bundle
-MLX_BUILT   := $(XC_DERIVED)/Build/Products/$(XC_CONFIG)/$(MLX_BUNDLE)
+BIN_DIR     := $(XC_DERIVED)/Build/Products/$(XC_CONFIG)
 
 ICON_SRC    := Resources/AppIcon.png
 ICON_OUT    := Resources/AppIcon.icns
@@ -92,14 +100,14 @@ else
 NOTARY_AUTH := --keychain-profile "$(NOTARY_PROFILE)"
 endif
 
-.PHONY: all build app sign run test clean fwctl release identity help metal icon \
+.PHONY: all build check app sign run test clean fwctl release identity help icon \
         zip notarize-app staple-app dmg notarize-dmg staple-dmg verify dist
 
 all: app
 
 help:
-	@echo "make build     - swift build, plus MLX's Metal kernels"
-	@echo "make metal     - compile MLX's Metal kernels only"
+	@echo "make build     - xcodebuild the package (app, fwctl, Metal kernels)"
+	@echo "make check     - swift build, for a fast typecheck only"
 	@echo "make icon      - regenerate $(ICON_OUT) from $(ICON_SRC)"
 	@echo "make app       - build + assemble + sign $(APP)"
 	@echo "make run       - app, then launch it (kills any running copy first)"
@@ -118,15 +126,7 @@ identity:
 	@echo ""
 	@security find-identity -v -p codesigning 2>/dev/null || true
 
-build: metal
-	swift build -c $(CONFIG)
-	@# SwiftPM looks for a target's resources next to the binary, so staging the
-	@# bundle here is what makes `swift run fwctl` and the app find the kernels.
-	@cp -R "$(MLX_BUILT)" "$(BIN_DIR)/"
-
-metal: $(MLX_BUILT)
-
-$(MLX_BUILT):
+build:
 	@xcrun metal --version >/dev/null 2>&1 || { \
 		echo "The Metal toolchain isn't installed — MLX needs it to compile its"; \
 		echo "GPU kernels. Xcode 26 ships it as a separate download:"; \
@@ -134,10 +134,15 @@ $(MLX_BUILT):
 		echo "    xcodebuild -downloadComponent MetalToolchain"; \
 		echo ""; \
 		exit 1; }
-	@echo "compiling MLX's Metal kernels ($(XC_CONFIG), slow, but only when mlx-swift changes)…"
-	@xcodebuild build -scheme FreeWhisperKit -destination 'platform=macOS' \
+	@xcodebuild build -scheme $(APP_NAME)-Package -destination 'platform=macOS' \
 		-derivedDataPath "$(XC_DERIVED)" -configuration $(XC_CONFIG) \
 		-skipMacroValidation -quiet
+
+# Kept because `swift build` is still the quickest way to typecheck, and because
+# `swift test` uses it. It is deliberately NOT what `make app` ships: see the
+# Bundle.module note at the top of this file.
+check:
+	swift build -c $(CONFIG)
 
 # Regenerate the .icns from the 1024px master. The result is committed, so this
 # only needs running when the artwork changes — `make app` and CI just copy it.
@@ -318,6 +323,20 @@ verify:
 	@codesign -dv "$(CONTENTS)/Resources/$(MLX_BUNDLE)" 2>&1 | grep -E 'Signature|Authority' || true
 	@echo "== entitlements (get-task-allow here means a debug build leaked in) =="
 	@codesign -d --entitlements - --xml "$(APP)" 2>/dev/null | plutil -p - || true
+	@echo "== resource bundles resolve inside the app =="
+	@# v0.1.0 shipped a binary whose Bundle.module fell back to the absolute
+	@# .build path it was compiled at — /Users/runner/... — so opening Settings
+	@# trapped on every machine but the build machine. If that string is in the
+	@# binary, the app was built with `swift build` instead of xcodebuild.
+	@if strings "$(CONTENTS)/MacOS/$(APP_NAME)" 2>/dev/null | grep -qE "could not load resource bundle: from"; then \
+		echo "  FAIL: built with swift build — Bundle.module will trap outside this machine"; \
+		strings "$(CONTENTS)/MacOS/$(APP_NAME)" | grep -oE "/Users/[^ ]*\.build/[^ ]*\.bundle" | head -2; \
+		exit 1; \
+	fi
+	@for b in $$(ls -d "$(CONTENTS)/Resources"/*.bundle 2>/dev/null); do \
+		printf "  %s\n" "$$(basename $$b)"; \
+	done
+	@echo "  ok: accessor resolves via Contents/Resources"
 	@echo "== architecture =="
 	@lipo -info "$(CONTENTS)/MacOS/$(APP_NAME)"
 	@echo "== gatekeeper =="

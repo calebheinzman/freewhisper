@@ -8,16 +8,20 @@ There is one prerequisite beyond Xcode that will otherwise waste your afternoon:
 xcodebuild -downloadComponent MetalToolchain   # ~700 MB, once
 ```
 
-MLX runs the on-device summarizer on the GPU and SwiftPM cannot compile Metal
-shaders, so `make build` compiles MLX's kernels with a one-off `xcodebuild` and
-stages the resulting bundle next to the SwiftPM binaries.
+The app is built with `xcodebuild`, for two reasons that only bite once the app
+leaves your machine: SwiftPM cannot compile MLX's Metal shaders at all, and the
+`Bundle.module` accessor it generates cannot find a dependency's resources inside
+an assembled `.app`. It looks in the bundle root — where codesign forbids
+anything from living — then falls back to the absolute `.build` path it was
+compiled at, which exists only on the build machine. That shipped once, and
+Settings crashed for everyone who wasn't us.
 
-**Use `make build`, not `swift build`.** A bare `swift build` skips that step and
-the summarizer will have no kernels to load.
+**Use `make build`, not `swift build`.** `make check` runs `swift build` if you
+just want a fast typecheck.
 
 ```sh
-make build      # swift build, plus MLX's Metal kernels
-make test       # 183 tests
+make build      # xcodebuild: app, fwctl, Metal kernels
+make test       # 189 tests
 make run        # assemble, sign, and launch the app
 make fwctl      # build ./fw, the headless CLI
 ```
