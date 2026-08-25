@@ -75,9 +75,11 @@ if ! read_p12; then
     exit 1
 fi
 
-base64 -i "$P12" | gh secret set MACOS_CERTIFICATE_P12_BASE64 -R "$REPO" --body-file -
-printf '%s' "$P12_PASSWORD" | gh secret set MACOS_CERTIFICATE_PASSWORD -R "$REPO" --body-file -
-base64 -i "$P8"  | gh secret set AC_API_KEY_P8_BASE64 -R "$REPO" --body-file -
+# `gh secret set` reads the value from stdin when --body is omitted. Do not be
+# tempted by --body "$(base64 ...)": that puts the private key in argv.
+base64 -i "$P12" | gh secret set MACOS_CERTIFICATE_P12_BASE64 -R "$REPO"
+printf '%s' "$P12_PASSWORD" | gh secret set MACOS_CERTIFICATE_PASSWORD -R "$REPO"
+base64 -i "$P8"  | gh secret set AC_API_KEY_P8_BASE64 -R "$REPO"
 
 # Variables, not secrets. Both are public identifiers — Apple puts the key id in
 # the filename it gives you — and registering them as secrets only makes Actions
