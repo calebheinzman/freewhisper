@@ -1,0 +1,76 @@
+import Foundation
+import FreeWhisperKit
+import Observation
+
+/// Live permission status for the menu bar panel.
+@Observable
+@MainActor
+final class PermissionsModel {
+    private(set) var states: [Permission: PermissionState] = [:]
+
+    /// Required permissions that aren't granted — what the menu bar badges on.
+    var blockingPermissions: [Permission] {
+        Permission.allCases.filter { $0.isRequired && states[$0]?.isAuthorized != true }
+    }
+
+    var isReadyToRecord: Bool { blockingPermissions.isEmpty }
+
+    func state(_ permission: Permission) -> PermissionState {
+        states[permission] ?? .notDetermined
+    }
+
+    /// Refresh everything we can check without prompting. System audio is
+    /// deliberately excluded: probing it *is* the prompt, so we show the last
+    /// known answer until the user asks us to check again.
+    func refresh() async {
+        states[.microphone] = Permissions.microphoneState()
+        states[.accessibility] = Permissions.accessibilityState()
+        states[.screenRecording] = Permissions.screenRecordingState()
+        states[.notifications] = await Permissions.notificationState()
+        if states[.systemAudio] == nil {
+            states[.systemAudio] = Permissions.cachedSystemAudioState()
+        }
+    }
+
+    func request(_ permission: Permission) async {
+        // Handled ahead of the switch because it is the one permission whose
+        // prompt returns "no" immediately rather than when the user answers.
+        // Falling through to the openSettings tail below would throw a System
+        // Settings window on top of the dialog we just raised.
+        if permission == .screenRecording {
+            let alreadyAsked = Permissions.hasRequestedScreenRecording
+            Permissions.requestScreenRecording()
+            states[.screenRecording] = Permissions.screenRecordingState()
+            if alreadyAsked, states[.screenRecording] != .authorized {
+                Permissions.openSettings(for: .screenRecording)
+            }
+            return
+        }
+
+        switch permission {
+        case .microphone:
+            states[.microphone] = await Permissions.requestMicrophone()
+        case .systemAudio:
+            // Off the main actor deliberately. Probing means creating a real
+            // process tap, and that call blocks until the user answers the TCC
+            // dialog — on the main actor it freezes the whole UI, including the
+            // panel the button lives in. `AppCoordinator.startRecording` hops off
+            // for the same reason.
+            states[.systemAudio] = await Task.detached { Permissions.probeSystemAudio() }.value
+        case .accessibility:
+            Permissions.requestAccessibility()
+            // The user has to flip a switch in System Settings; we can only
+            // re-read after they come back.
+            states[.accessibility] = Permissions.accessibilityState()
+        case .screenRecording:
+            break // handled above
+        case .notifications:
+            states[.notifications] = await Permissions.requestNotifications()
+        }
+
+        // A denied permission can't be re-prompted, so send them to the pane.
+        if states[permission] == .denied {
+            Permissions.openSettings(for: permission)
+        }
+    }
+}

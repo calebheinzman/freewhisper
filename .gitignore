@@ -1,0 +1,28 @@
+.build/
+build/
+/fw
+.DS_Store
+*.xcodeproj
+.swiftpm/
+.context/
+
+# Benchmark harness. The corpora are large (the AMI download alone is ~230 MB)
+# and licensed to their authors, not to us — they are fetched, never committed.
+eval/.venv/
+eval/datasets/
+__pycache__/
+.venv/
+
+# Credentials. Nothing here should ever be in the repo; these patterns exist so
+# that a stray `git add -A` cannot make it permanent.
+.env
+.env.*
+*.p12
+*.p8
+*.pem
+*.cer
+*.mobileprovision
+id_rsa*
+id_ed25519*
+*.keychain
+*.keychain-db

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- The sandbox has no way to express "tap system audio" or "post synthetic
+	     key events into another app", both of which we need. Sandboxing is off
+	     deliberately; the app is therefore not Mac App Store distributable. -->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+
+	<!-- Required under the Hardened Runtime for microphone access. -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+</dict>
+</plist>

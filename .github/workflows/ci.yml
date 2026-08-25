@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+# This workflow runs pull requests from strangers. It needs to read the code and
+# nothing else; without an explicit block it would inherit whatever the
+# repository default is, which can still be write-all on older accounts.
+permissions:
+  contents: read
+
+jobs:
+  build-test:
+    # macos-26, not macos-15: Package.swift declares swift-tools-version 6.0,
+    # which Xcode 15.4 cannot parse, and MLX needs the Metal toolchain, which
+    # macos-26 ships preinstalled.
+    runs-on: macos-26
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Toolchain
+        run: |
+          set -euo pipefail
+          xcodebuild -version
+          swift --version
+          # Preinstalled on macos-26 today. If a future image drops it, pay the
+          # download rather than failing the run.
+          xcrun metal --version || xcodebuild -downloadComponent MetalToolchain
+
+      # checkouts and artifacts only: caching compiled objects across toolchain
+      # patch versions produces confusing incremental-build failures, while the
+      # dependency downloads (including FluidAudio's xcframework) are the slow,
+      # safe-to-cache part.
+      - name: Cache SwiftPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            .build/checkouts
+            .build/artifacts
+            .build/repositories
+          key: spm-${{ runner.os }}-${{ hashFiles('Package.resolved') }}
+          restore-keys: spm-${{ runner.os }}-
+
+      # MLX's Metal kernels are the slowest part of a cold build and only change
+      # when mlx-swift does, so they key off the same resolved dependencies.
+      - name: Cache MLX Metal kernels
+        uses: actions/cache@v4
+        with:
+          path: .build/xcode
+          key: metal-${{ runner.os }}-${{ hashFiles('Package.resolved') }}
+
+      # `make build`, not `swift build`: the metal target has to run first or the
+      # summarizer has no kernels to load.
+      - run: make build
+
+      - run: swift test

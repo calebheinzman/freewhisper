@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>FreeWhisper app icon</title>
+  <desc>A near-white voice waveform on a deep violet macOS squircle.</desc>
+  <defs>
+    <!-- Apple-style continuous corner: an exponent-5 superellipse in an 824 px grid. -->
+    <path id="squircle" d="M 512,100
+      C 295.4,100 207.5,100 151.8,151.8
+      C 100,207.5 100,295.4 100,512
+      C 100,728.6 100,816.5 151.8,872.2
+      C 207.5,924 295.4,924 512,924
+      C 728.6,924 816.5,924 872.2,872.2
+      C 924,816.5 924,728.6 924,512
+      C 924,295.4 924,207.5 872.2,151.8
+      C 816.5,100 728.6,100 512,100 Z"/>
+    <clipPath id="icon-clip">
+      <use href="#squircle"/>
+    </clipPath>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7657E8"/>
+      <stop offset="0.48" stop-color="#5632C8"/>
+      <stop offset="1" stop-color="#281064"/>
+    </linearGradient>
+    <radialGradient id="top-glow" cx="50%" cy="0%" r="78%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.19"/>
+      <stop offset="0.48" stop-color="#E8DEFF" stop-opacity="0.055"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="inner-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="0.32" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="0.7" stop-color="#FFFFFF" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#120534" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="glyph" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEE9FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Everything outside this pre-shaped icon remains fully transparent. -->
+  <g clip-path="url(#icon-clip)">
+    <rect x="100" y="100" width="824" height="824" fill="url(#background)"/>
+    <rect x="100" y="100" width="824" height="824" fill="url(#top-glow)"/>
+    <use href="#squircle" fill="none" stroke="url(#inner-edge)" stroke-width="12"/>
+
+    <!-- Five bold capsules form a voice waveform; widths remain legible at 16 px. -->
+    <g fill="url(#glyph)">
+      <rect x="310" y="446" width="64" height="132" rx="32"/>
+      <rect x="395" y="378" width="64" height="268" rx="32"/>
+      <rect x="480" y="318" width="64" height="388" rx="32"/>
+      <rect x="565" y="378" width="64" height="268" rx="32"/>
+      <rect x="650" y="446" width="64" height="132" rx="32"/>
+    </g>
+  </g>
+</svg>

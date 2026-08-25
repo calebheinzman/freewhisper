@@ -1,0 +1,80 @@
+// swift-tools-version: 6.0
+import PackageDescription
+
+// Swift 5 language mode on purpose: this package is built around CoreAudio C
+// callbacks and HAL property listeners, which Swift 6 strict concurrency has no
+// good way to reason about. Revisit once the audio layer is stable.
+let swiftSettings: [SwiftSetting] = [
+    .swiftLanguageMode(.v5)
+]
+
+let package = Package(
+    name: "FreeWhisper",
+    platforms: [
+        // 14.4 rather than 14.2 (when process taps landed): the TCC prompt for
+        // audio capture is unreliable on 14.2/14.3, and pinning here keeps
+        // @available checks out of every audio file.
+        .macOS("14.4")
+    ],
+    products: [
+        .executable(name: "FreeWhisper", targets: ["FreeWhisper"]),
+        .executable(name: "fwctl", targets: ["fwctl"]),
+        .library(name: "FreeWhisperKit", targets: ["FreeWhisperKit"]),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.5.0"),
+        .package(url: "https://github.com/sindresorhus/KeyboardShortcuts", from: "2.2.0"),
+        // Whisper + pyannote diarization, MIT. Formerly argmaxinc/WhisperKit.
+        .package(url: "https://github.com/argmaxinc/argmax-oss-swift.git", from: "1.0.0"),
+        // Parakeet ASR + diarization. Exposes speaker embeddings, which is what
+        // cross-meeting speaker memory will need.
+        .package(url: "https://github.com/FluidInference/FluidAudio.git", from: "0.15.0"),
+        // On-device summarization, so the app works without the user first
+        // installing Ollama. Pinned exactly: the loader API here is young and
+        // still moving between releases.
+        .package(url: "https://github.com/ml-explore/mlx-swift-lm.git", exact: "3.31.4"),
+        // MLXHuggingFace's macros expand to code referencing `HubClient` and
+        // `AutoTokenizer`, so both of these have to be visible to us directly.
+        .package(url: "https://github.com/huggingface/swift-huggingface.git", from: "0.8.1"),
+        .package(url: "https://github.com/huggingface/swift-transformers.git", from: "1.3.3"),
+    ],
+    targets: [
+        // Everything that isn't SwiftUI lives here so `fwctl` and the tests can
+        // drive the whole pipeline without launching the app.
+        .target(
+            name: "FreeWhisperKit",
+            dependencies: [
+                .product(name: "WhisperKit", package: "argmax-oss-swift"),
+                .product(name: "SpeakerKit", package: "argmax-oss-swift"),
+                .product(name: "FluidAudio", package: "FluidAudio"),
+                .product(name: "MLXLLM", package: "mlx-swift-lm"),
+                .product(name: "MLXLMCommon", package: "mlx-swift-lm"),
+                .product(name: "MLXHuggingFace", package: "mlx-swift-lm"),
+                .product(name: "HuggingFace", package: "swift-huggingface"),
+                .product(name: "Tokenizers", package: "swift-transformers"),
+            ],
+            swiftSettings: swiftSettings
+        ),
+        .executableTarget(
+            name: "FreeWhisper",
+            dependencies: [
+                "FreeWhisperKit",
+                .product(name: "KeyboardShortcuts", package: "KeyboardShortcuts"),
+            ],
+            swiftSettings: swiftSettings
+        ),
+        .executableTarget(
+            name: "fwctl",
+            dependencies: [
+                "FreeWhisperKit",
+                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+            ],
+            swiftSettings: swiftSettings
+        ),
+        .testTarget(
+            name: "FreeWhisperKitTests",
+            dependencies: ["FreeWhisperKit"],
+            swiftSettings: swiftSettings
+        ),
+    ]
+)
