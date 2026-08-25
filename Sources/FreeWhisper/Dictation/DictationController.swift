@@ -194,7 +194,9 @@ final class DictationController {
             defer { try? FileManager.default.removeItem(at: url) }
             do {
                 let (asr, _) = await TranscriptionPipeline.engines(for: model)
-                let segments = try await asr.transcribe(url: url, progress: nil)
+                let segments = try await Self.withTimeout(seconds: Self.transcribeTimeout) {
+                    try await asr.transcribe(url: url, progress: nil)
+                }
                 let text = segments.map(\.text)
                     .joined(separator: " ")
                     .trimmingCharacters(in: .whitespacesAndNewlines)
@@ -216,6 +218,32 @@ final class DictationController {
                 Log.dictation.error("dictation failed: \(error.localizedDescription, privacy: .public)")
                 self.clearAfterDelay()
             }
+        }
+    }
+
+    /// Generous, because it covers a cold model load on a slow disk as well as
+    /// the inference itself. It exists to bound the failure, not to be hit.
+    static let transcribeTimeout: TimeInterval = 120
+
+    /// Fails instead of hanging.
+    ///
+    /// Recording has a safety timer but transcription had nothing, so anything
+    /// that never returned left the HUD reading "Transcribing…" forever with no
+    /// way back except quitting the app. A dictation that takes two minutes is
+    /// already a failure; the user should be told so and released.
+    private static func withTimeout<T: Sendable>(
+        seconds: TimeInterval,
+        operation: @escaping @Sendable () async throws -> T
+    ) async throws -> T {
+        try await withThrowingTaskGroup(of: T.self) { group in
+            group.addTask { try await operation() }
+            group.addTask {
+                try await Task.sleep(for: .seconds(seconds))
+                throw DictationTimeout()
+            }
+            guard let result = try await group.next() else { throw DictationTimeout() }
+            group.cancelAll()
+            return result
         }
     }
 
@@ -292,5 +320,12 @@ final class DictationController {
             try? await Task.sleep(for: .seconds(3))
             if case .failed = self.state { self.state = .idle }
         }
+    }
+}
+
+/// Surfaced to the user as the HUD's failure text, so it says what happened.
+struct DictationTimeout: LocalizedError {
+    var errorDescription: String? {
+        "Transcribing took too long and was stopped. The model may still be loading — try again in a moment."
     }
 }

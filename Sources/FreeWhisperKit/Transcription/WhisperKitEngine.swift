@@ -20,6 +20,7 @@ public actor WhisperKitEngine: TranscriptionEngine {
     /// what `WhisperKitConfig` matches on.
     private let modelName: String
     private var pipe: WhisperKit?
+    private var loading: Task<WhisperKit, any Error>?
 
     /// No default: an engine that doesn't know which weights it runs is not a
     /// thing worth being able to construct, now that there is more than one set.
@@ -27,20 +28,32 @@ public actor WhisperKitEngine: TranscriptionEngine {
         self.modelName = variant
     }
 
+    /// Loads the weights once, even if several callers ask at the same time.
+    /// See ``FluidAudioEngine/prepare(progress:)`` for why the obvious
+    /// `guard pipe == nil` is not sufficient on a reentrant actor.
     public func prepare(progress: ProgressHandler?) async throws {
-        guard pipe == nil else { return }
+        if pipe != nil { return }
+        if let loading {
+            pipe = try await loading.value
+            return
+        }
 
         progress?(.downloadingModel(name: modelName, fraction: nil))
+
+        let model = modelName
+        let base = ModelStorage.downloadBase()
+        let task = Task.detached {
+            try await WhisperKit(WhisperKitConfig(model: model, downloadBase: base, download: true))
+        }
+        loading = task
+
         do {
-            let config = WhisperKitConfig(
-                model: modelName,
-                downloadBase: ModelStorage.downloadBase(),
-                download: true
-            )
-            let pipe = try await WhisperKit(config)
             progress?(.loadingModel(name: modelName))
-            self.pipe = pipe
+            let loaded = try await task.value
+            pipe = loaded
+            loading = nil
         } catch {
+            loading = nil
             throw TranscriptionError.modelUnavailable(modelName)
         }
     }

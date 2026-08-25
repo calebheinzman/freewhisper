@@ -35,26 +35,53 @@ public actor FluidAudioEngine: TranscriptionEngine {
 
     private let version: ParakeetVersion
     private var manager: AsrManager?
+    private var loading: Task<AsrManager, any Error>?
 
     public init(version: ParakeetVersion = .v3) {
         self.version = version
     }
 
+    /// Loads the weights once, even if several callers ask at the same time.
+    ///
+    /// `guard manager == nil` is not enough on its own. Actors are reentrant, so
+    /// the actor is released for the whole duration of the load below and
+    /// `manager` stays nil throughout — a second caller arriving in that window
+    /// sails past the check and starts a *second* load of the same weights. The
+    /// app does exactly that: it preloads the dictation model at launch while
+    /// the hotkey is already live, so pressing it a few seconds in kicks off a
+    /// concurrent load of the same 483 MB model. Holding the in-flight task
+    /// rather than only the finished result is what makes this idempotent.
     public func prepare(progress: ProgressHandler?) async throws {
-        guard manager == nil else { return }
+        if manager != nil { return }
+        if let loading {
+            manager = try await loading.value
+            return
+        }
 
         let name = version.displayName
         progress?(.downloadingModel(name: name, fraction: nil))
-        do {
-            // `AsrModels` carries its own version, and `AsrManager` reads the
-            // vocabulary size and decoder shape from it, so the manager needs
-            // no separate configuration per version.
-            let models = try await AsrModels.downloadAndLoad(version: version.asrVersion)
-            progress?(.loadingModel(name: name))
+
+        // `AsrModels` carries its own version, and `AsrManager` reads the
+        // vocabulary size and decoder shape from it, so the manager needs no
+        // separate configuration per version.
+        let asrVersion = version.asrVersion
+        let task = Task.detached {
+            let models = try await AsrModels.downloadAndLoad(version: asrVersion)
             let manager = AsrManager(config: .default)
             try await manager.loadModels(models)
-            self.manager = manager
+            return manager
+        }
+        loading = task
+
+        do {
+            progress?(.loadingModel(name: name))
+            let loaded = try await task.value
+            manager = loaded
+            loading = nil
         } catch {
+            // Cleared so a later attempt can retry rather than inheriting the
+            // failure forever.
+            loading = nil
             throw TranscriptionError.modelUnavailable(name)
         }
     }
