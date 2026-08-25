@@ -81,6 +81,13 @@ struct IntelligenceSettingsView: View {
                 selection: $dictationModelID,
                 showsCloudSettings: !transcriptionModel.isWeightless
             )
+            // Start loading the new choice now, in the background, rather than
+            // in front of the user's next hotkey press. A cold Whisper load runs
+            // to minutes, and paying it there is what made every model except
+            // the launch default look broken.
+            .onChange(of: dictationModelID) { _, _ in
+                DictationWarmup.warm(dictationModel)
+            }
         } header: {
             Text("Voice to Text Model")
         } footer: {
@@ -493,6 +500,8 @@ private struct ModelRow: View {
                     .foregroundStyle(isFailed ? .orange : .secondary)
                     .fixedSize(horizontal: false, vertical: true)
 
+                scorecard
+
                 if case .downloading(let fraction) = state {
                     ProgressView(value: fraction)
                         .progressViewStyle(.linear)
@@ -504,6 +513,57 @@ private struct ModelRow: View {
         // Without this the row is only clickable on the glyph and the text,
         // and the gaps between them silently do nothing.
         .contentShape(Rectangle())
+    }
+
+    /// Measured accuracy and speed, when there is a measurement.
+    ///
+    /// The row already carried a hand-written sentence about each model —
+    /// "strongest on accents", "roughly twice the speed" — inherited from
+    /// upstream and never verified. This is the same claim made checkable: the
+    /// numbers come from `eval/`, run against public corpora with published
+    /// ground truth. Absent for a model nobody has measured, which is the honest
+    /// rendering of not knowing.
+    @ViewBuilder
+    private var scorecard: some View {
+        if let entry = ModelScorecard.entry(for: model.id) {
+            HStack(spacing: 6) {
+                accuracyBar(entry.accuracy)
+                Text(String(format: "%.0f", entry.accuracy * 100))
+                    .font(.system(size: 10, weight: .medium).monospacedDigit())
+                    .foregroundStyle(.secondary)
+
+                if let speed = ModelScorecard.speedLabel(for: model.id) {
+                    Text("·").font(.system(size: 10)).foregroundStyle(.tertiary)
+                    Text(speed)
+                        .font(.system(size: 10))
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .padding(.top, 1)
+            .help(accuracyHelp(entry))
+        }
+    }
+
+    /// Forty points of bar. Enough to rank four models at a glance, too little
+    /// to invite reading a third decimal place off it.
+    private func accuracyBar(_ accuracy: Double) -> some View {
+        let fraction = max(0, min(1, accuracy))
+        return ZStack(alignment: .leading) {
+            Capsule().fill(.quaternary).frame(width: 40, height: 4)
+            Capsule()
+                .fill(fraction >= 0.75 ? Color.green : fraction >= 0.5 ? .yellow : .orange)
+                .frame(width: 40 * fraction, height: 4)
+        }
+    }
+
+    private func accuracyHelp(_ entry: ModelScorecard.Entry) -> String {
+        let task = switch entry.track {
+        case "asr": "dictation accuracy"
+        case "meeting": "meeting transcript accuracy, words and speaker labels together"
+        default: "summary quality, action items, meeting name and speaker naming"
+        }
+        let measured = ModelScorecard.measuredOn.map { " Measured on \($0)." } ?? ""
+        return String(format: "%.2f of 1 for %@.%@", entry.accuracy, task, measured)
     }
 
     /// A radio for anything selectable; otherwise the download state, since

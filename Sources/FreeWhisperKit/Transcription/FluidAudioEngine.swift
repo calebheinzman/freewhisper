@@ -96,7 +96,18 @@ public actor FluidAudioEngine: TranscriptionEngine {
 
         progress?(.transcribing(fraction: nil))
         do {
-            var decoderState = try TdtDecoderState()
+            // The layer count has to come from the loaded model. `TdtDecoderState()`
+            // defaults to 2, which is right for Parakeet v2 and v3 and wrong for
+            // TDT-CTC 110M, which has 1 — and the decoder's CoreML input shape is
+            // fixed, so the mismatch throws rather than degrading:
+            //
+            //   MultiArray shape (2 x 1 x 640) does not match the shape (1 x 1 x 640)
+            //
+            // Only clips at or under 15s were affected, because longer audio goes
+            // through FluidAudio's chunker, which builds its own correctly-sized
+            // state. That is the whole of dictation, which is why 110M looked
+            // completely broken there while meetings mostly worked.
+            var decoderState = TdtDecoderState.make(decoderLayers: await manager.decoderLayerCount)
             let result = try await manager.transcribe(url, decoderState: &decoderState)
             return Self.segments(from: result)
         } catch {

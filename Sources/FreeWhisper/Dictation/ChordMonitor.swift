@@ -15,10 +15,23 @@ final class ChordMonitor {
     private var tap: CFMachPort?
     private var source: CFRunLoopSource?
     private var recognizer = ChordRecognizer()
+    /// Read synchronously inside the tap callback, which has to decide whether
+    /// to withhold a key before it can possibly reach the main actor to ask.
+    private let activity: DictationActivity
 
     /// Callbacks are delivered on the main actor.
     var onStart: (() -> Void)?
     var onStop: (() -> Void)?
+    var onCancel: (() -> Void)?
+
+    /// False leaves ⌘⎋ entirely alone — the tap is up only so Escape can cancel.
+    var armingEnabled = true {
+        didSet { recognizer.armingEnabled = armingEnabled }
+    }
+
+    init(activity: DictationActivity) {
+        self.activity = activity
+    }
 
     /// False when the tap could not be created, which in practice means
     /// Accessibility has not been granted. The UI reads this so a dead chord is
@@ -90,6 +103,12 @@ final class ChordMonitor {
             return Unmanaged.passUnretained(event)
         }
 
+        // Refreshed per event rather than pushed from the controller: this
+        // callback runs on the main run loop, the same thread the controller
+        // lives on, so nothing can transition while we are executing and the
+        // read is exact rather than merely recent.
+        recognizer.dictationIsActive = activity.isRunning
+
         let decision = recognizer.handle(chordEvent)
 
         switch decision.action {
@@ -99,6 +118,14 @@ final class ChordMonitor {
         case .stop:
             Log.dictation.notice("chord released")
             Task { @MainActor in self.onStop?() }
+        case .cancel:
+            // Claimed here, inside the tap, rather than on the far side of the
+            // hop below. Otherwise a transcription finishing in this same
+            // instant — also on the main actor — could win the race and paste
+            // text the user has already cancelled.
+            guard activity.claimCancel() != nil else { break }
+            Log.dictation.notice("escape pressed; cancelling")
+            Task { @MainActor in self.onCancel?() }
         case .none:
             break
         }

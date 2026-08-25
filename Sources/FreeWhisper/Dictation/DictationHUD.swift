@@ -9,9 +9,18 @@ import SwiftUI
 final class DictationHUD {
     private var panel: NSPanel?
 
+    /// One source of truth for the size: it has to agree with the SwiftUI frame
+    /// below or the material background and the panel edge stop lining up.
+    static let size = NSSize(width: 200, height: 48)
+
     func show(controller: DictationController) {
         if panel == nil { panel = makePanel(controller: controller) }
         guard let panel else { return }
+        // Only on the way in. The controller polls this at 10 Hz, and re-ordering
+        // the window to the front ten times a second was harmless while the panel
+        // ignored the mouse — now that there is a button in it, doing so in the
+        // middle of a click is a good way to lose the click.
+        guard !panel.isVisible else { return }
         position(panel)
         panel.orderFrontRegardless()
     }
@@ -22,7 +31,7 @@ final class DictationHUD {
 
     private func makePanel(controller: DictationController) -> NSPanel {
         let panel = NSPanel(
-            contentRect: NSRect(x: 0, y: 0, width: 180, height: 48),
+            contentRect: NSRect(origin: .zero, size: Self.size),
             // .nonactivatingPanel is the critical bit — without it, showing the
             // HUD moves focus and the paste lands in the wrong app.
             styleMask: [.borderless, .nonactivatingPanel],
@@ -35,7 +44,15 @@ final class DictationHUD {
         panel.isOpaque = false
         panel.hasShadow = true
         panel.hidesOnDeactivate = false
-        panel.ignoresMouseEvents = true
+        // The cancel button needs clicks, so the panel can no longer wave them
+        // through. The cost is that its 200×48 rect is dead to the app
+        // underneath for the length of a dictation: AppKit gives no way to
+        // deliver a click to a window and also pass it on. Small, brief, and
+        // deliberately parked below where text fields live.
+        panel.ignoresMouseEvents = false
+        // Belt and braces alongside .nonactivatingPanel: whatever the user is
+        // typing into keeps key status, so the paste still lands there.
+        panel.becomesKeyOnlyIfNeeded = true
         // Visible over full-screen apps, and not captured in screen recordings
         // of other apps.
         panel.collectionBehavior = [.canJoinAllSpaces, .fullScreenAuxiliary, .stationary]
@@ -43,7 +60,9 @@ final class DictationHUD {
         // screenshot hotkey fires doesn't end up in the meeting notes.
         panel.sharingType = .none
 
-        panel.contentView = NSHostingView(rootView: DictationHUDView(controller: controller))
+        panel.contentView = FirstMouseHostingView(
+            rootView: DictationHUDView(controller: controller)
+        )
         return panel
     }
 
@@ -57,6 +76,27 @@ final class DictationHUD {
             x: frame.midX - size.width / 2,
             y: frame.minY + 90
         ))
+    }
+}
+
+/// Accepts the very first click.
+///
+/// `NSHostingView` declines first mouse, and this app is never the active one
+/// while dictating — that is the whole point of the non-activating panel. So the
+/// opening click on the cancel button would be consumed as the click that
+/// *would* have activated us, and the user would have to click twice. On a
+/// button that exists to be hit once, in a hurry, while looking at another app,
+/// that is the difference between an affordance and a decoration.
+private final class FirstMouseHostingView<Content: View>: NSHostingView<Content> {
+    override func acceptsFirstMouse(for event: NSEvent?) -> Bool { true }
+
+    @MainActor required init(rootView: Content) {
+        super.init(rootView: rootView)
+    }
+
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+        fatalError("not used from a nib")
     }
 }
 
@@ -74,10 +114,13 @@ private struct DictationHUDView: View {
                 }
             }
             Spacer(minLength: 0)
+            if controller.state.isBusy {
+                CancelButton { controller.cancel() }
+            }
         }
         .padding(.horizontal, 14)
         .padding(.vertical, 10)
-        .frame(width: 180, height: 48, alignment: .leading)
+        .frame(width: DictationHUD.size.width, height: DictationHUD.size.height, alignment: .leading)
         .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 12))
         .overlay(
             RoundedRectangle(cornerRadius: 12)
@@ -90,8 +133,10 @@ private struct DictationHUDView: View {
         switch controller.state {
         case .listening:
             Image(systemName: "mic.fill").foregroundStyle(.red)
-        case .transcribing:
+        case .preparing, .transcribing:
             ProgressView().controlSize(.small)
+        case .cancelled:
+            Image(systemName: "xmark.circle.fill").foregroundStyle(.secondary)
         case .failed:
             Image(systemName: "exclamationmark.triangle.fill").foregroundStyle(.orange)
         case .idle:
@@ -102,10 +147,43 @@ private struct DictationHUDView: View {
     private var title: String {
         switch controller.state {
         case .listening: "Listening…"
+        // Names the model, because the wait is proportional to which one was
+        // picked and a silent two-minute "Transcribing…" is what made a working
+        // model look broken.
+        case .preparing(let what): "\(what)…"
         case .transcribing: "Transcribing…"
+        // Said out loud rather than just vanishing. Finishing normally also
+        // makes this HUD disappear, so a silent dismissal would leave "I stopped
+        // it" and "it finished and typed somewhere I wasn't looking" looking
+        // exactly alike — and it is also the only confirmation that the Escape
+        // reached us rather than the app underneath.
+        case .cancelled: "Cancelled"
         case .failed: "Dictation failed"
         case .idle: "Ready"
         }
+    }
+}
+
+/// The visible half of the cancel affordance; Escape is the other.
+///
+/// Always shown rather than revealed on hover: a fallback nobody can find is not
+/// a fallback, and the tooltip is where the keyboard gesture gets discovered.
+private struct CancelButton: View {
+    let action: () -> Void
+
+    @State private var isHovering = false
+
+    var body: some View {
+        Button(action: action) {
+            Image(systemName: "xmark.circle.fill")
+                .font(.system(size: 13))
+                .foregroundStyle(isHovering ? Color.primary : Color.secondary)
+                .contentShape(Circle())
+        }
+        .buttonStyle(.plain)
+        .onHover { isHovering = $0 }
+        .help("Cancel dictation (Esc)")
+        .accessibilityLabel("Cancel dictation")
     }
 }
 

@@ -148,4 +148,127 @@ struct ChordRecognizerTests {
         var recognizer = ChordRecognizer(triggerKey: keyA)
         #expect(actions([.commandDown, .keyDown(keyA)], into: &recognizer) == [.start])
     }
+
+    // MARK: Cancelling
+
+    /// The most important test here. The chord's trigger key *is* Escape, so
+    /// during a hold the physical key is down and auto-repeating — and every
+    /// repeat arrives as another key-down indistinguishable from a deliberate
+    /// press. Cancel on one of those and the default trigger aborts the
+    /// dictation it just started, about half a second in.
+    @Test("auto-repeat during a hold never cancels the dictation it started")
+    func autoRepeatDoesNotCancelItsOwnChord() {
+        var recognizer = ChordRecognizer()
+        _ = recognizer.handle(.commandDown)
+        #expect(recognizer.handle(.keyDown(esc)).action == .start)
+
+        // The controller is now listening, so the monitor starts reporting it.
+        recognizer.dictationIsActive = true
+
+        #expect(recognizer.handle(.keyDown(esc)).action == .none)
+        #expect(recognizer.handle(.keyDown(esc)).action == .none)
+        #expect(recognizer.isArmed)
+    }
+
+    @Test("a bare escape cancels a running dictation, and is swallowed")
+    func bareEscapeCancels() {
+        var recognizer = ChordRecognizer()
+        recognizer.dictationIsActive = true
+
+        #expect(recognizer.handle(.keyDown(esc)) == ChordRecognizer.Decision(action: .cancel, swallow: true))
+    }
+
+    /// Half a keystroke is not a thing to hand an app.
+    @Test("the release after a cancel is swallowed too")
+    func cancelReleaseIsSwallowed() {
+        var recognizer = ChordRecognizer()
+        recognizer.dictationIsActive = true
+
+        _ = recognizer.handle(.keyDown(esc))
+        #expect(recognizer.handle(.keyUp(esc)).swallow)
+        // And the next one, with nothing running, is untouched again.
+        recognizer.dictationIsActive = false
+        #expect(!recognizer.handle(.keyDown(esc)).swallow)
+        #expect(!recognizer.handle(.keyUp(esc)).swallow)
+    }
+
+    /// Holding Escape down to cancel repeats it. The app underneath must not
+    /// receive a run of repeats for a key-down it never saw.
+    @Test("auto-repeats of a cancel press are swallowed too")
+    func cancelAutoRepeatIsSwallowed() {
+        var recognizer = ChordRecognizer()
+        recognizer.dictationIsActive = true
+
+        #expect(recognizer.handle(.keyDown(esc)).action == .cancel)
+        // The dictation is over now, so the monitor stops reporting one — but
+        // these repeats still belong to the press we withheld.
+        recognizer.dictationIsActive = false
+        #expect(recognizer.handle(.keyDown(esc)).swallow)
+        #expect(recognizer.handle(.keyDown(esc)).swallow)
+        #expect(recognizer.handle(.keyUp(esc)).swallow)
+
+        // And the next press, well after the fact, is untouched.
+        #expect(!recognizer.handle(.keyDown(esc)).swallow)
+    }
+
+    /// Property #1 of the whole feature: Escape is only ever withheld when it
+    /// actually cancels something. `bareEscapeIsUntouched` covers the default
+    /// case; this covers it stated explicitly.
+    @Test("escape is never swallowed when no dictation is running")
+    func escapeUntouchedWithNothingRunning() {
+        var recognizer = ChordRecognizer()
+        recognizer.dictationIsActive = false
+
+        #expect(recognizer.handle(.keyDown(esc)) == ChordRecognizer.Decision(action: .none, swallow: false))
+        #expect(recognizer.handle(.keyUp(esc)) == ChordRecognizer.Decision(action: .none, swallow: false))
+    }
+
+    /// ⌘⎋ keeps meaning "dictate" even while one is already running. The
+    /// controller's own busy guard is what makes it a no-op.
+    @Test("command-escape while a dictation runs still means dictate")
+    func chordIsNotACancel() {
+        var recognizer = ChordRecognizer()
+        recognizer.dictationIsActive = true
+
+        #expect(actions([.commandDown, .keyDown(esc)], into: &recognizer) == [.start])
+    }
+
+    @Test("with arming off the chord neither starts nor is swallowed")
+    func armingOffLeavesTheChordAlone() {
+        var recognizer = ChordRecognizer()
+        recognizer.armingEnabled = false
+
+        #expect(recognizer.handle(.commandDown).action == .none)
+        #expect(recognizer.handle(.keyDown(esc)) == ChordRecognizer.Decision(action: .none, swallow: false))
+        #expect(!recognizer.isArmed)
+        #expect(!recognizer.handle(.keyUp(esc)).swallow)
+    }
+
+    /// The cancel-only tap: the user turned the chord off, so ⌘⎋ is theirs
+    /// again, but Escape must still stop a dictation started some other way.
+    @Test("escape still cancels with arming off")
+    func cancelWorksWithArmingOff() {
+        var recognizer = ChordRecognizer()
+        recognizer.armingEnabled = false
+        recognizer.dictationIsActive = true
+
+        #expect(recognizer.handle(.keyDown(esc)) == ChordRecognizer.Decision(action: .cancel, swallow: true))
+    }
+
+    /// A dictation does not stop running because the tap hiccupped, so the
+    /// liveness input survives — but the key state does not, which is what makes
+    /// the next Escape read as bare and therefore cancel.
+    @Test("reset clears key state but not the liveness input")
+    func resetLeavesTheInputAlone() {
+        var recognizer = ChordRecognizer()
+        recognizer.dictationIsActive = true
+        _ = recognizer.handle(.commandDown)
+        _ = recognizer.handle(.keyDown(esc))
+        #expect(recognizer.isArmed)
+
+        recognizer.reset()
+
+        #expect(recognizer.dictationIsActive)
+        #expect(recognizer.handle(.keyDown(esc)).action == .cancel)
+    }
 }

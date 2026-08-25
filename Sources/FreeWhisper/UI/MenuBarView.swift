@@ -165,7 +165,7 @@ struct MenuBarView: View {
                 .buttonStyle(.borderless)
                 .font(.system(size: 12))
             Spacer()
-            Button("Settings…") { openSettings() }
+            Button("Settings…") { openSettingsWindow() }
                 .buttonStyle(.borderless)
                 .font(.system(size: 12))
             Spacer()
@@ -226,6 +226,47 @@ struct MenuBarView: View {
         // A menu bar app is an accessory by default, so an opened window would
         // otherwise appear behind whatever the user was in.
         NSApplication.shared.activate(ignoringOtherApps: true)
+    }
+
+    /// Opens Settings, and brings it forward if it is already open.
+    ///
+    /// `openSettings()` alone orders the window front within our own window
+    /// list, but an accessory app never becomes active on its own, so a window
+    /// that already existed stayed behind whatever the user was looking at. The
+    /// first click worked — creating the window happens to bring the app
+    /// forward — and every click after it did nothing visible. Since the panel
+    /// dismisses on any click regardless, that was indistinguishable from the
+    /// button being dead.
+    private func openSettingsWindow() {
+        let wasOpen = Self.settingsWindow()?.isVisible ?? false
+        openSettings()
+        NSApplication.shared.activate(ignoringOtherApps: true)
+
+        // Activation alone does not pull a window across Spaces, and does not
+        // make it key. Both need the window itself, which SwiftUI does not hand
+        // out — hence the lookup below. Deferred a turn so the window exists on
+        // the first open, when `openSettings()` has only just created it.
+        DispatchQueue.main.async {
+            guard let window = Self.settingsWindow() else { return }
+            window.collectionBehavior.insert(.moveToActiveSpace)
+            // Only centre when it wasn't already on screen. Re-centring a window
+            // the user has deliberately placed is its own small annoyance, and
+            // "bring it forward" should not move it.
+            if !wasOpen { window.center() }
+            window.makeKeyAndOrderFront(nil)
+        }
+    }
+
+    /// SwiftUI gives the Settings scene no identifier we can ask for, so this
+    /// matches on the internal one it assigns. That is not API and may change,
+    /// which is why every caller treats a miss as fine: the `activate` call above
+    /// is what does the load-bearing work, and this only adds Space-switching and
+    /// key focus on top.
+    private static func settingsWindow() -> NSWindow? {
+        NSApp.windows.first { window in
+            guard let id = window.identifier?.rawValue else { return false }
+            return id.contains("Settings") || id.contains("settings")
+        }
     }
 
     private static func durationText(_ interval: TimeInterval) -> String {

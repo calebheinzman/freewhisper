@@ -132,14 +132,8 @@ final class AppCoordinator {
 
             // Only after the weights exist, and only for dictation, whose whole
             // value is that text appears the instant you stop talking.
-            // A cloud engine has nothing to preload — no weights, no warm-up —
-            // and preparing it would only log a config error at every launch.
             guard models.defaultsAreReady else { return }
-            let model = self.dictation.model
-            guard model.engine?.isOnDevice == true else { return }
-            Task.detached(priority: .utility) {
-                await EngineRegistry.shared.preload(model)
-            }
+            self.warmDictationModel()
         }
 
         // The detection notification is how the user consents to a recording,
@@ -153,6 +147,10 @@ final class AppCoordinator {
         }
 
         observeActivation()
+    }
+
+    func warmDictationModel() {
+        DictationWarmup.warm(dictation.model)
     }
 
     /// Granting a permission happens in System Settings, in another process, and
