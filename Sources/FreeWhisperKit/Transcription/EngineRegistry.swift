@@ -59,4 +59,18 @@ public actor EngineRegistry {
         transcribers.removeAll()
         diarizers.removeAll()
     }
+
+    /// Frees every transcriber except the ones still selected.
+    ///
+    /// Nothing was ever evicted before, which was survivable while engines were
+    /// only created on demand. Warming on selection changed that: browsing the
+    /// model list in Settings would load one set of weights per row visited and
+    /// keep them all, and several CoreML models resident at once contend badly
+    /// enough to make an unrelated transcription an order of magnitude slower.
+    public func keepOnly(_ modelIDs: Set<String>) {
+        let dropped = transcribers.keys.filter { !modelIDs.contains($0) }
+        guard !dropped.isEmpty else { return }
+        transcribers = transcribers.filter { modelIDs.contains($0.key) }
+        Log.transcription.info("unloaded \(dropped.joined(separator: ", "), privacy: .public)")
+    }
 }
