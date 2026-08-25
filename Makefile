@@ -178,11 +178,39 @@ app: build
 	@$(MAKE) --no-print-directory sign
 	@echo "built $(APP) — $(VERSION) ($(BUILD_NUMBER))"
 
+IDENTITY_STAMP := $(BUILD_DIR)/.last-codesign-identity
+
 sign:
 	@test -n "$(CODESIGN_ID)" || { \
 		echo "no signing identity for SIGN_MODE=$(SIGN_MODE)."; \
 		echo "release builds need a 'Developer ID Application' certificate."; \
 		security find-identity -v -p codesigning; exit 1; }
+	@# macOS binds every TCC grant to the app's designated requirement, which is
+	@# derived from the signing certificate. Re-sign the same bundle with a
+	@# different identity — say, `make run` (Apple Development) after `make dist`
+	@# (Developer ID) — and every permission silently stops applying, while
+	@# System Settings happily goes on showing the app toggled on. That failure
+	@# looks exactly like a bug in the app and is miserable to diagnose, so say
+	@# so at the moment it happens.
+	@if [ -f "$(IDENTITY_STAMP)" ] && [ "$$(cat $(IDENTITY_STAMP))" != "$(CODESIGN_ID)" ]; then \
+		echo ""; \
+		echo "  ⚠  signing identity changed for $(APP)"; \
+		echo "     was: $$(cat $(IDENTITY_STAMP))"; \
+		echo "     now: $(CODESIGN_ID)"; \
+		echo ""; \
+		echo "     macOS ties privacy permissions to the signing identity, so the"; \
+		echo "     grants you already gave this app no longer apply and it will"; \
+		echo "     report them as denied — even though System Settings still shows"; \
+		echo "     it switched on. To recover:"; \
+		echo ""; \
+		echo "         tccutil reset ScreenCapture dev.freewhisper.FreeWhisper"; \
+		echo "         tccutil reset Accessibility dev.freewhisper.FreeWhisper"; \
+		echo ""; \
+		echo "     then grant them again. Sticking to one of SIGN_MODE=dev or"; \
+		echo "     SIGN_MODE=release avoids this."; \
+		echo ""; \
+	fi
+	@mkdir -p "$(BUILD_DIR)" && printf '%s' "$(CODESIGN_ID)" > "$(IDENTITY_STAMP)"
 	@# Inside out. Most of the SwiftPM resource bundles are flat directories of
 	@# data and seal correctly as ordinary resources, but mlx-swift's carries a
 	@# Contents/Info.plist and a compiled default.metallib, which makes it a real

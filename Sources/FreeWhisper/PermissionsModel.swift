@@ -30,6 +30,19 @@ final class PermissionsModel {
         if states[.systemAudio] == nil {
             states[.systemAudio] = Permissions.cachedSystemAudioState()
         }
+        // "I granted it and the app still says no" is the single most common
+        // support report for an app with five TCC prompts, and it is impossible
+        // to diagnose from a screenshot. Log what the app actually sees, and
+        // from which bundle, so the answer is one `log show` away.
+        Log.app.notice("""
+            permissions: \
+            mic=\(String(describing: self.states[.microphone]), privacy: .public) \
+            systemAudio=\(String(describing: self.states[.systemAudio]), privacy: .public) \
+            accessibility=\(String(describing: self.states[.accessibility]), privacy: .public) \
+            screenRecording=\(String(describing: self.states[.screenRecording]), privacy: .public) \
+            notifications=\(String(describing: self.states[.notifications]), privacy: .public) \
+            bundle=\(Bundle.main.bundlePath, privacy: .public)
+            """)
     }
 
     func request(_ permission: Permission) async {
