@@ -26,3 +26,7 @@ id_rsa*
 id_ed25519*
 *.keychain
 *.keychain-db
+
+# Coverage counters, dropped in the working directory by an instrumented run.
+*.profraw
+*.profdata
