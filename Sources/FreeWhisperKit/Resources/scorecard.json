@@ -1,36 +1,76 @@
 {
-  "generatedAt": "2026-08-25",
+  "generatedAt": "2026-08-26",
   "measuredOn": "Apple M1 Max, 32 GB, macOS 26.5.1",
   "models": {
     "distil-whisper-large-v3": {
-      "accuracy": 0.969,
-      "speed": 9.28,
-      "speedUnit": "realtimeFactor",
-      "track": "asr"
+      "asr": {
+        "accuracy": 0.818,
+        "speed": 7.59,
+        "speedUnit": "realtimeFactor",
+        "track": "asr"
+      },
+      "meeting": {
+        "accuracy": 0.496,
+        "speed": 17.01,
+        "speedUnit": "realtimeFactor",
+        "track": "meeting"
+      }
     },
     "parakeet-110m": {
-      "accuracy": 0.252,
-      "speed": 74.62,
-      "speedUnit": "realtimeFactor",
-      "track": "asr"
+      "asr": {
+        "accuracy": 0.084,
+        "speed": 74.62,
+        "speedUnit": "realtimeFactor",
+        "track": "asr"
+      },
+      "meeting": {
+        "accuracy": 0.338,
+        "speed": 58.93,
+        "speedUnit": "realtimeFactor",
+        "track": "meeting"
+      }
     },
     "parakeet-v3": {
-      "accuracy": 0.933,
-      "speed": 49.45,
-      "speedUnit": "realtimeFactor",
-      "track": "asr"
+      "asr": {
+        "accuracy": 0.875,
+        "speed": 44.47,
+        "speedUnit": "realtimeFactor",
+        "track": "asr"
+      },
+      "meeting": {
+        "accuracy": 0.354,
+        "speed": 53.46,
+        "speedUnit": "realtimeFactor",
+        "track": "meeting"
+      }
     },
     "whisper-large-v3": {
-      "accuracy": 0.942,
-      "speed": 1.92,
-      "speedUnit": "realtimeFactor",
-      "track": "asr"
+      "asr": {
+        "accuracy": 0.814,
+        "speed": 1.64,
+        "speedUnit": "realtimeFactor",
+        "track": "asr"
+      },
+      "meeting": {
+        "accuracy": 0.391,
+        "speed": 2.16,
+        "speedUnit": "realtimeFactor",
+        "track": "meeting"
+      }
     },
     "whisper-large-v3-turbo": {
-      "accuracy": 0.943,
-      "speed": 5.17,
-      "speedUnit": "realtimeFactor",
-      "track": "asr"
+      "asr": {
+        "accuracy": 0.828,
+        "speed": 4.43,
+        "speedUnit": "realtimeFactor",
+        "track": "asr"
+      },
+      "meeting": {
+        "accuracy": 0.481,
+        "speed": 9.16,
+        "speedUnit": "realtimeFactor",
+        "track": "meeting"
+      }
     }
   },
   "profile": "fast"

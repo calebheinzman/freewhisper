@@ -31,12 +31,67 @@ struct ModelScorecardTests {
         #expect(ModelScorecard.speedLabel(speed: 12, unit: "furlongsPerFortnight") == nil)
     }
 
+    @Test("a score reads as one of three words")
+    func qualityBuckets() {
+        func quality(_ value: Double) -> ModelScorecard.Quality {
+            ModelScorecard.quality(for: value, role: .dictation)
+        }
+        #expect(quality(1.0) == .good)
+        #expect(quality(0.85) == .good)
+        // The boundary cases are the whole point of bucketing: 0.94 and 0.93
+        // are one corpus apart and must not read as different.
+        #expect(quality(0.943) == quality(0.933))
+        #expect(quality(0.849) == .medium)
+        #expect(quality(0.70) == .medium)
+        #expect(quality(0.699) == .poor)
+        // Parakeet 110M, which crashed on 176 of 200 clips. Nothing about that
+        // is a tradeoff worth offering.
+        #expect(quality(0.252) == .poor)
+        #expect(quality(0) == .poor)
+    }
+
+    @Test("the word comes from the bundled score for that job")
+    func qualityLabels() {
+        #expect(ModelScorecard.qualityLabel(for: "parakeet-v3", role: .dictation) == "Good")
+        #expect(ModelScorecard.qualityLabel(for: "parakeet-110m", role: .dictation) == "Poor")
+        #expect(ModelScorecard.qualityLabel(for: "a-model-that-does-not-exist", role: .dictation) == nil)
+    }
+
+    /// The same model, two jobs, two scales. Whisper turbo transcribes
+    /// dictation at 0.83 and meetings at 0.48, and the second is not a worse
+    /// model — it is a harder measurement, one that also counts who said what.
+    /// Judging meetings on the dictation boundaries labelled every model "Poor".
+    @Test("a score is graded against the job it was measured on")
+    func roleSpecificGrading() {
+        let dictation = try? #require(ModelScorecard.entry(for: "whisper-large-v3-turbo", role: .dictation))
+        let meeting = try? #require(ModelScorecard.entry(for: "whisper-large-v3-turbo", role: .meeting))
+        #expect(dictation!.accuracy > meeting!.accuracy)
+
+        // Both read as usable, because both are, for what they are.
+        #expect(ModelScorecard.qualityLabel(for: "whisper-large-v3-turbo", role: .dictation) != "Poor")
+        #expect(ModelScorecard.qualityLabel(for: "whisper-large-v3-turbo", role: .meeting) != "Poor")
+
+        // A meeting score that would be excellent dictation is still only a
+        // meeting score, and vice versa.
+        #expect(ModelScorecard.quality(for: 0.62, role: .meeting) == .good)
+        #expect(ModelScorecard.quality(for: 0.62, role: .dictation) == .poor)
+    }
+
+    /// Parakeet 110M crashes on short clips and runs on long ones, so it is
+    /// genuinely broken for one job and merely poor at the other. One badge per
+    /// model could not say that.
+    @Test("a model broken at one job is not condemned at the other")
+    func brokenAtOneJob() {
+        #expect(ModelScorecard.qualityLabel(for: "parakeet-110m", role: .dictation) == "Poor")
+        #expect(ModelScorecard.entry(for: "parakeet-110m", role: .meeting)?.accuracy ?? 0 > 0.25)
+    }
+
     /// The picker must survive a model nobody has measured — which is every
     /// model until the harness has been run, and any model added after.
     @Test("an unmeasured model has no entry and no badge")
     func unknownModel() {
-        #expect(ModelScorecard.entry(for: "a-model-that-does-not-exist") == nil)
-        #expect(ModelScorecard.speedLabel(for: "a-model-that-does-not-exist") == nil)
+        #expect(ModelScorecard.entry(for: "a-model-that-does-not-exist", role: .dictation) == nil)
+        #expect(ModelScorecard.speedLabel(for: "a-model-that-does-not-exist", role: .dictation) == nil)
     }
 
     @Test("the bundled scorecard is present and parses")
@@ -59,8 +114,11 @@ struct ModelScorecardTests {
         for id in file.models.keys {
             #expect(ModelCatalog.model(id: id) != nil, "scorecard names unknown model \(id)")
         }
-        for (id, entry) in file.models {
-            #expect((0...1).contains(entry.accuracy), "\(id) accuracy out of range")
+        for (id, roles) in file.models {
+            for (role, entry) in roles {
+                #expect((0...1).contains(entry.accuracy), "\(id)/\(role) accuracy out of range")
+                #expect(ModelScorecard.Role(rawValue: role) != nil, "\(id) has unknown role \(role)")
+            }
         }
     }
 }

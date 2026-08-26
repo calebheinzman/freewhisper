@@ -25,10 +25,76 @@ public enum ModelScorecard {
         public let track: String?
     }
 
+    /// The three buckets the picker shows instead of the raw score.
+    ///
+    /// A number invites comparisons the measurement cannot carry: 0.94 against
+    /// 0.93 is one corpus and a rounding away from reversing, and nobody
+    /// choosing a dictation model needs to know which side of that they are on.
+    /// Three buckets say the thing that survives a re-run — this one is fine,
+    /// this one is a compromise, this one is broken.
+    public enum Quality: String, Sendable, CaseIterable {
+        case good = "Good"
+        case medium = "Medium"
+        case poor = "Poor"
+    }
+
+    /// Which job a score is about.
+    ///
+    /// The same model is offered for two different jobs and is not equally good
+    /// at both, so a single badge per model would be wrong in one of the two
+    /// places it appears.
+    public enum Role: String, Sendable {
+        case dictation = "asr"
+        case meeting
+        case summary = "summarize"
+    }
+
+    /// Boundaries, per job, because the scores are not on the same scale.
+    ///
+    /// Dictation is `1 − WER`: one word in ten wrong is a good transcript, one
+    /// in four is not usable, and a normalized word error rate genuinely can
+    /// approach zero.
+    ///
+    /// Meetings are `1 − tcpWER`, which scores words *and* who said them, and
+    /// which nothing reaches 0.9 on — the published state of the art on this
+    /// kind of audio is around 0.69, and the best model here manages 0.50.
+    /// Judging that against the dictation boundaries would label every option
+    /// "Poor", which tells the user nothing except that the scale is wrong.
+    ///
+    /// Summaries are a judged rubric and sit between the two.
+    public static func quality(for accuracy: Double, role: Role) -> Quality {
+        // Set where the measurements actually land, not at round numbers.
+        //
+        // Dictation averages clean, accented and spontaneous speech, and the
+        // last of those is short disfluent non-native turns that nothing
+        // transcribes cleanly — every working model here scores 0.57 to 0.76 on
+        // it. A 0.90 bar is unreachable on that mix and grades the whole list
+        // "Medium", which is not a grade, it is a broken scale. 0.85 is where
+        // the one model that is meaningfully better at spontaneous speech
+        // separates from the three that cluster behind it.
+        let (good, medium): (Double, Double) = switch role {
+        case .dictation: (0.85, 0.70)
+        case .meeting: (0.60, 0.42)
+        case .summary: (0.70, 0.50)
+        }
+        switch accuracy {
+        case good...: return .good
+        case medium..<good: return .medium
+        default: return .poor
+        }
+    }
+
+    /// The word to show for a model in a given role, or nil when unmeasured.
+    public static func qualityLabel(for modelID: String, role: Role) -> String? {
+        entry(for: modelID, role: role).map { quality(for: $0.accuracy, role: role).rawValue }
+    }
+
+    /// Model id -> role -> what was measured. Nested because a speech model is
+    /// scored twice, once for each job it is offered for.
     struct File: Codable {
         let measuredOn: String
         let generatedAt: String
-        let models: [String: Entry]
+        let models: [String: [String: Entry]]
     }
 
     /// The machine the timings came from. Shown beside them, because a realtime
@@ -37,13 +103,13 @@ public enum ModelScorecard {
     public static var generatedAt: String? { loaded?.generatedAt }
     public static var isAvailable: Bool { loaded != nil }
 
-    public static func entry(for modelID: String) -> Entry? {
-        loaded?.models[modelID]
+    public static func entry(for modelID: String, role: Role) -> Entry? {
+        loaded?.models[modelID]?[role.rawValue]
     }
 
     /// Speed as something to read, or nil when there is nothing to say.
-    public static func speedLabel(for modelID: String) -> String? {
-        guard let entry = entry(for: modelID) else { return nil }
+    public static func speedLabel(for modelID: String, role: Role) -> String? {
+        guard let entry = entry(for: modelID, role: role) else { return nil }
         return speedLabel(speed: entry.speed, unit: entry.speedUnit)
     }
 

@@ -48,14 +48,18 @@ struct IntelligenceSettingsView: View {
     @ViewBuilder
     private var transcriptionSection: some View {
         Section {
-            speechModels(selection: $transcriptionModelID, showsCloudSettings: true)
+            speechModels(selection: $transcriptionModelID, role: .meeting, showsCloudSettings: true)
 
             // Only meetings are diarized, so the diarizer belongs here and
             // nowhere else. Labelled rather than merely separated: an unlabelled
             // divider leaves it looking like a seventh thing you could pick.
             caption("SPEAKER LABELS")
                 .padding(.top, 4)
-            modelRow(ModelCatalog.diarizer(for: transcriptionModel.engine ?? .whisperKit), onSelect: nil)
+            modelRow(
+                ModelCatalog.diarizer(for: transcriptionModel.engine ?? .whisperKit),
+                role: .meeting,
+                onSelect: nil
+            )
 
             Toggle("Transcribe automatically when a recording ends", isOn: $autoTranscribe)
         } header: {
@@ -79,6 +83,7 @@ struct IntelligenceSettingsView: View {
             // think they were independent.
             speechModels(
                 selection: $dictationModelID,
+                role: .dictation,
                 showsCloudSettings: !transcriptionModel.isWeightless
             )
             // Start loading the new choice now, in the background, rather than
@@ -104,10 +109,15 @@ struct IntelligenceSettingsView: View {
     /// same file dictation would use — `ModelSetupModel` is keyed on model id,
     /// so a download started in one section shows as ready in the other.
     @ViewBuilder
-    private func speechModels(selection: Binding<String>, showsCloudSettings: Bool) -> some View {
+    private func speechModels(
+        selection: Binding<String>,
+        role: ModelScorecard.Role,
+        showsCloudSettings: Bool
+    ) -> some View {
         ForEach(ModelCatalog.transcribers) { model in
             modelRow(
                 model,
+                role: role,
                 isSelected: selection.wrappedValue == model.id,
                 onSelect: { select(model, into: selection) }
             )
@@ -343,11 +353,13 @@ struct IntelligenceSettingsView: View {
 
     private func modelRow(
         _ model: ModelCatalog.Model,
+        role: ModelScorecard.Role,
         isSelected: Bool = false,
         onSelect: (() -> Void)?
     ) -> some View {
         ModelRow(
             model: model,
+            role: role,
             state: models.state(model),
             isSelected: isSelected,
             onSelect: onSelect,
@@ -544,6 +556,10 @@ private struct TestButton: View {
 /// `onSelect` is nil for models the user doesn't choose, like the diarizer.
 private struct ModelRow: View {
     let model: ModelCatalog.Model
+    /// Which job this row is offering the model for. The same model is listed
+    /// under both speech sections and is not equally good at both, so the grade
+    /// has to follow the section rather than the model.
+    let role: ModelScorecard.Role
     let state: ModelSetupModel.State
     let isSelected: Bool
     let onSelect: (() -> Void)?
@@ -611,24 +627,28 @@ private struct ModelRow: View {
         .contentShape(Rectangle())
     }
 
-    /// Measured accuracy and speed, when there is a measurement.
+    /// Measured quality and speed, when there is a measurement.
     ///
     /// The row already carried a hand-written sentence about each model —
     /// "strongest on accents", "roughly twice the speed" — inherited from
     /// upstream and never verified. This is the same claim made checkable: the
-    /// numbers come from `eval/`, run against public corpora with published
+    /// grade comes from `eval/`, run against public corpora with published
     /// ground truth. Absent for a model nobody has measured, which is the honest
     /// rendering of not knowing.
+    ///
+    /// A word rather than the score behind it. Two models a point apart are not
+    /// distinguishable by anyone picking between them, and printing 94 next to
+    /// 93 says they are.
     @ViewBuilder
     private var scorecard: some View {
-        if let entry = ModelScorecard.entry(for: model.id) {
+        if let entry = ModelScorecard.entry(for: model.id, role: role) {
+            let quality = ModelScorecard.quality(for: entry.accuracy, role: role)
             HStack(spacing: 6) {
-                accuracyBar(entry.accuracy)
-                Text(String(format: "%.0f", entry.accuracy * 100))
-                    .font(.system(size: 10, weight: .medium).monospacedDigit())
-                    .foregroundStyle(.secondary)
+                Text(quality.rawValue)
+                    .font(.system(size: 10, weight: .medium))
+                    .foregroundStyle(color(for: quality))
 
-                if let speed = ModelScorecard.speedLabel(for: model.id) {
+                if let speed = ModelScorecard.speedLabel(for: model.id, role: role) {
                     Text("·").font(.system(size: 10)).foregroundStyle(.tertiary)
                     Text(speed)
                         .font(.system(size: 10))
@@ -636,30 +656,30 @@ private struct ModelRow: View {
                 }
             }
             .padding(.top, 1)
-            .help(accuracyHelp(entry))
+            .help(accuracyHelp(entry, quality))
         }
     }
 
-    /// Forty points of bar. Enough to rank four models at a glance, too little
-    /// to invite reading a third decimal place off it.
-    private func accuracyBar(_ accuracy: Double) -> some View {
-        let fraction = max(0, min(1, accuracy))
-        return ZStack(alignment: .leading) {
-            Capsule().fill(.quaternary).frame(width: 40, height: 4)
-            Capsule()
-                .fill(fraction >= 0.75 ? Color.green : fraction >= 0.5 ? .yellow : .orange)
-                .frame(width: 40 * fraction, height: 4)
+    private func color(for quality: ModelScorecard.Quality) -> Color {
+        switch quality {
+        case .good: .green
+        case .medium: .yellow
+        case .poor: .orange
         }
     }
 
-    private func accuracyHelp(_ entry: ModelScorecard.Entry) -> String {
+    /// The number is still true, so hovering still gets it — it just no longer
+    /// has to be read to make the choice.
+    private func accuracyHelp(_ entry: ModelScorecard.Entry, _ quality: ModelScorecard.Quality) -> String {
         let task = switch entry.track {
         case "asr": "dictation accuracy"
         case "meeting": "meeting transcript accuracy, words and speaker labels together"
         default: "summary quality, action items, meeting name and speaker naming"
         }
         let measured = ModelScorecard.measuredOn.map { " Measured on \($0)." } ?? ""
-        return String(format: "%.2f of 1 for %@.%@", entry.accuracy, task, measured)
+        return String(
+            format: "%@ for %@ — scored %.2f of 1.%@", quality.rawValue, task, entry.accuracy, measured
+        )
     }
 
     /// A radio for anything selectable; otherwise the download state, since
