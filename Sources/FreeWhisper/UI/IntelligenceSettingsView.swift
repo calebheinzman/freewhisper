@@ -194,9 +194,14 @@ struct IntelligenceSettingsView: View {
             ForEach(builtInSummarizers) { model in
                 modelRow(
                     model,
+                    role: .summary,
                     isSelected: isSelectedSummarizer(model),
                     onSelect: { selectSummarizer(model) }
                 )
+            }
+
+            ForEach(LLMProvider.cliAgentPresets, id: \.name) { preset in
+                providerRow(preset)
             }
 
             ForEach(endpointSummaryPresets, id: \.name) { preset in
@@ -205,8 +210,18 @@ struct IntelligenceSettingsView: View {
 
             // See the note in `speechModels`: this has to sit outside the
             // ForEach that produced the row it belongs to.
-            if summaryProvider.resolvedBackend != .onDevice {
+            switch summaryProvider.resolvedBackend {
+            case .onDevice:
+                EmptyView()
+            case .openAICompatible:
                 EndpointFields(
+                    provider: $summaryProvider,
+                    persist: { LLMSettings.current = summaryProvider },
+                    test: { _ = try await ChatClient.make(for: $0).testConnection() }
+                )
+                .id(summaryProvider.name)
+            case .cliAgent:
+                CLIFields(
                     provider: $summaryProvider,
                     persist: { LLMSettings.current = summaryProvider },
                     test: { _ = try await ChatClient.make(for: $0).testConnection() }
@@ -230,7 +245,7 @@ struct IntelligenceSettingsView: View {
     }
 
     private var endpointSummaryPresets: [LLMProvider] {
-        LLMProvider.presets.filter { $0.resolvedBackend != .onDevice }
+        LLMProvider.presets.filter { $0.resolvedBackend == .openAICompatible }
     }
 
     private func isSelectedSummarizer(_ model: ModelCatalog.Model) -> Bool {
@@ -248,7 +263,7 @@ struct IntelligenceSettingsView: View {
     }
 
     private func providerRow(_ preset: LLMProvider) -> some View {
-        let isSelected = summaryProvider.resolvedBackend != .onDevice
+        let isSelected = summaryProvider.resolvedBackend == preset.resolvedBackend
             && summaryProvider.name == preset.name
 
         return SelectableRow(
@@ -265,6 +280,12 @@ struct IntelligenceSettingsView: View {
     /// "Transcripts are sent to Custom" is not a sentence about anything, so
     /// the catch-all preset describes what it is instead of naming itself.
     private static func describe(_ preset: LLMProvider) -> String {
+        if preset.resolvedBackend == .cliAgent {
+            // Leads with the sign-in because that is the reason to pick this
+            // over the rows below it — same class of model, no second bill.
+            return "Uses your \(preset.name) sign-in, no API key. "
+                + "Transcripts are sent to \(preset.destinationName)."
+        }
         if preset.isLocal { return "A server you run yourself. Nothing leaves this Mac." }
         if preset.name == "Custom" { return "Any other endpoint speaking the OpenAI API shape." }
         return "Your own key. Transcripts are sent to \(preset.name)."
@@ -278,8 +299,13 @@ struct IntelligenceSettingsView: View {
                     .font(.system(size: 10))
                     .foregroundStyle(.green)
             } else {
+                // `destinationName`, not `name`: for a CLI agent those differ,
+                // and "sent to Claude Code" would name a program on this Mac
+                // when the thing the user needs to know is that the transcript
+                // leaves it.
                 Label(
-                    "Meeting transcripts are sent to \(summaryProvider.name) to be summarized. Audio never is.",
+                    "Meeting transcripts are sent to \(summaryProvider.destinationName) "
+                        + "to be summarized. Audio never is.",
                     systemImage: "exclamationmark.triangle.fill"
                 )
                 .font(.system(size: 10))
@@ -371,16 +397,9 @@ struct IntelligenceSettingsView: View {
 private struct EndpointFields: View {
     @Binding var provider: LLMProvider
     let persist: () -> Void
-    let test: @Sendable (LLMProvider) async throws -> Void
+    let test: (LLMProvider) async throws -> Void
 
     @State private var apiKey = ""
-    @State private var isTesting = false
-    @State private var result: TestResult?
-
-    private enum TestResult {
-        case success
-        case failure(String)
-    }
 
     var body: some View {
         Group {
@@ -399,28 +418,102 @@ private struct EndpointFields: View {
                     .onChange(of: apiKey) { _, _ in provider.setAPIKey(apiKey) }
             }
 
-            HStack {
-                Button("Test connection") { runTest() }
-                    .disabled(isTesting)
-                if isTesting {
-                    ProgressView().controlSize(.small)
-                }
-                switch result {
-                case .success:
-                    Label("Connected", systemImage: "checkmark.circle.fill")
-                        .foregroundStyle(.green)
-                        .font(.system(size: 11))
-                case .failure(let message):
-                    Label(message, systemImage: "xmark.circle.fill")
-                        .foregroundStyle(.red)
-                        .font(.system(size: 11))
-                        .lineLimit(2)
-                case nil:
-                    EmptyView()
-                }
-            }
+            TestButton(provider: provider, test: test)
         }
         .onAppear { apiKey = provider.apiKey ?? "" }
+    }
+}
+
+/// The two fields a CLI agent has: which program, and which model.
+///
+/// No endpoint and no API key — that absence is the feature, so the pane should
+/// look like it. The command is usually discovered rather than typed; the field
+/// exists for the installs that live somewhere unusual.
+private struct CLIFields: View {
+    @Binding var provider: LLMProvider
+    let persist: () -> Void
+    let test: (LLMProvider) async throws -> Void
+
+    @State private var command = ""
+
+    /// Resolved on appear rather than on every keystroke: it touches the file
+    /// system, and it is only ever a placeholder.
+    @State private var detected: String?
+
+    var body: some View {
+        Group {
+            TextField(detected ?? "Path to the command", text: $command)
+                .textFieldStyle(.roundedBorder)
+                .onChange(of: command) { _, value in
+                    // Empty means "find it for me", which is the default and has
+                    // to stay reachable after the user clears the field.
+                    let trimmed = value.trimmingCharacters(in: .whitespacesAndNewlines)
+                    provider.command = trimmed.isEmpty ? defaultCommand : trimmed
+                    persist()
+                }
+
+            TextField(modelPlaceholder, text: $provider.model)
+                .textFieldStyle(.roundedBorder)
+                .onChange(of: provider.model) { _, _ in persist() }
+
+            TestButton(provider: provider, test: test)
+        }
+        .onAppear {
+            // Only show a typed-in path back to the user. Echoing the
+            // auto-discovered one into the field would turn a default into a
+            // pinned path they never chose.
+            command = provider.command == defaultCommand ? "" : (provider.command ?? "")
+            detected = CLIAgentClient.detect(provider.command ?? defaultCommand)?.path
+                ?? "Not found — enter the path to \(defaultCommand)"
+        }
+    }
+
+    private var defaultCommand: String {
+        LLMProvider.cliAgentPresets.first { $0.name == provider.name }?.command ?? ""
+    }
+
+    private var modelPlaceholder: String {
+        provider.resolvedBackend == .cliAgent && defaultCommand == "codex"
+            ? "Model (leave blank for the CLI's default)"
+            : "Model"
+    }
+}
+
+/// "Does this work?" — the one question every provider pane has to answer,
+/// asked the same way for endpoints and CLIs alike.
+private struct TestButton: View {
+    let provider: LLMProvider
+    let test: (LLMProvider) async throws -> Void
+
+    @State private var isTesting = false
+    @State private var result: TestResult?
+
+    private enum TestResult {
+        case success
+        case failure(String)
+    }
+
+    var body: some View {
+        HStack {
+            Button("Test connection") { runTest() }
+                .disabled(isTesting)
+            if isTesting {
+                ProgressView().controlSize(.small)
+            }
+            switch result {
+            case .success:
+                Label("Connected", systemImage: "checkmark.circle.fill")
+                    .foregroundStyle(.green)
+                    .font(.system(size: 11))
+            case .failure(let message):
+                Label(message, systemImage: "xmark.circle.fill")
+                    .foregroundStyle(.red)
+                    .font(.system(size: 11))
+                    .lineLimit(2)
+            case nil:
+                EmptyView()
+            }
+        }
     }
 
     private func runTest() {
@@ -429,7 +522,10 @@ private struct EndpointFields: View {
         let provider = self.provider
         let test = self.test
 
-        Task {
+        // Explicitly on the main actor: the closure and the `@State` it writes
+        // back both belong here, and saying so keeps the whole chain off
+        // `@Sendable`, which type inference drops on a property read anyway.
+        Task { @MainActor in
             do {
                 try await test(provider)
                 result = .success

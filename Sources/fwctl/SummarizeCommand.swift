@@ -13,28 +13,35 @@ struct Summarize: AsyncParsableCommand {
     @Flag(help: "Use the built-in on-device model instead of an HTTP endpoint.")
     var onDevice = false
 
+    @Option(help: "Summarize with a signed-in CLI agent: claude or codex.")
+    var cli: String?
+
     @Option(help: "Base URL, e.g. http://localhost:11434/v1")
     var baseURL: String = LLMProvider.ollama.baseURL
 
-    @Option(help: "Model name, or a built-in model id with --on-device.")
+    @Option(help: "Model name, a built-in model id with --on-device, or a CLI model alias with --cli.")
     var model: String?
 
     @Option(help: "API key. Omit for local endpoints.")
     var apiKey: String?
+
+    /// Only the HTTP path has a key to stash, so both the write and the cleanup
+    /// have to agree on which paths are "HTTP".
+    private var usesEndpoint: Bool { !onDevice && cli == nil }
 
     func run() async throws {
         let store = MeetingStore.shared
         let id = try resolveMeetingID(store: store)
 
         let provider = try makeProvider()
-        if let apiKey, !onDevice {
+        if let apiKey, usesEndpoint {
             provider.setAPIKey(apiKey)
         }
-        defer { if apiKey != nil, !onDevice { Keychain.remove("fwctl-temp") } }
+        defer { if apiKey != nil, usesEndpoint { Keychain.remove("fwctl-temp") } }
 
         print("meeting:  \(id)")
-        print("endpoint: \(onDevice ? "on-device (MLX)" : baseURL)")
-        print("model:    \(provider.model)")
+        print("endpoint: \(describeTarget(provider))")
+        print("model:    \(provider.model.isEmpty ? "(CLI default)" : provider.model)")
         print("")
 
         let started = Date()
@@ -48,7 +55,18 @@ struct Summarize: AsyncParsableCommand {
         print("written: \(store.paths(for: id).summary.path)")
     }
 
+    private func describeTarget(_ provider: LLMProvider) -> String {
+        switch provider.resolvedBackend {
+        case .onDevice: "on-device (MLX)"
+        case .cliAgent: (CLIAgentClient.detect(provider.command ?? "")?.path ?? provider.command ?? "?")
+        case .openAICompatible: baseURL
+        }
+    }
+
     private func makeProvider() throws -> LLMProvider {
+        if let cli {
+            return try Self.cliProvider(named: cli, model: model)
+        }
         guard onDevice else {
             return LLMProvider(
                 name: "fwctl",
@@ -76,6 +94,23 @@ struct Summarize: AsyncParsableCommand {
             model: built.id,
             backend: .onDevice
         )
+    }
+
+    /// Shared with `fweval`'s identical flag by shape, not by code — the two
+    /// tools don't link each other, and a four-line lookup is not worth a
+    /// module to hold it.
+    static func cliProvider(named name: String, model: String?) throws -> LLMProvider {
+        guard var provider = LLMProvider.cliAgent(named: name) else {
+            throw ValidationError(
+                "Unknown CLI '\(name)'. Options: "
+                    + LLMProvider.cliAgentPresets.compactMap(\.command).joined(separator: ", ")
+            )
+        }
+        if let model { provider.model = model }
+        // Fail here rather than inside the pipeline, so the message names the
+        // missing program instead of arriving as a failed summary.
+        _ = try CLIAgentClient.locate(provider.command ?? name)
+        return provider
     }
 
     private func resolveMeetingID(store: MeetingStore) throws -> String {
@@ -108,7 +143,14 @@ struct Providers: ParsableCommand {
     private func row(_ provider: LLMProvider) -> String {
         let key = provider.keychainAccount == nil ? "no key needed" : "needs key"
         let locality = provider.isLocal ? "local" : "cloud"
-        let target = provider.resolvedBackend == .onDevice ? provider.model : provider.baseURL
+        let target = switch provider.resolvedBackend {
+        case .onDevice: provider.model
+        // The resolved path, not the bare name: whether it was found at all is
+        // the useful thing to print here.
+        case .cliAgent: CLIAgentClient.detect(provider.command ?? "")?.path
+            ?? "\(provider.command ?? "?") (not installed)"
+        case .openAICompatible: provider.baseURL
+        }
         return "\(provider.name.pad(22)) \(locality.pad(7)) \(key.pad(15)) \(target)"
     }
 }

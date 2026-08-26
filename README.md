@@ -17,7 +17,8 @@ configure a cloud model yourself.
   own, from Parakeet 110M for instant dictation up to Whisper large-v3.
 - **Bring your own model, if you want one.** For summaries *or* transcription:
   anything speaking the OpenAI API shape — Ollama, LM Studio, OpenAI, Groq,
-  OpenRouter.
+  OpenRouter. Or, if you already pay for Claude or ChatGPT, summarize through
+  the `claude` or `codex` CLI you're already signed in to — no API key.
 
 Requires macOS 14.4 or later on Apple Silicon.
 
@@ -190,6 +191,44 @@ text with no idea who said it. Recordings larger than the provider's upload
 limit are split on a pause in the audio and stitched back together with their
 timings intact.
 
+### Summarizing with Claude Code or Codex
+
+If you already pay for Claude or ChatGPT, the summary list has two rows that use
+that subscription instead of an API key: **Claude Code** and **Codex**. They run
+the `claude` or `codex` command already installed on your Mac, so there is
+nothing to configure beyond which model — no endpoint, no key, no second bill for
+a model you are already paying for.
+
+They need the CLI installed and signed in:
+
+```sh
+brew install --cask claude-code   # then run `claude` once and log in
+brew install --cask codex         # then run `codex` once and log in
+```
+
+FreeWhisper finds the command in the usual install locations; if yours lives
+somewhere else, put the path from `which claude` in the Command field. Each
+summary is one throwaway call with tools, skills, MCP servers and your personal
+settings all switched off — it cannot read your files, and nothing it does
+depends on how you have the CLI configured elsewhere. The transcript goes in on
+stdin, never as a command-line argument, because arguments are visible to every
+process on the machine.
+
+Two things worth knowing. **Your transcripts go to Anthropic or OpenAI** under
+your own account, and count against that subscription's usage limits like any
+other request — the settings pane says so on the row. And these subscriptions
+are sold for use through their own apps; driving one from a third-party tool is
+outside that, and either company could change or block it. It works well today
+and it is your login to spend, but it is not a supported integration and this
+project can't promise it keeps working.
+
+Try it without opening the app:
+
+```sh
+./fw summarize latest --cli claude
+./fw summarize latest --cli codex --model gpt-5.6
+```
+
 ## How dictation works
 
 Hold **⌘⎋** anywhere, speak, then let go. Releasing *either* key keeps it
@@ -276,6 +315,8 @@ make fwctl        # builds ./fw
 ./fw dictate --seconds 5             # record, transcribe, print
 ./fw summarize latest --on-device    # the built-in model, nothing installed
 ./fw summarize latest --model llama3.2
+./fw summarize latest --cli claude   # your Claude Code sign-in, no API key
+./fw summarize latest --cli codex
 ./fw providers                       # built-in presets, both kinds
 ./fw models                          # what's downloaded, what isn't
 ./fw models --download               # fetch missing defaults

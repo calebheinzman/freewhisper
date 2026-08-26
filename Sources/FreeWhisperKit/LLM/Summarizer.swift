@@ -102,11 +102,19 @@ public struct Summarizer: Sendable {
             onProgress?("Summarizing section \(index + 1) of \(chunks.count)…")
             let partial = try await client.complete(
                 messages: [
-                    .system("You condense meeting transcripts. Keep names, decisions, numbers and commitments. Drop small talk."),
+                    // The speaker labels have to survive condensing. Without
+                    // this, a long meeting reduces to prose with the "Speaker N"
+                    // keys stripped out, and the naming step downstream has
+                    // nothing left to match a name against.
+                    .system(
+                        "You condense meeting transcripts. Keep names, decisions, numbers and commitments. "
+                            + "Drop small talk. Keep attributing each note to the speaker label it came from, "
+                            + "and keep any moment where someone is addressed or introduces themselves by name."
+                    ),
                     .user("Condense this section of a meeting transcript into dense notes.\n\n\(chunk)"),
                 ],
                 temperature: 0.1,
-                maxTokens: nil
+                maxTokens: Self.condenseTokenLimit
             )
             partials.append(partial)
         }
@@ -146,7 +154,8 @@ public struct Summarizer: Sendable {
       "summary": "one paragraph, 2-4 sentences",
       "keyPoints": ["..."],
       "actionItems": ["one plain sentence naming who will do what, and by when if stated"],
-      "tags": ["lowercase-topic"]
+      "tags": ["lowercase-topic"],
+      "speakerNames": {"Speaker 1": "the real name of that person"}
     }
 
     Every array element is a plain string, never a nested object.
@@ -156,6 +165,17 @@ public struct Summarizer: Sendable {
     and target dates the group settled on count too. Take them only from the \
     transcript: do not invent commitments nobody made, and never copy the \
     wording of these instructions into your answer.
+
+    "speakerNames" identifies the numbered speakers. Work out who each one is \
+    from how the others address them — someone greeted with "morning, Sarah" or \
+    asked "Sarah, can you take that?" is Sarah, and someone who introduces \
+    themselves is too. Use the exact label from the transcript as the key.
+
+    Leave a speaker out entirely when their name is never actually said. A \
+    missing entry is correct and useful; a guessed one is worse than none, \
+    because it puts a stranger's name on someone's words. Never rename \
+    "You" — that label is the person reading this summary. Return {} if nobody \
+    was named.
     """
 
     static func finalPrompt(transcript: String) -> String {
@@ -184,8 +204,37 @@ public struct Summarizer: Sendable {
             summary: (object["summary"] as? String) ?? "",
             keyPoints: stringArray(object["keyPoints"]),
             actionItems: stringArray(object["actionItems"]),
-            tags: stringArray(object["tags"])
+            tags: stringArray(object["tags"]),
+            speakerNames: stringMap(object["speakerNames"])
         )
+    }
+
+    /// Coerce a JSON object into a `label -> name` map.
+    ///
+    /// Drops anything that isn't a pair of non-empty strings, and drops the
+    /// identity mappings models like to pad the object with — asked to name
+    /// speakers it could not identify, a model will happily answer
+    /// `{"Speaker 2": "Speaker 2"}` or `{"Speaker 3": "Unknown"}` rather than
+    /// omit the key. Those are the "I don't know" it was told to express by
+    /// staying silent, so treat them as such: a rename to the label that is
+    /// already showing is not a rename.
+    static func stringMap(_ value: Any?) -> [String: String] {
+        guard let object = value as? [String: Any] else { return [:] }
+
+        let placeholders: Set<String> = ["unknown", "unnamed", "n/a", "na", "none", "null", "?"]
+        var result: [String: String] = [:]
+
+        for (key, raw) in object {
+            guard let name = (raw as? String)?.trimmingCharacters(in: .whitespacesAndNewlines),
+                  !name.isEmpty,
+                  !placeholders.contains(name.lowercased()),
+                  name.caseInsensitiveCompare(key) != .orderedSame
+            else { continue }
+            let label = key.trimmingCharacters(in: .whitespacesAndNewlines)
+            guard !label.isEmpty else { continue }
+            result[label] = name
+        }
+        return result
     }
 
     static func extractJSONObject(from text: String) -> String? {

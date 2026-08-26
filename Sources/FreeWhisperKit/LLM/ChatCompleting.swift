@@ -3,8 +3,9 @@ import Foundation
 /// One prompt in, one completion out.
 ///
 /// The summarizer does not care whether the model is a few hundred milliseconds
-/// away over HTTP or running in this process on the GPU, so this is the seam:
-/// ``OpenAICompatibleClient`` and ``LocalLLMEngine`` both fit through it.
+/// away over HTTP, running in this process on the GPU, or behind a CLI we spawn,
+/// so this is the seam: ``OpenAICompatibleClient``, ``LocalLLMEngine`` and
+/// ``CLIAgentClient`` all fit through it.
 public protocol ChatCompleting: Sendable {
     func complete(
         messages: [OpenAICompatibleClient.Message],
@@ -32,6 +33,8 @@ public enum ChatClient {
             OpenAICompatibleClient(provider: provider)
         case .onDevice:
             LocalLLMEngine.shared.client(repoID: provider.model)
+        case .cliAgent:
+            CLIAgentClient(provider: provider)
         }
     }
 }
