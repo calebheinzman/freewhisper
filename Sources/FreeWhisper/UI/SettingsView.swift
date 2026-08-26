@@ -127,7 +127,7 @@ private struct DictationSettings: View {
             } header: {
                 Text("Voice to text")
             } footer: {
-                Text("Hold Command and Escape, speak, then let go — the text is typed into whatever app you're in. Keeping either key down keeps it recording, so you don't have to hold the pair perfectly still. The model it uses is set in Settings → Intelligence, and the recording is deleted straight after.")
+                Text("Hold Command and Escape, speak, then let go — the text is typed into whatever app you're in. Keeping either key down keeps it recording, so you don't have to hold the pair perfectly still. The model it uses is set in Settings → Intelligence, and the recording is deleted straight after.\n\nTo throw one away, press Escape or click the ✕ on the indicator: nothing is typed and the recording is deleted. Escape is the chord's own key, so during a ⌘⎋ hold let go first — or just use the ✕.")
                     .font(.system(size: 10))
                     .foregroundStyle(.secondary)
             }
@@ -184,10 +184,14 @@ private struct DictationSettings: View {
 
             Section {
                 LabeledContent("Check it works") {
-                    Button(controller.state == .idle ? "Test dictation" : "Listening…") {
+                    // Keyed off `isBusy` rather than `.idle`: a `.cancelled` or
+                    // `.failed` label lingers for a second or two after the run
+                    // is over, and disabling the button through that — while
+                    // labelling it "Listening…" — would be a lie in both halves.
+                    Button(controller.state.isBusy ? "Listening…" : "Test dictation") {
                         controller.runSelfTest()
                     }
-                    .disabled(controller.state != .idle)
+                    .disabled(controller.state.isBusy)
                 }
             } footer: {
                 Text("Records for four seconds and types the result, skipping the hotkey entirely. If this works but ⌘⎋ doesn't, the problem is the trigger and not the microphone or the model.")
