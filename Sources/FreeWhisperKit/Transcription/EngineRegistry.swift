@@ -48,7 +48,10 @@ public actor EngineRegistry {
     public func preload(_ model: ModelCatalog.Model) async {
         do {
             try await transcriber(for: model).prepare(progress: nil)
-            Log.transcription.info("preloaded \(model.id, privacy: .public)")
+            // notice, not info: `log show` hides info by default, and "did the
+            // model warm up" is the first question asked when dictation feels
+            // slow. Once per model per launch, so it costs nothing.
+            Log.transcription.notice("preloaded \(model.id, privacy: .public)")
         } catch {
             Log.transcription.error("preload failed: \(error.localizedDescription, privacy: .public)")
         }

@@ -44,11 +44,16 @@ enum DictationWarmup {
         )
         let keep = Set([model.id, meetingModel.id])
 
+        Log.transcription.notice("warm requested for \(model.id, privacy: .public)")
         pending = Task { [keep] in
             try? await Task.sleep(for: settleDelay)
-            guard !Task.isCancelled else { return }
+            guard !Task.isCancelled else {
+                Log.transcription.notice("warm superseded before it started")
+                return
+            }
             await EngineRegistry.shared.keepOnly(keep)
             guard model.engine?.isOnDevice == true else { return }
+            Log.transcription.notice("warming \(model.id, privacy: .public)…")
             await EngineRegistry.shared.preload(model)
         }
     }

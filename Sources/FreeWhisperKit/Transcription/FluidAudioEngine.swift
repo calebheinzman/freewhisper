@@ -64,8 +64,13 @@ public actor FluidAudioEngine: TranscriptionEngine {
         // `AsrModels` carries its own version, and `AsrManager` reads the
         // vocabulary size and decoder shape from it, so the manager needs no
         // separate configuration per version.
+        // `Task` rather than `Task.detached` so the load inherits this actor's
+        // executor and priority instead of running at an unrelated one. Actor
+        // reentrancy is what lets us await it from inside the actor without
+        // deadlocking, and is the same property that makes the guard above
+        // insufficient on its own.
         let asrVersion = version.asrVersion
-        let task = Task.detached {
+        let task = Task {
             let models = try await AsrModels.downloadAndLoad(version: asrVersion)
             let manager = AsrManager(config: .default)
             try await manager.loadModels(models)

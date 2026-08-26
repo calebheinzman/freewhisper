@@ -40,9 +40,10 @@ public actor WhisperKitEngine: TranscriptionEngine {
 
         progress?(.downloadingModel(name: modelName, fraction: nil))
 
+        // `Task` rather than `Task.detached`, matching FluidAudioEngine.prepare.
         let model = modelName
         let base = ModelStorage.downloadBase()
-        let task = Task.detached {
+        let task = Task {
             try await WhisperKit(WhisperKitConfig(model: model, downloadBase: base, download: true))
         }
         loading = task
