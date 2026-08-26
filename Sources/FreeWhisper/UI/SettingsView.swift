@@ -66,21 +66,21 @@ private struct GeneralSettings: View {
 }
 
 private struct DetectionSettingsView: View {
-    @AppStorage(SettingsKeys.autoStartCountdown) private var countdown = 10
+    @AppStorage(SettingsKeys.autoStartCountdown) private var countdown = 5
 
     var body: some View {
         Form {
             Section {
                 Picker("When a meeting is detected", selection: $countdown) {
-                    Text("Just notify me").tag(0)
-                    Text("Start recording after 5s").tag(5)
-                    Text("Start recording after 10s").tag(10)
-                    Text("Start recording after 30s").tag(30)
+                    Text("Ask, and wait for an answer").tag(0)
+                    Text("Ask for 5 seconds").tag(5)
+                    Text("Ask for 10 seconds").tag(10)
+                    Text("Ask for 30 seconds").tag(30)
                 }
             } footer: {
                 Text(countdown == 0
-                    ? "You'll get a notification with a Record button. Nothing is recorded until you click it."
-                    : "You'll get a notification with a countdown. Click \"Not now\" to cancel, and this call won't be asked about again.")
+                    ? "A panel appears near the menu bar with a Record button, and stays there until you answer it. Nothing is recorded until you click Record."
+                    : "A panel appears near the menu bar with a Record button. Ignore it for \(countdown) seconds and it goes away on its own, having recorded nothing. Click \"Not now\" instead and this call won't be asked about again.")
                     .font(.system(size: 10))
                     .foregroundStyle(.secondary)
             }

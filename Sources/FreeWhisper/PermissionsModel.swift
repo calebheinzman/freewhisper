@@ -26,7 +26,6 @@ final class PermissionsModel {
         states[.microphone] = Permissions.microphoneState()
         states[.accessibility] = Permissions.accessibilityState()
         states[.screenRecording] = Permissions.screenRecordingState()
-        states[.notifications] = await Permissions.notificationState()
         if states[.systemAudio] == nil {
             states[.systemAudio] = Permissions.cachedSystemAudioState()
         }
@@ -40,7 +39,6 @@ final class PermissionsModel {
             systemAudio=\(String(describing: self.states[.systemAudio]), privacy: .public) \
             accessibility=\(String(describing: self.states[.accessibility]), privacy: .public) \
             screenRecording=\(String(describing: self.states[.screenRecording]), privacy: .public) \
-            notifications=\(String(describing: self.states[.notifications]), privacy: .public) \
             bundle=\(Bundle.main.bundlePath, privacy: .public)
             """)
     }
@@ -77,8 +75,6 @@ final class PermissionsModel {
             states[.accessibility] = Permissions.accessibilityState()
         case .screenRecording:
             break // handled above
-        case .notifications:
-            states[.notifications] = await Permissions.requestNotifications()
         }
 
         // A denied permission can't be re-prompted, so send them to the pane.

@@ -3,7 +3,6 @@ import AppKit
 import ApplicationServices
 import CoreAudio
 import Foundation
-import UserNotifications
 
 public enum PermissionState: String, Sendable {
     case authorized
@@ -19,7 +18,6 @@ public enum Permission: String, CaseIterable, Sendable, Identifiable {
     case systemAudio
     case accessibility
     case screenRecording
-    case notifications
 
     public var id: String { rawValue }
 
@@ -29,7 +27,6 @@ public enum Permission: String, CaseIterable, Sendable, Identifiable {
         case .systemAudio: "System Audio Recording"
         case .accessibility: "Accessibility"
         case .screenRecording: "Screen Recording"
-        case .notifications: "Notifications"
         }
     }
 
@@ -43,8 +40,6 @@ public enum Permission: String, CaseIterable, Sendable, Identifiable {
             "Lets dictation type into whatever app you're in."
         case .screenRecording:
             "Lets the screenshot hotkey capture what's on screen into your notes."
-        case .notifications:
-            "Tells you when a meeting is detected, so recording is never a surprise."
         }
     }
 
@@ -52,7 +47,7 @@ public enum Permission: String, CaseIterable, Sendable, Identifiable {
     public var isRequired: Bool {
         switch self {
         case .microphone, .systemAudio: true
-        case .accessibility, .screenRecording, .notifications: false
+        case .accessibility, .screenRecording: false
         }
     }
 
@@ -64,7 +59,6 @@ public enum Permission: String, CaseIterable, Sendable, Identifiable {
         case .systemAudio: "Privacy_AudioCapture"
         case .accessibility: "Privacy_Accessibility"
         case .screenRecording: "Privacy_ScreenCapture"
-        case .notifications: "Notifications"
         }
         return URL(string: "x-apple.systempreferences:com.apple.preference.security?\(pane)")
     }
@@ -172,23 +166,6 @@ public enum Permissions {
     public static func requestScreenRecording() -> Bool {
         UserDefaults.standard.set(true, forKey: screenRecordingAskedKey)
         return CGRequestScreenCaptureAccess()
-    }
-
-    // MARK: Notifications
-
-    public static func notificationState() async -> PermissionState {
-        let settings = await UNUserNotificationCenter.current().notificationSettings()
-        switch settings.authorizationStatus {
-        case .authorized, .provisional, .ephemeral: return .authorized
-        case .notDetermined: return .notDetermined
-        default: return .denied
-        }
-    }
-
-    public static func requestNotifications() async -> PermissionState {
-        let center = UNUserNotificationCenter.current()
-        let granted = (try? await center.requestAuthorization(options: [.alert, .sound])) ?? false
-        return granted ? .authorized : .denied
     }
 
     // MARK: Convenience

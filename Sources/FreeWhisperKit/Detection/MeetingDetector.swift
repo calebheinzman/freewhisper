@@ -6,6 +6,11 @@ public struct DetectedMeeting: Sendable, Equatable {
     public let startedAt: Date
 
     public var displayName: String { app.kind.displayName }
+
+    /// Identifies one call, so a "not now" can be remembered against it. The pid
+    /// is what separates two runs of the same app. The separator matters: bare
+    /// concatenation is ambiguous for any bundle ID prefix ending in a digit.
+    public var promptKey: String { "\(app.bundleIDPrefix)#\(pid)" }
 }
 
 public struct DetectionSettings: Sendable, Equatable {

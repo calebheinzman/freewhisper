@@ -44,7 +44,10 @@ struct FreeWhisperApp: App {
         switch coordinator.phase {
         case .recording: "record.circle.fill"
         case .starting: "waveform.badge.magnifyingglass"
-        case .meetingDetected: "waveform.badge.exclamationmark"
+        // A hollow record ring: distinct from `record.circle.fill` (recording)
+        // and, more importantly, from the exclamation badge that idle uses to
+        // mean "permissions are broken". A question is not a warning.
+        case .meetingDetected: "record.circle"
         case .processing: "waveform.badge.magnifyingglass"
         case .idle: coordinator.permissions.isReadyToRecord ? "waveform" : "waveform.badge.exclamationmark"
         }

@@ -31,9 +31,12 @@ party to consent. **Getting that consent is your responsibility, not the app's.*
 
 The app is built so recording is never a surprise:
 
-- Detection never starts a recording silently. You get a notification with a
-  visible countdown and a **Not now** button, and you can set the countdown to
-  "just notify me" so nothing records without an explicit click.
+- **Detection never starts a recording. Ever.** When a call is detected, a panel
+  appears near the menu bar asking whether to record it. Nothing is captured
+  until you click **Record**. Ignore the panel and it goes away on its own,
+  having recorded nothing.
+- That panel is drawn by the app, not delivered as a notification, so a Focus
+  mode or a denied permission cannot swallow the one prompt that matters.
 - The menu bar icon turns into a red record dot the entire time it's recording.
 - Both audio channels show live level meters, and a channel that captured
   nothing says so rather than failing quietly.
@@ -98,7 +101,6 @@ usable without the rest.
 | System Audio Recording | Records everyone else on the call | Yes |
 | Accessibility | Detects the ⌘⎋ chord, and types the result into other apps | For dictation |
 | Screen Recording | Captures screenshots during a meeting | For screenshots |
-| Notifications | Tells you a meeting was detected | Recommended |
 
 Screen Recording sounds worse than it is: it is only used while a meeting is
 actually recording, never in the background, and everything works without it.

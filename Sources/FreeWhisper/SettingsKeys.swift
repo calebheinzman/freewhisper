@@ -12,8 +12,9 @@ enum SettingsKeys {
     static let dictationModel = "dictationModel"
     static let autoDetect = "autoDetectEnabled"
     static let autoTranscribe = "autoTranscribe"
-    /// Seconds between detecting a meeting and starting to record. 0 means
-    /// never auto-start — notify only, and wait for an explicit click.
+    /// How long the "record this call?" panel stays on screen before giving up.
+    /// 0 means it waits until answered. It never starts a recording on its own —
+    /// the key keeps its old name only so existing preferences carry over.
     static let autoStartCountdown = "autoStartCountdown"
     static let watchedApps = "watchedApps"
     static let dictationMode = "dictationMode"
@@ -32,7 +33,7 @@ enum SettingsKeys {
             transcriptionModel: ModelCatalog.defaultTranscriber.id,
             autoDetect: true,
             autoTranscribe: true,
-            autoStartCountdown: 10,
+            autoStartCountdown: 5,
             dictationModel: ModelCatalog.defaultDictationTranscriber.id,
             chordEnabled: true,
             screenshotAllDisplays: true,

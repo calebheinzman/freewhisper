@@ -1,6 +1,6 @@
 import Foundation
 
-/// What kind of call an app represents, for labelling and for the notification.
+/// What kind of call an app represents, for labelling and for the prompt.
 public enum MeetingKind: String, Codable, Sendable, CaseIterable {
     case zoom
     case slackHuddle

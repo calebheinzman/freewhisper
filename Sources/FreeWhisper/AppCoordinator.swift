@@ -48,13 +48,17 @@ final class AppCoordinator {
     @ObservationIgnored private var statusTimer: Timer?
     @ObservationIgnored private var isStarting = false
     @ObservationIgnored private let watcher = MeetingWatcher()
+    @ObservationIgnored private let prompt = MeetingPrompt()
     @ObservationIgnored private var countdownTimer: Timer?
+    /// When the on-screen prompt gives up, or nil if it waits for an answer.
+    @ObservationIgnored private var promptDeadline: Date?
     @ObservationIgnored private var pendingMeeting: DetectedMeeting?
     /// Meetings the user declined, so we don't re-prompt for the same call.
     @ObservationIgnored private var declinedMeetingKey: String?
-    /// True when recording was started by detection, so we can stop it when the
-    /// call ends. A manually started recording is never stopped automatically.
-    @ObservationIgnored private var recordingWasAutoStarted = false
+    /// True when this recording is bound to a detected call — the user answered
+    /// the prompt about *that* call, so that call ending is where the recording
+    /// belongs. A manually started recording is never stopped automatically.
+    @ObservationIgnored private var recordingFollowsDetectedCall = false
 
     /// Master switch. Off means we never auto-start, never listen for meetings,
     /// and the menu bar says so plainly.
@@ -80,8 +84,9 @@ final class AppCoordinator {
         UserDefaults.standard.bool(forKey: SettingsKeys.autoTranscribe)
     }
 
-    /// Seconds before auto-recording a detected meeting. 0 means notify only.
-    var autoStartCountdown: Int {
+    /// How long the "record this call?" panel stays up before giving up. 0 means
+    /// it waits until answered. Nothing here ever starts a recording on its own.
+    var promptTimeout: Int {
         UserDefaults.standard.integer(forKey: SettingsKeys.autoStartCountdown)
     }
 
@@ -113,13 +118,6 @@ final class AppCoordinator {
         dictation.start()
         screenshots.start(coordinator: self)
         observeDictationState()
-        MeetingNotifier.shared.register()
-        MeetingNotifier.shared.onResponse = { [weak self] response in
-            switch response {
-            case .record: self?.acceptPendingMeeting()
-            case .dismiss: self?.declinePendingMeeting()
-            }
-        }
         syncWatcher()
 
         // Fetch whatever the shipped configuration needs, then warm the
@@ -134,16 +132,6 @@ final class AppCoordinator {
             // value is that text appears the instant you stop talking.
             guard models.defaultsAreReady else { return }
             self.warmDictationModel()
-        }
-
-        // The detection notification is how the user consents to a recording,
-        // so it is worth asking for up front rather than discovering at the
-        // start of a call that we have no way to ask.
-        Task {
-            if autoDetectEnabled, await Permissions.notificationState() == .notDetermined {
-                _ = await Permissions.requestNotifications()
-                await permissions.refresh()
-            }
         }
 
         observeActivation()
@@ -214,7 +202,7 @@ final class AppCoordinator {
     private func syncWatcher() {
         guard autoDetectEnabled else {
             watcher.stop()
-            cancelCountdown()
+            dismissPrompt()
             return
         }
         watcher.update(apps: watchedApps)
@@ -228,100 +216,129 @@ final class AppCoordinator {
     private func handle(_ event: MeetingDetector.Event) {
         switch event {
         case .meetingStarted(let meeting):
-            beginCountdown(for: meeting)
+            askAbout(meeting)
         case .meetingEnded(let meeting):
-            MeetingNotifier.shared.clear()
-            cancelCountdown()
-            declinedMeetingKey = nil
-            // Only stop what detection started. If the user hit Start
+            dismissPrompt()
+            // `declinedMeetingKey` is deliberately not cleared here. An app that
+            // releases the mic for longer than `stopDelay` and then reacquires it
+            // — which muting does on some clients — produces exactly this event
+            // pair, and clearing here meant "won't be asked about again" was
+            // never true in the one case it exists for. `present` clears it
+            // instead, when a genuinely different call turns up.
+            //
+            // Only stop what the prompt started. If the user hit Start
             // themselves, it is not ours to end.
-            if phase.isRecording, recordingWasAutoStarted {
+            if phase.isRecording, recordingFollowsDetectedCall {
                 Log.detection.notice("\(meeting.displayName, privacy: .public) ended; stopping recording")
                 stopRecording()
             }
         }
     }
 
-    private func beginCountdown(for meeting: DetectedMeeting) {
-        guard !phase.isActive else { return }
-
-        let key = meeting.app.bundleIDPrefix + String(meeting.pid)
-        guard declinedMeetingKey != key else { return }
-
-        pendingMeeting = meeting
-        let seconds = autoStartCountdown
-        MeetingNotifier.shared.notifyMeetingDetected(meeting, autoStartIn: seconds)
-
-        guard seconds > 0 else {
-            // Notify-only mode: show it in the menu bar but never auto-start.
-            phase = .meetingDetected(app: meeting.displayName, secondsRemaining: 0)
-            return
-        }
-
-        // Show the detected state right away; whether it counts down is decided
-        // below.
-        phase = .meetingDetected(app: meeting.displayName, secondsRemaining: seconds)
-
-        // The countdown notification *is* the consent step — it is what carries
-        // the "Not now" button. If it cannot be delivered, because notifications
-        // are denied or a Focus mode is swallowing them, auto-starting would
-        // begin recording a conversation that other people are in while giving
-        // the user no visible chance to stop it. So fall back to notify-only and
-        // let them start it from the menu bar instead.
-        Task { @MainActor in
-            guard await Permissions.notificationState() == .authorized else {
-                Log.detection.notice("notifications not authorized; not auto-starting")
-                self.phase = .meetingDetected(app: meeting.displayName, secondsRemaining: 0)
-                return
-            }
-            self.startCountdownTimer(for: meeting, seconds: seconds)
+    private func askAbout(_ meeting: DetectedMeeting) {
+        switch MeetingPromptPolicy.decide(
+            meetingKey: meeting.promptKey,
+            countdownSeconds: promptTimeout,
+            isRecordingOrStarting: phase.isActive,
+            declinedKey: declinedMeetingKey,
+            askingAboutKey: pendingMeeting?.promptKey
+        ) {
+        case .ignore(let reason):
+            Log.detection.info("""
+                not asking about \(meeting.displayName, privacy: .public): \
+                \(reason.rawValue, privacy: .public)
+                """)
+        case .askUntilAnswered:
+            present(meeting, deadline: nil)
+        case .ask(let seconds):
+            present(meeting, deadline: Date().addingTimeInterval(TimeInterval(seconds)))
         }
     }
 
-    private func startCountdownTimer(for meeting: DetectedMeeting, seconds: Int) {
-        // The permission check above is async, so the user may have dismissed the
-        // meeting in the meantime.
-        guard case .meetingDetected = phase, pendingMeeting?.pid == meeting.pid else { return }
+    private func present(_ meeting: DetectedMeeting, deadline: Date?) {
+        pendingMeeting = meeting
+        promptDeadline = deadline
+        // A different call than the one that was turned down: that "no" is spent.
+        if declinedMeetingKey != meeting.promptKey { declinedMeetingKey = nil }
 
-        var remaining = seconds
+        let seconds = deadline.map { MeetingPromptPolicy.remainingSeconds(until: $0) } ?? 0
+        phase = .meetingDetected(app: meeting.displayName, secondsRemaining: seconds)
+
+        prompt.show(
+            app: meeting.displayName,
+            deadline: deadline,
+            onRecord: { [weak self] in self?.acceptPendingMeeting() },
+            onDismiss: { [weak self] in self?.declinePendingMeeting() }
+        )
+
+        guard deadline != nil else { return }
+        startPromptTimer()
+    }
+
+    /// Ticks the label and enforces the deadline.
+    ///
+    /// The remaining time is derived from a `Date` rather than counted down in a
+    /// variable: a `Timer` does not fire while the Mac is asleep, so a lid closed
+    /// mid-prompt used to wake to a panel frozen at "3s" that never expired.
+    private func startPromptTimer() {
+        // Nothing should be able to leave two of these running, but an orphaned
+        // 1 Hz timer here answers a question the user never saw.
+        countdownTimer?.invalidate()
 
         let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
             Task { @MainActor [weak self] in
-                guard let self, case .meetingDetected = self.phase else { return }
-                remaining -= 1
-                if remaining <= 0 {
-                    self.acceptPendingMeeting()
-                } else {
-                    self.phase = .meetingDetected(app: meeting.displayName, secondsRemaining: remaining)
-                }
+                guard let self,
+                      case .meetingDetected(let app, _) = self.phase,
+                      let deadline = self.promptDeadline else { return }
+                let remaining = MeetingPromptPolicy.remainingSeconds(until: deadline)
+                guard remaining > 0 else { return self.expirePrompt() }
+                self.phase = .meetingDetected(app: app, secondsRemaining: remaining)
+                self.prompt.update(secondsRemaining: remaining)
             }
         }
         countdownTimer = timer
         RunLoop.main.add(timer, forMode: .common)
     }
 
+    /// Ran out with nobody there. Take the panel away and record nothing — a
+    /// question nobody answered is not a yes.
+    ///
+    /// Not remembered as a decline: "I wasn't at my desk" is not "no", so if the
+    /// call is somehow re-detected the user gets asked again.
+    private func expirePrompt() {
+        if let meeting = pendingMeeting {
+            Log.detection.notice("prompt for \(meeting.displayName, privacy: .public) expired unanswered")
+        }
+        dismissPrompt()
+    }
+
     func acceptPendingMeeting() {
         guard let meeting = pendingMeeting else { return }
-        cancelCountdown()
-        MeetingNotifier.shared.clear()
-        recordingWasAutoStarted = true
-        startRecording(detectedApp: meeting.app.displayName, meetingKind: meeting.app.kind.rawValue)
+        dismissPrompt()
+        startRecording(
+            detectedApp: meeting.app.displayName,
+            meetingKind: meeting.app.kind.rawValue,
+            stopWhenCallEnds: true
+        )
     }
 
     func declinePendingMeeting() {
         if let meeting = pendingMeeting {
-            declinedMeetingKey = meeting.app.bundleIDPrefix + String(meeting.pid)
+            declinedMeetingKey = meeting.promptKey
             Log.detection.notice("declined \(meeting.displayName, privacy: .public)")
         }
-        cancelCountdown()
-        MeetingNotifier.shared.clear()
-        phase = .idle
+        dismissPrompt()
     }
 
-    private func cancelCountdown() {
+    /// The one way the prompt comes down. Panel, timer, deadline and pending
+    /// meeting go together so they cannot drift apart — every bug this area has
+    /// had was one of the four outliving the others.
+    private func dismissPrompt() {
         countdownTimer?.invalidate()
         countdownTimer = nil
+        promptDeadline = nil
         pendingMeeting = nil
+        prompt.hide()
         if case .meetingDetected = phase { phase = .idle }
     }
 
@@ -353,9 +370,17 @@ final class AppCoordinator {
         }
     }
 
-    func startRecording(detectedApp: String? = nil, meetingKind: String? = nil) {
+    func startRecording(
+        detectedApp: String? = nil,
+        meetingKind: String? = nil,
+        /// Whether detection should stop this recording when the call ends.
+        /// True only for a recording started from the detection panel: the user
+        /// answered a question about *that* call, so that call ending is where
+        /// the recording belongs. A manual Start is never ours to end.
+        stopWhenCallEnds: Bool = false
+    ) {
         guard session == nil, !isStarting else { return }
-        if detectedApp == nil { recordingWasAutoStarted = false }
+        recordingFollowsDetectedCall = stopWhenCallEnds
         lastError = nil
         isStarting = true
         phase = .starting
@@ -393,7 +418,7 @@ final class AppCoordinator {
 
         let metadata = session.stop()
         self.session = nil
-        recordingWasAutoStarted = false
+        recordingFollowsDetectedCall = false
         status = RecordingStatus()
         phase = .idle
         reloadMeetings()

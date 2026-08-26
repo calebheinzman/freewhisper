@@ -209,7 +209,7 @@ struct MenuBarView: View {
             }
             return coordinator.autoDetectEnabled ? nil : "Auto-detect is off"
         case .meetingDetected(_, let seconds):
-            return "Recording starts in \(seconds)s"
+            return seconds > 0 ? "Record this call? \(seconds)s" : "Record this call?"
         case .starting:
             // The tap call blocks behind the TCC dialog on a first run, and a
             // bare spinner with no explanation reads as a hang.
