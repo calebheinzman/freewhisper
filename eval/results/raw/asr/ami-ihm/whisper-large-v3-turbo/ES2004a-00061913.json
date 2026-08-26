@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.24,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00061913",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.347390299704822,
+  "text" : "And profit aim is 50 million euros, which is",
+  "track" : "asr",
+  "wallSeconds" : 1.393692125
+}

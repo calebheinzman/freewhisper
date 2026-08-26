@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.74,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00081235",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.7130987519956635,
+  "text" : "What about the older generation? What about granny and granddad?",
+  "track" : "asr",
+  "wallSeconds" : 0.737928125
+}

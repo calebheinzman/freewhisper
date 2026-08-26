@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00149124",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.335836654487721,
+  "text" : "later and use it okay it's like a time timer here timer yeah time yeah and then you can use it",
+  "track" : "asr",
+  "wallSeconds" : 0.75519675
+}

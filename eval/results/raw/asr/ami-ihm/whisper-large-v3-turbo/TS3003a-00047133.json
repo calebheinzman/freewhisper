@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.88,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00047133",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.4116124443484095,
+  "text" : "Is anybody playing with the mouse? We're going to draw Hannibal.",
+  "track" : "asr",
+  "wallSeconds" : 1.332846
+}

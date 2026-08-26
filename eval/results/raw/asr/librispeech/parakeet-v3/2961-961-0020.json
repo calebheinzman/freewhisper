@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.125,
+  "dataset" : "librispeech",
+  "id" : "2961-961-0020",
+  "model" : "parakeet-v3",
+  "rtfx" : 47.869871978064864,
+  "text" : "This is the explanation of the shallows which are found in that part of the Atlantic Ocean.",
+  "track" : "asr",
+  "wallSeconds" : 0.127951042
+}

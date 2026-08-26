@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.99,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00086627",
+  "model" : "parakeet-v3",
+  "rtfx" : 25.752376123943726,
+  "text" : "The it's just a shape, so it doesn't matter.",
+  "track" : "asr",
+  "wallSeconds" : 0.116105791
+}

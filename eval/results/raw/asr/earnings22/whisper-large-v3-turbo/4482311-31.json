@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.5800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-31",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.240866347170823,
+  "text" : "Turning now to the various business groups",
+  "track" : "asr",
+  "wallSeconds" : 1.07998275
+}

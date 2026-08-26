@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.95,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00059098",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.5976587954117356,
+  "text" : "I think so. I think I'd be able to pull it up or put it in the shared folder.",
+  "track" : "asr",
+  "wallSeconds" : 1.375894792
+}

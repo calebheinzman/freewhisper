@@ -1,0 +1,2029 @@
+{
+  "dataset": "chime6",
+  "items": [
+    {
+      "audio": "../datasets/chime6/S01_U02.CH1.wav",
+      "id": "S01_U02.CH1",
+      "refSegments": [
+        {
+          "end": 0.12999999999999545,
+          "speaker": "P03",
+          "start": 0.0,
+          "text": "Yeah."
+        },
+        {
+          "end": 1.5300000000000296,
+          "speaker": "P01",
+          "start": 0.30000000000001137,
+          "text": "What's the bowl for again?"
+        },
+        {
+          "end": 2.4399999999999977,
+          "speaker": "P03",
+          "start": 1.4800000000000182,
+          "text": "I don't know."
+        },
+        {
+          "end": 4.100000000000023,
+          "speaker": "P02",
+          "start": 3.680000000000007,
+          "text": "Here you go."
+        },
+        {
+          "end": 7.720000000000027,
+          "speaker": "P01",
+          "start": 5.730000000000018,
+          "text": "Oh, okay. I don't remember what I was looking for. Oh no this was for the lettuce. Actually I'll get, you know, we can use these big plates for each, for everyone, right? I'll just set up the table."
+        },
+        {
+          "end": 8.29000000000002,
+          "speaker": "P03",
+          "start": 7.5,
+          "text": "Oh this is, what is what is this? This is the garbage actually."
+        },
+        {
+          "end": 11.04000000000002,
+          "speaker": "P04",
+          "start": 9.689999999999998,
+          "text": "[inaudible 0:06:19.42]"
+        },
+        {
+          "end": 13.200000000000045,
+          "speaker": "P02",
+          "start": 11.730000000000018,
+          "text": "Mhm."
+        },
+        {
+          "end": 20.420000000000016,
+          "speaker": "P01",
+          "start": 16.189999999999998,
+          "text": "Sorry."
+        },
+        {
+          "end": 19.629999999999995,
+          "speaker": "P02",
+          "start": 18.370000000000005,
+          "text": "It's okay."
+        },
+        {
+          "end": 23.539999999999964,
+          "speaker": "P01",
+          "start": 22.389999999999986,
+          "text": "Here. Thanks. Ooh."
+        },
+        {
+          "end": 36.089999999999975,
+          "speaker": "P03",
+          "start": 33.50999999999999,
+          "text": "All right. So I've got the beans open now."
+        },
+        {
+          "end": 36.00999999999999,
+          "speaker": "P01",
+          "start": 35.49000000000001,
+          "text": "Oh awesome."
+        },
+        {
+          "end": 36.05000000000001,
+          "speaker": "P04",
+          "start": 35.5,
+          "text": "Um"
+        },
+        {
+          "end": 41.59000000000003,
+          "speaker": "P03",
+          "start": 39.98000000000002,
+          "text": "So this is compost, eh? I can't put anything else in here?"
+        },
+        {
+          "end": 41.960000000000036,
+          "speaker": "P04",
+          "start": 41.660000000000025,
+          "text": "Yeah."
+        },
+        {
+          "end": 45.68000000000001,
+          "speaker": "P03",
+          "start": 42.74000000000001,
+          "text": "Okay."
+        },
+        {
+          "end": 45.49000000000001,
+          "speaker": "P04",
+          "start": 44.879999999999995,
+          "text": "Um, maybe drain the water and then pour it in a bowl."
+        },
+        {
+          "end": 47.68000000000001,
+          "speaker": "P03",
+          "start": 44.93000000000001,
+          "text": "Yeah. Bowls are up here?"
+        },
+        {
+          "end": 49.09000000000003,
+          "speaker": "P02",
+          "start": 48.24000000000001,
+          "text": "Uh, bowls are here."
+        },
+        {
+          "end": 53.61999999999995,
+          "speaker": "P03",
+          "start": 48.839999999999975,
+          "text": "Oh. Ah thanks."
+        },
+        {
+          "end": 50.10000000000002,
+          "speaker": "P02",
+          "start": 49.620000000000005,
+          "text": "That's big enough, right?"
+        },
+        {
+          "end": 59.879999999999995,
+          "speaker": "P03",
+          "start": 55.329999999999984,
+          "text": "Yeah."
+        },
+        {
+          "end": 61.28000000000003,
+          "speaker": "P01",
+          "start": 59.04000000000002,
+          "text": "Do you guys usually cook at home?"
+        },
+        {
+          "end": 63.97000000000003,
+          "speaker": "P04",
+          "start": 61.23000000000002,
+          "text": "Hmm, sometimes."
+        },
+        {
+          "end": 64.77000000000004,
+          "speaker": "P01",
+          "start": 61.35000000000002,
+          "text": "Are you guys big cooks? Oh."
+        },
+        {
+          "end": 64.76999999999998,
+          "speaker": "P03",
+          "start": 62.31999999999999,
+          "text": "Yeah. S- sometimes, not always."
+        },
+        {
+          "end": 66.33999999999997,
+          "speaker": "P04",
+          "start": 64.75999999999999,
+          "text": "[laughs]"
+        },
+        {
+          "end": 69.65999999999997,
+          "speaker": "P01",
+          "start": 66.50999999999999,
+          "text": "Yeah. [laughs]"
+        },
+        {
+          "end": 67.81,
+          "speaker": "P03",
+          "start": 67.19,
+          "text": "Trying my best to but sometimes you get lazy."
+        },
+        {
+          "end": 71.12,
+          "speaker": "P02",
+          "start": 70.32999999999998,
+          "text": "Especially being downtown, it's really hard."
+        },
+        {
+          "end": 72.08999999999997,
+          "speaker": "P01",
+          "start": 71.07,
+          "text": "Yeah."
+        },
+        {
+          "end": 72.75999999999999,
+          "speaker": "P03",
+          "start": 72.13999999999999,
+          "text": "Mhm."
+        },
+        {
+          "end": 72.71000000000004,
+          "speaker": "P04",
+          "start": 72.29000000000002,
+          "text": "Oh yeah. It's hard living downtown."
+        },
+        {
+          "end": 74.54000000000002,
+          "speaker": "P01",
+          "start": 73.66000000000003,
+          "text": "Wait, Jordan, you have roommates right?"
+        },
+        {
+          "end": 83.58999999999997,
+          "speaker": "P03",
+          "start": 75.08999999999997,
+          "text": "Me? Yeah."
+        },
+        {
+          "end": 79.26999999999998,
+          "speaker": "P01",
+          "start": 76.14999999999998,
+          "text": "Yeah. Oh okay. Just forgot. Olivia, do you live by yourself?"
+        },
+        {
+          "end": 80.02000000000004,
+          "speaker": "P04",
+          "start": 79.42000000000002,
+          "text": "No, I live with my parents. [inaudible 0:07:28.96]"
+        },
+        {
+          "end": 82.90000000000003,
+          "speaker": "P01",
+          "start": 82.47000000000003,
+          "text": "Oh, your family, okay."
+        },
+        {
+          "end": 86.24000000000001,
+          "speaker": "P04",
+          "start": 85.63999999999999,
+          "text": "So now it's like, okay."
+        },
+        {
+          "end": 87.08999999999997,
+          "speaker": "P03",
+          "start": 86.32,
+          "text": "Do you want? Do you think we should drain this out more?"
+        },
+        {
+          "end": 90.25,
+          "speaker": "P01",
+          "start": 89.88999999999999,
+          "text": "Oh so you don't have to, you don't have to cook as much?"
+        },
+        {
+          "end": 91.67000000000002,
+          "speaker": "P04",
+          "start": 91.10000000000002,
+          "text": "Yeah. No."
+        },
+        {
+          "end": 95.47999999999996,
+          "speaker": "P02",
+          "start": 95.13999999999999,
+          "text": "Yeah maybe a little bit."
+        },
+        {
+          "end": 97.65000000000003,
+          "speaker": "P03",
+          "start": 95.49000000000001,
+          "text": "Okay."
+        },
+        {
+          "end": 98.27999999999997,
+          "speaker": "P02",
+          "start": 97.52999999999997,
+          "text": "Just a bit. We'll kind of cook off some of it anyway [inaudible 0:07:42.42]."
+        },
+        {
+          "end": 99.70000000000005,
+          "speaker": "P03",
+          "start": 99.16000000000003,
+          "text": "Mhm. I think it's good to keep like, a little bit of the The sauce?"
+        },
+        {
+          "end": 102.13,
+          "speaker": "P02",
+          "start": 99.38999999999999,
+          "text": "[inaudible 0:07:49.20] almost done [inaudible 0:07:50.14]"
+        },
+        {
+          "end": 102.38999999999999,
+          "speaker": "P01",
+          "start": 101.94999999999999,
+          "text": "Oh, it says you have to add two thirds, a hundred fifty milliliters of water. With the seasoning mix."
+        },
+        {
+          "end": 102.88999999999999,
+          "speaker": "P02",
+          "start": 102.58999999999997,
+          "text": "Oh okay. Is there a measuring cup?"
+        },
+        {
+          "end": 106.09999999999997,
+          "speaker": "P01",
+          "start": 102.95999999999998,
+          "text": "Um It's a good question. Let me"
+        },
+        {
+          "end": 105.07,
+          "speaker": "P02",
+          "start": 104.82999999999998,
+          "text": "[laughs]"
+        },
+        {
+          "end": 111.26999999999998,
+          "speaker": "P04",
+          "start": 110.39999999999998,
+          "text": "Hmm, I think we can break the beef up. The bigger, yeah."
+        },
+        {
+          "end": 113.32999999999998,
+          "speaker": "P01",
+          "start": 111.43,
+          "text": "Does this bottle have That looks like a cup and a half, no? A ro- rough estimate."
+        },
+        {
+          "end": 112.39999999999998,
+          "speaker": "P02",
+          "start": 112.12,
+          "text": "[laughs] Yeah."
+        },
+        {
+          "end": 116.0,
+          "speaker": "P01",
+          "start": 115.25,
+          "text": "Let me see if there's a measuring cup."
+        },
+        {
+          "end": 116.61000000000001,
+          "speaker": "P02",
+          "start": 115.73000000000002,
+          "text": "Isn't one cup normally two hundred and fifty milliliters?"
+        },
+        {
+          "end": 116.90999999999997,
+          "speaker": "P01",
+          "start": 116.64999999999998,
+          "text": "Oh sorry. Oh, that's true. Hundred fifty. Oh, there's like a science beaker thing up top there. I don't know what that is."
+        },
+        {
+          "end": 124.13,
+          "speaker": "P04",
+          "start": 122.62,
+          "text": "Speaker?"
+        },
+        {
+          "end": 125.25,
+          "speaker": "P01",
+          "start": 124.27999999999997,
+          "text": "Like a beaker? [laughs]"
+        },
+        {
+          "end": 126.51999999999998,
+          "speaker": "P04",
+          "start": 125.24000000000001,
+          "text": "Oh beaker."
+        },
+        {
+          "end": 126.94,
+          "speaker": "P02",
+          "start": 126.66000000000003,
+          "text": "[laughs]"
+        },
+        {
+          "end": 128.95000000000005,
+          "speaker": "P01",
+          "start": 126.79000000000002,
+          "text": "Do they have a measuring cup? [laughs]"
+        },
+        {
+          "end": 129.49,
+          "speaker": "P02",
+          "start": 128.57999999999998,
+          "text": "If not I would just eyeball it or something."
+        },
+        {
+          "end": 129.70999999999998,
+          "speaker": "P01",
+          "start": 129.2,
+          "text": "Yeah."
+        },
+        {
+          "end": 132.79000000000002,
+          "speaker": "P02",
+          "start": 129.81,
+          "text": "It'll be fine, just"
+        },
+        {
+          "end": 134.58999999999997,
+          "speaker": "P03",
+          "start": 132.7,
+          "text": "Just estimate it [inaudible 0:08:44.13]."
+        },
+        {
+          "end": 133.3,
+          "speaker": "P01",
+          "start": 132.98000000000002,
+          "text": "Yeah just, yeah. Okay then less than a full cup I guess."
+        },
+        {
+          "end": 135.03999999999996,
+          "speaker": "P02",
+          "start": 134.51,
+          "text": "Okay. Is there a glass? [inaudible 0:08:49.00]"
+        },
+        {
+          "end": 137.19,
+          "speaker": "P01",
+          "start": 134.81,
+          "text": "Yeah. There's a glass right here. And then it says, oh, sorry, it says to make it simmer or something."
+        },
+        {
+          "end": 137.04999999999995,
+          "speaker": "P04",
+          "start": 135.33999999999997,
+          "text": "No it's okay."
+        },
+        {
+          "end": 138.45,
+          "speaker": "P01",
+          "start": 137.13,
+          "text": "[inaudible 0:03:53.72]"
+        },
+        {
+          "end": 138.14,
+          "speaker": "P02",
+          "start": 137.81,
+          "text": "Okay, so let me add this."
+        },
+        {
+          "end": 139.02999999999997,
+          "speaker": "P01",
+          "start": 138.51,
+          "text": "Wait, which one is this?"
+        },
+        {
+          "end": 140.43,
+          "speaker": "P02",
+          "start": 139.51,
+          "text": "So which one is this and which is seasoning mix?"
+        },
+        {
+          "end": 146.95,
+          "speaker": "P01",
+          "start": 145.44,
+          "text": "Oh okay. This is sauce. Wait, where's that. Oh. Here, wait. Good thing I'm looking at this."
+        },
+        {
+          "end": 149.64,
+          "speaker": "P02",
+          "start": 147.07,
+          "text": "So you said two thirds?"
+        },
+        {
+          "end": 149.76999999999998,
+          "speaker": "P04",
+          "start": 148.5,
+          "text": "[laughs]"
+        },
+        {
+          "end": 151.38,
+          "speaker": "P01",
+          "start": 149.93,
+          "text": "Two thirds, two thirds of a cup. That's like two thirds."
+        },
+        {
+          "end": 153.19,
+          "speaker": "P02",
+          "start": 150.01,
+          "text": "With the seasoning mix."
+        },
+        {
+          "end": 153.61,
+          "speaker": "P01",
+          "start": 151.0,
+          "text": "Yeah. Yeah. So wait until it's completely cooked, yeah it's brown."
+        },
+        {
+          "end": 154.23000000000002,
+          "speaker": "P02",
+          "start": 153.43,
+          "text": "Brown"
+        },
+        {
+          "end": 154.98999999999995,
+          "speaker": "P01",
+          "start": 154.02999999999997,
+          "text": "But there's water and seasoning mix. So when do you use the sauce then?"
+        },
+        {
+          "end": 155.52999999999997,
+          "speaker": "P02",
+          "start": 155.13,
+          "text": "I think that goes on the top? Yeah."
+        },
+        {
+          "end": 157.18,
+          "speaker": "P01",
+          "start": 156.63,
+          "text": "Oh it's just on top? Oh, I see."
+        },
+        {
+          "end": 162.91999999999996,
+          "speaker": "P02",
+          "start": 160.77999999999997,
+          "text": "It's like a salsa I think."
+        },
+        {
+          "end": 166.27999999999997,
+          "speaker": "P04",
+          "start": 163.07,
+          "text": "Just pour and then mix it."
+        },
+        {
+          "end": 169.27999999999997,
+          "speaker": "P01",
+          "start": 168.2,
+          "text": "Yeah."
+        },
+        {
+          "end": 170.66999999999996,
+          "speaker": "P02",
+          "start": 169.20999999999998,
+          "text": "I guess we can add the beans now, too."
+        },
+        {
+          "end": 175.75,
+          "speaker": "P01",
+          "start": 170.77999999999997,
+          "text": "Okay. We won't add everything. Let's Like half of it or something. How are the chips?"
+        },
+        {
+          "end": 177.17999999999995,
+          "speaker": "P03",
+          "start": 176.02999999999997,
+          "text": "They're actually really good."
+        },
+        {
+          "end": 178.92000000000002,
+          "speaker": "P01",
+          "start": 177.26,
+          "text": "Yeah? We were looking for these like lime flavored ones."
+        },
+        {
+          "end": 180.54000000000002,
+          "speaker": "P03",
+          "start": 179.88,
+          "text": "Yeah. I like the seasoning seasoning on them."
+        },
+        {
+          "end": 182.99,
+          "speaker": "P02",
+          "start": 181.45,
+          "text": "Hmm. The lime one's really good, hey?"
+        },
+        {
+          "end": 184.33999999999997,
+          "speaker": "P03",
+          "start": 183.39,
+          "text": "Mhm."
+        },
+        {
+          "end": 188.8,
+          "speaker": "P01",
+          "start": 184.42000000000002,
+          "text": "Yeah."
+        },
+        {
+          "end": 185.57,
+          "speaker": "P03",
+          "start": 184.44,
+          "text": "And the guac is really good too."
+        },
+        {
+          "end": 192.74,
+          "speaker": "P01",
+          "start": 191.10000000000002,
+          "text": "Oh is it?"
+        },
+        {
+          "end": 195.64,
+          "speaker": "P03",
+          "start": 194.38,
+          "text": "Whoever picked that."
+        },
+        {
+          "end": 196.35000000000002,
+          "speaker": "P04",
+          "start": 195.42000000000002,
+          "text": "Did you guys buy it today?"
+        },
+        {
+          "end": 200.08999999999997,
+          "speaker": "P01",
+          "start": 197.20999999999998,
+          "text": "That was the only brand they had. Yeah we went to um"
+        },
+        {
+          "end": 202.76999999999998,
+          "speaker": "P02",
+          "start": 200.13,
+          "text": "Yeah."
+        },
+        {
+          "end": 203.58999999999997,
+          "speaker": "P03",
+          "start": 202.07999999999998,
+          "text": "Really?"
+        },
+        {
+          "end": 205.76,
+          "speaker": "P04",
+          "start": 204.88,
+          "text": "Oh okay."
+        },
+        {
+          "end": 211.67000000000002,
+          "speaker": "P01",
+          "start": 207.11,
+          "text": "Where did we go? Independent?"
+        },
+        {
+          "end": 213.05000000000007,
+          "speaker": "P02",
+          "start": 212.20000000000005,
+          "text": "Independent. On Davie."
+        },
+        {
+          "end": 215.3599999999999,
+          "speaker": "P03",
+          "start": 213.42999999999995,
+          "text": "Mhm. Is it the one on uh Davie street?"
+        },
+        {
+          "end": 215.44000000000005,
+          "speaker": "P01",
+          "start": 214.37,
+          "text": "Yeah."
+        },
+        {
+          "end": 215.45000000000005,
+          "speaker": "P02",
+          "start": 214.49,
+          "text": "Yeah on Davie."
+        },
+        {
+          "end": 220.46000000000004,
+          "speaker": "P01",
+          "start": 218.59000000000003,
+          "text": "Yeah. Aw no."
+        },
+        {
+          "end": 222.51,
+          "speaker": "P02",
+          "start": 220.76,
+          "text": "Yeah I may [inaudible 0:10:24.63]"
+        },
+        {
+          "end": 222.93999999999994,
+          "speaker": "P01",
+          "start": 222.54999999999995,
+          "text": "It fell over."
+        },
+        {
+          "end": 223.51,
+          "speaker": "P02",
+          "start": 222.61,
+          "text": "Okay. So you're done?"
+        },
+        {
+          "end": 224.93000000000006,
+          "speaker": "P01",
+          "start": 223.32000000000005,
+          "text": "Just, can you add a little bit?"
+        },
+        {
+          "end": 226.88,
+          "speaker": "P02",
+          "start": 224.09000000000003,
+          "text": "Yep. Can we make [inaudible 0:10:32.43]?"
+        },
+        {
+          "end": 229.75,
+          "speaker": "P01",
+          "start": 226.83000000000004,
+          "text": "Clean up the sauce here."
+        },
+        {
+          "end": 231.16999999999996,
+          "speaker": "P03",
+          "start": 229.02999999999997,
+          "text": "What are we all drinking? Is there any, is it just water or we have anything else?"
+        },
+        {
+          "end": 245.2800000000001,
+          "speaker": "P01",
+          "start": 241.46000000000004,
+          "text": "We do have a bottle of non alcoholic"
+        },
+        {
+          "end": 243.26,
+          "speaker": "P02",
+          "start": 242.37,
+          "text": "Sparkling"
+        },
+        {
+          "end": 248.62,
+          "speaker": "P01",
+          "start": 247.37,
+          "text": "[laughs] sparkling juice."
+        },
+        {
+          "end": 250.45000000000005,
+          "speaker": "P02",
+          "start": 247.38,
+          "text": "Sparkling juice?"
+        },
+        {
+          "end": 252.13,
+          "speaker": "P03",
+          "start": 250.87,
+          "text": "Is that this one here?"
+        },
+        {
+          "end": 253.41999999999996,
+          "speaker": "P01",
+          "start": 251.41999999999996,
+          "text": "Yep."
+        },
+        {
+          "end": 254.29000000000008,
+          "speaker": "P03",
+          "start": 252.96000000000004,
+          "text": "Is that, do you want me to start pouring this one?"
+        },
+        {
+          "end": 256.81999999999994,
+          "speaker": "P01",
+          "start": 255.17999999999995,
+          "text": "Um is it cold yet? I don't know."
+        },
+        {
+          "end": 258.58000000000004,
+          "speaker": "P03",
+          "start": 257.47,
+          "text": "It's it's all right."
+        },
+        {
+          "end": 259.51,
+          "speaker": "P01",
+          "start": 258.64,
+          "text": "Yeah I guess this is, yeah sure."
+        },
+        {
+          "end": 259.64,
+          "speaker": "P02",
+          "start": 259.12,
+          "text": "If you can open it"
+        },
+        {
+          "end": 261.48,
+          "speaker": "P03",
+          "start": 259.69000000000005,
+          "text": "Mm, yeah sure."
+        },
+        {
+          "end": 263.53999999999996,
+          "speaker": "P01",
+          "start": 262.37,
+          "text": "I guess we're almost done, there's also salad as well if you wanna toss it. [laughs]"
+        },
+        {
+          "end": 264.08000000000004,
+          "speaker": "P03",
+          "start": 263.0,
+          "text": "Oh. Into a bowl you mean?"
+        },
+        {
+          "end": 264.70000000000005,
+          "speaker": "P02",
+          "start": 264.32000000000005,
+          "text": "Do you want a bit more?"
+        },
+        {
+          "end": 269.03,
+          "speaker": "P01",
+          "start": 266.05999999999995,
+          "text": "Yeah. Yeah."
+        },
+        {
+          "end": 268.86,
+          "speaker": "P03",
+          "start": 268.27,
+          "text": "K [inaudible 0:11:07.70] salad."
+        },
+        {
+          "end": 272.0799999999999,
+          "speaker": "P01",
+          "start": 269.40999999999997,
+          "text": "And there's uh dressing as well I think."
+        },
+        {
+          "end": 275.08000000000004,
+          "speaker": "P03",
+          "start": 273.74,
+          "text": "Ooh, great. Well it's pretty much pre-made, so."
+        },
+        {
+          "end": 277.73,
+          "speaker": "P01",
+          "start": 275.65999999999997,
+          "text": "Yeah. [laughs]"
+        },
+        {
+          "end": 278.09000000000003,
+          "speaker": "P03",
+          "start": 276.20000000000005,
+          "text": "Really easy."
+        },
+        {
+          "end": 279.88,
+          "speaker": "P04",
+          "start": 278.73,
+          "text": "[noise]"
+        },
+        {
+          "end": 279.89,
+          "speaker": "P02",
+          "start": 278.74,
+          "text": "Is that enough?"
+        },
+        {
+          "end": 280.56000000000006,
+          "speaker": "P01",
+          "start": 280.1,
+          "text": "I think so, then you can eat this by yourself."
+        },
+        {
+          "end": 293.38,
+          "speaker": "P02",
+          "start": 291.59000000000003,
+          "text": "Or you want more? I don't need that much, I'm the only one that, yeah."
+        },
+        {
+          "end": 293.4100000000001,
+          "speaker": "P01",
+          "start": 293.08000000000004,
+          "text": "Really? There's also oh that's true, there's also salad then, add a little bit more. Okay yeah, I think that should be good."
+        },
+        {
+          "end": 295.20000000000005,
+          "speaker": "P03",
+          "start": 293.84000000000003,
+          "text": "There's coconut water in here too, but are we?"
+        },
+        {
+          "end": 296.4000000000001,
+          "speaker": "P01",
+          "start": 295.32000000000005,
+          "text": "No I don't think it's ours. [laughs] Yeah."
+        },
+        {
+          "end": 301.77,
+          "speaker": "P03",
+          "start": 300.79999999999995,
+          "text": "[inaudible 0:11:33.20] Okay."
+        },
+        {
+          "end": 302.90999999999997,
+          "speaker": "P04",
+          "start": 301.77,
+          "text": "[laughs]"
+        },
+        {
+          "end": 305.9,
+          "speaker": "P01",
+          "start": 302.90999999999997,
+          "text": "We just bought that, yeah."
+        },
+        {
+          "end": 308.68000000000006,
+          "speaker": "P02",
+          "start": 305.61,
+          "text": "Okay. Also the"
+        },
+        {
+          "end": 306.51,
+          "speaker": "P03",
+          "start": 306.13,
+          "text": "[inaudible 0:11:38.98] here?"
+        },
+        {
+          "end": 309.27,
+          "speaker": "P02",
+          "start": 308.14,
+          "text": "[inaudible 0:11:40.33]"
+        },
+        {
+          "end": 309.64,
+          "speaker": "P01",
+          "start": 309.22,
+          "text": "Okay. So we just need to put this on a"
+        },
+        {
+          "end": 309.70000000000005,
+          "speaker": "P04",
+          "start": 309.25,
+          "text": "[noise] Lettuce."
+        },
+        {
+          "end": 312.71000000000004,
+          "speaker": "P03",
+          "start": 311.32000000000005,
+          "text": "[inaudible 0:11:42.57] behind you see if there's another salad bowl, maybe this one here."
+        },
+        {
+          "end": 313.47,
+          "speaker": "P01",
+          "start": 312.74,
+          "text": "Yeah. [inaudible 0:11:46.04]"
+        },
+        {
+          "end": 314.1600000000001,
+          "speaker": "P02",
+          "start": 313.32000000000005,
+          "text": "All right. Actually that one would be good for the ground beef too."
+        },
+        {
+          "end": 315.0899999999999,
+          "speaker": "P03",
+          "start": 313.92999999999995,
+          "text": "Oh really? Okay. Can I use this for salad?"
+        },
+        {
+          "end": 317.32000000000005,
+          "speaker": "P02",
+          "start": 314.84000000000003,
+          "text": "Oh yeah there's lots. You can grab one."
+        },
+        {
+          "end": 316.74,
+          "speaker": "P03",
+          "start": 316.13,
+          "text": "Okay."
+        },
+        {
+          "end": 317.12,
+          "speaker": "P01",
+          "start": 316.44000000000005,
+          "text": "Yeah."
+        },
+        {
+          "end": 317.78999999999996,
+          "speaker": "P04",
+          "start": 316.67999999999995,
+          "text": "Did you guys buy cheese?"
+        },
+        {
+          "end": 319.19000000000005,
+          "speaker": "P01",
+          "start": 317.83000000000004,
+          "text": "So [inaudible 0:11:56.28]."
+        },
+        {
+          "end": 318.68999999999994,
+          "speaker": "P02",
+          "start": 318.01,
+          "text": "We did, the shredded."
+        },
+        {
+          "end": 319.73,
+          "speaker": "P01",
+          "start": 319.21000000000004,
+          "text": "Yeah um there's shredded cheese in the"
+        },
+        {
+          "end": 322.03999999999996,
+          "speaker": "P04",
+          "start": 319.36,
+          "text": "Okay, maybe we should take that out too?"
+        },
+        {
+          "end": 320.13,
+          "speaker": "P01",
+          "start": 319.72,
+          "text": "fridge? Where is it? Oh did you already take it out?"
+        },
+        {
+          "end": 322.6,
+          "speaker": "P03",
+          "start": 321.78,
+          "text": "Hmm? I took the salad."
+        },
+        {
+          "end": 322.52,
+          "speaker": "P01",
+          "start": 321.97,
+          "text": "The cheese? Oh yeah, you took out the cheese also."
+        },
+        {
+          "end": 323.35,
+          "speaker": "P03",
+          "start": 322.59000000000003,
+          "text": "Oh yeah it's here, sorry."
+        },
+        {
+          "end": 325.27,
+          "speaker": "P04",
+          "start": 324.28,
+          "text": "Oh okay."
+        },
+        {
+          "end": 326.47,
+          "speaker": "P01",
+          "start": 325.61,
+          "text": "Can you pass me the paper towel? Oh no no it's okay we can leave it out since it's a bit fussy."
+        },
+        {
+          "end": 328.4,
+          "speaker": "P03",
+          "start": 327.49,
+          "text": "Do you want me to put that Okay."
+        },
+        {
+          "end": 330.46000000000004,
+          "speaker": "P04",
+          "start": 328.71000000000004,
+          "text": "[inaudible 0:12:12.69] [noise]"
+        },
+        {
+          "end": 330.16999999999996,
+          "speaker": "P01",
+          "start": 329.78999999999996,
+          "text": "Mmm it smells good."
+        },
+        {
+          "end": 333.19000000000005,
+          "speaker": "P02",
+          "start": 331.95000000000005,
+          "text": "[inaudible 0:12:21.78]"
+        },
+        {
+          "end": 333.69000000000005,
+          "speaker": "P03",
+          "start": 332.1,
+          "text": "There's actually two dressings. There's greek and caesar."
+        },
+        {
+          "end": 345.98,
+          "speaker": "P01",
+          "start": 342.1,
+          "text": "Yeah we just"
+        },
+        {
+          "end": 346.4,
+          "speaker": "P03",
+          "start": 344.9,
+          "text": "Which one do you like better?"
+        },
+        {
+          "end": 348.52,
+          "speaker": "P01",
+          "start": 347.64,
+          "text": "got some random. I dunno."
+        },
+        {
+          "end": 348.53,
+          "speaker": "P02",
+          "start": 347.65,
+          "text": "There's a greek salad and a caesar salad."
+        },
+        {
+          "end": 350.64,
+          "speaker": "P03",
+          "start": 348.67999999999995,
+          "text": "Yeah."
+        },
+        {
+          "end": 349.84000000000003,
+          "speaker": "P02",
+          "start": 349.13,
+          "text": "There's two different kinds."
+        },
+        {
+          "end": 351.78,
+          "speaker": "P01",
+          "start": 350.64,
+          "text": "Oh yeah oh yeah."
+        },
+        {
+          "end": 351.76,
+          "speaker": "P03",
+          "start": 351.36,
+          "text": "Oh, do you wanna?"
+        },
+        {
+          "end": 354.23,
+          "speaker": "P01",
+          "start": 352.5,
+          "text": "Oh yeah there's two different salads yeah."
+        },
+        {
+          "end": 356.36,
+          "speaker": "P03",
+          "start": 354.19000000000005,
+          "text": "Should we separate them or keep them together?"
+        },
+        {
+          "end": 357.21000000000004,
+          "speaker": "P02",
+          "start": 355.99,
+          "text": "You prolly want the caesar with the caesar."
+        },
+        {
+          "end": 359.76,
+          "speaker": "P04",
+          "start": 358.29999999999995,
+          "text": "I think [inaudible 0:12:38.97] keep them."
+        },
+        {
+          "end": 359.5,
+          "speaker": "P02",
+          "start": 358.53999999999996,
+          "text": "And then there's like a Mediterranean."
+        },
+        {
+          "end": 360.70000000000005,
+          "speaker": "P01",
+          "start": 359.76,
+          "text": "Yeah. You can put one on each."
+        },
+        {
+          "end": 362.31999999999994,
+          "speaker": "P02",
+          "start": 359.91999999999996,
+          "text": "Yeah."
+        },
+        {
+          "end": 364.49,
+          "speaker": "P03",
+          "start": 362.84000000000003,
+          "text": "Okay."
+        },
+        {
+          "end": 365.81000000000006,
+          "speaker": "P01",
+          "start": 363.69000000000005,
+          "text": "Oh I see yeah, cuz we have one one bowl right?"
+        },
+        {
+          "end": 364.61,
+          "speaker": "P03",
+          "start": 363.72,
+          "text": "Like Yeah."
+        },
+        {
+          "end": 365.37,
+          "speaker": "P02",
+          "start": 364.88,
+          "text": "Oh."
+        },
+        {
+          "end": 366.5300000000001,
+          "speaker": "P01",
+          "start": 365.84000000000003,
+          "text": "Uh."
+        },
+        {
+          "end": 368.76,
+          "speaker": "P03",
+          "start": 367.47,
+          "text": "I think it's, how about let's just do the um, cuz we don't know"
+        },
+        {
+          "end": 370.48,
+          "speaker": "P02",
+          "start": 367.99,
+          "text": "We just put it in two big different bowls right?"
+        },
+        {
+          "end": 370.58000000000004,
+          "speaker": "P01",
+          "start": 369.83000000000004,
+          "text": "[inaudible 0:12:51.80] Do we have room for two bowls?"
+        },
+        {
+          "end": 372.84000000000003,
+          "speaker": "P02",
+          "start": 371.22,
+          "text": "Oh."
+        },
+        {
+          "end": 374.25,
+          "speaker": "P03",
+          "start": 372.88,
+          "text": "Yeah maybe what we'll do is we'll just finish one first, and if we are still hungry we can make the other one right?"
+        },
+        {
+          "end": 374.24,
+          "speaker": "P01",
+          "start": 373.51,
+          "text": "Yeah yeah sure."
+        },
+        {
+          "end": 379.5,
+          "speaker": "P02",
+          "start": 377.45000000000005,
+          "text": "Yeah sure."
+        },
+        {
+          "end": 381.2299999999999,
+          "speaker": "P01",
+          "start": 380.67999999999995,
+          "text": "Yeah."
+        },
+        {
+          "end": 384.06999999999994,
+          "speaker": "P04",
+          "start": 382.15999999999997,
+          "text": "Caesar first."
+        },
+        {
+          "end": 383.22,
+          "speaker": "P03",
+          "start": 382.49,
+          "text": "Caesar first? Okay."
+        },
+        {
+          "end": 386.01,
+          "speaker": "P01",
+          "start": 383.85,
+          "text": "Okay. [laughs] Just try to finish [inaudible 0:13:03.35]."
+        },
+        {
+          "end": 388.77,
+          "speaker": "P02",
+          "start": 384.88,
+          "text": "K I think this is done."
+        },
+        {
+          "end": 391.2299999999999,
+          "speaker": "P01",
+          "start": 389.79999999999995,
+          "text": "Okay. That's small."
+        },
+        {
+          "end": 393.09000000000003,
+          "speaker": "P02",
+          "start": 390.86,
+          "text": "Put it in the bowl?"
+        },
+        {
+          "end": 395.6,
+          "speaker": "P03",
+          "start": 393.09000000000003,
+          "text": "I'll just leave this in the fridge then, for now."
+        },
+        {
+          "end": 396.6700000000001,
+          "speaker": "P01",
+          "start": 393.20000000000005,
+          "text": "Okay."
+        },
+        {
+          "end": 395.23,
+          "speaker": "P04",
+          "start": 394.24,
+          "text": "[noise]"
+        },
+        {
+          "end": 397.67999999999995,
+          "speaker": "P02",
+          "start": 395.90999999999997,
+          "text": "So then I temporarily drain this off."
+        },
+        {
+          "end": 398.87,
+          "speaker": "P01",
+          "start": 398.40999999999997,
+          "text": "So Yeah. And then I'll heat up the, I guess it's the taco sauce? Somehow [inaudible 0:13:24.12]."
+        },
+        {
+          "end": 399.58000000000004,
+          "speaker": "P04",
+          "start": 398.98,
+          "text": "Probably use one of his parent's to"
+        },
+        {
+          "end": 399.59000000000003,
+          "speaker": "P01",
+          "start": 398.99,
+          "text": "Yeah yeah."
+        },
+        {
+          "end": 402.58000000000004,
+          "speaker": "P04",
+          "start": 400.34000000000003,
+          "text": "[inaudible 0:13:26.77] Mmm, smells nice."
+        },
+        {
+          "end": 404.15,
+          "speaker": "P02",
+          "start": 401.6,
+          "text": "[noise]"
+        },
+        {
+          "end": 406.48,
+          "speaker": "P03",
+          "start": 402.47,
+          "text": "Is there a pair of salad tong anywhere?"
+        },
+        {
+          "end": 407.22,
+          "speaker": "P01",
+          "start": 402.57000000000005,
+          "text": "Hmm?"
+        },
+        {
+          "end": 406.81000000000006,
+          "speaker": "P03",
+          "start": 405.84000000000003,
+          "text": "Salad tongs for like mixing"
+        },
+        {
+          "end": 409.7099999999999,
+          "speaker": "P01",
+          "start": 406.78,
+          "text": "Oh, salad tongs."
+        },
+        {
+          "end": 411.93000000000006,
+          "speaker": "P02",
+          "start": 409.86,
+          "text": "Great question."
+        },
+        {
+          "end": 413.65,
+          "speaker": "P01",
+          "start": 412.12,
+          "text": "Um. Let's see. They're in here somewhere. I guess if not we can use forks?"
+        },
+        {
+          "end": 413.48,
+          "speaker": "P03",
+          "start": 412.98,
+          "text": "If not we can just use two wooden spoons or like a"
+        },
+        {
+          "end": 413.5100000000001,
+          "speaker": "P01",
+          "start": 413.07000000000005,
+          "text": "Yeah. Yeah. Okay. There's a [inaudible 0:14:24.48] different sizes?"
+        },
+        {
+          "end": 416.98,
+          "speaker": "P03",
+          "start": 415.88,
+          "text": "Yeah let's take one this one here."
+        },
+        {
+          "end": 417.01,
+          "speaker": "P01",
+          "start": 416.03999999999996,
+          "text": "Okay."
+        },
+        {
+          "end": 418.61,
+          "speaker": "P03",
+          "start": 417.23,
+          "text": "And this one here [inaudible 0:14:28.80]"
+        },
+        {
+          "end": 419.03999999999996,
+          "speaker": "P01",
+          "start": 417.28,
+          "text": "Okay."
+        },
+        {
+          "end": 421.30999999999995,
+          "speaker": "P03",
+          "start": 419.02,
+          "text": "Yeah, thanks."
+        },
+        {
+          "end": 420.56000000000006,
+          "speaker": "P01",
+          "start": 419.57000000000005,
+          "text": "[inaudible 0:14:32.28] I'll heat up the"
+        },
+        {
+          "end": 423.31999999999994,
+          "speaker": "P04",
+          "start": 420.91999999999996,
+          "text": "Ooh, smoking."
+        },
+        {
+          "end": 424.66999999999996,
+          "speaker": "P01",
+          "start": 423.28,
+          "text": "Ooh."
+        },
+        {
+          "end": 426.37,
+          "speaker": "P04",
+          "start": 423.65,
+          "text": "Oh jeez."
+        },
+        {
+          "end": 426.32000000000005,
+          "speaker": "P02",
+          "start": 425.20000000000005,
+          "text": "I don't wanna put this on"
+        },
+        {
+          "end": 427.0799999999999,
+          "speaker": "P04",
+          "start": 426.30999999999995,
+          "text": "So that sauce is um for the taco? Or for the beef?"
+        },
+        {
+          "end": 432.46000000000004,
+          "speaker": "P02",
+          "start": 427.98,
+          "text": "the table directly. [inaudible 0:14:41.36]"
+        },
+        {
+          "end": 428.97,
+          "speaker": "P01",
+          "start": 428.11,
+          "text": "Yeah for the actual topping."
+        },
+        {
+          "end": 431.6,
+          "speaker": "P02",
+          "start": 431.15999999999997,
+          "text": "So like this."
+        },
+        {
+          "end": 438.09000000000003,
+          "speaker": "P04",
+          "start": 432.69000000000005,
+          "text": "Oh okay."
+        },
+        {
+          "end": 441.4000000000001,
+          "speaker": "P01",
+          "start": 440.21000000000004,
+          "text": "So I guess we'll have to, I guess we could actually use normal salsa too instead of this one. If people want it."
+        },
+        {
+          "end": 443.0,
+          "speaker": "P02",
+          "start": 441.78999999999996,
+          "text": "So I'm not hurting the table?"
+        },
+        {
+          "end": 447.21000000000004,
+          "speaker": "P04",
+          "start": 444.5,
+          "text": "Uh. Think we could find a bowl for"
+        },
+        {
+          "end": 447.94999999999993,
+          "speaker": "P01",
+          "start": 447.14,
+          "text": "And we can use the I'm gonna, or do you did you wanna heat up your beans or no? Okay."
+        },
+        {
+          "end": 449.97,
+          "speaker": "P02",
+          "start": 448.53,
+          "text": "Yeah I'm just gonna really quickly."
+        },
+        {
+          "end": 449.92999999999995,
+          "speaker": "P04",
+          "start": 448.77,
+          "text": "Sell out."
+        },
+        {
+          "end": 451.80000000000007,
+          "speaker": "P01",
+          "start": 451.19000000000005,
+          "text": "Oh okay."
+        },
+        {
+          "end": 453.38,
+          "speaker": "P02",
+          "start": 451.33000000000004,
+          "text": "Oh."
+        },
+        {
+          "end": 454.21000000000004,
+          "speaker": "P01",
+          "start": 453.37,
+          "text": "Um. Hold on. There."
+        },
+        {
+          "end": 454.4599999999999,
+          "speaker": "P04",
+          "start": 453.40999999999997,
+          "text": "Okay."
+        },
+        {
+          "end": 454.12,
+          "speaker": "P01",
+          "start": 453.48,
+          "text": "Okay. Yeah put it here. Uh. Let me just [inaudible 0:15:13.20] Up here."
+        },
+        {
+          "end": 455.46000000000004,
+          "speaker": "P04",
+          "start": 454.52,
+          "text": "Thank you."
+        },
+        {
+          "end": 456.43999999999994,
+          "speaker": "P01",
+          "start": 454.55999999999995,
+          "text": "Can I heat up the the taco sauce while you're at it? Or"
+        },
+        {
+          "end": 458.02,
+          "speaker": "P02",
+          "start": 455.79999999999995,
+          "text": "Go for it."
+        },
+        {
+          "end": 460.43000000000006,
+          "speaker": "P01",
+          "start": 458.59000000000003,
+          "text": "do you wanna [inaudible 0:15:23.87] Okay."
+        },
+        {
+          "end": 460.65999999999997,
+          "speaker": "P02",
+          "start": 458.6,
+          "text": "No, go for it."
+        },
+        {
+          "end": 462.5400000000001,
+          "speaker": "P01",
+          "start": 460.69000000000005,
+          "text": "Where are the taco shells?"
+        },
+        {
+          "end": 462.96000000000004,
+          "speaker": "P02",
+          "start": 462.6,
+          "text": "Hmm where's that box? Oh they're in there."
+        },
+        {
+          "end": 464.45000000000005,
+          "speaker": "P04",
+          "start": 463.21000000000004,
+          "text": "Oops. [inaudible 0:15:40.52]"
+        },
+        {
+          "end": 463.67999999999995,
+          "speaker": "P01",
+          "start": 463.30999999999995,
+          "text": "Think I put the shells somewhere, but I can't Oh here they are."
+        },
+        {
+          "end": 465.34000000000003,
+          "speaker": "P02",
+          "start": 465.0,
+          "text": "Aren't they in the box? Oh [inaudible 15:46.24]"
+        },
+        {
+          "end": 468.97,
+          "speaker": "P03",
+          "start": 466.52,
+          "text": "Hmm yeah I didn't put in all the dressing."
+        },
+        {
+          "end": 467.68999999999994,
+          "speaker": "P01",
+          "start": 467.41999999999996,
+          "text": "Yeah. Oh okay."
+        },
+        {
+          "end": 469.27,
+          "speaker": "P03",
+          "start": 469.03,
+          "text": "I figured it's probably [inaudible 0:15:49.45] too much."
+        },
+        {
+          "end": 470.05999999999995,
+          "speaker": "P01",
+          "start": 469.40999999999997,
+          "text": "Yeah, thanks."
+        },
+        {
+          "end": 471.08000000000004,
+          "speaker": "P03",
+          "start": 470.36,
+          "text": "Should we get the cheese in a bowl? It'd be easier to"
+        },
+        {
+          "end": 474.5,
+          "speaker": "P01",
+          "start": 470.39,
+          "text": "Yeah sure it's [inaudible 0:15:58.61] here."
+        },
+        {
+          "end": 472.44999999999993,
+          "speaker": "P03",
+          "start": 470.65999999999997,
+          "text": "Thanks."
+        },
+        {
+          "end": 474.63,
+          "speaker": "P01",
+          "start": 471.79999999999995,
+          "text": "See how much, maybe we don't need those huge plates per person."
+        },
+        {
+          "end": 474.73,
+          "speaker": "P02",
+          "start": 474.40999999999997,
+          "text": "Yeah that's true."
+        },
+        {
+          "end": 479.82000000000005,
+          "speaker": "P01",
+          "start": 474.58000000000004,
+          "text": "We don't have room on that table."
+        },
+        {
+          "end": 478.64,
+          "speaker": "P04",
+          "start": 477.75,
+          "text": "I think the small plates would work."
+        },
+        {
+          "end": 479.99,
+          "speaker": "P01",
+          "start": 479.33000000000004,
+          "text": "Yeah."
+        },
+        {
+          "end": 479.9899999999999,
+          "speaker": "P04",
+          "start": 479.67999999999995,
+          "text": "Yeah."
+        },
+        {
+          "end": 481.38,
+          "speaker": "P01",
+          "start": 480.45000000000005,
+          "text": "Maybe then we can replace those. [inaudible 0:16:08.85] Sure."
+        },
+        {
+          "end": 482.44999999999993,
+          "speaker": "P02",
+          "start": 481.40999999999997,
+          "text": "Should be interesting."
+        },
+        {
+          "end": 483.86,
+          "speaker": "P01",
+          "start": 481.64,
+          "text": "Yeah. I don't think I've ever"
+        },
+        {
+          "end": 485.77,
+          "speaker": "P02",
+          "start": 484.75,
+          "text": "[laughs]"
+        },
+        {
+          "end": 486.36,
+          "speaker": "P01",
+          "start": 485.85,
+          "text": "heat up [laughs] Perhaps you you'll like this. Mmm. [inaudible 0:16:47.40]"
+        },
+        {
+          "end": 487.36,
+          "speaker": "P03",
+          "start": 486.65,
+          "text": "Hmm."
+        },
+        {
+          "end": 488.25,
+          "speaker": "P01",
+          "start": 487.16999999999996,
+          "text": "Are these for, this was used for the raw beef?"
+        },
+        {
+          "end": 489.59000000000003,
+          "speaker": "P02",
+          "start": 487.85,
+          "text": "Yep."
+        },
+        {
+          "end": 489.93999999999994,
+          "speaker": "P01",
+          "start": 489.39,
+          "text": "Okay we'll put that in the sink."
+        },
+        {
+          "end": 493.28,
+          "speaker": "P02",
+          "start": 491.55999999999995,
+          "text": "[inaudible 0:16:55.18]"
+        },
+        {
+          "end": 498.56999999999994,
+          "speaker": "P01",
+          "start": 496.42999999999995,
+          "text": "Can throw this out. Oh."
+        },
+        {
+          "end": 497.05000000000007,
+          "speaker": "P02",
+          "start": 496.59000000000003,
+          "text": "[inaudible 0:17:03.52]"
+        },
+        {
+          "end": 498.0300000000001,
+          "speaker": "P03",
+          "start": 497.46000000000004,
+          "text": "Hmm. Um yeah, unless you wanna keep some of the dressing in case."
+        },
+        {
+          "end": 501.52,
+          "speaker": "P02",
+          "start": 498.90999999999997,
+          "text": "Oh, garbage?"
+        },
+        {
+          "end": 504.86,
+          "speaker": "P01",
+          "start": 502.9,
+          "text": "Oh with maybe we can put all the plastic stuff in uh, a plastic bag and sorta"
+        },
+        {
+          "end": 505.5999999999999,
+          "speaker": "P02",
+          "start": 503.91999999999996,
+          "text": "Yeah, there's a plastic"
+        },
+        {
+          "end": 506.47,
+          "speaker": "P03",
+          "start": 505.70000000000005,
+          "text": "Okay."
+        },
+        {
+          "end": 508.0799999999999,
+          "speaker": "P02",
+          "start": 506.77,
+          "text": "Sorry."
+        },
+        {
+          "end": 522.78,
+          "speaker": "P04",
+          "start": 520.97,
+          "text": "Mm s'okay."
+        },
+        {
+          "end": 522.77,
+          "speaker": "P01",
+          "start": 521.21,
+          "text": "I have a bag going."
+        },
+        {
+          "end": 537.0799999999999,
+          "speaker": "P02",
+          "start": 534.79,
+          "text": "Here. You know what you're doing."
+        },
+        {
+          "end": 538.0500000000001,
+          "speaker": "P03",
+          "start": 537.71,
+          "text": "I'll keep the dressing in case. There's a little bit here."
+        },
+        {
+          "end": 540.04,
+          "speaker": "P02",
+          "start": 538.4,
+          "text": "Okay."
+        },
+        {
+          "end": 541.12,
+          "speaker": "P01",
+          "start": 539.77,
+          "text": "I didn't know how many tomatoes to get, so I got like four."
+        },
+        {
+          "end": 541.04,
+          "speaker": "P04",
+          "start": 540.28,
+          "text": "I think two, two is enough."
+        },
+        {
+          "end": 543.5,
+          "speaker": "P01",
+          "start": 542.6,
+          "text": "Like one maybe one per person."
+        },
+        {
+          "end": 546.3,
+          "speaker": "P04",
+          "start": 545.01,
+          "text": "[laughs]"
+        },
+        {
+          "end": 549.6999999999999,
+          "speaker": "P01",
+          "start": 547.54,
+          "text": "Lotta tomatoes. Ooh."
+        },
+        {
+          "end": 555.49,
+          "speaker": "P04",
+          "start": 553.5,
+          "text": "Mhm."
+        },
+        {
+          "end": 558.32,
+          "speaker": "P02",
+          "start": 555.49,
+          "text": "Is it running?"
+        },
+        {
+          "end": 557.34,
+          "speaker": "P01",
+          "start": 556.83,
+          "text": "Yeah."
+        },
+        {
+          "end": 558.4,
+          "speaker": "P02",
+          "start": 557.87,
+          "text": "Hmm."
+        },
+        {
+          "end": 563.42,
+          "speaker": "P01",
+          "start": 561.9,
+          "text": "[noise] Yeah. That one without chips. So we should probably put this somewhere, on a"
+        },
+        {
+          "end": 565.7,
+          "speaker": "P02",
+          "start": 564.48,
+          "text": "Oh on another plate?"
+        },
+        {
+          "end": 567.72,
+          "speaker": "P01",
+          "start": 565.6,
+          "text": "plate? Or is there a plate that we can already"
+        },
+        {
+          "end": 568.18,
+          "speaker": "P02",
+          "start": 567.64,
+          "text": "Because the table's already set right?"
+        },
+        {
+          "end": 569.1,
+          "speaker": "P04",
+          "start": 567.99,
+          "text": "We can all put"
+        },
+        {
+          "end": 569.28,
+          "speaker": "P01",
+          "start": 568.72,
+          "text": "Yeah we can already put it on per person."
+        },
+        {
+          "end": 570.17,
+          "speaker": "P02",
+          "start": 569.28,
+          "text": "Oh."
+        },
+        {
+          "end": 573.4399999999999,
+          "speaker": "P01",
+          "start": 572.28,
+          "text": "Yeah. Two per person. Actually I think it's three per person."
+        },
+        {
+          "end": 575.21,
+          "speaker": "P02",
+          "start": 573.72,
+          "text": "Should we"
+        },
+        {
+          "end": 576.12,
+          "speaker": "P01",
+          "start": 574.64,
+          "text": "Oh thanks."
+        },
+        {
+          "end": 577.01,
+          "speaker": "P02",
+          "start": 576.12,
+          "text": "Yeah."
+        },
+        {
+          "end": 577.74,
+          "speaker": "P01",
+          "start": 577.01,
+          "text": "[inaudible 0:18:22.88] This too. It's okay there."
+        },
+        {
+          "end": 579.5,
+          "speaker": "P02",
+          "start": 577.6,
+          "text": "Over there. Okay."
+        },
+        {
+          "end": 581.66,
+          "speaker": "P01",
+          "start": 577.78,
+          "text": "I think it's good enough. And then three?"
+        },
+        {
+          "end": 582.28,
+          "speaker": "P02",
+          "start": 580.1,
+          "text": "Did you wanna pass me a bowl?"
+        },
+        {
+          "end": 582.92,
+          "speaker": "P01",
+          "start": 581.36,
+          "text": "Yeah. Sorry."
+        },
+        {
+          "end": 583.88,
+          "speaker": "P03",
+          "start": 582.86,
+          "text": "[noise] [inaudible 0:18:43.97]"
+        },
+        {
+          "end": 583.89,
+          "speaker": "P02",
+          "start": 582.87,
+          "text": "Smells pretty good, guys."
+        },
+        {
+          "end": 589.25,
+          "speaker": "P01",
+          "start": 583.88,
+          "text": "Yeah."
+        },
+        {
+          "end": 586.77,
+          "speaker": "P03",
+          "start": 585.18,
+          "text": "Yeah."
+        },
+        {
+          "end": 590.64,
+          "speaker": "P01",
+          "start": 589.71,
+          "text": "Not too bad."
+        },
+        {
+          "end": 593.34,
+          "speaker": "P04",
+          "start": 591.12,
+          "text": "Smells good."
+        },
+        {
+          "end": 592.2800000000001,
+          "speaker": "P01",
+          "start": 591.2,
+          "text": "Not too bad for one one little campfire"
+        },
+        {
+          "end": 595.96,
+          "speaker": "P02",
+          "start": 592.83,
+          "text": "[laughs]"
+        },
+        {
+          "end": 597.0,
+          "speaker": "P01",
+          "start": 595.12,
+          "text": "stovetop."
+        },
+        {
+          "end": 596.88,
+          "speaker": "P03",
+          "start": 596.02,
+          "text": "Okay [inaudible 0:19:00.21]"
+        },
+        {
+          "end": 597.9599999999999,
+          "speaker": "P04",
+          "start": 597.04,
+          "text": "Do you use this at home too?"
+        },
+        {
+          "end": 597.83,
+          "speaker": "P01",
+          "start": 597.49,
+          "text": "No like my mom sometimes takes it to camping."
+        }
+      ]
+    }
+  ],
+  "profile": "smoke",
+  "track": "meeting"
+}

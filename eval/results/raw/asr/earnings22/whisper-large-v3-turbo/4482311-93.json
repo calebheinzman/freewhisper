@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.7600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-93",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.95903739400189,
+  "text" : "perfume. It's the first time it's happened in the perfume universe. Extraordinary success of this Sauvage perfume.",
+  "track" : "asr",
+  "wallSeconds" : 1.9681365
+}

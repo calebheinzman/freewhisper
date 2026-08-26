@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.6,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00045797",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.2912644331758787,
+  "text" : "Oh dear. What happened there?",
+  "track" : "asr",
+  "wallSeconds" : 1.134744625
+}

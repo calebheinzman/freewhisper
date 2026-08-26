@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.059875,
+  "dataset" : "earnings22",
+  "id" : "4482311-220",
+  "model" : "parakeet-v3",
+  "rtfx" : 55.568227131025786,
+  "text" : "We were at minus eighteen, then minus fifteen, then minus six percent in uh Q three and then plus one percent in Q four.",
+  "track" : "asr",
+  "wallSeconds" : 0.145044667
+}

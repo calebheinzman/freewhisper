@@ -1,0 +1,14 @@
+{
+  "dataset" : "notsofar",
+  "failureCount" : 0,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 5,
+  "model" : "distil-whisper-large-v3",
+  "modelLoadSeconds" : 5.648465958,
+  "totalWallSeconds" : 130.375097375,
+  "track" : "meeting"
+}

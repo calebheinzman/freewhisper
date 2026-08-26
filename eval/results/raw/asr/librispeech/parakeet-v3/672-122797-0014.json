@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.555,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0014",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.933193137590102,
+  "text" : "were I but already on the cart,",
+  "track" : "asr",
+  "wallSeconds" : 0.1067555
+}

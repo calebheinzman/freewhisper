@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.84,
+  "dataset" : "librispeech",
+  "id" : "2830-3980-0008",
+  "model" : "parakeet-v3",
+  "rtfx" : 40.55707318708207,
+  "text" : "Paul takes pride in his ministry, not to his own praise, but to the praise of God",
+  "track" : "asr",
+  "wallSeconds" : 0.119338
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.255,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0014",
+  "model" : "parakeet-v3",
+  "rtfx" : 18.63469513812292,
+  "text" : "You are acute.",
+  "track" : "asr",
+  "wallSeconds" : 0.121010834
+}

@@ -1,0 +1,14 @@
+{
+  "dataset" : "earnings22",
+  "failureCount" : 0,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 250,
+  "model" : "whisper-large-v3-turbo",
+  "modelLoadSeconds" : 6.434717125,
+  "totalWallSeconds" : 345.2334745,
+  "track" : "asr"
+}

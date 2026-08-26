@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.58,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00094848",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.35738644396531,
+  "text" : "I think that's a cost thing. I don't I don't know how much we're gonna know about",
+  "track" : "asr",
+  "wallSeconds" : 0.122599583
+}

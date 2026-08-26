@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.280125,
+  "dataset" : "earnings22",
+  "id" : "4482311-2",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.119661993764488,
+  "text" : "I apologize for being on Zoom.",
+  "track" : "asr",
+  "wallSeconds" : 1.075702167
+}

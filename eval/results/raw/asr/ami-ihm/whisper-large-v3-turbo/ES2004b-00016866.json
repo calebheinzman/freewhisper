@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.96,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00016866",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.8082584831104684,
+  "text" : "Shall we hear from marketing first?",
+  "track" : "asr",
+  "wallSeconds" : 1.083915833
+}

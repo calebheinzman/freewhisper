@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.3400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-70",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.909873127666414,
+  "text" : "the Maison Dior of Avenue Montaigne that was chosen in 1947 by Monsieur Dior.",
+  "track" : "asr",
+  "wallSeconds" : 1.291288458
+}

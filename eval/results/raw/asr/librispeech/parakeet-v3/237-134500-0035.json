@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.555,
+  "dataset" : "librispeech",
+  "id" : "237-134500-0035",
+  "model" : "parakeet-v3",
+  "rtfx" : 24.33060089099327,
+  "text" : "and you never used to be cross to me",
+  "track" : "asr",
+  "wallSeconds" : 0.105011792
+}

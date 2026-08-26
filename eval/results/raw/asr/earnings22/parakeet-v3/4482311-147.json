@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.0800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-147",
+  "model" : "parakeet-v3",
+  "rtfx" : 19.86469170705174,
+  "text" : "Everyone's talking about inflation.",
+  "track" : "asr",
+  "wallSeconds" : 0.104711542
+}

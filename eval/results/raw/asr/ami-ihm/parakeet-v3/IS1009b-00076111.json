@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.04,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00076111",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.421902490420976,
+  "text" : "So can you go to the next slide please?",
+  "track" : "asr",
+  "wallSeconds" : 0.09989275
+}

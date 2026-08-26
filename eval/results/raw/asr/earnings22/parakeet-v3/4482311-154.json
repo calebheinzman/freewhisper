@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.0400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-154",
+  "model" : "parakeet-v3",
+  "rtfx" : 80.04780001214486,
+  "text" : "I can't tell you that I uh favour one or other of the explanations, but those are the two that we have uh heard and listened to.",
+  "track" : "asr",
+  "wallSeconds" : 0.137918375
+}

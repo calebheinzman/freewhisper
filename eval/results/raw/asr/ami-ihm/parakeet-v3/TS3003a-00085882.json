@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.67,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00085882",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.551564650018182,
+  "text" : "You have to go really slow on when you're writing.",
+  "track" : "asr",
+  "wallSeconds" : 0.114764291
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.82,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00083499",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.2579910951651865,
+  "text" : "It's a real dead sheep.",
+  "track" : "asr",
+  "wallSeconds" : 1.36684175
+}

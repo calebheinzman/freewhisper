@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.54,
+  "dataset" : "librispeech",
+  "id" : "8230-279154-0029",
+  "model" : "parakeet-v3",
+  "rtfx" : 57.827980379792365,
+  "text" : "The fact that a man can recite a poem does not show that he remembers any previous occasion on which he has recited or read it.",
+  "track" : "asr",
+  "wallSeconds" : 0.147679375
+}

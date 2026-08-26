@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.45,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102284",
+  "model" : "parakeet-v3",
+  "rtfx" : 22.334790986878055,
+  "text" : "Mm. Because the clock could be really friendly.",
+  "track" : "asr",
+  "wallSeconds" : 0.109694333
+}

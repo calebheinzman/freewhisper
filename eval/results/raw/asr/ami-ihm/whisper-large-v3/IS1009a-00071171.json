@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.97,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00071171",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.6701406335063194,
+  "text" : "Working design, yeah. It's maybe technical functional design.",
+  "track" : "asr",
+  "wallSeconds" : 2.377045334
+}

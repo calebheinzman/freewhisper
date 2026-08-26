@@ -1,0 +1,1504 @@
+{
+  "audioSeconds" : 376.892625,
+  "dataset" : "notsofar",
+  "id" : "MTG_32003",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7411071299412908,
+  "segments" : [
+    {
+      "end" : 13.179999351501465,
+      "speaker" : "speaker_0",
+      "start" : 0,
+      "text" : "Okay, so we're here today to discuss last week's electric bike accident and talk about what"
+    },
+    {
+      "end" : 18.760000228881836,
+      "speaker" : "speaker_0",
+      "start" : 13.179999351501465,
+      "text" : "to do about this whole electric bike situation, if it's beneficial, if it's something we should"
+    },
+    {
+      "end" : 21.619998931884766,
+      "speaker" : "speaker_0",
+      "start" : 18.760000228881836,
+      "text" : "get rid of with all the accidents we've been having."
+    },
+    {
+      "end" : 23.69999885559082,
+      "speaker" : "speaker_0",
+      "start" : 21.619998931884766,
+      "text" : "What do you think about it, Ron?"
+    },
+    {
+      "end" : 40.58000183105469,
+      "speaker" : "speaker_1",
+      "start" : 23.700000762939453,
+      "text" : "Well, electric bikes have been helping a lot of people get to work and lessening the amount of traffic on the roads and eliminating many people from public transportation."
+    },
+    {
+      "end" : 44.23999786376953,
+      "speaker" : "speaker_1",
+      "start" : 40.599998474121094,
+      "text" : "So I'm all for electric bikes."
+    },
+    {
+      "end" : 50.87999725341797,
+      "speaker" : "speaker_1",
+      "start" : 44.23999786376953,
+      "text" : "And I think maybe if there was a speed limit that was enforced"
+    },
+    {
+      "end" : 52.07999801635742,
+      "speaker" : "speaker_1",
+      "start" : 50.87999725341797,
+      "text" : "to keep it safe--"
+    },
+    {
+      "end" : 53.07999801635742,
+      "speaker" : "speaker_1",
+      "start" : 52.07999801635742,
+      "text" : "- Enforced, yeah."
+    },
+    {
+      "end" : 53.57999801635742,
+      "speaker" : "speaker_1",
+      "start" : 53.07999801635742,
+      "text" : "That's--"
+    },
+    {
+      "end" : 54.57999801635742,
+      "speaker" : "speaker_2",
+      "start" : 53.57999801635742,
+      "text" : "- Not enough--"
+    },
+    {
+      "end" : 55.91999816894531,
+      "speaker" : "speaker_1",
+      "start" : 54.57999801635742,
+      "text" : "- That's a problem."
+    },
+    {
+      "end" : 60.91999816894531,
+      "speaker" : "speaker_1",
+      "start" : 55.91999816894531,
+      "text" : "I think we should give a lot of people laser, some kind"
+    },
+    {
+      "end" : 64.41999816894531,
+      "speaker" : "speaker_1",
+      "start" : 60.91999816894531,
+      "text" : "of a laser direction meter so they can actually point"
+    },
+    {
+      "end" : 65.89999389648438,
+      "speaker" : "speaker_1",
+      "start" : 64.41999816894531,
+      "text" : "at somebody and--"
+    },
+    {
+      "end" : 67.9000015258789,
+      "speaker" : "speaker_1",
+      "start" : 65.9000015258789,
+      "text" : "and find out how fast you are."
+    },
+    {
+      "end" : 68.9000015258789,
+      "speaker" : "speaker_0",
+      "start" : 67.9000015258789,
+      "text" : "- Just the billions?"
+    },
+    {
+      "end" : 69.9000015258789,
+      "speaker" : "speaker_1",
+      "start" : 68.9000015258789,
+      "text" : "- Yeah, just the billions?"
+    },
+    {
+      "end" : 70.9000015258789,
+      "speaker" : "speaker_1",
+      "start" : 69.9000015258789,
+      "text" : "- That's right, there should be like a--"
+    },
+    {
+      "end" : 72.13999938964844,
+      "speaker" : "speaker_1",
+      "start" : 70.9000015258789,
+      "text" : "- I bet your friend's gonna watch."
+    },
+    {
+      "end" : 74.54000091552734,
+      "speaker" : "speaker_1",
+      "start" : 72.13999938964844,
+      "text" : "- There should be a council of people that,"
+    },
+    {
+      "end" : 78.9800033569336,
+      "speaker" : "speaker_1",
+      "start" : 74.54000091552734,
+      "text" : "you know, that get to distribute these laser readers."
+    },
+    {
+      "end" : 81.5,
+      "speaker" : "speaker_3",
+      "start" : 78.9800033569336,
+      "text" : "- Maybe the city employees."
+    },
+    {
+      "end" : 87.94000244140625,
+      "speaker" : "speaker_1",
+      "start" : 81.5,
+      "text" : "No, no, I'm talking about normal citizens that can point to people and say hey, they're going too fast."
+    },
+    {
+      "end" : 92.62000274658203,
+      "speaker" : "speaker_3",
+      "start" : 87.94000244140625,
+      "text" : "Oh, I can't see that working. I can see a real bad place against that."
+    },
+    {
+      "end" : 95.0199966430664,
+      "speaker" : "speaker_2",
+      "start" : 92.62000274658203,
+      "text" : "Are you against it? I think the first thing..."
+    },
+    {
+      "end" : 96.0199966430664,
+      "speaker" : "speaker_2",
+      "start" : 95.0199966430664,
+      "text" : "Against electric bikes?"
+    },
+    {
+      "end" : 98.5,
+      "speaker" : "speaker_3",
+      "start" : 96.0199966430664,
+      "text" : "No, no, I'm against the laser pointer."
+    },
+    {
+      "end" : 106.0999984741211,
+      "speaker" : "speaker_2",
+      "start" : 98.5,
+      "text" : "The first thing to do is to ask anybody"
+    },
+    {
+      "end" : 109.18000030517578,
+      "speaker" : "speaker_2",
+      "start" : 106.0999984741211,
+      "text" : "to take a driver's license."
+    },
+    {
+      "end" : 111.41999816894531,
+      "speaker" : "speaker_2",
+      "start" : 109.18000030517578,
+      "text" : "- They already do that."
+    },
+    {
+      "end" : 112.25999450683594,
+      "speaker" : "speaker_2",
+      "start" : 111.41999816894531,
+      "text" : "- No they don't."
+    },
+    {
+      "end" : 114.94000244140625,
+      "speaker" : "speaker_0",
+      "start" : 112.25999450683594,
+      "text" : "- They do it on the app when you go to rent a bike,"
+    },
+    {
+      "end" : 116.86000061035156,
+      "speaker" : "speaker_0",
+      "start" : 114.94000244140625,
+      "text" : "you have to have a driver's license."
+    },
+    {
+      "end" : 118.18000030517578,
+      "speaker" : "speaker_0",
+      "start" : 116.86000061035156,
+      "text" : "How do we enforce these things?"
+    },
+    {
+      "end" : 119.77999877929688,
+      "speaker" : "speaker_0",
+      "start" : 118.18000030517578,
+      "text" : "How do we enforce driver's license?"
+    },
+    {
+      "end" : 122.29999542236328,
+      "speaker" : "speaker_2",
+      "start" : 119.77999877929688,
+      "text" : "- I know at least three, four people around me"
+    },
+    {
+      "end" : 124.39999389648438,
+      "speaker" : "speaker_2",
+      "start" : 122.29999542236328,
+      "text" : "that do not have driver's license."
+    },
+    {
+      "end" : 126.06000518798828,
+      "speaker" : "speaker_2",
+      "start" : 124.4000015258789,
+      "text" : "that use their powers."
+    },
+    {
+      "end" : 128.36000061035156,
+      "speaker" : "speaker_0",
+      "start" : 126.06000518798828,
+      "text" : "- Okay, so how do we enforce the driving license,"
+    },
+    {
+      "end" : 131.6800079345703,
+      "speaker" : "speaker_0",
+      "start" : 128.36000061035156,
+      "text" : "the speeds, the all of that, how do we do it?"
+    },
+    {
+      "end" : 132.52000427246094,
+      "speaker" : "speaker_2",
+      "start" : 131.6800079345703,
+      "text" : "- It's a lot."
+    },
+    {
+      "end" : 134.24000549316406,
+      "speaker" : "speaker_0",
+      "start" : 132.52000427246094,
+      "text" : "- Cause it's good for public transportation,"
+    },
+    {
+      "end" : 135.63999938964844,
+      "speaker" : "speaker_0",
+      "start" : 134.24000549316406,
+      "text" : "it's good for less traffic."
+    },
+    {
+      "end" : 138.0800018310547,
+      "speaker" : "speaker_2",
+      "start" : 135.63999938964844,
+      "text" : "- It's more with people on the street who-"
+    },
+    {
+      "end" : 140,
+      "speaker" : "speaker_3",
+      "start" : 138.0800018310547,
+      "text" : "- It's good for the environment,"
+    },
+    {
+      "end" : 144.67999267578125,
+      "speaker" : "speaker_3",
+      "start" : 140,
+      "text" : "but yeah, but overseeing is a bit of a nightmare,"
+    },
+    {
+      "end" : 145.55999755859375,
+      "speaker" : "speaker_1",
+      "start" : 144.67999267578125,
+      "text" : "you know."
+    },
+    {
+      "end" : 147.1199951171875,
+      "speaker" : "speaker_1",
+      "start" : 145.55999755859375,
+      "text" : "- We could use biometrics,"
+    },
+    {
+      "end" : 150.72000122070312,
+      "speaker" : "speaker_1",
+      "start" : 147.1199951171875,
+      "text" : "where everybody has to do some kind of retina scan,,"
+    },
+    {
+      "end" : 153.6999969482422,
+      "speaker" : "speaker_1",
+      "start" : 150.6999969482422,
+      "text" : "That way we know if there are..."
+    },
+    {
+      "end" : 154.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 153.6999969482422,
+      "text" : "AI, good idea."
+    },
+    {
+      "end" : 155.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 154.6999969482422,
+      "text" : "That's right."
+    },
+    {
+      "end" : 157.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 155.6999969482422,
+      "text" : "We're getting more and more freaky."
+    },
+    {
+      "end" : 158.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 157.6999969482422,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 159.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 158.6999969482422,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 160.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 159.6999969482422,
+      "text" : "More and more surveillance."
+    },
+    {
+      "end" : 163.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 160.6999969482422,
+      "text" : "Do you think in general that electric bikes are good?"
+    },
+    {
+      "end" : 164.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 163.6999969482422,
+      "text" : "Maybe."
+    },
+    {
+      "end" : 165.6999969482422,
+      "speaker" : "speaker_0",
+      "start" : 164.6999969482422,
+      "text" : "I think they're good."
+    },
+    {
+      "end" : 167.6999969482422,
+      "speaker" : "speaker_3",
+      "start" : 165.6999969482422,
+      "text" : "As a mode of transportation, yes."
+    },
+    {
+      "end" : 174.59999084472656,
+      "speaker" : "speaker_2",
+      "start" : 167.6999969482422,
+      "text" : "Maybe we should educate the parents not to let their kids under a certain age or without the driver's license."
+    },
+    {
+      "end" : 178.10000610351562,
+      "speaker" : "speaker_2",
+      "start" : 174.60000610351562,
+      "text" : "Do not give them the credit card because they don't have their own."
+    },
+    {
+      "end" : 180.77999877929688,
+      "speaker" : "speaker_2",
+      "start" : 178.10000610351562,
+      "text" : "Or do not give them their driver's license number."
+    },
+    {
+      "end" : 183.72000122070312,
+      "speaker" : "speaker_2",
+      "start" : 180.77999877929688,
+      "text" : "Do you think they're educated enough on it though?"
+    },
+    {
+      "end" : 184.52000427246094,
+      "speaker" : "speaker_2",
+      "start" : 183.72000122070312,
+      "text" : "The parents?"
+    },
+    {
+      "end" : 185.02000427246094,
+      "speaker" : "speaker_2",
+      "start" : 184.52000427246094,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 186.82000732421875,
+      "speaker" : "speaker_2",
+      "start" : 185.02000427246094,
+      "text" : "Parents wants to be left alone."
+    },
+    {
+      "end" : 188.82000732421875,
+      "speaker" : "speaker_2",
+      "start" : 186.82000732421875,
+      "text" : "Because there's so many accidents of electric cars."
+    },
+    {
+      "end" : 191.42001342773438,
+      "speaker" : "speaker_2",
+      "start" : 188.82000732421875,
+      "text" : "Parents, do they want to be left alone?"
+    },
+    {
+      "end" : 194.70001220703125,
+      "speaker" : "speaker_2",
+      "start" : 191.42001342773438,
+      "text" : "They want to go and make money so that they can travel."
+    },
+    {
+      "end" : 198.22000122070312,
+      "speaker" : "speaker_0",
+      "start" : 194.70001220703125,
+      "text" : "Don't you think they already know that there are so many accidents?"
+    },
+    {
+      "end" : 201.02000427246094,
+      "speaker" : "speaker_2",
+      "start" : 198.22000122070312,
+      "text" : "Yes, they know and they care."
+    },
+    {
+      "end" : 202.90000915527344,
+      "speaker" : "speaker_2",
+      "start" : 201.02000427246094,
+      "text" : "Do they do something about it?"
+    },
+    {
+      "end" : 205.83999633789062,
+      "speaker" : "speaker_2",
+      "start" : 202.89999389648438,
+      "text" : "- It's parents are not there."
+    },
+    {
+      "end" : 207.36000061035156,
+      "speaker" : "speaker_2",
+      "start" : 205.83999633789062,
+      "text" : "Parents are not there."
+    },
+    {
+      "end" : 209.9399871826172,
+      "speaker" : "speaker_2",
+      "start" : 207.36000061035156,
+      "text" : "- So what can we do about it?"
+    },
+    {
+      "end" : 211.77999877929688,
+      "speaker" : "speaker_2",
+      "start" : 209.9399871826172,
+      "text" : "- What could we do about it?"
+    },
+    {
+      "end" : 212.6599884033203,
+      "speaker" : "speaker_2",
+      "start" : 211.77999877929688,
+      "text" : "- That's a problem, it's a problem."
+    },
+    {
+      "end" : 213.5,
+      "speaker" : "speaker_2",
+      "start" : 212.6599884033203,
+      "text" : "- Oh."
+    },
+    {
+      "end" : 214.739990234375,
+      "speaker" : "speaker_2",
+      "start" : 213.5,
+      "text" : "If there is an accident,"
+    },
+    {
+      "end" : 217.1999969482422,
+      "speaker" : "speaker_2",
+      "start" : 214.739990234375,
+      "text" : "do not say he's underage."
+    },
+    {
+      "end" : 218.89999389648438,
+      "speaker" : "speaker_2",
+      "start" : 217.1999969482422,
+      "text" : "You go after the parents."
+    },
+    {
+      "end" : 219.739990234375,
+      "speaker" : "speaker_2",
+      "start" : 218.89999389648438,
+      "text" : "- So."
+    },
+    {
+      "end" : 222.1199951171875,
+      "speaker" : "speaker_2",
+      "start" : 219.739990234375,
+      "text" : "- Because of course the underage doesn't have an insurance,"
+    },
+    {
+      "end" : 224.1999969482422,
+      "speaker" : "speaker_2",
+      "start" : 222.1199951171875,
+      "text" : "but the parents do have insurance."
+    },
+    {
+      "end" : 225.72000122070312,
+      "speaker" : "speaker_1",
+      "start" : 224.1999969482422,
+      "text" : "- So the parents are responsible."
+    },
+    {
+      "end" : 226.55999755859375,
+      "speaker" : "speaker_1",
+      "start" : 225.72000122070312,
+      "text" : "- Absolutely."
+    },
+    {
+      "end" : 227.55999755859375,
+      "speaker" : "speaker_1",
+      "start" : 226.55999755859375,
+      "text" : "- Right."
+    },
+    {
+      "end" : 228.9399871826172,
+      "speaker" : "speaker_2",
+      "start" : 227.55999755859375,
+      "text" : "- Absolutely."
+    },
+    {
+      "end" : 231.59999084472656,
+      "speaker" : "speaker_2",
+      "start" : 228.9399871826172,
+      "text" : "- How do we make the kids not do it?"
+    },
+    {
+      "end" : 232.51998901367188,
+      "speaker" : "speaker_2",
+      "start" : 231.59999084472656,
+      "text" : ". - Yes."
+    },
+    {
+      "end" : 234.40000915527344,
+      "speaker" : "speaker_2",
+      "start" : 231.60000610351562,
+      "text" : "the parents don't let them do it."
+    },
+    {
+      "end" : 236.3400115966797,
+      "speaker" : "speaker_2",
+      "start" : 234.40000915527344,
+      "text" : "Because if they think once, twice, or three times"
+    },
+    {
+      "end" : 239.82000732421875,
+      "speaker" : "speaker_2",
+      "start" : 236.3400115966797,
+      "text" : "they have some, you know, the cases like that,"
+    },
+    {
+      "end" : 240.66000366210938,
+      "speaker" : "speaker_2",
+      "start" : 239.82000732421875,
+      "text" : "they might think,"
+    },
+    {
+      "end" : 242.70001220703125,
+      "speaker" : "speaker_2",
+      "start" : 240.66000366210938,
+      "text" : "\"But she's the only one that got in accidents?\""
+    },
+    {
+      "end" : 244.66000366210938,
+      "speaker" : "speaker_3",
+      "start" : 242.70001220703125,
+      "text" : "- No, no, of course not."
+    },
+    {
+      "end" : 245.5,
+      "speaker" : "speaker_3",
+      "start" : 244.66000366210938,
+      "text" : "- No, but--"
+    },
+    {
+      "end" : 246.9600067138672,
+      "speaker" : "speaker_3",
+      "start" : 245.5,
+      "text" : "- It's also poor driving."
+    },
+    {
+      "end" : 249.66000366210938,
+      "speaker" : "speaker_3",
+      "start" : 246.9600067138672,
+      "text" : "- And there's two sides to the liability."
+    },
+    {
+      "end" : 250.60000610351562,
+      "speaker" : "speaker_3",
+      "start" : 249.66000366210938,
+      "text" : "- Yes."
+    },
+    {
+      "end" : 252.48001098632812,
+      "speaker" : "speaker_2",
+      "start" : 250.60000610351562,
+      "text" : "- So what do we do for enforcing?"
+    },
+    {
+      "end" : 259.5,
+      "speaker" : "speaker_2",
+      "start" : 252.5,
+      "text" : "I know I have a camera on my car to go for the front and the back."
+    },
+    {
+      "end" : 268.1400146484375,
+      "speaker" : "speaker_2",
+      "start" : 259.5,
+      "text" : "I installed the camera just because my side mirror was taken twice."
+    },
+    {
+      "end" : 271.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 268.1400146484375,
+      "text" : "We can also increase the use of UAVs."
+    },
+    {
+      "end" : 273.2200012207031,
+      "speaker" : "speaker_1",
+      "start" : 271.1000061035156,
+      "text" : "of drones in the city."
+    },
+    {
+      "end" : 274.6199951171875,
+      "speaker" : "speaker_1",
+      "start" : 273.2200012207031,
+      "text" : "- I love the way you think."
+    },
+    {
+      "end" : 275.4599914550781,
+      "speaker" : "speaker_1",
+      "start" : 274.6199951171875,
+      "text" : "- And that way--"
+    },
+    {
+      "end" : 277.05999755859375,
+      "speaker" : "speaker_1",
+      "start" : 275.4599914550781,
+      "text" : "- I love the way you think."
+    },
+    {
+      "end" : 278.3800048828125,
+      "speaker" : "speaker_1",
+      "start" : 277.05999755859375,
+      "text" : "- You can actually take--"
+    },
+    {
+      "end" : 279.3800048828125,
+      "speaker" : "speaker_1",
+      "start" : 278.3800048828125,
+      "text" : "- I love the way you think."
+    },
+    {
+      "end" : 281.20001220703125,
+      "speaker" : "speaker_1",
+      "start" : 279.3800048828125,
+      "text" : "- Why not more surveillance?"
+    },
+    {
+      "end" : 282.6400146484375,
+      "speaker" : "speaker_1",
+      "start" : 281.20001220703125,
+      "text" : "- Well, surveillance, yes."
+    },
+    {
+      "end" : 283.6400146484375,
+      "speaker" : "speaker_1",
+      "start" : 282.6400146484375,
+      "text" : "- So more surveillance."
+    },
+    {
+      "end" : 285.9599914550781,
+      "speaker" : "speaker_1",
+      "start" : 283.6400146484375,
+      "text" : "- This is the way to keep us safe."
+    },
+    {
+      "end" : 287.82000732421875,
+      "speaker" : "speaker_1",
+      "start" : 285.9599914550781,
+      "text" : "- You can track the speed of people,"
+    },
+    {
+      "end" : 289.94000244140625,
+      "speaker" : "speaker_1",
+      "start" : 287.82000732421875,
+      "text" : "so that way you know how fast they're going,"
+    },
+    {
+      "end" : 293,
+      "speaker" : "speaker_1",
+      "start" : 289.94000244140625,
+      "text" : "and you also identify people as their--"
+    },
+    {
+      "end" : 294.8000183105469,
+      "speaker" : "speaker_0",
+      "start" : 293,
+      "text" : "- Is this reasonable though?"
+    },
+    {
+      "end" : 295.29998779296875,
+      "speaker" : "speaker_0",
+      "start" : 294.79998779296875,
+      "text" : "Yes."
+    },
+    {
+      "end" : 295.6400146484375,
+      "speaker" : "speaker_0",
+      "start" : 294.8399963378906,
+      "text" : "- Yes."
+    },
+    {
+      "end" : 297.4599914550781,
+      "speaker" : "speaker_0",
+      "start" : 295.29998779296875,
+      "text" : "It's something that there's enough money for it."
+    },
+    {
+      "end" : 299.9599914550781,
+      "speaker" : "speaker_1",
+      "start" : 297.4599914550781,
+      "text" : "It's something that's happening in every city"
+    },
+    {
+      "end" : 302.55999755859375,
+      "speaker" : "speaker_1",
+      "start" : 299.9599914550781,
+      "text" : "all over the world that there are cameras all over the place."
+    },
+    {
+      "end" : 303.29998779296875,
+      "speaker" : "speaker_1",
+      "start" : 302.55999755859375,
+      "text" : "Absolutely."
+    },
+    {
+      "end" : 305.44000244140625,
+      "speaker" : "speaker_1",
+      "start" : 303.29998779296875,
+      "text" : "So what's just another few cameras"
+    },
+    {
+      "end" : 306.79998779296875,
+      "speaker" : "speaker_1",
+      "start" : 305.44000244140625,
+      "text" : "if it's helping us be safe?"
+    },
+    {
+      "end" : 307.29998779296875,
+      "speaker" : "speaker_2",
+      "start" : 306.79998779296875,
+      "text" : "Absolutely."
+    },
+    {
+      "end" : 307.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 307.29998779296875,
+      "text" : "Being safe."
+    },
+    {
+      "end" : 308.8399963378906,
+      "speaker" : "speaker_2",
+      "start" : 307.79998779296875,
+      "text" : "It's kind of a paradox."
+    },
+    {
+      "end" : 312.7799987792969,
+      "speaker" : "speaker_3",
+      "start" : 308.8399963378906,
+      "text" : "We have a relatively low tech means of transportation"
+    },
+    {
+      "end" : 315.239990234375,
+      "speaker" : "speaker_3",
+      "start" : 312.7799987792969,
+      "text" : "that's relatively good for the environment."
+    },
+    {
+      "end" : 318.2599792480469,
+      "speaker" : "speaker_3",
+      "start" : 315.239990234375,
+      "text" : "And yet what you're proposing is more and more and more"
+    },
+    {
+      "end" : 320.5199890136719,
+      "speaker" : "speaker_3",
+      "start" : 318.2599792480469,
+      "text" : "surveillance, personal surveillance,"
+    },
+    {
+      "end" : 322.2799987792969,
+      "speaker" : "speaker_3",
+      "start" : 320.5199890136719,
+      "text" : "in order to use this thing."
+    },
+    {
+      "end" : 324,
+      "speaker" : "speaker_2",
+      "start" : 322.2799987792969,
+      "text" : "Because people are not--"
+    },
+    {
+      "end" : 327.17999267578125,
+      "speaker" : "speaker_2",
+      "start" : 324,
+      "text" : "The people don't have any discipline."
+    },
+    {
+      "end" : 330.32000732421875,
+      "speaker" : "speaker_0",
+      "start" : 328.67999267578125,
+      "text" : "- So you see, New York, for example,"
+    },
+    {
+      "end" : 333.9800109863281,
+      "speaker" : "speaker_0",
+      "start" : 330.32000732421875,
+      "text" : "now they're gonna come in and use these surveillance,"
+    },
+    {
+      "end" : 336.5,
+      "speaker" : "speaker_0",
+      "start" : 333.9800109863281,
+      "text" : "I think there's enough cameras on the streets already."
+    },
+    {
+      "end" : 338.82000732421875,
+      "speaker" : "speaker_0",
+      "start" : 336.5,
+      "text" : "You think they're gonna do something about that?"
+    },
+    {
+      "end" : 339.6199951171875,
+      "speaker" : "speaker_2",
+      "start" : 338.82000732421875,
+      "text" : "- Yeah."
+    },
+    {
+      "end" : 342.20001220703125,
+      "speaker" : "speaker_2",
+      "start" : 339.6199951171875,
+      "text" : "- In Paris, they just passed a law in Paris"
+    },
+    {
+      "end" : 347.20001220703125,
+      "speaker" : "speaker_2",
+      "start" : 342.20001220703125,
+      "text" : "that the public things are not there."
+    },
+    {
+      "end" : 350.20001220703125,
+      "speaker" : "speaker_1",
+      "start" : 348.94000244140625,
+      "text" : "- You always need a backup."
+    },
+    {
+      "end" : 351.96002197265625,
+      "speaker" : "speaker_1",
+      "start" : 350.20001220703125,
+      "text" : "You know, if a camera goes out,"
+    },
+    {
+      "end" : 355.4200134277344,
+      "speaker" : "speaker_1",
+      "start" : 351.96002197265625,
+      "text" : "if you wanna have a couple of views"
+    },
+    {
+      "end" : 358.4000244140625,
+      "speaker" : "speaker_1",
+      "start" : 355.4200134277344,
+      "text" : "of some kind of accident that might have occurred."
+    },
+    {
+      "end" : 359.4800109863281,
+      "speaker" : "speaker_1",
+      "start" : 358.4000244140625,
+      "text" : "So this way--"
+    },
+    {
+      "end" : 361.70001220703125,
+      "speaker" : "speaker_0",
+      "start" : 359.4800109863281,
+      "text" : "- Do you think cops could give them tickets"
+    },
+    {
+      "end" : 363.82000732421875,
+      "speaker" : "speaker_0",
+      "start" : 361.70001220703125,
+      "text" : "for people on bikes that don't follow the law?"
+    },
+    {
+      "end" : 365.32000732421875,
+      "speaker" : "speaker_0",
+      "start" : 363.82000732421875,
+      "text" : "'Cause right now I don't think that's a thing."
+    },
+    {
+      "end" : 368.5,
+      "speaker" : "speaker_1",
+      "start" : 365.32000732421875,
+      "text" : "- If they had access to UAV video, sure."
+    },
+    {
+      "end" : 373.1400146484375,
+      "speaker" : "speaker_0",
+      "start" : 368.5,
+      "text" : "I would think so. Okay. I don't know. Could be."
+    }
+  ],
+  "speakerTurns" : [
+    {
+      "end" : 20.98472023010254,
+      "speaker" : "speaker_0",
+      "start" : 5.857385158538818
+    },
+    {
+      "end" : 23.157894134521484,
+      "speaker" : "speaker_0",
+      "start" : 21.23938751220703
+    },
+    {
+      "end" : 30.339557647705078,
+      "speaker" : "speaker_1",
+      "start" : 24.38030433654785
+    },
+    {
+      "end" : 40.458404541015625,
+      "speaker" : "speaker_1",
+      "start" : 30.713071823120117
+    },
+    {
+      "end" : 47.589134216308594,
+      "speaker" : "speaker_1",
+      "start" : 40.93378448486328
+    },
+    {
+      "end" : 53.95585632324219,
+      "speaker" : "speaker_1",
+      "start" : 48.04753875732422
+    },
+    {
+      "end" : 54.99150848388672,
+      "speaker" : "speaker_2",
+      "start" : 53.95585632324219
+    },
+    {
+      "end" : 55.70458221435547,
+      "speaker" : "speaker_1",
+      "start" : 54.99150848388672
+    },
+    {
+      "end" : 56.28183364868164,
+      "speaker" : "speaker_2",
+      "start" : 55.70458221435547
+    },
+    {
+      "end" : 65.92529296875,
+      "speaker" : "speaker_1",
+      "start" : 56.28183364868164
+    },
+    {
+      "end" : 67.64006805419922,
+      "speaker" : "speaker_1",
+      "start" : 66.01018524169922
+    },
+    {
+      "end" : 68.82852172851562,
+      "speaker" : "speaker_0",
+      "start" : 67.64006805419922
+    },
+    {
+      "end" : 77.91171264648438,
+      "speaker" : "speaker_1",
+      "start" : 68.82852172851562
+    },
+    {
+      "end" : 77.962646484375,
+      "speaker" : "speaker_3",
+      "start" : 77.91171264648438
+    },
+    {
+      "end" : 79.10016632080078,
+      "speaker" : "speaker_1",
+      "start" : 77.962646484375
+    },
+    {
+      "end" : 79.18505859375,
+      "speaker" : "speaker_3",
+      "start" : 79.10016632080078
+    },
+    {
+      "end" : 79.84719848632812,
+      "speaker" : "speaker_1",
+      "start" : 79.18505859375
+    },
+    {
+      "end" : 81.30729675292969,
+      "speaker" : "speaker_3",
+      "start" : 79.84719848632812
+    },
+    {
+      "end" : 88.01358032226562,
+      "speaker" : "speaker_1",
+      "start" : 81.83361053466797
+    },
+    {
+      "end" : 93.12393951416016,
+      "speaker" : "speaker_3",
+      "start" : 88.01358032226562
+    },
+    {
+      "end" : 96.01018524169922,
+      "speaker" : "speaker_2",
+      "start" : 93.12393951416016
+    },
+    {
+      "end" : 98.47198486328125,
+      "speaker" : "speaker_3",
+      "start" : 96.01018524169922
+    },
+    {
+      "end" : 103.98980712890625,
+      "speaker" : "speaker_2",
+      "start" : 98.47198486328125
+    },
+    {
+      "end" : 105.68760681152344,
+      "speaker" : "speaker_2",
+      "start" : 104.07469940185547
+    },
+    {
+      "end" : 107.40237426757812,
+      "speaker" : "speaker_2",
+      "start" : 106.58743286132812
+    },
+    {
+      "end" : 110.35653686523438,
+      "speaker" : "speaker_2",
+      "start" : 107.41934967041016
+    },
+    {
+      "end" : 110.88285064697266,
+      "speaker" : "speaker_1",
+      "start" : 110.35653686523438
+    },
+    {
+      "end" : 111.01866912841797,
+      "speaker" : "speaker_2",
+      "start" : 110.88285064697266
+    },
+    {
+      "end" : 111.32427215576172,
+      "speaker" : "speaker_0",
+      "start" : 111.01866912841797
+    },
+    {
+      "end" : 111.98641204833984,
+      "speaker" : "speaker_2",
+      "start" : 111.32427215576172
+    },
+    {
+      "end" : 119.54159545898438,
+      "speaker" : "speaker_0",
+      "start" : 111.98641204833984
+    },
+    {
+      "end" : 126.72325897216797,
+      "speaker" : "speaker_2",
+      "start" : 119.54159545898438
+    },
+    {
+      "end" : 131.4261474609375,
+      "speaker" : "speaker_0",
+      "start" : 126.72325897216797
+    },
+    {
+      "end" : 131.59591674804688,
+      "speaker" : "speaker_0",
+      "start" : 131.54498291015625
+    },
+    {
+      "end" : 131.98641967773438,
+      "speaker" : "speaker_2",
+      "start" : 131.59591674804688
+    },
+    {
+      "end" : 132.13922119140625,
+      "speaker" : "speaker_0",
+      "start" : 131.98641967773438
+    },
+    {
+      "end" : 132.27503967285156,
+      "speaker" : "speaker_2",
+      "start" : 132.13922119140625
+    },
+    {
+      "end" : 135.5857391357422,
+      "speaker" : "speaker_0",
+      "start" : 132.27503967285156
+    },
+    {
+      "end" : 137.99659729003906,
+      "speaker" : "speaker_2",
+      "start" : 135.5857391357422
+    },
+    {
+      "end" : 144.8386993408203,
+      "speaker" : "speaker_3",
+      "start" : 137.99659729003906
+    },
+    {
+      "end" : 150.50933837890625,
+      "speaker" : "speaker_1",
+      "start" : 145.09336853027344
+    },
+    {
+      "end" : 153.9728240966797,
+      "speaker" : "speaker_1",
+      "start" : 151.0186767578125
+    },
+    {
+      "end" : 157.6909942626953,
+      "speaker" : "speaker_3",
+      "start" : 153.9728240966797
+    },
+    {
+      "end" : 158.3701171875,
+      "speaker" : "speaker_3",
+      "start" : 158.01358032226562
+    },
+    {
+      "end" : 161.7657012939453,
+      "speaker" : "speaker_3",
+      "start" : 159.15109252929688
+    },
+    {
+      "end" : 162.7334442138672,
+      "speaker" : "speaker_0",
+      "start" : 161.7657012939453
+    },
+    {
+      "end" : 163.58233642578125,
+      "speaker" : "speaker_3",
+      "start" : 162.7334442138672
+    },
+    {
+      "end" : 163.8200225830078,
+      "speaker" : "speaker_0",
+      "start" : 163.58233642578125
+    },
+    {
+      "end" : 164.10865783691406,
+      "speaker" : "speaker_3",
+      "start" : 163.8200225830078
+    },
+    {
+      "end" : 164.46519470214844,
+      "speaker" : "speaker_2",
+      "start" : 164.44821166992188
+    },
+    {
+      "end" : 164.9915008544922,
+      "speaker" : "speaker_0",
+      "start" : 164.46519470214844
+    },
+    {
+      "end" : 165.14430236816406,
+      "speaker" : "speaker_2",
+      "start" : 164.9915008544922
+    },
+    {
+      "end" : 168.3701171875,
+      "speaker" : "speaker_3",
+      "start" : 165.7215576171875
+    },
+    {
+      "end" : 174.60101318359375,
+      "speaker" : "speaker_2",
+      "start" : 168.3701171875
+    },
+    {
+      "end" : 194.9745330810547,
+      "speaker" : "speaker_2",
+      "start" : 174.7707977294922
+    },
+    {
+      "end" : 198.08148193359375,
+      "speaker" : "speaker_0",
+      "start" : 194.9745330810547
+    },
+    {
+      "end" : 200.64515686035156,
+      "speaker" : "speaker_2",
+      "start" : 198.35313415527344
+    },
+    {
+      "end" : 202.64854431152344,
+      "speaker" : "speaker_2",
+      "start" : 201.27334594726562
+    },
+    {
+      "end" : 205.05941772460938,
+      "speaker" : "speaker_2",
+      "start" : 203.31068420410156
+    },
+    {
+      "end" : 207.13072204589844,
+      "speaker" : "speaker_2",
+      "start" : 205.8064422607422
+    },
+    {
+      "end" : 209.592529296875,
+      "speaker" : "speaker_2",
+      "start" : 207.26654052734375
+    },
+    {
+      "end" : 211.222412109375,
+      "speaker" : "speaker_2",
+      "start" : 209.91510009765625
+    },
+    {
+      "end" : 216.8760528564453,
+      "speaker" : "speaker_2",
+      "start" : 211.78268432617188
+    },
+    {
+      "end" : 224.19354248046875,
+      "speaker" : "speaker_2",
+      "start" : 217.11373901367188
+    },
+    {
+      "end" : 227.30050659179688,
+      "speaker" : "speaker_1",
+      "start" : 224.19354248046875
+    },
+    {
+      "end" : 228.3870849609375,
+      "speaker" : "speaker_2",
+      "start" : 227.4872589111328
+    },
+    {
+      "end" : 231.12054443359375,
+      "speaker" : "speaker_2",
+      "start" : 228.84548950195312
+    },
+    {
+      "end" : 233.58233642578125,
+      "speaker" : "speaker_2",
+      "start" : 232.1901397705078
+    },
+    {
+      "end" : 237.2835235595703,
+      "speaker" : "speaker_2",
+      "start" : 234.32936096191406
+    },
+    {
+      "end" : 238.03054809570312,
+      "speaker" : "speaker_2",
+      "start" : 237.4363250732422
+    },
+    {
+      "end" : 242.9881134033203,
+      "speaker" : "speaker_2",
+      "start" : 238.2512664794922
+    },
+    {
+      "end" : 246.17996215820312,
+      "speaker" : "speaker_3",
+      "start" : 242.9881134033203
+    },
+    {
+      "end" : 246.79116821289062,
+      "speaker" : "speaker_1",
+      "start" : 246.17996215820312
+    },
+    {
+      "end" : 249.10015869140625,
+      "speaker" : "speaker_3",
+      "start" : 246.79116821289062
+    },
+    {
+      "end" : 249.96603393554688,
+      "speaker" : "speaker_3",
+      "start" : 249.55856323242188
+    },
+    {
+      "end" : 252.1222381591797,
+      "speaker" : "speaker_2",
+      "start" : 250.4923553466797
+    },
+    {
+      "end" : 259.2529602050781,
+      "speaker" : "speaker_2",
+      "start" : 252.85227966308594
+    },
+    {
+      "end" : 260.0169677734375,
+      "speaker" : "speaker_3",
+      "start" : 259.7792663574219
+    },
+    {
+      "end" : 262.6485595703125,
+      "speaker" : "speaker_2",
+      "start" : 260.2886047363281
+    },
+    {
+      "end" : 268.04754638671875,
+      "speaker" : "speaker_2",
+      "start" : 263.7181701660156
+    },
+    {
+      "end" : 280.220703125,
+      "speaker" : "speaker_1",
+      "start" : 268.04754638671875
+    },
+    {
+      "end" : 280.628173828125,
+      "speaker" : "speaker_3",
+      "start" : 280.220703125
+    },
+    {
+      "end" : 284.8387145996094,
+      "speaker" : "speaker_1",
+      "start" : 281.15447998046875
+    },
+    {
+      "end" : 285.3140869140625,
+      "speaker" : "speaker_2",
+      "start" : 284.8387145996094
+    },
+    {
+      "end" : 293.0220642089844,
+      "speaker" : "speaker_1",
+      "start" : 285.3140869140625
+    },
+    {
+      "end" : 293.0390319824219,
+      "speaker" : "speaker_0",
+      "start" : 293.0220642089844
+    },
+    {
+      "end" : 293.1069641113281,
+      "speaker" : "speaker_1",
+      "start" : 293.0390319824219
+    },
+    {
+      "end" : 297.3005065917969,
+      "speaker" : "speaker_0",
+      "start" : 293.1069641113281
+    },
+    {
+      "end" : 302.8692626953125,
+      "speaker" : "speaker_1",
+      "start" : 297.3005065917969
+    },
+    {
+      "end" : 303.17486572265625,
+      "speaker" : "speaker_2",
+      "start" : 302.8692626953125
+    },
+    {
+      "end" : 306.9779357910156,
+      "speaker" : "speaker_1",
+      "start" : 303.17486572265625
+    },
+    {
+      "end" : 308.3361511230469,
+      "speaker" : "speaker_2",
+      "start" : 306.9779357910156
+    },
+    {
+      "end" : 322.1222229003906,
+      "speaker" : "speaker_3",
+      "start" : 308.3361511230469
+    },
+    {
+      "end" : 323.9558410644531,
+      "speaker" : "speaker_2",
+      "start" : 322.2410888671875
+    },
+    {
+      "end" : 326.0950622558594,
+      "speaker" : "speaker_2",
+      "start" : 324.2614440917969
+    },
+    {
+      "end" : 327.0118713378906,
+      "speaker" : "speaker_2",
+      "start" : 326.1799621582031
+    },
+    {
+      "end" : 331.3921813964844,
+      "speaker" : "speaker_0",
+      "start" : 328.6587219238281
+    },
+    {
+      "end" : 337.9796142578125,
+      "speaker" : "speaker_0",
+      "start" : 331.7996520996094
+    },
+    {
+      "end" : 338.3191833496094,
+      "speaker" : "speaker_1",
+      "start" : 337.9796142578125
+    },
+    {
+      "end" : 342.0033874511719,
+      "speaker" : "speaker_2",
+      "start" : 338.3191833496094
+    },
+    {
+      "end" : 343.7521057128906,
+      "speaker" : "speaker_2",
+      "start" : 342.7334289550781
+    },
+    {
+      "end" : 345.2801208496094,
+      "speaker" : "speaker_2",
+      "start" : 344.2784423828125
+    },
+    {
+      "end" : 347.67401123046875,
+      "speaker" : "speaker_2",
+      "start" : 345.61968994140625
+    },
+    {
+      "end" : 348.7605895996094,
+      "speaker" : "speaker_2",
+      "start" : 348.1324157714844
+    },
+    {
+      "end" : 353.0560302734375,
+      "speaker" : "speaker_1",
+      "start" : 348.8454895019531
+    },
+    {
+      "end" : 359.9830017089844,
+      "speaker" : "speaker_1",
+      "start" : 353.17486572265625
+    },
+    {
+      "end" : 363.667236328125,
+      "speaker" : "speaker_0",
+      "start" : 359.9830017089844
+    },
+    {
+      "end" : 363.9049072265625,
+      "speaker" : "speaker_1",
+      "start" : 363.667236328125
+    },
+    {
+      "end" : 365.297119140625,
+      "speaker" : "speaker_0",
+      "start" : 363.9049072265625
+    },
+    {
+      "end" : 367.9796142578125,
+      "speaker" : "speaker_1",
+      "start" : 365.297119140625
+    },
+    {
+      "end" : 368.1663818359375,
+      "speaker" : "speaker_0",
+      "start" : 367.9796142578125
+    },
+    {
+      "end" : 371.2733459472656,
+      "speaker" : "speaker_0",
+      "start" : 368.998291015625
+    }
+  ],
+  "text" : "Okay, so we're here today to discuss last week's electric bike accident and talk about what to do about this whole electric bike situation, if it's beneficial, if it's something we should get rid of with all the accidents we've been having. What do you think about it, Ron? Well, electric bikes have been helping a lot of people get to work and lessening the amount of traffic on the roads and eliminating many people from public transportation. So I'm all for electric bikes. And I think maybe if there was a speed limit that was enforced to keep it safe-- - Enforced, yeah. That's-- - Not enough-- - That's a problem. I think we should give a lot of people laser, some kind of a laser direction meter so they can actually point at somebody and-- and find out how fast you are. - Just the billions? - Yeah, just the billions? - That's right, there should be like a-- - I bet your friend's gonna watch. - There should be a council of people that, you know, that get to distribute these laser readers. - Maybe the city employees. No, no, I'm talking about normal citizens that can point to people and say hey, they're going too fast. Oh, I can't see that working. I can see a real bad place against that. Are you against it? I think the first thing... Against electric bikes? No, no, I'm against the laser pointer. The first thing to do is to ask anybody to take a driver's license. - They already do that. - No they don't. - They do it on the app when you go to rent a bike, you have to have a driver's license. How do we enforce these things? How do we enforce driver's license? - I know at least three, four people around me that do not have driver's license. that use their powers. - Okay, so how do we enforce the driving license, the speeds, the all of that, how do we do it? - It's a lot. - Cause it's good for public transportation, it's good for less traffic. - It's more with people on the street who- - It's good for the environment, but yeah, but overseeing is a bit of a nightmare, you know. - We could use biometrics, where everybody has to do some kind of retina scan,, That way we know if there are... AI, good idea. That's right. We're getting more and more freaky. Yeah. Yeah. More and more surveillance. Do you think in general that electric bikes are good? Maybe. I think they're good. As a mode of transportation, yes. Maybe we should educate the parents not to let their kids under a certain age or without the driver's license. Do not give them the credit card because they don't have their own. Or do not give them their driver's license number. Do you think they're educated enough on it though? The parents? Yeah. Parents wants to be left alone. Because there's so many accidents of electric cars. Parents, do they want to be left alone? They want to go and make money so that they can travel. Don't you think they already know that there are so many accidents? Yes, they know and they care. Do they do something about it? - It's parents are not there. Parents are not there. - So what can we do about it? - What could we do about it? - That's a problem, it's a problem. - Oh. If there is an accident, do not say he's underage. You go after the parents. - So. - Because of course the underage doesn't have an insurance, but the parents do have insurance. - So the parents are responsible. - Absolutely. - Right. - Absolutely. - How do we make the kids not do it? . - Yes. the parents don't let them do it. Because if they think once, twice, or three times they have some, you know, the cases like that, they might think, \"But she's the only one that got in accidents?\" - No, no, of course not. - No, but-- - It's also poor driving. - And there's two sides to the liability. - Yes. - So what do we do for enforcing? I know I have a camera on my car to go for the front and the back. I installed the camera just because my side mirror was taken twice. We can also increase the use of UAVs. of drones in the city. - I love the way you think. - And that way-- - I love the way you think. - You can actually take-- - I love the way you think. - Why not more surveillance? - Well, surveillance, yes. - So more surveillance. - This is the way to keep us safe. - You can track the speed of people, so that way you know how fast they're going, and you also identify people as their-- - Is this reasonable though? Yes. - Yes. It's something that there's enough money for it. It's something that's happening in every city all over the world that there are cameras all over the place. Absolutely. So what's just another few cameras if it's helping us be safe? Absolutely. Being safe. It's kind of a paradox. We have a relatively low tech means of transportation that's relatively good for the environment. And yet what you're proposing is more and more and more surveillance, personal surveillance, in order to use this thing. Because people are not-- The people don't have any discipline. - So you see, New York, for example, now they're gonna come in and use these surveillance, I think there's enough cameras on the streets already. You think they're gonna do something about that? - Yeah. - In Paris, they just passed a law in Paris that the public things are not there. - You always need a backup. You know, if a camera goes out, if you wanna have a couple of views of some kind of accident that might have occurred. So this way-- - Do you think cops could give them tickets for people on bikes that don't follow the law? 'Cause right now I don't think that's a thing. - If they had access to UAV video, sure. I would think so. Okay. I don't know. Could be.",
+  "track" : "meeting",
+  "wallSeconds" : 216.467222791
+}

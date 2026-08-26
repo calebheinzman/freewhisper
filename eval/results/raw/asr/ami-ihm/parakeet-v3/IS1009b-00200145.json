@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.02,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00200145",
+  "model" : "parakeet-v3",
+  "rtfx" : 10.585112868954747,
+  "text" : "Do we agree? Do we",
+  "track" : "asr",
+  "wallSeconds" : 0.09636175
+}

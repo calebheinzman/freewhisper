@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.28,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00104776",
+  "model" : "parakeet-v3",
+  "rtfx" : 13.51373351115999,
+  "text" : "Think so. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.094718458
+}

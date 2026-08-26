@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.32,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00070861",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.033813463801298,
+  "text" : "You want to integrate everything into one, like",
+  "track" : "asr",
+  "wallSeconds" : 1.14071425
+}

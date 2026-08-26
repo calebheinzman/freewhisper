@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.92,
+  "dataset" : "earnings22",
+  "id" : "4482311-157",
+  "model" : "parakeet-v3",
+  "rtfx" : 35.26092835116085,
+  "text" : "We've just gone through two very challenging years. I",
+  "track" : "asr",
+  "wallSeconds" : 0.111171208
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.62,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00069157",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.7092054647577424,
+  "text" : "It lives for the fun.",
+  "track" : "asr",
+  "wallSeconds" : 0.597961292
+}

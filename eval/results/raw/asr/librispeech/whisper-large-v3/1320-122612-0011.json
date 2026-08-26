@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 13.695,
+  "dataset" : "librispeech",
+  "id" : "1320-122612-0011",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.68839904247734,
+  "text" : "if a rock or rivulet or a bit of earth harder than common severed the links of the clew they followed the true eye of the scout recovered them at a distance and seldom rendered the delay of a single moment necessary",
+  "track" : "asr",
+  "wallSeconds" : 5.094109834
+}

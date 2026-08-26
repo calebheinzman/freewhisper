@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.22,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00052783",
+  "model" : "parakeet-v3",
+  "rtfx" : 44.23569490081925,
+  "text" : "Maybe different colors or materials or you know.",
+  "track" : "asr",
+  "wallSeconds" : 0.11800425
+}

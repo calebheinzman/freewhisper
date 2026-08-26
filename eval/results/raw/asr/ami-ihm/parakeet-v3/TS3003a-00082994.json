@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.26,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00082994",
+  "model" : "parakeet-v3",
+  "rtfx" : 29.363769883629484,
+  "text" : "Little blue dot they always get sprayed on their butt.",
+  "track" : "asr",
+  "wallSeconds" : 0.111021167
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.03,
+  "dataset" : "librispeech",
+  "id" : "5683-32866-0010",
+  "model" : "parakeet-110m",
+  "rtfx" : 85.85977236877714,
+  "text" : "Well, you know, Rady, women like wicked fellows It is contrast, I suppose, but they do, and I'm sure from what Bracton has said to me I know him intimately that Dorcas likes him, and I can't conceived why they are not married.",
+  "track" : "asr",
+  "wallSeconds" : 0.175052875
+}

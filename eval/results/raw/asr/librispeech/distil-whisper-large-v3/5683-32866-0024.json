@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.855,
+  "dataset" : "librispeech",
+  "id" : "5683-32866-0024",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.38587805129628,
+  "text" : "I shan't trouble you about my train of thoughts or fancies, but I began to feel very like a gentleman in a ghost story, watching experimentally in a haunted chamber.",
+  "track" : "asr",
+  "wallSeconds" : 0.948884625
+}

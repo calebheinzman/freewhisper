@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.06,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00104642",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.1463863921061272,
+  "text" : "Do we go back to our room?",
+  "track" : "asr",
+  "wallSeconds" : 0.654719333
+}

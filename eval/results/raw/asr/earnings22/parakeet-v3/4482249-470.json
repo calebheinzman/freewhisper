@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.519875,
+  "dataset" : "earnings22",
+  "id" : "4482249-470",
+  "model" : "parakeet-v3",
+  "rtfx" : 32.19408917848907,
+  "text" : "Is that uh an impact you've been seeing on your side as well?",
+  "track" : "asr",
+  "wallSeconds" : 0.109332958
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.0799375,
+  "dataset" : "earnings22",
+  "id" : "4482249-358",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 0.8426251588590291,
+  "text" : "Two questions, if I may.",
+  "track" : "asr",
+  "wallSeconds" : 3.655169167
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.93,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0019",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.725258186936136,
+  "text" : "To embarrass this damaging exposure, Judge Lecombe issued a writ against the ex-governor on a frivolous charge of contempt.",
+  "track" : "asr",
+  "wallSeconds" : 1.023465416
+}

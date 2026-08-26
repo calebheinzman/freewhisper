@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.9400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-312",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 15.474369899008881,
+  "text" : "So, and the fundamental drivers that have played a role are substantial investments into additional capacities needed for new drugs.",
+  "track" : "asr",
+  "wallSeconds" : 0.7716025
+}

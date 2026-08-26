@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.32,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00104568",
+  "model" : "parakeet-v3",
+  "rtfx" : 11.577699008103442,
+  "text" : "Well the most interesting too.",
+  "track" : "asr",
+  "wallSeconds" : 0.114012292
+}

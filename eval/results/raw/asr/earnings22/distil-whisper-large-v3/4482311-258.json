@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.12025,
+  "dataset" : "earnings22",
+  "id" : "4482311-258",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.298137679102435,
+  "text" : "Well, this may not be significant, but it's still quite good to see that the profits are so up.",
+  "track" : "asr",
+  "wallSeconds" : 0.765771625
+}

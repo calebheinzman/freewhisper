@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.6600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-180",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.569396671744239,
+  "text" : "organic growth 36% and",
+  "track" : "asr",
+  "wallSeconds" : 1.8136796670000002
+}

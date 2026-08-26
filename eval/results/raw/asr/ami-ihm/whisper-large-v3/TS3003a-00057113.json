@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.87,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00057113",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9981462130158765,
+  "text" : "I was trying to draw a dolphin.",
+  "track" : "asr",
+  "wallSeconds" : 3.438186833
+}

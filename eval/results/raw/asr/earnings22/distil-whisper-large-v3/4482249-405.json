@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.6199375,
+  "dataset" : "earnings22",
+  "id" : "4482249-405",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.351310081597781,
+  "text" : "And that means for the Sarturis group in total, this number is just a little bit below 70%.",
+  "track" : "asr",
+  "wallSeconds" : 0.764481084
+}

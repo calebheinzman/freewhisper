@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.1000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-66",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4392550848887662,
+  "text" : "and it was very interesting because during that fashion show,",
+  "track" : "asr",
+  "wallSeconds" : 2.153935416
+}

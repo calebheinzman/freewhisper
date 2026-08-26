@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.26,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00194615",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.0425944202827817,
+  "text" : "I think the idea here is to decide.",
+  "track" : "asr",
+  "wallSeconds" : 1.106436
+}

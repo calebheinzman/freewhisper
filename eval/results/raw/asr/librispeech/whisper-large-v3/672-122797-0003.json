@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.76,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0003",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0158890673796312,
+  "text" : "But this was what the tree could not bear to hear.",
+  "track" : "asr",
+  "wallSeconds" : 2.361241041
+}

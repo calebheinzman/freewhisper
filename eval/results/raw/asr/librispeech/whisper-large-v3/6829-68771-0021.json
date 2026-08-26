@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.61,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0021",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.175499990318564,
+  "text" : "But it can't be, protested the girl.",
+  "track" : "asr",
+  "wallSeconds" : 2.220331792
+}

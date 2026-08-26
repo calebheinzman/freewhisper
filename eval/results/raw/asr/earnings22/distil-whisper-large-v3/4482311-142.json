@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-142",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.455691344368594,
+  "text" : "and the launch of La Samaritan, which is a wonderful store, and that is getting off to a good start.",
+  "track" : "asr",
+  "wallSeconds" : 0.783895291
+}

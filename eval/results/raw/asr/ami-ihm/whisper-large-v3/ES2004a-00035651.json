@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.63,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00035651",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5494087674519221,
+  "text" : "Please leave me a space at the bottom. I'm little. Oh, right. I'll be standing on a chair.",
+  "track" : "asr",
+  "wallSeconds" : 3.633644083
+}

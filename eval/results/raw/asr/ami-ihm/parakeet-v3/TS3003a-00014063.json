@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.14,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00014063",
+  "model" : "parakeet-v3",
+  "rtfx" : 11.976315260740927,
+  "text" : "This is our agenda.",
+  "track" : "asr",
+  "wallSeconds" : 0.095187875
+}

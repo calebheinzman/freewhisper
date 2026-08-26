@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.22,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00117284",
+  "model" : "parakeet-v3",
+  "rtfx" : 27.303831362651042,
+  "text" : "Did you go back to that slide where she had that uh s side up, Betsy?",
+  "track" : "asr",
+  "wallSeconds" : 0.117932167
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.08,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00062952",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.97247274111177,
+  "text" : "Okay, this is typically a do action, I think.",
+  "track" : "asr",
+  "wallSeconds" : 0.73638825
+}

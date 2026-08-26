@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 20.98,
+  "dataset" : "librispeech",
+  "id" : "8224-274381-0008",
+  "model" : "parakeet-v3",
+  "rtfx" : 92.95011974926081,
+  "text" : "With these and some reinforcements of the Athol men and Macdonalds whom he had recalled, Montrose fell suddenly upon Argyll's country, and let loose upon it all the rage of war, carrying off the cattle, burning the houses, and putting the inhabitants to the sword.",
+  "track" : "asr",
+  "wallSeconds" : 0.225712458
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.915,
+  "dataset" : "librispeech",
+  "id" : "8455-210777-0069",
+  "model" : "parakeet-v3",
+  "rtfx" : 51.55775704961241,
+  "text" : "If you will give us your promise to meet Captain Adelax here at this time to morrow, we will stretch a point and delay the departure of the John Bright for twenty four hours",
+  "track" : "asr",
+  "wallSeconds" : 0.172912875
+}

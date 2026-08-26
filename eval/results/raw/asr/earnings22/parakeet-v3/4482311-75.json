@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.6800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-75",
+  "model" : "parakeet-v3",
+  "rtfx" : 52.11275681936775,
+  "text" : "No, no, no.",
+  "track" : "asr",
+  "wallSeconds" : 0.108995625
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.14,
+  "dataset" : "earnings22",
+  "id" : "4482311-116",
+  "model" : "parakeet-v3",
+  "rtfx" : 31.818373958121178,
+  "text" : "It's the watch that I'm wearing here, the Carrera Porsche.",
+  "track" : "asr",
+  "wallSeconds" : 0.1301135
+}

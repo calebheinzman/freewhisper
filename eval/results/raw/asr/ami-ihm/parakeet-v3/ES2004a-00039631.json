@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.49,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00039631",
+  "model" : "parakeet-v3",
+  "rtfx" : 33.050729081090296,
+  "text" : "But it was it was an at first.",
+  "track" : "asr",
+  "wallSeconds" : 0.10559525
+}

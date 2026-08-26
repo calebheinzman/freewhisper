@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.33,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00003732",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.7527465697555301,
+  "text" : "Okay, is everybody ready?",
+  "track" : "asr",
+  "wallSeconds" : 1.766862917
+}

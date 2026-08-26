@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.27,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00027468",
+  "model" : "parakeet-v3",
+  "rtfx" : 12.192804803150958,
+  "text" : "You wanna go, Eileen and",
+  "track" : "asr",
+  "wallSeconds" : 0.104159791
+}

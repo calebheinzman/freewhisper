@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.595,
+  "dataset" : "librispeech",
+  "id" : "3575-170457-0003",
+  "model" : "parakeet-v3",
+  "rtfx" : 49.52956693420458,
+  "text" : "Surely it must be because we're in danger of loving each other too well, of losing sight of the creator and idolatry of the creature,",
+  "track" : "asr",
+  "wallSeconds" : 0.15334275
+}

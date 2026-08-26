@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.61,
+  "dataset" : "librispeech",
+  "id" : "4970-29095-0004",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.182764383516795,
+  "text" : "i heard father tell cousin abner that he was whipped so often for whistling when he was a boy that he was determined to have what compensation he could get now",
+  "track" : "asr",
+  "wallSeconds" : 1.554320916
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.82025,
+  "dataset" : "earnings22",
+  "id" : "4482249-219",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.996787104721866,
+  "text" : "maybe five percentage points, something like that, which would total to something like 10% of business in total, because 5% per year roughly sums up to something like 10% in total.",
+  "track" : "asr",
+  "wallSeconds" : 5.919634583
+}

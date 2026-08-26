@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.3799375,
+  "dataset" : "earnings22",
+  "id" : "4482311-279",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.442328756369182,
+  "text" : "So we're still in the red, but all in all, this is quite a performance. Considering the circumstances, is,",
+  "track" : "asr",
+  "wallSeconds" : 0.802497
+}

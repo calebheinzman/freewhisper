@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.58,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00065819",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.854775837869791,
+  "text" : "But it could be someplace really obvious and you still wouldn't be able to find it.",
+  "track" : "asr",
+  "wallSeconds" : 1.254038917
+}

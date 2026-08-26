@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-404",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.050217362205823,
+  "text" : "in the lab domain, this is around 40%.",
+  "track" : "asr",
+  "wallSeconds" : 1.128676667
+}

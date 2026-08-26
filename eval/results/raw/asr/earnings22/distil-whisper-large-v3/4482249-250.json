@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.620125,
+  "dataset" : "earnings22",
+  "id" : "4482249-250",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.604027370717493,
+  "text" : "The closing of the acquisition of the businesses from Dana-Hen has also been taking place in 2020, and hasn't been that small.",
+  "track" : "asr",
+  "wallSeconds" : 0.829033291
+}

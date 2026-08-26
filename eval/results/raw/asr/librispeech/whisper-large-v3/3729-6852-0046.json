@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 12.605,
+  "dataset" : "librispeech",
+  "id" : "3729-6852-0046",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.82808261355443,
+  "text" : "his housekeeper had the management of everything she never allowed him to be in need of anything and she gave no account of his money which she kept altogether because he never asked her to render any accounts",
+  "track" : "asr",
+  "wallSeconds" : 4.457083375
+}

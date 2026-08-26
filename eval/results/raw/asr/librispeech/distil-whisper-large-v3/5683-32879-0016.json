@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.185,
+  "dataset" : "librispeech",
+  "id" : "5683-32879-0016",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.860249924053935,
+  "text" : "and the wan oracle having spoken she sat down in the same sort of abstraction again beside dorcas and she looked full in her cousin's eyes",
+  "track" : "asr",
+  "wallSeconds" : 0.858750875
+}

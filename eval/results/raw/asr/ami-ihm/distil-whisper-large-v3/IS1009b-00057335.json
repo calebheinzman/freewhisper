@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.63,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00057335",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.378092948235582,
+  "text" : "Yeah, I like you. Yeah, I like you.",
+  "track" : "asr",
+  "wallSeconds" : 0.685423167
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.54,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00035911",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.2381867264924296,
+  "text" : "We're standing on a chair. Well, since you guys have chosen the ones I wanted to do. Okay. I have to go. I have to go saying a bit random.",
+  "track" : "asr",
+  "wallSeconds" : 3.815588708
+}

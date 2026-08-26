@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.57,
+  "dataset" : "librispeech",
+  "id" : "3570-5696-0010",
+  "model" : "parakeet-v3",
+  "rtfx" : 46.920905745296935,
+  "text" : "an article may be useful and wasteful both, and its utility to the consumer may be made up of use and waste in the most varying proportions.",
+  "track" : "asr",
+  "wallSeconds" : 0.161335334
+}

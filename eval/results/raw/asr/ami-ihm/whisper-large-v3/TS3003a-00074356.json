@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.7,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00074356",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2209890342456537,
+  "text" : "Maybe it's easier to draw with a smaller line width, I think.",
+  "track" : "asr",
+  "wallSeconds" : 3.466923916
+}

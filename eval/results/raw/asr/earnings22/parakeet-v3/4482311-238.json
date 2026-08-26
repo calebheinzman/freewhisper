@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.820125,
+  "dataset" : "earnings22",
+  "id" : "4482311-238",
+  "model" : "parakeet-v3",
+  "rtfx" : 31.859021404450328,
+  "text" : "Now looking at the same thing, but this time quarter by quarter to see what happened.",
+  "track" : "asr",
+  "wallSeconds" : 0.119907167
+}

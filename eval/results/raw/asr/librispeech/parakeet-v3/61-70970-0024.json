@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.235,
+  "dataset" : "librispeech",
+  "id" : "61-70970-0024",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.6124762658626,
+  "text" : "They moved thereafter cautiously about the hut, groping before and about them to find something to show that the Warranton had fulfilled his mission.",
+  "track" : "asr",
+  "wallSeconds" : 0.173866125
+}

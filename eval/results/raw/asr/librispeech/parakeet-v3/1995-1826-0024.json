@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.095,
+  "dataset" : "librispeech",
+  "id" : "1995-1826-0024",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.68557278525594,
+  "text" : "the golden fleece it's the silver fleece. He hearkened.",
+  "track" : "asr",
+  "wallSeconds" : 0.122224541
+}

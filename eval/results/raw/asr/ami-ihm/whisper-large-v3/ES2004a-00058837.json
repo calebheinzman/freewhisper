@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.91,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00058837",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.0155727320136505,
+  "text" : "Should we be making notes of this? We can just refer to this later, can't we? I think so. I think so.",
+  "track" : "asr",
+  "wallSeconds" : 3.8500442919999998
+}

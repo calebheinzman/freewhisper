@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.28,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00105690",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.558635749813625,
+  "text" : "I like cats because I...",
+  "track" : "asr",
+  "wallSeconds" : 2.745991166
+}

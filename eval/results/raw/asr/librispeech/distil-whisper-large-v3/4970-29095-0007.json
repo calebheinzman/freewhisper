@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 14.81,
+  "dataset" : "librispeech",
+  "id" : "4970-29095-0007",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 15.732280696665162,
+  "text" : "i have not asked him ruth replied with a look that might imply that she was one of those determined little bodies who first made up her own mind and then compelled others to make up theirs in accordance with hers",
+  "track" : "asr",
+  "wallSeconds" : 0.941376542
+}

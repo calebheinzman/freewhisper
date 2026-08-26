@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 20.755,
+  "dataset" : "librispeech",
+  "id" : "1188-133604-0008",
+  "model" : "parakeet-v3",
+  "rtfx" : 69.21349888326328,
+  "text" : "For, believe me, the final philosophy of art can only ratify their opinion that the beauty of a cockrobin is to be red, and of a grass plot to be green, and the best skill of art is in instantly seizing on the manifold deliciousness of light, which you can only seize by precision of instantaneous touch.",
+  "track" : "asr",
+  "wallSeconds" : 0.29986925
+}

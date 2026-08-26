@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.32,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00014338",
+  "model" : "parakeet-v3",
+  "rtfx" : 34.29667016646191,
+  "text" : "Uh we have our opening acquaintance tool training project plan discussion closing.",
+  "track" : "asr",
+  "wallSeconds" : 0.12595975
+}

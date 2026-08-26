@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.5400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-164",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8065616577181394,
+  "text" : "It's a part of the family. They are viewed as such.",
+  "track" : "asr",
+  "wallSeconds" : 2.513095792
+}

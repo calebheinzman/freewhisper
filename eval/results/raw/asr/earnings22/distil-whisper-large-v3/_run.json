@@ -1,0 +1,14 @@
+{
+  "dataset" : "earnings22",
+  "failureCount" : 0,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 250,
+  "model" : "distil-whisper-large-v3",
+  "modelLoadSeconds" : 4.493874666,
+  "totalWallSeconds" : 198.406070208,
+  "track" : "asr"
+}

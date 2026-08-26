@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.4600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-146",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.3381427872778926,
+  "text" : "got off to a good start. Nevertheless, we need to remain vigilant.",
+  "track" : "asr",
+  "wallSeconds" : 2.762903333
+}

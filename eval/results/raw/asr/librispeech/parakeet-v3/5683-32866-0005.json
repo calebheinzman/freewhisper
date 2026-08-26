@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.59,
+  "dataset" : "librispeech",
+  "id" : "5683-32866-0005",
+  "model" : "parakeet-v3",
+  "rtfx" : 35.996565221862824,
+  "text" : "and he made a little dip of his cane towards Brandon Hall, over his shoulder.",
+  "track" : "asr",
+  "wallSeconds" : 0.127512166
+}

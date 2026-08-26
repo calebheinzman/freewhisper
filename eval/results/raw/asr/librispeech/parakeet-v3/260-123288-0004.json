@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.31,
+  "dataset" : "librispeech",
+  "id" : "260-123288-0004",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.726531822799714,
+  "text" : "The air is heavy. The sea is calm.",
+  "track" : "asr",
+  "wallSeconds" : 0.111293209
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.14,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00037680",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1212367099236435,
+  "text" : "I think it's outstandingly good.",
+  "track" : "asr",
+  "wallSeconds" : 1.908606792
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.03,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00157482",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.810338805950117,
+  "text" : "Yeah who has a T V.",
+  "track" : "asr",
+  "wallSeconds" : 0.097547667
+}

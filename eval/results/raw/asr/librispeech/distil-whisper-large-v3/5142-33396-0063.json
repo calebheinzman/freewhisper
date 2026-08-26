@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.515,
+  "dataset" : "librispeech",
+  "id" : "5142-33396-0063",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.4880433099866734,
+  "text" : "\"'And would he not be a good gift for our baby?'",
+  "track" : "asr",
+  "wallSeconds" : 0.721034625
+}

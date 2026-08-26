@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.29,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00087295",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0579915453591333,
+  "text" : "I find it really confusing. I kept getting lost in the front. I have not got a new one, but my friend got a new one. And I was trying to do things with it. And I just kept getting",
+  "track" : "asr",
+  "wallSeconds" : 5.000020541
+}

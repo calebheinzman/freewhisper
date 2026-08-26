@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.5400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-164",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.503668135081603,
+  "text" : "a part of the family. They are viewed as such.",
+  "track" : "asr",
+  "wallSeconds" : 0.698077209
+}

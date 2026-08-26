@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.57,
+  "dataset" : "librispeech",
+  "id" : "3570-5696-0010",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.062612884102466,
+  "text" : "An article may be useful and wasteful both, and its utility to the consumer may be made up of use and waste in the most varying proportions.",
+  "track" : "asr",
+  "wallSeconds" : 0.938901583
+}

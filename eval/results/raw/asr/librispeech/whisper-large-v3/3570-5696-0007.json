@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.5,
+  "dataset" : "librispeech",
+  "id" : "3570-5696-0007",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5753588124124627,
+  "text" : "The use of the word waste as a technical term, therefore, implies no deprecation of the motives or of the ends sought by the consumer under this canon of conspicuous waste.",
+  "track" : "asr",
+  "wallSeconds" : 6.030372208
+}

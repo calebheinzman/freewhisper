@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.815,
+  "dataset" : "librispeech",
+  "id" : "2961-961-0011",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.470080240868924,
+  "text" : "The genealogies which you have recited to us out of your own annals, Salon, are a mere children's story.",
+  "track" : "asr",
+  "wallSeconds" : 0.9226595
+}

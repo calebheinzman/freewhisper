@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.645,
+  "dataset" : "librispeech",
+  "id" : "7176-88083-0023",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.999264224333596,
+  "text" : "He had a lot of line out, and the place was none too free for a long cast, but he was impatient to drop his flies again on the spot where the big fish was feeding.",
+  "track" : "asr",
+  "wallSeconds" : 4.824274792
+}

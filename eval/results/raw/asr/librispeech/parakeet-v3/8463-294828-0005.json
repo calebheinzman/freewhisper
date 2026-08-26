@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.44,
+  "dataset" : "librispeech",
+  "id" : "8463-294828-0005",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.012734813599206,
+  "text" : "Consey was my man's servant.",
+  "track" : "asr",
+  "wallSeconds" : 0.10602825
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.23,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00076472",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.2129859951350763,
+  "text" : "So we have-- well, we have a time-- two, three minutes. Any questions at this point or suggestions?",
+  "track" : "asr",
+  "wallSeconds" : 3.495191083
+}

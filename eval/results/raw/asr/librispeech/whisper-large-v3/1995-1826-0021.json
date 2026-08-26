@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.41,
+  "dataset" : "librispeech",
+  "id" : "1995-1826-0021",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.7648557710612303,
+  "text" : "don't know well of all things inwardly commented miss taylor litterly born in cotton and oh well as much as to ask what's the use she turned again to go",
+  "track" : "asr",
+  "wallSeconds" : 4.126797542
+}

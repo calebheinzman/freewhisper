@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.14,
+  "dataset" : "earnings22",
+  "id" : "4482311-12",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7225616518680729,
+  "text" : "online sales continued to grow.",
+  "track" : "asr",
+  "wallSeconds" : 1.822866541
+}

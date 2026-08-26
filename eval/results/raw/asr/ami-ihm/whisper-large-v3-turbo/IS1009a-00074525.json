@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.61,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00074525",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.6837537370672826,
+  "text" : "We have to justify that price by having sufficient features to make it sell at that price.",
+  "track" : "asr",
+  "wallSeconds" : 1.2514408750000001
+}

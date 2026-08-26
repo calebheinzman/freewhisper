@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.52,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00004717",
+  "model" : "parakeet-v3",
+  "rtfx" : 85.53878482206335,
+  "text" : "Um I take it you all have received instructions as to what you were supposed to do. Yes. And um",
+  "track" : "asr",
+  "wallSeconds" : 0.13467575
+}

@@ -1,0 +1,36 @@
+{
+  "dataset" : "ami-summ",
+  "id" : "IS1009c",
+  "inputChars" : 25245,
+  "model" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit",
+  "summary" : {
+    "actionItems" : [
+      "Jana and Francine will co-create a remote prototype using modelling clay by the next meeting",
+      "UI\/UX team will develop the user interface design by the next meeting",
+      "Marketing expert will conduct product evaluation by the next meeting"
+    ],
+    "keyPoints" : [
+      "Remote uses push buttons only, not scroll wheels or advanced switches, due to cost and simplicity.",
+      "Voice recognition is the primary differentiator and must be context-specific (e.g., 'Good morning' triggers TV to turn on).",
+      "Design prioritizes visual appeal with a trendy, compact, colorful, and soft-touch feel inspired by fruit and vegetable shapes.",
+      "Remote will be battery-powered, with IR transmission and a T-shaped form factor for child safety and usability.",
+      "Key features include channel navigation, volume control, mute, and a display for program timing."
+    ],
+    "speakerNames" : {
+      "Speaker 1" : "Lead summary and action assigner",
+      "Speaker 2" : "Technical components and circuit design",
+      "Speaker 3" : "Interface options and usability feedback",
+      "Speaker 4" : "Remote interface and feature presentation"
+    },
+    "summary" : "The team finalized a push-button remote with voice recognition as the key feature, emphasizing visual appeal, simplicity, and child-friendly design. The remote will feature a colorful, soft-touch, fruit\/vegetable-inspired aesthetic, be battery-powered, and include essential functions like on\/off, volume, and channel navigation. Voice recognition is highlighted as a differentiator, though its implementation requires further cost and performance analysis.",
+    "tags" : [
+      "remote design",
+      "voice recognition",
+      "child-friendly",
+      "product launch"
+    ],
+    "title" : "Remote Control Design Finalized"
+  },
+  "track" : "summarize",
+  "wallSeconds" : 1913.1694205
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.225,
+  "dataset" : "librispeech",
+  "id" : "908-157963-0027",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.140797516849396,
+  "text" : "And lay me down in thy cold bed, And leave my shining lot.",
+  "track" : "asr",
+  "wallSeconds" : 0.136992416
+}

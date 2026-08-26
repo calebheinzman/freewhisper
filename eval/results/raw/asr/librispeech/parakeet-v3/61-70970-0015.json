@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.415,
+  "dataset" : "librispeech",
+  "id" : "61-70970-0015",
+  "model" : "parakeet-v3",
+  "rtfx" : 48.18878100124868,
+  "text" : "Will cried he softly, and Stutley, who had chosen his couch across the door of his young master's chamber, sprang up at once in answer.",
+  "track" : "asr",
+  "wallSeconds" : 0.174625708
+}

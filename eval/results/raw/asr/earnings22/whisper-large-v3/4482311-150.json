@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.08,
+  "dataset" : "earnings22",
+  "id" : "4482311-150",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7215823364869125,
+  "text" : "it will penalise the economy. Very bleak picture.",
+  "track" : "asr",
+  "wallSeconds" : 2.369912791
+}

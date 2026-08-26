@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.02,
+  "dataset" : "librispeech",
+  "id" : "121-121726-0004",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.540458675897874,
+  "text" : "Heaven a good place to be raised to.",
+  "track" : "asr",
+  "wallSeconds" : 0.096773125
+}

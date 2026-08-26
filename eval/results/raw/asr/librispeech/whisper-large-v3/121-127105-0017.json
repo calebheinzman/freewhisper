@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.695,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0017",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.0986537007864545,
+  "text" : "It was almost the tone of hope. Everybody will stay.",
+  "track" : "asr",
+  "wallSeconds" : 2.45300225
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.9400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-116",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.86303116448038,
+  "text" : "This should include one percentage points of non-aghanic growth related to the acquisitions that have been mentioned.",
+  "track" : "asr",
+  "wallSeconds" : 0.783034875
+}

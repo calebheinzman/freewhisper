@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.3,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00201029",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.1512370693731824,
+  "text" : "Okay. Fair enough.",
+  "track" : "asr",
+  "wallSeconds" : 0.604303458
+}

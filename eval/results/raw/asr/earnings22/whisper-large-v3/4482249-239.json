@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.3999375,
+  "dataset" : "earnings22",
+  "id" : "4482249-239",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.367568800650703,
+  "text" : "Are you still anticipating M&A generating about 20% of the growth on your midterms?",
+  "track" : "asr",
+  "wallSeconds" : 3.12554275
+}

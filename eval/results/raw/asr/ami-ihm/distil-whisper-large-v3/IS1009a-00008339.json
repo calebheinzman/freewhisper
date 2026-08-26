@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.55,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00008339",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.042379065462509,
+  "text" : "And I'm a marketing person. I want to figure out how to sell them.",
+  "track" : "asr",
+  "wallSeconds" : 0.70403275
+}

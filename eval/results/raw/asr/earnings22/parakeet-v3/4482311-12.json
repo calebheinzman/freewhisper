@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.14,
+  "dataset" : "earnings22",
+  "id" : "4482311-12",
+  "model" : "parakeet-v3",
+  "rtfx" : 30.468440236513498,
+  "text" : "Online sales continued to uh grow.",
+  "track" : "asr",
+  "wallSeconds" : 0.103057458
+}

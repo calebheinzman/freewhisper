@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.87,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00126978",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.303189300220065,
+  "text" : "Now there should be some timer to set for viewing a particular particular program or switching on and off a particular program according to the user choice. On.",
+  "track" : "asr",
+  "wallSeconds" : 0.873204875
+}

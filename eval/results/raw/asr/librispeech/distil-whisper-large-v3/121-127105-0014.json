@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.255,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0014",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.9021188223145136,
+  "text" : "You are acute.",
+  "track" : "asr",
+  "wallSeconds" : 0.577891167
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.18,
+  "dataset" : "earnings22",
+  "id" : "4482311-111",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 8.195129102604042,
+  "text" : "it seeks to concentrate now as Tiffany is doing all its jewelry sales in its own stores.",
+  "track" : "asr",
+  "wallSeconds" : 1.364225
+}

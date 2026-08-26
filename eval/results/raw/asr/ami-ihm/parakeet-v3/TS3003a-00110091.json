@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.23,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00110091",
+  "model" : "parakeet-v3",
+  "rtfx" : 68.31281050226198,
+  "text" : "Eh. And a haunted whiteboard. So we've got the tool uh introduction.",
+  "track" : "asr",
+  "wallSeconds" : 0.13511375
+}

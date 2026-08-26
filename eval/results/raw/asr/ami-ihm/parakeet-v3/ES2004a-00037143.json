@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.86,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00037143",
+  "model" : "parakeet-v3",
+  "rtfx" : 34.601055034573626,
+  "text" : "And also my drawing skill isn't that great.",
+  "track" : "asr",
+  "wallSeconds" : 0.111557292
+}

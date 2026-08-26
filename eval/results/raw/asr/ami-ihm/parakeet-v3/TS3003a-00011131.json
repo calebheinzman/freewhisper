@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.22,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00011131",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.564576359305764,
+  "text" : "Mm. Let's do it read only.",
+  "track" : "asr",
+  "wallSeconds" : 0.107952625
+}

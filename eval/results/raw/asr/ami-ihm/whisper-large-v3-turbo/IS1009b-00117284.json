@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.22,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00117284",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.618605850520582,
+  "text" : "Did you go back to that slide where she had that slide up, Betsy?",
+  "track" : "asr",
+  "wallSeconds" : 1.229661959
+}

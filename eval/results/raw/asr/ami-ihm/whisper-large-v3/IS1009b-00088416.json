@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00088416",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.7139630346277631,
+  "text" : "is that going to be possible because that might help with the marketing I think we'll we'll",
+  "track" : "asr",
+  "wallSeconds" : 3.725683083
+}

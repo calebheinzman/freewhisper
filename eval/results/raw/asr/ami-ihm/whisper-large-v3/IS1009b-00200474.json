@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00200474",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.6985763144696948,
+  "text" : "Do we agree on that in principle? Like money will tell whether we will be able to do that or not.",
+  "track" : "asr",
+  "wallSeconds" : 3.261554958
+}

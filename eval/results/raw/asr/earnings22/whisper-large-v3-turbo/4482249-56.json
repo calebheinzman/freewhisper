@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.9600625,
+  "dataset" : "earnings22",
+  "id" : "4482249-56",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.3065455554014695,
+  "text" : "So, very strong performance that also is then reflected in a substantial increase of our EBITDA margin from 32.3 to 36.2 percentage points.",
+  "track" : "asr",
+  "wallSeconds" : 1.636897
+}

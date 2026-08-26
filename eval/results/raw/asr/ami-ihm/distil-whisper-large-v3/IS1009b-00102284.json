@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.45,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102284",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.7118411818240524,
+  "text" : "Because the clock could be really friendly. Yes.",
+  "track" : "asr",
+  "wallSeconds" : 0.660049792
+}

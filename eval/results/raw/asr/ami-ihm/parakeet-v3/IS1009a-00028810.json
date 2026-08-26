@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.05,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00028810",
+  "model" : "parakeet-v3",
+  "rtfx" : 29.076788327825934,
+  "text" : "And remember you have to press so it works.",
+  "track" : "asr",
+  "wallSeconds" : 0.104894666
+}

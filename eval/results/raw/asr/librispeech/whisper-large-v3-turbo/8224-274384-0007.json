@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.23,
+  "dataset" : "librispeech",
+  "id" : "8224-274384-0007",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.213064484837014,
+  "text" : "have mercy lord on me i pray for men would me devour",
+  "track" : "asr",
+  "wallSeconds" : 1.195074417
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.039875,
+  "dataset" : "earnings22",
+  "id" : "4482311-245",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.100271563686889,
+  "text" : "So for Sephora, we're ahead of 2019, but DFS is still lagging behind, but we're getting close to the 2019 number.",
+  "track" : "asr",
+  "wallSeconds" : 1.48188075
+}

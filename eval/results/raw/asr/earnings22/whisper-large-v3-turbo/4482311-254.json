@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.760125,
+  "dataset" : "earnings22",
+  "id" : "4482311-254",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.343955434133015,
+  "text" : "But over two years, expenses not including currency and scope are 5%",
+  "track" : "asr",
+  "wallSeconds" : 1.265004
+}

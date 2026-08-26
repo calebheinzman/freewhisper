@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.17,
+  "dataset" : "librispeech",
+  "id" : "8463-294828-0009",
+  "model" : "parakeet-v3",
+  "rtfx" : 32.854716279158154,
+  "text" : "Not once did he comment on the length or the hardships of the journey,",
+  "track" : "asr",
+  "wallSeconds" : 0.126922417
+}

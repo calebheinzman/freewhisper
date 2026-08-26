@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 20.56,
+  "dataset" : "librispeech",
+  "id" : "1221-135767-0006",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 9.89076957360977,
+  "text" : "the mother herself as if the red ignominy were so deeply scorched into her brain that all her conceptions assumed its form had carefully wrought out the similitude lavishing many hours of morbid ingenuity to create an analogy between the object of her affection and the emblem of her guilt and torture",
+  "track" : "asr",
+  "wallSeconds" : 2.078705792
+}

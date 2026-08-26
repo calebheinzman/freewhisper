@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.555,
+  "dataset" : "librispeech",
+  "id" : "237-134500-0035",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1734916275280955,
+  "text" : "and you never used to be cross to me.",
+  "track" : "asr",
+  "wallSeconds" : 2.177263084
+}

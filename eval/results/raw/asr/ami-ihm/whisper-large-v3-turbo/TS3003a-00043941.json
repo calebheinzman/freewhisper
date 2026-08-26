@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.06,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00043941",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.533044650602152,
+  "text" : "Here is the simple toolbar. It's what I just said, save, print, move back or forward one page.",
+  "track" : "asr",
+  "wallSeconds" : 1.5398639589999998
+}

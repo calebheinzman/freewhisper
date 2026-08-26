@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.5800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-41",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.956656236713414,
+  "text" : "I invite you to taste it if you can find some of",
+  "track" : "asr",
+  "wallSeconds" : 0.652081542
+}

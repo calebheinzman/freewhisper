@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-260",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.150977123887564,
+  "text" : "Uh so all the numbers are good, including a a gross margin, but",
+  "track" : "asr",
+  "wallSeconds" : 0.113756916
+}

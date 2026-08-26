@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.24,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00038740",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.915506527236129,
+  "text" : "and production costs should not exceed, hopefully, should be less than €1250.",
+  "track" : "asr",
+  "wallSeconds" : 1.269452083
+}

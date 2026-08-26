@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.75,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00019089",
+  "model" : "parakeet-v3",
+  "rtfx" : 15.632560296973624,
+  "text" : "I can't say I paid much attention to it, but I think.",
+  "track" : "asr",
+  "wallSeconds" : 0.111945834
+}

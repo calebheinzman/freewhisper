@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.17,
+  "dataset" : "librispeech",
+  "id" : "8555-292519-0012",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.464112570336831,
+  "text" : "through the black night rain he sang to her window bars",
+  "track" : "asr",
+  "wallSeconds" : 1.158124917
+}

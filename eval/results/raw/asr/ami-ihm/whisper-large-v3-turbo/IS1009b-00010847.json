@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.11,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00010847",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.634075169113802,
+  "text" : "There we go. OK, well, I think we have introduced ourselves. So the functional requirements is part of my goal. But why don't we pass right to the second slide.",
+  "track" : "asr",
+  "wallSeconds" : 1.6746870839999999
+}

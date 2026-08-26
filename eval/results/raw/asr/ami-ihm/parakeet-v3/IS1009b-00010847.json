@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.11,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00010847",
+  "model" : "parakeet-v3",
+  "rtfx" : 69.49311273212778,
+  "text" : "There we go. Okay, well I think we have introduced ourselves so the functional requirements uh is m is part of my goal, but why don't we pass right to the second slide?",
+  "track" : "asr",
+  "wallSeconds" : 0.159871958
+}

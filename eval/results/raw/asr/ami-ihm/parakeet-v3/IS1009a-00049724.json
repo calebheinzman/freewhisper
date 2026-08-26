@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.03,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00049724",
+  "model" : "parakeet-v3",
+  "rtfx" : 46.5033326016994,
+  "text" : "At um twelve fifty Euros per",
+  "track" : "asr",
+  "wallSeconds" : 0.108164291
+}

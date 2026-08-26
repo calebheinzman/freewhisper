@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.6400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-18",
+  "model" : "whisper-large-v3",
+  "rtfx" : 4.170996115929687,
+  "text" : "We've conducted some major programs to respect each one's dignity and individuality.",
+  "track" : "asr",
+  "wallSeconds" : 2.550964375
+}

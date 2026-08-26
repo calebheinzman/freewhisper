@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.1000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-134",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.415256162991508,
+  "text" : "it lost quite a bit of money.",
+  "track" : "asr",
+  "wallSeconds" : 0.614906291
+}

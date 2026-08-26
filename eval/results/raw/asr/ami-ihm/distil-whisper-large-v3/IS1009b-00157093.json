@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.7,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00157093",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.7586318808595576,
+  "text" : "I guess in many ways, everybody.",
+  "track" : "asr",
+  "wallSeconds" : 0.6162475
+}

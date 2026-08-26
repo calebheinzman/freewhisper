@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.25,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00111613",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.122140654209277,
+  "text" : "Holder, yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.589027875
+}

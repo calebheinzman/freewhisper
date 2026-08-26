@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-404",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.978379271208594,
+  "text" : "in the lab domain, this is around 40%.",
+  "track" : "asr",
+  "wallSeconds" : 0.634865417
+}

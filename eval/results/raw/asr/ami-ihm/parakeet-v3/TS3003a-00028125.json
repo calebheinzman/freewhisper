@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.59,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00028125",
+  "model" : "parakeet-v3",
+  "rtfx" : 52.549488245539635,
+  "text" : "I had some role indications on here",
+  "track" : "asr",
+  "wallSeconds" : 0.106375917
+}

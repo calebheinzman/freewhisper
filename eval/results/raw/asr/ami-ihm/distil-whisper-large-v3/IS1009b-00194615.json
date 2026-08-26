@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.26,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00194615",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.606542687176485,
+  "text" : "I think the idea here is to decide.",
+  "track" : "asr",
+  "wallSeconds" : 0.626638916
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.08,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00051987",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.5980281268409352,
+  "text" : "They get a go.",
+  "track" : "asr",
+  "wallSeconds" : 1.805935125
+}

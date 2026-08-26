@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.84,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00037725",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.186498713250006,
+  "text" : "Profit aim for the company is 50 million euro. The market range unlimited meaning international",
+  "track" : "asr",
+  "wallSeconds" : 2.774204792
+}

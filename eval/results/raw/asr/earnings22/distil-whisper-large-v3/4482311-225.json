@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.0000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-225",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.6601487275886,
+  "text" : "the 14% which is an organic growth compared with 2019.",
+  "track" : "asr",
+  "wallSeconds" : 0.652737
+}

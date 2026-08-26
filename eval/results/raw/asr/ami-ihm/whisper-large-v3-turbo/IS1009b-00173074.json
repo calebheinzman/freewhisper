@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.16,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00173074",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.220880390289376,
+  "text" : "out of the cost we are supposed to respect respect yeah",
+  "track" : "asr",
+  "wallSeconds" : 1.291572333
+}

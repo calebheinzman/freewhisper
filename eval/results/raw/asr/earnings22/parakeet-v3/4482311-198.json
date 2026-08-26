@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-198",
+  "model" : "parakeet-v3",
+  "rtfx" : 40.842629856119785,
+  "text" : "So let's look at a distribution of revenue uh per uh business line.",
+  "track" : "asr",
+  "wallSeconds" : 0.127809167
+}

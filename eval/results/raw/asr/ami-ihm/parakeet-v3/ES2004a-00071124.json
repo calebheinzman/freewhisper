@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00071124",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.813856550255426,
+  "text" : "Yeah. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.096089833
+}

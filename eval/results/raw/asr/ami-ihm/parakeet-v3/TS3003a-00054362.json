@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.17,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00054362",
+  "model" : "parakeet-v3",
+  "rtfx" : 21.343510023827026,
+  "text" : "Uh see you have to do it real slow.",
+  "track" : "asr",
+  "wallSeconds" : 0.10167025
+}

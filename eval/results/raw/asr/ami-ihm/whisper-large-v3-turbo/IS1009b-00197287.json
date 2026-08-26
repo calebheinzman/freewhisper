@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00197287",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.3582320280833486,
+  "text" : "Five minutes, I guess that's the old message.",
+  "track" : "asr",
+  "wallSeconds" : 1.140685042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-259",
+  "model" : "whisper-large-v3",
+  "rtfx" : 4.794117990991369,
+  "text" : "operating margin stands at 27 percent.",
+  "track" : "asr",
+  "wallSeconds" : 1.814736833
+}

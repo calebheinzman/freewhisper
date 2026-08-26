@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.42,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00041916",
+  "model" : "parakeet-v3",
+  "rtfx" : 64.63883435147174,
+  "text" : "Now uh the discussion I guess is um does any uh one of you have experience with remote control?",
+  "track" : "asr",
+  "wallSeconds" : 0.13026225
+}

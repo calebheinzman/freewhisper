@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.13,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00197828",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.5180159314807016,
+  "text" : "I'm going to finish meeting now.",
+  "track" : "asr",
+  "wallSeconds" : 1.64018025
+}

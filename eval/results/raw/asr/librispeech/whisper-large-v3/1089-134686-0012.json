@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.64,
+  "dataset" : "librispeech",
+  "id" : "1089-134686-0012",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.0093203615424375,
+  "text" : "her eyes seemed to regard him with mild pity her holiness a strange light glowing faintly upon her frail flesh did not humiliate the sinner who approached her",
+  "track" : "asr",
+  "wallSeconds" : 3.8679829999999997
+}

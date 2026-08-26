@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.89,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00117636",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.647980434983325,
+  "text" : "It's actually there on the screen.",
+  "track" : "asr",
+  "wallSeconds" : 1.091397792
+}

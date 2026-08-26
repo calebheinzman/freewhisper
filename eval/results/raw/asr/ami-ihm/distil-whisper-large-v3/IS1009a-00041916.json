@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.42,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00041916",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.31506055335285,
+  "text" : "Now, the discussion, I guess, is, does any one of you have experience with remote control?",
+  "track" : "asr",
+  "wallSeconds" : 0.744140958
+}

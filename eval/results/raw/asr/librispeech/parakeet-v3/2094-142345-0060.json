@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "librispeech",
+  "id" : "2094-142345-0060",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.444537551652168,
+  "text" : "Oh, I've no doubt. It's in capital order.",
+  "track" : "asr",
+  "wallSeconds" : 0.115591958
+}

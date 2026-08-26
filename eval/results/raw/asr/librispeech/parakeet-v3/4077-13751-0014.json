@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 12.61,
+  "dataset" : "librispeech",
+  "id" : "4077-13751-0014",
+  "model" : "parakeet-v3",
+  "rtfx" : 55.241962863908064,
+  "text" : "Making their way across the river, most of the refugees found shelter among the more hospitable people of Clay County, and afterward established themselves in Caldwell County, therein founding the city of far west.",
+  "track" : "asr",
+  "wallSeconds" : 0.2282685
+}

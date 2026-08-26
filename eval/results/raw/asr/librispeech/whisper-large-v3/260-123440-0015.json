@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.2,
+  "dataset" : "librispeech",
+  "id" : "260-123440-0015",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8476511771661308,
+  "text" : "\"I wish I hadn't cried so much,\" said Alice, as she swam about trying to find her way out.",
+  "track" : "asr",
+  "wallSeconds" : 3.35561175
+}

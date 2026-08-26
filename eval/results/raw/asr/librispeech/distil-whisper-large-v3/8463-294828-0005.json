@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.44,
+  "dataset" : "librispeech",
+  "id" : "8463-294828-0005",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.928694990974266,
+  "text" : "Conce was my man's servant.",
+  "track" : "asr",
+  "wallSeconds" : 0.621071375
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.17,
+  "dataset" : "librispeech",
+  "id" : "8555-292519-0012",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.27545433118072,
+  "text" : "Through the black night rain he sang to her window bars.",
+  "track" : "asr",
+  "wallSeconds" : 0.125256041
+}

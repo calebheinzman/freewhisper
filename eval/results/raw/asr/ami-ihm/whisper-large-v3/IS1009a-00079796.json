@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.65,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00079796",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.1082913925640336,
+  "text" : "Then we see you in about 30 minutes and see what we can come up with.",
+  "track" : "asr",
+  "wallSeconds" : 2.679895208
+}

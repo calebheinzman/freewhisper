@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.75,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00112017",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.4731711847089963,
+  "text" : "- Yeah, I'm gonna be here on to the next one.",
+  "track" : "asr",
+  "wallSeconds" : 1.187913542
+}

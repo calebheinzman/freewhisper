@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.3799375,
+  "dataset" : "earnings22",
+  "id" : "4482249-277",
+  "model" : "parakeet-v3",
+  "rtfx" : 48.965642099432145,
+  "text" : "Um yeah, lead times of course are a function of the book to bill ratio, you could say.",
+  "track" : "asr",
+  "wallSeconds" : 0.130294166
+}

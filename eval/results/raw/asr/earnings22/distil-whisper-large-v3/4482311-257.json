@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.2799375,
+  "dataset" : "earnings22",
+  "id" : "4482311-257",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.2328891950466625,
+  "text" : "And, of course, 100 percent compared to the previous year, well,",
+  "track" : "asr",
+  "wallSeconds" : 0.686669916
+}

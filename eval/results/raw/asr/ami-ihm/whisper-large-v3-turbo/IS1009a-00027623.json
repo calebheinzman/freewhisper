@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00027623",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.0265088552810746,
+  "text" : "Okay, I'll see what I can do. Whether you... See if I can...",
+  "track" : "asr",
+  "wallSeconds" : 1.312602209
+}

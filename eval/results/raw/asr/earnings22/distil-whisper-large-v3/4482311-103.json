@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.4800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-103",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.672212154290662,
+  "text" : "well, the high point, the event of the year was the integration of Tiffany that achieved a record year.",
+  "track" : "asr",
+  "wallSeconds" : 0.773355917
+}

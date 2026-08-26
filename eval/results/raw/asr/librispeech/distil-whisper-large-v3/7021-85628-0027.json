@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.5,
+  "dataset" : "librispeech",
+  "id" : "7021-85628-0027",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.61705544822048,
+  "text" : "If you dressed in silk and gold from top to toe, you could not look any nicer than in your little red cap.",
+  "track" : "asr",
+  "wallSeconds" : 0.883846417
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.54,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00070518",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.755377250074588,
+  "text" : "You sold the ones in the same time.",
+  "track" : "asr",
+  "wallSeconds" : 2.038716416
+}

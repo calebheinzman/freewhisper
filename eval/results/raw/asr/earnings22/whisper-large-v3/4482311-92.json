@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-92",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.0327961454184336,
+  "text" : "extraordinary success in 2021, the Sauvage line become the world's leading fragrance, not just for men, but also beating all the existing women's",
+  "track" : "asr",
+  "wallSeconds" : 3.950170709
+}

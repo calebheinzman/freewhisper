@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.97,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00071171",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.068810688718354,
+  "text" : "Working design, yeah, it's a technical functional design.",
+  "track" : "asr",
+  "wallSeconds" : 0.654164416
+}

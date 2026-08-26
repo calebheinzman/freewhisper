@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.025,
+  "dataset" : "librispeech",
+  "id" : "61-70968-0024",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9188745999524661,
+  "text" : "spoke the squire losing all patience. And it was to you that I gave another person consolation.",
+  "track" : "asr",
+  "wallSeconds" : 3.13986125
+}

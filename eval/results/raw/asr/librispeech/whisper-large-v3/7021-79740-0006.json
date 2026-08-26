@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.965,
+  "dataset" : "librispeech",
+  "id" : "7021-79740-0006",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.008431427455916,
+  "text" : "\"'I expect you have been a very good girl, Andela, since you were here last.'",
+  "track" : "asr",
+  "wallSeconds" : 2.9699794170000002
+}

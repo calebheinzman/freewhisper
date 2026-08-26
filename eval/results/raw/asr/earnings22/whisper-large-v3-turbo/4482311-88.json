@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.0800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-88",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.242585629876422,
+  "text" : "great Japanese artistic director, Nigo, and the first show was held this past weekend.",
+  "track" : "asr",
+  "wallSeconds" : 1.253704542
+}

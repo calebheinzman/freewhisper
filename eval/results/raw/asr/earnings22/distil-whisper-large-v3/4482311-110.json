@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.420125,
+  "dataset" : "earnings22",
+  "id" : "4482311-110",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.472517765027537,
+  "text" : "Bulgari was very successful in its stores.",
+  "track" : "asr",
+  "wallSeconds" : 0.624963709
+}

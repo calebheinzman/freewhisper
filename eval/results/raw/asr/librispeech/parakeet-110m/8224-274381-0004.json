@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 21.255,
+  "dataset" : "librispeech",
+  "id" : "8224-274381-0004",
+  "model" : "parakeet-110m",
+  "rtfx" : 82.02876624370737,
+  "text" : "Five hundred men more, who had been levied by the Covenanters, were persuaded to embrace the royal cause, and with this combined force he hastened to attack Lord Elko, who lay at Perth with an army of six thousand men, assembled upon the first news of the Irish invas ion.",
+  "track" : "asr",
+  "wallSeconds" : 0.259116417
+}

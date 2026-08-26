@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 33.91,
+  "dataset" : "librispeech",
+  "id" : "1995-1836-0004",
+  "model" : "parakeet-110m",
+  "rtfx" : 90.94365100809735,
+  "text" : "As she awaited her guest she surveyed the table with both satisfaction and disquietude, for her social functions were few. To night there were, she checked them off on her fingers Sir James Crichten, the rich English manufacturer and lady Crichton, Mr. and Mrs. Vanderpool, Mr. Harry Creswell and his sister, John Taylor and his sister, and Mr. Charles Smith, whom the evening papers mentioned as likely to be United States Senator from New Jersey. A selection of guests that had been determined unknown to the hostess by the meeting of cotton interests earlier in the day.",
+  "track" : "asr",
+  "wallSeconds" : 0.37286825
+}

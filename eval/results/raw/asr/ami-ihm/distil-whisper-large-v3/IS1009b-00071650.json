@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.42,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00071650",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.774075908947044,
+  "text" : "Yeah, well, that's already been eliminated by management. So we're off the hook. Yeah. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.825821625
+}

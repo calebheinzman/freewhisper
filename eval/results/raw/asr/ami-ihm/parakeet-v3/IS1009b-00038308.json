@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.29,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00038308",
+  "model" : "parakeet-v3",
+  "rtfx" : 13.386209483407187,
+  "text" : "And the other thing.",
+  "track" : "asr",
+  "wallSeconds" : 0.096367833
+}

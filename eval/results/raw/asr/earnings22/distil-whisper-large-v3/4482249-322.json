@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.5399375,
+  "dataset" : "earnings22",
+  "id" : "4482249-322",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.761947231478088,
+  "text" : "So all those fundamentals are fully intact, very strong, and has, of course, led to quite a strong underlying market growth.",
+  "track" : "asr",
+  "wallSeconds" : 0.811084875
+}

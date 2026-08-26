@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.78,
+  "dataset" : "earnings22",
+  "id" : "4482311-128",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.304165846895432,
+  "text" : "there was the Diffy watch",
+  "track" : "asr",
+  "wallSeconds" : 1.206510375
+}

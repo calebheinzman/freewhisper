@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00100079",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.7606907317316214,
+  "text" : "But we'll get to that with you. Yes. Also, text should be very clear so that there won't be any ambiguities.",
+  "track" : "asr",
+  "wallSeconds" : 1.465156375
+}

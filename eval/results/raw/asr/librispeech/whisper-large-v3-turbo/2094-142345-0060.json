@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "librispeech",
+  "id" : "2094-142345-0060",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.3063388147886528,
+  "text" : "Oh, I've no doubt it's in capital order.",
+  "track" : "asr",
+  "wallSeconds" : 1.1750225
+}

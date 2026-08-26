@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.215,
+  "dataset" : "librispeech",
+  "id" : "5683-32866-0006",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.435841353454868,
+  "text" : "\"Yes, so they said, but that would, I think, have been worse.",
+  "track" : "asr",
+  "wallSeconds" : 2.935561084
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.015,
+  "dataset" : "librispeech",
+  "id" : "5105-28240-0004",
+  "model" : "parakeet-v3",
+  "rtfx" : 49.70798808938757,
+  "text" : "If the count were on board, a strange fatality was bringing him to the presence of his rival",
+  "track" : "asr",
+  "wallSeconds" : 0.121006708
+}

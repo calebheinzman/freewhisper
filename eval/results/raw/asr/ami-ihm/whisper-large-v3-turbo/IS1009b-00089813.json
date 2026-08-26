@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.48,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089813",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.4134774526914087,
+  "text" : "Make the Don of...",
+  "track" : "asr",
+  "wallSeconds" : 1.047063041
+}

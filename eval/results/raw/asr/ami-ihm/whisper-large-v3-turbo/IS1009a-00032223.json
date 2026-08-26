@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.85,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00032223",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.163710512994885,
+  "text" : "Yes, I'm dancing it. Would you like just to see... Yes, sure.",
+  "track" : "asr",
+  "wallSeconds" : 1.31718175
+}

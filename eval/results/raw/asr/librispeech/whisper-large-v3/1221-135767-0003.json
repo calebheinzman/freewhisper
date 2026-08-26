@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 18.63,
+  "dataset" : "librispeech",
+  "id" : "1221-135767-0003",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.2811451799436524,
+  "text" : "the period was hardly if at all earlier than that of our story when a dispute concerning the right of property in a pig not only caused a fierce and bitter contest in the legislative body of the colony but resulted in an important modification of the framework itself of the legislature",
+  "track" : "asr",
+  "wallSeconds" : 5.677895667
+}

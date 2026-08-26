@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.61,
+  "dataset" : "librispeech",
+  "id" : "1089-134686-0025",
+  "model" : "parakeet-v3",
+  "rtfx" : 51.22004401343806,
+  "text" : "A gentle kick from the tall boy in the bench behind urged Stephen to ask a difficult question",
+  "track" : "asr",
+  "wallSeconds" : 0.129051041
+}

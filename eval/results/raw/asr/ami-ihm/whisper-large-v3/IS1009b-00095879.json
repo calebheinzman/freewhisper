@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00095879",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.8593234827726222,
+  "text" : "something I mean you and I",
+  "track" : "asr",
+  "wallSeconds" : 1.931752167
+}

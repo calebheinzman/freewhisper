@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.86,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00058148",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.7176646592613625,
+  "text" : "Yeah, maybe it should have a light so that we can just recognize where it is. Exactly.",
+  "track" : "asr",
+  "wallSeconds" : 1.307272292
+}

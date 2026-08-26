@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-209",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.161276325678582,
+  "text" : "We compare with 2019. It's a two-year growth. And it's, well, it's compared with 2019, 25%.",
+  "track" : "asr",
+  "wallSeconds" : 0.842684166
+}

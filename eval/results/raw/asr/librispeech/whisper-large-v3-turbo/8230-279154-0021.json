@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.56,
+  "dataset" : "librispeech",
+  "id" : "8230-279154-0021",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.051893574468839,
+  "text" : "Remembering has to be a present occurrence in some way resembling or related to what is remembered.",
+  "track" : "asr",
+  "wallSeconds" : 1.2985229999999999
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.425,
+  "dataset" : "librispeech",
+  "id" : "5142-36377-0008",
+  "model" : "parakeet-110m",
+  "rtfx" : 49.51414092727951,
+  "text" : "mister Metacroft the Elder, having not spoken one word thus far, himself introduced the newcomer to me, with a side glance at his sons, which had something like defiance in it, a glance which, as I was sorry to notice, was returned with the defiance on their side by the two young men",
+  "track" : "asr",
+  "wallSeconds" : 0.311527166
+}

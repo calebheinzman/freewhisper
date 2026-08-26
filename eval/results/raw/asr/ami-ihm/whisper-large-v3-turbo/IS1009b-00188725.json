@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.55,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00188725",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.3986693916656674,
+  "text" : "- Oh, there's a real idea.",
+  "track" : "asr",
+  "wallSeconds" : 1.108196125
+}

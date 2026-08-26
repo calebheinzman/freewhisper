@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00172297",
+  "model" : "parakeet-v3",
+  "rtfx" : 54.827152566255364,
+  "text" : "sort of subgroups with maybe different buttons for each group, how much would that throw us?",
+  "track" : "asr",
+  "wallSeconds" : 0.122019833
+}

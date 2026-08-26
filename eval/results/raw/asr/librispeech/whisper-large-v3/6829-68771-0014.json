@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.77,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0014",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7386805635878153,
+  "text" : "\"We ought to have more attendance, Beth,\" said Louise, approaching her cousin.",
+  "track" : "asr",
+  "wallSeconds" : 2.7434596669999998
+}

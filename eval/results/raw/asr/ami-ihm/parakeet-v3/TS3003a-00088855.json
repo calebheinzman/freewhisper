@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.36,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00088855",
+  "model" : "parakeet-v3",
+  "rtfx" : 28.903515960456996,
+  "text" : "I guess I'll pass the pen to our user interface design.",
+  "track" : "asr",
+  "wallSeconds" : 0.116248833
+}

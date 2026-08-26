@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.005,
+  "dataset" : "librispeech",
+  "id" : "908-31957-0008",
+  "model" : "parakeet-v3",
+  "rtfx" : 63.81223067754654,
+  "text" : "Nay, I rather thrill'd, distrusting every light that seemed to gild the onward path, and feared to overlean a finger even.",
+  "track" : "asr",
+  "wallSeconds" : 0.156788125
+}

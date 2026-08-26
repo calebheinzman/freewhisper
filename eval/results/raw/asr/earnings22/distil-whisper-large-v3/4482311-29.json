@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.2400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-29",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.594098546383173,
+  "text" : "last be the climate, well,",
+  "track" : "asr",
+  "wallSeconds" : 0.623261291
+}

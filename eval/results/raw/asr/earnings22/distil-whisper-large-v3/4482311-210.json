@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3,
+  "dataset" : "earnings22",
+  "id" : "4482311-210",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.13218567476176,
+  "text" : "And if you look at the quarters, quarter after quarter, we're looking at growth anywhere between 15 and 30 percent. Some volatility, but that calls for no special comments. But that calls for no special comments.",
+  "track" : "asr",
+  "wallSeconds" : 1.0165625
+}

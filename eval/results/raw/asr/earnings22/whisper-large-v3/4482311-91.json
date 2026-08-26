@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-91",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.524178420285786,
+  "text" : "carefully at Christian John well it's the perfume it",
+  "track" : "asr",
+  "wallSeconds" : 2.068024375
+}

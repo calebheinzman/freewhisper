@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3,
+  "dataset" : "earnings22",
+  "id" : "4482311-210",
+  "model" : "parakeet-v3",
+  "rtfx" : 59.10021359276224,
+  "text" : "And if you look at the quarters, quarter after quarter, we are looking at growth anywhere between fifteen and thirty percent, some volatility, but that calls for no special comments.",
+  "track" : "asr",
+  "wallSeconds" : 0.17428025
+}

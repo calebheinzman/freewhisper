@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.475,
+  "dataset" : "librispeech",
+  "id" : "8463-294825-0016",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.425546780563275,
+  "text" : "",
+  "track" : "asr",
+  "wallSeconds" : 1.844944833
+}

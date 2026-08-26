@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.56,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00108020",
+  "model" : "parakeet-v3",
+  "rtfx" : 48.454619647314686,
+  "text" : "And then uh infrared bulbs. Um this is like uh when it is dark.",
+  "track" : "asr",
+  "wallSeconds" : 0.114746541
+}

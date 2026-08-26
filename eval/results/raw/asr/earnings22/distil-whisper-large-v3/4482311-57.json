@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.0400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-57",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.324449394752827,
+  "text" : "It wasn't really a fashion show.",
+  "track" : "asr",
+  "wallSeconds" : 0.61365425
+}

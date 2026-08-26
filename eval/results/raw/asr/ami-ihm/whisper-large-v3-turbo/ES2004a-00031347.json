@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.39,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00031347",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.641741081738352,
+  "text" : "It's actually sitting. So-- Sorry? It's sitting. It's not standing. OK, I see it as one thing. It's very supportive.",
+  "track" : "asr",
+  "wallSeconds" : 1.807511417
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.73,
+  "dataset" : "librispeech",
+  "id" : "5105-28240-0012",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5002690889615957,
+  "text" : "\"Never mind now,\" interposed the captain. \"We will talk of that by and by.",
+  "track" : "asr",
+  "wallSeconds" : 3.15276775
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.91,
+  "dataset" : "librispeech",
+  "id" : "4507-16021-0049",
+  "model" : "parakeet-v3",
+  "rtfx" : 50.176718837888856,
+  "text" : "there is hardly one day out of a hundred which is wholly joyous and sunny.",
+  "track" : "asr",
+  "wallSeconds" : 0.117783708
+}

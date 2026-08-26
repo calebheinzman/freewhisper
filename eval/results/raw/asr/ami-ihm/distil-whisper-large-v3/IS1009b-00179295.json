@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00179295",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.3940511779205846,
+  "text" : "It doesn't cost. No.",
+  "track" : "asr",
+  "wallSeconds" : 0.630730042
+}

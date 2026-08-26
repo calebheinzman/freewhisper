@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.415,
+  "dataset" : "librispeech",
+  "id" : "61-70970-0015",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.896034655488987,
+  "text" : "will cried he softly and studley who had chosen his couch across the door of his young master's chamber sprang up at once in answer",
+  "track" : "asr",
+  "wallSeconds" : 1.427230417
+}

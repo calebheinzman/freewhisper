@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.58,
+  "dataset" : "earnings22",
+  "id" : "4482311-117",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.772083935162726,
+  "text" : "watch wonderful watch it's so successful that it's difficult to to find",
+  "track" : "asr",
+  "wallSeconds" : 2.3736655
+}

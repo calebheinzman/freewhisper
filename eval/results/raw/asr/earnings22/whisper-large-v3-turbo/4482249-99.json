@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.6400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-99",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.490542975207368,
+  "text" : "we have set the target to reduce these emissions by 10 percent every year",
+  "track" : "asr",
+  "wallSeconds" : 1.209363542
+}

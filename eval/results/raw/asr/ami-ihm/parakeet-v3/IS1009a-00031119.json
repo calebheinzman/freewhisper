@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.26,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00031119",
+  "model" : "parakeet-v3",
+  "rtfx" : 63.530052624497785,
+  "text" : "I have a very fat cat. And it likes to sit like that. Okay. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.114276625
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.07,
+  "dataset" : "librispeech",
+  "id" : "237-134500-0002",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.9654845104217364,
+  "text" : "A brisk wind had come up, and was driving puffy white clouds across the sky.",
+  "track" : "asr",
+  "wallSeconds" : 1.278532292
+}

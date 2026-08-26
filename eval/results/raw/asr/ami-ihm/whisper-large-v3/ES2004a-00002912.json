@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.36,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00002912",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.5541397601593477,
+  "text" : "She's going to own some air. Yeah, good.",
+  "track" : "asr",
+  "wallSeconds" : 2.4542545000000002
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.36,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00002912",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 1.9989376968967412,
+  "text" : "She's going to own Samia. Yeah, good.",
+  "track" : "asr",
+  "wallSeconds" : 0.680361375
+}

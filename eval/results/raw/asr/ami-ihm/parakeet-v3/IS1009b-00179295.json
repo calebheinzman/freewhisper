@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00179295",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.784643553014206,
+  "text" : "No, it it doesn't cost.",
+  "track" : "asr",
+  "wallSeconds" : 0.102133
+}

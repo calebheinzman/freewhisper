@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.7,
+  "dataset" : "earnings22",
+  "id" : "4482311-251",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.4242059876374356,
+  "text" : "Expenses are always a bit complicated, especially because there's the scope effect with Tiffany. But if you leave out the currency effect and the scope effect, it's quite simple.",
+  "track" : "asr",
+  "wallSeconds" : 2.5407349999999997
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.86,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00058148",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5004770419422209,
+  "text" : "Yeah, maybe it should have a light so that we can just recognize where it is. Exactly, yeah.",
+  "track" : "asr",
+  "wallSeconds" : 3.238969917
+}

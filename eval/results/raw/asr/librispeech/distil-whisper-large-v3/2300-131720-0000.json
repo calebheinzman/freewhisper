@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.08,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0000",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.288698151246679,
+  "text" : "The Paris plant, like that at the Crystal Palace, was a temporary exhibit.",
+  "track" : "asr",
+  "wallSeconds" : 0.696969458
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.8600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-94",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.800558910558218,
+  "text" : "perfume, I invite you all to test it",
+  "track" : "asr",
+  "wallSeconds" : 2.1438135
+}

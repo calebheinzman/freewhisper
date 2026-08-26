@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.55,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00025341",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.023969746031222,
+  "text" : "and we've got our user interface designer.",
+  "track" : "asr",
+  "wallSeconds" : 0.691677583
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.1600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-73",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1907415271560944,
+  "text" : "I believe it will be an unforgettable event.",
+  "track" : "asr",
+  "wallSeconds" : 2.653861
+}

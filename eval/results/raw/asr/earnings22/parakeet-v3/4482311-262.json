@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-262",
+  "model" : "parakeet-v3",
+  "rtfx" : 25.498145685276214,
+  "text" : "Looking at the income statement well.",
+  "track" : "asr",
+  "wallSeconds" : 0.106676875
+}

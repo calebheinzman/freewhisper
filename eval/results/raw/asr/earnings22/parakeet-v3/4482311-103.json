@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.4800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-103",
+  "model" : "parakeet-v3",
+  "rtfx" : 56.50979376802207,
+  "text" : "Well, the high point uh the event of the year was the integration of Tiffany that achieved a record year.",
+  "track" : "asr",
+  "wallSeconds" : 0.132367542
+}

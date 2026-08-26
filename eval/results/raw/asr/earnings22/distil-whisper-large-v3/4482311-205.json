@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.3800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-205",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.464767766408306,
+  "text" : "Now, back to the geographical areas in looking at the development quarter on quarters.",
+  "track" : "asr",
+  "wallSeconds" : 0.705229458
+}

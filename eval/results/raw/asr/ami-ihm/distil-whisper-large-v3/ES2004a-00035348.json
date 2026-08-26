@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.07,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00035348",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.261998777932342,
+  "text" : "Yeah, I hope we're okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.63458025
+}

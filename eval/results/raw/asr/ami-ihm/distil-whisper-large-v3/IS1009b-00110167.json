@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.36,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00110167",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.65699678518577,
+  "text" : "And of course, there should be a case where we can keep all the things and, you know, different shapes or whatever it is. There should be a case to give a shape. To keep a remote. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 1.072797292
+}

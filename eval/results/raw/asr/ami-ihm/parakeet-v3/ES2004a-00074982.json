@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.47,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00074982",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.49144149512945,
+  "text" : "And symbols that you don't necessarily understand. Symbols you're meant to understand that you don't.",
+  "track" : "asr",
+  "wallSeconds" : 0.131834417
+}

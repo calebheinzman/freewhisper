@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.36,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00171054",
+  "model" : "parakeet-v3",
+  "rtfx" : 75.61703463769652,
+  "text" : "And with the twenty five Euros, you know, can we can we afford to have uh I'm asking the technical people here whether um to look at",
+  "track" : "asr",
+  "wallSeconds" : 0.137006166
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.605,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0009",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.57414090761374,
+  "text" : "For some years, it was not found feasible to operate motors on alternating current circuits, and that reason was often urged against it seriously.",
+  "track" : "asr",
+  "wallSeconds" : 0.829867208
+}

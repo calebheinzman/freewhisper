@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.215,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0016",
+  "model" : "parakeet-v3",
+  "rtfx" : 66.36492937493188,
+  "text" : "Yes then something better something still grander will surely follow. Or wherefore should they thus ornament me?",
+  "track" : "asr",
+  "wallSeconds" : 0.138853459
+}

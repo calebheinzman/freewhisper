@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.4,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00149375",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.17089518587462,
+  "text" : "Timer, yeah. Timer.",
+  "track" : "asr",
+  "wallSeconds" : 0.098794041
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-148",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.2458022866185265,
+  "text" : "And that's interesting because the leading experts and specialists, various Nobel Prize winners have very differing views.",
+  "track" : "asr",
+  "wallSeconds" : 3.074759834
+}

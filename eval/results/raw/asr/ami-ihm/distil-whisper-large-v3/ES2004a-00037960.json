@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.88,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00037960",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.818370850200498,
+  "text" : "Okay, now I'm going to have to change what it was originally going to be because that looks like a beak now. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.83872275
+}

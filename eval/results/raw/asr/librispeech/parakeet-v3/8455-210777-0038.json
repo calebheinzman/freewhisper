@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.03,
+  "dataset" : "librispeech",
+  "id" : "8455-210777-0038",
+  "model" : "parakeet-v3",
+  "rtfx" : 67.33744880843328,
+  "text" : "Therefore, I feel myself quite able, as President of this Republic, to receive you with a courtesy due to the servants of a friendly ally.",
+  "track" : "asr",
+  "wallSeconds" : 0.148951292
+}

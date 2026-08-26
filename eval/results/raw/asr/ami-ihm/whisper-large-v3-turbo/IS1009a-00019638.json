@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.02,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00019638",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.050770063811982,
+  "text" : "All right, here is what the functional design is supposed to achieve.",
+  "track" : "asr",
+  "wallSeconds" : 1.191897458
+}

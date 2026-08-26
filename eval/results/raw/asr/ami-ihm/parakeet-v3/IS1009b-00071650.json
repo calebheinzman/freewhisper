@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.42,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00071650",
+  "model" : "parakeet-v3",
+  "rtfx" : 53.33750595467144,
+  "text" : "Yeah, well that's already been eliminated by management. So we're off the hook.",
+  "track" : "asr",
+  "wallSeconds" : 0.120365583
+}

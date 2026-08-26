@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00172297",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.006805089565958,
+  "text" : "So the subgroups with maybe different buttons for each group, how much would that throw us?",
+  "track" : "asr",
+  "wallSeconds" : 0.742771708
+}

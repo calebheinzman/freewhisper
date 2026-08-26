@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5,
+  "dataset" : "librispeech",
+  "id" : "6930-81414-0020",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.071243643561193,
+  "text" : "I say, you do know what this means, and you must tell us.",
+  "track" : "asr",
+  "wallSeconds" : 1.228125958
+}

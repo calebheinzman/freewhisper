@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.71,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00190462",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.5142022892058182,
+  "text" : "Yeah, like, for mobile phones, we have different covers. That's right. And like, if then everybody--",
+  "track" : "asr",
+  "wallSeconds" : 4.431376209
+}

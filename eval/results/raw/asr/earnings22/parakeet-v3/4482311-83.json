@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.3000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-83",
+  "model" : "parakeet-v3",
+  "rtfx" : 22.54050742517059,
+  "text" : "I won't go into the detail.",
+  "track" : "asr",
+  "wallSeconds" : 0.102041292
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.26,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00103084",
+  "model" : "parakeet-v3",
+  "rtfx" : 45.61488210786597,
+  "text" : "Yeah, and a lot of time there's not a clock on the screen and you have to go somewhere but you just want to look at the news for a minute. Yeah, that's that's good. The clock is good. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.159158583
+}

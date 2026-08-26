@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.61,
+  "dataset" : "librispeech",
+  "id" : "8555-284447-0001",
+  "model" : "parakeet-v3",
+  "rtfx" : 53.17061732896125,
+  "text" : "Hold him fast, my men, and as soon as I've had my coffee and oatmeal, I'll take him to the room of the great knife, and patch him.",
+  "track" : "asr",
+  "wallSeconds" : 0.161931541
+}

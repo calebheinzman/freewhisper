@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.95,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00070596",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.522313400917646,
+  "text" : "You didn't have six remote controls in front of you.",
+  "track" : "asr",
+  "wallSeconds" : 0.652321
+}

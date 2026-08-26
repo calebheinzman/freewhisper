@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.83,
+  "dataset" : "librispeech",
+  "id" : "2961-960-0015",
+  "model" : "parakeet-v3",
+  "rtfx" : 61.18396409090487,
+  "text" : "The style and plan of the Timaeus differ greatly from that of any other of the Platonic dialogues",
+  "track" : "asr",
+  "wallSeconds" : 0.127974709
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.06,
+  "dataset" : "librispeech",
+  "id" : "4992-23283-0004",
+  "model" : "parakeet-v3",
+  "rtfx" : 56.08440700470864,
+  "text" : "And yet you must own her behaviour has warranted them. Has it not been in this particular incoherent and unaccountable?",
+  "track" : "asr",
+  "wallSeconds" : 0.143711959
+}

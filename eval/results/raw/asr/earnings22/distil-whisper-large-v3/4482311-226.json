@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.60025,
+  "dataset" : "earnings22",
+  "id" : "4482311-226",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.448943108560616,
+  "text" : "If you look at all the business lines, we are doing better than 2019, except for selective retailing.",
+  "track" : "asr",
+  "wallSeconds" : 0.751182875
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 16.645,
+  "dataset" : "librispeech",
+  "id" : "1221-135766-0005",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 14.799883699321846,
+  "text" : "hester could only account for the child's character and even then most vaguely and imperfectly by recalling what she herself had been during that momentous period while pearl was imbibing her soul from the spiritual world and her bodily frame from its material of earth",
+  "track" : "asr",
+  "wallSeconds" : 1.124671
+}

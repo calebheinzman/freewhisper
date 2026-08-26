@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00006079",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.854091772704548,
+  "text" : "I think the marketing manager probably should go first, addressing the needs and desires.",
+  "track" : "asr",
+  "wallSeconds" : 0.738641542
+}

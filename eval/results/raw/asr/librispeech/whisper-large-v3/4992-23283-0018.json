@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.575,
+  "dataset" : "librispeech",
+  "id" : "4992-23283-0018",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9775472443931836,
+  "text" : "To relieve her from both, he laid his hand with force upon his heart and said, Do you believe me?",
+  "track" : "asr",
+  "wallSeconds" : 3.32482575
+}

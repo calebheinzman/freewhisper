@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.76,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00104240",
+  "model" : "parakeet-v3",
+  "rtfx" : 16.534910673621173,
+  "text" : "Okay. So see you in half an hour.",
+  "track" : "asr",
+  "wallSeconds" : 0.106441458
+}

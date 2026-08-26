@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.1,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00132568",
+  "model" : "parakeet-v3",
+  "rtfx" : 58.85202984822327,
+  "text" : "I think the if you can put different kind of devices in one remote control, that makes it a lot easier as well. That's uh",
+  "track" : "asr",
+  "wallSeconds" : 0.154625083
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.1,
+  "dataset" : "librispeech",
+  "id" : "4446-2271-0007",
+  "model" : "parakeet-v3",
+  "rtfx" : 19.936890248605902,
+  "text" : "She doesn't take up with anybody, you know.",
+  "track" : "asr",
+  "wallSeconds" : 0.105332375
+}

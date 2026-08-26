@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.78,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00111068",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.5228017637486984,
+  "text" : "To keep the remote? Yeah. Yes.",
+  "track" : "asr",
+  "wallSeconds" : 1.168898042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.1000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-159",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.4537178691669,
+  "text" : "And so in the face of inflation, we have the ways and means to react. And I believe that demand will remain strong for our products.",
+  "track" : "asr",
+  "wallSeconds" : 1.6685979579999999
+}

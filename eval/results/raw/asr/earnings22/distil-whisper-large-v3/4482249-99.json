@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.6400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-99",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.71696081022839,
+  "text" : "We have set the target to reduce these emissions by 10% every year.",
+  "track" : "asr",
+  "wallSeconds" : 0.683347667
+}

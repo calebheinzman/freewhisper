@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00066522",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.2047394937134912,
+  "text" : "Well, because you're silly, because people are silly.",
+  "track" : "asr",
+  "wallSeconds" : 2.249448959
+}

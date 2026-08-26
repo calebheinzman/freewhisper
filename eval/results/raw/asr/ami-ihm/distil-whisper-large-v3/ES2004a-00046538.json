@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.04,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00046538",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.949602340635908,
+  "text" : "Hopefully that'll stay on, two-handed version. Okay. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 1.276077834
+}

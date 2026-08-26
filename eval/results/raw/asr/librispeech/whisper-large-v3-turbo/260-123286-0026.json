@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.94,
+  "dataset" : "librispeech",
+  "id" : "260-123286-0026",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.042126703423204,
+  "text" : "Two monsters only were creating all this commotion, and before my eyes are two reptiles of the primitive world,",
+  "track" : "asr",
+  "wallSeconds" : 1.376403333
+}

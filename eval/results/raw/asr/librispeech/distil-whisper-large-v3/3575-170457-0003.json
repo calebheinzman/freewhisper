@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.595,
+  "dataset" : "librispeech",
+  "id" : "3575-170457-0003",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.913561403492777,
+  "text" : "Surely it must be because we're in danger of loving each other too well, of losing sight of the creator and idolatry of the creature.",
+  "track" : "asr",
+  "wallSeconds" : 0.959744875
+}

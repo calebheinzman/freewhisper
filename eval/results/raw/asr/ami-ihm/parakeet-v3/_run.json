@@ -1,0 +1,14 @@
+{
+  "dataset" : "ami-ihm",
+  "failureCount" : 0,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 400,
+  "model" : "parakeet-v3",
+  "modelLoadSeconds" : 0.410196166,
+  "totalWallSeconds" : 46.416756083,
+  "track" : "asr"
+}

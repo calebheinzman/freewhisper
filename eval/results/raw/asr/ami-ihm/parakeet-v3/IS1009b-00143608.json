@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.05,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00143608",
+  "model" : "parakeet-v3",
+  "rtfx" : 61.671729927051274,
+  "text" : "So the you have different uh types of remotes with different light source which I use which can be used for controlling the different functionalities of a television.",
+  "track" : "asr",
+  "wallSeconds" : 0.146744708
+}

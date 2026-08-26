@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.815,
+  "dataset" : "librispeech",
+  "id" : "8224-274384-0002",
+  "model" : "parakeet-v3",
+  "rtfx" : 68.06125413016181,
+  "text" : "They informed the English Parliament of this unexpected incident, and assured them that they had entered into no private treaty with the King.",
+  "track" : "asr",
+  "wallSeconds" : 0.144208333
+}

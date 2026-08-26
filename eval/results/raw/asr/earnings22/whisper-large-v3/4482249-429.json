@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.260125,
+  "dataset" : "earnings22",
+  "id" : "4482249-429",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2360974042396897,
+  "text" : "Also, what's the main driver for leaving this guidance and change at this stage?",
+  "track" : "asr",
+  "wallSeconds" : 2.799576167
+}

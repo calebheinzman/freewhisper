@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.21,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00045037",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 12.175109919569447,
+  "text" : "Would you like to be smaller, bigger? Have more buttons on it or maybe clearly better marked buttons, you know, things like that.",
+  "track" : "asr",
+  "wallSeconds" : 0.838596125
+}

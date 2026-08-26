@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.34,
+  "dataset" : "earnings22",
+  "id" : "4482311-207",
+  "model" : "parakeet-v3",
+  "rtfx" : 47.90549849174382,
+  "text" : "In the US, you look at the last uh bar on the right, we were",
+  "track" : "asr",
+  "wallSeconds" : 0.111469459
+}

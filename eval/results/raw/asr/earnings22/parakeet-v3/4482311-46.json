@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.5000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-46",
+  "model" : "parakeet-v3",
+  "rtfx" : 50.51209367568868,
+  "text" : "So um sales that are strongly up but uh as I say limited by the supply constraints.",
+  "track" : "asr",
+  "wallSeconds" : 0.128683292
+}

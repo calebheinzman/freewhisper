@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.62,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00040286",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.974141617839007,
+  "text" : "So these are all things of course",
+  "track" : "asr",
+  "wallSeconds" : 0.605944792
+}

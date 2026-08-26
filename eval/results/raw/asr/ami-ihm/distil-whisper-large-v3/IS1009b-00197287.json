@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00197287",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.1695600416646,
+  "text" : "five minutes I guess that that's the old message.",
+  "track" : "asr",
+  "wallSeconds" : 0.645152
+}

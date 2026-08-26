@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.60025,
+  "dataset" : "earnings22",
+  "id" : "4482249-397",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.660404963672604,
+  "text" : "good afternoon and also congratulations on the numbers and indeed uh the new emissions initiative",
+  "track" : "asr",
+  "wallSeconds" : 1.201665959
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.3799375,
+  "dataset" : "earnings22",
+  "id" : "4482249-113",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 14.90530804877643,
+  "text" : "we are projecting those measures to cost around 1 percentage point of sales revenue going forward for the year 2025.",
+  "track" : "asr",
+  "wallSeconds" : 0.763482208
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.7600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-93",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.562024206056222,
+  "text" : "the first time it's happened in the perfume universe, extraordinary success there of this Sauvage Perfuge Perfeges.",
+  "track" : "asr",
+  "wallSeconds" : 0.84414825
+}

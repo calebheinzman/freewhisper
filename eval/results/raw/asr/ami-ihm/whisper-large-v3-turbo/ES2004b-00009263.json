@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.49,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00009263",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.34696668240221,
+  "text" : "We decided upon a universal control, one handset for all TV videos.",
+  "track" : "asr",
+  "wallSeconds" : 1.213772291
+}

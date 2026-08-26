@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.35,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00052105",
+  "model" : "parakeet-v3",
+  "rtfx" : 31.97170802242623,
+  "text" : "Yeah, design should be yeah, it should be different. All the almost all the trained you know like",
+  "track" : "asr",
+  "wallSeconds" : 0.136057792
+}

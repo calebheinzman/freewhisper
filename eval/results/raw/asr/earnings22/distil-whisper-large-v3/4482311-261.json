@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.1800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-261",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.93843295804362,
+  "text" : "But of course, we have the successful integration of Tiffany, and of course, that made a big difference.",
+  "track" : "asr",
+  "wallSeconds" : 0.768950375
+}

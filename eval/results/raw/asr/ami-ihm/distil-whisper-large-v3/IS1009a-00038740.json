@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.24,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00038740",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.474199356218877,
+  "text" : "and the production cost should not exceed, hopefully should be less than 12.50 euro.",
+  "track" : "asr",
+  "wallSeconds" : 0.73635275
+}

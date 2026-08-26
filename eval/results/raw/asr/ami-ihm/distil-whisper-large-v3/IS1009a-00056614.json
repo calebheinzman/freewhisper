@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.65,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00056614",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.087906545898353,
+  "text" : "Well, or yeah, or if it's really, if it's really in a dark spot, that it gives out a sound or a signal. Yeah. So, so it should either be for a light. So if lost.",
+  "track" : "asr",
+  "wallSeconds" : 1.061850708
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.095,
+  "dataset" : "librispeech",
+  "id" : "4507-16021-0053",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.326104635926009,
+  "text" : "to diminish the number of the shady to augment the number of the luminous that is the object",
+  "track" : "asr",
+  "wallSeconds" : 1.279618417
+}

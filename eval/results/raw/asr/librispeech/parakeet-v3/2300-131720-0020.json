@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.35,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0020",
+  "model" : "parakeet-v3",
+  "rtfx" : 60.732085685051324,
+  "text" : "It was specially suited for a trial plant also. In the early days, when a yield of six or eight lamps to the horsepower was considered subject for congratulation",
+  "track" : "asr",
+  "wallSeconds" : 0.170420625
+}

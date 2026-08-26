@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.78,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0011",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.6014575293877424,
+  "text" : "\"'She was the most agreeable woman I've ever known in her position. \"'She would have been worthy of any whatever.'",
+  "track" : "asr",
+  "wallSeconds" : 3.609212167
+}

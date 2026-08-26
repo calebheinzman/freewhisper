@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.0000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-194",
+  "model" : "parakeet-v3",
+  "rtfx" : 29.134327710599678,
+  "text" : "Uh two questions from my side please.",
+  "track" : "asr",
+  "wallSeconds" : 0.102973459
+}

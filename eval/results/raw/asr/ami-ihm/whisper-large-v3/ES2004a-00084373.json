@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.85,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00084373",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.377236223665143,
+  "text" : "You have to tackle that. Well, it just needs to be, as long as it's sort of self-intuitive and you can work out.",
+  "track" : "asr",
+  "wallSeconds" : 4.247637333
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.06,
+  "dataset" : "librispeech",
+  "id" : "4992-23283-0004",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.3374532880913357,
+  "text" : "and yet you must own her behaviour has warranted them has it not been in this particular incoherent and unaccountable",
+  "track" : "asr",
+  "wallSeconds" : 3.4481972499999998
+}

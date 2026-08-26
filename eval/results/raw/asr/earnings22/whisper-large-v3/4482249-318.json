@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.2400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-318",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4748519264028637,
+  "text" : "and respective, of course, also recurring business.",
+  "track" : "asr",
+  "wallSeconds" : 2.196873084
+}

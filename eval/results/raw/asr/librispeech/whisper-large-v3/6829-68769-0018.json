@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.11,
+  "dataset" : "librispeech",
+  "id" : "6829-68769-0018",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9488738347847805,
+  "text" : "\"'Mr. Graff,' said Kenneth, noticing the boy's face critically, as he stood where the light from the passage fell upon it.",
+  "track" : "asr",
+  "wallSeconds" : 3.648260792
+}

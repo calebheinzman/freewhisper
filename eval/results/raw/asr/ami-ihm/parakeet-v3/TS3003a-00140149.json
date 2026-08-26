@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.14,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00140149",
+  "model" : "parakeet-v3",
+  "rtfx" : 46.80080198281125,
+  "text" : "Yeah, one other little thing. Thought it might be handy to put a battery status display on it.",
+  "track" : "asr",
+  "wallSeconds" : 0.131194333
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.62,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00141432",
+  "model" : "parakeet-v3",
+  "rtfx" : 42.723685748346945,
+  "text" : "But they'll also really drag up the production cost, so I think we'll have to see about that too.",
+  "track" : "asr",
+  "wallSeconds" : 0.131542958
+}

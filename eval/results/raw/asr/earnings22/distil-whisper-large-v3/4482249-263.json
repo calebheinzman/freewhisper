@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.1799375,
+  "dataset" : "earnings22",
+  "id" : "4482249-263",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.32978345732539,
+  "text" : "surprise. Maybe that would be anyhow, one hatline for what we are talking about here.",
+  "track" : "asr",
+  "wallSeconds" : 0.741908542
+}

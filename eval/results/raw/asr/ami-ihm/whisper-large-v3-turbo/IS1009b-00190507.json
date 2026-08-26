@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.43,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00190507",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.31623299139797,
+  "text" : "- For mobile phones we have.",
+  "track" : "asr",
+  "wallSeconds" : 1.086433792
+}

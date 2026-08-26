@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.72,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00024832",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5384972528304588,
+  "text" : "Maybe we should redesign it.",
+  "track" : "asr",
+  "wallSeconds" : 1.767958958
+}

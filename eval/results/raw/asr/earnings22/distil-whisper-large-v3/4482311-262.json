@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-262",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.414750608840173,
+  "text" : "looking at the income statement, well,",
+  "track" : "asr",
+  "wallSeconds" : 0.6161305
+}

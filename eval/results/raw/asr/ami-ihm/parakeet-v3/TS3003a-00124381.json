@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.68,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00124381",
+  "model" : "parakeet-v3",
+  "rtfx" : 26.7459619236103,
+  "text" : "Uh it's those laptops.",
+  "track" : "asr",
+  "wallSeconds" : 0.100202042
+}

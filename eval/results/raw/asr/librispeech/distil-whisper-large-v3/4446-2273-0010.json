@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 12.44,
+  "dataset" : "librispeech",
+  "id" : "4446-2273-0010",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 12.476053711725918,
+  "text" : "there was water-crest soup and soul and a delightful omelet stuffed with mushrooms and truffles and two small rare ducklings and artichokes and a dry yellow roan wine of which bartley had always been very fond",
+  "track" : "asr",
+  "wallSeconds" : 0.997110167
+}

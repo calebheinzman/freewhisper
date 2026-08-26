@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.67,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00127901",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.3865918470153669,
+  "text" : "On the remote. Yes.",
+  "track" : "asr",
+  "wallSeconds" : 1.9255846669999999
+}

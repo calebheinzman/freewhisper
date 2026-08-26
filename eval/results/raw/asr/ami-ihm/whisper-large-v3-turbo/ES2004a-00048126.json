@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.42,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00048126",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.885944335693005,
+  "text" : "It doesn't look like what I want it to be.",
+  "track" : "asr",
+  "wallSeconds" : 1.185054042
+}

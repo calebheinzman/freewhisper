@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3,
+  "dataset" : "earnings22",
+  "id" : "4482311-129",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.261372485760793,
+  "text" : "and this year they launched the Chronomaster Sport that received the Chronograph watch prize at the Grand Prix of Geneva.",
+  "track" : "asr",
+  "wallSeconds" : 1.418464625
+}

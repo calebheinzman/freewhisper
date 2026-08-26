@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.69,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00081627",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.3481851572209607,
+  "text" : "- My granddaughter can answer his question.",
+  "track" : "asr",
+  "wallSeconds" : 1.145565541
+}

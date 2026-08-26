@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.0801875,
+  "dataset" : "earnings22",
+  "id" : "4482311-253",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.541577400028342,
+  "text" : "and here they were up, well, expenses were up 20%, which stands to reason because, of course, business grew.",
+  "track" : "asr",
+  "wallSeconds" : 0.80622225
+}

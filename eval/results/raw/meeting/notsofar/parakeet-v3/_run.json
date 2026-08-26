@@ -1,0 +1,14 @@
+{
+  "dataset" : "notsofar",
+  "failureCount" : 0,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 5,
+  "model" : "parakeet-v3",
+  "modelLoadSeconds" : 0.656026916,
+  "totalWallSeconds" : 56.399015417,
+  "track" : "meeting"
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.7,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00074356",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.490436488998823,
+  "text" : "Maybe it's easier to draw with a smaller line with, I think.",
+  "track" : "asr",
+  "wallSeconds" : 0.811343083
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7201875,
+  "dataset" : "earnings22",
+  "id" : "4482311-105",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.4149961806138758,
+  "text" : "Tiffany achieved the record years",
+  "track" : "asr",
+  "wallSeconds" : 1.126373417
+}

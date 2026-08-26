@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.505,
+  "dataset" : "librispeech",
+  "id" : "6829-68769-0038",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.254271049243999,
+  "text" : "and it ruins a man's disposition.",
+  "track" : "asr",
+  "wallSeconds" : 1.111223959
+}

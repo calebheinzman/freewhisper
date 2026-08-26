@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.84,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00060809",
+  "model" : "parakeet-v3",
+  "rtfx" : 48.22907183869727,
+  "text" : "So I suppose later it depends if we want to undercut the price.",
+  "track" : "asr",
+  "wallSeconds" : 0.121088791
+}

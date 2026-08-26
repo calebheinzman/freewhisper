@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.280125,
+  "dataset" : "earnings22",
+  "id" : "4482249-330",
+  "model" : "parakeet-v3",
+  "rtfx" : 52.28718929747165,
+  "text" : "Very difficult to quantify, uh but that is how we would read those numbers.",
+  "track" : "asr",
+  "wallSeconds" : 0.120108292
+}

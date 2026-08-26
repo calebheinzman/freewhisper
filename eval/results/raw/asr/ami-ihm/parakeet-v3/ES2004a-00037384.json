@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.99,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00037384",
+  "model" : "parakeet-v3",
+  "rtfx" : 27.790095110066947,
+  "text" : "Well, as you can see the quality of the work today is um",
+  "track" : "asr",
+  "wallSeconds" : 0.107592291
+}

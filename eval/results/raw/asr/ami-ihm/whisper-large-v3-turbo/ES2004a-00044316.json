@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.69,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00044316",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.8980781247804845,
+  "text" : "I'm very impressed with your artistic skills. Mine's a dreadful. Oops, this is now coming apart. Let me just put the top in.",
+  "track" : "asr",
+  "wallSeconds" : 1.570003541
+}

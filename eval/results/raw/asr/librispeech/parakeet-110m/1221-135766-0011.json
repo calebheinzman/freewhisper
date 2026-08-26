@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 21.345,
+  "dataset" : "librispeech",
+  "id" : "1221-135766-0011",
+  "model" : "parakeet-110m",
+  "rtfx" : 136.5280124971519,
+  "text" : "Beholding it, Hester was constrained to rush towards the child, to pursue the little elf in the flight which she invariably began, to snatch her to her bosom with a close pressure and earnest kisses, not so much from overflowing love as to assure herself that Pearl was flesh and blood and not utterly delusive.",
+  "track" : "asr",
+  "wallSeconds" : 0.156341542
+}

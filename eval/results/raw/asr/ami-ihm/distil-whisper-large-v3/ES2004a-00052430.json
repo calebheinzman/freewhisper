@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.32,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00052430",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.95555155315744,
+  "text" : "Yeah. Are they? Eagle. Oh. Oh, right. Okay. I'm not good at God.",
+  "track" : "asr",
+  "wallSeconds" : 0.871749583
+}

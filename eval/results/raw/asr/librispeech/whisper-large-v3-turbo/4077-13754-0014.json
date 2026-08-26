@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.97,
+  "dataset" : "librispeech",
+  "id" : "4077-13754-0014",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.253797787988419,
+  "text" : "the people contested these measures one by one in the courts presenting in case after case the different phases of the subject and urging the unconstitutionality of the measure",
+  "track" : "asr",
+  "wallSeconds" : 1.51231125
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.5801875,
+  "dataset" : "earnings22",
+  "id" : "4482311-217",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.7382472979900627,
+  "text" : "So we were anywhere between 25 and 40 percent, quarter on quarter.",
+  "track" : "asr",
+  "wallSeconds" : 2.403065459
+}

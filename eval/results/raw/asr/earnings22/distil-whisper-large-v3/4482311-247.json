@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.580125,
+  "dataset" : "earnings22",
+  "id" : "4482311-247",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.366122185175632,
+  "text" : "And then for the second half of this presentation, looking at the profit, I showed here you have the income statement, well, the first line is revenue. So that was already discussed.",
+  "track" : "asr",
+  "wallSeconds" : 0.930847375
+}

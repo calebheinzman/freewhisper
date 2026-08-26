@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-19",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.383416456348893,
+  "text" : "71% of women in the group's total workforce, 65% of whom occupy managerial positions.",
+  "track" : "asr",
+  "wallSeconds" : 3.020633916
+}

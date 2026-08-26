@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.380125,
+  "dataset" : "earnings22",
+  "id" : "4482311-40",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.093360994034475,
+  "text" : "It's absolutely extraordinary.",
+  "track" : "asr",
+  "wallSeconds" : 0.581459833
+}

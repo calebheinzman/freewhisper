@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.5399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-266",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.5190543966647345,
+  "text" : "And so in terms of net profit, this is a remarkable performance.",
+  "track" : "asr",
+  "wallSeconds" : 1.290101541
+}

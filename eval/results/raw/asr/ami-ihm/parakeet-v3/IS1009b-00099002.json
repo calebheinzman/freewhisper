@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.56,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00099002",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.971365529680142,
+  "text" : "Yeah, shapes also different shape.",
+  "track" : "asr",
+  "wallSeconds" : 0.106794083
+}

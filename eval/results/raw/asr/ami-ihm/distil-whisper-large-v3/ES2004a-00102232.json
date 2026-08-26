@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.67,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00102232",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.6183276021016533,
+  "text" : "I would be. Yeah, probably.",
+  "track" : "asr",
+  "wallSeconds" : 0.637811708
+}

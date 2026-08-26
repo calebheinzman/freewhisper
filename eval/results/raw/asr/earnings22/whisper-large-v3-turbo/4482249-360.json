@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.7600625,
+  "dataset" : "earnings22",
+  "id" : "4482249-360",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.399194060489065,
+  "text" : "So I was wondering, can you be more precise in giving us the reason for that?",
+  "track" : "asr",
+  "wallSeconds" : 1.252050292
+}

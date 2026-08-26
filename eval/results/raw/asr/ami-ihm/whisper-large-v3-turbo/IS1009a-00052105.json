@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.35,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00052105",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.0481694866321996,
+  "text" : "Yeah, design should be, yeah, it should be different. Almost all the... Like trend, you know, like...",
+  "track" : "asr",
+  "wallSeconds" : 1.427086
+}

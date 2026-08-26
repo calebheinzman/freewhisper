@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.48,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00060245",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.703076905450758,
+  "text" : "Cup. Cup sheep. Yeah, yeah. Tug, tug.",
+  "track" : "asr",
+  "wallSeconds" : 1.28742175
+}

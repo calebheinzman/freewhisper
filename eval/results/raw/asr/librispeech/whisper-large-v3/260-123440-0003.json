@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.585,
+  "dataset" : "librispeech",
+  "id" : "260-123440-0003",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4580075031408686,
+  "text" : "Oh, won't she be savage if I've kept her waiting.",
+  "track" : "asr",
+  "wallSeconds" : 2.458835083
+}

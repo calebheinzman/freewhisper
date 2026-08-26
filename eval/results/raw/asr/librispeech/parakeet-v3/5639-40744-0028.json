@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 12.25,
+  "dataset" : "librispeech",
+  "id" : "5639-40744-0028",
+  "model" : "parakeet-v3",
+  "rtfx" : 72.08414117589018,
+  "text" : "I have great things to tell you, Signor, said Donna Estefania to her husband. The cream and substance of which is this the fainting girl before you is your daughter, and the boy is your grandson,",
+  "track" : "asr",
+  "wallSeconds" : 0.169940292
+}

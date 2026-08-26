@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.52,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00088531",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.135227241442255,
+  "text" : "I think we'll have to look at the budget on that, but I think in principle that that would be, that will be kind of fun. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.913776083
+}

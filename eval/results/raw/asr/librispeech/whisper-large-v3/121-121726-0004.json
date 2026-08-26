@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.02,
+  "dataset" : "librispeech",
+  "id" : "121-121726-0004",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7657494999925603,
+  "text" : "Heaven, a good place to be raised, too.",
+  "track" : "asr",
+  "wallSeconds" : 2.276653625
+}

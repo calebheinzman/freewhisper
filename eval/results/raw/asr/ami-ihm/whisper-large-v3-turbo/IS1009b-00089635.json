@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.93,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089635",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.365600796967127,
+  "text" : "- Especially for children or a little animal shaped",
+  "track" : "asr",
+  "wallSeconds" : 2.877854208
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.89,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00137040",
+  "model" : "parakeet-v3",
+  "rtfx" : 28.762455636151476,
+  "text" : "Maybe we can make it uh uh",
+  "track" : "asr",
+  "wallSeconds" : 0.100478208
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.07,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00201140",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4394702465912217,
+  "text" : "Okay, so now I understand it's lunch break.",
+  "track" : "asr",
+  "wallSeconds" : 2.132729042
+}

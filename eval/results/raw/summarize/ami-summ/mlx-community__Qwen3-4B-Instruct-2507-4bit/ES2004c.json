@@ -1,0 +1,36 @@
+{
+  "dataset" : "ami-summ",
+  "id" : "ES2004c",
+  "inputChars" : 39332,
+  "model" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit",
+  "summary" : {
+    "actionItems" : [
+      "Design team to evaluate cost of voice recognition versus whistle option and finalize by end of week",
+      "UI and materials team to create mockups with fruit\/vegetable color themes and rubberized surface by Friday",
+      "Product team to confirm logo placement and visibility in final design by Thursday"
+    ],
+    "keyPoints" : [
+      "Kinetic charging selected as primary power solution; solar and dynamo rejected for design, cost, and usability issues",
+      "Design features a flip-top LCD screen, rubberized buttons on the bottom, and a removable rubberized outer shell for customization",
+      "Aesthetic focuses on fruit\/vegetable-inspired colors and premium, tactile feel; no actual fruit shapes",
+      "User preference for physical buttons over touchscreens; frequent users find them more reliable and durable",
+      "Key decisions include plastic internal body, rubber grip, and a visible, prominent company logo"
+    ],
+    "speakerNames" : {
+      "Speaker 1" : "Lead facilitator",
+      "Speaker 2" : "Market\/fashion insights",
+      "Speaker 3" : "Confirmation\/coordination",
+      "Speaker 4" : "Component design lead"
+    },
+    "summary" : "The team finalized a remote design featuring kinetic charging, a black-and-white LCD screen, rubberized buttons, and a plastic internal shell with a removable rubberized exterior. The device emphasizes a fancy, fruit-and-vegetable inspired aesthetic with vibrant, non-literal color schemes and a focus on tactile feel and visual distinctiveness. Voice recognition and solar\/dynamo options were rejected due to cost and practicality, with a whistle as a potential fallback. The design prioritizes user experience, long battery life, and market differentiation through premium look and feel.",
+    "tags" : [
+      "remote design",
+      "kinetic charging",
+      "user experience",
+      "aesthetic innovation"
+    ],
+    "title" : "Remote Design Finalized"
+  },
+  "track" : "summarize",
+  "wallSeconds" : 2328.508426834
+}

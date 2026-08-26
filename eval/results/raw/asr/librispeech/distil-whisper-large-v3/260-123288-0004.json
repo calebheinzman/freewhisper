@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.31,
+  "dataset" : "librispeech",
+  "id" : "260-123288-0004",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.429236964343908,
+  "text" : "The air is heavy. The sea is calm.",
+  "track" : "asr",
+  "wallSeconds" : 0.670375042
+}

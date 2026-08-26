@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.02,
+  "dataset" : "librispeech",
+  "id" : "1580-141084-0007",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1106948803430041,
+  "text" : "Tomorrow is the examination.",
+  "track" : "asr",
+  "wallSeconds" : 1.818681292
+}

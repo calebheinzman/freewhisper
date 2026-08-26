@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.075,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0022",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.8396620179839527,
+  "text" : "\"'Well, if I don't know who she was in love with, I know who he was.'",
+  "track" : "asr",
+  "wallSeconds" : 1.321730917
+}

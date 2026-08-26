@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.62,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00103983",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.039451983090552,
+  "text" : "Mine is a bit more skinny. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.648602833
+}

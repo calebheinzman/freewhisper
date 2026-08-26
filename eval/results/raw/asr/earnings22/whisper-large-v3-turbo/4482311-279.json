@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.3799375,
+  "dataset" : "earnings22",
+  "id" : "4482311-279",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.301336205300268,
+  "text" : "So we're still in the red, but all in all, this is quite a performance considering the circumstances",
+  "track" : "asr",
+  "wallSeconds" : 1.3298667499999999
+}

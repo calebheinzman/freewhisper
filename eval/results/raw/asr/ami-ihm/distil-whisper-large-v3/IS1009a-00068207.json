@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.04,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00068207",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 1.7829429788262665,
+  "text" : "Good points to start.",
+  "track" : "asr",
+  "wallSeconds" : 0.58330525
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.02,
+  "dataset" : "librispeech",
+  "id" : "1580-141084-0007",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.361047537996058,
+  "text" : "Tomorrow is the examination",
+  "track" : "asr",
+  "wallSeconds" : 0.099209041
+}

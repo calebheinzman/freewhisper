@@ -1,0 +1,2120 @@
+{
+  "audioSeconds" : 1049.3546875,
+  "dataset" : "ami",
+  "id" : "ES2004a",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 10.782739605193166,
+  "segments" : [
+    {
+      "end" : 27.260000228881836,
+      "speaker" : "speaker_3",
+      "start" : 25.260000228881836,
+      "text" : "- So you've got both of these clipped on."
+    },
+    {
+      "end" : 30,
+      "speaker" : "speaker_3",
+      "start" : 29.1200008392334,
+      "text" : "- Is she gonna answer me?"
+    },
+    {
+      "end" : 31.360000610351562,
+      "speaker" : "speaker_3",
+      "start" : 30,
+      "text" : "- Yeah, I've got."
+    },
+    {
+      "end" : 33.220001220703125,
+      "speaker" : "speaker_3",
+      "start" : 31.360000610351562,
+      "text" : "- Right, both of them, okay."
+    },
+    {
+      "end" : 43.5,
+      "speaker" : "speaker_3",
+      "start" : 42.63999938964844,
+      "text" : "Good."
+    },
+    {
+      "end" : 52.099998474121094,
+      "speaker" : "speaker_3",
+      "start" : 50.099998474121094,
+      "text" : "- Okay, this is gonna fall off."
+    },
+    {
+      "end" : 54.13999938964844,
+      "speaker" : "speaker_3",
+      "start" : 52.099998474121094,
+      "text" : "I can put it..."
+    },
+    {
+      "end" : 81.13999938964844,
+      "speaker" : "speaker_0",
+      "start" : 80.44000244140625,
+      "text" : "Okay."
+    },
+    {
+      "end" : 83.16000366210938,
+      "speaker" : "speaker_0",
+      "start" : 81.83999633789062,
+      "text" : "Hello everybody."
+    },
+    {
+      "end" : 85.5999984741211,
+      "speaker" : "speaker_0",
+      "start" : 84.44000244140625,
+      "text" : "I'm Sarah."
+    },
+    {
+      "end" : 92.63999938964844,
+      "speaker" : "speaker_0",
+      "start" : 85.5999984741211,
+      "text" : "project manager and this is our first meeting surprisingly okay this is our"
+    },
+    {
+      "end" : 100.39999389648438,
+      "speaker" : "speaker_0",
+      "start" : 92.63999938964844,
+      "text" : "agenda and we will do some stuff get to know each other a bit better feel more"
+    },
+    {
+      "end" : 108.0999984741211,
+      "speaker" : "speaker_0",
+      "start" : 100.39999389648438,
+      "text" : "comfortable with each other then we'll go do tool training talk about the project plan"
+    },
+    {
+      "end" : 115.0999984741211,
+      "speaker" : "speaker_0",
+      "start" : 108.0999984741211,
+      "text" : "discuss our own ideas and everything. And we've got 25 minutes to do that as far as I"
+    },
+    {
+      "end" : 122.5999984741211,
+      "speaker" : "speaker_0",
+      "start" : 115.0999984741211,
+      "text" : "can understand. Now we're developing a remote control which you probably already know. We"
+    },
+    {
+      "end" : 178.1999969482422,
+      "speaker" : "speaker_0",
+      "start" : 174.1999969482422,
+      "text" : "and draw our favourite animal on the whiteboard."
+    },
+    {
+      "end" : 183.3000030517578,
+      "speaker" : "speaker_0",
+      "start" : 179.8000030517578,
+      "text" : "And sum up the characteristics of that animal."
+    },
+    {
+      "end" : 189.16000366210938,
+      "speaker" : "speaker_0",
+      "start" : 188.44000244140625,
+      "text" : "Okay."
+    },
+    {
+      "end" : 248.87998962402344,
+      "speaker" : "speaker_0",
+      "start" : 247.83999633789062,
+      "text" : "I'm not going to ask you to guess."
+    },
+    {
+      "end" : 250.47999572753906,
+      "speaker" : "speaker_0",
+      "start" : 248.94000244140625,
+      "text" : "I'm going to tell you that it's supposed to be a tiger."
+    },
+    {
+      "end" : 256.9599914550781,
+      "speaker" : "speaker_0",
+      "start" : 254.66000366210938,
+      "text" : "And I see them as majestic."
+    },
+    {
+      "end" : 275.7200012207031,
+      "speaker" : "speaker_0",
+      "start" : 275.5400085449219,
+      "text" : "Okay."
+    },
+    {
+      "end" : 275.7799987792969,
+      "speaker" : "speaker_0",
+      "start" : 275.7200012207031,
+      "text" : "Okay."
+    },
+    {
+      "end" : 277.7799987792969,
+      "speaker" : "speaker_0",
+      "start" : 275.7799987792969,
+      "text" : "God."
+    },
+    {
+      "end" : 286.20001220703125,
+      "speaker" : "speaker_1",
+      "start" : 285,
+      "text" : "where does this come from"
+    },
+    {
+      "end" : 291,
+      "speaker" : "speaker_2",
+      "start" : 288.8399963378906,
+      "text" : "oh yeah thank you"
+    },
+    {
+      "end" : 303.3999938964844,
+      "speaker" : "speaker_2",
+      "start" : 293.8800048828125,
+      "text" : "maybe you can guess what I'm trying to make"
+    },
+    {
+      "end" : 310.3999938964844,
+      "speaker" : "speaker_3",
+      "start" : 303.3999938964844,
+      "text" : "A kind of dog?"
+    },
+    {
+      "end" : 315.6399841308594,
+      "speaker" : "speaker_2",
+      "start" : 313.6399841308594,
+      "text" : "It's actually sitting."
+    },
+    {
+      "end" : 316.6399841308594,
+      "speaker" : "speaker_2",
+      "start" : 315.6399841308594,
+      "text" : "Sorry?"
+    },
+    {
+      "end" : 317.6399841308594,
+      "speaker" : "speaker_2",
+      "start" : 316.6399841308594,
+      "text" : "It's sitting."
+    },
+    {
+      "end" : 318.6399841308594,
+      "speaker" : "speaker_2",
+      "start" : 317.6399841308594,
+      "text" : "It's not standing."
+    },
+    {
+      "end" : 320.8399963378906,
+      "speaker" : "speaker_2",
+      "start" : 318.6399841308594,
+      "text" : "Okay, I see it as one thing."
+    },
+    {
+      "end" : 322.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 320.8399963378906,
+      "text" : "It's very supportive."
+    },
+    {
+      "end" : 325.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 322.79998779296875,
+      "text" : "It's your best friend in your..."
+    },
+    {
+      "end" : 330.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 325.79998779296875,
+      "text" : "You can talk to a dog, it can be your best friend, it doesn't discriminate between you, based on what you are."
+    },
+    {
+      "end" : 334.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 330.79998779296875,
+      "text" : "Second, it's loyal."
+    },
+    {
+      "end" : 338.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 334.79998779296875,
+      "text" : "And third thing, it's got intuition."
+    },
+    {
+      "end" : 344.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 338.79998779296875,
+      "text" : "Means dogs can sometimes make out between a thief and a person."
+    },
+    {
+      "end" : 350.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 344.79998779296875,
+      "text" : "So basically, these are the three unique features I think belong to a dog."
+    },
+    {
+      "end" : 353.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 352.79998779296875,
+      "text" : "Yeah, okay."
+    },
+    {
+      "end" : 354.79998779296875,
+      "speaker" : "speaker_2",
+      "start" : 353.79998779296875,
+      "text" : "Sorry."
+    },
+    {
+      "end" : 358.79998779296875,
+      "speaker" : "speaker_3",
+      "start" : 354.79998779296875,
+      "text" : "Please leave me a space at the bottom, I'm little."
+    },
+    {
+      "end" : 359.79998779296875,
+      "speaker" : "speaker_4",
+      "start" : 358.79998779296875,
+      "text" : "Oh, right."
+    },
+    {
+      "end" : 360.79998779296875,
+      "speaker" : "speaker_3",
+      "start" : 359.79998779296875,
+      "text" : "To the top."
+    },
+    {
+      "end" : 361.79998779296875,
+      "speaker" : "speaker_3",
+      "start" : 360.79998779296875,
+      "text" : "We're standing on a chair."
+    },
+    {
+      "end" : 366.79998779296875,
+      "speaker" : "speaker_4",
+      "start" : 361.79998779296875,
+      "text" : "Well, since you guys have chosen the ones I wanted to do, I'll have to go for something"
+    },
+    {
+      "end" : 371.79998779296875,
+      "speaker" : "speaker_4",
+      "start" : 366.79998779296875,
+      "text" : "a bit random."
+    },
+    {
+      "end" : 373.79998779296875,
+      "speaker" : "speaker_4",
+      "start" : 371.79998779296875,
+      "text" : "And also my drawing skill isn't that great."
+    },
+    {
+      "end" : 376.29998779296875,
+      "speaker" : "speaker_0",
+      "start" : 373.79998779296875,
+      "text" : "Well, as you can see the quality of the work today."
+    },
+    {
+      "end" : 378.1199951171875,
+      "speaker" : "speaker_3",
+      "start" : 376.29998779296875,
+      "text" : "I think it's outstandingly good."
+    },
+    {
+      "end" : 382.47998046875,
+      "speaker" : "speaker_4",
+      "start" : 379.3599853515625,
+      "text" : "Okay, now I'm going to have to change what it was originally going to be"
+    },
+    {
+      "end" : 384.03997802734375,
+      "speaker" : "speaker_4",
+      "start" : 382.47998046875,
+      "text" : "because that looks like a beak now."
+    },
+    {
+      "end" : 395.3599853515625,
+      "speaker" : "speaker_4",
+      "start" : 393.8999938964844,
+      "text" : "Yeah, it can be a crocodile."
+    },
+    {
+      "end" : 396.8399963378906,
+      "speaker" : "speaker_4",
+      "start" : 395.8800048828125,
+      "text" : "It can be a crocodile."
+    },
+    {
+      "end" : 399.0799865722656,
+      "speaker" : "speaker_4",
+      "start" : 398,
+      "text" : "Well, it was..."
+    },
+    {
+      "end" : 401.82000732421875,
+      "speaker" : "speaker_4",
+      "start" : 399.0799865722656,
+      "text" : "Firstly, it was an attempt at a T-Rex,"
+    },
+    {
+      "end" : 404.44000244140625,
+      "speaker" : "speaker_4",
+      "start" : 402,
+      "text" : "and then it sort of changed into a pelican,"
+    },
+    {
+      "end" : 405.41998291015625,
+      "speaker" : "speaker_4",
+      "start" : 404.55999755859375,
+      "text" : "but it can be a crocodile."
+    },
+    {
+      "end" : 406.03997802734375,
+      "speaker" : "speaker_4",
+      "start" : 405.41998291015625,
+      "text" : "I don't know."
+    },
+    {
+      "end" : 425.260009765625,
+      "speaker" : "speaker_4",
+      "start" : 421.20001220703125,
+      "text" : "Yeah, and I'll have to think on the spot of things that it is."
+    },
+    {
+      "end" : 433.260009765625,
+      "speaker" : "speaker_4",
+      "start" : 431.7400207519531,
+      "text" : "Strong."
+    },
+    {
+      "end" : 442.1000061035156,
+      "speaker" : "speaker_4",
+      "start" : 435.1000061035156,
+      "text" : "Yeah, that's about it, I think."
+    },
+    {
+      "end" : 445.3999938964844,
+      "speaker" : "speaker_3",
+      "start" : 442.1000061035156,
+      "text" : "I'm very impressed with your artistic skills."
+    },
+    {
+      "end" : 446.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 445.3999938964844,
+      "text" : "Mine's a dreadful."
+    },
+    {
+      "end" : 449.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 446.6000061035156,
+      "text" : "Oops, this is now coming apart."
+    },
+    {
+      "end" : 450.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 449.6000061035156,
+      "text" : "Let me just put the top in."
+    },
+    {
+      "end" : 455.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 450.6000061035156,
+      "text" : "I hope that clicks in."
+    },
+    {
+      "end" : 456.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 455.6000061035156,
+      "text" : "I'll hold it on."
+    },
+    {
+      "end" : 459.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 456.6000061035156,
+      "text" : "Oops, oh dear."
+    },
+    {
+      "end" : 460.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 459.6000061035156,
+      "text" : "What happened there?"
+    },
+    {
+      "end" : 469.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 462.6000061035156,
+      "text" : "Hopefully that will stay on, two-handed version."
+    },
+    {
+      "end" : 477.6000061035156,
+      "speaker" : "speaker_3",
+      "start" : 469.6000061035156,
+      "text" : "Again, this is off the top of my head. I was going to do a big cat too."
+    },
+    {
+      "end" : 486.3000183105469,
+      "speaker" : "speaker_3",
+      "start" : 477.6000061035156,
+      "text" : "It doesn't look like what I want it to be."
+    },
+    {
+      "end" : 490.0999755859375,
+      "speaker" : "speaker_3",
+      "start" : 486.29998779296875,
+      "text" : "It's not a vampire bat, honestly."
+    },
+    {
+      "end" : 494.6199951171875,
+      "speaker" : "speaker_3",
+      "start" : 493.03997802734375,
+      "text" : "Somewhere there's a body behind."
+    },
+    {
+      "end" : 498.7200012207031,
+      "speaker" : "speaker_3",
+      "start" : 497.5799865722656,
+      "text" : "That's my dreadful..."
+    },
+    {
+      "end" : 499.4599914550781,
+      "speaker" : "speaker_3",
+      "start" : 498.7200012207031,
+      "text" : "That's the worst."
+    },
+    {
+      "end" : 501.4599914550781,
+      "speaker" : "speaker_3",
+      "start" : 500.17999267578125,
+      "text" : "It's meant to be an eagle."
+    },
+    {
+      "end" : 504.47998046875,
+      "speaker" : "speaker_3",
+      "start" : 502.4599914550781,
+      "text" : "You can tell it's a flying animal."
+    },
+    {
+      "end" : 506.5199890136719,
+      "speaker" : "speaker_3",
+      "start" : 505.5999755859375,
+      "text" : "Could have been a seagull."
+    },
+    {
+      "end" : 507.5999755859375,
+      "speaker" : "speaker_3",
+      "start" : 506.55999755859375,
+      "text" : "I never thought of a seagull."
+    },
+    {
+      "end" : 508.5,
+      "speaker" : "speaker_3",
+      "start" : 508.0999755859375,
+      "text" : "An eagle."
+    },
+    {
+      "end" : 510.3799743652344,
+      "speaker" : "speaker_3",
+      "start" : 508.91998291015625,
+      "text" : "Again, I'm thinking on my feet."
+    },
+    {
+      "end" : 510.65997314453125,
+      "speaker" : "speaker_3",
+      "start" : 510.47998046875,
+      "text" : "Goodness."
+    },
+    {
+      "end" : 512.719970703125,
+      "speaker" : "speaker_3",
+      "start" : 511.5,
+      "text" : "I suppose they're all so independent."
+    },
+    {
+      "end" : 514.0199584960938,
+      "speaker" : "speaker_3",
+      "start" : 512.8800048828125,
+      "text" : "I'd put that one down again."
+    },
+    {
+      "end" : 521,
+      "speaker" : "speaker_3",
+      "start" : 515,
+      "text" : "They're good at golf."
+    },
+    {
+      "end" : 525,
+      "speaker" : "speaker_3",
+      "start" : 521,
+      "text" : "Independent, right. Did you say they're good at golf?"
+    },
+    {
+      "end" : 527,
+      "speaker" : "speaker_3",
+      "start" : 525,
+      "text" : "Yeah. Are they? Eagle."
+    },
+    {
+      "end" : 529,
+      "speaker" : "speaker_3",
+      "start" : 527,
+      "text" : "Oh, right. I'm not good at golf."
+    },
+    {
+      "end" : 531,
+      "speaker" : "speaker_3",
+      "start" : 529,
+      "text" : "I'll say they're quite free-spirited,"
+    },
+    {
+      "end" : 535,
+      "speaker" : "speaker_3",
+      "start" : 531,
+      "text" : "flying around everywhere,"
+    },
+    {
+      "end" : 539,
+      "speaker" : "speaker_3",
+      "start" : 535,
+      "text" : "doing their own thing."
+    },
+    {
+      "end" : 548.5999755859375,
+      "speaker" : "speaker_3",
+      "start" : 541.4000244140625,
+      "text" : "and uh birds of prey aren't they oh dear intrepid intrepid"
+    },
+    {
+      "end" : 556.2000122070312,
+      "speaker" : "speaker_3",
+      "start" : 553.47998046875,
+      "text" : "there we go i hope that pen is going to be okay"
+    },
+    {
+      "end" : 565.7999877929688,
+      "speaker" : "speaker_0",
+      "start" : 558.4400024414062,
+      "text" : "whoops okay that was fine right um"
+    },
+    {
+      "end" : 573.5800170898438,
+      "speaker" : "speaker_0",
+      "start" : 565.7999877929688,
+      "text" : "Finance wise we've got a selling price at 25 euros, which I don't actually know what that is in pounds at all."
+    },
+    {
+      "end" : 575.1799926757812,
+      "speaker" : "speaker_0",
+      "start" : 574.6199951171875,
+      "text" : "Any ideas?"
+    },
+    {
+      "end" : 578.260009765625,
+      "speaker" : "speaker_2",
+      "start" : 575.1799926757812,
+      "text" : "It's about 1.4, something like that."
+    },
+    {
+      "end" : 580.97998046875,
+      "speaker" : "speaker_2",
+      "start" : 578.6799926757812,
+      "text" : "1.4 euro would make a pound or something like that."
+    },
+    {
+      "end" : 582.5,
+      "speaker" : "speaker_4",
+      "start" : 580.97998046875,
+      "text" : "Yeah, yeah, something like that."
+    },
+    {
+      "end" : 585.9199829101562,
+      "speaker" : "speaker_4",
+      "start" : 583.719970703125,
+      "text" : "Yeah, about 17 pounds."
+    },
+    {
+      "end" : 586.6199951171875,
+      "speaker" : "speaker_4",
+      "start" : 586.4199829101562,
+      "text" : "Okay."
+    },
+    {
+      "end" : 589.5399780273438,
+      "speaker" : "speaker_3",
+      "start" : 588.3800048828125,
+      "text" : "Should we be making notes of this?"
+    },
+    {
+      "end" : 591,
+      "speaker" : "speaker_3",
+      "start" : 589.5999755859375,
+      "text" : "We can just refer to this later, can't we?"
+    },
+    {
+      "end" : 591.6400146484375,
+      "speaker" : "speaker_0",
+      "start" : 591,
+      "text" : "I think so."
+    },
+    {
+      "end" : 593.2000122070312,
+      "speaker" : "speaker_0",
+      "start" : 591.7799682617188,
+      "text" : "I think I'll be able to..."
+    },
+    {
+      "end" : 629.5599975585938,
+      "speaker" : "speaker_0",
+      "start" : 625.239990234375,
+      "text" : "And profit aim is 50 million euros, which is a..."
+    },
+    {
+      "end" : 631.1199951171875,
+      "speaker" : "speaker_3",
+      "start" : 630.2799682617188,
+      "text" : "In our first year?"
+    },
+    {
+      "end" : 633.47998046875,
+      "speaker" : "speaker_0",
+      "start" : 632.9199829101562,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 642.5999755859375,
+      "speaker" : "speaker_3",
+      "start" : 635.7999877929688,
+      "text" : "You've got market range international and you did say earlier it's got to be accessible"
+    },
+    {
+      "end" : 653.5,
+      "speaker" : "speaker_3",
+      "start" : 642.5999755859375,
+      "text" : "and usable by all age groups, we're not focusing on business market, it's user friendly to everyone."
+    },
+    {
+      "end" : 654.5,
+      "speaker" : "speaker_3",
+      "start" : 653.5,
+      "text" : "Big target group."
+    },
+    {
+      "end" : 661,
+      "speaker" : "speaker_0",
+      "start" : 654.5,
+      "text" : "Yes, I don't think it's a case of worrying about different languages and things like"
+    },
+    {
+      "end" : 695.4000244140625,
+      "speaker" : "speaker_0",
+      "start" : 687.97998046875,
+      "text" : "So we got one of the universal remote controls that you program each of your things into, but"
+    },
+    {
+      "end" : 702.7999877929688,
+      "speaker" : "speaker_0",
+      "start" : 699.4199829101562,
+      "text" : "I think it was quite a GP as well, so that might have had something to do with it."
+    },
+    {
+      "end" : 706.9000244140625,
+      "speaker" : "speaker_0",
+      "start" : 702.7999877929688,
+      "text" : "But that was quite good, the fact that you could use all the ones that you didn't have"
+    },
+    {
+      "end" : 735.6800537109375,
+      "speaker" : "speaker_3",
+      "start" : 730.4000244140625,
+      "text" : "than that so i suppose it's got to be something usable by someone like me as well yeah the main"
+    },
+    {
+      "end" : 743.1199951171875,
+      "speaker" : "speaker_0",
+      "start" : 735.6800537109375,
+      "text" : "that's the main stuff anyway i mean and you don't want to i hate i hate looking at a control and"
+    },
+    {
+      "end" : 747.760009765625,
+      "speaker" : "speaker_0",
+      "start" : 743.1199951171875,
+      "text" : "seeing a million tiny little buttons with tiny little words saying what they all do and just"
+    },
+    {
+      "end" : 752,
+      "speaker" : "speaker_0",
+      "start" : 748.5599975585938,
+      "text" : "sitting there searching for the tally text button or something like that and symbols that you don't"
+    },
+    {
+      "end" : 757.1000366210938,
+      "speaker" : "speaker_3",
+      "start" : 752,
+      "text" : "necessarily understand symbols you're meant to understand that you don't"
+    },
+    {
+      "end" : 772.2799682617188,
+      "speaker" : "speaker_0",
+      "start" : 757.0999755859375,
+      "text" : "When you've got the main things on the front of it and a section opens up or something to the other functions when you can do sound or options kind of recording things like that inside it."
+    },
+    {
+      "end" : 776.199951171875,
+      "speaker" : "speaker_0",
+      "start" : 772.5,
+      "text" : "Because it doesn't make when you pick it up it doesn't make it really complicated to look at."
+    },
+    {
+      "end" : 778.5800170898438,
+      "speaker" : "speaker_0",
+      "start" : 776.2000122070312,
+      "text" : "It's obvious what you're doing."
+    },
+    {
+      "end" : 781.0599975585938,
+      "speaker" : "speaker_3",
+      "start" : 779.7999877929688,
+      "text" : "Actually, that just raises a point."
+    },
+    {
+      "end" : 782.780029296875,
+      "speaker" : "speaker_3",
+      "start" : 781.1199951171875,
+      "text" : "I wonder what our design people think."
+    },
+    {
+      "end" : 787,
+      "speaker" : "speaker_3",
+      "start" : 783.2200317382812,
+      "text" : "But you know on a mobile phone, you can press a key and it gives you a menu."
+    },
+    {
+      "end" : 788.0800170898438,
+      "speaker" : "speaker_3",
+      "start" : 787.0800170898438,
+      "text" : "It's got a menu display."
+    },
+    {
+      "end" : 792.4600219726562,
+      "speaker" : "speaker_3",
+      "start" : 788.260009765625,
+      "text" : "I wonder if incorporating that into the design of a remote control might be useful."
+    },
+    {
+      "end" : 794.3800048828125,
+      "speaker" : "speaker_3",
+      "start" : 792.5599975585938,
+      "text" : "So you've got a little LCD display."
+    },
+    {
+      "end" : 795.9600219726562,
+      "speaker" : "speaker_2",
+      "start" : 794.5599975585938,
+      "text" : "I was thinking on the same lines."
+    },
+    {
+      "end" : 799,
+      "speaker" : "speaker_2",
+      "start" : 795.9600219726562,
+      "text" : "You instead of having too many buttons and make it correct,"
+    },
+    {
+      "end" : 800.9000244140625,
+      "speaker" : "speaker_2",
+      "start" : 799,
+      "text" : "complicated for the user."
+    },
+    {
+      "end" : 803.8400268554688,
+      "speaker" : "speaker_2",
+      "start" : 800.9000244140625,
+      "text" : "Maybe have an LCD display or something like that, like a mobile."
+    },
+    {
+      "end" : 804.9400024414062,
+      "speaker" : "speaker_2",
+      "start" : 803.8400268554688,
+      "text" : "- With menus."
+    },
+    {
+      "end" : 806.1199951171875,
+      "speaker" : "speaker_2",
+      "start" : 804.9400024414062,
+      "text" : "- With menus."
+    },
+    {
+      "end" : 808.47998046875,
+      "speaker" : "speaker_2",
+      "start" : 806.1199951171875,
+      "text" : "And if it's somewhat similar to what you have on mobile phone,"
+    },
+    {
+      "end" : 811.2000122070312,
+      "speaker" : "speaker_2",
+      "start" : 808.47998046875,
+      "text" : "people might find it easier to browse and navigate also."
+    },
+    {
+      "end" : 812.4199829101562,
+      "speaker" : "speaker_2",
+      "start" : 811.2000122070312,
+      "text" : "- Yeah."
+    },
+    {
+      "end" : 813.719970703125,
+      "speaker" : "speaker_0",
+      "start" : 812.4199829101562,
+      "text" : "- What about the older generation?"
+    },
+    {
+      "end" : 815.3200073242188,
+      "speaker" : "speaker_0",
+      "start" : 813.719970703125,
+      "text" : "What about granny and granddads?"
+    },
+    {
+      "end" : 819.9199829101562,
+      "speaker" : "speaker_0",
+      "start" : 817.8200073242188,
+      "text" : "My granddad can answer his mobile phone,"
+    },
+    {
+      "end" : 822.0999755859375,
+      "speaker" : "speaker_0",
+      "start" : 819.9199829101562,
+      "text" : "but he couldn't even dream of texting."
+    },
+    {
+      "end" : 823.2799682617188,
+      "speaker" : "speaker_0",
+      "start" : 822.0999755859375,
+      "text" : "or something like that."
+    },
+    {
+      "end" : 825.719970703125,
+      "speaker" : "speaker_3",
+      "start" : 823.7799682617188,
+      "text" : "Can he program his remote controller?"
+    },
+    {
+      "end" : 826.8800048828125,
+      "speaker" : "speaker_3",
+      "start" : 825.8599853515625,
+      "text" : "Is he basic with that too?"
+    },
+    {
+      "end" : 829.3599853515625,
+      "speaker" : "speaker_0",
+      "start" : 828.0599975585938,
+      "text" : "I don't think they tape things."
+    },
+    {
+      "end" : 831.7599487304688,
+      "speaker" : "speaker_4",
+      "start" : 830.0799560546875,
+      "text" : "My granddad's actually better than me"
+    },
+    {
+      "end" : 832.7799682617188,
+      "speaker" : "speaker_4",
+      "start" : 831.7599487304688,
+      "text" : "at using Teletext."
+    },
+    {
+      "end" : 835.4400024414062,
+      "speaker" : "speaker_3",
+      "start" : 834.2799682617188,
+      "text" : "So that's a problem"
+    },
+    {
+      "end" : 837.3999633789062,
+      "speaker" : "speaker_3",
+      "start" : 835.4400024414062,
+      "text" : "regardless of any design modifications"
+    },
+    {
+      "end" : 838.6399536132812,
+      "speaker" : "speaker_3",
+      "start" : 837.3999633789062,
+      "text" : "you come up with."
+    },
+    {
+      "end" : 840.3599853515625,
+      "speaker" : "speaker_3",
+      "start" : 839.0599975585938,
+      "text" : "That's going to be a problem anyway"
+    },
+    {
+      "end" : 841.9400024414062,
+      "speaker" : "speaker_3",
+      "start" : 840.3599853515625,
+      "text" : "with the older generation perhaps."
+    },
+    {
+      "end" : 844.6199951171875,
+      "speaker" : "speaker_3",
+      "start" : 842.5199584960938,
+      "text" : "And that's another issue how we tackle that."
+    },
+    {
+      "end" : 845.7599487304688,
+      "speaker" : "speaker_4",
+      "start" : 844.6799926757812,
+      "text" : "Well it just needs to be,"
+    },
+    {
+      "end" : 847.5,
+      "speaker" : "speaker_4",
+      "start" : 845.8599853515625,
+      "text" : "as long as it's sort of self-intuitive"
+    },
+    {
+      "end" : 849.5,
+      "speaker" : "speaker_4",
+      "start" : 847.5,
+      "text" : "and you can work out"
+    },
+    {
+      "end" : 851.9000244140625,
+      "speaker" : "speaker_4",
+      "start" : 849.5,
+      "text" : "why everything's doing."
+    },
+    {
+      "end" : 853.219970703125,
+      "speaker" : "speaker_4",
+      "start" : 852.219970703125,
+      "text" : "Because I mean menus"
+    },
+    {
+      "end" : 855.52001953125,
+      "speaker" : "speaker_4",
+      "start" : 853.219970703125,
+      "text" : "on sort of"
+    },
+    {
+      "end" : 857.7000122070312,
+      "speaker" : "speaker_4",
+      "start" : 855.52001953125,
+      "text" : "phones now, they've"
+    },
+    {
+      "end" : 859.6799926757812,
+      "speaker" : "speaker_4",
+      "start" : 857.7000122070312,
+      "text" : "got all these pictures and stuff"
+    },
+    {
+      "end" : 861.97998046875,
+      "speaker" : "speaker_4",
+      "start" : 859.6799926757812,
+      "text" : "which makes it fairly obvious what you're trying to do."
+    },
+    {
+      "end" : 865.4400024414062,
+      "speaker" : "speaker_0",
+      "start" : 863.8200073242188,
+      "text" : "I don't know how."
+    },
+    {
+      "end" : 868.0599975585938,
+      "speaker" : "speaker_0",
+      "start" : 866.280029296875,
+      "text" : "I don't like the new phones"
+    },
+    {
+      "end" : 869.9400024414062,
+      "speaker" : "speaker_0",
+      "start" : 868.0599975585938,
+      "text" : "that have kind of got a Windows based"
+    },
+    {
+      "end" : 872,
+      "speaker" : "speaker_0",
+      "start" : 869.9400024414062,
+      "text" : "running system."
+    },
+    {
+      "end" : 874.3200073242188,
+      "speaker" : "speaker_0",
+      "start" : 872,
+      "text" : "I find it really confusing"
+    },
+    {
+      "end" : 875.780029296875,
+      "speaker" : "speaker_0",
+      "start" : 874.3200073242188,
+      "text" : "I kept getting lost"
+    },
+    {
+      "end" : 878.0599975585938,
+      "speaker" : "speaker_0",
+      "start" : 875.780029296875,
+      "text" : "I've not got a new one"
+    },
+    {
+      "end" : 879.47998046875,
+      "speaker" : "speaker_0",
+      "start" : 878.0599975585938,
+      "text" : "but my friend got a new one"
+    },
+    {
+      "end" : 881.2000122070312,
+      "speaker" : "speaker_0",
+      "start" : 879.47998046875,
+      "text" : "and I was trying to do things with it"
+    },
+    {
+      "end" : 882.7999877929688,
+      "speaker" : "speaker_0",
+      "start" : 881.2000122070312,
+      "text" : "and I just kept getting lost"
+    },
+    {
+      "end" : 887.0800170898438,
+      "speaker" : "speaker_4",
+      "start" : 885.0999755859375,
+      "text" : "I don't know how"
+    },
+    {
+      "end" : 890.6400146484375,
+      "speaker" : "speaker_4",
+      "start" : 887.0800170898438,
+      "text" : "for €25 or €12.50"
+    },
+    {
+      "end" : 892.239990234375,
+      "speaker" : "speaker_4",
+      "start" : 890.6400146484375,
+      "text" : "how much of an"
+    },
+    {
+      "end" : 893.6199951171875,
+      "speaker" : "speaker_4",
+      "start" : 892.239990234375,
+      "text" : "excellent screen you could get"
+    },
+    {
+      "end" : 893.9000244140625,
+      "speaker" : "speaker_4",
+      "start" : 893.6199951171875,
+      "text" : "yeah"
+    },
+    {
+      "end" : 898.7000122070312,
+      "speaker" : "speaker_4",
+      "start" : 893.9000244140625,
+      "text" : "you'd have to sort of keep it down to a black and white LCD thing anyway."
+    },
+    {
+      "end" : 902.5800170898438,
+      "speaker" : "speaker_3",
+      "start" : 898.7000122070312,
+      "text" : "Is it possible that for the older generation you could have like an extra button that you"
+    },
+    {
+      "end" : 904.780029296875,
+      "speaker" : "speaker_3",
+      "start" : 902.5800170898438,
+      "text" : "press for large print like you do in large print books?"
+    },
+    {
+      "end" : 907.5800170898438,
+      "speaker" : "speaker_3",
+      "start" : 904.780029296875,
+      "text" : "Obviously it displays less on the screen."
+    },
+    {
+      "end" : 914.4000244140625,
+      "speaker" : "speaker_3",
+      "start" : 907.5800170898438,
+      "text" : "It displays less on the screen, but as long as they can read it that's the main thing."
+    },
+    {
+      "end" : 922.3600463867188,
+      "speaker" : "speaker_0",
+      "start" : 914.4000244140625,
+      "text" : "about kind of a dual function in that you've got the basic buttons just for your play volume program"
+    },
+    {
+      "end" : 932.300048828125,
+      "speaker" : "speaker_0",
+      "start" : 922.3600463867188,
+      "text" : "things and also and then a menu to go into with obvious pictures obvious symbols and that's where you"
+    },
+    {
+      "end" : 935.260009765625,
+      "speaker" : "speaker_0",
+      "start" : 932.2999877929688,
+      "text" : "control recording and things like that."
+    },
+    {
+      "end" : 940.47998046875,
+      "speaker" : "speaker_3",
+      "start" : 935.260009765625,
+      "text" : "The other thing is just tucking into mobile phone design features again, you can have a"
+    },
+    {
+      "end" : 945.4199829101562,
+      "speaker" : "speaker_3",
+      "start" : 940.47998046875,
+      "text" : "flip top remote control so that when you flip over the top, you can have a bigger screen"
+    },
+    {
+      "end" : 946.6199951171875,
+      "speaker" : "speaker_3",
+      "start" : 945.4199829101562,
+      "text" : "in the flip over."
+    },
+    {
+      "end" : 949.6199951171875,
+      "speaker" : "speaker_0",
+      "start" : 946.6199951171875,
+      "text" : "I think that's a cost thing."
+    },
+    {
+      "end" : 954,
+      "speaker" : "speaker_2",
+      "start" : 949.6199951171875,
+      "text" : "I don't know how much we're going to know about it."
+    },
+    {
+      "end" : 956.47998046875,
+      "speaker" : "speaker_2",
+      "start" : 954,
+      "text" : "So, space, instead of looking bulky, it might look small."
+    },
+    {
+      "end" : 956.9199829101562,
+      "speaker" : "speaker_2",
+      "start" : 956.780029296875,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 959.1799926757812,
+      "speaker" : "speaker_2",
+      "start" : 957.219970703125,
+      "text" : "But it might have its cost implications.\""
+    },
+    {
+      "end" : 963.7000122070312,
+      "speaker" : "speaker_3",
+      "start" : 959.6599731445312,
+      "text" : "\"And there's no reason we need to make it look as fashionable and stylish as a mobile phone."
+    },
+    {
+      "end" : 968.719970703125,
+      "speaker" : "speaker_3",
+      "start" : 963.7000122070312,
+      "text" : "It can still be lightweight plastic, you know, something that's easily molded and produced."
+    },
+    {
+      "end" : 970.8599853515625,
+      "speaker" : "speaker_3",
+      "start" : 968.719970703125,
+      "text" : "Sorry, I'm treading on your territory, guys.\""
+    },
+    {
+      "end" : 971.8599853515625,
+      "speaker" : "speaker_3",
+      "start" : 970.8599853515625,
+      "text" : "\"No, no, no, no.\""
+    },
+    {
+      "end" : 977.260009765625,
+      "speaker" : "speaker_0",
+      "start" : 972.9600219726562,
+      "text" : "\"Right, okay, we've got half an hour before the next meeting, so we're all gonna go off"
+    },
+    {
+      "end" : 985.4000244140625,
+      "speaker" : "speaker_0",
+      "start" : 978.4000244140625,
+      "text" : "I think that's probably about it and then we'll come back and liaise again and I get"
+    },
+    {
+      "end" : 989.4000244140625,
+      "speaker" : "speaker_0",
+      "start" : 985.4000244140625,
+      "text" : "to do another fantastic PowerPoint presentation."
+    },
+    {
+      "end" : 997.4000244140625,
+      "speaker" : "speaker_4",
+      "start" : 989.4000244140625,
+      "text" : "Just a quick thing about what you were saying about the doesn't need to be fashionable."
+    },
+    {
+      "end" : 999.7000122070312,
+      "speaker" : "speaker_4",
+      "start" : 997.4000244140625,
+      "text" : "I had a quick look at the company."
+    },
+    {
+      "end" : 1007.52001953125,
+      "speaker" : "speaker_4",
+      "start" : 999.7000122070312,
+      "text" : "website and it's like the the we put the fashion into electronics so I think I think the whole"
+    },
+    {
+      "end" : 1012.8800048828125,
+      "speaker" : "speaker_4",
+      "start" : 1007.52001953125,
+      "text" : "design thing might be sure I mean you don't yeah you can still have plastic and it look"
+    },
+    {
+      "end" : 1018.8400268554688,
+      "speaker" : "speaker_3",
+      "start" : 1012.8800048828125,
+      "text" : "quite good but yeah I mean it doesn't have to be that you know but that was my main point we don't"
+    },
+    {
+      "end" : 1025.5,
+      "speaker" : "speaker_3",
+      "start" : 1018.8400268554688,
+      "text" : "have to use metal I don't know if using plastic does make it cheaper I presume it would yeah I mean it's"
+    },
+    {
+      "end" : 1026.8399658203125,
+      "speaker" : "speaker_0",
+      "start" : 1025.5,
+      "text" : "Sky remote controls and everything."
+    },
+    {
+      "end" : 1029.260009765625,
+      "speaker" : "speaker_0",
+      "start" : 1026.8399658203125,
+      "text" : "They're kind of molded and look a bit different."
+    },
+    {
+      "end" : 1034.52001953125,
+      "speaker" : "speaker_0",
+      "start" : 1029.43994140625,
+      "text" : "And the Tally West remote controls are silver plastic, which looks a bit smarter."
+    },
+    {
+      "end" : 1037.739990234375,
+      "speaker" : "speaker_4",
+      "start" : 1037.3199462890625,
+      "text" : "Okay."
+    },
+    {
+      "end" : 1042.56005859375,
+      "speaker" : "speaker_0",
+      "start" : 1042.199951171875,
+      "text" : "Okay."
+    },
+    {
+      "end" : 1042.8599853515625,
+      "speaker" : "speaker_0",
+      "start" : 1042.56005859375,
+      "text" : "Okay."
+    },
+    {
+      "end" : 1044.1199951171875,
+      "speaker" : "speaker_0",
+      "start" : 1043.1199951171875,
+      "text" : "So, see you in half an hour."
+    },
+    {
+      "end" : 1047.8599853515625,
+      "speaker" : "speaker_3",
+      "start" : 1045.97998046875,
+      "text" : "Do we go back to our room?"
+    },
+    {
+      "end" : 1048.280029296875,
+      "speaker" : "speaker_0",
+      "start" : 1047.8599853515625,
+      "text" : "I think so."
+    },
+    {
+      "end" : 1048.780029296875,
+      "speaker" : "speaker_0",
+      "start" : 1048.699951171875,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 1049.3599853515625,
+      "speaker" : "speaker_0",
+      "start" : 1048.780029296875,
+      "text" : "Yeah."
+    }
+  ],
+  "speakerTurns" : [
+    {
+      "end" : 14.804753303527832,
+      "speaker" : "speaker_0",
+      "start" : 10.865874290466309
+    },
+    {
+      "end" : 14.940576553344727,
+      "speaker" : "speaker_0",
+      "start" : 14.889642715454102
+    },
+    {
+      "end" : 15.161290168762207,
+      "speaker" : "speaker_1",
+      "start" : 14.940576553344727
+    },
+    {
+      "end" : 18.285228729248047,
+      "speaker" : "speaker_1",
+      "start" : 17.860780715942383
+    },
+    {
+      "end" : 20.356536865234375,
+      "speaker" : "speaker_0",
+      "start" : 18.828521728515625
+    },
+    {
+      "end" : 23.752120971679688,
+      "speaker" : "speaker_0",
+      "start" : 22.32597541809082
+    },
+    {
+      "end" : 26.536500930786133,
+      "speaker" : "speaker_3",
+      "start" : 25.110355377197266
+    },
+    {
+      "end" : 32.342952728271484,
+      "speaker" : "speaker_3",
+      "start" : 29.066213607788086
+    },
+    {
+      "end" : 34.63497543334961,
+      "speaker" : "speaker_0",
+      "start" : 34.21052551269531
+    },
+    {
+      "end" : 51.595924377441406,
+      "speaker" : "speaker_3",
+      "start" : 50.611202239990234
+    },
+    {
+      "end" : 71.96943664550781,
+      "speaker" : "speaker_1",
+      "start" : 71.52801513671875
+    },
+    {
+      "end" : 94.5331039428711,
+      "speaker" : "speaker_0",
+      "start" : 80.45840454101562
+    },
+    {
+      "end" : 95.1443099975586,
+      "speaker" : "speaker_0",
+      "start" : 94.85568237304688
+    },
+    {
+      "end" : 115.97622680664062,
+      "speaker" : "speaker_0",
+      "start" : 95.53480529785156
+    },
+    {
+      "end" : 141.57894897460938,
+      "speaker" : "speaker_0",
+      "start" : 117.55517578125
+    },
+    {
+      "end" : 161.12054443359375,
+      "speaker" : "speaker_0",
+      "start" : 142.76739501953125
+    },
+    {
+      "end" : 161.81663513183594,
+      "speaker" : "speaker_0",
+      "start" : 161.37521362304688
+    },
+    {
+      "end" : 167.86077880859375,
+      "speaker" : "speaker_0",
+      "start" : 162.08828735351562
+    },
+    {
+      "end" : 184.7877655029297,
+      "speaker" : "speaker_0",
+      "start" : 170.35653686523438
+    },
+    {
+      "end" : 192.90321350097656,
+      "speaker" : "speaker_0",
+      "start" : 188.777587890625
+    },
+    {
+      "end" : 211.98641967773438,
+      "speaker" : "speaker_4",
+      "start" : 211.4261474609375
+    },
+    {
+      "end" : 244.3633270263672,
+      "speaker" : "speaker_0",
+      "start" : 243.1578826904297
+    },
+    {
+      "end" : 250.6960906982422,
+      "speaker" : "speaker_0",
+      "start" : 246.91000366210938
+    },
+    {
+      "end" : 257.64007568359375,
+      "speaker" : "speaker_0",
+      "start" : 254.4991455078125
+    },
+    {
+      "end" : 258.3361511230469,
+      "speaker" : "speaker_0",
+      "start" : 258.3022155761719
+    },
+    {
+      "end" : 258.6417541503906,
+      "speaker" : "speaker_1",
+      "start" : 258.3361511230469
+    },
+    {
+      "end" : 258.67572021484375,
+      "speaker" : "speaker_0",
+      "start" : 258.6587219238281
+    },
+    {
+      "end" : 262.3089904785156,
+      "speaker" : "speaker_0",
+      "start" : 259.8641662597656
+    },
+    {
+      "end" : 266.9609375,
+      "speaker" : "speaker_0",
+      "start" : 266.14599609375
+    },
+    {
+      "end" : 269.1680603027344,
+      "speaker" : "speaker_0",
+      "start" : 268.69268798828125
+    },
+    {
+      "end" : 276.3836975097656,
+      "speaker" : "speaker_0",
+      "start" : 272.2750244140625
+    },
+    {
+      "end" : 279.7792663574219,
+      "speaker" : "speaker_1",
+      "start" : 277.65704345703125
+    },
+    {
+      "end" : 286.4855651855469,
+      "speaker" : "speaker_1",
+      "start" : 285.1273193359375
+    },
+    {
+      "end" : 288.5568542480469,
+      "speaker" : "speaker_0",
+      "start" : 287.65704345703125
+    },
+    {
+      "end" : 290,
+      "speaker" : "speaker_1",
+      "start" : 289.0492248535156
+    },
+    {
+      "end" : 291.8166198730469,
+      "speaker" : "speaker_2",
+      "start" : 290
+    },
+    {
+      "end" : 296.2987976074219,
+      "speaker" : "speaker_2",
+      "start" : 293.3106994628906
+    },
+    {
+      "end" : 307.2325744628906,
+      "speaker" : "speaker_3",
+      "start" : 306.332763671875
+    },
+    {
+      "end" : 309.62646484375,
+      "speaker" : "speaker_2",
+      "start" : 309.2359924316406
+    },
+    {
+      "end" : 321.7826843261719,
+      "speaker" : "speaker_2",
+      "start" : 313.48046875
+    },
+    {
+      "end" : 338.28521728515625,
+      "speaker" : "speaker_2",
+      "start" : 324.0916748046875
+    },
+    {
+      "end" : 349.4736633300781,
+      "speaker" : "speaker_2",
+      "start" : 340.628173828125
+    },
+    {
+      "end" : 351.12054443359375,
+      "speaker" : "speaker_0",
+      "start" : 350.13580322265625
+    },
+    {
+      "end" : 351.3072814941406,
+      "speaker" : "speaker_2",
+      "start" : 351.13751220703125
+    },
+    {
+      "end" : 354.80474853515625,
+      "speaker" : "speaker_2",
+      "start" : 353.9388732910156
+    },
+    {
+      "end" : 356.553466796875,
+      "speaker" : "speaker_2",
+      "start" : 356.23089599609375
+    },
+    {
+      "end" : 359.2359924316406,
+      "speaker" : "speaker_3",
+      "start" : 356.553466796875
+    },
+    {
+      "end" : 359.7622985839844,
+      "speaker" : "speaker_4",
+      "start" : 359.2359924316406
+    },
+    {
+      "end" : 361.7147521972656,
+      "speaker" : "speaker_3",
+      "start" : 359.7622985839844
+    },
+    {
+      "end" : 367.3514404296875,
+      "speaker" : "speaker_4",
+      "start" : 361.7147521972656
+    },
+    {
+      "end" : 374.3293762207031,
+      "speaker" : "speaker_4",
+      "start" : 371.443115234375
+    },
+    {
+      "end" : 374.99151611328125,
+      "speaker" : "speaker_0",
+      "start" : 374.3293762207031
+    },
+    {
+      "end" : 375.5517578125,
+      "speaker" : "speaker_4",
+      "start" : 374.99151611328125
+    },
+    {
+      "end" : 376.87603759765625,
+      "speaker" : "speaker_0",
+      "start" : 375.5517578125
+    },
+    {
+      "end" : 379.2359924316406,
+      "speaker" : "speaker_3",
+      "start" : 376.87603759765625
+    },
+    {
+      "end" : 384.41424560546875,
+      "speaker" : "speaker_4",
+      "start" : 379.592529296875
+    },
+    {
+      "end" : 391.6977844238281,
+      "speaker" : "speaker_3",
+      "start" : 391.1714782714844
+    },
+    {
+      "end" : 406.8251037597656,
+      "speaker" : "speaker_4",
+      "start" : 394.1595764160156
+    },
+    {
+      "end" : 421.1884460449219,
+      "speaker" : "speaker_0",
+      "start" : 420.10186767578125
+    },
+    {
+      "end" : 426.6044006347656,
+      "speaker" : "speaker_4",
+      "start" : 421.1884460449219
+    },
+    {
+      "end" : 430.0848693847656,
+      "speaker" : "speaker_4",
+      "start" : 428.0475158691406
+    },
+    {
+      "end" : 433.887939453125,
+      "speaker" : "speaker_4",
+      "start" : 432.4617919921875
+    },
+    {
+      "end" : 441.5110168457031,
+      "speaker" : "speaker_4",
+      "start" : 438.69268798828125
+    },
+    {
+      "end" : 450.73004150390625,
+      "speaker" : "speaker_3",
+      "start" : 441.5110168457031
+    },
+    {
+      "end" : 451.3072814941406,
+      "speaker" : "speaker_4",
+      "start" : 450.8998107910156
+    },
+    {
+      "end" : 457.7079772949219,
+      "speaker" : "speaker_3",
+      "start" : 453.9728088378906
+    },
+    {
+      "end" : 460.6112060546875,
+      "speaker" : "speaker_3",
+      "start" : 457.87774658203125
+    },
+    {
+      "end" : 462.0203552246094,
+      "speaker" : "speaker_0",
+      "start" : 461.0865783691406
+    },
+    {
+      "end" : 470.32257080078125,
+      "speaker" : "speaker_3",
+      "start" : 465.3989562988281
+    },
+    {
+      "end" : 478.70965576171875,
+      "speaker" : "speaker_3",
+      "start" : 474.39727783203125
+    },
+    {
+      "end" : 483.921875,
+      "speaker" : "speaker_3",
+      "start" : 481.2393798828125
+    },
+    {
+      "end" : 487.77587890625,
+      "speaker" : "speaker_4",
+      "start" : 487.28350830078125
+    },
+    {
+      "end" : 491.2733459472656,
+      "speaker" : "speaker_3",
+      "start" : 488.7945556640625
+    },
+    {
+      "end" : 494.7198486328125,
+      "speaker" : "speaker_3",
+      "start" : 492.88623046875
+    },
+    {
+      "end" : 514.108642578125,
+      "speaker" : "speaker_3",
+      "start" : 497.8268127441406
+    },
+    {
+      "end" : 516.6213989257812,
+      "speaker" : "speaker_3",
+      "start" : 516.112060546875
+    },
+    {
+      "end" : 518.6926879882812,
+      "speaker" : "speaker_3",
+      "start" : 517.8777465820312
+    },
+    {
+      "end" : 524.3123779296875,
+      "speaker" : "speaker_3",
+      "start" : 519.8302001953125
+    },
+    {
+      "end" : 524.3633422851562,
+      "speaker" : "speaker_4",
+      "start" : 524.3123779296875
+    },
+    {
+      "end" : 524.8217163085938,
+      "speaker" : "speaker_3",
+      "start" : 524.3633422851562
+    },
+    {
+      "end" : 524.8726806640625,
+      "speaker" : "speaker_4",
+      "start" : 524.8217163085938
+    },
+    {
+      "end" : 525.5517578125,
+      "speaker" : "speaker_3",
+      "start" : 524.8726806640625
+    },
+    {
+      "end" : 525.738525390625,
+      "speaker" : "speaker_4",
+      "start" : 525.5517578125
+    },
+    {
+      "end" : 533.32763671875,
+      "speaker" : "speaker_3",
+      "start" : 525.738525390625
+    },
+    {
+      "end" : 536.6043701171875,
+      "speaker" : "speaker_3",
+      "start" : 535.5347900390625
+    },
+    {
+      "end" : 548.7435913085938,
+      "speaker" : "speaker_3",
+      "start" : 541.443115234375
+    },
+    {
+      "end" : 556.400634765625,
+      "speaker" : "speaker_3",
+      "start" : 553.6502685546875
+    },
+    {
+      "end" : 558.8624877929688,
+      "speaker" : "speaker_3",
+      "start" : 558.556884765625
+    },
+    {
+      "end" : 575.3989868164062,
+      "speaker" : "speaker_0",
+      "start" : 561.0865478515625
+    },
+    {
+      "end" : 575.4668579101562,
+      "speaker" : "speaker_0",
+      "start" : 575.4159545898438
+    },
+    {
+      "end" : 576.58740234375,
+      "speaker" : "speaker_2",
+      "start" : 576.4855346679688
+    },
+    {
+      "end" : 576.994873046875,
+      "speaker" : "speaker_0",
+      "start" : 576.58740234375
+    },
+    {
+      "end" : 580.9846801757812,
+      "speaker" : "speaker_2",
+      "start" : 576.994873046875
+    },
+    {
+      "end" : 587.962646484375,
+      "speaker" : "speaker_4",
+      "start" : 580.9846801757812
+    },
+    {
+      "end" : 590.9846801757812,
+      "speaker" : "speaker_3",
+      "start" : 588.3870849609375
+    },
+    {
+      "end" : 594.261474609375,
+      "speaker" : "speaker_0",
+      "start" : 590.9846801757812
+    },
+    {
+      "end" : 607.0628051757812,
+      "speaker" : "speaker_4",
+      "start" : 594.261474609375
+    },
+    {
+      "end" : 613.8369750976562,
+      "speaker" : "speaker_3",
+      "start" : 608.0475463867188
+    },
+    {
+      "end" : 613.9558715820312,
+      "speaker" : "speaker_0",
+      "start" : 613.8369750976562
+    },
+    {
+      "end" : 613.9898071289062,
+      "speaker" : "speaker_3",
+      "start" : 613.9558715820312
+    },
+    {
+      "end" : 629.4227294921875,
+      "speaker" : "speaker_0",
+      "start" : 613.9898071289062
+    },
+    {
+      "end" : 631.3073120117188,
+      "speaker" : "speaker_3",
+      "start" : 630.3565063476562
+    },
+    {
+      "end" : 637.0458374023438,
+      "speaker" : "speaker_0",
+      "start" : 631.3073120117188
+    },
+    {
+      "end" : 651.69775390625,
+      "speaker" : "speaker_3",
+      "start" : 638.0475463867188
+    },
+    {
+      "end" : 654.9915161132812,
+      "speaker" : "speaker_3",
+      "start" : 653.3616333007812
+    },
+    {
+      "end" : 670.254638671875,
+      "speaker" : "speaker_0",
+      "start" : 654.9915161132812
+    },
+    {
+      "end" : 677.9456787109375,
+      "speaker" : "speaker_0",
+      "start" : 675.17822265625
+    },
+    {
+      "end" : 704.7537841796875,
+      "speaker" : "speaker_0",
+      "start" : 678.9133911132812
+    },
+    {
+      "end" : 706.8251342773438,
+      "speaker" : "speaker_4",
+      "start" : 705.1952514648438
+    },
+    {
+      "end" : 707.99658203125,
+      "speaker" : "speaker_0",
+      "start" : 706.8251342773438
+    },
+    {
+      "end" : 710.9846801757812,
+      "speaker" : "speaker_2",
+      "start" : 707.99658203125
+    },
+    {
+      "end" : 711.6129150390625,
+      "speaker" : "speaker_2",
+      "start" : 711.2054443359375
+    },
+    {
+      "end" : 712.037353515625,
+      "speaker" : "speaker_2",
+      "start" : 711.8675537109375
+    },
+    {
+      "end" : 712.8692626953125,
+      "speaker" : "speaker_2",
+      "start" : 712.1392211914062
+    },
+    {
+      "end" : 734.9915161132812,
+      "speaker" : "speaker_3",
+      "start" : 712.8692626953125
+    },
+    {
+      "end" : 751.69775390625,
+      "speaker" : "speaker_0",
+      "start" : 734.9915161132812
+    },
+    {
+      "end" : 755.6875610351562,
+      "speaker" : "speaker_3",
+      "start" : 751.69775390625
+    },
+    {
+      "end" : 756.9779052734375,
+      "speaker" : "speaker_2",
+      "start" : 755.6875610351562
+    },
+    {
+      "end" : 779.779296875,
+      "speaker" : "speaker_0",
+      "start" : 757.3853759765625
+    },
+    {
+      "end" : 794.51611328125,
+      "speaker" : "speaker_3",
+      "start" : 779.779296875
+    },
+    {
+      "end" : 812.105224609375,
+      "speaker" : "speaker_2",
+      "start" : 794.51611328125
+    },
+    {
+      "end" : 815.1273193359375,
+      "speaker" : "speaker_0",
+      "start" : 812.325927734375
+    },
+    {
+      "end" : 823.2767333984375,
+      "speaker" : "speaker_0",
+      "start" : 816.112060546875
+    },
+    {
+      "end" : 826.9779052734375,
+      "speaker" : "speaker_3",
+      "start" : 823.8200073242188
+    },
+    {
+      "end" : 829.3717651367188,
+      "speaker" : "speaker_0",
+      "start" : 828.0814819335938
+    },
+    {
+      "end" : 833.259765625,
+      "speaker" : "speaker_4",
+      "start" : 829.3717651367188
+    },
+    {
+      "end" : 833.8709716796875,
+      "speaker" : "speaker_3",
+      "start" : 833.259765625
+    },
+    {
+      "end" : 833.955810546875,
+      "speaker" : "speaker_4",
+      "start" : 833.8709716796875
+    },
+    {
+      "end" : 833.9728393554688,
+      "speaker" : "speaker_3",
+      "start" : 833.955810546875
+    },
+    {
+      "end" : 844.6349487304688,
+      "speaker" : "speaker_3",
+      "start" : 833.9898071289062
+    },
+    {
+      "end" : 849.7453002929688,
+      "speaker" : "speaker_4",
+      "start" : 844.6349487304688
+    },
+    {
+      "end" : 850.0509033203125,
+      "speaker" : "speaker_4",
+      "start" : 850.033935546875
+    },
+    {
+      "end" : 862.037353515625,
+      "speaker" : "speaker_4",
+      "start" : 850.0848388671875
+    },
+    {
+      "end" : 862.7504272460938,
+      "speaker" : "speaker_0",
+      "start" : 862.3089599609375
+    },
+    {
+      "end" : 863.5653686523438,
+      "speaker" : "speaker_4",
+      "start" : 863.2088012695312
+    },
+    {
+      "end" : 864.95751953125,
+      "speaker" : "speaker_0",
+      "start" : 864.2614135742188
+    },
+    {
+      "end" : 865.585693359375,
+      "speaker" : "speaker_4",
+      "start" : 864.95751953125
+    },
+    {
+      "end" : 885.17822265625,
+      "speaker" : "speaker_0",
+      "start" : 866.2478637695312
+    },
+    {
+      "end" : 898.998291015625,
+      "speaker" : "speaker_4",
+      "start" : 885.17822265625
+    },
+    {
+      "end" : 911.6298828125,
+      "speaker" : "speaker_3",
+      "start" : 898.998291015625
+    },
+    {
+      "end" : 912.4957275390625,
+      "speaker" : "speaker_0",
+      "start" : 911.8505859375
+    },
+    {
+      "end" : 934.9744873046875,
+      "speaker" : "speaker_0",
+      "start" : 913.667236328125
+    },
+    {
+      "end" : 947.0967407226562,
+      "speaker" : "speaker_3",
+      "start" : 935.1612548828125
+    },
+    {
+      "end" : 951.510986328125,
+      "speaker" : "speaker_0",
+      "start" : 948.43798828125
+    },
+    {
+      "end" : 959.439697265625,
+      "speaker" : "speaker_2",
+      "start" : 951.510986328125
+    },
+    {
+      "end" : 959.6094970703125,
+      "speaker" : "speaker_2",
+      "start" : 959.5755004882812
+    },
+    {
+      "end" : 972.5806274414062,
+      "speaker" : "speaker_3",
+      "start" : 959.6094970703125
+    },
+    {
+      "end" : 989.5076293945312,
+      "speaker" : "speaker_0",
+      "start" : 972.920166015625
+    },
+    {
+      "end" : 1014.6349487304688,
+      "speaker" : "speaker_4",
+      "start" : 989.5076293945312
+    },
+    {
+      "end" : 1024.3802490234375,
+      "speaker" : "speaker_3",
+      "start" : 1014.7537841796875
+    },
+    {
+      "end" : 1036.994873046875,
+      "speaker" : "speaker_0",
+      "start" : 1025.0084228515625
+    },
+    {
+      "end" : 1037.4871826171875,
+      "speaker" : "speaker_0",
+      "start" : 1037.4532470703125
+    },
+    {
+      "end" : 1037.77587890625,
+      "speaker" : "speaker_4",
+      "start" : 1037.4871826171875
+    },
+    {
+      "end" : 1044.1934814453125,
+      "speaker" : "speaker_0",
+      "start" : 1037.77587890625
+    },
+    {
+      "end" : 1047.99658203125,
+      "speaker" : "speaker_3",
+      "start" : 1046.3836669921875
+    },
+    {
+      "end" : 1049.0491943359375,
+      "speaker" : "speaker_0",
+      "start" : 1047.99658203125
+    }
+  ],
+  "text" : "- So you've got both of these clipped on. - Is she gonna answer me? - Yeah, I've got. - Right, both of them, okay. Good. - Okay, this is gonna fall off. I can put it... Okay. Hello everybody. I'm Sarah. project manager and this is our first meeting surprisingly okay this is our agenda and we will do some stuff get to know each other a bit better feel more comfortable with each other then we'll go do tool training talk about the project plan discuss our own ideas and everything. And we've got 25 minutes to do that as far as I can understand. Now we're developing a remote control which you probably already know. We and draw our favourite animal on the whiteboard. And sum up the characteristics of that animal. Okay. I'm not going to ask you to guess. I'm going to tell you that it's supposed to be a tiger. And I see them as majestic. Okay. Okay. God. where does this come from oh yeah thank you maybe you can guess what I'm trying to make A kind of dog? It's actually sitting. Sorry? It's sitting. It's not standing. Okay, I see it as one thing. It's very supportive. It's your best friend in your... You can talk to a dog, it can be your best friend, it doesn't discriminate between you, based on what you are. Second, it's loyal. And third thing, it's got intuition. Means dogs can sometimes make out between a thief and a person. So basically, these are the three unique features I think belong to a dog. Yeah, okay. Sorry. Please leave me a space at the bottom, I'm little. Oh, right. To the top. We're standing on a chair. Well, since you guys have chosen the ones I wanted to do, I'll have to go for something a bit random. And also my drawing skill isn't that great. Well, as you can see the quality of the work today. I think it's outstandingly good. Okay, now I'm going to have to change what it was originally going to be because that looks like a beak now. Yeah, it can be a crocodile. It can be a crocodile. Well, it was... Firstly, it was an attempt at a T-Rex, and then it sort of changed into a pelican, but it can be a crocodile. I don't know. Yeah, and I'll have to think on the spot of things that it is. Strong. Yeah, that's about it, I think. I'm very impressed with your artistic skills. Mine's a dreadful. Oops, this is now coming apart. Let me just put the top in. I hope that clicks in. I'll hold it on. Oops, oh dear. What happened there? Hopefully that will stay on, two-handed version. Again, this is off the top of my head. I was going to do a big cat too. It doesn't look like what I want it to be. It's not a vampire bat, honestly. Somewhere there's a body behind. That's my dreadful... That's the worst. It's meant to be an eagle. You can tell it's a flying animal. Could have been a seagull. I never thought of a seagull. An eagle. Again, I'm thinking on my feet. Goodness. I suppose they're all so independent. I'd put that one down again. They're good at golf. Independent, right. Did you say they're good at golf? Yeah. Are they? Eagle. Oh, right. I'm not good at golf. I'll say they're quite free-spirited, flying around everywhere, doing their own thing. and uh birds of prey aren't they oh dear intrepid intrepid there we go i hope that pen is going to be okay whoops okay that was fine right um Finance wise we've got a selling price at 25 euros, which I don't actually know what that is in pounds at all. Any ideas? It's about 1.4, something like that. 1.4 euro would make a pound or something like that. Yeah, yeah, something like that. Yeah, about 17 pounds. Okay. Should we be making notes of this? We can just refer to this later, can't we? I think so. I think I'll be able to... And profit aim is 50 million euros, which is a... In our first year? Yeah. You've got market range international and you did say earlier it's got to be accessible and usable by all age groups, we're not focusing on business market, it's user friendly to everyone. Big target group. Yes, I don't think it's a case of worrying about different languages and things like So we got one of the universal remote controls that you program each of your things into, but I think it was quite a GP as well, so that might have had something to do with it. But that was quite good, the fact that you could use all the ones that you didn't have than that so i suppose it's got to be something usable by someone like me as well yeah the main that's the main stuff anyway i mean and you don't want to i hate i hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the tally text button or something like that and symbols that you don't necessarily understand symbols you're meant to understand that you don't When you've got the main things on the front of it and a section opens up or something to the other functions when you can do sound or options kind of recording things like that inside it. Because it doesn't make when you pick it up it doesn't make it really complicated to look at. It's obvious what you're doing. Actually, that just raises a point. I wonder what our design people think. But you know on a mobile phone, you can press a key and it gives you a menu. It's got a menu display. I wonder if incorporating that into the design of a remote control might be useful. So you've got a little LCD display. I was thinking on the same lines. You instead of having too many buttons and make it correct, complicated for the user. Maybe have an LCD display or something like that, like a mobile. - With menus. - With menus. And if it's somewhat similar to what you have on mobile phone, people might find it easier to browse and navigate also. - Yeah. - What about the older generation? What about granny and granddads? My granddad can answer his mobile phone, but he couldn't even dream of texting. or something like that. Can he program his remote controller? Is he basic with that too? I don't think they tape things. My granddad's actually better than me at using Teletext. So that's a problem regardless of any design modifications you come up with. That's going to be a problem anyway with the older generation perhaps. And that's another issue how we tackle that. Well it just needs to be, as long as it's sort of self-intuitive and you can work out why everything's doing. Because I mean menus on sort of phones now, they've got all these pictures and stuff which makes it fairly obvious what you're trying to do. I don't know how. I don't like the new phones that have kind of got a Windows based running system. I find it really confusing I kept getting lost I've not got a new one but my friend got a new one and I was trying to do things with it and I just kept getting lost I don't know how for €25 or €12.50 how much of an excellent screen you could get yeah you'd have to sort of keep it down to a black and white LCD thing anyway. Is it possible that for the older generation you could have like an extra button that you press for large print like you do in large print books? Obviously it displays less on the screen. It displays less on the screen, but as long as they can read it that's the main thing. about kind of a dual function in that you've got the basic buttons just for your play volume program things and also and then a menu to go into with obvious pictures obvious symbols and that's where you control recording and things like that. The other thing is just tucking into mobile phone design features again, you can have a flip top remote control so that when you flip over the top, you can have a bigger screen in the flip over. I think that's a cost thing. I don't know how much we're going to know about it. So, space, instead of looking bulky, it might look small. Yeah. But it might have its cost implications.\" \"And there's no reason we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic, you know, something that's easily molded and produced. Sorry, I'm treading on your territory, guys.\" \"No, no, no, no.\" \"Right, okay, we've got half an hour before the next meeting, so we're all gonna go off I think that's probably about it and then we'll come back and liaise again and I get to do another fantastic PowerPoint presentation. Just a quick thing about what you were saying about the doesn't need to be fashionable. I had a quick look at the company. website and it's like the the we put the fashion into electronics so I think I think the whole design thing might be sure I mean you don't yeah you can still have plastic and it look quite good but yeah I mean it doesn't have to be that you know but that was my main point we don't have to use metal I don't know if using plastic does make it cheaper I presume it would yeah I mean it's Sky remote controls and everything. They're kind of molded and look a bit different. And the Tally West remote controls are silver plastic, which looks a bit smarter. Okay. Okay. Okay. So, see you in half an hour. Do we go back to our room? I think so. Yeah. Yeah.",
+  "track" : "meeting",
+  "wallSeconds" : 97.318003209
+}

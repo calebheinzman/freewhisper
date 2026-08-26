@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.1200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-99",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.90717891932601,
+  "text" : "and many perfume successes with its haute parfumerie, l'art et la matière, an aqua",
+  "track" : "asr",
+  "wallSeconds" : 1.713180291
+}

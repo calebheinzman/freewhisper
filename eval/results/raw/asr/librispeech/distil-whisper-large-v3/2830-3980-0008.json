@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.84,
+  "dataset" : "librispeech",
+  "id" : "2830-3980-0008",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.104901580879697,
+  "text" : "Paul takes pride in his ministry, not to his own praise, but to the praise of God.",
+  "track" : "asr",
+  "wallSeconds" : 1.179078208
+}

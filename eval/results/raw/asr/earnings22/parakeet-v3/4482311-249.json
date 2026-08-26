@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.1800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-249",
+  "model" : "parakeet-v3",
+  "rtfx" : 34.363362462287185,
+  "text" : "When you have point four, point five percent, uh it's uh already pretty good.",
+  "track" : "asr",
+  "wallSeconds" : 0.121643
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.99,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00012240",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.24180464015457,
+  "text" : "Yes. Opening, acquaintance, tool training. Well, the tools, I think we already, I guess the tool is really our, the computer, as far as I can see.",
+  "track" : "asr",
+  "wallSeconds" : 1.600498666
+}

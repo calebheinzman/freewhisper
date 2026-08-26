@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.35,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00042120",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.07728594682511,
+  "text" : "Yeah, and I'll have to think on the spot of things that it is.",
+  "track" : "asr",
+  "wallSeconds" : 0.7559395
+}

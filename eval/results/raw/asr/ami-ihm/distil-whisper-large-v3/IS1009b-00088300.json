@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00088300",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.5711567572723193,
+  "text" : "Yeah, that is also possible. Oh, yes. Is that going to be possible?",
+  "track" : "asr",
+  "wallSeconds" : 0.756057542
+}

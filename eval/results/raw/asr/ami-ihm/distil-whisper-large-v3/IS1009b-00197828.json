@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.13,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00197828",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.057776964533036,
+  "text" : "finish me now. Um, um, um, um,",
+  "track" : "asr",
+  "wallSeconds" : 0.68176825
+}

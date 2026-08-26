@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-23",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.11337414737541,
+  "text" : "as regards our commitment for the environment.",
+  "track" : "asr",
+  "wallSeconds" : 0.615750333
+}

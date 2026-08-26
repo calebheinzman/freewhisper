@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.7,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00074356",
+  "model" : "parakeet-v3",
+  "rtfx" : 57.41507276148791,
+  "text" : "Maybe it's easier to draw with a smaller line width, I think. Because this is going a lot better than uh I did.",
+  "track" : "asr",
+  "wallSeconds" : 0.134111125
+}

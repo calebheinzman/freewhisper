@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.13,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00058385",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.7871159427150576,
+  "text" : "Yeah, about 17 pounds.",
+  "track" : "asr",
+  "wallSeconds" : 1.090539625
+}

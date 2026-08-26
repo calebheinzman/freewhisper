@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.71,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00101370",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.9031732181198623,
+  "text" : "Yeah, I mean it doesn't have to be that, you know, but that was my main point, we don't have to use metal, I don't know if using plastic does make it cheaper, I presume it would.",
+  "track" : "asr",
+  "wallSeconds" : 11.858190417
+}

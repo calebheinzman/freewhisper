@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.39,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0035",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5106666527478865,
+  "text" : "Will you leave me alone in my own room, or must I go away to escape you?",
+  "track" : "asr",
+  "wallSeconds" : 2.906001792
+}

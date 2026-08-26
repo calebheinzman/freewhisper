@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.49,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00197756",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 1.7942886242055465,
+  "text" : "- finish meeting now.",
+  "track" : "asr",
+  "wallSeconds" : 0.830412666
+}

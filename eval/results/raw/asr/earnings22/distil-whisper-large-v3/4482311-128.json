@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.78,
+  "dataset" : "earnings22",
+  "id" : "4482311-128",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.262199093765096,
+  "text" : "there was the Diffy wardship.",
+  "track" : "asr",
+  "wallSeconds" : 0.652245458
+}

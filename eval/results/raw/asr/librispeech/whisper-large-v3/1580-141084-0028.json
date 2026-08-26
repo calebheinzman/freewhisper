@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.655,
+  "dataset" : "librispeech",
+  "id" : "1580-141084-0028",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.412749514271974,
+  "text" : "There was no man, sir.",
+  "track" : "asr",
+  "wallSeconds" : 1.8793140419999999
+}

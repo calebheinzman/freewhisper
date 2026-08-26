@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.6800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-75",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.582334026087755,
+  "text" : "and whilst being contained, they have delivered remarkable growth. Now,",
+  "track" : "asr",
+  "wallSeconds" : 1.239556625
+}

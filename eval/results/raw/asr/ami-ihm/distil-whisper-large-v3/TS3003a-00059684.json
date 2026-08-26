@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.07,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00059684",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.022247033546998,
+  "text" : "And I've got to write down a few of his characteristics.",
+  "track" : "asr",
+  "wallSeconds" : 0.773292042
+}

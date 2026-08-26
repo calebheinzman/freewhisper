@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 17.22,
+  "dataset" : "librispeech",
+  "id" : "4077-13751-0007",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 15.755839993362125,
+  "text" : "the book of mormon had taught the people the true origin and destiny of the american indians and toward this dark-skinned remnant of a once mighty people the missionaries of mormonism early turned their eyes and with their eyes went their hearts and their hopes",
+  "track" : "asr",
+  "wallSeconds" : 1.0929280829999999
+}

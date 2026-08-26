@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 13.96,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0045",
+  "model" : "parakeet-v3",
+  "rtfx" : 77.71645711782374,
+  "text" : "Time enough had he too for his reflections, for days and nights passed on, and nobody came up. And when at last somebody did come it was only to put some great trunks in a corner out of the way.",
+  "track" : "asr",
+  "wallSeconds" : 0.179627334
+}

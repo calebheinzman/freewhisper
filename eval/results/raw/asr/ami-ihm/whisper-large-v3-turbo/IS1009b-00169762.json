@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.18,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00169762",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.8966043253578926,
+  "text" : "You make a banana soup, Tony. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 1.149422666
+}

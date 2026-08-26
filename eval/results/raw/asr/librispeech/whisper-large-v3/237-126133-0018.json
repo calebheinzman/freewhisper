@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.095,
+  "dataset" : "librispeech",
+  "id" : "237-126133-0018",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.2553133998206003,
+  "text" : "\"'Don't mind it, Polly,' whispered Jasper. \"'Twasn't her fault.'",
+  "track" : "asr",
+  "wallSeconds" : 3.262133584
+}

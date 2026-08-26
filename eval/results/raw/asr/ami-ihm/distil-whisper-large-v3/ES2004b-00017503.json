@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.29,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00017503",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.2012284889065725,
+  "text" : "No, that's fine, that's fine. Okay, yeah, okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.715350375
+}

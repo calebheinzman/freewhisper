@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.020125,
+  "dataset" : "earnings22",
+  "id" : "4482311-59",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.848767268001307,
+  "text" : "That is the spirit of Louis Vuitton",
+  "track" : "asr",
+  "wallSeconds" : 0.6228645
+}

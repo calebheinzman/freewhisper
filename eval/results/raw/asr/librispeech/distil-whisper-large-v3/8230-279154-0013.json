@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 14.56,
+  "dataset" : "librispeech",
+  "id" : "8230-279154-0013",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.60924721129513,
+  "text" : "In an image of a well-known face, for example, some parts may feel more familiar than others. When this happens, we have more belief in the accuracy of the familiar parts than in that of the unfamiliar parts than in that of the unfamiliar parts.",
+  "track" : "asr",
+  "wallSeconds" : 1.069860792
+}

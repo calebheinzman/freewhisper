@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.6400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-99",
+  "model" : "parakeet-v3",
+  "rtfx" : 58.02253376514858,
+  "text" : "We have set the target to reduce these emissions by ten percent every year. Uh",
+  "track" : "asr",
+  "wallSeconds" : 0.114439375
+}

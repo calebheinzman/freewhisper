@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.31,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00057762",
+  "model" : "parakeet-v3",
+  "rtfx" : 12.53903984590037,
+  "text" : "I'm thinking about a sword fish.",
+  "track" : "asr",
+  "wallSeconds" : 0.104473709
+}

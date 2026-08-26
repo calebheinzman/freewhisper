@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.5000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-37",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.925400943180054,
+  "text" : "and the rapid growth of our rosé wines, in particular Chateau d'Esclans.",
+  "track" : "asr",
+  "wallSeconds" : 1.319702208
+}

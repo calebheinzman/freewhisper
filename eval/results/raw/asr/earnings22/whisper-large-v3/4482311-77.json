@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.2600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-77",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.268581398503554,
+  "text" : "Fendi, big success from day one, but accentuated since the arrival of Kim Jong-un.",
+  "track" : "asr",
+  "wallSeconds" : 3.200265375
+}

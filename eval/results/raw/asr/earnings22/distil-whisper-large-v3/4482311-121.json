@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.8000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-121",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 15.910613165490737,
+  "text" : "but that company is rebounding with a great team and is offering products that are extremely attractive and interesting.",
+  "track" : "asr",
+  "wallSeconds" : 0.74164725
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.35,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00042120",
+  "model" : "parakeet-v3",
+  "rtfx" : 44.307656632224706,
+  "text" : "Yeah, and uh I'll have to think on the spot of uh things that it is. Um",
+  "track" : "asr",
+  "wallSeconds" : 0.120746625
+}

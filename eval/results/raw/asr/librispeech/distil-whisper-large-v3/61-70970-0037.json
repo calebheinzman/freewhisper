@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.98,
+  "dataset" : "librispeech",
+  "id" : "61-70970-0037",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.92950001426747,
+  "text" : "His tones rang pleasantly on Warrington's ears, and forthwith a good fellowship was heralded between them.",
+  "track" : "asr",
+  "wallSeconds" : 0.862977125
+}

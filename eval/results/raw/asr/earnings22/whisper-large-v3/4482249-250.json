@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.620125,
+  "dataset" : "earnings22",
+  "id" : "4482249-250",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.577166077920369,
+  "text" : "The closing of the acquisition of the businesses from Danaher has also been taking place in 2020 and hasn't been that small.",
+  "track" : "asr",
+  "wallSeconds" : 3.732830834
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.615,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0020",
+  "model" : "parakeet-v3",
+  "rtfx" : 33.53600464699297,
+  "text" : "Then she gave a little laugh and replied, No, Miss Beth, I'm Elizabeth Parsons, but",
+  "track" : "asr",
+  "wallSeconds" : 0.137613292
+}

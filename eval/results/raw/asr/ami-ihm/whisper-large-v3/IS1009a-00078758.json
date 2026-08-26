@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.35,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00078758",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.3930233734253274,
+  "text" : "Okay, I think I have enough to think about for our next meeting. How about you people? Yes.",
+  "track" : "asr",
+  "wallSeconds" : 4.5584303330000004
+}

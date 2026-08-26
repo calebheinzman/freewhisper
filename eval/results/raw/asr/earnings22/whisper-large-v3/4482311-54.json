@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.5800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-54",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.942035213470446,
+  "text" : "because Louis Vuitton is a company that is involved in many aspects of cultural life.",
+  "track" : "asr",
+  "wallSeconds" : 2.91636975
+}

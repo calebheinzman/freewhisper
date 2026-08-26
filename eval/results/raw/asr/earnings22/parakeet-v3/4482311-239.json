@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.760125,
+  "dataset" : "earnings22",
+  "id" : "4482311-239",
+  "model" : "parakeet-v3",
+  "rtfx" : 47.71445671104595,
+  "text" : "Uh the performance was relatively stable again uh for wine and spirits.",
+  "track" : "asr",
+  "wallSeconds" : 0.12072075
+}

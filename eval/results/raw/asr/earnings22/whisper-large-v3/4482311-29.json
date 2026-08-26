@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.2400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-29",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.416095483263475,
+  "text" : "lastly the climate well",
+  "track" : "asr",
+  "wallSeconds" : 1.581858375
+}

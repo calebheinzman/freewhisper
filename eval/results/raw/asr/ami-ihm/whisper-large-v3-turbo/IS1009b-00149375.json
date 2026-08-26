@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.4,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00149375",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.1816347371686307,
+  "text" : "timer here. Timer. Mm-hmm.",
+  "track" : "asr",
+  "wallSeconds" : 1.1847992920000001
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.05,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00143042",
+  "model" : "parakeet-v3",
+  "rtfx" : 19.749312059207394,
+  "text" : "No. They were all mentioned, so.",
+  "track" : "asr",
+  "wallSeconds" : 0.103801084
+}

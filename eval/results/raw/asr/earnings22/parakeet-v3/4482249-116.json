@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.9400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-116",
+  "model" : "parakeet-v3",
+  "rtfx" : 53.77305509628262,
+  "text" : "Uh this should include one percentage point of non organic growth related to the acquisitions that have been mentioned.",
+  "track" : "asr",
+  "wallSeconds" : 0.129062083
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.025,
+  "dataset" : "librispeech",
+  "id" : "61-70968-0024",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.370791732802609,
+  "text" : "spoke the squire, losing all patient. \"And it was to you that I gave another person consolation.\"",
+  "track" : "asr",
+  "wallSeconds" : 1.378468792
+}

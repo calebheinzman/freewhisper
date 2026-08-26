@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.99,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00137491",
+  "model" : "parakeet-v3",
+  "rtfx" : 34.75245248884653,
+  "text" : "If there is a clock then there can be a clock.",
+  "track" : "asr",
+  "wallSeconds" : 0.114812041
+}

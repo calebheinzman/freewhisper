@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.3600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-102",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.7764768923938608,
+  "text" : "moving on to watches and jewelry, well,",
+  "track" : "asr",
+  "wallSeconds" : 0.624937625
+}

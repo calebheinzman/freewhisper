@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.665,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0051",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.851207981122889,
+  "text" : "\"I am by no means old,\" said the fir-tree.",
+  "track" : "asr",
+  "wallSeconds" : 1.21130825
+}

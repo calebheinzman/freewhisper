@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.76,
+  "dataset" : "librispeech",
+  "id" : "4992-41806-0016",
+  "model" : "parakeet-v3",
+  "rtfx" : 62.30400281474936,
+  "text" : "The face of the mahogany shone with delight, and why not, when it was doing everything, almost everything within the scope of a piano, and yet the family had enjoyed weeks of good, nourishing meals on what had been saved by its exertions.",
+  "track" : "asr",
+  "wallSeconds" : 0.25295325
+}

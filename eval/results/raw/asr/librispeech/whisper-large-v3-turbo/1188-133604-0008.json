@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 20.755,
+  "dataset" : "librispeech",
+  "id" : "1188-133604-0008",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 10.05029850691579,
+  "text" : "for believe me the final philosophy of art can only ratify their opinion that the beauty of a cock-robin is to be red and of a grass-plot to be green and the best skill of art is in instantly seizing on the manifold deliciousness of light which you can only seize by precision of instantaneous touch",
+  "track" : "asr",
+  "wallSeconds" : 2.065112791
+}

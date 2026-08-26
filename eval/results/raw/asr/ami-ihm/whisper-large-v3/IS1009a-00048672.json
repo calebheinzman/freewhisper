@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00048672",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.0646882946750877,
+  "text" : "So it should be a multifunctional gadget that would control all your household machines, basically.",
+  "track" : "asr",
+  "wallSeconds" : 2.786580291
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00006079",
+  "model" : "parakeet-v3",
+  "rtfx" : 56.65994411735408,
+  "text" : "I think the marketing manager probably should go first addressing the needs and desires.",
+  "track" : "asr",
+  "wallSeconds" : 0.115425458
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.55,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00057511",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.356386974141198,
+  "text" : "- It's about 17.",
+  "track" : "asr",
+  "wallSeconds" : 1.082165208
+}

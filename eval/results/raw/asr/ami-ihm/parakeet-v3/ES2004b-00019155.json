@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.77,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00019155",
+  "model" : "parakeet-v3",
+  "rtfx" : 16.909656843257874,
+  "text" : "Want to have to press all F eight.",
+  "track" : "asr",
+  "wallSeconds" : 0.104673916
+}

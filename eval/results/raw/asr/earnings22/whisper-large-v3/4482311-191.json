@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.3000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-191",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0716735689135533,
+  "text" : "We were not in the trough of the first half of the year with the shops closed down, and yet we were up 24%.",
+  "track" : "asr",
+  "wallSeconds" : 3.523751333
+}

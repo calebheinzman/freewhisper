@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.61,
+  "dataset" : "librispeech",
+  "id" : "4970-29095-0032",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.04067860040335,
+  "text" : "that philip is honest and he has talent enough if he will stop scribbling to make his way",
+  "track" : "asr",
+  "wallSeconds" : 1.311331375
+}

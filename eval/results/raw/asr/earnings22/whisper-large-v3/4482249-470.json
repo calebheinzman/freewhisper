@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.519875,
+  "dataset" : "earnings22",
+  "id" : "4482249-470",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4730525385849744,
+  "text" : "Is that an impact you've been seeing on your side as well?",
+  "track" : "asr",
+  "wallSeconds" : 2.389510834
+}

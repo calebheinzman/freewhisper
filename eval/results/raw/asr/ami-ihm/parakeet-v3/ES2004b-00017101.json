@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.83,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00017101",
+  "model" : "parakeet-v3",
+  "rtfx" : 36.3330796487002,
+  "text" : "Um, is it okay if I postpone that till later? I just want to get access to a little bit more information. Is that okay?",
+  "track" : "asr",
+  "wallSeconds" : 0.132936708
+}

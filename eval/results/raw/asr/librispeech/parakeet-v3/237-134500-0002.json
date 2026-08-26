@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.07,
+  "dataset" : "librispeech",
+  "id" : "237-134500-0002",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.623225385633674,
+  "text" : "A brisk wind had come up and was driving puffy white clouds across the sky.",
+  "track" : "asr",
+  "wallSeconds" : 0.131268167
+}

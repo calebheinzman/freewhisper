@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5,
+  "dataset" : "librispeech",
+  "id" : "1580-141084-0011",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.45805002057045,
+  "text" : "When we were out in the darkness of the quadrangle, we again looked up at the windows.",
+  "track" : "asr",
+  "wallSeconds" : 0.130011792
+}

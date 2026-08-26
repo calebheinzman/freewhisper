@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.35,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00052105",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.0139284240332636,
+  "text" : "Yeah, design should be, yeah, it should be different. All the, almost all the-- Like trend, you know, like-- --remotes.",
+  "track" : "asr",
+  "wallSeconds" : 4.290243667
+}

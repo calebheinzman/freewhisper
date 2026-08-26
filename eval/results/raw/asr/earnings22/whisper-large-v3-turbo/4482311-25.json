@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.6600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-25",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.245947136314579,
+  "text" : "that is the recycling of our materials,",
+  "track" : "asr",
+  "wallSeconds" : 1.097531917
+}

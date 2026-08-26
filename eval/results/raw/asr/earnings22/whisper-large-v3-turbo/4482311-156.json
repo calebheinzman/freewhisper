@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.52,
+  "dataset" : "earnings22",
+  "id" : "4482311-156",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.009986583914288,
+  "text" : "I'm not forecasting an economic crisis. I don't expect such an economic crisis.",
+  "track" : "asr",
+  "wallSeconds" : 1.376563209
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.33,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00095091",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.1533078472753109,
+  "text" : "- Yeah. - It might have much we're gonna know about it. - Might save up a bit of space. Instead of looking bulky, it might look small. - Yes, yeah. - But it might have a cost implication. - Small.",
+  "track" : "asr",
+  "wallSeconds" : 7.222702958
+}

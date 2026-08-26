@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.63,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00035651",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.00746260068424,
+  "text" : "Please please leave me a space at the bottom, I'm little. I can get to the top. We standing on a chair.",
+  "track" : "asr",
+  "wallSeconds" : 0.137292084
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.49,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00039631",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.6089040087411135,
+  "text" : "be a crocodile. Well, it was in a bastard.",
+  "track" : "asr",
+  "wallSeconds" : 0.757229917
+}

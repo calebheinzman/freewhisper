@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.4200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-5",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.9351462552784353,
+  "text" : "The results are pretty good, as you can see.",
+  "track" : "asr",
+  "wallSeconds" : 2.587897333
+}

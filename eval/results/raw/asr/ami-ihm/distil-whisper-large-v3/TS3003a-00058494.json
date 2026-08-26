@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.03,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00058494",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.137290713524365,
+  "text" : "Well, now we've got another function, we've got the eraser.",
+  "track" : "asr",
+  "wallSeconds" : 0.769374667
+}

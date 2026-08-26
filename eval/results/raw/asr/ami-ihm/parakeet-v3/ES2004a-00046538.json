@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.04,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00046538",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.100498465866806,
+  "text" : "Hopefully that'll stay on. Two handed version. Okay. Okay. Uh",
+  "track" : "asr",
+  "wallSeconds" : 0.12262625
+}

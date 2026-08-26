@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.1,
+  "dataset" : "librispeech",
+  "id" : "4446-2271-0007",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.9323497391662365,
+  "text" : "She doesn't take up with anybody, you know.",
+  "track" : "asr",
+  "wallSeconds" : 2.252373666
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.82,
+  "dataset" : "librispeech",
+  "id" : "4992-41806-0008",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.7794421804159555,
+  "text" : "olive has another lovely gift for the yellow house said mother carrie rising and to carry out the next part of the programme we shall have to go in procession upstairs to my bedroom",
+  "track" : "asr",
+  "wallSeconds" : 4.252651875
+}

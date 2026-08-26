@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.3799375,
+  "dataset" : "earnings22",
+  "id" : "4482249-277",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.84534182821754,
+  "text" : "Yeah, lead times of course are a function of the book-to-bill ratio you could say,",
+  "track" : "asr",
+  "wallSeconds" : 7.547168834
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.78,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00158170",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.906738063670075,
+  "text" : "don't have a TV. They are",
+  "track" : "asr",
+  "wallSeconds" : 1.9630807080000001
+}

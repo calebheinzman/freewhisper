@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.7600625,
+  "dataset" : "earnings22",
+  "id" : "4482249-360",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 0.9627965762251669,
+  "text" : "So I was wondering, can you be more precise in giving us the reason for that?",
+  "track" : "asr",
+  "wallSeconds" : 7.021278084
+}

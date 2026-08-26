@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.61,
+  "dataset" : "librispeech",
+  "id" : "8555-284447-0001",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.438974385819174,
+  "text" : "hold him fast to my men and as soon as i've had my coffee and oatmeal i'll take him to the room of the great knife and patch him",
+  "track" : "asr",
+  "wallSeconds" : 0.912175375
+}

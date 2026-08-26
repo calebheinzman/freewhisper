@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.380125,
+  "dataset" : "earnings22",
+  "id" : "4482311-119",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.694842216953864,
+  "text" : "Hublot continues to grow with several iconic watches, including that with Murakami,",
+  "track" : "asr",
+  "wallSeconds" : 1.471528917
+}

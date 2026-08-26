@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.12,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00057264",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.4963271935697775,
+  "text" : "So it should either be flossed A light should blink",
+  "track" : "asr",
+  "wallSeconds" : 1.178379417
+}

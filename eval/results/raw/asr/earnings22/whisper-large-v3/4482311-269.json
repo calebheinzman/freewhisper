@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.92025,
+  "dataset" : "earnings22",
+  "id" : "4482311-269",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8332721234128695,
+  "text" : "This is more than the growth in revenue, so we can certainly be pleased with that.",
+  "track" : "asr",
+  "wallSeconds" : 2.683862334
+}

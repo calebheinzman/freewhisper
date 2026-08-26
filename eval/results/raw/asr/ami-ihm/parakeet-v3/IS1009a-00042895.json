@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.04,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00042895",
+  "model" : "parakeet-v3",
+  "rtfx" : 52.70885556770011,
+  "text" : "Oh, yeah. Every day. And um",
+  "track" : "asr",
+  "wallSeconds" : 0.11459175
+}

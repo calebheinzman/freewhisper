@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.16,
+  "dataset" : "earnings22",
+  "id" : "4482311-13",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.942414160409242,
+  "text" : "the development of online sales with the pandemic were particularly sustained.",
+  "track" : "asr",
+  "wallSeconds" : 2.433376
+}

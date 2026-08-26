@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.1000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-41",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.188976930937402,
+  "text" : "In Asia Pacific, we also grew over 50 percent, to be specific, 52.3 to 8997 million.",
+  "track" : "asr",
+  "wallSeconds" : 0.772671708
+}

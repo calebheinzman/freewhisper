@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.2,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00183533",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.720013988310935,
+  "text" : "So that remains to be seen. But the target group as a whole is basically everybody with a TV.",
+  "track" : "asr",
+  "wallSeconds" : 0.764924375
+}

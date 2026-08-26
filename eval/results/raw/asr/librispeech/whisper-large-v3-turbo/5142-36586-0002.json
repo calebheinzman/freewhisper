@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.335,
+  "dataset" : "librispeech",
+  "id" : "5142-36586-0002",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.16549707026099,
+  "text" : "the variability of multiple parts.",
+  "track" : "asr",
+  "wallSeconds" : 1.078274375
+}

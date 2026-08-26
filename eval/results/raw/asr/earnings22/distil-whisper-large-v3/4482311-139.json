@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.02,
+  "dataset" : "earnings22",
+  "id" : "4482311-139",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 12.190190698318785,
+  "text" : "and is very good in terms of the current climate, where even during the year 21, a number of stores were closed.",
+  "track" : "asr",
+  "wallSeconds" : 0.821972375
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.84,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00060809",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.630188434932381,
+  "text" : "So I suppose later it depends if we want to undercut the price or is it going to make our product look a cheapy, cheapy option? Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 1.608731917
+}

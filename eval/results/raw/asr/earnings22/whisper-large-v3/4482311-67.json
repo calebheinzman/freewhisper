@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.9400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-67",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.433592852178285,
+  "text" : "Mr. Joe was speaking. We managed to get him to speak during the fashion show.",
+  "track" : "asr",
+  "wallSeconds" : 2.851776333
+}

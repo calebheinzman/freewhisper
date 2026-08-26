@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00200474",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.55085709030463,
+  "text" : "Do we agree on on that in principle like money will tell whether we will be able to do that or not?",
+  "track" : "asr",
+  "wallSeconds" : 0.133330583
+}

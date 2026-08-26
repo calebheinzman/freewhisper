@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "librispeech",
+  "id" : "1089-134686-0027",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.1527083088590193,
+  "text" : "He clasped his hands on the desk and said,",
+  "track" : "asr",
+  "wallSeconds" : 1.2588793329999999
+}

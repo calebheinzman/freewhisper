@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00024394",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.6622384041808733,
+  "text" : "I can't write, it's this thing.",
+  "track" : "asr",
+  "wallSeconds" : 2.280145625
+}

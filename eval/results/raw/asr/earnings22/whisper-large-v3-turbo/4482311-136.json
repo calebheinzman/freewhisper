@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.1001875,
+  "dataset" : "earnings22",
+  "id" : "4482311-136",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.665689705940128,
+  "text" : "it's expected to pick up strongly.",
+  "track" : "asr",
+  "wallSeconds" : 1.093126166
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.92,
+  "dataset" : "librispeech",
+  "id" : "7176-88083-0016",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.476643835553071,
+  "text" : "Straightway the hawk glided from his perch and darted after him.",
+  "track" : "asr",
+  "wallSeconds" : 2.654668584
+}

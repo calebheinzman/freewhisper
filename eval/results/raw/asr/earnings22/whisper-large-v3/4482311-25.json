@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.6600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-25",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.456897720093869,
+  "text" : "that is the recycling of our materials.",
+  "track" : "asr",
+  "wallSeconds" : 1.896726291
+}

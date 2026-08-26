@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.5199375,
+  "dataset" : "earnings22",
+  "id" : "4482311-184",
+  "model" : "parakeet-v3",
+  "rtfx" : 44.1071155666976,
+  "text" : "So uh the uh that gives us a growth of forty four percent compared to twenty twenty.",
+  "track" : "asr",
+  "wallSeconds" : 0.125148458
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.48,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089813",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.2211719447367555,
+  "text" : "Make a don't. Make a don.",
+  "track" : "asr",
+  "wallSeconds" : 0.666314917
+}

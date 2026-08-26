@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.325,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0047",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.197129132126593,
+  "text" : "How kind man is, after all.",
+  "track" : "asr",
+  "wallSeconds" : 0.639776291
+}

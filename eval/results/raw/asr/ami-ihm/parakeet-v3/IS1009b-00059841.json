@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.84,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00059841",
+  "model" : "parakeet-v3",
+  "rtfx" : 25.84557413244621,
+  "text" : "No, it's like uh well yeah you have to plus yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.109883417
+}

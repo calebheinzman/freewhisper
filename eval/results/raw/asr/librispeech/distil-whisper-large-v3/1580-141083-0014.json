@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.855,
+  "dataset" : "librispeech",
+  "id" : "1580-141083-0014",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.335801433030151,
+  "text" : "\"'To the best of my belief, they were rolled up.'",
+  "track" : "asr",
+  "wallSeconds" : 0.855866291
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 13.96,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0045",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 8.56100044062108,
+  "text" : "time enough had he too for his reflections for days and nights passed on and nobody came up and when at last somebody did come it was only to put some great trunks in a corner out of the way",
+  "track" : "asr",
+  "wallSeconds" : 1.630650541
+}

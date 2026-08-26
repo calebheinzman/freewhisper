@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00100079",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.8977264176277684,
+  "text" : "But we'll get to that with you. Yeah, and also text should be very clear so that there won't be any ambiguity. That's right.",
+  "track" : "asr",
+  "wallSeconds" : 1.4136446249999999
+}

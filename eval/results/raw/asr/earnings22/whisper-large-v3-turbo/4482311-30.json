@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-30",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 8.260786503844376,
+  "text" : "Well, we have this life 360 carbon trajectory, and we are pursuing that very actively.",
+  "track" : "asr",
+  "wallSeconds" : 1.246862208
+}

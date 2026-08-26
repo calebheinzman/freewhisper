@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.06,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00043941",
+  "model" : "parakeet-v3",
+  "rtfx" : 67.49845065559313,
+  "text" : "Here is the simple toolbar. It's what I just said, it's save, print, move, back or forward one page. You can switch between the different drawings.",
+  "track" : "asr",
+  "wallSeconds" : 0.149040458
+}

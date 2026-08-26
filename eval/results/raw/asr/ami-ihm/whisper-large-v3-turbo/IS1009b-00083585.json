@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00083585",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.5995175548373455,
+  "text" : "I think it's possible. Yeah, well, that has been eliminated. So that's unfortunately a mute point now.",
+  "track" : "asr",
+  "wallSeconds" : 1.415365834
+}

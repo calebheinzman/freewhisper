@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.88,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00047133",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.778815724915676,
+  "text" : "Is anybody playing with the mouse? But we're going to draw an animal.",
+  "track" : "asr",
+  "wallSeconds" : 0.755899125
+}

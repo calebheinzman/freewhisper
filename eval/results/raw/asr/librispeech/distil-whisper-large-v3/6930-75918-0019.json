@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.6450625,
+  "dataset" : "librispeech",
+  "id" : "6930-75918-0019",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 12.171210759721507,
+  "text" : "upon the large square in front of the hotel the shadows of the tents intersected by the golden moon beams formed as it were a huge mosaic of jet and yellow flagstones",
+  "track" : "asr",
+  "wallSeconds" : 0.956771083
+}

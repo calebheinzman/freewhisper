@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.27,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102313",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.163755854226746,
+  "text" : "Because the clock could be",
+  "track" : "asr",
+  "wallSeconds" : 0.586942375
+}

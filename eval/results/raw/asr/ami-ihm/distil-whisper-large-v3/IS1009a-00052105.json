@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.35,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00052105",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.034753060084715,
+  "text" : "Yeah, design should be, yeah, it should be different. All the, almost all the... Like, trend, you know, like...",
+  "track" : "asr",
+  "wallSeconds" : 0.863994708
+}

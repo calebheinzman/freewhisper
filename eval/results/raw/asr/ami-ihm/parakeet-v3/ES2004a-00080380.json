@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.12,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00080380",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.004379826858695,
+  "text" : "With menus. And with menus. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.105976792
+}

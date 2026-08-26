@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.52,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00088531",
+  "model" : "parakeet-v3",
+  "rtfx" : 46.09223395343411,
+  "text" : "I help with the market. I think we we'll have to look at the budget on that, but I think in principle that that would be that would be kind of fun.",
+  "track" : "asr",
+  "wallSeconds" : 0.1414555
+}

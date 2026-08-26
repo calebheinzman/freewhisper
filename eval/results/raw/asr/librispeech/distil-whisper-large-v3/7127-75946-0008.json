@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.46,
+  "dataset" : "librispeech",
+  "id" : "7127-75946-0008",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.27118259774951,
+  "text" : "Does your majesty then no longer believe the disloyal attempt?",
+  "track" : "asr",
+  "wallSeconds" : 0.711189625
+}

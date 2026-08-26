@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.49,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00009263",
+  "model" : "parakeet-v3",
+  "rtfx" : 55.65982028293079,
+  "text" : "We decided upon a universal control. One handset for all T V video.",
+  "track" : "asr",
+  "wallSeconds" : 0.116601167
+}

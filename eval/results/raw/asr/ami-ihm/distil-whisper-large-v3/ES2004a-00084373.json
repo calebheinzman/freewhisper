@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.85,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00084373",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.734880632753437,
+  "text" : "Yeah, we tackle that. Why, it just needs to be, as long as it's sort of self-intuitive and you can work out.",
+  "track" : "asr",
+  "wallSeconds" : 1.020073542
+}

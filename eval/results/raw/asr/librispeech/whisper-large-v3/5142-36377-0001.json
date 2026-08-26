@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.39,
+  "dataset" : "librispeech",
+  "id" : "5142-36377-0001",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.6297448490180741,
+  "text" : "In five minutes I was in a new world, and my melancholy room was full of the liveliest French company.",
+  "track" : "asr",
+  "wallSeconds" : 3.307266167
+}

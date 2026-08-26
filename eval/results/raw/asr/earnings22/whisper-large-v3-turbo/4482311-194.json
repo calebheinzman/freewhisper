@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.8599375,
+  "dataset" : "earnings22",
+  "id" : "4482311-194",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.026954400927324,
+  "text" : "And so we're looking at 14% compared with 2019.",
+  "track" : "asr",
+  "wallSeconds" : 1.165703333
+}

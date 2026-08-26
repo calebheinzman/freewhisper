@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-19",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.899046214386036,
+  "text" : "71% of women in the group's toesport work for 65 of whom occupy managerial positions.",
+  "track" : "asr",
+  "wallSeconds" : 0.73530675
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 22.285,
+  "dataset" : "librispeech",
+  "id" : "5639-40744-0030",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 15.121020327938421,
+  "text" : "just then leochaedia came to herself and embracing the cross seemed changed into a sea of tears and the gentlemen remaining in utter bewilderment until his wife had repeated to him from beginning to end leokadia's whole story and he believed it through the blessed dispensation of heaven which had confirmed it by so many convincing testimonies",
+  "track" : "asr",
+  "wallSeconds" : 1.4737762079999999
+}

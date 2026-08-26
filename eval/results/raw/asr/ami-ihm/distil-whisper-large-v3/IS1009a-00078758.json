@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.35,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00078758",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.363020995335497,
+  "text" : "Okay, I think I have enough to think about to our next meeting. How about you, people? Yeah, even if you, people?",
+  "track" : "asr",
+  "wallSeconds" : 0.86241775
+}

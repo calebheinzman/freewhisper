@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.1200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-282",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.243156619668753,
+  "text" : "It was -- it used to be at the level of EBITDA. Now it's EBIT at 800 million, so this is remarkable.",
+  "track" : "asr",
+  "wallSeconds" : 1.4608094999999999
+}

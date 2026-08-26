@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.7600625,
+  "dataset" : "earnings22",
+  "id" : "4482249-406",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.465217256973531,
+  "text" : "So roughly two-thirds of our sales revenue of the group are single-use products.",
+  "track" : "asr",
+  "wallSeconds" : 0.714200458
+}

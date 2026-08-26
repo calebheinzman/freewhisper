@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.14,
+  "dataset" : "librispeech",
+  "id" : "1995-1826-0023",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0714840559181527,
+  "text" : "Goobles don't grow on the tops of vines, but on the ground, on the roots, like yams. Is that so?",
+  "track" : "asr",
+  "wallSeconds" : 3.929549917
+}

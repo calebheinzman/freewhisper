@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.380125,
+  "dataset" : "earnings22",
+  "id" : "4482311-50",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.360071652260713,
+  "text" : "Well, fashion and leather goods, as you've seen the figures for that, Jean-Jacques Guini will be discussing those in a moment. Remarkable.",
+  "track" : "asr",
+  "wallSeconds" : 0.905411209
+}

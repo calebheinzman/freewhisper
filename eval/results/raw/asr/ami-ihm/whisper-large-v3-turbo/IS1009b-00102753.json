@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.39,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102753",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.685524043643714,
+  "text" : "- Yeah, you're sitting there on the radio, maybe you have no other--",
+  "track" : "asr",
+  "wallSeconds" : 1.262323459
+}

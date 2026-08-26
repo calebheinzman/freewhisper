@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.78,
+  "dataset" : "earnings22",
+  "id" : "4482249-166",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.000755347181089,
+  "text" : "The very significant increase of the EBTA margin is obvious and has been seen, has to do with economies of scale and deferred cost development as talked about.",
+  "track" : "asr",
+  "wallSeconds" : 3.92567825
+}

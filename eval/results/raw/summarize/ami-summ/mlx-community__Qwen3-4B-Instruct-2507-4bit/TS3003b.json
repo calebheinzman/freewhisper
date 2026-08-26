@@ -1,0 +1,34 @@
+{
+  "dataset" : "ami-summ",
+  "id" : "TS3003b",
+  "inputChars" : 27083,
+  "model" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit",
+  "summary" : {
+    "actionItems" : [
+      "Speaker 1 to document meeting minutes in project folder by end of day"
+    ],
+    "keyPoints" : [
+      "Remote limited to TV function only; no multi-device or internet connectivity.",
+      "Core functions: next\/prev channel, volume up\/down, channel 1–0 toggle, and teletext (essential for hearing-impaired users).",
+      "Simplified interface with only 2–3 essential buttons; no scroll or joystick due to poor usability among elderly users.",
+      "Added features: audio signal (beep) to locate remote and on-screen button help to reduce learning curve.",
+      "Docking station considered but not primary focus; low-cost, durable materials selected for production."
+    ],
+    "speakerNames" : {
+      "Speaker 1" : "Project Manager",
+      "Speaker 2" : "Facilitator",
+      "Speaker 3" : "UI\/UX Lead",
+      "Speaker 4" : "Cost\/Engineering"
+    },
+    "summary" : "The team finalizes a TV-only remote remote with minimal functions: channel navigation, volume, power, and teletext. Design prioritizes simplicity, usability, and affordability, avoiding complex features or multi-device support. Key additions include an audio signal to help locate the remote and on-screen button help for elderly users. A docking station is considered but not prioritized. The remote targets users aged 40 and over, emphasizing functionality over aesthetics and cost control.",
+    "tags" : [
+      "tv remote",
+      "elderly market",
+      "usability",
+      "cost control"
+    ],
+    "title" : "TV Remote Design Decisions for 40+ Market"
+  },
+  "track" : "summarize",
+  "wallSeconds" : 2924.937254
+}

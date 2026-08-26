@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.58,
+  "dataset" : "earnings22",
+  "id" : "4482311-176",
+  "model" : "parakeet-v3",
+  "rtfx" : 43.69555034983533,
+  "text" : "Of course uh this is a recovery from uh last year which uh had suffered uh the pandemic, but uh even from uh the the year before that.",
+  "track" : "asr",
+  "wallSeconds" : 0.219244292
+}

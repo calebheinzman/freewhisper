@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.3399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-237",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.301597036938282,
+  "text" : "So that is, of course, that fashion and leather goods were the main driver.",
+  "track" : "asr",
+  "wallSeconds" : 1.241384875
+}

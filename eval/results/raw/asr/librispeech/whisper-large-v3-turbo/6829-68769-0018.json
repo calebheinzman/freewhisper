@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.11,
+  "dataset" : "librispeech",
+  "id" : "6829-68769-0018",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.174284135333729,
+  "text" : "mr graff said kenneth noticing the boy's face critically as he stood where the light from the passage fell upon it",
+  "track" : "asr",
+  "wallSeconds" : 1.374103125
+}

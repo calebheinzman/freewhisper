@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.58,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00049740",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.9241861413238417,
+  "text" : "That's my dreadful. That's the worst yet.",
+  "track" : "asr",
+  "wallSeconds" : 0.657461167
+}

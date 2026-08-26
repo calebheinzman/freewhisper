@@ -1,0 +1,1207 @@
+{
+  "dataset": "librispeech",
+  "items": [
+    {
+      "audio": "../datasets/librispeech/1089-134686-0012.wav",
+      "durationSeconds": 11.64,
+      "id": "1089-134686-0012",
+      "reference": "her eyes seemed to regard him with mild pity her holiness a strange light glowing faintly upon her frail flesh did not humiliate the sinner who approached her"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134686-0025.wav",
+      "durationSeconds": 6.61,
+      "id": "1089-134686-0025",
+      "reference": "a gentle kick from the tall boy in the bench behind urged stephen to ask a difficult question"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134686-0027.wav",
+      "durationSeconds": 2.71,
+      "id": "1089-134686-0027",
+      "reference": "he clasped his hands on the desk and said"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134686-0037.wav",
+      "durationSeconds": 5.21,
+      "id": "1089-134686-0037",
+      "reference": "in the silence their dark fire kindled the dusk into a tawny glow"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134691-0016.wav",
+      "durationSeconds": 9.06,
+      "id": "1089-134691-0016",
+      "reference": "they were voyaging across the deserts of the sky a host of nomads on the march voyaging high over ireland westward bound"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134691-0018.wav",
+      "durationSeconds": 3.09,
+      "id": "1089-134691-0018",
+      "reference": "again again"
+    },
+    {
+      "audio": "../datasets/librispeech/1188-133604-0008.wav",
+      "durationSeconds": 20.75,
+      "id": "1188-133604-0008",
+      "reference": "for believe me the final philosophy of art can only ratify their opinion that the beauty of a cock robin is to be red and of a grass plot to be green and the best skill of art is in instantly seizing on the manifold deliciousness of light which you can only seize by precision of instantaneous touch"
+    },
+    {
+      "audio": "../datasets/librispeech/1188-133604-0012.wav",
+      "durationSeconds": 14.65,
+      "id": "1188-133604-0012",
+      "reference": "it may be that a great colorist will use his utmost force of color as a singer his full power of voice but loud or low the virtue is in both cases always in refinement never in loudness"
+    },
+    {
+      "audio": "../datasets/librispeech/121-121726-0004.wav",
+      "durationSeconds": 4.02,
+      "id": "121-121726-0004",
+      "reference": "heaven a good place to be raised to"
+    },
+    {
+      "audio": "../datasets/librispeech/121-127105-0003.wav",
+      "durationSeconds": 7.72,
+      "id": "121-127105-0003",
+      "reference": "there was a unanimous groan at this and much reproach after which in his preoccupied way he explained"
+    },
+    {
+      "audio": "../datasets/librispeech/121-127105-0004.wav",
+      "durationSeconds": 2.11,
+      "id": "121-127105-0004",
+      "reference": "the story's written"
+    },
+    {
+      "audio": "../datasets/librispeech/121-127105-0011.wav",
+      "durationSeconds": 5.78,
+      "id": "121-127105-0011",
+      "reference": "she was the most agreeable woman i've ever known in her position she would have been worthy of any whatever"
+    },
+    {
+      "audio": "../datasets/librispeech/121-127105-0014.wav",
+      "durationSeconds": 2.25,
+      "id": "121-127105-0014",
+      "reference": "you are acute"
+    },
+    {
+      "audio": "../datasets/librispeech/121-127105-0017.wav",
+      "durationSeconds": 2.69,
+      "id": "121-127105-0017",
+      "reference": "it was almost the tone of hope everybody will stay"
+    },
+    {
+      "audio": "../datasets/librispeech/121-127105-0022.wav",
+      "durationSeconds": 5.08,
+      "id": "121-127105-0022",
+      "reference": "well if i don't know who she was in love with i know who he was"
+    },
+    {
+      "audio": "../datasets/librispeech/121-127105-0034.wav",
+      "durationSeconds": 7.41,
+      "id": "121-127105-0034",
+      "reference": "it sounded dull it sounded strange and all the more so because of his main condition which was"
+    },
+    {
+      "audio": "../datasets/librispeech/1221-135766-0000.wav",
+      "durationSeconds": 12.44,
+      "id": "1221-135766-0000",
+      "reference": "how strange it seemed to the sad woman as she watched the growth and the beauty that became every day more brilliant and the intelligence that threw its quivering sunshine over the tiny features of this child"
+    },
+    {
+      "audio": "../datasets/librispeech/1221-135766-0005.wav",
+      "durationSeconds": 16.64,
+      "id": "1221-135766-0005",
+      "reference": "hester could only account for the child's character and even then most vaguely and imperfectly by recalling what she herself had been during that momentous period while pearl was imbibing her soul from the spiritual world and her bodily frame from its material of earth"
+    },
+    {
+      "audio": "../datasets/librispeech/1221-135766-0011.wav",
+      "durationSeconds": 21.34,
+      "id": "1221-135766-0011",
+      "reference": "beholding it hester was constrained to rush towards the child to pursue the little elf in the flight which she invariably began to snatch her to her bosom with a close pressure and earnest kisses not so much from overflowing love as to assure herself that pearl was flesh and blood and not utterly delusive"
+    },
+    {
+      "audio": "../datasets/librispeech/1221-135767-0003.wav",
+      "durationSeconds": 18.63,
+      "id": "1221-135767-0003",
+      "reference": "the period was hardly if at all earlier than that of our story when a dispute concerning the right of property in a pig not only caused a fierce and bitter contest in the legislative body of the colony but resulted in an important modification of the framework itself of the legislature"
+    },
+    {
+      "audio": "../datasets/librispeech/1221-135767-0006.wav",
+      "durationSeconds": 20.56,
+      "id": "1221-135767-0006",
+      "reference": "the mother herself as if the red ignominy were so deeply scorched into her brain that all her conceptions assumed its form had carefully wrought out the similitude lavishing many hours of morbid ingenuity to create an analogy between the object of her affection and the emblem of her guilt and torture"
+    },
+    {
+      "audio": "../datasets/librispeech/1221-135767-0012.wav",
+      "durationSeconds": 13.88,
+      "id": "1221-135767-0012",
+      "reference": "they approached the door which was of an arched form and flanked on each side by a narrow tower or projection of the edifice in both of which were lattice windows the wooden shutters to close over them at need"
+    },
+    {
+      "audio": "../datasets/librispeech/1284-1180-0001.wav",
+      "durationSeconds": 7.75,
+      "id": "1284-1180-0001",
+      "reference": "his hat had a peaked crown and a flat brim and around the brim was a row of tiny golden bells that tinkled when he moved"
+    },
+    {
+      "audio": "../datasets/librispeech/1284-1180-0002.wav",
+      "durationSeconds": 7.68,
+      "id": "1284-1180-0002",
+      "reference": "instead of shoes the old man wore boots with turnover tops and his blue coat had wide cuffs of gold braid"
+    },
+    {
+      "audio": "../datasets/librispeech/1284-1180-0011.wav",
+      "durationSeconds": 4.28,
+      "id": "1284-1180-0011",
+      "reference": "i am my dear and all strangers are welcome to my home"
+    },
+    {
+      "audio": "../datasets/librispeech/1320-122612-0011.wav",
+      "durationSeconds": 13.7,
+      "id": "1320-122612-0011",
+      "reference": "if a rock or a rivulet or a bit of earth harder than common severed the links of the clew they followed the true eye of the scout recovered them at a distance and seldom rendered the delay of a single moment necessary"
+    },
+    {
+      "audio": "../datasets/librispeech/1320-122617-0009.wav",
+      "durationSeconds": 7.71,
+      "id": "1320-122617-0009",
+      "reference": "i greatly mourn that one so well disposed should die in his ignorance and i have sought a goodly hymn can you lead me to him"
+    },
+    {
+      "audio": "../datasets/librispeech/1320-122617-0023.wav",
+      "durationSeconds": 7.82,
+      "id": "1320-122617-0023",
+      "reference": "uncas who had already approached the door in readiness to lead the way now recoiled and placed himself once more in the bottom of the lodge"
+    },
+    {
+      "audio": "../datasets/librispeech/1320-122617-0039.wav",
+      "durationSeconds": 7.05,
+      "id": "1320-122617-0039",
+      "reference": "the mohican started on his feet and shook his shaggy covering as though the animal he counterfeited was about to make some desperate effort"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141083-0004.wav",
+      "durationSeconds": 4.51,
+      "id": "1580-141083-0004",
+      "reference": "i had to read it over carefully as the text must be absolutely correct"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141083-0014.wav",
+      "durationSeconds": 2.85,
+      "id": "1580-141083-0014",
+      "reference": "to the best of my belief they were rolled up"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141083-0031.wav",
+      "durationSeconds": 6.25,
+      "id": "1580-141083-0031",
+      "reference": "holmes held out a small chip with the letters n n and a space of clear wood after them you see"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141083-0034.wav",
+      "durationSeconds": 6.99,
+      "id": "1580-141083-0034",
+      "reference": "as holmes drew the curtain i was aware from some little rigidity and alertness of his attitude that he was prepared for an emergency"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141084-0005.wav",
+      "durationSeconds": 2.52,
+      "id": "1580-141084-0005",
+      "reference": "that is very important said holmes"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141084-0007.wav",
+      "durationSeconds": 2.02,
+      "id": "1580-141084-0007",
+      "reference": "to morrow is the examination"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141084-0011.wav",
+      "durationSeconds": 5.0,
+      "id": "1580-141084-0011",
+      "reference": "when we were out in the darkness of the quadrangle we again looked up at the windows"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141084-0025.wav",
+      "durationSeconds": 2.38,
+      "id": "1580-141084-0025",
+      "reference": "you know him i think so"
+    },
+    {
+      "audio": "../datasets/librispeech/1580-141084-0028.wav",
+      "durationSeconds": 2.65,
+      "id": "1580-141084-0028",
+      "reference": "there was no man sir"
+    },
+    {
+      "audio": "../datasets/librispeech/1995-1826-0017.wav",
+      "durationSeconds": 6.14,
+      "id": "1995-1826-0017",
+      "reference": "there might be a bit of poetry here and there but most of this place was such desperate prose"
+    },
+    {
+      "audio": "../datasets/librispeech/1995-1826-0021.wav",
+      "durationSeconds": 11.41,
+      "id": "1995-1826-0021",
+      "reference": "don't know well of all things inwardly commented miss taylor literally born in cotton and oh well as much as to ask what's the use she turned again to go"
+    },
+    {
+      "audio": "../datasets/librispeech/1995-1826-0023.wav",
+      "durationSeconds": 8.14,
+      "id": "1995-1826-0023",
+      "reference": "goobers don't grow on the tops of vines but underground on the roots like yams is that so"
+    },
+    {
+      "audio": "../datasets/librispeech/1995-1826-0024.wav",
+      "durationSeconds": 5.09,
+      "id": "1995-1826-0024",
+      "reference": "the golden fleece it's the silver fleece he harkened"
+    },
+    {
+      "audio": "../datasets/librispeech/1995-1836-0004.wav",
+      "durationSeconds": 33.91,
+      "id": "1995-1836-0004",
+      "reference": "as she awaited her guests she surveyed the table with both satisfaction and disquietude for her social functions were few tonight there were she checked them off on her fingers sir james creighton the rich english manufacturer and lady creighton mister and missus vanderpool mister harry cresswell and his sister john taylor and his sister and mister charles smith whom the evening papers mentioned as likely to be united states senator from new jersey a selection of guests that had been determined unknown to the hostess by the meeting of cotton interests earlier in the day"
+    },
+    {
+      "audio": "../datasets/librispeech/1995-1836-0010.wav",
+      "durationSeconds": 24.45,
+      "id": "1995-1836-0010",
+      "reference": "the vanderpools were sure of this and the englishman instancing india became quite eloquent missus grey was mystified but hardly dared admit it the general trend of the conversation seemed to be that most individuals needed to be submitted to the sharpest scrutiny before being allowed much education and as for the lower races it was simply criminal to open such useless opportunities to them"
+    },
+    {
+      "audio": "../datasets/librispeech/2094-142345-0055.wav",
+      "durationSeconds": 2.65,
+      "id": "2094-142345-0055",
+      "reference": "but you know more about that than i do sir"
+    },
+    {
+      "audio": "../datasets/librispeech/2094-142345-0060.wav",
+      "durationSeconds": 2.71,
+      "id": "2094-142345-0060",
+      "reference": "oh i've no doubt it's in capital order"
+    },
+    {
+      "audio": "../datasets/librispeech/2300-131720-0000.wav",
+      "durationSeconds": 5.08,
+      "id": "2300-131720-0000",
+      "reference": "the paris plant like that at the crystal palace was a temporary exhibit"
+    },
+    {
+      "audio": "../datasets/librispeech/2300-131720-0009.wav",
+      "durationSeconds": 9.61,
+      "id": "2300-131720-0009",
+      "reference": "for some years it was not found feasible to operate motors on alternating current circuits and that reason was often urged against it seriously"
+    },
+    {
+      "audio": "../datasets/librispeech/2300-131720-0011.wav",
+      "durationSeconds": 15.88,
+      "id": "2300-131720-0011",
+      "reference": "but when it came to be a question of lighting a scattered suburb a group of dwellings on the outskirts a remote country residence or a farm house the alternating current in all elements save its danger was and is ideal"
+    },
+    {
+      "audio": "../datasets/librispeech/2300-131720-0014.wav",
+      "durationSeconds": 3.75,
+      "id": "2300-131720-0014",
+      "reference": "mister edison was a leader far ahead of the time"
+    },
+    {
+      "audio": "../datasets/librispeech/2300-131720-0020.wav",
+      "durationSeconds": 10.35,
+      "id": "2300-131720-0020",
+      "reference": "it was specially suited for a trial plant also in the early days when a yield of six or eight lamps to the horse power was considered subject for congratulation"
+    },
+    {
+      "audio": "../datasets/librispeech/2300-131720-0038.wav",
+      "durationSeconds": 5.61,
+      "id": "2300-131720-0038",
+      "reference": "he felt he was up against it and that perhaps another kind of a job would suit him better"
+    },
+    {
+      "audio": "../datasets/librispeech/237-126133-0018.wav",
+      "durationSeconds": 4.09,
+      "id": "237-126133-0018",
+      "reference": "don't mind it polly whispered jasper twasn't her fault"
+    },
+    {
+      "audio": "../datasets/librispeech/237-134500-0002.wav",
+      "durationSeconds": 5.07,
+      "id": "237-134500-0002",
+      "reference": "a brisk wind had come up and was driving puffy white clouds across the sky"
+    },
+    {
+      "audio": "../datasets/librispeech/237-134500-0010.wav",
+      "durationSeconds": 4.0,
+      "id": "237-134500-0010",
+      "reference": "it's exciting to see everything growing so fast and to get the grass cut"
+    },
+    {
+      "audio": "../datasets/librispeech/237-134500-0035.wav",
+      "durationSeconds": 2.56,
+      "id": "237-134500-0035",
+      "reference": "and you never used to be cross to me"
+    },
+    {
+      "audio": "../datasets/librispeech/260-123286-0026.wav",
+      "durationSeconds": 6.94,
+      "id": "260-123286-0026",
+      "reference": "two monsters only were creating all this commotion and before my eyes are two reptiles of the primitive world"
+    },
+    {
+      "audio": "../datasets/librispeech/260-123288-0001.wav",
+      "durationSeconds": 5.08,
+      "id": "260-123288-0001",
+      "reference": "the weather if we may use that term will change before long"
+    },
+    {
+      "audio": "../datasets/librispeech/260-123288-0004.wav",
+      "durationSeconds": 4.31,
+      "id": "260-123288-0004",
+      "reference": "the air is heavy the sea is calm"
+    },
+    {
+      "audio": "../datasets/librispeech/260-123288-0026.wav",
+      "durationSeconds": 16.04,
+      "id": "260-123288-0026",
+      "reference": "we shall be blown up but no the dazzling disk of mysterious light nimbly leaps aside it approaches hans who fixes his blue eye upon it steadily it threatens the head of my uncle who falls upon his knees with his head down to avoid it"
+    },
+    {
+      "audio": "../datasets/librispeech/260-123440-0003.wav",
+      "durationSeconds": 3.58,
+      "id": "260-123440-0003",
+      "reference": "oh won't she be savage if i've kept her waiting"
+    },
+    {
+      "audio": "../datasets/librispeech/260-123440-0009.wav",
+      "durationSeconds": 3.12,
+      "id": "260-123440-0009",
+      "reference": "i shall never get to twenty at that rate"
+    },
+    {
+      "audio": "../datasets/librispeech/260-123440-0015.wav",
+      "durationSeconds": 6.2,
+      "id": "260-123440-0015",
+      "reference": "i wish i hadn't cried so much said alice as she swam about trying to find her way out"
+    },
+    {
+      "audio": "../datasets/librispeech/260-123440-0019.wav",
+      "durationSeconds": 6.63,
+      "id": "260-123440-0019",
+      "reference": "cried alice again for this time the mouse was bristling all over and she felt certain it must be really offended"
+    },
+    {
+      "audio": "../datasets/librispeech/2830-3979-0000.wav",
+      "durationSeconds": 6.12,
+      "id": "2830-3979-0000",
+      "reference": "we want you to help us publish some leading work of luther's for the general american market will you do it"
+    },
+    {
+      "audio": "../datasets/librispeech/2830-3980-0008.wav",
+      "durationSeconds": 4.84,
+      "id": "2830-3980-0008",
+      "reference": "paul takes pride in his ministry not to his own praise but to the praise of god"
+    },
+    {
+      "audio": "../datasets/librispeech/2830-3980-0065.wav",
+      "durationSeconds": 6.51,
+      "id": "2830-3980-0065",
+      "reference": "paul answers the man who is named jesus christ and the son of god gave himself for our sins"
+    },
+    {
+      "audio": "../datasets/librispeech/2830-3980-0074.wav",
+      "durationSeconds": 5.7,
+      "id": "2830-3980-0074",
+      "reference": "this attitude is universal and particularly developed in those who consider themselves better than others"
+    },
+    {
+      "audio": "../datasets/librispeech/2961-960-0006.wav",
+      "durationSeconds": 15.72,
+      "id": "2961-960-0006",
+      "reference": "the fancies of the neo platonists are only interesting to us because they exhibit a phase of the human mind which prevailed widely in the first centuries of the christian era and is not wholly extinct in our own day"
+    },
+    {
+      "audio": "../datasets/librispeech/2961-960-0015.wav",
+      "durationSeconds": 7.83,
+      "id": "2961-960-0015",
+      "reference": "the style and plan of the timaeus differ greatly from that of any other of the platonic dialogues"
+    },
+    {
+      "audio": "../datasets/librispeech/2961-961-0011.wav",
+      "durationSeconds": 7.82,
+      "id": "2961-961-0011",
+      "reference": "the genealogies which you have recited to us out of your own annals solon are a mere children's story"
+    },
+    {
+      "audio": "../datasets/librispeech/2961-961-0020.wav",
+      "durationSeconds": 6.12,
+      "id": "2961-961-0020",
+      "reference": "this is the explanation of the shallows which are found in that part of the atlantic ocean"
+    },
+    {
+      "audio": "../datasets/librispeech/3570-5695-0014.wav",
+      "durationSeconds": 10.54,
+      "id": "3570-5695-0014",
+      "reference": "among the country population its place is to some extent taken by savings and home comforts known through the medium of neighborhood gossip sufficiently to serve the like general purpose of pecuniary repute"
+    },
+    {
+      "audio": "../datasets/librispeech/3570-5696-0007.wav",
+      "durationSeconds": 9.5,
+      "id": "3570-5696-0007",
+      "reference": "the use of the word waste as a technical term therefore implies no deprecation of the motives or of the ends sought by the consumer under this canon of conspicuous waste"
+    },
+    {
+      "audio": "../datasets/librispeech/3570-5696-0008.wav",
+      "durationSeconds": 7.26,
+      "id": "3570-5696-0008",
+      "reference": "but it is on other grounds worth noting that the term waste in the language of everyday life implies deprecation of what is characterized as wasteful"
+    },
+    {
+      "audio": "../datasets/librispeech/3570-5696-0010.wav",
+      "durationSeconds": 7.57,
+      "id": "3570-5696-0010",
+      "reference": "an article may be useful and wasteful both and its utility to the consumer may be made up of use and waste in the most varying proportions"
+    },
+    {
+      "audio": "../datasets/librispeech/3575-170457-0003.wav",
+      "durationSeconds": 7.59,
+      "id": "3575-170457-0003",
+      "reference": "surely it must be because we are in danger of loving each other too well of losing sight of the creator in idolatry of the creature"
+    },
+    {
+      "audio": "../datasets/librispeech/3575-170457-0040.wav",
+      "durationSeconds": 6.91,
+      "id": "3575-170457-0040",
+      "reference": "indeed there were only one or two strangers who could be admitted among the sisters without producing the same result"
+    },
+    {
+      "audio": "../datasets/librispeech/3729-6852-0005.wav",
+      "durationSeconds": 18.54,
+      "id": "3729-6852-0005",
+      "reference": "silvia was the adoration of france and her talent was the real support of all the comedies which the greatest authors wrote for her especially of the plays of marivaux for without her his comedies would never have gone to posterity"
+    },
+    {
+      "audio": "../datasets/librispeech/3729-6852-0046.wav",
+      "durationSeconds": 12.61,
+      "id": "3729-6852-0046",
+      "reference": "his housekeeper had the management of everything she never allowed him to be in need of anything and she gave no account of his money which she kept altogether because he never asked her to render any accounts"
+    },
+    {
+      "audio": "../datasets/librispeech/4077-13751-0007.wav",
+      "durationSeconds": 17.22,
+      "id": "4077-13751-0007",
+      "reference": "the book of mormon had taught the people the true origin and destiny of the american indians and toward this dark skinned remnant of a once mighty people the missionaries of mormonism early turned their eyes and with their eyes went their hearts and their hopes"
+    },
+    {
+      "audio": "../datasets/librispeech/4077-13751-0014.wav",
+      "durationSeconds": 12.61,
+      "id": "4077-13751-0014",
+      "reference": "making their way across the river most of the refugees found shelter among the more hospitable people of clay county and afterward established themselves in caldwell county therein founding the city of far west"
+    },
+    {
+      "audio": "../datasets/librispeech/4077-13751-0019.wav",
+      "durationSeconds": 2.92,
+      "id": "4077-13751-0019",
+      "reference": "who began the quarrel was it the mormons"
+    },
+    {
+      "audio": "../datasets/librispeech/4077-13754-0014.wav",
+      "durationSeconds": 10.97,
+      "id": "4077-13754-0014",
+      "reference": "the people contested these measures one by one in the courts presenting in case after case the different phases of the subject and urging the unconstitutionality of the measure"
+    },
+    {
+      "audio": "../datasets/librispeech/4446-2271-0007.wav",
+      "durationSeconds": 2.1,
+      "id": "4446-2271-0007",
+      "reference": "she doesn't take up with anybody you know"
+    },
+    {
+      "audio": "../datasets/librispeech/4446-2273-0010.wav",
+      "durationSeconds": 12.44,
+      "id": "4446-2273-0010",
+      "reference": "there was watercress soup and sole and a delightful omelette stuffed with mushrooms and truffles and two small rare ducklings and artichokes and a dry yellow rhone wine of which bartley had always been very fond"
+    },
+    {
+      "audio": "../datasets/librispeech/4446-2273-0016.wav",
+      "durationSeconds": 9.64,
+      "id": "4446-2273-0016",
+      "reference": "her hair is still like flax and her blue eyes are just like a baby's and she has the same three freckles on her little nose and talks about going back to her bains de mer"
+    },
+    {
+      "audio": "../datasets/librispeech/4446-2273-0029.wav",
+      "durationSeconds": 3.3,
+      "id": "4446-2273-0029",
+      "reference": "it's really too warm in this room to sing don't you feel it"
+    },
+    {
+      "audio": "../datasets/librispeech/4446-2273-0036.wav",
+      "durationSeconds": 3.12,
+      "id": "4446-2273-0036",
+      "reference": "alexander unclenched the two hands at his sides"
+    },
+    {
+      "audio": "../datasets/librispeech/4446-2275-0010.wav",
+      "durationSeconds": 3.73,
+      "id": "4446-2275-0010",
+      "reference": "alexander leaned forward and warmed his hands before the blaze"
+    },
+    {
+      "audio": "../datasets/librispeech/4446-2275-0012.wav",
+      "durationSeconds": 6.03,
+      "id": "4446-2275-0012",
+      "reference": "she looked at his heavy shoulders and big determined head thrust forward like a catapult in leash"
+    },
+    {
+      "audio": "../datasets/librispeech/4446-2275-0030.wav",
+      "durationSeconds": 2.67,
+      "id": "4446-2275-0030",
+      "reference": "yes hilda i know that he said simply"
+    },
+    {
+      "audio": "../datasets/librispeech/4507-16021-0016.wav",
+      "durationSeconds": 17.27,
+      "id": "4507-16021-0016",
+      "reference": "can one imagine a naturalist refusing to study the viper the bat the scorpion the centipede the tarantula and one who would cast them back into their darkness saying oh how ugly that is"
+    },
+    {
+      "audio": "../datasets/librispeech/4507-16021-0049.wav",
+      "durationSeconds": 5.91,
+      "id": "4507-16021-0049",
+      "reference": "there is hardly one day out of a hundred which is wholly joyous and sunny"
+    },
+    {
+      "audio": "../datasets/librispeech/4507-16021-0053.wav",
+      "durationSeconds": 8.1,
+      "id": "4507-16021-0053",
+      "reference": "to diminish the number of the shady to augment the number of the luminous that is the object"
+    },
+    {
+      "audio": "../datasets/librispeech/4970-29095-0004.wav",
+      "durationSeconds": 9.61,
+      "id": "4970-29095-0004",
+      "reference": "i heard father tell cousin abner that he was whipped so often for whistling when he was a boy that he was determined to have what compensation he could get now"
+    },
+    {
+      "audio": "../datasets/librispeech/4970-29095-0007.wav",
+      "durationSeconds": 14.81,
+      "id": "4970-29095-0007",
+      "reference": "i have not asked him ruth replied with a look that might imply that she was one of those determined little bodies who first made up her own mind and then compelled others to make up theirs in accordance with hers"
+    },
+    {
+      "audio": "../datasets/librispeech/4970-29095-0022.wav",
+      "durationSeconds": 4.76,
+      "id": "4970-29095-0022",
+      "reference": "is thee going to the yearly meeting ruth asked one of the girls"
+    },
+    {
+      "audio": "../datasets/librispeech/4970-29095-0024.wav",
+      "durationSeconds": 6.04,
+      "id": "4970-29095-0024",
+      "reference": "it has occupied mother a long time to find at the shops the exact shade for her new bonnet"
+    },
+    {
+      "audio": "../datasets/librispeech/4970-29095-0032.wav",
+      "durationSeconds": 6.61,
+      "id": "4970-29095-0032",
+      "reference": "but philip is honest and he has talent enough if he will stop scribbling to make his way"
+    },
+    {
+      "audio": "../datasets/librispeech/4992-23283-0004.wav",
+      "durationSeconds": 8.06,
+      "id": "4992-23283-0004",
+      "reference": "and yet you must own her behaviour has warranted them has it not been in this particular incoherent and unaccountable"
+    },
+    {
+      "audio": "../datasets/librispeech/4992-23283-0018.wav",
+      "durationSeconds": 6.58,
+      "id": "4992-23283-0018",
+      "reference": "to relieve her from both he laid his hand with force upon his heart and said do you believe me"
+    },
+    {
+      "audio": "../datasets/librispeech/4992-41797-0000.wav",
+      "durationSeconds": 5.49,
+      "id": "4992-41797-0000",
+      "reference": "yes dead these four years an a good job for her too"
+    },
+    {
+      "audio": "../datasets/librispeech/4992-41806-0008.wav",
+      "durationSeconds": 11.82,
+      "id": "4992-41806-0008",
+      "reference": "olive has another lovely gift for the yellow house said mother carey rising and to carry out the next part of the programme we shall have to go in procession upstairs to my bedroom"
+    },
+    {
+      "audio": "../datasets/librispeech/4992-41806-0016.wav",
+      "durationSeconds": 15.76,
+      "id": "4992-41806-0016",
+      "reference": "the face of the mahogany shone with delight and why not when it was doing everything almost everything within the scope of a piano and yet the family had enjoyed weeks of good nourishing meals on what had been saved by its exertions"
+    },
+    {
+      "audio": "../datasets/librispeech/5105-28240-0004.wav",
+      "durationSeconds": 6.01,
+      "id": "5105-28240-0004",
+      "reference": "if the count were on board a strange fatality was bringing him to the presence of his rival"
+    },
+    {
+      "audio": "../datasets/librispeech/5105-28240-0012.wav",
+      "durationSeconds": 4.73,
+      "id": "5105-28240-0012",
+      "reference": "never mind now interposed the captain we will talk of that by and by"
+    },
+    {
+      "audio": "../datasets/librispeech/5105-28240-0024.wav",
+      "durationSeconds": 8.2,
+      "id": "5105-28240-0024",
+      "reference": "doubts now arose and some discussion followed whether or not it was desirable for ben zoof to accompany his master"
+    },
+    {
+      "audio": "../datasets/librispeech/5142-33396-0011.wav",
+      "durationSeconds": 3.52,
+      "id": "5142-33396-0011",
+      "reference": "there she sat on the rollers as fair a ship as i ever saw"
+    },
+    {
+      "audio": "../datasets/librispeech/5142-33396-0031.wav",
+      "durationSeconds": 7.84,
+      "id": "5142-33396-0031",
+      "reference": "they set up a crane over the fire and hung the pot upon it and we sat and watched it boil while we joked at last the supper began"
+    },
+    {
+      "audio": "../datasets/librispeech/5142-33396-0052.wav",
+      "durationSeconds": 5.88,
+      "id": "5142-33396-0052",
+      "reference": "here is a ring for sif the friendly and here is a bracelet a sword would not be ashamed to hang at your side"
+    },
+    {
+      "audio": "../datasets/librispeech/5142-33396-0059.wav",
+      "durationSeconds": 5.47,
+      "id": "5142-33396-0059",
+      "reference": "yes and with all your fingers it took you a year to catch me the king frowned more angrily"
+    },
+    {
+      "audio": "../datasets/librispeech/5142-33396-0063.wav",
+      "durationSeconds": 2.52,
+      "id": "5142-33396-0063",
+      "reference": "and would he not be a good gift for our baby"
+    },
+    {
+      "audio": "../datasets/librispeech/5142-36377-0001.wav",
+      "durationSeconds": 5.39,
+      "id": "5142-36377-0001",
+      "reference": "in five minutes i was in a new world and my melancholy room was full of the liveliest french company"
+    },
+    {
+      "audio": "../datasets/librispeech/5142-36377-0008.wav",
+      "durationSeconds": 15.43,
+      "id": "5142-36377-0008",
+      "reference": "mister meadowcroft the elder having not spoken one word thus far himself introduced the newcomer to me with a side glance at his sons which had something like defiance in it a glance which as i was sorry to notice was returned with the defiance on their side by the two young men"
+    },
+    {
+      "audio": "../datasets/librispeech/5142-36586-0002.wav",
+      "durationSeconds": 2.33,
+      "id": "5142-36586-0002",
+      "reference": "the variability of multiple parts"
+    },
+    {
+      "audio": "../datasets/librispeech/5639-40744-0015.wav",
+      "durationSeconds": 11.02,
+      "id": "5639-40744-0015",
+      "reference": "this person was rodolfo who though he had gone to look for his friends had changed his mind in that respect not thinking it advisable to acquaint them with what had passed between him and the girl"
+    },
+    {
+      "audio": "../datasets/librispeech/5639-40744-0028.wav",
+      "durationSeconds": 12.25,
+      "id": "5639-40744-0028",
+      "reference": "i have great things to tell you senor said dona estafania to her husband the cream and substance of which is this the fainting girl before you is your daughter and that boy is your grandson"
+    },
+    {
+      "audio": "../datasets/librispeech/5639-40744-0030.wav",
+      "durationSeconds": 22.29,
+      "id": "5639-40744-0030",
+      "reference": "just then leocadia came to herself and embracing the cross seemed changed into a sea of tears and the gentleman remained in utter bewilderment until his wife had repeated to him from beginning to end leocadia's whole story and he believed it through the blessed dispensation of heaven which had confirmed it by so many convincing testimonies"
+    },
+    {
+      "audio": "../datasets/librispeech/5639-40744-0040.wav",
+      "durationSeconds": 12.51,
+      "id": "5639-40744-0040",
+      "reference": "this was done for the event took place at a time when the consent of the parties was sufficient for the celebration of a marriage without any of the preliminary formalities which are now so properly required"
+    },
+    {
+      "audio": "../datasets/librispeech/5683-32866-0001.wav",
+      "durationSeconds": 3.47,
+      "id": "5683-32866-0001",
+      "reference": "and he added something still less complimentary"
+    },
+    {
+      "audio": "../datasets/librispeech/5683-32866-0004.wav",
+      "durationSeconds": 9.22,
+      "id": "5683-32866-0004",
+      "reference": "by this time lord chelford and wylder returned and disgusted rather with myself i ruminated on my want of general ship"
+    },
+    {
+      "audio": "../datasets/librispeech/5683-32866-0005.wav",
+      "durationSeconds": 4.59,
+      "id": "5683-32866-0005",
+      "reference": "and he made a little dip of his cane towards brandon hall over his shoulder"
+    },
+    {
+      "audio": "../datasets/librispeech/5683-32866-0006.wav",
+      "durationSeconds": 4.21,
+      "id": "5683-32866-0006",
+      "reference": "yes so they said but that would i think have been worse"
+    },
+    {
+      "audio": "../datasets/librispeech/5683-32866-0010.wav",
+      "durationSeconds": 15.03,
+      "id": "5683-32866-0010",
+      "reference": "well you know radie women like wicked fellows it is contrast i suppose but they do and i'm sure from what bracton has said to me i know him intimately that dorcas likes him and i can't conceive why they are not married"
+    },
+    {
+      "audio": "../datasets/librispeech/5683-32866-0024.wav",
+      "durationSeconds": 9.86,
+      "id": "5683-32866-0024",
+      "reference": "i shan't trouble you about my train of thoughts or fancies but i began to feel very like a gentleman in a ghost story watching experimentally in a haunted chamber"
+    },
+    {
+      "audio": "../datasets/librispeech/5683-32879-0016.wav",
+      "durationSeconds": 10.19,
+      "id": "5683-32879-0016",
+      "reference": "and the wan oracle having spoken she sate down in the same sort of abstraction again beside dorcas and she looked full in her cousin's eyes"
+    },
+    {
+      "audio": "../datasets/librispeech/61-70968-0011.wav",
+      "durationSeconds": 6.38,
+      "id": "61-70968-0011",
+      "reference": "he gave way to the others very readily and retreated unperceived by the squire and mistress fitzooth to the rear of the tent"
+    },
+    {
+      "audio": "../datasets/librispeech/61-70968-0024.wav",
+      "durationSeconds": 6.03,
+      "id": "61-70968-0024",
+      "reference": "spoke the squire losing all patience and it was to you that i gave another purse in consolation"
+    },
+    {
+      "audio": "../datasets/librispeech/61-70970-0015.wav",
+      "durationSeconds": 8.41,
+      "id": "61-70970-0015",
+      "reference": "will cried he softly and stuteley who had chosen his couch across the door of his young master's chamber sprang up at once in answer"
+    },
+    {
+      "audio": "../datasets/librispeech/61-70970-0024.wav",
+      "durationSeconds": 7.24,
+      "id": "61-70970-0024",
+      "reference": "they moved thereafter cautiously about the hut groping before and about them to find something to show that warrenton had fulfilled his mission"
+    },
+    {
+      "audio": "../datasets/librispeech/61-70970-0037.wav",
+      "durationSeconds": 5.98,
+      "id": "61-70970-0037",
+      "reference": "his tones rang pleasantly on warrenton's ears and forthwith a good fellowship was heralded between them"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0003.wav",
+      "durationSeconds": 4.76,
+      "id": "672-122797-0003",
+      "reference": "but this was what the tree could not bear to hear"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0014.wav",
+      "durationSeconds": 2.56,
+      "id": "672-122797-0014",
+      "reference": "were i but already on the cart"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0016.wav",
+      "durationSeconds": 9.21,
+      "id": "672-122797-0016",
+      "reference": "yes then something better something still grander will surely follow or wherefore should they thus ornament me"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0045.wav",
+      "durationSeconds": 13.96,
+      "id": "672-122797-0045",
+      "reference": "time enough had he too for his reflections for days and nights passed on and nobody came up and when at last somebody did come it was only to put some great trunks in a corner out of the way"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0047.wav",
+      "durationSeconds": 3.33,
+      "id": "672-122797-0047",
+      "reference": "how kind man is after all"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0051.wav",
+      "durationSeconds": 4.67,
+      "id": "672-122797-0051",
+      "reference": "i am by no means old said the fir tree"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0064.wav",
+      "durationSeconds": 15.27,
+      "id": "672-122797-0064",
+      "reference": "at last the little mice stayed away also and the tree sighed after all it was very pleasant when the sleek little mice sat round me and listened to what i told them"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0067.wav",
+      "durationSeconds": 13.04,
+      "id": "672-122797-0067",
+      "reference": "the trunks were moved the tree was pulled out and thrown rather hard it is true down on the floor but a man drew him towards the stairs where the daylight shone"
+    },
+    {
+      "audio": "../datasets/librispeech/672-122797-0068.wav",
+      "durationSeconds": 4.02,
+      "id": "672-122797-0068",
+      "reference": "but it was not the fir tree that they meant"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68769-0002.wav",
+      "durationSeconds": 3.08,
+      "id": "6829-68769-0002",
+      "reference": "i can't see it in that light said the old lawyer"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68769-0008.wav",
+      "durationSeconds": 4.74,
+      "id": "6829-68769-0008",
+      "reference": "fairview was twelve miles away but by ten o'clock they drew up at the county jail"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68769-0018.wav",
+      "durationSeconds": 7.11,
+      "id": "6829-68769-0018",
+      "reference": "miss de graf said kenneth noticing the boy's face critically as he stood where the light from the passage fell upon it"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68769-0023.wav",
+      "durationSeconds": 4.89,
+      "id": "6829-68769-0023",
+      "reference": "i didn't stop to think whether it was foolish or not i did it and i'm glad i did"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68769-0038.wav",
+      "durationSeconds": 2.5,
+      "id": "6829-68769-0038",
+      "reference": "and it ruins a man's disposition"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68771-0014.wav",
+      "durationSeconds": 4.77,
+      "id": "6829-68771-0014",
+      "reference": "we ought to have more attendants beth said louise approaching her cousin"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68771-0020.wav",
+      "durationSeconds": 4.62,
+      "id": "6829-68771-0020",
+      "reference": "then she gave a little laugh and replied no miss beth i'm elizabeth parsons"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68771-0021.wav",
+      "durationSeconds": 2.61,
+      "id": "6829-68771-0021",
+      "reference": "but it can't be protested the girl"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68771-0022.wav",
+      "durationSeconds": 3.8,
+      "id": "6829-68771-0022",
+      "reference": "i attend to the household mending you know and care for the linen"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68771-0033.wav",
+      "durationSeconds": 5.45,
+      "id": "6829-68771-0033",
+      "reference": "she rose quickly to her feet with an impetuous gesture that made her visitor catch her breath"
+    },
+    {
+      "audio": "../datasets/librispeech/6829-68771-0035.wav",
+      "durationSeconds": 4.39,
+      "id": "6829-68771-0035",
+      "reference": "will you leave me alone in my own room or must i go away to escape you"
+    },
+    {
+      "audio": "../datasets/librispeech/6930-75918-0013.wav",
+      "durationSeconds": 2.94,
+      "id": "6930-75918-0013",
+      "reference": "in those very terms i even added more"
+    },
+    {
+      "audio": "../datasets/librispeech/6930-75918-0019.wav",
+      "durationSeconds": 11.65,
+      "id": "6930-75918-0019",
+      "reference": "upon the large square in front of the hotel the shadows of the tents intersected by the golden moonbeams formed as it were a huge mosaic of jet and yellow flagstones"
+    },
+    {
+      "audio": "../datasets/librispeech/6930-76324-0020.wav",
+      "durationSeconds": 6.32,
+      "id": "6930-76324-0020",
+      "reference": "yet little as it was it had already made a vast difference in the aspect of the room"
+    },
+    {
+      "audio": "../datasets/librispeech/6930-81414-0011.wav",
+      "durationSeconds": 4.7,
+      "id": "6930-81414-0011",
+      "reference": "a feeling of freedom and i was awake where"
+    },
+    {
+      "audio": "../datasets/librispeech/6930-81414-0020.wav",
+      "durationSeconds": 5.0,
+      "id": "6930-81414-0020",
+      "reference": "i say you do know what this means and you must tell us"
+    },
+    {
+      "audio": "../datasets/librispeech/7021-79740-0001.wav",
+      "durationSeconds": 6.0,
+      "id": "7021-79740-0001",
+      "reference": "della had a young sister named maria and a cousin whose name was jane"
+    },
+    {
+      "audio": "../datasets/librispeech/7021-79740-0006.wav",
+      "durationSeconds": 5.96,
+      "id": "7021-79740-0006",
+      "reference": "i expect you have been a very good girl andella since you were here last"
+    },
+    {
+      "audio": "../datasets/librispeech/7021-79759-0002.wav",
+      "durationSeconds": 5.25,
+      "id": "7021-79759-0002",
+      "reference": "they are chiefly formed from combinations of the impressions made in childhood"
+    },
+    {
+      "audio": "../datasets/librispeech/7021-85628-0027.wav",
+      "durationSeconds": 8.5,
+      "id": "7021-85628-0027",
+      "reference": "if you dressed in silk and gold from top to toe you could not look any nicer than in your little red cap"
+    },
+    {
+      "audio": "../datasets/librispeech/7127-75946-0008.wav",
+      "durationSeconds": 4.46,
+      "id": "7127-75946-0008",
+      "reference": "does your majesty then no longer believe the disloyal attempt"
+    },
+    {
+      "audio": "../datasets/librispeech/7127-75946-0018.wav",
+      "durationSeconds": 9.14,
+      "id": "7127-75946-0018",
+      "reference": "there was something in his carriage which resembled the buoyant movements of an immortal and he did not dance so much as seem to soar along"
+    },
+    {
+      "audio": "../datasets/librispeech/7176-88083-0007.wav",
+      "durationSeconds": 14.3,
+      "id": "7176-88083-0007",
+      "reference": "but such was his keenness that even while the wide flukes of his engorged victim were still sticking out at the corners of his beak his fierce red eyes were once more peering downward into the torrent in search of fresh prey"
+    },
+    {
+      "audio": "../datasets/librispeech/7176-88083-0016.wav",
+      "durationSeconds": 3.92,
+      "id": "7176-88083-0016",
+      "reference": "straightway the hawk glided from his perch and darted after him"
+    },
+    {
+      "audio": "../datasets/librispeech/7176-88083-0023.wav",
+      "durationSeconds": 9.64,
+      "id": "7176-88083-0023",
+      "reference": "he had a lot of line out and the place was none too free for a long cast but he was impatient to drop his flies again on the spot where the big fish was feeding"
+    },
+    {
+      "audio": "../datasets/librispeech/7176-92135-0010.wav",
+      "durationSeconds": 2.16,
+      "id": "7176-92135-0010",
+      "reference": "ham to be or not to be"
+    },
+    {
+      "audio": "../datasets/librispeech/7176-92135-0026.wav",
+      "durationSeconds": 2.95,
+      "id": "7176-92135-0026",
+      "reference": "enter hamlet with his favourite boar hound"
+    },
+    {
+      "audio": "../datasets/librispeech/7729-102255-0002.wav",
+      "durationSeconds": 8.3,
+      "id": "7729-102255-0002",
+      "reference": "that summer's emigration however being mainly from the free states greatly changed the relative strength of the two parties"
+    },
+    {
+      "audio": "../datasets/librispeech/7729-102255-0009.wav",
+      "durationSeconds": 18.56,
+      "id": "7729-102255-0009",
+      "reference": "all dissent all non compliance all hesitation all mere silence even were in their stronghold towns like leavenworth branded as abolitionism declared to be hostility to the public welfare and punished with proscription personal violence expulsion and frequently death"
+    },
+    {
+      "audio": "../datasets/librispeech/7729-102255-0010.wav",
+      "durationSeconds": 8.54,
+      "id": "7729-102255-0010",
+      "reference": "of the lynchings the mobs and the murders it would be impossible except in a very extended work to note the frequent and atrocious details"
+    },
+    {
+      "audio": "../datasets/librispeech/7729-102255-0014.wav",
+      "durationSeconds": 5.29,
+      "id": "7729-102255-0014",
+      "reference": "the leaders of the conspiracy became distrustful of their power to crush the town"
+    },
+    {
+      "audio": "../datasets/librispeech/7729-102255-0019.wav",
+      "durationSeconds": 8.93,
+      "id": "7729-102255-0019",
+      "reference": "to embarrass this damaging exposure judge lecompte issued a writ against the ex governor on a frivolous charge of contempt"
+    },
+    {
+      "audio": "../datasets/librispeech/7729-102255-0042.wav",
+      "durationSeconds": 9.22,
+      "id": "7729-102255-0042",
+      "reference": "relocated footnote governor robinson being on his way east the steamboat on which he was traveling stopped at lexington missouri"
+    },
+    {
+      "audio": "../datasets/librispeech/8224-274381-0004.wav",
+      "durationSeconds": 21.25,
+      "id": "8224-274381-0004",
+      "reference": "five hundred men more who had been levied by the covenanters were persuaded to embrace the royal cause and with this combined force he hastened to attack lord elcho who lay at perth with an army of six thousand men assembled upon the first news of the irish invasion"
+    },
+    {
+      "audio": "../datasets/librispeech/8224-274381-0008.wav",
+      "durationSeconds": 20.98,
+      "id": "8224-274381-0008",
+      "reference": "with these and some reenforcements of the atholemen and macdonalds whom he had recalled montrose fell suddenly upon argyle's country and let loose upon it all the rage of war carrying off the cattle burning the houses and putting the inhabitants to the sword"
+    },
+    {
+      "audio": "../datasets/librispeech/8224-274381-0014.wav",
+      "durationSeconds": 17.88,
+      "id": "8224-274381-0014",
+      "reference": "besides members of parliament who were excluded many officers unwilling to serve under the new generals threw up their commissions and unwarily facilitated the project of putting the army entirely into the hands of that faction"
+    },
+    {
+      "audio": "../datasets/librispeech/8224-274384-0002.wav",
+      "durationSeconds": 9.81,
+      "id": "8224-274384-0002",
+      "reference": "they informed the english parliament of this unexpected incident and assured them that they had entered into no private treaty with the king"
+    },
+    {
+      "audio": "../datasets/librispeech/8224-274384-0007.wav",
+      "durationSeconds": 6.23,
+      "id": "8224-274384-0007",
+      "reference": "have mercy lord on me i pray for men would me devour"
+    },
+    {
+      "audio": "../datasets/librispeech/8230-279154-0007.wav",
+      "durationSeconds": 15.9,
+      "id": "8230-279154-0007",
+      "reference": "habit is a concept involving the occurrence of similar events at different times if the behaviourist feels confident that there is such a phenomenon as habit that can only be because he trusts his memory when it assures him that there have been other times"
+    },
+    {
+      "audio": "../datasets/librispeech/8230-279154-0013.wav",
+      "durationSeconds": 14.56,
+      "id": "8230-279154-0013",
+      "reference": "in an image of a well known face for example some parts may feel more familiar than others when this happens we have more belief in the accuracy of the familiar parts than in that of the unfamiliar parts"
+    },
+    {
+      "audio": "../datasets/librispeech/8230-279154-0021.wav",
+      "durationSeconds": 6.56,
+      "id": "8230-279154-0021",
+      "reference": "remembering has to be a present occurrence in some way resembling or related to what is remembered"
+    },
+    {
+      "audio": "../datasets/librispeech/8230-279154-0029.wav",
+      "durationSeconds": 8.54,
+      "id": "8230-279154-0029",
+      "reference": "the fact that a man can recite a poem does not show that he remembers any previous occasion on which he has recited or read it"
+    },
+    {
+      "audio": "../datasets/librispeech/8455-210777-0038.wav",
+      "durationSeconds": 10.03,
+      "id": "8455-210777-0038",
+      "reference": "therefore i feel myself quite able as president of this republic to receive you with a courtesy due to the servants of a friendly ally"
+    },
+    {
+      "audio": "../datasets/librispeech/8455-210777-0049.wav",
+      "durationSeconds": 4.11,
+      "id": "8455-210777-0049",
+      "reference": "lieutenant crosstrees is a very gallant officer"
+    },
+    {
+      "audio": "../datasets/librispeech/8455-210777-0069.wav",
+      "durationSeconds": 8.91,
+      "id": "8455-210777-0069",
+      "reference": "if you will give us your promise to meet captain battleax here at this time to morrow we will stretch a point and delay the departure of the john bright for twenty four hours"
+    },
+    {
+      "audio": "../datasets/librispeech/8463-294825-0016.wav",
+      "durationSeconds": 4.47,
+      "id": "8463-294825-0016",
+      "reference": "milligram roughly one twenty eight thousand of an ounce"
+    },
+    {
+      "audio": "../datasets/librispeech/8463-294828-0005.wav",
+      "durationSeconds": 2.44,
+      "id": "8463-294828-0005",
+      "reference": "conseil was my manservant"
+    },
+    {
+      "audio": "../datasets/librispeech/8463-294828-0009.wav",
+      "durationSeconds": 4.17,
+      "id": "8463-294828-0009",
+      "reference": "not once did he comment on the length or the hardships of a journey"
+    },
+    {
+      "audio": "../datasets/librispeech/8463-294828-0029.wav",
+      "durationSeconds": 5.29,
+      "id": "8463-294828-0029",
+      "reference": "our baggage was immediately carried to the deck of the frigate i rushed aboard"
+    },
+    {
+      "audio": "../datasets/librispeech/8555-284447-0001.wav",
+      "durationSeconds": 8.61,
+      "id": "8555-284447-0001",
+      "reference": "hold him fast my men and as soon as i've had my coffee and oatmeal i'll take him to the room of the great knife and patch him"
+    },
+    {
+      "audio": "../datasets/librispeech/8555-284447-0019.wav",
+      "durationSeconds": 10.28,
+      "id": "8555-284447-0019",
+      "reference": "before any could stop him he butted his majesty so furiously that the king soared far into the air and tumbled in a heap among the benches where he lay moaning and groaning"
+    },
+    {
+      "audio": "../datasets/librispeech/8555-284449-0006.wav",
+      "durationSeconds": 3.92,
+      "id": "8555-284449-0006",
+      "reference": "don't worry sizzle dear it'll all come right pretty soon"
+    },
+    {
+      "audio": "../datasets/librispeech/8555-284449-0018.wav",
+      "durationSeconds": 7.03,
+      "id": "8555-284449-0018",
+      "reference": "so ghip ghisizzle ordered the captain to take a file of soldiers and escort the raving beauties to their new home"
+    },
+    {
+      "audio": "../datasets/librispeech/8555-292519-0001.wav",
+      "durationSeconds": 20.82,
+      "id": "8555-292519-0001",
+      "reference": "guided by you how we might stroll towards death our only music one another's breath through gardens intimate with hollyhocks where silent poppies burn between the rocks by pools where birches bend to confidants above green waters scummed with lily plants"
+    },
+    {
+      "audio": "../datasets/librispeech/8555-292519-0012.wav",
+      "durationSeconds": 5.17,
+      "id": "8555-292519-0012",
+      "reference": "through the black night rain he sang to her window bars"
+    },
+    {
+      "audio": "../datasets/librispeech/908-157963-0023.wav",
+      "durationSeconds": 9.62,
+      "id": "908-157963-0023",
+      "reference": "the helpless worm arose and sat upon the lillys leaf and the bright cloud saild on to find his partner in the vale"
+    },
+    {
+      "audio": "../datasets/librispeech/908-157963-0027.wav",
+      "durationSeconds": 5.22,
+      "id": "908-157963-0027",
+      "reference": "and lay me down in thy cold bed and leave my shining lot"
+    },
+    {
+      "audio": "../datasets/librispeech/908-31957-0002.wav",
+      "durationSeconds": 4.79,
+      "id": "908-31957-0002",
+      "reference": "i did not wrong myself so but i placed a wrong on thee"
+    },
+    {
+      "audio": "../datasets/librispeech/908-31957-0008.wav",
+      "durationSeconds": 10.01,
+      "id": "908-31957-0008",
+      "reference": "nay i rather thrilled distrusting every light that seemed to gild the onward path and feared to overlean a finger even"
+    }
+  ],
+  "profile": "fast",
+  "track": "asr"
+}

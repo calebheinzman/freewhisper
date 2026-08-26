@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.25,
+  "dataset" : "librispeech",
+  "id" : "7021-79759-0002",
+  "model" : "parakeet-v3",
+  "rtfx" : 43.435574581127796,
+  "text" : "They are chiefly formed from combinations of the impressions made in childhood.",
+  "track" : "asr",
+  "wallSeconds" : 0.120868667
+}

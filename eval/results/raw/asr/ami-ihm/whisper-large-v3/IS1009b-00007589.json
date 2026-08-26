@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.14,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00007589",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.5526402347707242,
+  "text" : "Okay, you want me to start right now?",
+  "track" : "asr",
+  "wallSeconds" : 2.062824833
+}

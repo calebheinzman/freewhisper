@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.3001875,
+  "dataset" : "earnings22",
+  "id" : "4482311-227",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0934373362975105,
+  "text" : "And even then, even then, we're looking at travel retail as Mr.",
+  "track" : "asr",
+  "wallSeconds" : 2.531810916
+}

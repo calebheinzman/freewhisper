@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.92,
+  "dataset" : "librispeech",
+  "id" : "8555-284449-0006",
+  "model" : "parakeet-v3",
+  "rtfx" : 30.464505843099992,
+  "text" : "Don't worry, Sizzle, dear. It'll all come right pretty soon.",
+  "track" : "asr",
+  "wallSeconds" : 0.128674334
+}

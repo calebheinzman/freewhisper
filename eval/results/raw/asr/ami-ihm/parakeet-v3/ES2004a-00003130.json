@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.09,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00003130",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.640183027267398,
+  "text" : "Right. Both of them. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.101258792
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-56",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.336664652965391,
+  "text" : "It was far more than a fashion show",
+  "track" : "asr",
+  "wallSeconds" : 2.034962542
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.9400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-67",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.445714615459696,
+  "text" : "Mr. Joe was speaking. We managed to get him to speak during the fashion show.",
+  "track" : "asr",
+  "wallSeconds" : 0.734731334
+}

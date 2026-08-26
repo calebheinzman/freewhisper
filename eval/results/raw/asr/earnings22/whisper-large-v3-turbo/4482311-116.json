@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.14,
+  "dataset" : "earnings22",
+  "id" : "4482311-116",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.157078676554906,
+  "text" : "It's the watch that I'm wearing here, the Carrera Porsche.",
+  "track" : "asr",
+  "wallSeconds" : 1.3113388750000001
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 13.695,
+  "dataset" : "librispeech",
+  "id" : "1320-122612-0011",
+  "model" : "parakeet-v3",
+  "rtfx" : 66.86681139421208,
+  "text" : "If a rock or a rivulet or a bit of earth harder than common severed the links of the clue they followed, the true eye of the scout recovered them at a distance, and seldom rendered the delay of a single moment necessary.",
+  "track" : "asr",
+  "wallSeconds" : 0.204810125
+}

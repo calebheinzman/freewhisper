@@ -1,0 +1,14 @@
+{
+  "dataset" : "ami-ihm",
+  "failureCount" : 0,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 400,
+  "model" : "whisper-large-v3",
+  "modelLoadSeconds" : 4.39227425,
+  "totalWallSeconds" : 2312.549284584,
+  "track" : "asr"
+}

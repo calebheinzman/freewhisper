@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.25,
+  "dataset" : "librispeech",
+  "id" : "7021-79759-0002",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.066838472070062,
+  "text" : "They are chiefly formed from combinations of the impressions made in childhood.",
+  "track" : "asr",
+  "wallSeconds" : 2.540111417
+}

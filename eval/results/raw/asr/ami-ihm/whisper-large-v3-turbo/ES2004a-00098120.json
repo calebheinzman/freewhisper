@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.31,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00098120",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.382441724661305,
+  "text" : "I think that's probably about it. And then we'll come back and liaise again. And I get to do another fantastic PowerPoint presentation.",
+  "track" : "asr",
+  "wallSeconds" : 1.543908959
+}

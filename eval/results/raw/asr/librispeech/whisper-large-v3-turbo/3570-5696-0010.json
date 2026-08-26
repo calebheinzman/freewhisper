@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.57,
+  "dataset" : "librispeech",
+  "id" : "3570-5696-0010",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.880899655522802,
+  "text" : "An article may be useful and wasteful both, and its utility to the consumer may be made up of use and waste in the most varying proportions.",
+  "track" : "asr",
+  "wallSeconds" : 1.550943583
+}

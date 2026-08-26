@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.29,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00010788",
+  "model" : "parakeet-v3",
+  "rtfx" : 65.1182537362563,
+  "text" : "Very good. And as you already know, I'm Betty, I'm the project manager for today. So why don't we look at the presentation to see what we really are supposed to do?",
+  "track" : "asr",
+  "wallSeconds" : 0.158020208
+}

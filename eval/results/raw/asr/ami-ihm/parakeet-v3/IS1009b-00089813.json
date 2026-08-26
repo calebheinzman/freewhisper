@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.48,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089813",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.979119107963498,
+  "text" : "Like the door",
+  "track" : "asr",
+  "wallSeconds" : 0.098804208
+}

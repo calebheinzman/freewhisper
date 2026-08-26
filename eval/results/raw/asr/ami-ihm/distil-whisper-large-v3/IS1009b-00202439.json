@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00202439",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.0142206340821005,
+  "text" : "And we'll see you want to look.",
+  "track" : "asr",
+  "wallSeconds" : 0.625277041
+}

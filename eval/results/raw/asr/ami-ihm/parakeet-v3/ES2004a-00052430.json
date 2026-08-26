@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.32,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00052430",
+  "model" : "parakeet-v3",
+  "rtfx" : 33.059790858712226,
+  "text" : "Yeah. Are they? Eagle. Oh right, okay. I'm not good at golf.",
+  "track" : "asr",
+  "wallSeconds" : 0.130672333
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.7,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00099496",
+  "model" : "parakeet-v3",
+  "rtfx" : 16.717782926964183,
+  "text" : "Yeah, just a blank shape.",
+  "track" : "asr",
+  "wallSeconds" : 0.101688125
+}

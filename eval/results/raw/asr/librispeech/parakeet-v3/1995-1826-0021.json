@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.41,
+  "dataset" : "librispeech",
+  "id" : "1995-1826-0021",
+  "model" : "parakeet-v3",
+  "rtfx" : 63.49486075323836,
+  "text" : "Don't know. Well, of all things, inwardly commented Miss Taylor. Literally born in cotton. And oh well as much as to ask, what's the use? She turned again to go.",
+  "track" : "asr",
+  "wallSeconds" : 0.179699583
+}

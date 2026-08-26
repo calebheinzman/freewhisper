@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.14,
+  "dataset" : "librispeech",
+  "id" : "1995-1826-0023",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.425894229129683,
+  "text" : "Goobas don't grow on the topsy vines, but on the ground, on the roots, like yams. Is that so?",
+  "track" : "asr",
+  "wallSeconds" : 1.500213542
+}

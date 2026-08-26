@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.1200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-99",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 12.821063708994927,
+  "text" : "and many perfumed successes with its oat perfumery, l'ar and the material aqua allegoria.",
+  "track" : "asr",
+  "wallSeconds" : 0.789330958
+}

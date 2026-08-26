@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.725,
+  "dataset" : "librispeech",
+  "id" : "2961-960-0006",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.164269785907953,
+  "text" : "the fancies of the neoplatenists are only interesting to us because they exhibit a phase of the human mind which prevailed widely in the first centuries of the christian era and is not wholly extinct in our own day",
+  "track" : "asr",
+  "wallSeconds" : 1.19452125
+}

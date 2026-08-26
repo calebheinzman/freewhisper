@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.9,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00005495",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.290305717914035,
+  "text" : "Okay. Everybody ready? I think so. I think the first thing we do is introduce ourselves.",
+  "track" : "asr",
+  "wallSeconds" : 1.375193375
+}

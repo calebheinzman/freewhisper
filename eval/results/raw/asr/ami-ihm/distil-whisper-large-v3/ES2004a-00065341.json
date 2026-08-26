@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.99,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00065341",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.1266333664291928,
+  "text" : "Big target group. Yes, yes.",
+  "track" : "asr",
+  "wallSeconds" : 0.636467333
+}

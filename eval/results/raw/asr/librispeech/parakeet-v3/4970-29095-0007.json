@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 14.81,
+  "dataset" : "librispeech",
+  "id" : "4970-29095-0007",
+  "model" : "parakeet-v3",
+  "rtfx" : 83.72576842843172,
+  "text" : "I have not asked him, Ruth replied, with a look that might imply that she was one of those determined little bodies, who first made up her own mind, and then compelled others to make up theirs, in accordance with hers.",
+  "track" : "asr",
+  "wallSeconds" : 0.176887
+}

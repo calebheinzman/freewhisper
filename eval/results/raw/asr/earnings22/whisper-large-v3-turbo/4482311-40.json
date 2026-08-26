@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.380125,
+  "dataset" : "earnings22",
+  "id" : "4482311-40",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.2647055089424293,
+  "text" : "It's absolutely extraordinary.",
+  "track" : "asr",
+  "wallSeconds" : 1.050964459
+}

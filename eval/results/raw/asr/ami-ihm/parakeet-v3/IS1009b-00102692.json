@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.58,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102692",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.53752215471934,
+  "text" : "Yeah you're sitting there already or maybe you have no other uh",
+  "track" : "asr",
+  "wallSeconds" : 0.12201125
+}

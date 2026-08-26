@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.760125,
+  "dataset" : "earnings22",
+  "id" : "4482311-43",
+  "model" : "parakeet-v3",
+  "rtfx" : 25.833254362966525,
+  "text" : "We hope to be able to organise that next year.",
+  "track" : "asr",
+  "wallSeconds" : 0.106843875
+}

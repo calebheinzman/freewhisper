@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.320125,
+  "dataset" : "earnings22",
+  "id" : "4482249-266",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.707071560721435,
+  "text" : "that we said we do see this different ordering pattern and this will change again and that we have seen.",
+  "track" : "asr",
+  "wallSeconds" : 3.073478042
+}

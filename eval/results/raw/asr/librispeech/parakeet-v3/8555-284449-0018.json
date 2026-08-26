@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.03,
+  "dataset" : "librispeech",
+  "id" : "8555-284449-0018",
+  "model" : "parakeet-v3",
+  "rtfx" : 33.96734206756264,
+  "text" : "So Gipge Sizzle ordered the captain to take a file of soldiers and escort the raving beauties to their new home.",
+  "track" : "asr",
+  "wallSeconds" : 0.2069635
+}

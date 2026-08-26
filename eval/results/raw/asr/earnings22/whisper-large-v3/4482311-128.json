@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.78,
+  "dataset" : "earnings22",
+  "id" : "4482311-128",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.228721565124986,
+  "text" : "there was the DfE workshop",
+  "track" : "asr",
+  "wallSeconds" : 2.262514209
+}

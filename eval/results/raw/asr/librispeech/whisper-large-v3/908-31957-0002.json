@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.79,
+  "dataset" : "librispeech",
+  "id" : "908-31957-0002",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.020247391735143,
+  "text" : "i did not wrong myself so but i placed a wrong on thee",
+  "track" : "asr",
+  "wallSeconds" : 2.3709967499999998
+}

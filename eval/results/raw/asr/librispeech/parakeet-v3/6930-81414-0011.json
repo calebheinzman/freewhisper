@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.7,
+  "dataset" : "librispeech",
+  "id" : "6930-81414-0011",
+  "model" : "parakeet-v3",
+  "rtfx" : 40.536286444924556,
+  "text" : "a feeling of freedom, and I was awake. Where?",
+  "track" : "asr",
+  "wallSeconds" : 0.1159455
+}

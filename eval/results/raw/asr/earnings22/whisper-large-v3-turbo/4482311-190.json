@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.56,
+  "dataset" : "earnings22",
+  "id" : "4482311-190",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.03233280225702,
+  "text" : "but in Q3 and 4, the situation had normalized, and yet compared with that, we are 24 percent up, which is quite significant.",
+  "track" : "asr",
+  "wallSeconds" : 1.5016354170000001
+}

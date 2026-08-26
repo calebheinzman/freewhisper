@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.16,
+  "dataset" : "earnings22",
+  "id" : "4482311-272",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.664969802129495,
+  "text" : "perfumes as cosmetics up to back to the 2019 level. Why?",
+  "track" : "asr",
+  "wallSeconds" : 0.734337542
+}

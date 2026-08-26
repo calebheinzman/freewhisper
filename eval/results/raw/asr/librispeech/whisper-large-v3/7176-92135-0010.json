@@ -1,0 +1,8 @@
+{
+  "dataset" : "librispeech",
+  "error" : "engineFailed(engine: \"WhisperKit\", reason: \"Timeout occurred while computing the asynchronous prediction using ML Program.\")",
+  "id" : "7176-92135-0010",
+  "model" : "whisper-large-v3",
+  "track" : "asr",
+  "wallSeconds" : 0
+}

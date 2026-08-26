@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.11,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00122342",
+  "model" : "parakeet-v3",
+  "rtfx" : 21.068152117170555,
+  "text" : "Maybe you have to just clap it down.",
+  "track" : "asr",
+  "wallSeconds" : 0.100151166
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.4200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-231",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.87914249148563,
+  "text" : "But of course, challenges remain at DFS, and you know all about that.",
+  "track" : "asr",
+  "wallSeconds" : 1.315817792
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.67,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00003704",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.9713684622064362,
+  "text" : "Oh, right, okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.672312334
+}

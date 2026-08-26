@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.3,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00046515",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.13227492254374054,
+  "text" : "Small, right. Mm-hm. Mm-hm. Those.",
+  "track" : "asr",
+  "wallSeconds" : 9.828015582999999
+}

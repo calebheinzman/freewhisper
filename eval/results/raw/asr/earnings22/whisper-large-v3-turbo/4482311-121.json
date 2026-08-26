@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.8000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-121",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 8.210519268110424,
+  "text" : "But that company is rebounding with a great team and is offering products that are extremely attractive and interesting.",
+  "track" : "asr",
+  "wallSeconds" : 1.437188333
+}

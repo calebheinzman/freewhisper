@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.67,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00102232",
+  "model" : "parakeet-v3",
+  "rtfx" : 18.076755918971234,
+  "text" : "I would yeah, probably.",
+  "track" : "asr",
+  "wallSeconds" : 0.092383833
+}

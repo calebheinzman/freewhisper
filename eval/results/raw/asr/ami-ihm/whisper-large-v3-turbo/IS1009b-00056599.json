@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.81,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00056599",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.095556846768083,
+  "text" : "Who would be next? I guess that would be you. Yeah. You want me to get your slideshow up?",
+  "track" : "asr",
+  "wallSeconds" : 1.445315042
+}

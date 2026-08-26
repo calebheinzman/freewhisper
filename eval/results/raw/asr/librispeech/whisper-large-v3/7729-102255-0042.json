@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.225,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0042",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.5488951307733162,
+  "text" : "Re. Governor Robinson, being on his way east, the steam-boat on which he was travelling stopped at Lexington, Missouri.",
+  "track" : "asr",
+  "wallSeconds" : 16.806489041
+}

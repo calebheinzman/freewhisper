@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.83,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00035999",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0217371629400143,
+  "text" : "I hope the kitty cat is hungry because I don't like snakes.",
+  "track" : "asr",
+  "wallSeconds" : 2.389034583
+}

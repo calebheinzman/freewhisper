@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.68,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00036725",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2427503110406586,
+  "text" : "Here's a project finance, which of course we all have to think about when we design this thing. Selling price is supposed to be 25 euro.",
+  "track" : "asr",
+  "wallSeconds" : 3.870248042
+}

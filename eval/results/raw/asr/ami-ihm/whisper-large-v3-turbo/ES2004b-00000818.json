@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.62,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00000818",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.4891885775662317,
+  "text" : "It's up there.",
+  "track" : "asr",
+  "wallSeconds" : 1.052551833
+}

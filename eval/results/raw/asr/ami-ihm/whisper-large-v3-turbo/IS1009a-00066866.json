@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.33,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00066866",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.423566608821023,
+  "text" : "- And then those people, we can't help everybody. - Well, if we're like on top of your bookcase and you usually kept it on the coffee table, you know, we have to move along.",
+  "track" : "asr",
+  "wallSeconds" : 1.763817625
+}

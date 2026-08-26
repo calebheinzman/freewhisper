@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.26,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00100934",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.53436892282345,
+  "text" : "Well, I was going to draw a cat too, so...",
+  "track" : "asr",
+  "wallSeconds" : 0.831956042
+}

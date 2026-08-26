@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-185",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.5779502937806758,
+  "text" : "Now, it's more significant if you move back to 2019.",
+  "track" : "asr",
+  "wallSeconds" : 1.249078583
+}

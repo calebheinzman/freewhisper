@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.31,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00061351",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.62067341413908,
+  "text" : "- Yeah, production costs at 12:50, so.",
+  "track" : "asr",
+  "wallSeconds" : 1.190386292
+}

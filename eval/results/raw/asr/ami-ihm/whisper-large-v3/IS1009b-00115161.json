@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.12,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00115161",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.5911199011789817,
+  "text" : "Well, you don't have to.",
+  "track" : "asr",
+  "wallSeconds" : 1.894708667
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.32,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00052430",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.9097545035881933,
+  "text" : "Yeah. Are they? Eagle. Oh, right. Okay. I'm not good at golf.",
+  "track" : "asr",
+  "wallSeconds" : 1.484661333
+}

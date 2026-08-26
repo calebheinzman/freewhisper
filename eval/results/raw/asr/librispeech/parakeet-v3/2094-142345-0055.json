@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.655,
+  "dataset" : "librispeech",
+  "id" : "2094-142345-0055",
+  "model" : "parakeet-v3",
+  "rtfx" : 27.565227322279554,
+  "text" : "But you know more about that than I do, sir.",
+  "track" : "asr",
+  "wallSeconds" : 0.096317
+}

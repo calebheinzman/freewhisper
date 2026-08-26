@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.02,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00097292",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.718208445173048,
+  "text" : "Right, okay, we've got half an hour before the next meeting, so we're all going to go",
+  "track" : "asr",
+  "wallSeconds" : 1.487852875
+}

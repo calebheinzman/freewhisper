@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.64,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00048877",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.2202597144764176,
+  "text" : "It's not a vampire bat, honestly. LAUGHTER",
+  "track" : "asr",
+  "wallSeconds" : 1.189050084
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.335,
+  "dataset" : "librispeech",
+  "id" : "5142-36586-0002",
+  "model" : "parakeet-v3",
+  "rtfx" : 12.79276222658799,
+  "text" : "the variability of multiple parts,",
+  "track" : "asr",
+  "wallSeconds" : 0.182525084
+}

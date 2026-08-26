@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.79,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00034799",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.20286449386757108,
+  "text" : "I'm going to draw a snake.",
+  "track" : "asr",
+  "wallSeconds" : 8.823623917
+}

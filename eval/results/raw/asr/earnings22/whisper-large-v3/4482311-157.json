@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.92,
+  "dataset" : "earnings22",
+  "id" : "4482311-157",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9139116514272272,
+  "text" : "We've just gone through two very challenging years.",
+  "track" : "asr",
+  "wallSeconds" : 2.048161417
+}

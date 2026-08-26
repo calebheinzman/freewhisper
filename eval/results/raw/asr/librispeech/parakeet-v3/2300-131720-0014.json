@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.75,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0014",
+  "model" : "parakeet-v3",
+  "rtfx" : 33.84591084987082,
+  "text" : "mister Edison was a leader far ahead of the time.",
+  "track" : "asr",
+  "wallSeconds" : 0.11079625
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.05,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00143608",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.682818502753552,
+  "text" : "So you have different types of remotes with different light source, which I use, which can be used for controlling the different functionalities of a television.",
+  "track" : "asr",
+  "wallSeconds" : 0.847154709
+}

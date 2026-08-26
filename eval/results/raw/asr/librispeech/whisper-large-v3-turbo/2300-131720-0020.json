@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.35,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0020",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.7263441043347285,
+  "text" : "It was specially suited for a trial plant also. In the early days, when a yield of six or eight laps to the horsepower was considered subject for congratulation,",
+  "track" : "asr",
+  "wallSeconds" : 1.538725917
+}

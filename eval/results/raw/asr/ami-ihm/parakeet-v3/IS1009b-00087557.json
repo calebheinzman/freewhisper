@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.1,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00087557",
+  "model" : "parakeet-v3",
+  "rtfx" : 48.67036237408626,
+  "text" : "Do you think there's any chance of um having so uh having basically the same machine with the same buttons but maybe several different shapes?",
+  "track" : "asr",
+  "wallSeconds" : 0.145879333
+}

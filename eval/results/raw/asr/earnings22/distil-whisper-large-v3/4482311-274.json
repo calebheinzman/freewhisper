@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-274",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.149957680148534,
+  "text" : "So these brands did extremely well in 2020.",
+  "track" : "asr",
+  "wallSeconds" : 0.625146334
+}

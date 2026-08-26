@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.515,
+  "dataset" : "librispeech",
+  "id" : "2830-3980-0065",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.485344909671045,
+  "text" : "Paul answers, The man who is named Jesus Christ and the Son of God gave himself for our sins.",
+  "track" : "asr",
+  "wallSeconds" : 0.870367375
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.8,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00016519",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.786706997665573,
+  "text" : "So maybe you want to make some notes of that.",
+  "track" : "asr",
+  "wallSeconds" : 0.645923666
+}

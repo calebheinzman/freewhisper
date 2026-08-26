@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.88,
+  "dataset" : "librispeech",
+  "id" : "5142-33396-0052",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7191202804730001,
+  "text" : "here is a ring for sifte friendly and here is a bracelet and a sword would not be ashamed to hang at your side",
+  "track" : "asr",
+  "wallSeconds" : 3.420354042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.26,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00031119",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.242110351879667,
+  "text" : "I'm a very fat cat. And it likes to sit like that. Okay. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.785534875
+}

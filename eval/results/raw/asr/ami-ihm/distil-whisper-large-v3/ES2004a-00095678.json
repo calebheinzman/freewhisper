@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.82,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00095678",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.823933194417233,
+  "text" : "Yeah. But it might have his cost.",
+  "track" : "asr",
+  "wallSeconds" : 0.644491167
+}

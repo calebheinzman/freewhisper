@@ -1,0 +1,115 @@
+{
+  "dataset": "qmsum",
+  "items": [
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [],
+        "speakerNames": {
+          "Speaker 1": null,
+          "Speaker 2": "Barry Hughes",
+          "Speaker 3": null,
+          "Speaker 4": "Dawn Bowden AM",
+          "Speaker 5": "Suzy Davies AM",
+          "Speaker 6": "Vikki Howells AM",
+          "Speaker 7": "Janet Finch-Saunders AM"
+        },
+        "summary": "This meeting was the eleventh evidence session on the Children Abolition of Defense of Reasonable Publishment Wales Bill. Barry Hughes was there to answer questions related to the Bill. Six main topics that had been discussed or explained. The first one was how the Bill protected the children in terms of prosecutions. The second part explained the divergence between regions and the Bill's implication on England. The third part explained how the law was implemented, and the fourth talked about prosecutions and potential alternatives. Barry Hughes then further explained our-of-court disposals and responded to a specific infrastructure for these cases. In the last part, the meeting turned to discuss a number of unintended consequences related to the Bill.",
+        "topics": [
+          "Efficacy of the law",
+          "Divergence between the law in England and Wales",
+          "Implementation of the law",
+          "Prosecutions and potential alternatives",
+          "Out-of-court disposals",
+          "Unintended consequences"
+        ]
+      },
+      "id": "qmsum-000",
+      "transcript": "../datasets/qmsum/qmsum-000.transcript.json"
+    },
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [],
+        "speakerNames": {
+          "Speaker 1": "User Interface",
+          "Speaker 2": null,
+          "Speaker 3": "Project Manager",
+          "Speaker 4": null
+        },
+        "summary": "This is the fourth meeting of the design group. The group firstly introduced a prototype which contained the characteristics determined at the last meeting. Then Project Manager pointed out that since the production costs were over budget, they should reduce costs by leaving out solar cells, not using voice recognition and changing the button material into plastics. Then the group went through the evaluation criteria of the product. They thought the remote control should be fancy, innovative, easy to use, easy to find and spongy and evaluated the prototype with these criteria. When evaluating the project, the group considered that it was tempered by the choice of components and the price. Eventually, the group decided to redesign the product.",
+        "topics": [
+          "Introduction of a prototype",
+          "Evaluation criteria of remote control",
+          "Production costs of the product",
+          "Evaluation of the project"
+        ]
+      },
+      "id": "qmsum-001",
+      "transcript": "../datasets/qmsum/qmsum-001.transcript.json"
+    },
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [],
+        "speakerNames": {
+          "Speaker 1": null,
+          "Speaker 2": "Project Manager",
+          "Speaker 3": null,
+          "Speaker 4": "User Interface"
+        },
+        "summary": "The meeting started by discussing the functional design of the remote control. Marketing gave the study on user needs and target groups. User Interface gave the presentation on technical effect design and Industrial Designer gave the presentation on working design. Then Project Manager initiated new project requirements brainstorming. The group had agreed on the on-call button design, DVD capability button design, power button design, and denied speech recognition design as well as mouse pad design. They would further discuss the function switch button and its compatibility in the next meeting.",
+        "topics": [
+          "Functional design on the remote control",
+          "New project requirement on remote control function"
+        ]
+      },
+      "id": "qmsum-002",
+      "transcript": "../datasets/qmsum/qmsum-002.transcript.json"
+    },
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [],
+        "speakerNames": {
+          "Speaker 1": "Grad A",
+          "Speaker 2": null,
+          "Speaker 3": "Grad E",
+          "Speaker 4": "Grad C",
+          "Speaker 5": "Grad D"
+        },
+        "summary": "The group members mainly talked about the details of the belief-net framework. They first discussed the way to make the definition of user and situation clear and set up the standards, e.g., user thrift, based on user's budget. Then they turned to the discussion about endpoint decision. They mentioned approaches including setting features/modes of like selling, fixing and exhibiting, and this inspired the group members to design user compatibility nodes of which value would depend on the user status and situation. They further discussed Go-there decision, which is related to the previous idea using the similar set of the ontologies. Finally, they shifted the topic to different probability computation methods for belief-nets and thought of solutions to issues with limited data annotation.",
+        "topics": [
+          "value for user and situation models",
+          "endpoint decision",
+          "Go-there decision",
+          "probability computation"
+        ]
+      },
+      "id": "qmsum-005",
+      "transcript": "../datasets/qmsum/qmsum-005.transcript.json"
+    },
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [],
+        "speakerNames": {
+          "Speaker 1": null,
+          "Speaker 2": "Marketing",
+          "Speaker 3": "Industrial Designer",
+          "Speaker 4": "User Interface"
+        },
+        "summary": "This was a functional design meeting. Based on the presentations of the user interface designer, the industrial designer and the marketing expert, the project manager concluded that the new remote control should be powerful, easy to use, fashionable, recognizable, only for television and Internet-connected. After discussing the industrial design of the product, the group reached the agreement to design an infrared-based controller with less buttons but whether the product would be wireless was still unsolved. As for the product appearance, the group decided to make the product look fancy and recognizable; nevertheless, they had different opinions on the colour of the product.",
+        "topics": [
+          "Product requirement",
+          "Industrial design of the product",
+          "Product appearance"
+        ]
+      },
+      "id": "qmsum-006",
+      "transcript": "../datasets/qmsum/qmsum-006.transcript.json"
+    }
+  ],
+  "profile": "fast",
+  "track": "summarize"
+}

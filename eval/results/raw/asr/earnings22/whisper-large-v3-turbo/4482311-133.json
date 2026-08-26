@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-133",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.601842123830499,
+  "text" : "Thanks to the teams, we're able to limit the difficulties in 2020.",
+  "track" : "asr",
+  "wallSeconds" : 1.199403625
+}

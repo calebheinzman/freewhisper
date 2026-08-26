@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.84,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00059841",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1190988102186723,
+  "text" : "No, it's like, well, yeah, you have to, yeah.",
+  "track" : "asr",
+  "wallSeconds" : 2.53775625
+}

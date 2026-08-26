@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.279625,
+  "dataset" : "earnings22",
+  "id" : "4482249-510",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.885834619769878,
+  "text" : "what would prevent you from gaining market shares from 2023 to 2025?",
+  "track" : "asr",
+  "wallSeconds" : 1.176746083
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.64,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00048170",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.4373316111985233,
+  "text" : "temperature inside the house or for air",
+  "track" : "asr",
+  "wallSeconds" : 1.08315175
+}

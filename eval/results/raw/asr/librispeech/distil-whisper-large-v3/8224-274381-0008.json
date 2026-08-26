@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 20.98,
+  "dataset" : "librispeech",
+  "id" : "8224-274381-0008",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 18.672585079867233,
+  "text" : "with these and some reinforcements of the athol men and mcdonalds whom he had recalled montrose fell suddenly upon argile's country and let loose upon it all the rage of war carrying off the cattle burning the houses and putting the inhabitants to the sword",
+  "track" : "asr",
+  "wallSeconds" : 1.123572334
+}

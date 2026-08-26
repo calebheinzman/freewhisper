@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00079125",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1289116789676228,
+  "text" : "How about you people? Yes.",
+  "track" : "asr",
+  "wallSeconds" : 2.391684
+}

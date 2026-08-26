@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.27,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102313",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.721134924415336,
+  "text" : "Because the clock would be...",
+  "track" : "asr",
+  "wallSeconds" : 1.761112875
+}

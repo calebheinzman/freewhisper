@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.94,
+  "dataset" : "earnings22",
+  "id" : "4482311-197",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.185672809025126,
+  "text" : "and there was no slow down at the end of the year because in Q4 we were at 51% above the same period in 2019.",
+  "track" : "asr",
+  "wallSeconds" : 0.829688417
+}

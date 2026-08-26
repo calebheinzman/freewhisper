@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.59,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00086009",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.332393653638312,
+  "text" : "I don't think it will be like you can have you know if you want it just build a mold base",
+  "track" : "asr",
+  "wallSeconds" : 0.762370416
+}

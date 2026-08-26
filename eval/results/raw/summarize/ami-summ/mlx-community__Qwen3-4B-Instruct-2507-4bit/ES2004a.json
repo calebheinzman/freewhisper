@@ -1,0 +1,34 @@
+{
+  "dataset" : "ami-summ",
+  "id" : "ES2004a",
+  "inputChars" : 15439,
+  "model" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit",
+  "summary" : {
+    "actionItems" : [
+      "Speaker 2 to present the PowerPoint on remote design at the next meeting",
+      "Speaker 2 to manage the shared folder and document pricing and cost structure",
+      "Design team to evaluate the menu-based remote and flip-top concept for feasibility and user testing"
+    ],
+    "keyPoints" : [
+      "Product design emphasizes accessibility, with features like large print mode and intuitive menu navigation for older users",
+      "Animals drawn (cat, tiger, eagle, crocodile) symbolize independence, emotional bond, and intuitive sensing as core design values",
+      "Remote will use plastic construction for cost efficiency and simplicity, avoiding metal",
+      "Proposed features include a flip-top design for screen expansion and dual-function interface with visual symbols",
+      "Target retail price is £17 (€25), with £12.50 production cost and 50% profit margin"
+    ],
+    "speakerNames" : {
+      "Speaker 1" : "Sarah",
+      "Speaker 2" : "Sarah"
+    },
+    "summary" : "The team aligned on a user-friendly remote control design centered around accessibility, simplicity, and intuitive navigation, especially for older users. Animals drawn during the session reflected themes of independence, emotional connection, and intuition, which informed feature development. The product will feature a minimalist layout, large print options, and a flip-top design for screen expansion, all while using affordable plastic construction instead of metal. Key decisions include a €25\/£17 retail price, 50% profit margin, and a focus on broad, non-technical users.",
+    "tags" : [
+      "remote control",
+      "accessibility",
+      "user experience",
+      "product design"
+    ],
+    "title" : "Remote Control Design & Accessibility Focus"
+  },
+  "track" : "summarize",
+  "wallSeconds" : 36.768816708
+}

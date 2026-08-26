@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.83,
+  "dataset" : "librispeech",
+  "id" : "2961-960-0015",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.975033252586241,
+  "text" : "the style and plan of the timaeus differ greatly from that of any other of the platonic dialogues",
+  "track" : "asr",
+  "wallSeconds" : 1.310452958
+}

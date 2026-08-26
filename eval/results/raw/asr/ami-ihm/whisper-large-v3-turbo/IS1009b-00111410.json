@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.38,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00111410",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.8962400804325126,
+  "text" : "Case holder? A holder? Remote holder? Holder.",
+  "track" : "asr",
+  "wallSeconds" : 1.255115333
+}

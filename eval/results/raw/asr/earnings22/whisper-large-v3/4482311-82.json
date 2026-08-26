@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.6800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-82",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.8855105533538277,
+  "text" : "the European Union, the EU, too.",
+  "track" : "asr",
+  "wallSeconds" : 4.155865208
+}

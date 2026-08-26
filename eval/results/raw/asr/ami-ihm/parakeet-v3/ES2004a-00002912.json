@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.36,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00002912",
+  "model" : "parakeet-v3",
+  "rtfx" : 13.569446220722648,
+  "text" : "She's gonna answer me.",
+  "track" : "asr",
+  "wallSeconds" : 0.100225166
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.01,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00186614",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.141671916226075,
+  "text" : "an industrial person? I don't think you know. Well, maybe there's an idea.",
+  "track" : "asr",
+  "wallSeconds" : 0.779901959
+}

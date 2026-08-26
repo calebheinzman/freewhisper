@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.219875,
+  "dataset" : "earnings22",
+  "id" : "4482311-234",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.722406161662649,
+  "text" : "you have the performance of all brands, including Vuitton and Diopatone, not only them, Louis Veseline, L'Europeana, Fendi, of course.",
+  "track" : "asr",
+  "wallSeconds" : 1.6111885
+}

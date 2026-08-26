@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.705,
+  "dataset" : "librispeech",
+  "id" : "1320-122617-0009",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.734318300915566,
+  "text" : "I greatly mourn that one so well disposed should die in his ignorance, and I have sought a goodly hymn, can you lead me to him?",
+  "track" : "asr",
+  "wallSeconds" : 0.882152417
+}

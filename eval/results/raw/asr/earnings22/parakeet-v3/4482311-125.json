@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.0800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-125",
+  "model" : "parakeet-v3",
+  "rtfx" : 53.91331206279957,
+  "text" : "Japan and uh we believe that the prospects are very good.",
+  "track" : "asr",
+  "wallSeconds" : 0.112774791
+}

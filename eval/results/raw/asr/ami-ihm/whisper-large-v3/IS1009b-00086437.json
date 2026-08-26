@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.11,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00086437",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4929527887884044,
+  "text" : "It just build the mold basically and you know.",
+  "track" : "asr",
+  "wallSeconds" : 2.083120125
+}

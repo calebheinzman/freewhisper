@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.11,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00086437",
+  "model" : "parakeet-v3",
+  "rtfx" : 28.858031642098645,
+  "text" : "It just builds the mold basically and uh you know.",
+  "track" : "asr",
+  "wallSeconds" : 0.107768958
+}

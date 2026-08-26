@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.81,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00145174",
+  "model" : "parakeet-v3",
+  "rtfx" : 66.61307484162336,
+  "text" : "Finish meeting now. Okay. Okay. And we can all work uh on our own projects.",
+  "track" : "asr",
+  "wallSeconds" : 0.11724425
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.99,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00086627",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.293120587412385,
+  "text" : "Yeah, it's just as a shape, so it doesn't matter.",
+  "track" : "asr",
+  "wallSeconds" : 0.696463083
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.98,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00157798",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8403251225089736,
+  "text" : "Yeah, and I think today there are probably not many people who don't have a TV. There are a few, but in general not.",
+  "track" : "asr",
+  "wallSeconds" : 3.792808083
+}

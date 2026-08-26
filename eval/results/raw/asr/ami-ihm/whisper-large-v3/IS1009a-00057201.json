@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00057201",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.0040254755747275,
+  "text" : "or a signal or something like that until the tree can go.",
+  "track" : "asr",
+  "wallSeconds" : 2.649335166
+}

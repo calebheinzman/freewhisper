@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.94,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00045400",
+  "model" : "parakeet-v3",
+  "rtfx" : 24.85169455421267,
+  "text" : "I hope that clicks in. I'll just I'll hold it on. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.118301792
+}

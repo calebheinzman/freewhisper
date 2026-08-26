@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.16,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00173074",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.092049993816643,
+  "text" : "out of the cost we are supposed to respect. Respect.",
+  "track" : "asr",
+  "wallSeconds" : 0.682857167
+}

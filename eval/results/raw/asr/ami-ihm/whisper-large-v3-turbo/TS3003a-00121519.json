@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.33,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00121519",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.655811022053754,
+  "text" : "Maybe you have to say the magic word.",
+  "track" : "asr",
+  "wallSeconds" : 1.184415708
+}

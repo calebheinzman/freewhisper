@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00088416",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.620316658405034,
+  "text" : "Is that gonna be possible? 'Cause the market is a",
+  "track" : "asr",
+  "wallSeconds" : 0.112614917
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.27,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00061241",
+  "model" : "parakeet-v3",
+  "rtfx" : 22.828113197513503,
+  "text" : "You've got no text tool? No.",
+  "track" : "asr",
+  "wallSeconds" : 0.099438792
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.47,
+  "dataset" : "librispeech",
+  "id" : "5683-32866-0001",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.100158275107776,
+  "text" : "And he added something still less complimentary.",
+  "track" : "asr",
+  "wallSeconds" : 0.680371042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.26,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00100934",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.395960001070566,
+  "text" : "I was gonna draw a cat too so...",
+  "track" : "asr",
+  "wallSeconds" : 3.3157045419999998
+}

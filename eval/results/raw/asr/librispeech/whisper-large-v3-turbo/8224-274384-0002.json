@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.815,
+  "dataset" : "librispeech",
+  "id" : "8224-274384-0002",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.318828922170374,
+  "text" : "they informed the english parliament of this unexpected incident and assured them that they had entered into no private treaty with the king",
+  "track" : "asr",
+  "wallSeconds" : 1.341061542
+}

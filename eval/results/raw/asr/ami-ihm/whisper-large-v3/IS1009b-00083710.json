@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.16,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00083710",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.082928395948727,
+  "text" : "- Yeah, well that has been eliminated.",
+  "track" : "asr",
+  "wallSeconds" : 1.994591709
+}

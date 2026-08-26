@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.08,
+  "dataset" : "librispeech",
+  "id" : "260-123288-0001",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9474129500661084,
+  "text" : "The weather, if we may use the term, will change before long.",
+  "track" : "asr",
+  "wallSeconds" : 2.6085890000000003
+}

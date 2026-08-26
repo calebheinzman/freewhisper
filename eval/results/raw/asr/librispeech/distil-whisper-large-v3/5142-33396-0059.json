@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.47,
+  "dataset" : "librispeech",
+  "id" : "5142-33396-0059",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.177197192763137,
+  "text" : "Yes, and with all your fingers it took you a year to catch me. The king frowned more angrily.",
+  "track" : "asr",
+  "wallSeconds" : 0.885514875
+}

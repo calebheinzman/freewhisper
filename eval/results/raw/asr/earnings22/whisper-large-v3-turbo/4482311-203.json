@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.360125,
+  "dataset" : "earnings22",
+  "id" : "4482311-203",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.8110076958479011,
+  "text" : "Well, you have several things.",
+  "track" : "asr",
+  "wallSeconds" : 1.303210917
+}

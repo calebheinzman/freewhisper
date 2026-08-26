@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.820125,
+  "dataset" : "earnings22",
+  "id" : "4482311-238",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.367559221950651,
+  "text" : "Now looking at the same thing, but this time quarter by quarter to see what happened,",
+  "track" : "asr",
+  "wallSeconds" : 0.711706167
+}

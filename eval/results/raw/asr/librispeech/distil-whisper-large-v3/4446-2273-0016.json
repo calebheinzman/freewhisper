@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.645,
+  "dataset" : "librispeech",
+  "id" : "4446-2273-0016",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.171748673911129,
+  "text" : "her hair is still like flax and her blue eyes are just like a baby's and she has the same three freckles on her little nose and talks about going back to her band-aire",
+  "track" : "asr",
+  "wallSeconds" : 0.948214541
+}

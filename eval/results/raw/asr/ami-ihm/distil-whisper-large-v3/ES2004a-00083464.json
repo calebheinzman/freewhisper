@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00083464",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.997251082493111,
+  "text" : "So that's a problem regardless of any design modifications you come up with. That's going to be a problem anyway with the older generation perhaps. And that's another issue how we tackle that.",
+  "track" : "asr",
+  "wallSeconds" : 1.250429666
+}

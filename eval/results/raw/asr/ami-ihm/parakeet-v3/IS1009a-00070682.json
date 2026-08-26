@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.31,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00070682",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.30507610863047,
+  "text" : "Okay, so we looking for a working design when we come back.",
+  "track" : "asr",
+  "wallSeconds" : 0.115533875
+}

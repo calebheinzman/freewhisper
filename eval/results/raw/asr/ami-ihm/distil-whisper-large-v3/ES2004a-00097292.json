@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.02,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00097292",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.347066755131305,
+  "text" : "Right, okay, we've got half an hour before the next meeting,",
+  "track" : "asr",
+  "wallSeconds" : 0.841014
+}

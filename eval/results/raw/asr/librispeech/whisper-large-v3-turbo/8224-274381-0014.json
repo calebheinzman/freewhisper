@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 17.88,
+  "dataset" : "librispeech",
+  "id" : "8224-274381-0014",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 11.300343766190325,
+  "text" : "besides members of parliament who were excluded many officers unwilling to serve under the new generals threw up their commissions and unwarily facilitated the project of putting the army entirely into the hands of that faction",
+  "track" : "asr",
+  "wallSeconds" : 1.5822527499999999
+}

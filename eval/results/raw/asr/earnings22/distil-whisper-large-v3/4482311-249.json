@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.1800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-249",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.119745748862493,
+  "text" : "When you have 0.4.5%, it's already pretty good.",
+  "track" : "asr",
+  "wallSeconds" : 0.683045125
+}

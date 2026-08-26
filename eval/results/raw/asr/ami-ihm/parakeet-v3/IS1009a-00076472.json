@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.23,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00076472",
+  "model" : "parakeet-v3",
+  "rtfx" : 80.46653392912962,
+  "text" : "So um we have well we have a twine two two two three minutes. Um any questions at this point or uh suggestions?",
+  "track" : "asr",
+  "wallSeconds" : 0.139561125
+}

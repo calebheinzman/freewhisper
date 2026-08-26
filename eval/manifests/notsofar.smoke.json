@@ -1,0 +1,1621 @@
+{
+  "dataset": "notsofar",
+  "items": [
+    {
+      "audio": "../datasets/notsofar/MTG_32000.wav",
+      "id": "MTG_32000",
+      "refSegments": [
+        {
+          "end": 9.13,
+          "speaker": "Rachel",
+          "start": 5.1,
+          "text": "Hello my friends, we're gonna start the meeting now, talking about this new uh <ST/>"
+        },
+        {
+          "end": 14.94,
+          "speaker": "Rachel",
+          "start": 9.34,
+          "text": "<ST/> um a park that we're going to create in center of the town. What are your suggestions?"
+        },
+        {
+          "end": 15.89,
+          "speaker": "Rachel",
+          "start": 15.53,
+          "text": "Um <ST/>"
+        },
+        {
+          "end": 16.54,
+          "speaker": "Rachel",
+          "start": 15.91,
+          "text": "<ST/> <PName> Linda </PName> ?"
+        },
+        {
+          "end": 23.55,
+          "speaker": "Linda",
+          "start": 17.13,
+          "text": "OK, uh where do we want to start? We have a <ST/> Do we have an exact uh map of the <ST/> of the location for everybody?"
+        },
+        {
+          "end": 25.58,
+          "speaker": "Rachel",
+          "start": 24.06,
+          "text": "Don't start. <FILL/> Don't start."
+        },
+        {
+          "end": 24.79,
+          "speaker": "Sarah",
+          "start": 24.44,
+          "text": "I <ST/>"
+        },
+        {
+          "end": 27.84,
+          "speaker": "Sarah",
+          "start": 24.99,
+          "text": "I think the <FILL/> <ST/> I think the number one thing in the park there should be <ST/>"
+        },
+        {
+          "end": 31.4,
+          "speaker": "Sarah",
+          "start": 28.05,
+          "text": "<ST/> green <ST/> there should be greenery. Should <ST/> There should be trees."
+        },
+        {
+          "end": 31.67,
+          "speaker": "Rachel",
+          "start": 31.09,
+          "text": "Yes."
+        },
+        {
+          "end": 35.58,
+          "speaker": "Rachel",
+          "start": 31.86,
+          "text": "<ST/> but she was the <ST/> asking a question, so maybe we went uh <ST/>"
+        },
+        {
+          "end": 32.34,
+          "speaker": "Sarah",
+          "start": 32.06,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 36.74,
+          "speaker": "Rachel",
+          "start": 35.84,
+          "text": "It's OK. Yeah."
+        },
+        {
+          "end": 36.8,
+          "speaker": "Linda",
+          "start": 36.24,
+          "text": "No, I was uh <ST/>"
+        },
+        {
+          "end": 37.66,
+          "speaker": "Sarah",
+          "start": 36.32,
+          "text": "About the map of the <ST/>"
+        },
+        {
+          "end": 37.02,
+          "speaker": "Linda",
+          "start": 36.81,
+          "text": "<ST/> uh <ST/>"
+        },
+        {
+          "end": 43.32,
+          "speaker": "Linda",
+          "start": 37.23,
+          "text": "I was just curious if we have a <ST/> have a map of the exact uh shape of the <ST/> of the <ST/> of the territory <FILL/> dedicated to the park."
+        },
+        {
+          "end": 45.3,
+          "speaker": "Rachel",
+          "start": 42.18,
+          "text": "I don't think the shape is important. What do you say, <PName> Ron </PName> ?"
+        },
+        {
+          "end": 44.32,
+          "speaker": "Linda",
+          "start": 43.91,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 46.14,
+          "speaker": "Linda",
+          "start": 44.67,
+          "text": "No, just so that we have an idea."
+        },
+        {
+          "end": 48.03,
+          "speaker": "Linda",
+          "start": 46.25,
+          "text": "<ST/> if the <ST/> would that <ST/> If we <ST/> If we want to <ST/>"
+        },
+        {
+          "end": 49.53,
+          "speaker": "Rachel",
+          "start": 47.3,
+          "text": "Of course we know where it's gonna be and we know <ST/>"
+        },
+        {
+          "end": 51.39,
+          "speaker": "Linda",
+          "start": 48.51,
+          "text": "Yeah, if we want to <ST/> Wait a minute. If we want to say, you know <ST/>"
+        },
+        {
+          "end": 51.61,
+          "speaker": "Rachel",
+          "start": 50.43,
+          "text": "<ST/> we know the area."
+        },
+        {
+          "end": 57.69,
+          "speaker": "Linda",
+          "start": 51.7,
+          "text": "<ST/> the <ST/> this is more the children's areas, this is more for adults, this is more for <ST/> this <ST/> maybe <FILL/> <ST/> the dog park would be good over here."
+        },
+        {
+          "end": 57.44,
+          "speaker": "Rachel",
+          "start": 56.4,
+          "text": "<FILL/> No, we <UNKNOWN/> <ST/>"
+        },
+        {
+          "end": 58.15,
+          "speaker": "Sarah",
+          "start": 56.95,
+          "text": "Maybe we can decide on that."
+        },
+        {
+          "end": 61.95,
+          "speaker": "Rachel",
+          "start": 57.68,
+          "text": "<ST/> we just have an area, nothing is decided we're waiting for you to give us <ST/>"
+        },
+        {
+          "end": 58.78,
+          "speaker": "Linda",
+          "start": 58.41,
+          "text": "Yeah."
+        },
+        {
+          "end": 60.83,
+          "speaker": "Linda",
+          "start": 60.27,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 62.04,
+          "speaker": "Linda",
+          "start": 60.95,
+          "text": "OK, OK fine."
+        },
+        {
+          "end": 62.16,
+          "speaker": "Sarah",
+          "start": 61.29,
+          "text": "<BA/>"
+        },
+        {
+          "end": 63.67,
+          "speaker": "Ron",
+          "start": 61.39,
+          "text": "We should probably list the <ST/>"
+        },
+        {
+          "end": 67.35,
+          "speaker": "Ron",
+          "start": 63.99,
+          "text": "<ST/> things that are important to have within the park."
+        },
+        {
+          "end": 65.84,
+          "speaker": "Linda",
+          "start": 65.29,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 67.4,
+          "speaker": "Linda",
+          "start": 66.75,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 68.86,
+          "speaker": "Ron",
+          "start": 67.75,
+          "text": "<ST/> and then <ST/>"
+        },
+        {
+          "end": 70.36,
+          "speaker": "Sarah",
+          "start": 69.25,
+          "text": "And then go from there."
+        },
+        {
+          "end": 72.76,
+          "speaker": "Ron",
+          "start": 69.34,
+          "text": "<ST/> that will be fit into the <ST/> to the area. That's right."
+        },
+        {
+          "end": 70.3,
+          "speaker": "Rachel",
+          "start": 69.71,
+          "text": "<BA/>"
+        },
+        {
+          "end": 72.56,
+          "speaker": "Linda",
+          "start": 69.95,
+          "text": "<ST/> and <ST/> and then decide how to put that together, yeah."
+        },
+        {
+          "end": 71.26,
+          "speaker": "Rachel",
+          "start": 70.45,
+          "text": "Of course <ST/>"
+        },
+        {
+          "end": 77.41,
+          "speaker": "Rachel",
+          "start": 72.08,
+          "text": "It's fine. So if you think that uh we can uh move forward and just uh somebody has one idea."
+        },
+        {
+          "end": 73.24,
+          "speaker": "Linda",
+          "start": 72.8,
+          "text": "Fine."
+        },
+        {
+          "end": 78.64,
+          "speaker": "Rachel",
+          "start": 77.59,
+          "text": "Go ahead <PName> Sarah </PName> ."
+        },
+        {
+          "end": 83.99,
+          "speaker": "Sarah",
+          "start": 78.48,
+          "text": "Yeah, I was kinda thinking like I said before, just greenery, trees, uh making sure there is enough <ST/>"
+        },
+        {
+          "end": 83.17,
+          "speaker": "Rachel",
+          "start": 82.72,
+          "text": "OK."
+        },
+        {
+          "end": 84.39,
+          "speaker": "Rachel",
+          "start": 84.02,
+          "text": "But <ST/>"
+        },
+        {
+          "end": 87.71,
+          "speaker": "Sarah",
+          "start": 84.09,
+          "text": "<ST/> space if it's in <ST/> within a city so it's like good greener area of the city."
+        },
+        {
+          "end": 87.37,
+          "speaker": "Rachel",
+          "start": 86.86,
+          "text": "Yes."
+        },
+        {
+          "end": 91.63,
+          "speaker": "Rachel",
+          "start": 87.65,
+          "text": "What <ST/> What I was suggesting that uh we do not forget the elderlies."
+        },
+        {
+          "end": 93.92,
+          "speaker": "Rachel",
+          "start": 91.75,
+          "text": "They need their <FILL/> place in the park."
+        },
+        {
+          "end": 97.59,
+          "speaker": "Rachel",
+          "start": 94.33,
+          "text": "You know we forget about them, so what do you say uh <PName> Linda </PName> ?"
+        },
+        {
+          "end": 98.9,
+          "speaker": "Linda",
+          "start": 97.0,
+          "text": "<FILL/> <ST/> Forget about whom?"
+        },
+        {
+          "end": 99.51,
+          "speaker": "Rachel",
+          "start": 98.58,
+          "text": "The older people."
+        },
+        {
+          "end": 101.48,
+          "speaker": "Linda",
+          "start": 99.44,
+          "text": "Oh, the older people, yes. Yes, of course."
+        },
+        {
+          "end": 106.54,
+          "speaker": "Rachel",
+          "start": 101.2,
+          "text": "They need uh <ST/> we need <ST/> we need <ST/> it's not only children and uh <ST/> and greenery it's also uh their place <UNKNOWN/> <ST/>"
+        },
+        {
+          "end": 102.43,
+          "speaker": "Linda",
+          "start": 101.76,
+          "text": "Of course."
+        },
+        {
+          "end": 104.68,
+          "speaker": "Linda",
+          "start": 104.16,
+          "text": "Right."
+        },
+        {
+          "end": 107.69,
+          "speaker": "Sarah",
+          "start": 105.67,
+          "text": "So what would you suggest, <PName> Rachel </PName> ?"
+        },
+        {
+          "end": 108.3,
+          "speaker": "Rachel",
+          "start": 107.13,
+          "text": "What do you say, <PName> Ron </PName> ?"
+        },
+        {
+          "end": 109.38,
+          "speaker": "Ron",
+          "start": 108.55,
+          "text": "Well, I think <ST/>"
+        },
+        {
+          "end": 109.7,
+          "speaker": "Ron",
+          "start": 109.39,
+          "text": "Yeah."
+        },
+        {
+          "end": 111.24,
+          "speaker": "Ron",
+          "start": 109.71,
+          "text": "I think about the children first <ST/>"
+        },
+        {
+          "end": 115.08,
+          "speaker": "Ron",
+          "start": 111.46,
+          "text": "<ST/> you know that uh <ST/> that there needs to be playgrounds, there needs to be <ST/>"
+        },
+        {
+          "end": 115.96,
+          "speaker": "Ron",
+          "start": 115.53,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 118.13,
+          "speaker": "Ron",
+          "start": 116.07,
+          "text": "<ST/> different areas where they can run around."
+        },
+        {
+          "end": 117.52,
+          "speaker": "Rachel",
+          "start": 117.13,
+          "text": "We <ST/>"
+        },
+        {
+          "end": 125.02,
+          "speaker": "Rachel",
+          "start": 118.26,
+          "text": "This <FILL/> <ST/> But this is automatic. This is what we do. No matter of what <ST/> what I was trying to <ST/> to bring in here is something that <ST/>"
+        },
+        {
+          "end": 119.02,
+          "speaker": "Ron",
+          "start": 118.41,
+          "text": "Um <ST/>"
+        },
+        {
+          "end": 126.49,
+          "speaker": "Rachel",
+          "start": 125.21,
+          "text": "<ST/> typically we forget <ST/>"
+        },
+        {
+          "end": 127.94,
+          "speaker": "Rachel",
+          "start": 126.81,
+          "text": "<ST/> or we just <ST/>"
+        },
+        {
+          "end": 128.88,
+          "speaker": "Rachel",
+          "start": 128.46,
+          "text": "<ST/> don't <ST/>"
+        },
+        {
+          "end": 129.19,
+          "speaker": "Rachel",
+          "start": 128.89,
+          "text": "Yeah."
+        },
+        {
+          "end": 131.04,
+          "speaker": "Rachel",
+          "start": 129.89,
+          "text": "Don't point out."
+        },
+        {
+          "end": 130.24,
+          "speaker": "Ron",
+          "start": 129.96,
+          "text": "Oh."
+        },
+        {
+          "end": 133.15,
+          "speaker": "Linda",
+          "start": 130.33,
+          "text": "Well then <ST/> then we need to think about accessibility."
+        },
+        {
+          "end": 134.31,
+          "speaker": "Rachel",
+          "start": 133.58,
+          "text": "<FILL/> Yes."
+        },
+        {
+          "end": 134.32,
+          "speaker": "Linda",
+          "start": 133.72,
+          "text": "OK."
+        },
+        {
+          "end": 138.2,
+          "speaker": "Linda",
+          "start": 134.54,
+          "text": "<FILL/> so of the <ST/> There <ST/> There should be you know the <FILL/> accessibility concerns."
+        },
+        {
+          "end": 137.52,
+          "speaker": "Rachel",
+          "start": 136.91,
+          "text": "<PName> Sarah </PName> ."
+        },
+        {
+          "end": 139.66,
+          "speaker": "Rachel",
+          "start": 138.39,
+          "text": "I know you are young, but <ST/>"
+        },
+        {
+          "end": 140.68,
+          "speaker": "Linda",
+          "start": 139.36,
+          "text": "Physical safety."
+        },
+        {
+          "end": 142.71,
+          "speaker": "Sarah",
+          "start": 141.1,
+          "text": "I think <PName> Linda </PName> is saying some good things."
+        },
+        {
+          "end": 141.36,
+          "speaker": "Linda",
+          "start": 141.11,
+          "text": "Yeah."
+        },
+        {
+          "end": 143.63,
+          "speaker": "Sarah",
+          "start": 143.04,
+          "text": "Um <ST/>"
+        },
+        {
+          "end": 147.56,
+          "speaker": "Sarah",
+          "start": 143.76,
+          "text": "<ST/> but I think it's also important to see what features we can bring into the park, not <ST/>"
+        },
+        {
+          "end": 149.86,
+          "speaker": "Sarah",
+          "start": 147.93,
+          "text": "<ST/> just how we can be accessible."
+        },
+        {
+          "end": 149.43,
+          "speaker": "Rachel",
+          "start": 148.79,
+          "text": "Yes."
+        },
+        {
+          "end": 150.69,
+          "speaker": "Rachel",
+          "start": 149.92,
+          "text": "<PName> Ron </PName> <UNKNOWN/> <ST/>"
+        },
+        {
+          "end": 151.03,
+          "speaker": "Ron",
+          "start": 150.65,
+          "text": "Right."
+        },
+        {
+          "end": 151.23,
+          "speaker": "Rachel",
+          "start": 150.7,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 151.56,
+          "speaker": "Rachel",
+          "start": 151.29,
+          "text": "Yeah."
+        },
+        {
+          "end": 152.92,
+          "speaker": "Rachel",
+          "start": 151.63,
+          "text": "Follow your start."
+        },
+        {
+          "end": 156.8,
+          "speaker": "Ron",
+          "start": 151.74,
+          "text": "So <ST/> So I'm thinking about different uh playground um areas with <ST/>"
+        },
+        {
+          "end": 157.2,
+          "speaker": "Ron",
+          "start": 156.84,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 161.37,
+          "speaker": "Ron",
+          "start": 157.44,
+          "text": "<ST/> for the kids, so places for them to climb, places for them to run <ST/>"
+        },
+        {
+          "end": 160.25,
+          "speaker": "Rachel",
+          "start": 159.69,
+          "text": "Yes."
+        },
+        {
+          "end": 161.64,
+          "speaker": "Rachel",
+          "start": 161.31,
+          "text": "Yeah."
+        },
+        {
+          "end": 162.16,
+          "speaker": "Ron",
+          "start": 161.83,
+          "text": "<ST/> uh <ST/>"
+        },
+        {
+          "end": 164.71,
+          "speaker": "Ron",
+          "start": 162.19,
+          "text": "<ST/> they've got a lot of uh new <ST/>"
+        },
+        {
+          "end": 164.82,
+          "speaker": "Sarah",
+          "start": 164.29,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 165.46,
+          "speaker": "Rachel",
+          "start": 164.96,
+          "text": "Yes."
+        },
+        {
+          "end": 165.59,
+          "speaker": "Ron",
+          "start": 165.03,
+          "text": "<ST/> uh <ST/>"
+        },
+        {
+          "end": 166.03,
+          "speaker": "Ron",
+          "start": 165.61,
+          "text": "<ST/> new <ST/>"
+        },
+        {
+          "end": 168.21,
+          "speaker": "Ron",
+          "start": 166.14,
+          "text": "<ST/> new <ST/> newly designed uh <ST/>"
+        },
+        {
+          "end": 168.93,
+          "speaker": "Rachel",
+          "start": 168.25,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 169.47,
+          "speaker": "Ron",
+          "start": 168.73,
+          "text": "<ST/> plastic <ST/>"
+        },
+        {
+          "end": 169.78,
+          "speaker": "Rachel",
+          "start": 169.29,
+          "text": "Sure."
+        },
+        {
+          "end": 170.72,
+          "speaker": "Ron",
+          "start": 169.5,
+          "text": "<ST/> uh um <ST/>"
+        },
+        {
+          "end": 171.14,
+          "speaker": "Rachel",
+          "start": 170.0,
+          "text": "They do <ST/> They do now."
+        },
+        {
+          "end": 173.94,
+          "speaker": "Ron",
+          "start": 171.31,
+          "text": "<ST/> places you know for them to <ST/> to run and jump, yeah."
+        },
+        {
+          "end": 173.36,
+          "speaker": "Rachel",
+          "start": 172.18,
+          "text": "Uh I was thinking <ST/>"
+        },
+        {
+          "end": 176.65,
+          "speaker": "Rachel",
+          "start": 173.99,
+          "text": "<ST/> I have seen lately the water features."
+        },
+        {
+          "end": 178.17,
+          "speaker": "Rachel",
+          "start": 176.83,
+          "text": "They are not a good idea <ST/>"
+        },
+        {
+          "end": 179.44,
+          "speaker": "Sarah",
+          "start": 178.82,
+          "text": "Why not?"
+        },
+        {
+          "end": 179.52,
+          "speaker": "Rachel",
+          "start": 178.82,
+          "text": "<ST/> because <ST/>"
+        },
+        {
+          "end": 181.09,
+          "speaker": "Rachel",
+          "start": 179.67,
+          "text": "<ST/> because accident happens <ST/>"
+        },
+        {
+          "end": 181.73,
+          "speaker": "Linda",
+          "start": 181.3,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 183.07,
+          "speaker": "Rachel",
+          "start": 181.49,
+          "text": "<ST/> and it's better not to have <ST/>"
+        },
+        {
+          "end": 186.32,
+          "speaker": "Sarah",
+          "start": 182.67,
+          "text": "So, maybe we can have good safety features and then not <ST/> would not be the case."
+        },
+        {
+          "end": 187.51,
+          "speaker": "Rachel",
+          "start": 184.89,
+          "text": "Yeah, well yeah, yeah, but uh <ST/>"
+        },
+        {
+          "end": 187.03,
+          "speaker": "Ron",
+          "start": 186.7,
+          "text": "Yeah."
+        },
+        {
+          "end": 193.07,
+          "speaker": "Ron",
+          "start": 187.14,
+          "text": "But there are also <ST/> when <ST/> when you're talking about water features you have some of these uh parks where the water shoots from <ST/>"
+        },
+        {
+          "end": 193.88,
+          "speaker": "Rachel",
+          "start": 193.28,
+          "text": "Yes."
+        },
+        {
+          "end": 197.41,
+          "speaker": "Ron",
+          "start": 193.3,
+          "text": "<ST/> from underneath and it's not like anybody can drown and something like that <ST/>"
+        },
+        {
+          "end": 194.65,
+          "speaker": "Sarah",
+          "start": 193.63,
+          "text": "From underneath."
+        },
+        {
+          "end": 195.35,
+          "speaker": "Rachel",
+          "start": 194.27,
+          "text": "Yes, and that's <ST/>"
+        },
+        {
+          "end": 197.02,
+          "speaker": "Rachel",
+          "start": 196.03,
+          "text": "Absolutely."
+        },
+        {
+          "end": 197.79,
+          "speaker": "Rachel",
+          "start": 197.21,
+          "text": "<FILL/> Yeah."
+        },
+        {
+          "end": 198.34,
+          "speaker": "Linda",
+          "start": 197.26,
+          "text": "Oh, that's a good idea."
+        },
+        {
+          "end": 198.46,
+          "speaker": "Ron",
+          "start": 198.01,
+          "text": "Yeah."
+        },
+        {
+          "end": 199.46,
+          "speaker": "Rachel",
+          "start": 198.11,
+          "text": "That was a <ST/> That was a good thing."
+        },
+        {
+          "end": 198.89,
+          "speaker": "Sarah",
+          "start": 198.28,
+          "text": "Yeah."
+        },
+        {
+          "end": 204.35,
+          "speaker": "Linda",
+          "start": 198.59,
+          "text": "That's a good idea, because it's <ST/> it's true, it's true any kind of a little pool or stream or something like that demands maintenance."
+        },
+        {
+          "end": 201.54,
+          "speaker": "Ron",
+          "start": 198.96,
+          "text": "<ST/> and kids, you know in the summer time they get a <ST/>"
+        },
+        {
+          "end": 205.3,
+          "speaker": "Rachel",
+          "start": 204.41,
+          "text": "Absolutely."
+        },
+        {
+          "end": 204.95,
+          "speaker": "Ron",
+          "start": 204.49,
+          "text": "Right."
+        },
+        {
+          "end": 208.78,
+          "speaker": "Linda",
+          "start": 204.7,
+          "text": "So yeah but those <UNKNOWN/> uh you know don't don't really a less <ST/>"
+        },
+        {
+          "end": 207.59,
+          "speaker": "Ron",
+          "start": 207.32,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 208.35,
+          "speaker": "Rachel",
+          "start": 207.86,
+          "text": "Those <ST/>"
+        },
+        {
+          "end": 209.65,
+          "speaker": "Linda",
+          "start": 208.81,
+          "text": "Less yeah. Mm-hmm."
+        },
+        {
+          "end": 211.94,
+          "speaker": "Rachel",
+          "start": 209.41,
+          "text": "<ST/> those could be good ideas and uh we could uh <ST/>"
+        },
+        {
+          "end": 211.08,
+          "speaker": "Linda",
+          "start": 210.59,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 214.02,
+          "speaker": "Rachel",
+          "start": 212.1,
+          "text": "<ST/> try to uh like you say <PName> Ron </PName> <ST/>"
+        },
+        {
+          "end": 214.46,
+          "speaker": "Rachel",
+          "start": 214.04,
+          "text": "<UNKNOWN/> <UNKNOWN/>"
+        },
+        {
+          "end": 218.31,
+          "speaker": "Rachel",
+          "start": 214.49,
+          "text": "<ST/> set a list and uh <ST/> and uh submit it on <ST/> on this meeting <ST/>"
+        },
+        {
+          "end": 219.44,
+          "speaker": "Rachel",
+          "start": 218.5,
+          "text": "<ST/> to the <UNKNOWN/> <ST/>"
+        },
+        {
+          "end": 219.77,
+          "speaker": "Rachel",
+          "start": 219.45,
+          "text": "<ST/> uh <ST/>"
+        },
+        {
+          "end": 222.2,
+          "speaker": "Rachel",
+          "start": 220.0,
+          "text": "<ST/> to the people that really do uh <ST/>"
+        },
+        {
+          "end": 223.35,
+          "speaker": "Rachel",
+          "start": 222.48,
+          "text": "<ST/> put it together."
+        },
+        {
+          "end": 229.01,
+          "speaker": "Ron",
+          "start": 223.29,
+          "text": "Yeah I mean let's think about the environment that we're in because you know it's uh <ST/> it's a hot area."
+        },
+        {
+          "end": 223.96,
+          "speaker": "Linda",
+          "start": 223.41,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 229.49,
+          "speaker": "Rachel",
+          "start": 229.02,
+          "text": "Yes."
+        },
+        {
+          "end": 234.98,
+          "speaker": "Ron",
+          "start": 229.31,
+          "text": "You know having during you know uh <ST/> <FILL/> an area during the summer that can be used let's say with uh <ST/>"
+        },
+        {
+          "end": 235.95,
+          "speaker": "Sarah",
+          "start": 234.73,
+          "text": "<ST/> a shaded <ST/>"
+        },
+        {
+          "end": 236.87,
+          "speaker": "Rachel",
+          "start": 234.92,
+          "text": "<FILL/> Absolutely, the shade."
+        },
+        {
+          "end": 237.45,
+          "speaker": "Ron",
+          "start": 235.24,
+          "text": "<ST/> with <ST/> with shade and, but also <ST/>"
+        },
+        {
+          "end": 235.97,
+          "speaker": "Linda",
+          "start": 235.25,
+          "text": "Shade."
+        },
+        {
+          "end": 238.18,
+          "speaker": "Linda",
+          "start": 236.1,
+          "text": "Shade is very important. Yeah."
+        },
+        {
+          "end": 240.39,
+          "speaker": "Ron",
+          "start": 237.84,
+          "text": "<ST/> but also with <ST/> with water. So <ST/>"
+        },
+        {
+          "end": 239.64,
+          "speaker": "Sarah",
+          "start": 238.44,
+          "text": "Also water."
+        },
+        {
+          "end": 238.83,
+          "speaker": "Linda",
+          "start": 238.5,
+          "text": "Yeah."
+        },
+        {
+          "end": 240.02,
+          "speaker": "Linda",
+          "start": 239.58,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 242.51,
+          "speaker": "Rachel",
+          "start": 239.84,
+          "text": "And <ST/> And pets, we didn't talk about the pets."
+        },
+        {
+          "end": 240.59,
+          "speaker": "Sarah",
+          "start": 239.93,
+          "text": "Yeah."
+        },
+        {
+          "end": 244.48,
+          "speaker": "Linda",
+          "start": 242.12,
+          "text": "Of course, there <FILL/> <ST/> there needs to be a dog park."
+        },
+        {
+          "end": 243.46,
+          "speaker": "Rachel",
+          "start": 242.81,
+          "text": "This is <ST/>"
+        },
+        {
+          "end": 245.75,
+          "speaker": "Sarah",
+          "start": 243.79,
+          "text": "A gated <ST/> A gated area <ST/>"
+        },
+        {
+          "end": 244.46,
+          "speaker": "Rachel",
+          "start": 243.89,
+          "text": "<ST/> we need."
+        },
+        {
+          "end": 245.52,
+          "speaker": "Linda",
+          "start": 245.15,
+          "text": "Yeah."
+        },
+        {
+          "end": 247.86,
+          "speaker": "Rachel",
+          "start": 245.57,
+          "text": "Yes, absolutely, so <ST/>"
+        },
+        {
+          "end": 247.58,
+          "speaker": "Linda",
+          "start": 245.7,
+          "text": "A gated area for the dogs, yeah."
+        },
+        {
+          "end": 246.72,
+          "speaker": "Sarah",
+          "start": 245.88,
+          "text": "<ST/> for the pets."
+        },
+        {
+          "end": 248.31,
+          "speaker": "Linda",
+          "start": 247.78,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 249.29,
+          "speaker": "Rachel",
+          "start": 248.2,
+          "text": "<ST/> do you think that <ST/>"
+        },
+        {
+          "end": 249.7,
+          "speaker": "Rachel",
+          "start": 249.29,
+          "text": "Yeah."
+        },
+        {
+          "end": 255.39,
+          "speaker": "Rachel",
+          "start": 249.72,
+          "text": "The <ST/> Yes, uh this could work out. Can we take some example of uh existing parks already that we can kind of <ST/>"
+        },
+        {
+          "end": 252.31,
+          "speaker": "Sarah",
+          "start": 251.76,
+          "text": "Yeah."
+        },
+        {
+          "end": 255.75,
+          "speaker": "Rachel",
+          "start": 255.46,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 258.41,
+          "speaker": "Linda",
+          "start": 255.72,
+          "text": "Oh yes. Oh definitely, definitely."
+        },
+        {
+          "end": 257.5,
+          "speaker": "Rachel",
+          "start": 256.24,
+          "text": "<ST/> copy and uh <ST/>"
+        },
+        {
+          "end": 258.39,
+          "speaker": "Rachel",
+          "start": 257.82,
+          "text": "Yes."
+        },
+        {
+          "end": 263.25,
+          "speaker": "Sarah",
+          "start": 258.25,
+          "text": "Think it depends where the park can be, but if it's like in a city, for example in Tel Aviv, you can have it be kind of <ST/>"
+        },
+        {
+          "end": 263.77,
+          "speaker": "Sarah",
+          "start": 263.34,
+          "text": "<ST/> uh <ST/>"
+        },
+        {
+          "end": 266.7,
+          "speaker": "Sarah",
+          "start": 263.78,
+          "text": "<ST/> <FILL/> inspired by Central <FILL/> <ST/> uh Central Park maybe."
+        },
+        {
+          "end": 264.57,
+          "speaker": "Rachel",
+          "start": 264.1,
+          "text": "Yes."
+        },
+        {
+          "end": 268.16,
+          "speaker": "Rachel",
+          "start": 266.92,
+          "text": "<FILLlaugh/>"
+        },
+        {
+          "end": 267.41,
+          "speaker": "Linda",
+          "start": 266.95,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 267.85,
+          "speaker": "Sarah",
+          "start": 267.08,
+          "text": "Um <ST/>"
+        },
+        {
+          "end": 269.91,
+          "speaker": "Sarah",
+          "start": 268.04,
+          "text": "<ST/> you know <FILLlaugh/> you can dream."
+        },
+        {
+          "end": 269.63,
+          "speaker": "Rachel",
+          "start": 268.49,
+          "text": "Central Park."
+        },
+        {
+          "end": 268.97,
+          "speaker": "Linda",
+          "start": 268.64,
+          "text": "Yeah."
+        },
+        {
+          "end": 269.86,
+          "speaker": "Linda",
+          "start": 269.5,
+          "text": "Yeah."
+        },
+        {
+          "end": 271.96,
+          "speaker": "Rachel",
+          "start": 269.65,
+          "text": "<FILLlaugh/>"
+        },
+        {
+          "end": 271.08,
+          "speaker": "Linda",
+          "start": 270.69,
+          "text": "Yeah."
+        },
+        {
+          "end": 271.43,
+          "speaker": "Linda",
+          "start": 271.18,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 277.05,
+          "speaker": "Linda",
+          "start": 271.86,
+          "text": "No, there many good examples of uh <ST/> for example uh <ST/> uh good dog parks in <ST/> in Tel Aviv."
+        },
+        {
+          "end": 278.61,
+          "speaker": "Rachel",
+          "start": 277.01,
+          "text": "Yes. Yes. Yes. Yes."
+        },
+        {
+          "end": 277.86,
+          "speaker": "Linda",
+          "start": 277.28,
+          "text": "Yeah. Yeah."
+        },
+        {
+          "end": 278.47,
+          "speaker": "Linda",
+          "start": 278.05,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 279.79,
+          "speaker": "Rachel",
+          "start": 278.82,
+          "text": "Alright then <UNKNOWN/> <ST/>"
+        },
+        {
+          "end": 280.08,
+          "speaker": "Rachel",
+          "start": 279.8,
+          "text": "<ST/> uh <ST/>"
+        },
+        {
+          "end": 282.34,
+          "speaker": "Rachel",
+          "start": 280.27,
+          "text": "<ST/> do you think we can conclude this <ST/>"
+        },
+        {
+          "end": 282.71,
+          "speaker": "Rachel",
+          "start": 282.35,
+          "text": "Yeah."
+        },
+        {
+          "end": 283.66,
+          "speaker": "Rachel",
+          "start": 283.22,
+          "text": "<ST/> this <ST/>"
+        },
+        {
+          "end": 283.9,
+          "speaker": "Rachel",
+          "start": 283.67,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 284.44,
+          "speaker": "Rachel",
+          "start": 283.92,
+          "text": "<ST/> meeting?"
+        },
+        {
+          "end": 285.58,
+          "speaker": "Sarah",
+          "start": 283.93,
+          "text": "What other things can be in a park?"
+        },
+        {
+          "end": 284.62,
+          "speaker": "Ron",
+          "start": 283.94,
+          "text": "I think <ST/>"
+        },
+        {
+          "end": 293.0,
+          "speaker": "Rachel",
+          "start": 285.61,
+          "text": "Yes. Of course we need uh <ST/> but oh did we forget any <ST/> any topic something uh that uh <ST/> uh <PName> Linda </PName> you might think about?"
+        },
+        {
+          "end": 286.54,
+          "speaker": "Ron",
+          "start": 286.09,
+          "text": "Right."
+        },
+        {
+          "end": 291.81,
+          "speaker": "Sarah",
+          "start": 291.2,
+          "text": "I <UNKNOWN/> <ST/>"
+        },
+        {
+          "end": 296.4,
+          "speaker": "Linda",
+          "start": 292.31,
+          "text": "Ah you know <ST/> you know what <ST/> you know what one <ST/> one very important thing in a park I'd go <ST/>"
+        },
+        {
+          "end": 294.14,
+          "speaker": "Sarah",
+          "start": 293.01,
+          "text": "What else can be cool?"
+        },
+        {
+          "end": 301.14,
+          "speaker": "Linda",
+          "start": 296.56,
+          "text": "<ST/> to with my grandchildren sometimes is there's a uh <ST/> uh a coffee <ST/> coffee truck."
+        },
+        {
+          "end": 301.66,
+          "speaker": "Rachel",
+          "start": 301.13,
+          "text": "Oh, yeah."
+        },
+        {
+          "end": 304.77,
+          "speaker": "Linda",
+          "start": 301.66,
+          "text": "Yeah OK, you know off to the side a little bit, but at least <ST/>"
+        },
+        {
+          "end": 303.1,
+          "speaker": "Rachel",
+          "start": 302.3,
+          "text": "Oh, of course."
+        },
+        {
+          "end": 303.35,
+          "speaker": "Ron",
+          "start": 302.96,
+          "text": "Mmm."
+        },
+        {
+          "end": 304.94,
+          "speaker": "Rachel",
+          "start": 304.25,
+          "text": "Yeah."
+        },
+        {
+          "end": 304.72,
+          "speaker": "Ron",
+          "start": 304.35,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 306.59,
+          "speaker": "Ron",
+          "start": 304.83,
+          "text": "Usually those things are licensed <ST/>"
+        },
+        {
+          "end": 305.33,
+          "speaker": "Linda",
+          "start": 305.03,
+          "text": "Yeah."
+        },
+        {
+          "end": 307.1,
+          "speaker": "Linda",
+          "start": 306.35,
+          "text": "Right."
+        },
+        {
+          "end": 308.4,
+          "speaker": "Ron",
+          "start": 306.61,
+          "text": "<ST/> where, you know, the people come in <ST/>"
+        },
+        {
+          "end": 308.46,
+          "speaker": "Rachel",
+          "start": 306.66,
+          "text": "Yes, with the city."
+        },
+        {
+          "end": 311.56,
+          "speaker": "Linda",
+          "start": 307.92,
+          "text": "Exactly, they would be <ST/> they would be licensed by the city, right, right."
+        },
+        {
+          "end": 311.16,
+          "speaker": "Ron",
+          "start": 308.64,
+          "text": "<ST/> and they apply for licenses and, you know <ST/>"
+        },
+        {
+          "end": 312.08,
+          "speaker": "Rachel",
+          "start": 309.99,
+          "text": "Yes. Yes. Yes. Yes."
+        },
+        {
+          "end": 315.01,
+          "speaker": "Ron",
+          "start": 311.46,
+          "text": "<ST/> so you don't really need a <ST/> a space for them, especially if they're portable."
+        },
+        {
+          "end": 315.53,
+          "speaker": "Linda",
+          "start": 313.51,
+          "text": "Well no <ST/> no <FILL/> <ST/> well at least <ST/>"
+        },
+        {
+          "end": 323.47,
+          "speaker": "Linda",
+          "start": 315.57,
+          "text": "<ST/> <FILL/> if you're planning, you have to <FILL/> sort of plan <ST/> OK well maybe is, a truck like that could park there. OK, and it wouldn't get in the way of other things. OK, yeah."
+        },
+        {
+          "end": 321.34,
+          "speaker": "Ron",
+          "start": 320.9,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 322.949,
+          "speaker": "Rachel",
+          "start": 322.45,
+          "text": "Yes."
+        },
+        {
+          "end": 323.12,
+          "speaker": "Ron",
+          "start": 322.79,
+          "text": "Right."
+        },
+        {
+          "end": 324.12,
+          "speaker": "Ron",
+          "start": 323.65,
+          "text": "Mm-hmm."
+        },
+        {
+          "end": 324.01,
+          "speaker": "Rachel",
+          "start": 323.65,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 327.39,
+          "speaker": "Linda",
+          "start": 323.79,
+          "text": "It wouldn't necessarily be right next to the children, it would be more next to the <ST/>"
+        },
+        {
+          "end": 326.34,
+          "speaker": "Rachel",
+          "start": 325.96,
+          "text": "Can we <ST/>"
+        },
+        {
+          "end": 329.23,
+          "speaker": "Sarah",
+          "start": 326.71,
+          "text": "Yeah, it can have an area with benches around it <ST/>"
+        },
+        {
+          "end": 327.93,
+          "speaker": "Linda",
+          "start": 327.67,
+          "text": "Yeah."
+        },
+        {
+          "end": 330.28,
+          "speaker": "Linda",
+          "start": 328.71,
+          "text": "Benches, right? Yeah."
+        },
+        {
+          "end": 329.989,
+          "speaker": "Sarah",
+          "start": 329.55,
+          "text": "<ST/> um <ST/>"
+        },
+        {
+          "end": 330.88,
+          "speaker": "Rachel",
+          "start": 329.88,
+          "text": "Tables."
+        },
+        {
+          "end": 332.95,
+          "speaker": "Sarah",
+          "start": 330.0,
+          "text": "<ST/> something to make it accessible so older people can sit."
+        },
+        {
+          "end": 332.56,
+          "speaker": "Rachel",
+          "start": 331.42,
+          "text": "No no they <ST/> they have <ST/>"
+        },
+        {
+          "end": 332.66,
+          "speaker": "Linda",
+          "start": 332.17,
+          "text": "Oh."
+        },
+        {
+          "end": 336.17,
+          "speaker": "Linda",
+          "start": 332.92,
+          "text": "A few <FILL/> <ST/> A few picnic tables, yeah. Yeah. Mm-hmm. Yeah."
+        },
+        {
+          "end": 338.17,
+          "speaker": "Rachel",
+          "start": 334.15,
+          "text": "Picnic tables that would work yeah picnic tables would work, that's a good idea."
+        },
+        {
+          "end": 336.63,
+          "speaker": "Ron",
+          "start": 336.18,
+          "text": "Alright. <ISSUE/>"
+        },
+        {
+          "end": 339.56,
+          "speaker": "Sarah",
+          "start": 336.36,
+          "text": "Yeah. A place where people can uh feed the pigeons."
+        },
+        {
+          "end": 336.8,
+          "speaker": "Linda",
+          "start": 336.41,
+          "text": "Yeah."
+        },
+        {
+          "end": 338.09,
+          "speaker": "Ron",
+          "start": 336.79,
+          "text": "<ST/> and you can think about <ST/>"
+        },
+        {
+          "end": 338.68,
+          "speaker": "Ron",
+          "start": 338.33,
+          "text": "<ST/> you can <ST/>"
+        },
+        {
+          "end": 345.98,
+          "speaker": "Ron",
+          "start": 339.3,
+          "text": "I think you can think about internet access too. We'll have uh, you know, an area that could uh be a Wi-Fi <ST/>"
+        },
+        {
+          "end": 340.92,
+          "speaker": "Rachel",
+          "start": 339.73,
+          "text": "<FILLlaugh/>"
+        },
+        {
+          "end": 346.79,
+          "speaker": "Ron",
+          "start": 346.36,
+          "text": "<UNKNOWN/>"
+        },
+        {
+          "end": 350.78,
+          "speaker": "Ron",
+          "start": 346.82,
+          "text": "<ST/> we have Wi-Fi that's available to people coming in, and uh <ST/>"
+        },
+        {
+          "end": 349.17,
+          "speaker": "Linda",
+          "start": 348.62,
+          "text": "Right."
+        },
+        {
+          "end": 352.18,
+          "speaker": "Linda",
+          "start": 350.24,
+          "text": "Right. Again that's a <ST/> OK."
+        },
+        {
+          "end": 353.16,
+          "speaker": "Ron",
+          "start": 350.95,
+          "text": "<ST/> and even <FILL/> working at the park <ST/>"
+        },
+        {
+          "end": 357.96,
+          "speaker": "Linda",
+          "start": 353.05,
+          "text": "Yeah, in Tel Aviv that's a city issue yeah, yeah. <FL/> You do have <ST/> You do have coverage, yeah."
+        },
+        {
+          "end": 354.08,
+          "speaker": "Ron",
+          "start": 353.42,
+          "text": "<ST/> when they have."
+        },
+        {
+          "end": 355.21,
+          "speaker": "Ron",
+          "start": 354.91,
+          "text": "Yeah."
+        },
+        {
+          "end": 356.6,
+          "speaker": "Ron",
+          "start": 355.93,
+          "text": "That's right."
+        },
+        {
+          "end": 358.32,
+          "speaker": "Ron",
+          "start": 357.75,
+          "text": "That's right."
+        },
+        {
+          "end": 359.3,
+          "speaker": "Linda",
+          "start": 358.22,
+          "text": "So that's an advantage."
+        }
+      ]
+    }
+  ],
+  "profile": "smoke",
+  "track": "meeting"
+}

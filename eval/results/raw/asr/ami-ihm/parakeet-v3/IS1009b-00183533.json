@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.2,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00183533",
+  "model" : "parakeet-v3",
+  "rtfx" : 56.66392848597611,
+  "text" : "So that remains to s to be seen, but uh the target group as a whole is is basically everybody with a T V.",
+  "track" : "asr",
+  "wallSeconds" : 0.144712875
+}

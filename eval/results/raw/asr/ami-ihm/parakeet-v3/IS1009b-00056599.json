@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.81,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00056599",
+  "model" : "parakeet-v3",
+  "rtfx" : 65.1943266757321,
+  "text" : "Who would be next? Uh I guess that would be you. Yeah. Mm-hmm. You want me to get your slideshow up?",
+  "track" : "asr",
+  "wallSeconds" : 0.135134458
+}

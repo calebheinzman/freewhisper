@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.34,
+  "dataset" : "earnings22",
+  "id" : "4482311-155",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.2864348464981386,
+  "text" : "What I believe is that the group in an inflation situation is a group that is used to weathering economic crises",
+  "track" : "asr",
+  "wallSeconds" : 3.146266542
+}

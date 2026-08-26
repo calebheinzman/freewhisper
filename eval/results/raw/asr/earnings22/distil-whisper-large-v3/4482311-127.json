@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.7399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-127",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.30550538107412,
+  "text" : "that this year launched several watches that met with considerable success.",
+  "track" : "asr",
+  "wallSeconds" : 0.654013292
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.83,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00017101",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.255282484690037,
+  "text" : "Is it okay if I postpone that till later? I just want to get access to a little bit more information. No, that's fine.",
+  "track" : "asr",
+  "wallSeconds" : 3.8477395
+}

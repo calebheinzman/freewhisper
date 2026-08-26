@@ -1,0 +1,34 @@
+[project]
+name = "freewhisper-eval"
+version = "0.1.0"
+description = "Scores the shipped speech and summary models against public ground truth."
+requires-python = ">=3.11"
+
+dependencies = [
+    # Word error rate and alignment.
+    "jiwer>=4.0.0",
+    # Whisper's own text normalizer. Without it every model is penalised for
+    # punctuation and casing choices the reference happens not to share, which
+    # says nothing about whether the transcript is usable.
+    "whisper-normalizer>=0.1.0",
+    # tcpWER / ORC-WER / cpWER — the CHiME challenge scorer. Ships as an sdist
+    # with C++ extensions; it compiles against the Xcode command line tools.
+    "meeteval>=0.4.0",
+    # DER and JER. Pure Python, and notably does not drag in torch.
+    "pyannote.metrics>=4.0",
+    # A free second opinion on summaries, to catch the judge drifting.
+    "rouge-score>=0.1.2",
+    # The judge.
+    "google-genai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    # Corpus fetching.
+    "datasets>=3.0.0",
+    "huggingface-hub>=0.30.0",
+    "soundfile>=0.12.1",
+    "librosa>=0.10.0",
+    "requests>=2.31.0",
+    "tqdm>=4.66.0",
+]
+
+[tool.uv]
+package = false

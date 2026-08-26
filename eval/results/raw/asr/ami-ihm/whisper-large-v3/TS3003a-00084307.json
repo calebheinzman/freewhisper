@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.18,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00084307",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.3904751577183616,
+  "text" : "Maybe you can also write your name somewhere.",
+  "track" : "asr",
+  "wallSeconds" : 2.286988
+}

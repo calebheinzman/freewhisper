@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.69,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00057962",
+  "model" : "parakeet-v3",
+  "rtfx" : 28.458662635665494,
+  "text" : "Sword Yeah, it's it's a bit of a swordfish. Yeah, yeah, got an eye.",
+  "track" : "asr",
+  "wallSeconds" : 0.12966175
+}

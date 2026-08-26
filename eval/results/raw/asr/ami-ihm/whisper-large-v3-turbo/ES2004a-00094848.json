@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.58,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00094848",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.315622062127194,
+  "text" : "- I think that's a cost thing. I don't know how much we're gonna know about it.",
+  "track" : "asr",
+  "wallSeconds" : 1.381339584
+}

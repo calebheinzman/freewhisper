@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 13.695,
+  "dataset" : "librispeech",
+  "id" : "1320-122612-0011",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.766082889761647,
+  "text" : "if a rock or a rivulet or a bit of earth harder than common severed the links of the clue they followed the true eye of the scout recovered them at a distance and seldom rendered the delay of a single moment necessary",
+  "track" : "asr",
+  "wallSeconds" : 0.994836375
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.515,
+  "dataset" : "librispeech",
+  "id" : "1580-141083-0004",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.7773153390062086,
+  "text" : "i had to read it over carefully as the text must be absolutely correct",
+  "track" : "asr",
+  "wallSeconds" : 1.1952933749999999
+}

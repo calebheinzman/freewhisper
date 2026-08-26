@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.49,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00197756",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.6262502237231641,
+  "text" : "-Warning, finish meeting now. -Finish meeting now.",
+  "track" : "asr",
+  "wallSeconds" : 2.379240667
+}

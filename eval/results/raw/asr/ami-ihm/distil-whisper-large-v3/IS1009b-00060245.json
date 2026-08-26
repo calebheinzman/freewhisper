@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.48,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00060245",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.786634284388828,
+  "text" : "cup shape Yeah Yeah Uh huh Tug,",
+  "track" : "asr",
+  "wallSeconds" : 0.727024417
+}

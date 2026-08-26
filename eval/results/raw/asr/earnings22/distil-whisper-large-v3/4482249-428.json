@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.6199375,
+  "dataset" : "earnings22",
+  "id" : "4482249-428",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.877611271467828,
+  "text" : "three Q call. We have had the lowering age of eligibility, boosters, increase purchase agreements, and so on and so forth. So.",
+  "track" : "asr",
+  "wallSeconds" : 0.840348333
+}

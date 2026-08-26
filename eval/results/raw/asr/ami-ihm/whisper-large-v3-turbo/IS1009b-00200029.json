@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.24,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00200029",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.3076158453415525,
+  "text" : "do we agree on that in principle like money",
+  "track" : "asr",
+  "wallSeconds" : 1.147818792
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.300125,
+  "dataset" : "earnings22",
+  "id" : "4482249-392",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.9982455014889062,
+  "text" : "the least for contract manufacturing.",
+  "track" : "asr",
+  "wallSeconds" : 1.767742167
+}

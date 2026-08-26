@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 14.65,
+  "dataset" : "librispeech",
+  "id" : "1188-133604-0012",
+  "model" : "parakeet-v3",
+  "rtfx" : 83.91652453842332,
+  "text" : "It may be that a great colourless will use his utmost force of colour, as a singer his full power of voice. But, loud or low, the virtue is in both cases always in refinement, never in loudness.",
+  "track" : "asr",
+  "wallSeconds" : 0.17457825
+}

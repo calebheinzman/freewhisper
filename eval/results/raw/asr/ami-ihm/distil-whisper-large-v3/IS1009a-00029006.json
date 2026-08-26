@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00029006",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.430706241963678,
+  "text" : "So that it will record, okay. Traditional kitty cat.",
+  "track" : "asr",
+  "wallSeconds" : 0.672749333
+}

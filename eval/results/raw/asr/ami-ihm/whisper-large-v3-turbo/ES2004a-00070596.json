@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.95,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00070596",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.4690786946862304,
+  "text" : "- You didn't have six remote controls in front of you.",
+  "track" : "asr",
+  "wallSeconds" : 2.00806125
+}

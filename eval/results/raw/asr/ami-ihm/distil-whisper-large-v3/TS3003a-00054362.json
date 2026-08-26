@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.17,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00054362",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.4204517400070498,
+  "text" : "See, you have to do it real slow.",
+  "track" : "asr",
+  "wallSeconds" : 0.634419125
+}

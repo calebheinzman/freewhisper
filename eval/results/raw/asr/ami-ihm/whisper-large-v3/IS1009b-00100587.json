@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.01,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00100587",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.9026497316553702,
+  "text" : "That's right, yeah, that's a good point.",
+  "track" : "asr",
+  "wallSeconds" : 2.226777375
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.21,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00146818",
+  "model" : "parakeet-v3",
+  "rtfx" : 60.74669976535571,
+  "text" : "Okay, then I'll meet you in about a half half an hour, I think. Okay. Okay. So good luck. Yep.",
+  "track" : "asr",
+  "wallSeconds" : 0.135151375
+}

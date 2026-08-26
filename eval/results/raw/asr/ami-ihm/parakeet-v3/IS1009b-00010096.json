@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.77,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00010096",
+  "model" : "parakeet-v3",
+  "rtfx" : 26.89665292225046,
+  "text" : "Okay and now I can uh full screen.",
+  "track" : "asr",
+  "wallSeconds" : 0.102986792
+}

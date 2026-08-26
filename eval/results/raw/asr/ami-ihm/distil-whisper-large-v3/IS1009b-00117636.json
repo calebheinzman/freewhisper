@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.89,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00117636",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.677565292369714,
+  "text" : "It's actually there on the screen.",
+  "track" : "asr",
+  "wallSeconds" : 0.617842792
+}

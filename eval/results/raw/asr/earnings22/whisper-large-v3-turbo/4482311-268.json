@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.34,
+  "dataset" : "earnings22",
+  "id" : "4482311-268",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.114440122421144,
+  "text" : "Now, you start with wines and spirits up 8% compared to 2019.",
+  "track" : "asr",
+  "wallSeconds" : 1.2978679579999999
+}

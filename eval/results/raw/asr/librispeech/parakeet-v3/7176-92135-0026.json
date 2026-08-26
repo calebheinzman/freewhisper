@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.95,
+  "dataset" : "librispeech",
+  "id" : "7176-92135-0026",
+  "model" : "parakeet-v3",
+  "rtfx" : 26.882210355574188,
+  "text" : "Enter Hamlet, with his favourite boarhound,",
+  "track" : "asr",
+  "wallSeconds" : 0.109738
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.2,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00049331",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.9651516829391975,
+  "text" : "machines basically. Yeah, exactly.",
+  "track" : "asr",
+  "wallSeconds" : 1.119506458
+}

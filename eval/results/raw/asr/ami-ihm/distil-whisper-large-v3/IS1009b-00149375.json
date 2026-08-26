@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.4,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00149375",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.1049416146104707,
+  "text" : "Timer here. Timer. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.665101583
+}

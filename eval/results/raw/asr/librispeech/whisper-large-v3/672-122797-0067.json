@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 13.035,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0067",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.1084167353259526,
+  "text" : "the trunks were moved the tree was pulled out and thrown rather hard it is true down on the floor but a man drew him towards the stairs where the daylight shone",
+  "track" : "asr",
+  "wallSeconds" : 4.193453166
+}

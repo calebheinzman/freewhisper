@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.89,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00039438",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.660602282489945,
+  "text" : "Yeah, it can be a crocodile. It can be a crocodile. Well, it was... Firstly, it was an attempt at a T-Rex, and then it sort of changed into a pelican, but it can be a crocone.",
+  "track" : "asr",
+  "wallSeconds" : 1.230772125
+}

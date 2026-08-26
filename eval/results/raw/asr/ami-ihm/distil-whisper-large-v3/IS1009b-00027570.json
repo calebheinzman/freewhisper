@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.71,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00027570",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 1.891207896367629,
+  "text" : "silver sizzle.",
+  "track" : "asr",
+  "wallSeconds" : 0.904184042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.7,
+  "dataset" : "librispeech",
+  "id" : "6930-81414-0011",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7556209285703213,
+  "text" : "A feeling of freedom, and I was awake. Where?",
+  "track" : "asr",
+  "wallSeconds" : 2.6771155
+}

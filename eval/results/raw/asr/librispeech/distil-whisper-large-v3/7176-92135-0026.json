@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.95,
+  "dataset" : "librispeech",
+  "id" : "7176-92135-0026",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.340504484329676,
+  "text" : "Enter Hamlet with his favorite boar hound,",
+  "track" : "asr",
+  "wallSeconds" : 0.6796445
+}

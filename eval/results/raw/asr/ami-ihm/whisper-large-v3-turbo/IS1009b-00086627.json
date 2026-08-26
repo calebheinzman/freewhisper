@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.99,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00086627",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.4944491019961963,
+  "text" : "- Yeah, it's just a shape so it doesn't matter.",
+  "track" : "asr",
+  "wallSeconds" : 1.198661459
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.225,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0042",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.288332727548578,
+  "text" : "relocated footnote governor robinson being on his way east the steamboat on which he was travelling stopped at lexington missouri",
+  "track" : "asr",
+  "wallSeconds" : 0.817215458
+}

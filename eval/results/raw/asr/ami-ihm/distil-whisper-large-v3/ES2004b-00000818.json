@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.62,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00000818",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.9441864973238125,
+  "text" : "It's up there.",
+  "track" : "asr",
+  "wallSeconds" : 0.664268792
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00149124",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.6830533176814644,
+  "text" : "later and use it. Okay, it's like a timer. Timer, yeah. It's like a lock. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 1.5041867500000001
+}

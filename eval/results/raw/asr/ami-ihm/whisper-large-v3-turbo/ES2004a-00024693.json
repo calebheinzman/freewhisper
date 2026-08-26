@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.67,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00024693",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.6388041543549434,
+  "text" : "Okay, I'm not going to ask you to guess, I'm going to tell you that it's supposed to be a tiger.",
+  "track" : "asr",
+  "wallSeconds" : 1.3907815000000001
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.88,
+  "dataset" : "librispeech",
+  "id" : "5142-33396-0052",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.851780556101938,
+  "text" : "Here is a ring for Sift the Friendly, and here is a bracelet, and a sword would not be ashamed to hang at your side.",
+  "track" : "asr",
+  "wallSeconds" : 0.395912125
+}

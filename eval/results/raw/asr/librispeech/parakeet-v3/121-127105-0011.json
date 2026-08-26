@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.78,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0011",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.03168125259661,
+  "text" : "She was the most agreeable woman I've ever known in her position. She would have been worthy of any whatever.",
+  "track" : "asr",
+  "wallSeconds" : 0.148084833
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-196",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.079297568301295,
+  "text" : "We're looking at, for fashion and leather goods, we're looking at 42% above 2019.",
+  "track" : "asr",
+  "wallSeconds" : 2.831834958
+}

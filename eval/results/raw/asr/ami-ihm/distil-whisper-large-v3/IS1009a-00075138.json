@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.62,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00075138",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.147098617335464,
+  "text" : "And you know, you will get specific instructions for that. I think that's the end of the show. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.812559208
+}

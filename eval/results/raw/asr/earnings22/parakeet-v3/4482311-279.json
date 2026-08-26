@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.3799375,
+  "dataset" : "earnings22",
+  "id" : "4482311-279",
+  "model" : "parakeet-v3",
+  "rtfx" : 52.827939127639056,
+  "text" : "So we're still uh in in the in the red, but all in all uh this is quite a performance considering the circumstances.",
+  "track" : "asr",
+  "wallSeconds" : 0.158627
+}

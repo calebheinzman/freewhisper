@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.56,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00108020",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.3805652871008345,
+  "text" : "And then infrared bulbs. This is like when it is dark. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 1.269242583
+}

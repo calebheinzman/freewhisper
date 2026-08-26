@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.3400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-24",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.687919184548147,
+  "text" : "I would like to mention creative circularity.",
+  "track" : "asr",
+  "wallSeconds" : 1.9788047500000001
+}

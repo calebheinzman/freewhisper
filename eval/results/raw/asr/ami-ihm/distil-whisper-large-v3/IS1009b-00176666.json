@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.43,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00176666",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.3701521587299452,
+  "text" : "and a middle age but they can",
+  "track" : "asr",
+  "wallSeconds" : 0.603336792
+}

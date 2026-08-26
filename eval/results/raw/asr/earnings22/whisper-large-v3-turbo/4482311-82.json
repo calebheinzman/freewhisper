@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.6800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-82",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.3668912277038823,
+  "text" : "",
+  "track" : "asr",
+  "wallSeconds" : 1.5548084580000001
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.1599375,
+  "dataset" : "earnings22",
+  "id" : "4482249-497",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.565692376234347,
+  "text" : "and therefore it's a good visibility, but I wouldn't say that this 500 is, as I said, a scientifically precise number.",
+  "track" : "asr",
+  "wallSeconds" : 1.395121333
+}

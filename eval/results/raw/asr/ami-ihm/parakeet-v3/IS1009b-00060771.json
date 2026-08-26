@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.73,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00060771",
+  "model" : "parakeet-v3",
+  "rtfx" : 61.967906941665525,
+  "text" : "Yeah, exactly. Uh so today I'm going to talk about the working design of the remote controller. Okay. Um can you go to the next s slide please?",
+  "track" : "asr",
+  "wallSeconds" : 0.140879375
+}

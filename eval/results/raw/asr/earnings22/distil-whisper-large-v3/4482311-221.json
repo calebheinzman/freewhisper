@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.8799375,
+  "dataset" : "earnings22",
+  "id" : "4482311-221",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 12.468327471516533,
+  "text" : "So we were not back to the pre-crisis levels, but we still below, but there's a steady improvement.",
+  "track" : "asr",
+  "wallSeconds" : 0.792402792
+}

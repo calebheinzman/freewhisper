@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.6199375,
+  "dataset" : "earnings22",
+  "id" : "4482249-428",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.442066881374095,
+  "text" : "3Q calls. We have had the lowering age of eligibility, boosters, increased purchase agreements, and so on and so forth.",
+  "track" : "asr",
+  "wallSeconds" : 1.490283167
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.23,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00068457",
+  "model" : "parakeet-v3",
+  "rtfx" : 40.58678810647555,
+  "text" : "Uh I think it's wants to draw a another animal, I don't know.",
+  "track" : "asr",
+  "wallSeconds" : 0.128859667
+}

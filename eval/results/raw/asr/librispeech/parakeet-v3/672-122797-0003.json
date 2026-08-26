@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.76,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0003",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.42974581017947,
+  "text" : "But this was what the tree could not bear to hear.",
+  "track" : "asr",
+  "wallSeconds" : 0.120721042
+}

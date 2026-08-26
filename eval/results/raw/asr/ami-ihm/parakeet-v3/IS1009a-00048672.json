@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00048672",
+  "model" : "parakeet-v3",
+  "rtfx" : 64.03703266097872,
+  "text" : "So it should be a multi functional uh gadget that would um control all your household uh uh machines basically.",
+  "track" : "asr",
+  "wallSeconds" : 0.133360333
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.26,
+  "dataset" : "librispeech",
+  "id" : "3570-5696-0008",
+  "model" : "parakeet-v3",
+  "rtfx" : 46.37774985161515,
+  "text" : "But it is on other grounds worth noting that the term waste in the language of everyday life implies deprecation of what is characterized as wasteful,",
+  "track" : "asr",
+  "wallSeconds" : 0.156540583
+}

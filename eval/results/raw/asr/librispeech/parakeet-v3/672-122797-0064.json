@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.27,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0064",
+  "model" : "parakeet-v3",
+  "rtfx" : 65.40796918617293,
+  "text" : "At last the little mice stayed away also, and the tree sighed After all, it was very pleasant when the sleek little mice sat round me and listened to what I told them.",
+  "track" : "asr",
+  "wallSeconds" : 0.233457791
+}

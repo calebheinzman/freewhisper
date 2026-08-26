@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.88025,
+  "dataset" : "earnings22",
+  "id" : "4482249-461",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5812279048614775,
+  "text" : "But for 2023, I think the number will look a little bit different.",
+  "track" : "asr",
+  "wallSeconds" : 2.453947333
+}

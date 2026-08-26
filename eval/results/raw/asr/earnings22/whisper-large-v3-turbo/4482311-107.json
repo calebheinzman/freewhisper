@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.4600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-107",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.4225756251520005,
+  "text" : "The renovation work was started before we acquired it, and that flagship is set to renew -- to reopen at the end of the year.",
+  "track" : "asr",
+  "wallSeconds" : 1.628639834
+}

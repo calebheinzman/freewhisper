@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.1,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00018883",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.4298875741914165,
+  "text" : "Okay. I'll leave space for everyone else.",
+  "track" : "asr",
+  "wallSeconds" : 1.195374458
+}

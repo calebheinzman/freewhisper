@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.55,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00025341",
+  "model" : "parakeet-v3",
+  "rtfx" : 51.04353729542957,
+  "text" : "And we've got our user interface designer. Yep.",
+  "track" : "asr",
+  "wallSeconds" : 0.108730709
+}

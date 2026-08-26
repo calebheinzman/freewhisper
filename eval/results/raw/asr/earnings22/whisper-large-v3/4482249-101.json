@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.9400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-101",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.3281630688575927,
+  "text" : "and by almost 70% until the year",
+  "track" : "asr",
+  "wallSeconds" : 2.213630667
+}

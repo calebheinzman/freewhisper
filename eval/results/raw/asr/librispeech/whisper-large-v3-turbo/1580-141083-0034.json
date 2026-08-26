@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.99,
+  "dataset" : "librispeech",
+  "id" : "1580-141083-0034",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.939911726477085,
+  "text" : "as holmes drew the curtain i was aware from some little rigidity and an alertness of his attitude that he was prepared for an emergency",
+  "track" : "asr",
+  "wallSeconds" : 1.415005042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.5399375,
+  "dataset" : "earnings22",
+  "id" : "4482249-212",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.061663841633493,
+  "text" : "but when I say halfway under control, that means they are still and have been throughout the last couple of months longer than they usually are.",
+  "track" : "asr",
+  "wallSeconds" : 0.832069875
+}

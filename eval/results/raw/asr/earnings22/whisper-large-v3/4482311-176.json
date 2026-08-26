@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.58,
+  "dataset" : "earnings22",
+  "id" : "4482311-176",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.95554978867529,
+  "text" : "Of course, this is a recovery from last year, which had suffered the pandemic, but even from the year before that.",
+  "track" : "asr",
+  "wallSeconds" : 3.241359708
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.99,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00012240",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.59672053244543,
+  "text" : "is opening, acquaintance, tool training. Well, the tools, I think we already, I guess the tool is really our computer, as far as I can see.",
+  "track" : "asr",
+  "wallSeconds" : 0.9427445
+}

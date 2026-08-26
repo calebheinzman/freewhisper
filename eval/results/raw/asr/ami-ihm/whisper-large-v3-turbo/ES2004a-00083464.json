@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00083464",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.509360589306684,
+  "text" : "So that's a problem, regardless of any design modifications you come up with. That's going to be a problem anyway with the older generation, perhaps. And that's another issue how we tackle that.",
+  "track" : "asr",
+  "wallSeconds" : 1.815092666
+}

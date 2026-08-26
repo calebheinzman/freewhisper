@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.275,
+  "dataset" : "librispeech",
+  "id" : "1284-1180-0011",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.2171927193401055,
+  "text" : "I am, my dear, and all strangers are welcome to my home.",
+  "track" : "asr",
+  "wallSeconds" : 0.687609375
+}

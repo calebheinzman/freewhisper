@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-274",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.692629782541268,
+  "text" : "So these brands did extremely well in 2021.",
+  "track" : "asr",
+  "wallSeconds" : 1.218946042
+}

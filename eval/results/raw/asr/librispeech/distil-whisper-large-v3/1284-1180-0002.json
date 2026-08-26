@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.68,
+  "dataset" : "librispeech",
+  "id" : "1284-1180-0002",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.771394323782024,
+  "text" : "Instead of shoes, the old man wore boots with turnover tops, and his blue coat had wide cuffs of gold braid.",
+  "track" : "asr",
+  "wallSeconds" : 0.785967667
+}

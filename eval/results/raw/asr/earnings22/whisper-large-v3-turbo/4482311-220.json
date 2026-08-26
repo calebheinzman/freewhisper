@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.059875,
+  "dataset" : "earnings22",
+  "id" : "4482311-220",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.121754498218718,
+  "text" : "We were at minus 18, then minus 15, then minus 6% in Q3, and then plus 1% in Q4.",
+  "track" : "asr",
+  "wallSeconds" : 1.573655083
+}

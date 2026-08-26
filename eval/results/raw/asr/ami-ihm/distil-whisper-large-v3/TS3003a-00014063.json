@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.14,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00014063",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 1.9570734244695842,
+  "text" : "This is our agenda.",
+  "track" : "asr",
+  "wallSeconds" : 0.582502417
+}

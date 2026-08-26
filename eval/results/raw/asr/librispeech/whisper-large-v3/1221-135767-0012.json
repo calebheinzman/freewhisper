@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 13.885,
+  "dataset" : "librispeech",
+  "id" : "1221-135767-0012",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.829379188939955,
+  "text" : "they approached the door which was of an arched form and flanked on each side by a narrow tower or projection of the edifice in both of which were lattice windows the wooden shutters to close over them at need",
+  "track" : "asr",
+  "wallSeconds" : 4.907436958
+}

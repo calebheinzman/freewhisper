@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.72,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00087944",
+  "model" : "parakeet-v3",
+  "rtfx" : 31.61484282876356,
+  "text" : "They're brilliant animal animals. And that's just a little me thing.",
+  "track" : "asr",
+  "wallSeconds" : 0.11766625
+}

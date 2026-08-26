@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.2600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-45",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.0579226986011045,
+  "text" : "Likewise for cognac, supplies that are still below global demand.",
+  "track" : "asr",
+  "wallSeconds" : 1.170324875
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.08,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00121006",
+  "model" : "parakeet-v3",
+  "rtfx" : 33.720169241529426,
+  "text" : "So just on a side note, why is it my laptop is only giving me a black screen?",
+  "track" : "asr",
+  "wallSeconds" : 0.120995834
+}

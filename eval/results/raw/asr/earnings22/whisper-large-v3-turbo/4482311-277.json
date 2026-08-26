@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.019875,
+  "dataset" : "earnings22",
+  "id" : "4482311-277",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.012250714012755,
+  "text" : "Regarding selective retailing, we were losing money last year. Now we're back to in the black.",
+  "track" : "asr",
+  "wallSeconds" : 1.33392225
+}

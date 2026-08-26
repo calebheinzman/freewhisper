@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.3001875,
+  "dataset" : "earnings22",
+  "id" : "4482311-227",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.146125512872262,
+  "text" : "And even then, even then, we're looking at travel retail as Mr. Ardardis.",
+  "track" : "asr",
+  "wallSeconds" : 0.741686875
+}

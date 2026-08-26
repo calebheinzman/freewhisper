@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.0601875,
+  "dataset" : "earnings22",
+  "id" : "4482311-241",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.6708390378145155,
+  "text" : "perfumes and cosmetics back to their levels of 20.",
+  "track" : "asr",
+  "wallSeconds" : 1.145777584
+}

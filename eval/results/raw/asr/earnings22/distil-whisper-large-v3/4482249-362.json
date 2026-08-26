@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.2000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-362",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.803857877692146,
+  "text" : "I know you've been talking a bit about China expansion.",
+  "track" : "asr",
+  "wallSeconds" : 0.666144291
+}

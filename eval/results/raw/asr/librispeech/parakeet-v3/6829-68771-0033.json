@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.45,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0033",
+  "model" : "parakeet-v3",
+  "rtfx" : 40.59550008341444,
+  "text" : "she rose quickly to her feet, with an impetuous gesture that made her visitor catch her breath.",
+  "track" : "asr",
+  "wallSeconds" : 0.134251333
+}

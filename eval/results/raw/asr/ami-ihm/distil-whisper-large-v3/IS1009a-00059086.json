@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.17,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00059086",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.5757656232026163,
+  "text" : "people with a light or light.",
+  "track" : "asr",
+  "wallSeconds" : 0.606863041
+}

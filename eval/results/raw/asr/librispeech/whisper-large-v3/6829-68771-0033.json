@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.45,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0033",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8325708619635752,
+  "text" : "She rose quickly to her feet with an impetuous gesture that made her visitor catch her breath.",
+  "track" : "asr",
+  "wallSeconds" : 2.973964125
+}

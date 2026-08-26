@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.740125,
+  "dataset" : "earnings22",
+  "id" : "4482249-253",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.586624487686599,
+  "text" : "But of course, with M&A, it's always difficult to make such projections.",
+  "track" : "asr",
+  "wallSeconds" : 1.25149225
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.35,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00014966",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.498352959712041,
+  "text" : "Maybe I can sit down and I can take some notes or",
+  "track" : "asr",
+  "wallSeconds" : 2.672686292
+}

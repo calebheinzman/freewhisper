@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.28,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00105690",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.457677091386174,
+  "text" : "Well, it's supposed to be a cat. I like cats because uh",
+  "track" : "asr",
+  "wallSeconds" : 0.114262291
+}

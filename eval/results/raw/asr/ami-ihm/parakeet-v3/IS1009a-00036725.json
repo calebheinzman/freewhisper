@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.68,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00036725",
+  "model" : "parakeet-v3",
+  "rtfx" : 58.016833570892665,
+  "text" : "Here's a project finance, uh which of course we all have to think about when we design this thing. Um selling price is supposed to be twenty five euro.",
+  "track" : "asr",
+  "wallSeconds" : 0.14961175
+}

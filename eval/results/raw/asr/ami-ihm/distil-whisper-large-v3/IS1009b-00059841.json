@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.84,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00059841",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.149608991476795,
+  "text" : "No, it's like, well, you have to be here.",
+  "track" : "asr",
+  "wallSeconds" : 0.684401833
+}

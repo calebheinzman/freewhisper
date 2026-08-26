@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.64025,
+  "dataset" : "earnings22",
+  "id" : "4482311-235",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.646130224494025,
+  "text" : "So all the brands have performed extremely well, and they are very much, of course, they are driving the growth.",
+  "track" : "asr",
+  "wallSeconds" : 0.792053375
+}

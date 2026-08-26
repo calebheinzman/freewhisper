@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.24,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00200029",
+  "model" : "parakeet-v3",
+  "rtfx" : 55.39562152701397,
+  "text" : "Mm-hmm yeah. Do we agree uh uh removing like money?",
+  "track" : "asr",
+  "wallSeconds" : 0.13069625
+}

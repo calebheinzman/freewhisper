@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-92",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.460097208449726,
+  "text" : "extraordinary success in 2021, the Souraj Line become the world's leading fragrance, not just for men, but also beating all the existing women's",
+  "track" : "asr",
+  "wallSeconds" : 0.890042792
+}

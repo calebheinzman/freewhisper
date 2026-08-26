@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.31,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00033022",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.0041688517398053,
+  "text" : "No, no, no, no, that's okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.653637541
+}

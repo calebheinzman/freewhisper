@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.12,
+  "dataset" : "earnings22",
+  "id" : "4482311-222",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.286378861398413,
+  "text" : "And we can be proud of this because it means that our people were able to make up for the absence of tourists.",
+  "track" : "asr",
+  "wallSeconds" : 0.874398958
+}

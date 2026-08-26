@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.93,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089635",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.070872018002148,
+  "text" : "for children like an animal shape or a little animal",
+  "track" : "asr",
+  "wallSeconds" : 0.647353459
+}

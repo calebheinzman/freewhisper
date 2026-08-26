@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.14,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00037680",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.053742154793337,
+  "text" : "I think it's outstandingly good.",
+  "track" : "asr",
+  "wallSeconds" : 0.10671325
+}

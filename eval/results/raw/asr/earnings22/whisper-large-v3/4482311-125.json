@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.0800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-125",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0282134209586893,
+  "text" : "Japan, and we believe that the prospects are very good.",
+  "track" : "asr",
+  "wallSeconds" : 2.997742958
+}

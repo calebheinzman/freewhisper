@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.6199375,
+  "dataset" : "earnings22",
+  "id" : "4482249-428",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.6030972936807767,
+  "text" : "We have had the lowering age of eligibility, boosters, increased purchase agreement, and so on and so forth.",
+  "track" : "asr",
+  "wallSeconds" : 10.976566417
+}

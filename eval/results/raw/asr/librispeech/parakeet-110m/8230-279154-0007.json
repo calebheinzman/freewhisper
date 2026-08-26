@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.905,
+  "dataset" : "librispeech",
+  "id" : "8230-279154-0007",
+  "model" : "parakeet-110m",
+  "rtfx" : 64.99905239514152,
+  "text" : "Habit is a concept involving the occurrence of similar events at different times. If the behaviorist feels confident that there is such a phenomenon as habit, that can only be because he trusts his memory when it assures him that there have been other times.",
+  "track" : "asr",
+  "wallSeconds" : 0.244695875
+}

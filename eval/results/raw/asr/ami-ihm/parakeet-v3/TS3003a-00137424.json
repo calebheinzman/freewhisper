@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.1,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00137424",
+  "model" : "parakeet-v3",
+  "rtfx" : 10.769035631292814,
+  "text" : "I think it has to be shocked proof.",
+  "track" : "asr",
+  "wallSeconds" : 0.102144708
+}

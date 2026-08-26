@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00095879",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.3772921319067346,
+  "text" : "something. I mean, you and our,",
+  "track" : "asr",
+  "wallSeconds" : 0.698273459
+}

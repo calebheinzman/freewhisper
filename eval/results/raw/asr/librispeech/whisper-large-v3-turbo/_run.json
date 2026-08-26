@@ -1,0 +1,14 @@
+{
+  "dataset" : "librispeech",
+  "failureCount" : 0,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 200,
+  "model" : "whisper-large-v3-turbo",
+  "modelLoadSeconds" : 4.856415459,
+  "totalWallSeconds" : 290.103839541,
+  "track" : "asr"
+}

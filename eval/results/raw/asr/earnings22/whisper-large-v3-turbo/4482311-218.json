@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.86,
+  "dataset" : "earnings22",
+  "id" : "4482311-218",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.342048359870747,
+  "text" : "And now Europe is a more challenging story, and we mentioned this before. It's a more difficult situation, but here we can draw the lessons.",
+  "track" : "asr",
+  "wallSeconds" : 1.658539834
+}

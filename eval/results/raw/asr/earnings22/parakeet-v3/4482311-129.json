@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3,
+  "dataset" : "earnings22",
+  "id" : "4482311-129",
+  "model" : "parakeet-v3",
+  "rtfx" : 65.44088560248292,
+  "text" : "This year they launched the Chronomaster Sport that received the chronograph watch prize at the Grand Prix of Geneva.",
+  "track" : "asr",
+  "wallSeconds" : 0.157393958
+}

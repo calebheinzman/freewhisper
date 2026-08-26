@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.3400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-70",
+  "model" : "parakeet-v3",
+  "rtfx" : 45.260499627443366,
+  "text" : "The Maison d'Heur of Avenue Montaigne that was chosen in nineteen forty seven by Monsieur Dor is the first time",
+  "track" : "asr",
+  "wallSeconds" : 0.140079375
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.8200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-10",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 12.938635360167853,
+  "text" : "So that really is a high point of the year 2021 is the expansion of our fashion and leather goods business.",
+  "track" : "asr",
+  "wallSeconds" : 0.758972042
+}

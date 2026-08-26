@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.82,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00083499",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.458643639481161,
+  "text" : "It's a real dead sheet. For recognition.",
+  "track" : "asr",
+  "wallSeconds" : 1.305329708
+}

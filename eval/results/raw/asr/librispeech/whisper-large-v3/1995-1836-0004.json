@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 33.91,
+  "dataset" : "librispeech",
+  "id" : "1995-1836-0004",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.326251466038835,
+  "text" : "as she awaited her guest she surveyed the table with both satisfaction and disquietude for her social functions were few to-night there were she checked them off on her fingers sir james crichton the rich english manufacturer and lady crichton mr and mrs vanderpoel mr harry cresswell and his sister john taylor and his sister and mr charles smith whom the evening papers mentioned as likely to be united states senator from new jersey a selection of guests that had been determined unknown to the hostess by the meeting of cotton interests earlier in the day",
+  "track" : "asr",
+  "wallSeconds" : 10.194659167
+}

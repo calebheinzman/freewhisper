@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.300125,
+  "dataset" : "earnings22",
+  "id" : "4482249-392",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.761801380439838,
+  "text" : "the least for contract manufacturing.",
+  "track" : "asr",
+  "wallSeconds" : 0.604912708
+}

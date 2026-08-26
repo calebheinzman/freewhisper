@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.03,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00006154",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.5413718467717944,
+  "text" : "Yeah, that's a good plan.",
+  "track" : "asr",
+  "wallSeconds" : 1.902574
+}

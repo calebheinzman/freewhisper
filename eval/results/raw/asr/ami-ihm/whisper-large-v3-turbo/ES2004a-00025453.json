@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00025453",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.504499937157845,
+  "text" : "And I see them as majestic.",
+  "track" : "asr",
+  "wallSeconds" : 1.082052333
+}

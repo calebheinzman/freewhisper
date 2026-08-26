@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.47,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00074982",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7242513149878929,
+  "text" : "And symbols that you don't necessarily understand. Symbols you're meant to understand that you don't.",
+  "track" : "asr",
+  "wallSeconds" : 3.172391375
+}

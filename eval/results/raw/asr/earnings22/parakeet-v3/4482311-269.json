@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.92025,
+  "dataset" : "earnings22",
+  "id" : "4482311-269",
+  "model" : "parakeet-v3",
+  "rtfx" : 17.17510372642137,
+  "text" : "Uh this is more than the uh growth in revenue, so we can certainly be pleased with that fact.",
+  "track" : "asr",
+  "wallSeconds" : 0.286475708
+}

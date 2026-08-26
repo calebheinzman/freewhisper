@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.35,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00042120",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.230408053371037,
+  "text" : "Yeah, and I'll have to think on the spot of things that it is.",
+  "track" : "asr",
+  "wallSeconds" : 1.264653417
+}

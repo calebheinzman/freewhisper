@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.54,
+  "dataset" : "librispeech",
+  "id" : "3570-5695-0014",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.917042770513739,
+  "text" : "Among the country population, its place is to some extent taken by savings and home comforts known through the medium of neighborhood gossip sufficiently to serve the like general purpose of pecuniary repute.",
+  "track" : "asr",
+  "wallSeconds" : 1.062816834
+}

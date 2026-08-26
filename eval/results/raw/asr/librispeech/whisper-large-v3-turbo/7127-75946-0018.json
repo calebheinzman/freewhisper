@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.14,
+  "dataset" : "librispeech",
+  "id" : "7127-75946-0018",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.387196161165966,
+  "text" : "there was something in his carriage which resembled the buoyant movements of an immortal and he did not dance so much as seemed to soar along",
+  "track" : "asr",
+  "wallSeconds" : 1.430987834
+}

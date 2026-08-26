@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 14.65,
+  "dataset" : "librispeech",
+  "id" : "1188-133604-0012",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.0835071621031287,
+  "text" : "it may be that a great colorist will use his utmost force of color as a singer his full power of voice but loud or low the virtue is in both cases always in refinement never in loudness",
+  "track" : "asr",
+  "wallSeconds" : 4.7510835
+}

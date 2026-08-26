@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.85,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00084373",
+  "model" : "parakeet-v3",
+  "rtfx" : 44.200035792206755,
+  "text" : "Well it just needs to be as long as it's sort of self intuitive and you can you can work out",
+  "track" : "asr",
+  "wallSeconds" : 0.132352834
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00029006",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.598605175862253,
+  "text" : "So that it will record. Okay. Um, well, um, traditional kitty cat.",
+  "track" : "asr",
+  "wallSeconds" : 2.959279875
+}

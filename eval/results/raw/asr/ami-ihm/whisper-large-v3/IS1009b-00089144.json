@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.84,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089144",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7377406634140533,
+  "text" : "Because we had something sort of sexy for adults. Yeah. We could have something sort of... Silly for children. Silly for children. Like an animal. Or a little animal shape. Or a little elephant so they can remember where it is. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 6.81344475
+}

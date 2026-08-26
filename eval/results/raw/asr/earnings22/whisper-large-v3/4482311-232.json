@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.4200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-232",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2179181478130867,
+  "text" : "regarding wine and spirits growth, almost double-digit growth driven by champagne and cognac in the United States and in China, by the way.",
+  "track" : "asr",
+  "wallSeconds" : 3.796381083
+}

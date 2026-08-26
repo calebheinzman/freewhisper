@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.35,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00042120",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2237033435028635,
+  "text" : "Yeah, and I think on the spot of things that is.",
+  "track" : "asr",
+  "wallSeconds" : 2.405896459
+}

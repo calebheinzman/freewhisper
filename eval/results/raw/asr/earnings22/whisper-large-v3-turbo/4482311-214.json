@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.4600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-214",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.850328997947399,
+  "text" : "But if we look at the first half and the second half of the year, first half we were at minus three in H2 plus 13. So growth accelerated considerably in the second half.",
+  "track" : "asr",
+  "wallSeconds" : 2.362739209
+}

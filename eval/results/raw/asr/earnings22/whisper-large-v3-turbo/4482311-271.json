@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.88,
+  "dataset" : "earnings22",
+  "id" : "4482311-271",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.00945612324876,
+  "text" : "We're looking at a plus 75% improvement, which speaks for itself.",
+  "track" : "asr",
+  "wallSeconds" : 1.31126675
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.1600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-212",
+  "model" : "parakeet-v3",
+  "rtfx" : 35.977337005134416,
+  "text" : "Japan uh had an overall growth of five percent over the year.",
+  "track" : "asr",
+  "wallSeconds" : 0.115630084
+}

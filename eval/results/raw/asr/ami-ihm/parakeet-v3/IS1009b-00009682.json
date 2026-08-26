@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.04,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00009682",
+  "model" : "parakeet-v3",
+  "rtfx" : 18.63946386761858,
+  "text" : "Fine purpose isn't four, I believe, yes.",
+  "track" : "asr",
+  "wallSeconds" : 0.109445208
+}

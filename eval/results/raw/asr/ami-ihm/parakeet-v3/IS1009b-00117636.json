@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.89,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00117636",
+  "model" : "parakeet-v3",
+  "rtfx" : 26.218918900529143,
+  "text" : "Uh it's actually there in uh there on the screen.",
+  "track" : "asr",
+  "wallSeconds" : 0.11022575
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.67,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00003704",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.2455388850355793,
+  "text" : "Oh, right, okay.",
+  "track" : "asr",
+  "wallSeconds" : 1.189024166
+}

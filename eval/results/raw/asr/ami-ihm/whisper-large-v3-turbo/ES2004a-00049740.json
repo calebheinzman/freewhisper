@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.58,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00049740",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.154096972170654,
+  "text" : "That's my dreadful, that's the worst, yeah.",
+  "track" : "asr",
+  "wallSeconds" : 1.197717667
+}

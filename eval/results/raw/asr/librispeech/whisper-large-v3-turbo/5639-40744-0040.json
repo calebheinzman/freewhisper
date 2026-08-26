@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 12.51,
+  "dataset" : "librispeech",
+  "id" : "5639-40744-0040",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.833064313073993,
+  "text" : "this was done for the event took place at a time when the consent of the parties was sufficient for the celebration of a marriage without any of the preliminary formalities which are now so properly required",
+  "track" : "asr",
+  "wallSeconds" : 1.597076125
+}

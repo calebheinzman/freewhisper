@@ -1,0 +1,36 @@
+{
+  "dataset" : "ami-summ",
+  "id" : "IS1009b",
+  "inputChars" : 34112,
+  "model" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit",
+  "summary" : {
+    "actionItems" : [
+      "Speaker 3 to present next slide with specific, actionable feature list and remote design concepts by end of week",
+      "User Interface team to evaluate button mapping, tactile feedback, and mode switching usability by next meeting",
+      "Team to assess production cost of modular casing and color packs for subgroup adaptations by next meeting"
+    ],
+    "keyPoints" : [
+      "Remote limited to single device control; no multi-device or whole-house functionality due to budget and time constraints",
+      "Core features: power on\/off, volume, channel, timer, child lock, and clock display; all within existing circuit",
+      "Design emphasizes simplicity, visibility, and impulse appeal with fluorescent buttons, light emission, and beep on multi-press",
+      "Modular casing with interchangeable cosmetic covers (colors, shapes) enables cost-effective customization for elderly, children, and adults",
+      "Final price point set at €25 to drive impulse purchase; marketing slogan proposed as 'Fashion in electronics'",
+      "No teletext or complex systems included; higher management directives exclude outdated or high-risk features"
+    ],
+    "speakerNames" : {
+      "Speaker 2" : "Francine",
+      "Speaker 3" : "Sarah",
+      "Speaker 4" : "Betsy"
+    },
+    "summary" : "The team finalizes a single, simple remote control for Christmas 2024 launch at €25, focusing on impulse purchase appeal. It includes core features like TV control, volume, channel, timer, child lock, and a clock display, with no multi-device or whole-house support. Design prioritizes simplicity, visibility, and usability, featuring fluorescent buttons, light emission, and a beep on multi-button press. A modular casing allows cosmetic and functional variations for different user groups—children, elderly, and adults—without changing core electronics, keeping costs under budget.",
+    "tags" : [
+      "remote-control",
+      "product-design",
+      "impulse-buy",
+      "user-centered-design"
+    ],
+    "title" : "Remote Control Design Decisions"
+  },
+  "track" : "summarize",
+  "wallSeconds" : 82.493568042
+}

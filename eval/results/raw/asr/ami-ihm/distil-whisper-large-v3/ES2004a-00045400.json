@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.94,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00045400",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.266389073142559,
+  "text" : "I'll hope that clicks in. I'll hold it on.",
+  "track" : "asr",
+  "wallSeconds" : 0.689107334
+}

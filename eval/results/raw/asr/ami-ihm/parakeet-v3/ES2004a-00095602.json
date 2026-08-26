@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.05,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00095602",
+  "model" : "parakeet-v3",
+  "rtfx" : 18.95887285006266,
+  "text" : "But it might have been a little bit more.",
+  "track" : "asr",
+  "wallSeconds" : 0.108128791
+}

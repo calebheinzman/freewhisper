@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00006079",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.265606503462672,
+  "text" : "I think the marketing manager probably should go first, addressing the needs and desires",
+  "track" : "asr",
+  "wallSeconds" : 1.242022167
+}

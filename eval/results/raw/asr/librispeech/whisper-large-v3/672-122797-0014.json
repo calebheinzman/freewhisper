@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.555,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0014",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1180700378597463,
+  "text" : "\"'were I but already on the cart.'",
+  "track" : "asr",
+  "wallSeconds" : 2.2851877910000002
+}

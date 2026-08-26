@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.680125,
+  "dataset" : "earnings22",
+  "id" : "4482311-52",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2089545273578155,
+  "text" : "and Louis Vuitton is far more than just a fashion company.",
+  "track" : "asr",
+  "wallSeconds" : 2.57140875
+}

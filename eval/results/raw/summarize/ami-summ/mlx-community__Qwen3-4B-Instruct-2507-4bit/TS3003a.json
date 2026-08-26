@@ -1,0 +1,34 @@
+{
+  "dataset" : "ami-summ",
+  "id" : "TS3003a",
+  "inputChars" : 14242,
+  "model" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit",
+  "summary" : {
+    "actionItems" : [
+      "Bart to document meeting minutes and place in project folder by next meeting",
+      "Speaker 1 to lead review of infrared functionality, battery display, and waterproofing requirements"
+    ],
+    "keyPoints" : [
+      "Project name corrected to Real Reaction; phases: functional → conceptual → detailed",
+      "Team conducted whiteboard drawing exercise with animal sketches; emphasized slow, clear lines and personalization",
+      "Key features: multi-device infrared support, shock\/waterproofing, and battery status display",
+      "Selling price €25, production cost capped at €12.50, profit target €50M",
+      "Focus on international market and cost control; no remotes with small TVs"
+    ],
+    "speakerNames" : {
+      "Speaker 1" : "Bart",
+      "Speaker 2" : "Frank",
+      "Speaker 3" : "Industrial Designer",
+      "Speaker 4" : "UI Designer"
+    },
+    "summary" : "The team finalized the project name as 'Real Reaction' and outlined a three-phase design process: functional, conceptual, and detailed. They conducted a whiteboard drawing exercise to practice tool use, with participants drawing animals like dolphins, swordfish, and rabbits, emphasizing slow, clear lines and personalization. Key design features discussed include multi-device support via infrared, shock and waterproofing, and a battery status display. The team agreed on a €25 selling price, €12.50 max production cost, and a €50M profit target, with focus on international market needs and cost efficiency.",
+    "tags" : [
+      "remote control design",
+      "international market",
+      "user experience"
+    ],
+    "title" : "Real Reaction Remote Design Kickoff"
+  },
+  "track" : "summarize",
+  "wallSeconds" : 35.004516333
+}

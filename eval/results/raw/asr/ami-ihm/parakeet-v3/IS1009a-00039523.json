@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.28,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00039523",
+  "model" : "parakeet-v3",
+  "rtfx" : 29.079926034853496,
+  "text" : "Okay, that should keep everybody on their toes and challenged.",
+  "track" : "asr",
+  "wallSeconds" : 0.112792584
+}

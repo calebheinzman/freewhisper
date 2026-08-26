@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.76,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00198668",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9803602490220302,
+  "text" : "these points at our next meeting but but I think I think to say",
+  "track" : "asr",
+  "wallSeconds" : 2.403603083
+}

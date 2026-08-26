@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.75,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00112017",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.7894047448412682,
+  "text" : "Yeah, I'm bugging you into the next one.",
+  "track" : "asr",
+  "wallSeconds" : 2.21686025
+}

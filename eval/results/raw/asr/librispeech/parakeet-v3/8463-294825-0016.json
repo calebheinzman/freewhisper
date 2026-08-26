@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.475,
+  "dataset" : "librispeech",
+  "id" : "8463-294825-0016",
+  "model" : "parakeet-v3",
+  "rtfx" : 36.41245753575133,
+  "text" : "Milligram, roughly one twenty eight thousandth of an ounce.",
+  "track" : "asr",
+  "wallSeconds" : 0.1228975
+}

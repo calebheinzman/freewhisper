@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.65,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00079796",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.213627378132019,
+  "text" : "Then we see you in about 30 minutes and see what we can come up with. We can come up with.",
+  "track" : "asr",
+  "wallSeconds" : 0.783239791
+}

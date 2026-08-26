@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.39,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00149432",
+  "model" : "parakeet-v3",
+  "rtfx" : 31.006523049878805,
+  "text" : "Timer. Yeah. And then you can use a timer as well.",
+  "track" : "asr",
+  "wallSeconds" : 0.109331833
+}

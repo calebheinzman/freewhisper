@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.9000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-84",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.18081659147608,
+  "text" : "great brand, growing strong, with J.W. Anderson.",
+  "track" : "asr",
+  "wallSeconds" : 1.172034791
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-65",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.227950852274795,
+  "text" : "Kim Jones's latest show was a perfect illustration of Monsieur Gerelle of his style, his elegance, his refinement, and",
+  "track" : "asr",
+  "wallSeconds" : 0.977922209
+}

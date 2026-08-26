@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.1200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-99",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.4471149415423943,
+  "text" : "and many perfumed successes with its haute parfumerie, l'art et la matière, un aqua allegoria.",
+  "track" : "asr",
+  "wallSeconds" : 4.135507625
+}

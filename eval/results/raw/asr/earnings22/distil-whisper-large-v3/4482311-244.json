@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.4400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-244",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.272044241839339,
+  "text" : "And selective retailing, of course, all in the red at minus 18%. But Q4 is reaching, is getting back to the levels of 2019.",
+  "track" : "asr",
+  "wallSeconds" : 0.861966875
+}

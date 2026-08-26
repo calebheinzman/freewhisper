@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.62,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00082135",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.345675432852493,
+  "text" : "dream of texting or something like that. Can he program his remote control or is he basic with that too? and",
+  "track" : "asr",
+  "wallSeconds" : 2.822214833
+}

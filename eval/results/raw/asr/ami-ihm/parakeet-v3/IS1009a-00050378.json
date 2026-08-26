@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.97,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00050378",
+  "model" : "parakeet-v3",
+  "rtfx" : 25.365582092452478,
+  "text" : "Well, who knows if we get a really good designer maybe we can do that.",
+  "track" : "asr",
+  "wallSeconds" : 0.117087792
+}

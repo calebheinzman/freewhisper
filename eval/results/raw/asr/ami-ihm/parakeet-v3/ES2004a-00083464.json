@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00083464",
+  "model" : "parakeet-v3",
+  "rtfx" : 52.54843487770994,
+  "text" : "So that's a problem, regardless of of any design modifications you you come up with. Yeah. That's gonna be a problem anyway with the older generation perhaps. And that's another issue how we tackle that.",
+  "track" : "asr",
+  "wallSeconds" : 0.190300625
+}

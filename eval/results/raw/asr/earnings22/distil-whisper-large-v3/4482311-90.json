@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.7400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-90",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.455619292937295,
+  "text" : "also strong growth, strong growth of perfume and skin",
+  "track" : "asr",
+  "wallSeconds" : 0.635770459
+}

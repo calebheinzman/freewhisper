@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.3199375,
+  "dataset" : "earnings22",
+  "id" : "4482311-283",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.7049060028609384,
+  "text" : "And in 20 years, this is the first time we have no currency effect.",
+  "track" : "asr",
+  "wallSeconds" : 1.227376292
+}

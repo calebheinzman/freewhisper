@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.02,
+  "dataset" : "earnings22",
+  "id" : "4482311-139",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.1486109083253595,
+  "text" : "and is very good in terms of the current climate, where even during the year 21, a number of stores were closed.",
+  "track" : "asr",
+  "wallSeconds" : 1.401670916
+}

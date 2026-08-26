@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.4200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-231",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.024200998766917,
+  "text" : "But, of course, challenges remain at DFS, and you know all about that.",
+  "track" : "asr",
+  "wallSeconds" : 0.71142725
+}

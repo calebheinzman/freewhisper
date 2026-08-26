@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.29,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00087295",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.690035041770823,
+  "text" : "I find it really confusing. I kept getting lost in the phone. I have not got a new one, but I have my friend got a new one. And I'm trying to do things with it. And I just kept getting lost. But...",
+  "track" : "asr",
+  "wallSeconds" : 1.338095333
+}

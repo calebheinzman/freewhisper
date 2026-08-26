@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.3600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-200",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.896972903481718,
+  "text" : "Well, it's not as just spectacular, but the first country now is – the United States with 26 percent, two points, two percent of point.",
+  "track" : "asr",
+  "wallSeconds" : 0.844709042
+}

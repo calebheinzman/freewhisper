@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.6600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-25",
+  "model" : "parakeet-v3",
+  "rtfx" : 43.810669971889816,
+  "text" : "That is the recycling of uh our materials there.",
+  "track" : "asr",
+  "wallSeconds" : 0.106368209
+}

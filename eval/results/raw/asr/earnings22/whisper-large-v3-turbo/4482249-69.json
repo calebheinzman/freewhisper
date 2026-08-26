@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.7800625,
+  "dataset" : "earnings22",
+  "id" : "4482249-69",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.6736380895948924,
+  "text" : "The strong EVDA, of course, contributes also to a strong operating cash flow.",
+  "track" : "asr",
+  "wallSeconds" : 1.4138272920000001
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.1600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-87",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.214971441350547,
+  "text" : "detail. I may be just to indicate that we have a new designer at Kenzo",
+  "track" : "asr",
+  "wallSeconds" : 0.700938083
+}

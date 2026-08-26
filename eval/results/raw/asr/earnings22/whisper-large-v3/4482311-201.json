@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.240125,
+  "dataset" : "earnings22",
+  "id" : "4482311-201",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0010902626750195,
+  "text" : "The first region is Asia, 35% of sales up five points in two years.",
+  "track" : "asr",
+  "wallSeconds" : 2.6186350000000003
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.84,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00037725",
+  "model" : "parakeet-v3",
+  "rtfx" : 65.32910738749158,
+  "text" : "uh profit aim for the company is fifty million euro The market range unlimited, meaning international.",
+  "track" : "asr",
+  "wallSeconds" : 0.135314875
+}

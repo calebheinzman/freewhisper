@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.97,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00071171",
+  "model" : "parakeet-v3",
+  "rtfx" : 31.045660220998492,
+  "text" : "Uh working design, yeah. It's it's uh mainly technical functional design.",
+  "track" : "asr",
+  "wallSeconds" : 0.127876166
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.55,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00025341",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.95848958896496,
+  "text" : "And we've got our user interface designer.",
+  "track" : "asr",
+  "wallSeconds" : 1.119292458
+}

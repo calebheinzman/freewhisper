@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.27,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00027468",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.6543713552288394,
+  "text" : "You want to go, Eileen?",
+  "track" : "asr",
+  "wallSeconds" : 1.940794
+}

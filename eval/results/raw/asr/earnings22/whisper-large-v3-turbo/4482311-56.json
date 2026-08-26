@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-56",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.4331923637583155,
+  "text" : "It was far more than a fashion shape.",
+  "track" : "asr",
+  "wallSeconds" : 1.117898667
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.315,
+  "dataset" : "librispeech",
+  "id" : "6930-76324-0020",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.810082055331618,
+  "text" : "Yet, little as it was, it had already made a vast difference in the aspect of the room.",
+  "track" : "asr",
+  "wallSeconds" : 0.80857025
+}

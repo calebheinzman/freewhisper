@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.939875,
+  "dataset" : "earnings22",
+  "id" : "4482249-513",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.8482165434163194,
+  "text" : "Exactly, Hugo.",
+  "track" : "asr",
+  "wallSeconds" : 1.032181
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.440125,
+  "dataset" : "earnings22",
+  "id" : "4482311-4",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4998765312931703,
+  "text" : "It's a very pleasant meeting.",
+  "track" : "asr",
+  "wallSeconds" : 2.293605459
+}

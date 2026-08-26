@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.5000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-46",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.415867301030153,
+  "text" : "So sales that are strongly up, but as I say, limited by the supply constraints.",
+  "track" : "asr",
+  "wallSeconds" : 2.6905710000000003
+}

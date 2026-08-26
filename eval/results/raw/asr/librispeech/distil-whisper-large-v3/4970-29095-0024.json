@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.04,
+  "dataset" : "librispeech",
+  "id" : "4970-29095-0024",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.232754785850291,
+  "text" : "it has occupied mother a long time to find at the shops the exact shade for her new bonnet",
+  "track" : "asr",
+  "wallSeconds" : 0.733654792
+}

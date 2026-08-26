@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.515,
+  "dataset" : "librispeech",
+  "id" : "5142-33396-0063",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.177123967299858,
+  "text" : "and would he not be a good gift for our baby",
+  "track" : "asr",
+  "wallSeconds" : 1.15519375
+}

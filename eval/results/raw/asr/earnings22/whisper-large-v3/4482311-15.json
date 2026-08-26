@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-15",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.493916058948999,
+  "text" : "I don't believe that they will fully resume before the year 2023 or possibly even 24.",
+  "track" : "asr",
+  "wallSeconds" : 2.895070375
+}

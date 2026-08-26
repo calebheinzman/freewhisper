@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.42,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00048126",
+  "model" : "parakeet-v3",
+  "rtfx" : 30.42192623150782,
+  "text" : "Oh dear, it doesn't look qu like what I want it to be.",
+  "track" : "asr",
+  "wallSeconds" : 0.112418917
+}

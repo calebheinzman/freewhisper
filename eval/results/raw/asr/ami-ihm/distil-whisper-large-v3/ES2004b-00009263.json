@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.49,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00009263",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.182254126664526,
+  "text" : "We decided upon a universal control. One handset for all TV videos.",
+  "track" : "asr",
+  "wallSeconds" : 0.706798125
+}

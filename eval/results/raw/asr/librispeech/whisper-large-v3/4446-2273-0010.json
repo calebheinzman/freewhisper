@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 12.44,
+  "dataset" : "librispeech",
+  "id" : "4446-2273-0010",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.4058917662213783,
+  "text" : "there was watercress soup and sole and a delightful omelette stuffed with mushrooms and truffles and two small rare ducklings and artichokes and a dry yellow roan wine of which bartley had always been very fond",
+  "track" : "asr",
+  "wallSeconds" : 5.170639916
+}

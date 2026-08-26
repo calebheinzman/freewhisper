@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.81,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00056599",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.077809428225635,
+  "text" : "Who would be next? I guess that would be you. Yeah. You want me to get your slide show up? Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.874197916
+}

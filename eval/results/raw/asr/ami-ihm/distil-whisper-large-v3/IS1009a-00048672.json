@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00048672",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.62732592218633,
+  "text" : "So it should be a multifunctional gadget that would control all your household machines, basically. Yes.",
+  "track" : "asr",
+  "wallSeconds" : 0.803588792
+}

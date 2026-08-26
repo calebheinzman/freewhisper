@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.54,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0010",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.8408320280817785,
+  "text" : "of the lynchings the mobs and the murders it would be impossible except in a very extended work to note the frequent and atrocious details",
+  "track" : "asr",
+  "wallSeconds" : 1.462120458
+}

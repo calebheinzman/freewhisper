@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.6800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-202",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.164494614316316,
+  "text" : "and these five points and two points were taken away from Europe, which was down seven points, seven percent of points in a matter of two years.",
+  "track" : "asr",
+  "wallSeconds" : 0.853959083
+}

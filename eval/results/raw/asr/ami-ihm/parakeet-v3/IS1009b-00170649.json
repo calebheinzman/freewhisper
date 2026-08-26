@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.18,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00170649",
+  "model" : "parakeet-v3",
+  "rtfx" : 22.60565608862297,
+  "text" : "Do we look at one target group?",
+  "track" : "asr",
+  "wallSeconds" : 0.096436042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00120107",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.693028604709028,
+  "text" : "No, no, I'm three.",
+  "track" : "asr",
+  "wallSeconds" : 0.616406375
+}

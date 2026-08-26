@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.999875,
+  "dataset" : "earnings22",
+  "id" : "4482311-250",
+  "model" : "parakeet-v3",
+  "rtfx" : 31.015047614432138,
+  "text" : "And here we are looking at two point three percentage points. So a remarkable performance.",
+  "track" : "asr",
+  "wallSeconds" : 0.128965625
+}

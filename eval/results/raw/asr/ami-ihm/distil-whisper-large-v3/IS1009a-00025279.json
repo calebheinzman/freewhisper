@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.9,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00025279",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.8696463160915413,
+  "text" : "After we finish the remote control, we'll get to that.",
+  "track" : "asr",
+  "wallSeconds" : 0.6621025
+}

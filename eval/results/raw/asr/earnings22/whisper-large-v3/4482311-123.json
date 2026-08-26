@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.6800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-123",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1875080949043255,
+  "text" : "Well, Shomir needs no introduction. There",
+  "track" : "asr",
+  "wallSeconds" : 3.098978875
+}

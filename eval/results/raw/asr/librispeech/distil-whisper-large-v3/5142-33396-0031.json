@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.845,
+  "dataset" : "librispeech",
+  "id" : "5142-33396-0031",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.55412405279023,
+  "text" : "they set up a crane over the fire and hung the pot upon it and we sat and watched it boil while we joked at last the supper began",
+  "track" : "asr",
+  "wallSeconds" : 0.9171015
+}

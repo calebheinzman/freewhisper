@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.655,
+  "dataset" : "librispeech",
+  "id" : "2094-142345-0055",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.2457518653538533,
+  "text" : "\"'But you know more about that than I do, sir.'",
+  "track" : "asr",
+  "wallSeconds" : 1.182232125
+}

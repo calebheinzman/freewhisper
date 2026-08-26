@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.02,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00200145",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 0.9424811601943083,
+  "text" : "Do we agree Do we",
+  "track" : "asr",
+  "wallSeconds" : 1.08224975
+}

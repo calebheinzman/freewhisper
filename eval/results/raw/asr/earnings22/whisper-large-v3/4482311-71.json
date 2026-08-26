@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-71",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.8351964904630584,
+  "text" : "He said, I'm going to establish my shop there and nowhere else.",
+  "track" : "asr",
+  "wallSeconds" : 2.461932541
+}

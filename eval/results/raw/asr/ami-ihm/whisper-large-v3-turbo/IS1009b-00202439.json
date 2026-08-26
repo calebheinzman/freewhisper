@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00202439",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.258294877008317,
+  "text" : "And we'll see you once a lunch.",
+  "track" : "asr",
+  "wallSeconds" : 1.111458041
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.3000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-191",
+  "model" : "parakeet-v3",
+  "rtfx" : 48.14526886099492,
+  "text" : "We were not in the trough of the first uh half of the year with the shops closed down, and yet we were up twenty four percent.",
+  "track" : "asr",
+  "wallSeconds" : 0.15162575
+}

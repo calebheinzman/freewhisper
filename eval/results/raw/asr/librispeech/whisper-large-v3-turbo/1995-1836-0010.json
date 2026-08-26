@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 24.45,
+  "dataset" : "librispeech",
+  "id" : "1995-1836-0010",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 10.412946252108608,
+  "text" : "The Vanderpools were sure of this and the Englishmen, instancing India, became quite eloquent. Mrs. Gray was mystified but hardly dared admit it. The general trend of the conversation seemed to be that most individuals needed to be submitted to the sharpest scrutiny before being allowed much education. And as for the lower races, it was simply criminal to open such useless opportunities to them.",
+  "track" : "asr",
+  "wallSeconds" : 2.348038625
+}

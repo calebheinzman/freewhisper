@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.6200625,
+  "dataset" : "earnings22",
+  "id" : "4482249-333",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 8.15267479301705,
+  "text" : "and we have started to pass those price increases forward to customers.",
+  "track" : "asr",
+  "wallSeconds" : 1.1799884999999999
+}

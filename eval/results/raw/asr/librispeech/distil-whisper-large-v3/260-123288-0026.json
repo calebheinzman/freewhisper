@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 16.04,
+  "dataset" : "librispeech",
+  "id" : "260-123288-0026",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 15.352369298180651,
+  "text" : "we shall be blown up but no the dazzling disk of mysterious light nimbly leaps aside it approaches hans who fixes his blue eye upon it steadily it threatens the head of my uncle who falls upon his knees with his head down to avoid it",
+  "track" : "asr",
+  "wallSeconds" : 1.044789875
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.78,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00111068",
+  "model" : "parakeet-v3",
+  "rtfx" : 17.596279078963303,
+  "text" : "To keep the remote? Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.10115775
+}

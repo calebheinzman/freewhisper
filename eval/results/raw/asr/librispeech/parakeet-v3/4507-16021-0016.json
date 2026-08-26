@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 17.265,
+  "dataset" : "librispeech",
+  "id" : "4507-16021-0016",
+  "model" : "parakeet-v3",
+  "rtfx" : 80.24601340803285,
+  "text" : "Can one imagine a naturalist refusing to study the viper, the bat, the scorpion, the centipede, the tarantula, and one who would cast them back into their darkness, saying, Oh, how ugly that is.",
+  "track" : "asr",
+  "wallSeconds" : 0.215150875
+}

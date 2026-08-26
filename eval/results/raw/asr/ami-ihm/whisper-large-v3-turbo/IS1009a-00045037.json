@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.21,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00045037",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.086496669213998,
+  "text" : "Would you like it to be smaller, bigger, have more buttons on it, or maybe clearly better marked buttons, you know, things like that?",
+  "track" : "asr",
+  "wallSeconds" : 1.440768334
+}

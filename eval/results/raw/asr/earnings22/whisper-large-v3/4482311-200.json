@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.3600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-200",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.5144353375378627,
+  "text" : "Well, it's not as spectacular, but the first country now is United States with 26%, two points, two percentage points.",
+  "track" : "asr",
+  "wallSeconds" : 3.324827
+}

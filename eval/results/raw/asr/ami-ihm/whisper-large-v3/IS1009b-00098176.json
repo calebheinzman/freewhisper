@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.46,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00098176",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8627184983536118,
+  "text" : "You don't feel the mode change",
+  "track" : "asr",
+  "wallSeconds" : 1.857500209
+}

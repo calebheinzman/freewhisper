@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.41,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0034",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.292255148833963,
+  "text" : "\"'It sounded dull, but sounded strange, \"'and all the more so because of his main condition, which was—",
+  "track" : "asr",
+  "wallSeconds" : 1.40015925
+}

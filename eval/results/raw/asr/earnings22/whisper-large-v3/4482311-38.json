@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-38",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.2705497507089323,
+  "text" : "It also mentioned the first integration of Armand Brignac, 50% of which was acquired by the group in partnership with Jay-Z.",
+  "track" : "asr",
+  "wallSeconds" : 3.577399334
+}

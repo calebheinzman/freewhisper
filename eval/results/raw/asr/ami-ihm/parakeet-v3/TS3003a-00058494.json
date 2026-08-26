@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.03,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00058494",
+  "model" : "parakeet-v3",
+  "rtfx" : 56.5274611330887,
+  "text" : "Well now we've got another function, we've got the eraser And then you can undo",
+  "track" : "asr",
+  "wallSeconds" : 0.124364333
+}

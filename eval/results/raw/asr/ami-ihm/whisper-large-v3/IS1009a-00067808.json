@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.87,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00067808",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5059523278861002,
+  "text" : "Okay, we have to move along. Yeah, we have to move along. But I think we have some good points to start with here.",
+  "track" : "asr",
+  "wallSeconds" : 3.8978657500000002
+}

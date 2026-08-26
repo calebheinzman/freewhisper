@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.04,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00046538",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.234201171404722,
+  "text" : "Hopefully that will stay on, two-handed version. Okay, uh",
+  "track" : "asr",
+  "wallSeconds" : 4.083613042
+}

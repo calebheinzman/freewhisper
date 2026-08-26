@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.97,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00032052",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.461508309769307,
+  "text" : "And you're front scene. Yes, I'm trying to like just to see how it feels so that you have a little idea.",
+  "track" : "asr",
+  "wallSeconds" : 0.823730208
+}

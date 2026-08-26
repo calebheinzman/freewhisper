@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.62,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00103983",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.3689702868285027,
+  "text" : "Mine is a bit more skinny.",
+  "track" : "asr",
+  "wallSeconds" : 1.10596575
+}

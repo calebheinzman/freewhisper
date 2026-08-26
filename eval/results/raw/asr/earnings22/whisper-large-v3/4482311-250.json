@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.999875,
+  "dataset" : "earnings22",
+  "id" : "4482311-250",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5298029754934546,
+  "text" : "And here you're looking at 2.3 percentage points, so a remarkable performance.",
+  "track" : "asr",
+  "wallSeconds" : 2.614634083
+}

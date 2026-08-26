@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00095879",
+  "model" : "parakeet-v3",
+  "rtfx" : 16.97558481400997,
+  "text" : "I mean you and I",
+  "track" : "asr",
+  "wallSeconds" : 0.0977875
+}

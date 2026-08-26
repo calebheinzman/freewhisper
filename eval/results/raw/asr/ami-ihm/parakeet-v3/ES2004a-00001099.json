@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.54,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00001099",
+  "model" : "parakeet-v3",
+  "rtfx" : 29.910469346973677,
+  "text" : "Are we we're not lighted in the lights so people can see that a bit better?",
+  "track" : "asr",
+  "wallSeconds" : 0.118353208
+}

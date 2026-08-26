@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.3,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00201029",
+  "model" : "parakeet-v3",
+  "rtfx" : 13.119380988045004,
+  "text" : "Okay. Fair enough.",
+  "track" : "asr",
+  "wallSeconds" : 0.099090041
+}

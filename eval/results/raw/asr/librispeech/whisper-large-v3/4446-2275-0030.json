@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.665,
+  "dataset" : "librispeech",
+  "id" : "4446-2275-0030",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.0767299368395875,
+  "text" : "\"'Yes, Hilda, I know that,' he said simply.",
+  "track" : "asr",
+  "wallSeconds" : 2.47508675
+}

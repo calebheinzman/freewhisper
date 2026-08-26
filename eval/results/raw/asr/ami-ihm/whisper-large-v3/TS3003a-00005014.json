@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.87,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00005014",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.1437160066408083,
+  "text" : "Let's start off with a little presentation.",
+  "track" : "asr",
+  "wallSeconds" : 2.5034067909999997
+}

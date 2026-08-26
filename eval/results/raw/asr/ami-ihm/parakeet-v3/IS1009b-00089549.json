@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.12,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089549",
+  "model" : "parakeet-v3",
+  "rtfx" : 11.855652184295945,
+  "text" : "Silly for children.",
+  "track" : "asr",
+  "wallSeconds" : 0.094469708
+}

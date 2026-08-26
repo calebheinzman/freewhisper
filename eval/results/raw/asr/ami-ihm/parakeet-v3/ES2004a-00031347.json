@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.39,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00031347",
+  "model" : "parakeet-v3",
+  "rtfx" : 56.402587064989675,
+  "text" : "It's actually sitting. So sorry? It's sitting. It's sitting. It's not standing. Okay. I see it as one thing. It's very supportive.",
+  "track" : "asr",
+  "wallSeconds" : 0.148752042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.765,
+  "dataset" : "librispeech",
+  "id" : "4970-29095-0022",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.34580883466561,
+  "text" : "Is thee going to the yearly meeting, Ruth? asked one of the girls.",
+  "track" : "asr",
+  "wallSeconds" : 0.127591292
+}

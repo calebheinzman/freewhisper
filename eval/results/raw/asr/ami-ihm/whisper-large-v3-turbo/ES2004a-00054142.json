@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.1,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00054142",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.669546790603426,
+  "text" : "And birds of prey, aren't they? Oh, dear. Intrepid. Intrepid.",
+  "track" : "asr",
+  "wallSeconds" : 1.428685625
+}

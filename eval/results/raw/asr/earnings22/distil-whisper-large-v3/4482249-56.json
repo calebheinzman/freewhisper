@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.9600625,
+  "dataset" : "earnings22",
+  "id" : "4482249-56",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.463906842859805,
+  "text" : "So very strong performance. That also is then reflected in a substantial increase of our EBDA margin from 32.3 to to 306.2 percentage points.",
+  "track" : "asr",
+  "wallSeconds" : 0.8883055
+}

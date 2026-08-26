@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.12,
+  "dataset" : "librispeech",
+  "id" : "2830-3979-0000",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7967612717502706,
+  "text" : "We want you to help us publish some leading work of Luther's for the general American market. Will you do it?",
+  "track" : "asr",
+  "wallSeconds" : 3.406128625
+}

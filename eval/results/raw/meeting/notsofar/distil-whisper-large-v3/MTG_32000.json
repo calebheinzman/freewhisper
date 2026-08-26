@@ -1,0 +1,1353 @@
+{
+  "audioSeconds" : 363.382625,
+  "dataset" : "notsofar",
+  "id" : "MTG_32000",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 16.489675866964774,
+  "segments" : [
+    {
+      "end" : 10,
+      "speaker" : "speaker_0",
+      "start" : 1,
+      "text" : "We're going to start the meeting now, talking about this new park that's"
+    },
+    {
+      "end" : 13,
+      "speaker" : "speaker_0",
+      "start" : 10,
+      "text" : "working to create in the center of the town."
+    },
+    {
+      "end" : 15,
+      "speaker" : "speaker_0",
+      "start" : 13,
+      "text" : "What are your suggestions?"
+    },
+    {
+      "end" : 17,
+      "speaker" : "speaker_0",
+      "start" : 15,
+      "text" : "Linda?"
+    },
+    {
+      "end" : 19.399999618530273,
+      "speaker" : "speaker_1",
+      "start" : 17,
+      "text" : "Okay, where do we want to start?"
+    },
+    {
+      "end" : 24.239999771118164,
+      "speaker" : "speaker_1",
+      "start" : 19.399999618530273,
+      "text" : "We have an exact map of the location for everybody."
+    },
+    {
+      "end" : 25.239999771118164,
+      "speaker" : "speaker_1",
+      "start" : 24.239999771118164,
+      "text" : "Don't stop."
+    },
+    {
+      "end" : 26.239999771118164,
+      "speaker" : "speaker_1",
+      "start" : 25.239999771118164,
+      "text" : "Don't stop."
+    },
+    {
+      "end" : 28.68000030517578,
+      "speaker" : "speaker_3",
+      "start" : 26.239999771118164,
+      "text" : "I think the other one day in the park, it should be green."
+    },
+    {
+      "end" : 29.68000030517578,
+      "speaker" : "speaker_3",
+      "start" : 28.68000030517578,
+      "text" : "There should be greenery."
+    },
+    {
+      "end" : 31.239999771118164,
+      "speaker" : "speaker_3",
+      "start" : 29.68000030517578,
+      "text" : "There should be trees."
+    },
+    {
+      "end" : 35.79999923706055,
+      "speaker" : "speaker_0",
+      "start" : 31.239999771118164,
+      "text" : "Yes, but she was asking the questions, so maybe we went to."
+    },
+    {
+      "end" : 36.79999923706055,
+      "speaker" : "speaker_0",
+      "start" : 35.79999923706055,
+      "text" : "It's okay."
+    },
+    {
+      "end" : 41.79999923706055,
+      "speaker" : "speaker_1",
+      "start" : 36.79999923706055,
+      "text" : "I'm just curious if we have a map of the exact shape of the, of the, of the, of the"
+    },
+    {
+      "end" : 43.79999923706055,
+      "speaker" : "speaker_1",
+      "start" : 41.79999923706055,
+      "text" : "the shape is important?"
+    },
+    {
+      "end" : 44.79999923706055,
+      "speaker" : "speaker_1",
+      "start" : 43.79999923706055,
+      "text" : "What do you say?"
+    },
+    {
+      "end" : 46.79999923706055,
+      "speaker" : "speaker_1",
+      "start" : 44.79999923706055,
+      "text" : "No, just something we have an idea."
+    },
+    {
+      "end" : 50.79999923706055,
+      "speaker" : "speaker_1",
+      "start" : 46.79999923706055,
+      "text" : "Or we know where it's going to be and we know to, what, if we want to say, you know,"
+    },
+    {
+      "end" : 56.79999923706055,
+      "speaker" : "speaker_1",
+      "start" : 50.79999923706055,
+      "text" : "this is more the children's areas, this is more for adults, this is more, this, maybe the dog park would be"
+    },
+    {
+      "end" : 57.79999923706055,
+      "speaker" : "speaker_0",
+      "start" : 56.79999923706055,
+      "text" : "going to be able to sign on."
+    },
+    {
+      "end" : 61.79999923706055,
+      "speaker" : "speaker_0",
+      "start" : 57.79999923706055,
+      "text" : "We just have an area, nothing is decided when we're waiting from."
+    },
+    {
+      "end" : 63.79999923706055,
+      "speaker" : "speaker_2",
+      "start" : 61.79999923706055,
+      "text" : "Okay, we probably list the,"
+    },
+    {
+      "end" : 70.76000213623047,
+      "speaker" : "speaker_2",
+      "start" : 63.79999923706055,
+      "text" : "things that are important to have within the park and then that will be fit into the"
+    },
+    {
+      "end" : 72.23999786376953,
+      "speaker" : "speaker_2",
+      "start" : 70.76000213623047,
+      "text" : "side how to put it together."
+    },
+    {
+      "end" : 73.23999786376953,
+      "speaker" : "speaker_0",
+      "start" : 72.23999786376953,
+      "text" : "Fine."
+    },
+    {
+      "end" : 77.55999755859375,
+      "speaker" : "speaker_0",
+      "start" : 73.23999786376953,
+      "text" : "So if you think that we can move forward and just somebody has one idea."
+    },
+    {
+      "end" : 78.55999755859375,
+      "speaker" : "speaker_0",
+      "start" : 77.55999755859375,
+      "text" : "Go ahead, Sarah."
+    },
+    {
+      "end" : 82.4000015258789,
+      "speaker" : "speaker_0",
+      "start" : 78.55999755859375,
+      "text" : "Yeah, I was kind of thinking what I said before, just greenery, trees,"
+    },
+    {
+      "end" : 83.31999969482422,
+      "speaker" : "speaker_3",
+      "start" : 82.4000015258789,
+      "text" : "and trees."
+    },
+    {
+      "end" : 85.84000396728516,
+      "speaker" : "speaker_3",
+      "start" : 82.4000015258789,
+      "text" : "I'm sure there's enough space if it's in a city,"
+    },
+    {
+      "end" : 87.23999786376953,
+      "speaker" : "speaker_0",
+      "start" : 85.84000396728516,
+      "text" : "so it's like greener area."
+    },
+    {
+      "end" : 91.8800048828125,
+      "speaker" : "speaker_0",
+      "start" : 87.23999786376953,
+      "text" : "Yes, what I was suggesting that we do not forget the elderly,"
+    },
+    {
+      "end" : 96.13999938964844,
+      "speaker" : "speaker_0",
+      "start" : 91.8800048828125,
+      "text" : "they need their place in the park, you know, we forget about them,"
+    },
+    {
+      "end" : 97.13999938964844,
+      "speaker" : "speaker_0",
+      "start" : 96.13999938964844,
+      "text" : "so what do you say?"
+    },
+    {
+      "end" : 98.72000122070312,
+      "speaker" : "speaker_0",
+      "start" : 97.13999938964844,
+      "text" : "For, I forget about who?"
+    },
+    {
+      "end" : 99.68000030517578,
+      "speaker" : "speaker_0",
+      "start" : 98.72000122070312,
+      "text" : "The older people."
+    },
+    {
+      "end" : 101.31999969482422,
+      "speaker" : "speaker_0",
+      "start" : 99.68000030517578,
+      "text" : "Oh, the older people, yes, yes, of course."
+    },
+    {
+      "end" : 106.52000427246094,
+      "speaker" : "speaker_0",
+      "start" : 101.31999969482422,
+      "text" : "They need, we need, it's not only children at greenery, it's also the place."
+    },
+    {
+      "end" : 107.31999969482422,
+      "speaker" : "speaker_0",
+      "start" : 106.52000427246094,
+      "text" : "So what do you suggest?"
+    },
+    {
+      "end" : 108.72000122070312,
+      "speaker" : "speaker_0",
+      "start" : 107.31999969482422,
+      "text" : "What do you say wrong?"
+    },
+    {
+      "end" : 111.4000015258789,
+      "speaker" : "speaker_2",
+      "start" : 108.72000122070312,
+      "text" : "I think about the children first."
+    },
+    {
+      "end" : 118.4000015258789,
+      "speaker" : "speaker_2",
+      "start" : 111.4000015258789,
+      "text" : "That there needs to be playgrounds, that needs to be different areas where they can run around."
+    },
+    {
+      "end" : 124.4000015258789,
+      "speaker" : "speaker_0",
+      "start" : 118.4000015258789,
+      "text" : "But this is automatic. This is what we do, no matter of what, what I was trying to bring in here,"
+    },
+    {
+      "end" : 129.5,
+      "speaker" : "speaker_0",
+      "start" : 124.4000015258789,
+      "text" : "is something that typically we forget. Or we just don't..."
+    },
+    {
+      "end" : 133.5,
+      "speaker" : "speaker_1",
+      "start" : 129.5,
+      "text" : "We need to think about accessibility."
+    },
+    {
+      "end" : 134.5,
+      "speaker" : "speaker_1",
+      "start" : 133.5,
+      "text" : "Okay?"
+    },
+    {
+      "end" : 137.5,
+      "speaker" : "speaker_0",
+      "start" : 134.5,
+      "text" : "So there should be excessibility."
+    },
+    {
+      "end" : 140.5,
+      "speaker" : "speaker_0",
+      "start" : 137.5,
+      "text" : "I know you are young, but physical safety."
+    },
+    {
+      "end" : 143.5,
+      "speaker" : "speaker_3",
+      "start" : 140.5,
+      "text" : "I think when I say some good things,"
+    },
+    {
+      "end" : 147.8000030517578,
+      "speaker" : "speaker_3",
+      "start" : 143.5,
+      "text" : "but I think it's also important to see what features we can bring into the park, not."
+    },
+    {
+      "end" : 149.8000030517578,
+      "speaker" : "speaker_3",
+      "start" : 147.8000030517578,
+      "text" : "Just how it can be accessible."
+    },
+    {
+      "end" : 150.8000030517578,
+      "speaker" : "speaker_3",
+      "start" : 149.8000030517578,
+      "text" : "Right."
+    },
+    {
+      "end" : 151.8000030517578,
+      "speaker" : "speaker_3",
+      "start" : 150.8000030517578,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 157.8000030517578,
+      "speaker" : "speaker_2",
+      "start" : 151.8000030517578,
+      "text" : "So I'm thinking about different playground areas with the kids."
+    },
+    {
+      "end" : 161.8000030517578,
+      "speaker" : "speaker_2",
+      "start" : 157.8000030517578,
+      "text" : "Places for them to climb, places for them to run."
+    },
+    {
+      "end" : 169.8000030517578,
+      "speaker" : "speaker_2",
+      "start" : 161.8000030517578,
+      "text" : "They've got a lot of new, new, newly designed plastic."
+    },
+    {
+      "end" : 170.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 169.8000030517578,
+      "text" : "They do."
+    },
+    {
+      "end" : 171.8000030517578,
+      "speaker" : "speaker_2",
+      "start" : 170.8000030517578,
+      "text" : "They do now."
+    },
+    {
+      "end" : 173.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 171.8000030517578,
+      "text" : "Places, you know, for them to be able to run and jump."
+    },
+    {
+      "end" : 178.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 173.8000030517578,
+      "text" : "I have seen lately the water features, they are not a good idea."
+    },
+    {
+      "end" : 179.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 178.8000030517578,
+      "text" : "Why not?"
+    },
+    {
+      "end" : 182.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 179.8000030517578,
+      "text" : "Because accident happens and it's better not to have..."
+    },
+    {
+      "end" : 185.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 182.8000030517578,
+      "text" : "So we have good safety features and then that..."
+    },
+    {
+      "end" : 186.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 185.8000030517578,
+      "text" : "Yeah, yeah, yeah, yeah."
+    },
+    {
+      "end" : 189.8000030517578,
+      "speaker" : "speaker_2",
+      "start" : 186.8000030517578,
+      "text" : "But they're also, when you're talking about water features,"
+    },
+    {
+      "end" : 193.1999969482422,
+      "speaker" : "speaker_2",
+      "start" : 189.8000030517578,
+      "text" : "you have some of these parks where the water shoots from..."
+    },
+    {
+      "end" : 194.1999969482422,
+      "speaker" : "speaker_2",
+      "start" : 193.1999969482422,
+      "text" : "Yes, my name."
+    },
+    {
+      "end" : 195.1999969482422,
+      "speaker" : "speaker_2",
+      "start" : 194.1999969482422,
+      "text" : "Yes."
+    },
+    {
+      "end" : 196.1999969482422,
+      "speaker" : "speaker_2",
+      "start" : 195.1999969482422,
+      "text" : "Absolutely."
+    },
+    {
+      "end" : 197.1999969482422,
+      "speaker" : "speaker_1",
+      "start" : 196.1999969482422,
+      "text" : "Oh, that's a good idea."
+    },
+    {
+      "end" : 198.1999969482422,
+      "speaker" : "speaker_1",
+      "start" : 197.1999969482422,
+      "text" : "That was a good idea."
+    },
+    {
+      "end" : 200.1999969482422,
+      "speaker" : "speaker_1",
+      "start" : 198.1999969482422,
+      "text" : "Kids, you know, in the summertime."
+    },
+    {
+      "end" : 201.1999969482422,
+      "speaker" : "speaker_1",
+      "start" : 200.1999969482422,
+      "text" : "You know, in the summertime."
+    },
+    {
+      "end" : 204.1999969482422,
+      "speaker" : "speaker_1",
+      "start" : 201.1999969482422,
+      "text" : "To do any kind of little pool or stream or something like it demands maintenance."
+    },
+    {
+      "end" : 205.1999969482422,
+      "speaker" : "speaker_1",
+      "start" : 204.1999969482422,
+      "text" : "Absolutely."
+    },
+    {
+      "end" : 208.1999969482422,
+      "speaker" : "speaker_1",
+      "start" : 205.1999969482422,
+      "text" : "Yeah, but those spitzers, you know, don't use less."
+    },
+    {
+      "end" : 215.89999389648438,
+      "speaker" : "speaker_0",
+      "start" : 208.89999389648438,
+      "text" : "Those could be good ideas and we could try to, like you say, run, set a list and"
+    },
+    {
+      "end" : 222.89999389648438,
+      "speaker" : "speaker_0",
+      "start" : 215.89999389648438,
+      "text" : "submit it on this meeting to the people that really do put it together."
+    },
+    {
+      "end" : 228.89999389648438,
+      "speaker" : "speaker_2",
+      "start" : 222.89999389648438,
+      "text" : "I mean, let's think about the environment that we're in because, you know, it's a hot area."
+    },
+    {
+      "end" : 235.10000610351562,
+      "speaker" : "speaker_2",
+      "start" : 229.10000610351562,
+      "text" : "having an area during the summer that can be used, let's say, with change."
+    },
+    {
+      "end" : 238.10000610351562,
+      "speaker" : "speaker_2",
+      "start" : 235.10000610351562,
+      "text" : "Shades, very important."
+    },
+    {
+      "end" : 239.10000610351562,
+      "speaker" : "speaker_2",
+      "start" : 238.10000610351562,
+      "text" : "Also with water."
+    },
+    {
+      "end" : 242.10000610351562,
+      "speaker" : "speaker_0",
+      "start" : 239.10000610351562,
+      "text" : "And the pets, we didn't talk about the pets."
+    },
+    {
+      "end" : 243.10000610351562,
+      "speaker" : "speaker_0",
+      "start" : 242.10000610351562,
+      "text" : "Of course."
+    },
+    {
+      "end" : 244.10000610351562,
+      "speaker" : "speaker_0",
+      "start" : 243.10000610351562,
+      "text" : "This is a dog."
+    },
+    {
+      "end" : 245.10000610351562,
+      "speaker" : "speaker_3",
+      "start" : 244.10000610351562,
+      "text" : "I gave it a dog."
+    },
+    {
+      "end" : 246.10000610351562,
+      "speaker" : "speaker_3",
+      "start" : 245.10000610351562,
+      "text" : "I gated area."
+    },
+    {
+      "end" : 246.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 245.8000030517578,
+      "text" : "Yes, absolutely."
+    },
+    {
+      "end" : 253.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 246.8000030517578,
+      "text" : "So do you think that, yes, if this could work out, can we take some example of existing"
+    },
+    {
+      "end" : 255.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 253.8000030517578,
+      "text" : "parks already that we can kind of copy?"
+    },
+    {
+      "end" : 256.79998779296875,
+      "speaker" : "speaker_0",
+      "start" : 255.8000030517578,
+      "text" : "Oh, yes."
+    },
+    {
+      "end" : 257.79998779296875,
+      "speaker" : "speaker_0",
+      "start" : 256.79998779296875,
+      "text" : "Oh, definitely."
+    },
+    {
+      "end" : 258.79998779296875,
+      "speaker" : "speaker_3",
+      "start" : 257.79998779296875,
+      "text" : "Yes."
+    },
+    {
+      "end" : 263.1000061035156,
+      "speaker" : "speaker_3",
+      "start" : 258.79998779296875,
+      "text" : "I think it depends where the park can be, but if it's like in a city, for example, in Tel Aviv, you can have it be kind of"
+    },
+    {
+      "end" : 266.44000244140625,
+      "speaker" : "speaker_3",
+      "start" : 263.1000061035156,
+      "text" : "In the central park, maybe."
+    },
+    {
+      "end" : 269.3399963378906,
+      "speaker" : "speaker_3",
+      "start" : 266.44000244140625,
+      "text" : "Yeah, you know, central park."
+    },
+    {
+      "end" : 270.3399963378906,
+      "speaker" : "speaker_3",
+      "start" : 269.3399963378906,
+      "text" : "You can dream."
+    },
+    {
+      "end" : 274.3800048828125,
+      "speaker" : "speaker_1",
+      "start" : 271.3399963378906,
+      "text" : "No, there are many good examples of, for example,"
+    },
+    {
+      "end" : 277.2200012207031,
+      "speaker" : "speaker_1",
+      "start" : 274.3800048828125,
+      "text" : "of good dog parks in Tel Aviv."
+    },
+    {
+      "end" : 278.8000183105469,
+      "speaker" : "speaker_1",
+      "start" : 277.2200012207031,
+      "text" : "Yes, yes, yes, yes."
+    },
+    {
+      "end" : 283.79998779296875,
+      "speaker" : "speaker_0",
+      "start" : 278.79998779296875,
+      "text" : "All right, then, do you think we can conclude this meeting?"
+    },
+    {
+      "end" : 285.79998779296875,
+      "speaker" : "speaker_0",
+      "start" : 283.79998779296875,
+      "text" : "What other things can be made a pipe?"
+    },
+    {
+      "end" : 287.79998779296875,
+      "speaker" : "speaker_0",
+      "start" : 285.79998779296875,
+      "text" : "Yes, of course, we need."
+    },
+    {
+      "end" : 292.79998779296875,
+      "speaker" : "speaker_0",
+      "start" : 287.79998779296875,
+      "text" : "But did we forget any topic, something that Linda you might think about?"
+    },
+    {
+      "end" : 300.79998779296875,
+      "speaker" : "speaker_1",
+      "start" : 292.79998779296875,
+      "text" : "You know, one very important thing in the park that I go to do with my grandchildren sometimes is there's a coffee truck."
+    },
+    {
+      "end" : 301.79998779296875,
+      "speaker" : "speaker_1",
+      "start" : 300.79998779296875,
+      "text" : "Oh, yeah."
+    },
+    {
+      "end" : 302.79998779296875,
+      "speaker" : "speaker_1",
+      "start" : 301.79998779296875,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 306.3599853515625,
+      "speaker" : "speaker_1",
+      "start" : 301.79998779296875,
+      "text" : "okay well of course I'll just decide a little bit but yeah usually those things are licensed"
+    },
+    {
+      "end" : 312.5199890136719,
+      "speaker" : "speaker_2",
+      "start" : 306.3599853515625,
+      "text" : "right people come in and they apply for license by that right yes right so you don't really need a"
+    },
+    {
+      "end" : 317.0799865722656,
+      "speaker" : "speaker_1",
+      "start" : 312.5199890136719,
+      "text" : "space for them especially if they're portable well if you're planning you have to"
+    },
+    {
+      "end" : 321.4200134277344,
+      "speaker" : "speaker_1",
+      "start" : 317.1000061035156,
+      "text" : "sort of plan, okay, well, maybe a truck like that could park there, okay, and it wouldn't"
+    },
+    {
+      "end" : 322.6000061035156,
+      "speaker" : "speaker_1",
+      "start" : 321.4200134277344,
+      "text" : "get in a way of other things."
+    },
+    {
+      "end" : 327.70001220703125,
+      "speaker" : "speaker_1",
+      "start" : 322.6000061035156,
+      "text" : "Yeah, it would necessarily be right next to the children and we could have an area"
+    },
+    {
+      "end" : 329.1000061035156,
+      "speaker" : "speaker_3",
+      "start" : 327.70001220703125,
+      "text" : "with benches around it."
+    },
+    {
+      "end" : 330.1000061035156,
+      "speaker" : "speaker_3",
+      "start" : 329.1000061035156,
+      "text" : "Benches, right."
+    },
+    {
+      "end" : 333.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 330.1000061035156,
+      "text" : "To make it accessible, so older people sit."
+    },
+    {
+      "end" : 334.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 333.1000061035156,
+      "text" : "A few picnic tables."
+    },
+    {
+      "end" : 335.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 334.1000061035156,
+      "text" : "A few picnic tables."
+    },
+    {
+      "end" : 336.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 335.1000061035156,
+      "text" : "That would work."
+    },
+    {
+      "end" : 337.1000061035156,
+      "speaker" : "speaker_2",
+      "start" : 336.1000061035156,
+      "text" : "Picney tables."
+    },
+    {
+      "end" : 339.1000061035156,
+      "speaker" : "speaker_2",
+      "start" : 337.1000061035156,
+      "text" : "And you can make some of the pigeons."
+    },
+    {
+      "end" : 341.1000061035156,
+      "speaker" : "speaker_2",
+      "start" : 339.1000061035156,
+      "text" : "I think you can think about Internet access to."
+    },
+    {
+      "end" : 346.1000061035156,
+      "speaker" : "speaker_2",
+      "start" : 341.1000061035156,
+      "text" : "You'll have an area that could be a Wi-Fi."
+    },
+    {
+      "end" : 353.1000061035156,
+      "speaker" : "speaker_2",
+      "start" : 346.1000061035156,
+      "text" : "We have Wi-Fi that's available to people coming in and even working at the park."
+    },
+    {
+      "end" : 356.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 353.1000061035156,
+      "text" : "Yeah, in telepave that's a city issue, yeah, yeah."
+    },
+    {
+      "end" : 357.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 356.1000061035156,
+      "text" : "You do have coverage."
+    },
+    {
+      "end" : 358.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 357.1000061035156,
+      "text" : "Yeah, that's right."
+    },
+    {
+      "end" : 359.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 358.1000061035156,
+      "text" : "That's right."
+    },
+    {
+      "end" : 362.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 359.1000061035156,
+      "text" : "So that's an advantage."
+    }
+  ],
+  "speakerTurns" : [
+    {
+      "end" : 12.7504243850708,
+      "speaker" : "speaker_0",
+      "start" : 5.161290168762207
+    },
+    {
+      "end" : 14.906620979309082,
+      "speaker" : "speaker_0",
+      "start" : 12.971137046813965
+    },
+    {
+      "end" : 16.51952362060547,
+      "speaker" : "speaker_0",
+      "start" : 15.551782608032227
+    },
+    {
+      "end" : 17.99660301208496,
+      "speaker" : "speaker_0",
+      "start" : 17.351442337036133
+    },
+    {
+      "end" : 23.497451782226562,
+      "speaker" : "speaker_1",
+      "start" : 17.99660301208496
+    },
+    {
+      "end" : 25.993207931518555,
+      "speaker" : "speaker_1",
+      "start" : 24.19354820251465
+    },
+    {
+      "end" : 30.984718322753906,
+      "speaker" : "speaker_3",
+      "start" : 25.993207931518555
+    },
+    {
+      "end" : 35.721561431884766,
+      "speaker" : "speaker_0",
+      "start" : 30.984718322753906
+    },
+    {
+      "end" : 37.62308883666992,
+      "speaker" : "speaker_0",
+      "start" : 35.823429107666016
+    },
+    {
+      "end" : 43.378604888916016,
+      "speaker" : "speaker_1",
+      "start" : 37.62308883666992
+    },
+    {
+      "end" : 44.091678619384766,
+      "speaker" : "speaker_0",
+      "start" : 43.378604888916016
+    },
+    {
+      "end" : 46.129032135009766,
+      "speaker" : "speaker_1",
+      "start" : 44.091678619384766
+    },
+    {
+      "end" : 56.70627975463867,
+      "speaker" : "speaker_1",
+      "start" : 46.41765594482422
+    },
+    {
+      "end" : 61.95246124267578,
+      "speaker" : "speaker_0",
+      "start" : 56.70627975463867
+    },
+    {
+      "end" : 63.63327407836914,
+      "speaker" : "speaker_2",
+      "start" : 61.95246124267578
+    },
+    {
+      "end" : 67.41934967041016,
+      "speaker" : "speaker_2",
+      "start" : 63.989810943603516
+    },
+    {
+      "end" : 68.8115463256836,
+      "speaker" : "speaker_2",
+      "start" : 67.77588653564453
+    },
+    {
+      "end" : 71.98641204833984,
+      "speaker" : "speaker_2",
+      "start" : 69.32088470458984
+    },
+    {
+      "end" : 80.9847183227539,
+      "speaker" : "speaker_0",
+      "start" : 71.98641204833984
+    },
+    {
+      "end" : 85.99320983886719,
+      "speaker" : "speaker_3",
+      "start" : 80.9847183227539
+    },
+    {
+      "end" : 86.9100112915039,
+      "speaker" : "speaker_0",
+      "start" : 85.99320983886719
+    },
+    {
+      "end" : 87.36841583251953,
+      "speaker" : "speaker_2",
+      "start" : 86.9100112915039
+    },
+    {
+      "end" : 93.82003021240234,
+      "speaker" : "speaker_0",
+      "start" : 87.36841583251953
+    },
+    {
+      "end" : 108.23429107666016,
+      "speaker" : "speaker_0",
+      "start" : 94.41426086425781
+    },
+    {
+      "end" : 115.09337615966797,
+      "speaker" : "speaker_2",
+      "start" : 108.5738525390625
+    },
+    {
+      "end" : 118.09847259521484,
+      "speaker" : "speaker_2",
+      "start" : 115.46688842773438
+    },
+    {
+      "end" : 122.83531188964844,
+      "speaker" : "speaker_0",
+      "start" : 118.31918334960938
+    },
+    {
+      "end" : 126.5025405883789,
+      "speaker" : "speaker_0",
+      "start" : 122.9032211303711
+    },
+    {
+      "end" : 127.94567108154297,
+      "speaker" : "speaker_0",
+      "start" : 126.82512664794922
+    },
+    {
+      "end" : 129.20204162597656,
+      "speaker" : "speaker_0",
+      "start" : 128.5059356689453
+    },
+    {
+      "end" : 130.32257080078125,
+      "speaker" : "speaker_0",
+      "start" : 129.94906616210938
+    },
+    {
+      "end" : 133.10696411132812,
+      "speaker" : "speaker_1",
+      "start" : 130.32257080078125
+    },
+    {
+      "end" : 134.3633270263672,
+      "speaker" : "speaker_1",
+      "start" : 133.8709716796875
+    },
+    {
+      "end" : 134.65194702148438,
+      "speaker" : "speaker_1",
+      "start" : 134.5670623779297
+    },
+    {
+      "end" : 136.740234375,
+      "speaker" : "speaker_0",
+      "start" : 134.65194702148438
+    },
+    {
+      "end" : 137.58912658691406,
+      "speaker" : "speaker_1",
+      "start" : 136.740234375
+    },
+    {
+      "end" : 138.998291015625,
+      "speaker" : "speaker_0",
+      "start" : 137.58912658691406
+    },
+    {
+      "end" : 140.628173828125,
+      "speaker" : "speaker_3",
+      "start" : 140
+    },
+    {
+      "end" : 151.69778442382812,
+      "speaker" : "speaker_3",
+      "start" : 141.20542907714844
+    },
+    {
+      "end" : 161.68081665039062,
+      "speaker" : "speaker_2",
+      "start" : 151.69778442382812
+    },
+    {
+      "end" : 164.71986389160156,
+      "speaker" : "speaker_2",
+      "start" : 161.7147674560547
+    },
+    {
+      "end" : 164.75381469726562,
+      "speaker" : "speaker_0",
+      "start" : 164.71986389160156
+    },
+    {
+      "end" : 164.9915008544922,
+      "speaker" : "speaker_0",
+      "start" : 164.9745330810547
+    },
+    {
+      "end" : 168.33615112304688,
+      "speaker" : "speaker_2",
+      "start" : 164.9915008544922
+    },
+    {
+      "end" : 168.5908203125,
+      "speaker" : "speaker_0",
+      "start" : 168.33615112304688
+    },
+    {
+      "end" : 170.05093383789062,
+      "speaker" : "speaker_2",
+      "start" : 168.5908203125
+    },
+    {
+      "end" : 171.13751220703125,
+      "speaker" : "speaker_0",
+      "start" : 170.05093383789062
+    },
+    {
+      "end" : 172.29202270507812,
+      "speaker" : "speaker_2",
+      "start" : 171.27334594726562
+    },
+    {
+      "end" : 173.51441955566406,
+      "speaker" : "speaker_0",
+      "start" : 172.29202270507812
+    },
+    {
+      "end" : 173.58233642578125,
+      "speaker" : "speaker_2",
+      "start" : 173.51441955566406
+    },
+    {
+      "end" : 178.11544799804688,
+      "speaker" : "speaker_0",
+      "start" : 174.0067901611328
+    },
+    {
+      "end" : 181.1544952392578,
+      "speaker" : "speaker_0",
+      "start" : 178.87945556640625
+    },
+    {
+      "end" : 185.8573760986328,
+      "speaker" : "speaker_0",
+      "start" : 181.5110321044922
+    },
+    {
+      "end" : 185.89134216308594,
+      "speaker" : "speaker_2",
+      "start" : 185.8573760986328
+    },
+    {
+      "end" : 187.147705078125,
+      "speaker" : "speaker_0",
+      "start" : 185.89134216308594
+    },
+    {
+      "end" : 193.2088165283203,
+      "speaker" : "speaker_2",
+      "start" : 187.147705078125
+    },
+    {
+      "end" : 195.9932098388672,
+      "speaker" : "speaker_2",
+      "start" : 193.29371643066406
+    },
+    {
+      "end" : 207.99659729003906,
+      "speaker" : "speaker_1",
+      "start" : 195.9932098388672
+    },
+    {
+      "end" : 208.69268798828125,
+      "speaker" : "speaker_0",
+      "start" : 207.99659729003906
+    },
+    {
+      "end" : 208.8624725341797,
+      "speaker" : "speaker_1",
+      "start" : 208.69268798828125
+    },
+    {
+      "end" : 209.25296020507812,
+      "speaker" : "speaker_0",
+      "start" : 208.8624725341797
+    },
+    {
+      "end" : 209.33786010742188,
+      "speaker" : "speaker_1",
+      "start" : 209.25296020507812
+    },
+    {
+      "end" : 222.30899047851562,
+      "speaker" : "speaker_0",
+      "start" : 209.33786010742188
+    },
+    {
+      "end" : 223.46348571777344,
+      "speaker" : "speaker_0",
+      "start" : 222.44480895996094
+    },
+    {
+      "end" : 237.368408203125,
+      "speaker" : "speaker_2",
+      "start" : 223.46348571777344
+    },
+    {
+      "end" : 237.74192810058594,
+      "speaker" : "speaker_1",
+      "start" : 237.368408203125
+    },
+    {
+      "end" : 238.55686950683594,
+      "speaker" : "speaker_2",
+      "start" : 237.82681274414062
+    },
+    {
+      "end" : 238.60780334472656,
+      "speaker" : "speaker_1",
+      "start" : 238.55686950683594
+    },
+    {
+      "end" : 239.592529296875,
+      "speaker" : "speaker_2",
+      "start" : 238.60780334472656
+    },
+    {
+      "end" : 239.66043090820312,
+      "speaker" : "speaker_1",
+      "start" : 239.592529296875
+    },
+    {
+      "end" : 239.6774139404297,
+      "speaker" : "speaker_2",
+      "start" : 239.66043090820312
+    },
+    {
+      "end" : 244.34634399414062,
+      "speaker" : "speaker_0",
+      "start" : 239.84719848632812
+    },
+    {
+      "end" : 244.4312286376953,
+      "speaker" : "speaker_3",
+      "start" : 244.34634399414062
+    },
+    {
+      "end" : 245.95924377441406,
+      "speaker" : "speaker_3",
+      "start" : 244.46519470214844
+    },
+    {
+      "end" : 257.6061096191406,
+      "speaker" : "speaker_0",
+      "start" : 245.95924377441406
+    },
+    {
+      "end" : 257.9966125488281,
+      "speaker" : "speaker_0",
+      "start" : 257.7589111328125
+    },
+    {
+      "end" : 263.072998046875,
+      "speaker" : "speaker_3",
+      "start" : 257.9966125488281
+    },
+    {
+      "end" : 266.6044006347656,
+      "speaker" : "speaker_3",
+      "start" : 263.19183349609375
+    },
+    {
+      "end" : 270.9847106933594,
+      "speaker" : "speaker_3",
+      "start" : 267.02886962890625
+    },
+    {
+      "end" : 271.7826843261719,
+      "speaker" : "speaker_3",
+      "start" : 271.4091491699219
+    },
+    {
+      "end" : 277.1137390136719,
+      "speaker" : "speaker_1",
+      "start" : 271.9184875488281
+    },
+    {
+      "end" : 277.4872741699219,
+      "speaker" : "speaker_0",
+      "start" : 277.1137390136719
+    },
+    {
+      "end" : 277.6061096191406,
+      "speaker" : "speaker_1",
+      "start" : 277.4872741699219
+    },
+    {
+      "end" : 277.65704345703125,
+      "speaker" : "speaker_0",
+      "start" : 277.6061096191406
+    },
+    {
+      "end" : 277.7079772949219,
+      "speaker" : "speaker_1",
+      "start" : 277.65704345703125
+    },
+    {
+      "end" : 277.8098449707031,
+      "speaker" : "speaker_0",
+      "start" : 277.7079772949219
+    },
+    {
+      "end" : 278.1154479980469,
+      "speaker" : "speaker_1",
+      "start" : 277.8098449707031
+    },
+    {
+      "end" : 278.3361511230469,
+      "speaker" : "speaker_0",
+      "start" : 278.1154479980469
+    },
+    {
+      "end" : 278.70965576171875,
+      "speaker" : "speaker_1",
+      "start" : 278.3361511230469
+    },
+    {
+      "end" : 282.7334289550781,
+      "speaker" : "speaker_0",
+      "start" : 278.998291015625
+    },
+    {
+      "end" : 293.98980712890625,
+      "speaker" : "speaker_0",
+      "start" : 283.2767333984375
+    },
+    {
+      "end" : 304.923583984375,
+      "speaker" : "speaker_1",
+      "start" : 293.98980712890625
+    },
+    {
+      "end" : 310.93377685546875,
+      "speaker" : "speaker_2",
+      "start" : 304.923583984375
+    },
+    {
+      "end" : 311.1035461425781,
+      "speaker" : "speaker_1",
+      "start" : 310.93377685546875
+    },
+    {
+      "end" : 314.482177734375,
+      "speaker" : "speaker_2",
+      "start" : 311.1035461425781
+    },
+    {
+      "end" : 327.9456481933594,
+      "speaker" : "speaker_1",
+      "start" : 314.482177734375
+    },
+    {
+      "end" : 328.7436218261719,
+      "speaker" : "speaker_3",
+      "start" : 327.9456481933594
+    },
+    {
+      "end" : 328.998291015625,
+      "speaker" : "speaker_1",
+      "start" : 328.7436218261719
+    },
+    {
+      "end" : 329.2529602050781,
+      "speaker" : "speaker_3",
+      "start" : 328.998291015625
+    },
+    {
+      "end" : 329.4227294921875,
+      "speaker" : "speaker_1",
+      "start" : 329.2529602050781
+    },
+    {
+      "end" : 330,
+      "speaker" : "speaker_3",
+      "start" : 329.4227294921875
+    },
+    {
+      "end" : 330.0509338378906,
+      "speaker" : "speaker_1",
+      "start" : 330
+    },
+    {
+      "end" : 331.5110168457031,
+      "speaker" : "speaker_3",
+      "start" : 330.0509338378906
+    },
+    {
+      "end" : 335.2631530761719,
+      "speaker" : "speaker_1",
+      "start" : 331.5110168457031
+    },
+    {
+      "end" : 338.30218505859375,
+      "speaker" : "speaker_2",
+      "start" : 336.7062683105469
+    },
+    {
+      "end" : 338.3531188964844,
+      "speaker" : "speaker_3",
+      "start" : 338.30218505859375
+    },
+    {
+      "end" : 338.3870849609375,
+      "speaker" : "speaker_2",
+      "start" : 338.3531188964844
+    },
+    {
+      "end" : 338.4380187988281,
+      "speaker" : "speaker_3",
+      "start" : 338.3870849609375
+    },
+    {
+      "end" : 338.6077880859375,
+      "speaker" : "speaker_2",
+      "start" : 338.4380187988281
+    },
+    {
+      "end" : 338.998291015625,
+      "speaker" : "speaker_3",
+      "start" : 338.6077880859375
+    },
+    {
+      "end" : 345.9931945800781,
+      "speaker" : "speaker_2",
+      "start" : 339.18505859375
+    },
+    {
+      "end" : 353.1239318847656,
+      "speaker" : "speaker_2",
+      "start" : 346.332763671875
+    },
+    {
+      "end" : 359.2529602050781,
+      "speaker" : "speaker_1",
+      "start" : 353.1239318847656
+    }
+  ],
+  "text" : "We're going to start the meeting now, talking about this new park that's working to create in the center of the town. What are your suggestions? Linda? Okay, where do we want to start? We have an exact map of the location for everybody. Don't stop. Don't stop. I think the other one day in the park, it should be green. There should be greenery. There should be trees. Yes, but she was asking the questions, so maybe we went to. It's okay. I'm just curious if we have a map of the exact shape of the, of the, of the, of the the shape is important? What do you say? No, just something we have an idea. Or we know where it's going to be and we know to, what, if we want to say, you know, this is more the children's areas, this is more for adults, this is more, this, maybe the dog park would be going to be able to sign on. We just have an area, nothing is decided when we're waiting from. Okay, we probably list the, things that are important to have within the park and then that will be fit into the side how to put it together. Fine. So if you think that we can move forward and just somebody has one idea. Go ahead, Sarah. Yeah, I was kind of thinking what I said before, just greenery, trees, and trees. I'm sure there's enough space if it's in a city, so it's like greener area. Yes, what I was suggesting that we do not forget the elderly, they need their place in the park, you know, we forget about them, so what do you say? For, I forget about who? The older people. Oh, the older people, yes, yes, of course. They need, we need, it's not only children at greenery, it's also the place. So what do you suggest? What do you say wrong? I think about the children first. That there needs to be playgrounds, that needs to be different areas where they can run around. But this is automatic. This is what we do, no matter of what, what I was trying to bring in here, is something that typically we forget. Or we just don't... We need to think about accessibility. Okay? So there should be excessibility. I know you are young, but physical safety. I think when I say some good things, but I think it's also important to see what features we can bring into the park, not. Just how it can be accessible. Right. Yeah. So I'm thinking about different playground areas with the kids. Places for them to climb, places for them to run. They've got a lot of new, new, newly designed plastic. They do. They do now. Places, you know, for them to be able to run and jump. I have seen lately the water features, they are not a good idea. Why not? Because accident happens and it's better not to have... So we have good safety features and then that... Yeah, yeah, yeah, yeah. But they're also, when you're talking about water features, you have some of these parks where the water shoots from... Yes, my name. Yes. Absolutely. Oh, that's a good idea. That was a good idea. Kids, you know, in the summertime. You know, in the summertime. To do any kind of little pool or stream or something like it demands maintenance. Absolutely. Yeah, but those spitzers, you know, don't use less. Those could be good ideas and we could try to, like you say, run, set a list and submit it on this meeting to the people that really do put it together. I mean, let's think about the environment that we're in because, you know, it's a hot area. having an area during the summer that can be used, let's say, with change. Shades, very important. Also with water. And the pets, we didn't talk about the pets. Of course. This is a dog. I gave it a dog. I gated area. Yes, absolutely. So do you think that, yes, if this could work out, can we take some example of existing parks already that we can kind of copy? Oh, yes. Oh, definitely. Yes. I think it depends where the park can be, but if it's like in a city, for example, in Tel Aviv, you can have it be kind of In the central park, maybe. Yeah, you know, central park. You can dream. No, there are many good examples of, for example, of good dog parks in Tel Aviv. Yes, yes, yes, yes. All right, then, do you think we can conclude this meeting? What other things can be made a pipe? Yes, of course, we need. But did we forget any topic, something that Linda you might think about? You know, one very important thing in the park that I go to do with my grandchildren sometimes is there's a coffee truck. Oh, yeah. Yeah. okay well of course I'll just decide a little bit but yeah usually those things are licensed right people come in and they apply for license by that right yes right so you don't really need a space for them especially if they're portable well if you're planning you have to sort of plan, okay, well, maybe a truck like that could park there, okay, and it wouldn't get in a way of other things. Yeah, it would necessarily be right next to the children and we could have an area with benches around it. Benches, right. To make it accessible, so older people sit. A few picnic tables. A few picnic tables. That would work. Picney tables. And you can make some of the pigeons. I think you can think about Internet access to. You'll have an area that could be a Wi-Fi. We have Wi-Fi that's available to people coming in and even working at the park. Yeah, in telepave that's a city issue, yeah, yeah. You do have coverage. Yeah, that's right. That's right. So that's an advantage.",
+  "track" : "meeting",
+  "wallSeconds" : 22.036978042
+}

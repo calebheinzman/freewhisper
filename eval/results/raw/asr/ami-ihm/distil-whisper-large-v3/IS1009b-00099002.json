@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.56,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00099002",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.7460040946312336,
+  "text" : "shapes also different shapes. You know, like a tri-",
+  "track" : "asr",
+  "wallSeconds" : 0.683394875
+}

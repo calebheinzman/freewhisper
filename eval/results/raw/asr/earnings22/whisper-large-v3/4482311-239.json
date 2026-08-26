@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.760125,
+  "dataset" : "earnings22",
+  "id" : "4482311-239",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.4309896763882417,
+  "text" : "the performance was relatively stable, again for want and spirit.",
+  "track" : "asr",
+  "wallSeconds" : 2.369456792
+}

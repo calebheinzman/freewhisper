@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 16.04,
+  "dataset" : "librispeech",
+  "id" : "260-123288-0026",
+  "model" : "parakeet-110m",
+  "rtfx" : 59.50963923705881,
+  "text" : "We shall be blown up, but no, the dazzling disk of mysterious light nimbly leaps aside. It approaches Hans, who fixes his blue eye upon it steadily. It threatens the head of my uncle, who falls upon his knees, with his head down to avoid it,",
+  "track" : "asr",
+  "wallSeconds" : 0.269536166
+}

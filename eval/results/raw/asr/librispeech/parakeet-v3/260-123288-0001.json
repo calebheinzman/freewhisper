@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.08,
+  "dataset" : "librispeech",
+  "id" : "260-123288-0001",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.62398800978123,
+  "text" : "The weather. If we may use the term, will change before long.",
+  "track" : "asr",
+  "wallSeconds" : 0.128205167
+}

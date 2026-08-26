@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.8,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0022",
+  "model" : "parakeet-v3",
+  "rtfx" : 31.55566304779956,
+  "text" : "I attend to the household mending, you know, and care for the linen.",
+  "track" : "asr",
+  "wallSeconds" : 0.120422125
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 18.56,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0009",
+  "model" : "parakeet-110m",
+  "rtfx" : 54.66014425071232,
+  "text" : "all dissent, all noncompliance, all hesitation, all mere silence, even, were in their stronghold towns, like Leavenworth, branded as abolitionism, declared to be hostility to the public welfare, and punished with proscription, personal violence, expulsion, and frequently death.",
+  "track" : "asr",
+  "wallSeconds" : 0.339552708
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00025453",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.489751853949837,
+  "text" : "and I see them as majestic.",
+  "track" : "asr",
+  "wallSeconds" : 0.603596833
+}

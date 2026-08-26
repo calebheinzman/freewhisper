@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.47,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102143",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.465769494810669,
+  "text" : "Yeah, that's a good one. Because the clock could be really friendly. Yes. When is your favorite show coming on? Yes. You see this very--",
+  "track" : "asr",
+  "wallSeconds" : 1.672724042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.78,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00175767",
+  "model" : "parakeet-v3",
+  "rtfx" : 49.35365887826864,
+  "text" : "We can design different remotes for different people, like for aged people, there will be big buttons and you know in a family",
+  "track" : "asr",
+  "wallSeconds" : 0.137375833
+}

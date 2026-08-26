@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.92,
+  "dataset" : "librispeech",
+  "id" : "8555-284449-0006",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.153084346165707,
+  "text" : "don't worry sizzle dear it'll all come right pretty soon",
+  "track" : "asr",
+  "wallSeconds" : 0.760709458
+}

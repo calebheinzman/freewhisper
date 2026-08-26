@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.14,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00100916",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.8613070727246539,
+  "text" : "Sure. I mean, you don't... Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 2.484595875
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.14,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00144376",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.168551540012942,
+  "text" : "Okay, then I'll put the minutes from this meeting in the project folder.",
+  "track" : "asr",
+  "wallSeconds" : 1.3065907079999999
+}

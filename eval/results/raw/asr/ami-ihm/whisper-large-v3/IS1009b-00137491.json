@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.99,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00137491",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.1801583886829353,
+  "text" : "If there is a clock, then there can a be a alarm clock.",
+  "track" : "asr",
+  "wallSeconds" : 22.147178542
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.580125,
+  "dataset" : "earnings22",
+  "id" : "4482311-247",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.0785204204777665,
+  "text" : "And then for the second half of this presentation, looking at the profit, I showed here you have the income statement where the first line is revenue. So that was already discussed.",
+  "track" : "asr",
+  "wallSeconds" : 2.594108625
+}

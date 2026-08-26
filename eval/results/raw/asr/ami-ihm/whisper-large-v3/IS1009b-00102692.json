@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.58,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102692",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.191340386042407,
+  "text" : "coming on yeah you see that on the radio maybe you have no other yeah a lot of",
+  "track" : "asr",
+  "wallSeconds" : 3.84440925
+}

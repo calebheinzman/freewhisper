@@ -1,0 +1,14 @@
+{
+  "dataset" : "librispeech",
+  "failureCount" : 176,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 24,
+  "model" : "parakeet-110m",
+  "modelLoadSeconds" : 0.383247458,
+  "totalWallSeconds" : 16.511831375,
+  "track" : "asr"
+}

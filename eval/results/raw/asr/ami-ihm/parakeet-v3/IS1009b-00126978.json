@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.87,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00126978",
+  "model" : "parakeet-v3",
+  "rtfx" : 65.39928419787708,
+  "text" : "Now there should be some timer to set for viewing a particular a particular program or switching on and off a uh a particular program according to the user choice.",
+  "track" : "asr",
+  "wallSeconds" : 0.150919083
+}

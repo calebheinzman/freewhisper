@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.5,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00072463",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.863116788258026,
+  "text" : "And I'm gonna draw in black.",
+  "track" : "asr",
+  "wallSeconds" : 0.100920959
+}

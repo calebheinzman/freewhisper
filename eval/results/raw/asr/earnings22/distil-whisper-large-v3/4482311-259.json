@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-259",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 14.384926838556202,
+  "text" : "Operating margin stands at 27%.",
+  "track" : "asr",
+  "wallSeconds" : 0.604804084
+}

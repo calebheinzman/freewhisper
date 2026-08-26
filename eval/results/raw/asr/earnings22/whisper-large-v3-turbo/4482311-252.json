@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.2999375,
+  "dataset" : "earnings22",
+  "id" : "4482311-252",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.228931449602393,
+  "text" : "Expenses last year, operating expenses were down 14% compared to 2019, which was in itself a good performance looking at a significant headwind.",
+  "track" : "asr",
+  "wallSeconds" : 1.814105291
+}

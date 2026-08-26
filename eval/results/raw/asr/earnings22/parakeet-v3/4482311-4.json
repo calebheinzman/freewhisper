@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.440125,
+  "dataset" : "earnings22",
+  "id" : "4482311-4",
+  "model" : "parakeet-v3",
+  "rtfx" : 32.71503529339042,
+  "text" : "It's a very pleasant meeting.",
+  "track" : "asr",
+  "wallSeconds" : 0.10515425
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.68,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00082937",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.4298688336222267,
+  "text" : "Yeah. My granddad's actually better than me at using Teletext, so... Right.",
+  "track" : "asr",
+  "wallSeconds" : 1.364483666
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.820125,
+  "dataset" : "earnings22",
+  "id" : "4482311-51",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 8.260009104138867,
+  "text" : "success. Credit where credit is due, first and foremost, Louis Vuitton, remarkable performance buoyed by regular, ongoing innovation.",
+  "track" : "asr",
+  "wallSeconds" : 1.431006292
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.43,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00028008",
+  "model" : "parakeet-v3",
+  "rtfx" : 46.58133652097225,
+  "text" : "See if I remember how to draw a kitty cat or a rabbit or something.",
+  "track" : "asr",
+  "wallSeconds" : 0.116570292
+}

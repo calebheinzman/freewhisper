@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 12.435,
+  "dataset" : "librispeech",
+  "id" : "1221-135766-0000",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.334155436469747,
+  "text" : "how strange it seemed to the sad woman as she watched the growth and the beauty that became every day more brilliant and the intelligence that threw its quivering sunshine over the tiny features of this child",
+  "track" : "asr",
+  "wallSeconds" : 0.9325675
+}

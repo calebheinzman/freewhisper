@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.92,
+  "dataset" : "librispeech",
+  "id" : "4077-13751-0019",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.448041976111196,
+  "text" : "Who began the quarrel? Was it the Mormons?",
+  "track" : "asr",
+  "wallSeconds" : 0.656468625
+}

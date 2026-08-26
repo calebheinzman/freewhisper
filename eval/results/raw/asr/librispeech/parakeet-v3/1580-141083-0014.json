@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.855,
+  "dataset" : "librispeech",
+  "id" : "1580-141083-0014",
+  "model" : "parakeet-v3",
+  "rtfx" : 27.02317903479868,
+  "text" : "To the best of my belief, they were rolled up.",
+  "track" : "asr",
+  "wallSeconds" : 0.105650042
+}

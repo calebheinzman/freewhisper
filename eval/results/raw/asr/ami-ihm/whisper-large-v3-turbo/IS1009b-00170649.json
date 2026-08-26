@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.18,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00170649",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.9942331898949097,
+  "text" : "Do we look at one target group?",
+  "track" : "asr",
+  "wallSeconds" : 1.093152
+}

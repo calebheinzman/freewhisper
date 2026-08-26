@@ -1,0 +1,37 @@
+{
+  "dataset": "librispeech",
+  "items": [
+    {
+      "audio": "../datasets/librispeech/1089-134686-0012.wav",
+      "durationSeconds": 11.64,
+      "id": "1089-134686-0012",
+      "reference": "her eyes seemed to regard him with mild pity her holiness a strange light glowing faintly upon her frail flesh did not humiliate the sinner who approached her"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134686-0025.wav",
+      "durationSeconds": 6.61,
+      "id": "1089-134686-0025",
+      "reference": "a gentle kick from the tall boy in the bench behind urged stephen to ask a difficult question"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134686-0027.wav",
+      "durationSeconds": 2.71,
+      "id": "1089-134686-0027",
+      "reference": "he clasped his hands on the desk and said"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134686-0037.wav",
+      "durationSeconds": 5.21,
+      "id": "1089-134686-0037",
+      "reference": "in the silence their dark fire kindled the dusk into a tawny glow"
+    },
+    {
+      "audio": "../datasets/librispeech/1089-134691-0016.wav",
+      "durationSeconds": 9.06,
+      "id": "1089-134691-0016",
+      "reference": "they were voyaging across the deserts of the sky a host of nomads on the march voyaging high over ireland westward bound"
+    }
+  ],
+  "profile": "smoke",
+  "track": "asr"
+}

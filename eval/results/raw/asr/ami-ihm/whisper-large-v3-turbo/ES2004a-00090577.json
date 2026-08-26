@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.73,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00090577",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.5031930901477226,
+  "text" : "Obviously it displays less on the screen.",
+  "track" : "asr",
+  "wallSeconds" : 1.150883417
+}

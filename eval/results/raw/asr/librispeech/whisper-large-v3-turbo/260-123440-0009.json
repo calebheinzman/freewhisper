@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.115,
+  "dataset" : "librispeech",
+  "id" : "260-123440-0009",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.7428519099913116,
+  "text" : "I shall never get to twenty at that rate.",
+  "track" : "asr",
+  "wallSeconds" : 1.13567925
+}

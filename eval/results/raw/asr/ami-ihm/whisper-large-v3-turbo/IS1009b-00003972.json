@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.06,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00003972",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.4927448538834347,
+  "text" : "I did just put on my microphone here and I'll be right with you.",
+  "track" : "asr",
+  "wallSeconds" : 1.227562458
+}

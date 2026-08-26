@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.38,
+  "dataset" : "earnings22",
+  "id" : "4482311-255",
+  "model" : "parakeet-v3",
+  "rtfx" : 73.09655103751497,
+  "text" : "That's up five percent, but s uh sales were up fourteen percent, not including scope or currency, and uh gross margin was up uh uh uh uh two percent. You",
+  "track" : "asr",
+  "wallSeconds" : 0.1556845
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-332",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.147854962565119,
+  "text" : "Of course, we do see it for logistic services, but we also see it for some of the products, materials and components that we are purchasing.",
+  "track" : "asr",
+  "wallSeconds" : 1.4969613339999999
+}

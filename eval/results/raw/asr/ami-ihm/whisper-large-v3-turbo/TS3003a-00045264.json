@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.15,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00045264",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.8380171175884892,
+  "text" : "And then we're going to try out the whiteboard.",
+  "track" : "asr",
+  "wallSeconds" : 1.169738834
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.71,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00027570",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.0378239805010474,
+  "text" : "Zelda sizzle.",
+  "track" : "asr",
+  "wallSeconds" : 1.64767825
+}

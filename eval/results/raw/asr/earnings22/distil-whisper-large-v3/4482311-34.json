@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.180125,
+  "dataset" : "earnings22",
+  "id" : "4482311-34",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.964709363799795,
+  "text" : "very strong demand in the U.S. and Europe for Champagne with the gradual reopening of restaurants, resumption of tourism.",
+  "track" : "asr",
+  "wallSeconds" : 0.820909542
+}

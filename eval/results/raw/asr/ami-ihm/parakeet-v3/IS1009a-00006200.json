@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.29,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00006200",
+  "model" : "parakeet-v3",
+  "rtfx" : 44.24282244049815,
+  "text" : "And uh misname and what your function is. So maybe we start with you.",
+  "track" : "asr",
+  "wallSeconds" : 0.119567417
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.96,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00051311",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.896280823943547,
+  "text" : "It should be something new. It should do something different than just what we have. Now, of course, the other thing to think there is maybe the designs.",
+  "track" : "asr",
+  "wallSeconds" : 4.1976905
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.72,
+  "dataset" : "earnings22",
+  "id" : "4482311-131",
+  "model" : "parakeet-v3",
+  "rtfx" : 50.5656774378838,
+  "text" : "Well um I'll uh skip over DFS.",
+  "track" : "asr",
+  "wallSeconds" : 0.113120209
+}

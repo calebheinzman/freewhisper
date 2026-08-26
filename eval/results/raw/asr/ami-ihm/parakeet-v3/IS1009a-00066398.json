@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.09,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00066398",
+  "model" : "parakeet-v3",
+  "rtfx" : 10.855965489981264,
+  "text" : "What 's the right thing",
+  "track" : "asr",
+  "wallSeconds" : 0.100405625
+}

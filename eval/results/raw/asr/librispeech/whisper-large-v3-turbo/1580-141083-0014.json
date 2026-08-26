@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.855,
+  "dataset" : "librispeech",
+  "id" : "1580-141083-0014",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.5155452945508467,
+  "text" : "to the best of my belief they were rolled up",
+  "track" : "asr",
+  "wallSeconds" : 1.134942792
+}

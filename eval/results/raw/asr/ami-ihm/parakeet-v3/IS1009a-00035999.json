@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.83,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00035999",
+  "model" : "parakeet-v3",
+  "rtfx" : 40.33118061690474,
+  "text" : "Hope the kitty cat is hungry 'cause I don't like space.",
+  "track" : "asr",
+  "wallSeconds" : 0.119758458
+}

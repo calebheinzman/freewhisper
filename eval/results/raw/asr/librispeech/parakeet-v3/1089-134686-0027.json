@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "librispeech",
+  "id" : "1089-134686-0027",
+  "model" : "parakeet-v3",
+  "rtfx" : 25.534050075061156,
+  "text" : "He clasped his hands on the desk and said,",
+  "track" : "asr",
+  "wallSeconds" : 0.106132791
+}

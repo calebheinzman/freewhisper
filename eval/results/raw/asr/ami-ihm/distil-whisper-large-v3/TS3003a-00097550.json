@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.1,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00097550",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.208646433052271,
+  "text" : "Garfield.",
+  "track" : "asr",
+  "wallSeconds" : 0.654481584
+}

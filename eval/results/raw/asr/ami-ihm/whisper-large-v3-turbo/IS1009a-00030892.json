@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.73,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00030892",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.6183246738152028,
+  "text" : "It's a fat cat.",
+  "track" : "asr",
+  "wallSeconds" : 1.06900675
+}

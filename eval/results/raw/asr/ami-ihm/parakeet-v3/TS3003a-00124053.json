@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.03,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00124053",
+  "model" : "parakeet-v3",
+  "rtfx" : 10.629716149632802,
+  "text" : "Well it was on, but",
+  "track" : "asr",
+  "wallSeconds" : 0.096898166
+}

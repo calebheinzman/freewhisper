@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.06,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00003972",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.162799944734342,
+  "text" : "Yeah, I'd just put on my microphone here and I'll be right with you.",
+  "track" : "asr",
+  "wallSeconds" : 0.735082166
+}

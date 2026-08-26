@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00025453",
+  "model" : "parakeet-v3",
+  "rtfx" : 27.422361375359124,
+  "text" : "And I see them as majestic.",
+  "track" : "asr",
+  "wallSeconds" : 0.098824458
+}

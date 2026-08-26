@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.86,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00040381",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.341708576854644,
+  "text" : "So these are all things, of course, to remember with the budget and when you design to materials, cost, etc.,",
+  "track" : "asr",
+  "wallSeconds" : 1.397099834
+}

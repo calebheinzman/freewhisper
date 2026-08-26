@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.25,
+  "dataset" : "librispeech",
+  "id" : "1580-141083-0031",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.459444492184889,
+  "text" : "Holmes held out a small chip with the letters NN and the space of clear wood after them. You see?",
+  "track" : "asr",
+  "wallSeconds" : 0.837864
+}

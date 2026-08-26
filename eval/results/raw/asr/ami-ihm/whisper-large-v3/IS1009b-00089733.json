@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.37,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089733",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.8611533717763178,
+  "text" : "Like an animal.",
+  "track" : "asr",
+  "wallSeconds" : 1.590889666
+}

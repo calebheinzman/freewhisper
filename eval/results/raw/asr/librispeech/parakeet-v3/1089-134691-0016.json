@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.06,
+  "dataset" : "librispeech",
+  "id" : "1089-134691-0016",
+  "model" : "parakeet-v3",
+  "rtfx" : 58.84412867735292,
+  "text" : "They were voyaging across the deserts of the sky, a host of nomads on the march, voyaging high over Ireland, westward bound.",
+  "track" : "asr",
+  "wallSeconds" : 0.153966083
+}

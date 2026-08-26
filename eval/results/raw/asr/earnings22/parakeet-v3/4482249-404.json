@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-404",
+  "model" : "parakeet-v3",
+  "rtfx" : 53.779607283347076,
+  "text" : "in the lab domain this is around uh forty percent",
+  "track" : "asr",
+  "wallSeconds" : 0.105989292
+}

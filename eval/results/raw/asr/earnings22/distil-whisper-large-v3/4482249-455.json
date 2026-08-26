@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.9803125,
+  "dataset" : "earnings22",
+  "id" : "4482249-455",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.001804169569321,
+  "text" : "So therefore, to say anything for 2023 now is difficult.",
+  "track" : "asr",
+  "wallSeconds" : 0.663186
+}

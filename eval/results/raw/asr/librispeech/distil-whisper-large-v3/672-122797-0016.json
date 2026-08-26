@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.215,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0016",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.493771414859394,
+  "text" : "Yes, then something better. Something still, grandeur, will surely follow. Or wherefore should they thus ornament me?",
+  "track" : "asr",
+  "wallSeconds" : 0.878139959
+}

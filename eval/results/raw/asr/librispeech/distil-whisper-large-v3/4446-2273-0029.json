@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.3,
+  "dataset" : "librispeech",
+  "id" : "4446-2273-0029",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.556605462811558,
+  "text" : "It's really too warm in this room to sing. Don't you feel it?",
+  "track" : "asr",
+  "wallSeconds" : 0.724223334
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.1000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-41",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.499870166336728,
+  "text" : "In Asia-Pacific, we also grew over 50% with 52.3 to 897 million",
+  "track" : "asr",
+  "wallSeconds" : 2.8401725
+}

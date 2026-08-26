@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.18,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00063989",
+  "model" : "parakeet-v3",
+  "rtfx" : 11.8916448638061,
+  "text" : "Maybe you have to hold it a bit.",
+  "track" : "asr",
+  "wallSeconds" : 0.099229334
+}

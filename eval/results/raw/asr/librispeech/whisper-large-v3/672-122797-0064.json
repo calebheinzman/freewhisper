@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.27,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0064",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.6877077452015556,
+  "text" : "at last the little mice stayed away also and the tree sighed after all it was very pleasant when the sleek little mice sat round me and listened to what i told them",
+  "track" : "asr",
+  "wallSeconds" : 4.140783667
+}

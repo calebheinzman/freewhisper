@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.2600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-77",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.075099859864164,
+  "text" : "Fendi. Big success from day one, but accentuated since the arrival of Kim Jong. Now,",
+  "track" : "asr",
+  "wallSeconds" : 0.799998084
+}

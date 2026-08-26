@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.1,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00054142",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.214709627527636,
+  "text" : "And birds of prey, aren't I? Oh dear. Intrepid. Intrepid.",
+  "track" : "asr",
+  "wallSeconds" : 0.792974083
+}

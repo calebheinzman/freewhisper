@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.43,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00176666",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.179579917550203,
+  "text" : "And a middle aged.",
+  "track" : "asr",
+  "wallSeconds" : 0.10084925
+}

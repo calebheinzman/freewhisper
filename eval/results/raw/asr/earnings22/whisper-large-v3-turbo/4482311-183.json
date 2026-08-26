@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.24,
+  "dataset" : "earnings22",
+  "id" : "4482311-183",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.997385932355334,
+  "text" : "have. So all in all, not much of a currency in effect in 2021.",
+  "track" : "asr",
+  "wallSeconds" : 1.310856667
+}

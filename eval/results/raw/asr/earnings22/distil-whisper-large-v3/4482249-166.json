@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.78,
+  "dataset" : "earnings22",
+  "id" : "4482249-166",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.384624015486622,
+  "text" : "The very significant increase of the ABTA margin is obvious and has been seen, has to do with the communities of scale and deferred cost development as talked about.",
+  "track" : "asr",
+  "wallSeconds" : 0.880114375
+}

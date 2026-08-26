@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.87,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00005014",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.50967540827294,
+  "text" : "Let's start off with a little presentation.",
+  "track" : "asr",
+  "wallSeconds" : 0.683772541
+}

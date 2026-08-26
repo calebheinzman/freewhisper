@@ -1,0 +1,8 @@
+{
+  "dataset" : "librispeech",
+  "error" : "engineFailed(engine: \"FluidAudio\", reason: \"MultiArray shape (2 x 1 x 640) does not match the shape (1 x 1 x 640) specified in the model description\")",
+  "id" : "1580-141084-0005",
+  "model" : "parakeet-110m",
+  "track" : "asr",
+  "wallSeconds" : 0
+}

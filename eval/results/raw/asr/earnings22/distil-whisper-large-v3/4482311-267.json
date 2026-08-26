@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-267",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.904025565547546,
+  "text" : "So now let's look at a profit from recurring operation at 17 billion going line by line again.",
+  "track" : "asr",
+  "wallSeconds" : 0.731845542
+}

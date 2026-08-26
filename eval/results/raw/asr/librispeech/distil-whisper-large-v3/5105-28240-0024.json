@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.2,
+  "dataset" : "librispeech",
+  "id" : "5105-28240-0024",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.237271654643862,
+  "text" : "Doubts now arose, and some discussion followed, whether or not it was desirable for Ben Zouf to accompany his master.",
+  "track" : "asr",
+  "wallSeconds" : 0.800994667
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.02,
+  "dataset" : "librispeech",
+  "id" : "121-121726-0004",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.3044743260531804,
+  "text" : "\"Heaven. A good place to be raised to.\"",
+  "track" : "asr",
+  "wallSeconds" : 1.2165323749999999
+}

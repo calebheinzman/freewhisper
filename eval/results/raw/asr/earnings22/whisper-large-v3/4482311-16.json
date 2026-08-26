@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-16",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.4040384683886862,
+  "text" : "and Sefra that was quite affected during the course of the year 2021 rebounded well last year.",
+  "track" : "asr",
+  "wallSeconds" : 25.591777291
+}

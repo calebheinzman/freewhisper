@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.3799375,
+  "dataset" : "earnings22",
+  "id" : "4482249-113",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 8.511867346908025,
+  "text" : "We are projecting those measures to cost around one percentage point of sales revenue going forward for the year 2025.",
+  "track" : "asr",
+  "wallSeconds" : 1.336949583
+}

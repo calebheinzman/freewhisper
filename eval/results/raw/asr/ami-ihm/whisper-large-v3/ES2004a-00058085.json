@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.72,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00058085",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5157367220575022,
+  "text" : "Yeah, yeah, something like that. Yeah, about 17. 17 pounds. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 4.433487625
+}

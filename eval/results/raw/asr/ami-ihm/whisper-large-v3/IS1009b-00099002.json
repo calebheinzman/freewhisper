@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.56,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00099002",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5222663036913844,
+  "text" : "you know like a try",
+  "track" : "asr",
+  "wallSeconds" : 1.6817031249999999
+}

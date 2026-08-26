@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.31,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00198892",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.477984451776051,
+  "text" : "But I think to sum it up, the target group is basically everybody. If money permits, we can address some features for some subgroups within that.",
+  "track" : "asr",
+  "wallSeconds" : 1.5124396249999998
+}

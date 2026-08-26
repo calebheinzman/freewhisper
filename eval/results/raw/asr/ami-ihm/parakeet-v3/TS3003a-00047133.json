@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.88,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00047133",
+  "model" : "parakeet-v3",
+  "rtfx" : 46.68936288473564,
+  "text" : "Is everybody is anybody playing with the mouse? No. Okay. But we're going to uh draw annible.",
+  "track" : "asr",
+  "wallSeconds" : 0.12593875
+}

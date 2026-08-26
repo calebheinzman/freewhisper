@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.3800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-173",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.551732326001343,
+  "text" : "So I'll give you some details on the remarkable financial performance that",
+  "track" : "asr",
+  "wallSeconds" : 0.667948209
+}

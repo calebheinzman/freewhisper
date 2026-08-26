@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.67,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00085300",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.6155406371202865,
+  "text" : "That's good from a marketing point of view, the fun shape. And colors also. You say that won't add too much to the budget? No, no, I don't think so.",
+  "track" : "asr",
+  "wallSeconds" : 1.8784364999999998
+}

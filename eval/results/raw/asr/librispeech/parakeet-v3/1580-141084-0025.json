@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.375,
+  "dataset" : "librispeech",
+  "id" : "1580-141084-0025",
+  "model" : "parakeet-v3",
+  "rtfx" : 24.091018484881257,
+  "text" : "You know him? I think so",
+  "track" : "asr",
+  "wallSeconds" : 0.098584458
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.48,
+  "dataset" : "earnings22",
+  "id" : "4482249-241",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.039689364301543,
+  "text" : "Any color, any thoughts you can give at the moment would be useful.",
+  "track" : "asr",
+  "wallSeconds" : 0.681618375
+}

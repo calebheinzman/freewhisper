@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.82,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00095678",
+  "model" : "parakeet-v3",
+  "rtfx" : 16.498508788628722,
+  "text" : "Yeah, but it might have been a good thing.",
+  "track" : "asr",
+  "wallSeconds" : 0.110313
+}

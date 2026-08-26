@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.36,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00110167",
+  "model" : "parakeet-v3",
+  "rtfx" : 64.82142186314435,
+  "text" : "And uh uh of course there should be a case where we can keep all the things and you know, different shapes or whatever it is. There should be a case to put to give a shape. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.159823708
+}

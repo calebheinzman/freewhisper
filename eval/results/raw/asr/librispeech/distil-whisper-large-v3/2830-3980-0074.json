@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.7,
+  "dataset" : "librispeech",
+  "id" : "2830-3980-0074",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.116176306084491,
+  "text" : "This attitude is universal and particularly developed in those who consider themselves better than others.",
+  "track" : "asr",
+  "wallSeconds" : 0.800991959
+}

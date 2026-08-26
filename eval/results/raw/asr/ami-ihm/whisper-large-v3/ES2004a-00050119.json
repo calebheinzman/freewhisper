@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.47,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00050119",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.5937775924468074,
+  "text" : "You can tell it's a flying animal.",
+  "track" : "asr",
+  "wallSeconds" : 2.177217208
+}

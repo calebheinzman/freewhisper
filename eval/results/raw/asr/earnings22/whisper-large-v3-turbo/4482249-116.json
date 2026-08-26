@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.9400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-116",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.25323231520131,
+  "text" : "This should include one percentage point of non-organic growth related to the acquisitions that have been mentioned.",
+  "track" : "asr",
+  "wallSeconds" : 1.321103291
+}

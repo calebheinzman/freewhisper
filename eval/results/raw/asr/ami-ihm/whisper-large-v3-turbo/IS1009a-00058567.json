@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.86,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00058567",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.506031744863585,
+  "text" : "Exactly. I mean, just that's why I'm saying I'm just saying throw signal meaning just whether it's a beep or whether a light or a beep.",
+  "track" : "asr",
+  "wallSeconds" : 1.522403833
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 18.54,
+  "dataset" : "librispeech",
+  "id" : "3729-6852-0005",
+  "model" : "parakeet-110m",
+  "rtfx" : 85.2754569512268,
+  "text" : "Sylvia was the adoration of France and her talent was the real support of all the comedies which the greatest authors wrote for her, especially of the plays of Marivau for without her his comedies would never have gone to posterity.",
+  "track" : "asr",
+  "wallSeconds" : 0.217413083
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.68,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00021944",
+  "model" : "parakeet-v3",
+  "rtfx" : 24.117545967345187,
+  "text" : "Detailed design. Okay. Same thing basically.",
+  "track" : "asr",
+  "wallSeconds" : 0.111122417
+}

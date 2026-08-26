@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.05,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00137840",
+  "model" : "parakeet-v3",
+  "rtfx" : 19.594840821788505,
+  "text" : "My remote control tends to fall a lot.",
+  "track" : "asr",
+  "wallSeconds" : 0.104619375
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.3400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-72",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.842313076496082,
+  "text" : "will be reopening as of early March this year, and I invite you all to come and visit it.",
+  "track" : "asr",
+  "wallSeconds" : 1.309304541
+}

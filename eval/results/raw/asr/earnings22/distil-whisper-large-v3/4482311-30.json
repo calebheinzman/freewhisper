@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-30",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 14.43198064124359,
+  "text" : "Well, we have this life 360 carbon trajectory, and we are pursuing that very actively.",
+  "track" : "asr",
+  "wallSeconds" : 0.713697084
+}

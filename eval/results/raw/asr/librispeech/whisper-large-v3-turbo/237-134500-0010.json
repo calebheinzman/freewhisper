@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.995,
+  "dataset" : "librispeech",
+  "id" : "237-134500-0010",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.185679354594919,
+  "text" : "It's exciting to see everything growing so fast, and to get the grass cut,",
+  "track" : "asr",
+  "wallSeconds" : 1.254049625
+}

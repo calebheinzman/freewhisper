@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.215,
+  "dataset" : "librispeech",
+  "id" : "5683-32866-0006",
+  "model" : "parakeet-v3",
+  "rtfx" : 36.203681137044676,
+  "text" : "Yes, so they said but that would, I think, have been worse.",
+  "track" : "asr",
+  "wallSeconds" : 0.116424625
+}

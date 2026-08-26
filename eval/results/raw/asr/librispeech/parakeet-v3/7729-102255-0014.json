@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.295,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0014",
+  "model" : "parakeet-v3",
+  "rtfx" : 43.06961497635035,
+  "text" : "The leaders of the conspiracy became distrustful of their power to crush the town",
+  "track" : "asr",
+  "wallSeconds" : 0.1229405
+}

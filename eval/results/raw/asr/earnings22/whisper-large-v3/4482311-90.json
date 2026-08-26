@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.7400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-90",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.098831405786156,
+  "text" : "also strong growth, strong growth of perfume and skincare.",
+  "track" : "asr",
+  "wallSeconds" : 2.258429375
+}

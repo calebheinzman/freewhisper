@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.0600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-32",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.731605929178691,
+  "text" : "firstly wines and spirits with very sustained demand both for champagne and cognac.",
+  "track" : "asr",
+  "wallSeconds" : 0.687038292
+}

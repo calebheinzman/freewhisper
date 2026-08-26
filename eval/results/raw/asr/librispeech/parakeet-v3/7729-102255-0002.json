@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.3,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0002",
+  "model" : "parakeet-v3",
+  "rtfx" : 54.44561286041586,
+  "text" : "That summer's emigration, however, being mainly from the free states, greatly changed the relative strengths of the two parties.",
+  "track" : "asr",
+  "wallSeconds" : 0.152445708
+}

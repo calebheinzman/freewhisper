@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.18,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00170649",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.531302000345543,
+  "text" : "Do we look at one target group?",
+  "track" : "asr",
+  "wallSeconds" : 0.617336042
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.02,
+  "dataset" : "librispeech",
+  "id" : "5639-40744-0015",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.22365086063834,
+  "text" : "this person was rudolpho who though he had gone to look for his friends had changed his mind in that respect not thinking it advisable to acquaint them but what had passed between him and the girl",
+  "track" : "asr",
+  "wallSeconds" : 1.077892834
+}

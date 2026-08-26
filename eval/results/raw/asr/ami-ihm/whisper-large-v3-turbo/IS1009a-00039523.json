@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.28,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00039523",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.8777624335816268,
+  "text" : "Okay, that should keep everybody on their toes and challenged",
+  "track" : "asr",
+  "wallSeconds" : 1.139774417
+}

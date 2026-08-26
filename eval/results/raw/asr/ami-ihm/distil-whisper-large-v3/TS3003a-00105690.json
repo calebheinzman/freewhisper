@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.28,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00105690",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.145281707553017,
+  "text" : "Well, it's supposed to be a cat. I like cats because I...",
+  "track" : "asr",
+  "wallSeconds" : 0.696469292
+}

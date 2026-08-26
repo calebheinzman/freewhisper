@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.0000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-225",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.9932146802597863,
+  "text" : "the 14%, which is an organic growth compared with 2019,",
+  "track" : "asr",
+  "wallSeconds" : 1.252139667
+}

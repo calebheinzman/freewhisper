@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.219875,
+  "dataset" : "earnings22",
+  "id" : "4482311-234",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.884349757598264,
+  "text" : "you have the performance of all brands, including Vito and Gioboton, not only them, Louvre, Celene, L'Opiana, Fendi, of course. So, Fendi, of course.",
+  "track" : "asr",
+  "wallSeconds" : 1.037765875
+}

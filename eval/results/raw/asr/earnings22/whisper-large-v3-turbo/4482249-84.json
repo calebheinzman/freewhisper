@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-84",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.665227398683869,
+  "text" : "It's a rather small company still, but fast growing and highly profitable.",
+  "track" : "asr",
+  "wallSeconds" : 1.221818791
+}

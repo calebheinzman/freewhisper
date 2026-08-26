@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.6800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-75",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.343055162337102,
+  "text" : "and whilst being contained, they have delivered remarkable growth. Now,",
+  "track" : "asr",
+  "wallSeconds" : 0.68081325
+}

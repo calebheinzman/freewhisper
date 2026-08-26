@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 17.22,
+  "dataset" : "librispeech",
+  "id" : "4077-13751-0007",
+  "model" : "parakeet-v3",
+  "rtfx" : 60.47986133885449,
+  "text" : "The Book of Mormon had taught the people the true origin and destiny of the American Indians. And toward this dark-skinned remnant of a once mighty people, the missionaries of Mormonism early turned their eyes, and with their eyes went their hearts and their hopes.",
+  "track" : "asr",
+  "wallSeconds" : 0.284722875
+}

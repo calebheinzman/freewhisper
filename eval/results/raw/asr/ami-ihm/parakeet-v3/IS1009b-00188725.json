@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.55,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00188725",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.264574843150417,
+  "text" : "Well, there's a real idea.",
+  "track" : "asr",
+  "wallSeconds" : 0.108660792
+}

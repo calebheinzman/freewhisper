@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.005,
+  "dataset" : "librispeech",
+  "id" : "908-31957-0008",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.078713873401998,
+  "text" : "nay i rather thrilled distrusting every light that seemed to gild the onward path and fear to over-lean a finger even",
+  "track" : "asr",
+  "wallSeconds" : 0.903083166
+}

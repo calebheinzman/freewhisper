@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.34,
+  "dataset" : "earnings22",
+  "id" : "4482311-268",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.04036842077069,
+  "text" : "Now uh you start with wines and spirits uh up eight percent compared to twenty nine.",
+  "track" : "asr",
+  "wallSeconds" : 0.130115791
+}

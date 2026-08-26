@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.060125,
+  "dataset" : "earnings22",
+  "id" : "4482311-229",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.845530684853383,
+  "text" : "where Sifarad, back in 2021, went back over its level, its performance of 2019.",
+  "track" : "asr",
+  "wallSeconds" : 0.743174791
+}

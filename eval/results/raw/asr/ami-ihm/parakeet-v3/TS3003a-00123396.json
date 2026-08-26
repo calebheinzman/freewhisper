@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00123396",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.589008714174405,
+  "text" : "The fledger. Hmm.",
+  "track" : "asr",
+  "wallSeconds" : 0.097139208
+}

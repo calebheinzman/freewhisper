@@ -1,0 +1,14 @@
+{
+  "dataset" : "ami-sdm",
+  "failureCount" : 0,
+  "host" : {
+    "chip" : "Apple M1 Max",
+    "memoryGB" : 32,
+    "os" : "macOS 26.5.1"
+  },
+  "itemCount" : 2,
+  "model" : "whisper-large-v3",
+  "modelLoadSeconds" : 5.277602541,
+  "totalWallSeconds" : 1018.1609955,
+  "track" : "meeting"
+}

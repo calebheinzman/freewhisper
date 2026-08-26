@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.765,
+  "dataset" : "librispeech",
+  "id" : "4970-29095-0022",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.173031055512256,
+  "text" : "is thee going to the yearly meeting ruth asked one of the girls",
+  "track" : "asr",
+  "wallSeconds" : 0.664293792
+}

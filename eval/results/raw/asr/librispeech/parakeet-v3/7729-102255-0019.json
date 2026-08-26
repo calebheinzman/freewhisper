@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.93,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0019",
+  "model" : "parakeet-v3",
+  "rtfx" : 58.05479082436294,
+  "text" : "To embarrass this damaging exposure, Judge Le Comte issued a writ against the ex governor on a frivolous charge of contempt.",
+  "track" : "asr",
+  "wallSeconds" : 0.153820208
+}

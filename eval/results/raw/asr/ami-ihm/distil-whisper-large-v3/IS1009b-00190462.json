@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.71,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00190462",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.740271402546303,
+  "text" : "Yeah, like for mobile phones, we have different, you know, covers. That's right. But like if then everybody's then everybody.",
+  "track" : "asr",
+  "wallSeconds" : 0.866894667
+}

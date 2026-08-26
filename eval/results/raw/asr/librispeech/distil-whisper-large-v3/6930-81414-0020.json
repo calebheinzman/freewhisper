@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5,
+  "dataset" : "librispeech",
+  "id" : "6930-81414-0020",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.000482744889508,
+  "text" : "I say you do know what this means, and you must tell us.",
+  "track" : "asr",
+  "wallSeconds" : 0.714236458
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.08,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00062952",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.8025827169117106,
+  "text" : "Okay, this is typically a new action, I think.",
+  "track" : "asr",
+  "wallSeconds" : 2.883054959
+}

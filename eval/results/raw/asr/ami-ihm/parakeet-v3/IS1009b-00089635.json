@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.93,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089635",
+  "model" : "parakeet-v3",
+  "rtfx" : 34.652073999371765,
+  "text" : "Like an orange.",
+  "track" : "asr",
+  "wallSeconds" : 0.113413125
+}

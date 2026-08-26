@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.34,
+  "dataset" : "earnings22",
+  "id" : "4482311-207",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7843288561520605,
+  "text" : "In the U.S., you look at the last bar on the right. We were up.",
+  "track" : "asr",
+  "wallSeconds" : 2.992721875
+}

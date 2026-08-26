@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.36,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00171054",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.290733598498628,
+  "text" : "And with the 25 euros, you know, can we afford to have, I'm asking the technical people here whether to look at,",
+  "track" : "asr",
+  "wallSeconds" : 1.420981834
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.059875,
+  "dataset" : "earnings22",
+  "id" : "4482311-220",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.43984564526918,
+  "text" : "We were at minus 18, then minus 15, then minus 6 percent in Q3, and then plus 1 percent in Q4.",
+  "track" : "asr",
+  "wallSeconds" : 0.954978958
+}

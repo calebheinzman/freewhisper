@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.3399375,
+  "dataset" : "earnings22",
+  "id" : "4482249-365",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.128775800522754,
+  "text" : "Second question deals with the capex.",
+  "track" : "asr",
+  "wallSeconds" : 1.099193959
+}

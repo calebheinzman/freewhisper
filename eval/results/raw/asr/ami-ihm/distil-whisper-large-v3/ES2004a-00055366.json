@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.11,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00055366",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.489759090498962,
+  "text" : "There we go. I hope that pen is going to be okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.6926875
+}

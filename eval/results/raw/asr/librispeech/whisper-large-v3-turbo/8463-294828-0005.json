@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.44,
+  "dataset" : "librispeech",
+  "id" : "8463-294828-0005",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.1685724392328365,
+  "text" : "Konsei was my manservant.",
+  "track" : "asr",
+  "wallSeconds" : 1.125164166
+}

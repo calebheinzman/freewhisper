@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.16,
+  "dataset" : "earnings22",
+  "id" : "4482311-272",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.6391957179347,
+  "text" : "perfumes is cosmetics up to the back to the 2019 level. Why",
+  "track" : "asr",
+  "wallSeconds" : 2.537829958
+}

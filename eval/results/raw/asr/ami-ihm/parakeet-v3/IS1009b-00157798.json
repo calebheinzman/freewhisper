@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.98,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00157798",
+  "model" : "parakeet-v3",
+  "rtfx" : 53.680848895716494,
+  "text" : "Yeah. And I think today there are probably not many people who don't have a T V. There are a few but in general not.",
+  "track" : "asr",
+  "wallSeconds" : 0.13002775
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.61,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00016119",
+  "model" : "parakeet-v3",
+  "rtfx" : 49.25090255132142,
+  "text" : "Okay Um three presentations I've got written here, so",
+  "track" : "asr",
+  "wallSeconds" : 0.113906542
+}

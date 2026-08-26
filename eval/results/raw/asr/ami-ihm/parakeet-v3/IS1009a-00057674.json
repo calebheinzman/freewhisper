@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.71,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00057674",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.604210154569934,
+  "text" : "He plost uh signal with me. Throw signal, you know.",
+  "track" : "asr",
+  "wallSeconds" : 0.11892675
+}

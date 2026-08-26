@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.98,
+  "dataset" : "librispeech",
+  "id" : "61-70970-0037",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.19094239387158,
+  "text" : "his tones rang pleasantly on warrenton's ears and forthwith a good-fellowship was heralded between them",
+  "track" : "asr",
+  "wallSeconds" : 1.426886709
+}

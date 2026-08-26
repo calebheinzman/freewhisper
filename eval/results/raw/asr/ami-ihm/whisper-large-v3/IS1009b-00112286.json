@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.77,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00112286",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1192872777258775,
+  "text" : "Next slide please.",
+  "track" : "asr",
+  "wallSeconds" : 1.581363458
+}

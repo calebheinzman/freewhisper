@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.28,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00104855",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.31347349860674,
+  "text" : "Is it your kid or did you find him on the street?",
+  "track" : "asr",
+  "wallSeconds" : 0.114703875
+}

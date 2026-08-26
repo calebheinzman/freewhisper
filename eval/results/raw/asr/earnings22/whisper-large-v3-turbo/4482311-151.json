@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-151",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.74722484134786,
+  "text" : "There are others who are equally legitimate and reputed. Some also Nobel Prize winners.",
+  "track" : "asr",
+  "wallSeconds" : 2.102294042
+}

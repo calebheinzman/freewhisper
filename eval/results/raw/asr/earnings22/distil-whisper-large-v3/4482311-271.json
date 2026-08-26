@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.88,
+  "dataset" : "earnings22",
+  "id" : "4482311-271",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.892962593636954,
+  "text" : "we're looking at up in a plus 75% improvement, which speaks for itself.",
+  "track" : "asr",
+  "wallSeconds" : 0.723402833
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.2400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-43",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.430020206971132,
+  "text" : "Keep in mind that in 2020, this region was hit the hardest, affected by the shutdowns",
+  "track" : "asr",
+  "wallSeconds" : 1.634318166
+}

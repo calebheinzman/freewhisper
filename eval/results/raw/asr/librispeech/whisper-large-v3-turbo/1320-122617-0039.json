@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.055,
+  "dataset" : "librispeech",
+  "id" : "1320-122617-0039",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.859001849362964,
+  "text" : "the mohican started on his feet and shook his shaggy covering as though the animal he counterfeited was about to make some desperate effort",
+  "track" : "asr",
+  "wallSeconds" : 1.451944292
+}

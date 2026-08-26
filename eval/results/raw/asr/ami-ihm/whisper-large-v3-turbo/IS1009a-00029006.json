@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00029006",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.614852233787903,
+  "text" : "so that it will record okay um well um traditional kitty cat",
+  "track" : "asr",
+  "wallSeconds" : 1.162535417
+}

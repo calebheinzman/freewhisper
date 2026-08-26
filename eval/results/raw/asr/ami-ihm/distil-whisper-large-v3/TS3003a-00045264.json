@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.15,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00045264",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.283031688890755,
+  "text" : "And then we're going to try out the whiteboard.",
+  "track" : "asr",
+  "wallSeconds" : 0.6548825
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.61,
+  "dataset" : "librispeech",
+  "id" : "1089-134686-0025",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.1307435635334295,
+  "text" : "A gentle kick from the tall boy in the bench behind urged Stephen to ask a difficult question.",
+  "track" : "asr",
+  "wallSeconds" : 1.288312292
+}

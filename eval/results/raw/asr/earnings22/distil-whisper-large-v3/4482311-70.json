@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.3400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-70",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.527761222822958,
+  "text" : "the Miser-Dur of Avenue Montaigne that was chosen in 1947 by Monsieur Gior.",
+  "track" : "asr",
+  "wallSeconds" : 0.743461541
+}

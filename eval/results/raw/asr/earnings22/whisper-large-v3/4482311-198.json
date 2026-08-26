@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-198",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.250739713997324,
+  "text" : "So let's look at the distribution of revenue per business line.",
+  "track" : "asr",
+  "wallSeconds" : 2.319265292
+}

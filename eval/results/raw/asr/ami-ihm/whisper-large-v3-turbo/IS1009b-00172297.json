@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00172297",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.280042524468045,
+  "text" : "sort of subgroups with maybe different buttons for each group, how much would that throw us",
+  "track" : "asr",
+  "wallSeconds" : 1.26703525
+}

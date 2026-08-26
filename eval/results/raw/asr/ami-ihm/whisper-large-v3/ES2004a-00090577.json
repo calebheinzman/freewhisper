@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.73,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00090577",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.40838415020982805,
+  "text" : "Obviously it displays left on the screen.",
+  "track" : "asr",
+  "wallSeconds" : 4.2362075
+}

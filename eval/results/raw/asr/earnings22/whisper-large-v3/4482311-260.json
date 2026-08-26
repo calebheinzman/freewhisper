@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-260",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9910558711384543,
+  "text" : "So all the numbers are good, including gross margin.",
+  "track" : "asr",
+  "wallSeconds" : 2.179716583
+}

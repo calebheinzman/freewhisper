@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.53,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00028757",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.2959548573240016,
+  "text" : "- Put your lapel on.",
+  "track" : "asr",
+  "wallSeconds" : 1.101938042
+}

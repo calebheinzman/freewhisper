@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.475,
+  "dataset" : "librispeech",
+  "id" : "8463-294825-0016",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.7759814024754306,
+  "text" : "milligram roughly one twenty eight thousandth of an ounce",
+  "track" : "asr",
+  "wallSeconds" : 1.6120425
+}

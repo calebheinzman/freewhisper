@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.6200625,
+  "dataset" : "earnings22",
+  "id" : "4482249-333",
+  "model" : "parakeet-v3",
+  "rtfx" : 71.90782478374535,
+  "text" : "Um and uh we are uh have started to pass those price increases uh forward um uh to customers.",
+  "track" : "asr",
+  "wallSeconds" : 0.13378325
+}

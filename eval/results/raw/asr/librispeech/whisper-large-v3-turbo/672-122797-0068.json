@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.02,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0068",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.424758797219667,
+  "text" : "but it was not the fir-tree that they meant",
+  "track" : "asr",
+  "wallSeconds" : 1.173805292
+}

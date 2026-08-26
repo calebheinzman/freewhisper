@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.91,
+  "dataset" : "librispeech",
+  "id" : "4507-16021-0049",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2251791225706667,
+  "text" : "there is hardly one day out of a hundred which is wholly joyous and sunny",
+  "track" : "asr",
+  "wallSeconds" : 2.655965958
+}

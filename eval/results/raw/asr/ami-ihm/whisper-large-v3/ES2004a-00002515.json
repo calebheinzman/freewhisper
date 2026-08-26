@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.68,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00002515",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.6936643994441208,
+  "text" : "So we've got both of these clipped on.",
+  "track" : "asr",
+  "wallSeconds" : 2.4219204579999998
+}

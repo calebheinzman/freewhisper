@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.28,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00136050",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.46173456451487,
+  "text" : "Yeah. But that would be really good if we could do that.",
+  "track" : "asr",
+  "wallSeconds" : 0.1084595
+}

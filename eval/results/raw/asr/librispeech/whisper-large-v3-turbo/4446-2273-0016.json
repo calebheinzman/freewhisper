@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.645,
+  "dataset" : "librispeech",
+  "id" : "4446-2273-0016",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.859198211024041,
+  "text" : "her hair is still like flax and her blue eyes are just like a baby's and she has the same three freckles on her little nose and talks about going back to urbain de mer",
+  "track" : "asr",
+  "wallSeconds" : 1.6461296669999999
+}

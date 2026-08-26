@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.21,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00120040",
+  "model" : "parakeet-v3",
+  "rtfx" : 12.546514777798372,
+  "text" : "You are number two.",
+  "track" : "asr",
+  "wallSeconds" : 0.096441125
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.32,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00014338",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.6948055008284824,
+  "text" : "We have our opening acquaintance tool training project plan discussion closing.",
+  "track" : "asr",
+  "wallSeconds" : 1.169209042
+}

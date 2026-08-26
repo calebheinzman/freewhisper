@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.6199375,
+  "dataset" : "earnings22",
+  "id" : "4482249-405",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.18832727305199,
+  "text" : "And that means for the Sartorius group, in total, this number is just a little bit below 70%.",
+  "track" : "asr",
+  "wallSeconds" : 1.341809542
+}

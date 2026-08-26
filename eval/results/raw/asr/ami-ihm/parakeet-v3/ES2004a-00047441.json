@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.94,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00047441",
+  "model" : "parakeet-v3",
+  "rtfx" : 40.795386157440056,
+  "text" : "Again, this is off the top of my head. I was gonna do a big cat too. Um",
+  "track" : "asr",
+  "wallSeconds" : 0.121092125
+}

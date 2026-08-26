@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.29,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00079652",
+  "model" : "parakeet-v3",
+  "rtfx" : 12.611943216925424,
+  "text" : "All right, well I can see.",
+  "track" : "asr",
+  "wallSeconds" : 0.102284
+}

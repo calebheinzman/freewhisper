@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.79,
+  "dataset" : "librispeech",
+  "id" : "908-31957-0002",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.486499968766466,
+  "text" : "I did not wrong myself so, but I placed a wrong on thee.",
+  "track" : "asr",
+  "wallSeconds" : 0.127779334
+}

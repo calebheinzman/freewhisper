@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.755,
+  "dataset" : "librispeech",
+  "id" : "1284-1180-0001",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9256735534231568,
+  "text" : "His hat had a peaked crown at a flat brim, and around the brim was a row of tiny golden bells that tinkled when he moved.",
+  "track" : "asr",
+  "wallSeconds" : 4.027162333
+}

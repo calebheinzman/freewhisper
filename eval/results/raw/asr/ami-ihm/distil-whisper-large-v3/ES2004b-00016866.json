@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.96,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00016866",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.226650377877059,
+  "text" : "Shall we hear from marketing first?",
+  "track" : "asr",
+  "wallSeconds" : 0.607441083
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.94,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00047441",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.4883043541990126,
+  "text" : "Again, this is off the top of my head. I was going to do a big cat too.",
+  "track" : "asr",
+  "wallSeconds" : 1.416160833
+}

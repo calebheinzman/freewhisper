@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.89,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00066770",
+  "model" : "parakeet-v3",
+  "rtfx" : 35.08818106396223,
+  "text" : "Oh yeah, well but then those people they can't help everybody.",
+  "track" : "asr",
+  "wallSeconds" : 0.110863541
+}

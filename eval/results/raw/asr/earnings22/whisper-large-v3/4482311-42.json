@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.6000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-42",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.819149782598768,
+  "text" : "of course, unfortunately, there won't be any drinks offered today after this reception. We",
+  "track" : "asr",
+  "wallSeconds" : 2.695870417
+}

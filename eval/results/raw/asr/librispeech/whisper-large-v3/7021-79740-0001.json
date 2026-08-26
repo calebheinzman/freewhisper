@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.995,
+  "dataset" : "librispeech",
+  "id" : "7021-79740-0001",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.264405473589353,
+  "text" : "Della had a young sister named Maria and a cousin whose name was Jane.",
+  "track" : "asr",
+  "wallSeconds" : 2.647494042
+}

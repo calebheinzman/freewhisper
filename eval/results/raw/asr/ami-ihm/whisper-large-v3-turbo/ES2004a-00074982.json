@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.47,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00074982",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.4286913297908224,
+  "text" : "- And the tally text button or something like that. - And symbols that you don't necessarily understand. Symbols you're meant to understand that you don't.",
+  "track" : "asr",
+  "wallSeconds" : 1.595360875
+}

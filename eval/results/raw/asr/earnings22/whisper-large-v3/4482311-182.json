@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.6200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-182",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.7238196565764883,
+  "text" : "It was stronger in the first half of the year and became positive in the second half.",
+  "track" : "asr",
+  "wallSeconds" : 2.6801310000000003
+}

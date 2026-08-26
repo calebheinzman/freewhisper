@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.05,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00032877",
+  "model" : "parakeet-v3",
+  "rtfx" : 30.187329148102386,
+  "text" : "Am I supposed to wipe off that? No, no. No, that's okay. No, okay. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 0.13416225
+}

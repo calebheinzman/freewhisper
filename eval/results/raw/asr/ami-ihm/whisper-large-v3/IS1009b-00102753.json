@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.39,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102753",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4041229922821734,
+  "text" : "Yeah, you see this there already, maybe you have no other...",
+  "track" : "asr",
+  "wallSeconds" : 2.414318417
+}

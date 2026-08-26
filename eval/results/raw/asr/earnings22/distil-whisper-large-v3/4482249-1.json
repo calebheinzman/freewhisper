@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3800625,
+  "dataset" : "earnings22",
+  "id" : "4482249-1",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.92414771817276,
+  "text" : "As always, I will run this call together with our CFO, Raina Lehman, who will walk you through the details of our financial results in a minute.",
+  "track" : "asr",
+  "wallSeconds" : 0.870507708
+}

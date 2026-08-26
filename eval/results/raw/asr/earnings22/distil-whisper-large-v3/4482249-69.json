@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.7800625,
+  "dataset" : "earnings22",
+  "id" : "4482249-69",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.392692629983767,
+  "text" : "The strong AVDA, of course, contribute also to a strong operating cash flow.",
+  "track" : "asr",
+  "wallSeconds" : 0.700960125
+}

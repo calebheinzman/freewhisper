@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.7600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-233",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.9884624627661704,
+  "text" : "Fashion and leather goods I mentioned earlier on up 42% compared to 2019.",
+  "track" : "asr",
+  "wallSeconds" : 0.681131583
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.5799375,
+  "dataset" : "earnings22",
+  "id" : "4482249-296",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.68797118127732,
+  "text" : "I'm trying to understand what are the moving parts other than just, say, inventory build might be able to account for it. Or do you really think it is just all sort of built up within the channels?",
+  "track" : "asr",
+  "wallSeconds" : 1.684245084
+}

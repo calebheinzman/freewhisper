@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.89,
+  "dataset" : "librispeech",
+  "id" : "6829-68769-0023",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.180909347565684,
+  "text" : "I didn't stop to think whether it was foolish or not. I did it, and I'm glad I did it.",
+  "track" : "asr",
+  "wallSeconds" : 0.242308209
+}

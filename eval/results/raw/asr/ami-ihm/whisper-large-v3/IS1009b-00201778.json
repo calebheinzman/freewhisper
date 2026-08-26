@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.44,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00201778",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.7556759497545771,
+  "text" : "So that's what we went through.",
+  "track" : "asr",
+  "wallSeconds" : 1.905578708
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.060125,
+  "dataset" : "earnings22",
+  "id" : "4482311-229",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.958775671952745,
+  "text" : "where Sephora back in 2021 went back over its level, its performance of 2019.",
+  "track" : "asr",
+  "wallSeconds" : 1.352647833
+}

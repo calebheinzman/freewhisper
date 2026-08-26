@@ -1,0 +1,32 @@
+{
+  "dataset" : "ami-summ",
+  "id" : "IS1009a",
+  "inputChars" : 11792,
+  "model" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit",
+  "summary" : {
+    "actionItems" : [
+      "Jeanne-Oui to deliver working technical-functional design by next meeting",
+      "Eileen to provide user requirement specification focusing on findability, ergonomics, and user behavior"
+    ],
+    "keyPoints" : [
+      "Remote must be compact, multi-functional, and visually distinctive with trendy materials and shapes.",
+      "Added feature: detects darkness and triggers a fluorescent blink or beep to help users find lost remotes.",
+      "Design must justify €25 price with a feature set that aligns with market value and user needs.",
+      "Production cost capped at €12.50; international market with no regional restrictions."
+    ],
+    "speakerNames" : {
+      "Speaker 1" : "Francina",
+      "Speaker 2" : "Eileen",
+      "Speaker 3" : "Jeanne-Oui"
+    },
+    "summary" : "The team finalizes a new remote control design that must be compact, multi-functional, and visually distinct to stand out in the market. A key feature is a lost-remote detection system using a light sensor to trigger a visible or audible signal in low-light environments. The design must balance cost (≤€12.50\/unit) with functionality and user-friendliness, while marketing develops a user requirement specification focusing on findability and ergonomics.",
+    "tags" : [
+      "remote control",
+      "user experience",
+      "product design"
+    ],
+    "title" : "Remote Control Design Decisions"
+  },
+  "track" : "summarize",
+  "wallSeconds" : 25.43269175
+}

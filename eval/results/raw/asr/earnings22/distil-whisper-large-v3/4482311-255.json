@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.38,
+  "dataset" : "earnings22",
+  "id" : "4482311-255",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.228840742991867,
+  "text" : "That's up 5%. But sales were up 14%, not including scope or currency. And gross margin was up 2%. You know,",
+  "track" : "asr",
+  "wallSeconds" : 0.860241666
+}

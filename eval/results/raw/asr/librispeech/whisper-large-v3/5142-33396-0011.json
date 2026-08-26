@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.52,
+  "dataset" : "librispeech",
+  "id" : "5142-33396-0011",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.3568839649764455,
+  "text" : "There she sat on the rollers, as fair a ship as I ever saw.",
+  "track" : "asr",
+  "wallSeconds" : 2.594179083
+}

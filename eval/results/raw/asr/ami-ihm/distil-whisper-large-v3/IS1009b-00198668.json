@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.76,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00198668",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.3931315976270255,
+  "text" : "to these points at our next meeting but but I think we do some more research I think to see",
+  "track" : "asr",
+  "wallSeconds" : 0.744549041
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.06,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00043941",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.79697593446901,
+  "text" : "Here is a simple toolbar. It's what I just said. It's safe, print, move back or forward one page.",
+  "track" : "asr",
+  "wallSeconds" : 0.931742375
+}

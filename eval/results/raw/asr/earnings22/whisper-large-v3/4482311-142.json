@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-142",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.5898622908799465,
+  "text" : "and the launch of La Samaritaine, which is a wonderful store, and that is getting off to a good start.",
+  "track" : "asr",
+  "wallSeconds" : 3.467389958
+}

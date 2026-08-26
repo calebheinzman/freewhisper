@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.5,
+  "dataset" : "earnings22",
+  "id" : "4482311-153",
+  "model" : "parakeet-v3",
+  "rtfx" : 75.63734434799905,
+  "text" : "Once all that is resolved, um inflation will um calm down and um things will uh resume normally.",
+  "track" : "asr",
+  "wallSeconds" : 0.125599333
+}

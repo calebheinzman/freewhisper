@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3800625,
+  "dataset" : "earnings22",
+  "id" : "4482249-325",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.1434786008637405,
+  "text" : "So let's say for simplicity 10%,",
+  "track" : "asr",
+  "wallSeconds" : 2.043436542
+}

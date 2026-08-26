@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.000125,
+  "dataset" : "earnings22",
+  "id" : "4482311-242",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.956189211987416,
+  "text" : "In watches and jewelry, there is an acceleration of growth at the end of the year, largely attributable to Bulgaria, because Tiffany is in the scope effect, in a structure impact.",
+  "track" : "asr",
+  "wallSeconds" : 0.920036042
+}

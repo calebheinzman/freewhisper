@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 13.035,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0067",
+  "model" : "parakeet-v3",
+  "rtfx" : 74.62063521664406,
+  "text" : "The trunks were moved, the tree was pulled out and thrown, Rather hard, it is true, down on the floor But a man drew him towards the stairs where the daylight shone.",
+  "track" : "asr",
+  "wallSeconds" : 0.174683584
+}

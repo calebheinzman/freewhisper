@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.16,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00173074",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.50947057577907,
+  "text" : "out of the cost we are supposed to respect",
+  "track" : "asr",
+  "wallSeconds" : 0.108025375
+}

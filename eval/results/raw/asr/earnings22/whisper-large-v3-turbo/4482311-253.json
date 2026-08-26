@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.0801875,
+  "dataset" : "earnings22",
+  "id" : "4482311-253",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.9853103029597934,
+  "text" : "And here they were up, well, expenses were up 20%, which tends to reason because, of course, business groups",
+  "track" : "asr",
+  "wallSeconds" : 1.525649708
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.44,
+  "dataset" : "librispeech",
+  "id" : "8463-294828-0005",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1102723822316747,
+  "text" : "\"'Cassez was my man's servant.'",
+  "track" : "asr",
+  "wallSeconds" : 2.197658916
+}

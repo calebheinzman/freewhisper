@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.39,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0035",
+  "model" : "parakeet-v3",
+  "rtfx" : 35.26523408307274,
+  "text" : "Will you leave me alone in my own room, or must I go away to escape you?",
+  "track" : "asr",
+  "wallSeconds" : 0.124485208
+}

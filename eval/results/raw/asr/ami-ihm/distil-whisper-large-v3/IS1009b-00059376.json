@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.18,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00059376",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.4607617287377965,
+  "text" : "Can you make it a full screen please?",
+  "track" : "asr",
+  "wallSeconds" : 0.629919125
+}

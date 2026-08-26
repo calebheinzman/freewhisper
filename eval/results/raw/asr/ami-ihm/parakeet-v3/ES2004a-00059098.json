@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.95,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00059098",
+  "model" : "parakeet-v3",
+  "rtfx" : 36.68985819014029,
+  "text" : "I think so. I think I'd be able to um pull it up or put it in the shared folder or something.",
+  "track" : "asr",
+  "wallSeconds" : 0.134914667
+}

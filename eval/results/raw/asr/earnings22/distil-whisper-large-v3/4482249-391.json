@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.4199375,
+  "dataset" : "earnings22",
+  "id" : "4482249-391",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.887206291968608,
+  "text" : "And Korea will play hero role, of course, is that Korea has become the hub, or one of the most important hubs, to say the list.",
+  "track" : "asr",
+  "wallSeconds" : 0.86523
+}

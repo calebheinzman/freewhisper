@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.61,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0021",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.9283453256359335,
+  "text" : "But it can't be protested the girl.",
+  "track" : "asr",
+  "wallSeconds" : 0.664401875
+}

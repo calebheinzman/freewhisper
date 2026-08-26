@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.0800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-147",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.492654558644171,
+  "text" : "Everyone's talking about inflation.",
+  "track" : "asr",
+  "wallSeconds" : 0.595553458
+}

@@ -75,6 +75,19 @@ let package = Package(
             ],
             swiftSettings: swiftSettings
         ),
+        // Drives the models over benchmark corpora for `eval/`. Deliberately a
+        // separate executable rather than more `fwctl` subcommands: it is a
+        // development tool, it never ships inside the app bundle, and `fwctl` is
+        // a user-facing CLI whose help output should not fill up with flags for
+        // scoring runs nobody but us performs.
+        .executableTarget(
+            name: "fweval",
+            dependencies: [
+                "FreeWhisperKit",
+                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+            ],
+            swiftSettings: swiftSettings
+        ),
         .testTarget(
             name: "FreeWhisperKitTests",
             dependencies: ["FreeWhisperKit"],

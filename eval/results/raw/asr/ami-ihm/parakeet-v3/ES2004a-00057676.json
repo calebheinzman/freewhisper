@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.74,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00057676",
+  "model" : "parakeet-v3",
+  "rtfx" : 35.65059036888771,
+  "text" : "One point four or something like that. One point four euro would make a pound or something like that. Yeah, yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.132957125
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.8399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-275",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.356246772163662,
+  "text" : "And that was completed by Tag Hoyer and Ublo, and indeed Zenith, which",
+  "track" : "asr",
+  "wallSeconds" : 0.71690825
+}

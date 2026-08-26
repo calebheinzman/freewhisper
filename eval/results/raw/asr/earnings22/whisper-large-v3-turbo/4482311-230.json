@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.16,
+  "dataset" : "earnings22",
+  "id" : "4482311-230",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.7802005853536886,
+  "text" : "so a fine performance by Sephora, but",
+  "track" : "asr",
+  "wallSeconds" : 1.213346416
+}

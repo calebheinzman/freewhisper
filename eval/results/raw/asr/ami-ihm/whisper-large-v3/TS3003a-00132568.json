@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.1,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00132568",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.7178659853882596,
+  "text" : "I think if you can put different kind of devices in one remote control,",
+  "track" : "asr",
+  "wallSeconds" : 3.348215125
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.65,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00056614",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.455228389139304,
+  "text" : "",
+  "track" : "asr",
+  "wallSeconds" : 2.165994458
+}

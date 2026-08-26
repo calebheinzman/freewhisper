@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.84,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00121071",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1342873581202868,
+  "text" : "Would you want it full screen? Yes. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 2.503774709
+}

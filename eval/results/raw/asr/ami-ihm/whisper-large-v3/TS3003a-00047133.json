@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.88,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00047133",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9378334461813722,
+  "text" : "Is anybody playing with the mouse? We're going to draw a handball.",
+  "track" : "asr",
+  "wallSeconds" : 3.0343165
+}

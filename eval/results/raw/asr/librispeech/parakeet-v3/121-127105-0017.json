@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.695,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0017",
+  "model" : "parakeet-v3",
+  "rtfx" : 21.165849549685753,
+  "text" : "It was almost the tone of hope. Everybody will stay.",
+  "track" : "asr",
+  "wallSeconds" : 0.12732775
+}

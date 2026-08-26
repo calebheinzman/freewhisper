@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.515,
+  "dataset" : "librispeech",
+  "id" : "5142-33396-0063",
+  "model" : "parakeet-v3",
+  "rtfx" : 12.029456623704608,
+  "text" : "And would he not be a good gift for our baby?",
+  "track" : "asr",
+  "wallSeconds" : 0.209070125
+}

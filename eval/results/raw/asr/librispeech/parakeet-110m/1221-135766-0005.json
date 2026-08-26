@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 16.645,
+  "dataset" : "librispeech",
+  "id" : "1221-135766-0005",
+  "model" : "parakeet-110m",
+  "rtfx" : 129.5531118139868,
+  "text" : "Hester could only account for the child's character, and even then most vaguely and imperfectly by recalling what she herself had been during that momentous period while Pearl was imbibing her soul from the spiritual world, and her bodily frame from its material of earth",
+  "track" : "asr",
+  "wallSeconds" : 0.128480125
+}

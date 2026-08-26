@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.1600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-212",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8660333761520256,
+  "text" : "Japan had an overall growth of 5 percent over the year.",
+  "track" : "asr",
+  "wallSeconds" : 2.22936125
+}

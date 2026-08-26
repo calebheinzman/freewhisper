@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.98,
+  "dataset" : "librispeech",
+  "id" : "61-70970-0037",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.007840521745194,
+  "text" : "His tones rang pleasantly on Warranton's ears, and forthwith a good fellowship was heralded between them.",
+  "track" : "asr",
+  "wallSeconds" : 0.157335958
+}

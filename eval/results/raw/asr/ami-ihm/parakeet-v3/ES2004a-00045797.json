@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.6,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00045797",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.51412566784413,
+  "text" : "Oops, oh dear. What happened there?",
+  "track" : "asr",
+  "wallSeconds" : 0.110571834
+}

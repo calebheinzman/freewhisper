@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.94,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00045400",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.4308340544607883,
+  "text" : "I hope that clicks in. I'll hold it on.",
+  "track" : "asr",
+  "wallSeconds" : 1.209461417
+}

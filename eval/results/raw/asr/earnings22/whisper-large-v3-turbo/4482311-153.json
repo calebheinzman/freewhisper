@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.5,
+  "dataset" : "earnings22",
+  "id" : "4482311-153",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.422167591480227,
+  "text" : "Once all that is resolved, inflation will calm down and things will resume normally.",
+  "track" : "asr",
+  "wallSeconds" : 1.752066833
+}

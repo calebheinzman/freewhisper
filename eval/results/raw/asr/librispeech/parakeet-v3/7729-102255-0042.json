@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.225,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0042",
+  "model" : "parakeet-v3",
+  "rtfx" : 59.14971865861107,
+  "text" : "Relocated Footnote. Governor Robinson being on his way east, the steamboat on which he was travelling stopped at Lexington, Missouri",
+  "track" : "asr",
+  "wallSeconds" : 0.155960167
+}

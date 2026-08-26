@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.54,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00138976",
+  "model" : "parakeet-v3",
+  "rtfx" : 73.57130579470011,
+  "text" : "Okay, so these are um a few things we can think of Um I will put the minutes from this meeting uh in our project folder.",
+  "track" : "asr",
+  "wallSeconds" : 0.143262375
+}

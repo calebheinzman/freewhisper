@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.76,
+  "dataset" : "librispeech",
+  "id" : "4992-41806-0016",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 15.617255040540412,
+  "text" : "the face of the mahogany shone with delight and why not when it was doing everything almost everything within the scope of a piano and yet the family had enjoyed weeks of good nourishing meals on what had been saved by its exertions",
+  "track" : "asr",
+  "wallSeconds" : 1.009140208
+}

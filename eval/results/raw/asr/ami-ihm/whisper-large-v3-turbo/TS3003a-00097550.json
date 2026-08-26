@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.1,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00097550",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.8162108504421492,
+  "text" : "Garfield",
+  "track" : "asr",
+  "wallSeconds" : 1.156253416
+}

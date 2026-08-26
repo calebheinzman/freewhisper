@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-259",
+  "model" : "parakeet-v3",
+  "rtfx" : 69.14272922177962,
+  "text" : "Operating uh margin uh stands at uh uh at uh uh twenty seven percent.",
+  "track" : "asr",
+  "wallSeconds" : 0.125827583
+}

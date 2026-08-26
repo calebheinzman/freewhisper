@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.62,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00069157",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.5174715904097338,
+  "text" : "It lives for the fun.",
+  "track" : "asr",
+  "wallSeconds" : 1.067565291
+}

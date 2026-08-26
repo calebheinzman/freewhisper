@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.285,
+  "dataset" : "librispeech",
+  "id" : "8463-294828-0029",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.67169849977957,
+  "text" : "Our baggage was immediately carried to the deck of the frigate. I rushed aboard.",
+  "track" : "asr",
+  "wallSeconds" : 0.13666325
+}

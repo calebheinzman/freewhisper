@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.72,
+  "dataset" : "earnings22",
+  "id" : "4482311-131",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.120775399126774,
+  "text" : "Well, I'll skip over DFS.",
+  "track" : "asr",
+  "wallSeconds" : 1.117018333
+}

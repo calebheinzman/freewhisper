@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-137",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.8105685170928534,
+  "text" : "SEPRA there's the rebound thanks to the dynamism of the teams.",
+  "track" : "asr",
+  "wallSeconds" : 1.144202625
+}

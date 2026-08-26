@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.11,
+  "dataset" : "librispeech",
+  "id" : "8455-210777-0049",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.5243066408382266,
+  "text" : "Lieutenant Crosstrees is a very gallant officer.",
+  "track" : "asr",
+  "wallSeconds" : 1.166186833
+}

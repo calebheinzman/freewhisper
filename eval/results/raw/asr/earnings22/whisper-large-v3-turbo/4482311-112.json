@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.1800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-112",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.584366711871952,
+  "text" : "and numerous iconic lines continued to grow. The Serpentis, the Diva lines, etc.",
+  "track" : "asr",
+  "wallSeconds" : 1.464814709
+}

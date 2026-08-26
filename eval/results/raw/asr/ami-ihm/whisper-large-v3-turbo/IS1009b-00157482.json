@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.03,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00157482",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.9398520064734524,
+  "text" : "who has a TV.",
+  "track" : "asr",
+  "wallSeconds" : 1.046471583
+}

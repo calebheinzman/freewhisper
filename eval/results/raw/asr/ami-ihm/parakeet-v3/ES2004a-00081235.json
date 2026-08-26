@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.74,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00081235",
+  "model" : "parakeet-v3",
+  "rtfx" : 24.519372205636103,
+  "text" : "What about the older generation? What about granny and granddads?",
+  "track" : "asr",
+  "wallSeconds" : 0.111748375
+}

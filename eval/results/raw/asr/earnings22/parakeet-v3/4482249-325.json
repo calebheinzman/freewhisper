@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3800625,
+  "dataset" : "earnings22",
+  "id" : "4482249-325",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.13725790913381,
+  "text" : "So let's f say for the simplicity, ten percent.",
+  "track" : "asr",
+  "wallSeconds" : 0.111915416
+}

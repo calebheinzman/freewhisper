@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.85,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00032223",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.344737101497703,
+  "text" : "Yes, I'm just to see. Yes.",
+  "track" : "asr",
+  "wallSeconds" : 0.655966042
+}

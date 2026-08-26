@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.5799375,
+  "dataset" : "earnings22",
+  "id" : "4482311-224",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.0728122300320155,
+  "text" : "Now, looking at the various business lines then,",
+  "track" : "asr",
+  "wallSeconds" : 0.633453583
+}

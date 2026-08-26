@@ -1,0 +1,140 @@
+{
+  "dataset": "icsi",
+  "items": [
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [
+          "In order to confirm the suitability of the data format provided by the ATLAS project, its current state of development will be investigated.",
+          "More specifically, the issues that have to be ascertained are, firstly, whether the external file representation offers a format that would be appropriate for speech data, and, secondly, how the linking between the different annotations (eg, between word-level representations and prosodic-feature structures) can be achieved.",
+          "Regardless of the actual format, however, there was consensus that keeping levels of analysis (words, phones, frames, etc) on separate, inter-linked files can make their management easier.",
+          "Choosing a project-specific format for the representation of the data might not be optimal for future work.",
+          "On the other hand, it is not yet clear whether a more standardised, but generic technology, like that of the ATLAS project, can accommodate all the requirements of speech analysis.",
+          "Regardless of the particular format, including all annotations (sentences, words, phones, frames, etc) in one file could result in unmanageable file sizes.",
+          "Searching, updating or simply parsing a file for a simple task can become an unwieldy process.",
+          "Even P-files, which are only for frame-level annotation, may be too verbose for the amount of data resulting from hour-long recordings.",
+          "The actual mapping of word-level transcriptions to frame-level representations is expected to be problematic anyway.",
+          "Likewise, problems will arise if, in the future, slightly different transcripts of the same data are annotated in formats that do not include time-marks.",
+          "Trying to merge such annotations later will not be easy, because of the combination of transcription discrepancies with the loss of the underlying connection offered by the time-marks."
+        ],
+        "speakerNames": {},
+        "summary": "Two main options were discussed as to the organisation of the collected data. On the one hand, a bespoke XML structure that connects transcriptions and annotations (down to the word-level) to a common timeline. Its advantages are that it is easier to read, parse, map onto the Transcriber format and to expand with extra features. Phone-level analysis can be included in the same structure, or in a separate, linked file. The respective frame-level representation can be handled by P-files, a technology developed at ICSI, which also comes with a library of tools. Separation of levels of analysis makes files more compact and manageable. XML standards offer libraries that can be used for the development of search tools. On the other hand, the ATLAS (NIST) technology offers a very similar, but more generic organisational scheme based on nodes and links. These are labeled with domain specific types, like \"utterance\" or \"speaker\". This option offer well-developed infrastructure and flexibility as to the type of data storage (flat XML files or relational database). In either case, it is important for the chosen format to allow for fast searches, flexible updates and, if possible, be reusable in future work.",
+        "topics": []
+      },
+      "id": "Bdb001",
+      "transcript": "../datasets/icsi/Bdb001.transcript.json"
+    },
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [
+          "Inferring intentions in a navigational context is an appropriate task both in project and real-world terms.",
+          "Its goals are clearly defined and contributre to a smarter system.",
+          "Although there are some preliminary data to work on, task-specific experiments and recordings will take place.",
+          "The XML format is going to be used has not been defined, although the SmartKom data can be used as a foundation.",
+          "In the first instance, the group will have to decide on the software package to be used for the creation and manipulation of the belief-nets.",
+          "Stability and ease-of-use -in addition to ability to handle XML- of the package are the focus at this stage, instead of the ability to handle large amounts of data.",
+          "Experts in Bayes nets within ICSI can be consulted on the matter.",
+          "The decision will be presented in the next meeting along with a first schema of the belief-nets themselves.",
+          "Possible intermediate nodes can be added to the nets after this.",
+          "The hypothesis that a set of features from which intentions can be derived exists has to be assessed, before moving on to how to extract these features from the data automatically.",
+          "Curent navigation systems do not provide for the user's particular intentions when asking for directions.",
+          "They always compute the shortest path between source and destination.",
+          "The SmartKom parser, for example, does not mark up data with features adequate for the inference of these intentions.",
+          "Although it is understandable that language, discourse and situation features will play a role in how they are weighed, the exact nature of those features is unclear.",
+          "Also hard to evaluate at this stage, is how the assumed features will combine in a belief-net, in order to provide the conditional probabilities of the users' intentions.",
+          "Even if these problems are solved, extracting the features from the data may prove to be a bottleneck.",
+          "The existing data are appropriate only for preliminary work, as they don't include intention-related information.",
+          "On the other hand, the details of the experiments that will have to be designed to get more appropriate data are not clearcut and are yet to be settled."
+        ],
+        "speakerNames": {},
+        "summary": "The initial task of the EDU group is to work on inferring intentions through context. In the navigational paradigm used for the task, these intentions are to \"see\" to \"enter\" or to \"get to the closest point of\" a building. There will be purpose-designed experiments carried out. However, the starting point is, through the use of existing data, to determine possible linguistic, discourse or situation features that define intentionality. These may include the type of building, time of day, particular phrases used or whether the user is a tourist or a native. Initially, these features will be hand-coded, but the goal is to find ways of extracting them automatically from the XML data. Consequently, they will be fed into a belief-net -implemented on a software package like JavaBayes- and the conditional probability of each intention calculated. A prototype system will be put together to test hypotheses regarding both the exact nature of the features and how intentions are derived from them.",
+        "topics": []
+      },
+      "id": "Bed002",
+      "transcript": "../datasets/icsi/Bed002.transcript.json"
+    },
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [
+          "It is necessary for the belief-net to have at least one layer of nodes between the features and the final output.",
+          "This makes the structure more flexible in terms of coding feature-layer probabilities.",
+          "Another technique to systematise the work is the thematic clustering of the features, each cluster forming a Bayes-net of each own: for example features like \"admission fee\" and \"opening hours\" can feed into an intermediate \"entrance\" node connecting to the main middle layer.",
+          "The next stage is to refine the set of feature nodes and identify possible clusters.",
+          "Although, in theory, traditional AI plan recognition techniques could also be helpful for inferring intentions, the schemas involved are too elaborate for this task.",
+          "Further work also includes discussing the possible advantages of Bayes-net packages, other than JavaBayes, with experts at ICSI.",
+          "If they continue using JavaBayes, a script to help with the inputting of probabilities in the nodes is needed, as the in-built method is cumbersome.",
+          "Finally, it was decided that at least some of the experiments designed for the new data collection initiative will factor in the intentions studied in the current task.",
+          "The set of cues that form the feature nodes is not well-defined yet.",
+          "Especially with lexical cues (verbs, modifiers etc), no one offered specific intuitions as to how they might contribute to the inference of intentions.",
+          "Other features, like \"admission fee\", may be intuitively linked with one of the outputs (Enter), however, any probabilities are coded in an ad-hoc fashion and are by no means realistic.",
+          "Cases like this, where feature and output seem to be linked directly, bring the necessity of a middle layer in the belief-net to question.",
+          "Nevertheless, not having a middle layer would not allow for shifts in the discourse and would make the setting of probabilities and manipulation of the belief-net clumsy.",
+          "Some issues with the use of JavaBayes also arose: the addition of new variables in an existing node overwrites all previous settings, and the native text file where the probability tables are set is not easy to read; this makes adding and changing variables and nodes problematic.",
+          "Finally, it is unclear how much learning can be done on the created nets."
+        ],
+        "speakerNames": {},
+        "summary": "The group discussed the first version of the Bayes-net used to work out a user's intentions when asking for directions from a navigation device. Three intentions were identified: Vista (to view), Enter (to visit) and Tango (to approach). The structure of the belief-net comprises, firstly, a feature layer, which includes linguistic, discourse and world knowledge information that can be gleaned from the data. It is possible for these variables to form thematic clusters( eg \"entrance\", \"type of object\", \"verb\"), each one with a separate middle layer. These feed, in turn, into the main middle layer, that defines more general hidden variables, such as the tourist/business status of the user. The feature layer can end up being cue-based, while the middle layers task-based. The latter determine the final probability of each intention in the output layer. This first model of the belief-net was built in JavaBayes, since it is a free package, has a graphical interface, and it can take XML files as input. At this stage, all the actual probabilities are ad-hoc and hand-coded. However, there has been progress in the design and organisation of experiments, that will eventually provide data more useful and appropriate for this task.",
+        "topics": []
+      },
+      "id": "Bed003",
+      "transcript": "../datasets/icsi/Bed003.transcript.json"
+    },
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [
+          "Although the data collection test went well and it was decided to hire the \"wizard\", there are minor amendments in the procedure to be carried out (shortenting the preparatory reading, numbering tasks etc).",
+          "A presentation of the data collection design should be included in the forthcoming meeting with other research groups, along with some account of the system design and the use of belief-nets.",
+          "The structure of the latter was a major issue during the meeting.",
+          "Their input vector is to be provided by information extracted from the various modules of the system, such as the ontology and discourse history, using standard rule-based methods.",
+          "The output action essentially provides additional semantic parameters for the X-schema, and, in turn, may trigger the collection of more features from the data.",
+          "The feature extraction could be carried out by a software tool checking object (feature) trees and filling them with appropriate values.",
+          "For this concept to be put to work, further refinement of the belief-net variables is necessary, with particular attention on the combinatorics involved.",
+          "After the trial run of the experiment, some minor issues, like the length of the preliminary reading and the need to order the tasks given to the subjects, were highlighted.",
+          "It is also possible that the pool of subjects ends up comprising almost entirely of students; more variation in the sample is needed.",
+          "From a system design perspective, the progress so far has shown that the combinatorics of the Bayes-net even for a simple task, like the choice of Vista/Enter/Tango mode, could render it unmanageable.",
+          "The belief-net presented in the meeting is not a working Bayes-net.",
+          "Consequently, it is as yet unclear what the decision nodes in the net are, and what values these can take.",
+          "Even if those were decided, how to extract the necessary information from the data, would still be an open issue.",
+          "Looking at the bigger picture, the current task is yet to provide insights into more general ways to achieve linguistic deep understanding.",
+          "With these intricacies in mind, it is not easy to put together a presentation of the project cohesive and attractive enough for the other research groups in the institute."
+        ],
+        "speakerNames": {},
+        "summary": "A test run of the data collection design was very successful. The group decided to hire the \"wizard\" and continue with the refinement of the design and recruitment of subjects. On the other hand, there was a presentation of a new version of the belief-net for the Vista/Enter/Tango mode task. It is not a working net yet, but identifying clusters of features that define the output mode provides a visual aid for further work. There are potential problems from a combinatorics perspective. These can be tackled either with technical adjustments or through careful knowledge engineering. A base solution for the task would be to simply add some extra action-mode rules in the SmartKom system. Action modes, however, can be inferred more efficiently by feeding a collection of features -from the ontology, discourse history, parsing, etc.- into Bayes-nets that would replace those rules. Ideally, the results of this small task will give insights into the function of linguistic deep understanding. For instance, the final combination of features used in the current study may form a representation of the ontology, general enough to employ in any task that includes trajectors and paths.",
+        "topics": []
+      },
+      "id": "Bed004",
+      "transcript": "../datasets/icsi/Bed004.transcript.json"
+    },
+    {
+      "gold": {
+        "actionItems": [],
+        "keyPoints": [
+          "As the data collection is about to begin, there are some minor changes to be done in the design of the experiment, the script and the permission forms.",
+          "Subjects can be recruited either from within the university or through other social circles.",
+          "As to the system design, the next step is the translation of the generator into english.",
+          "Moreover, it is important to test the system and its internal workings by adding new sentence types and modifying the parser.",
+          "All further research will use the existing domain (\"tourists in Heidelberg\"), as this provides enough diversity for the purposes of the project.",
+          "The german partners for the project will realise all the necessary changes in the ontology.",
+          "It is therefore preferable for the group to exercise foresight and agree on the set of new tags they will need in the long run, so that they limit the number of change requests.",
+          "Finally, on a more technical note, Noisy-OR's were discussed and considered a sensible approach to deal with the potential problems with the setting the conditional probabilities of the Bayes-nets.",
+          "Although the parser has been modified to work with english, the details of its internal workings (calling functions, setting discourse variables, generating actions) are not yet clear.",
+          "Understanding the parsed data is helped by the database of objects, people and events accompanying the system, but the mapping of referring expressions to database objects can still be a hurdle.",
+          "On a different level, the Bayes-net used to generate the different action modes can easily become unmanageable as the number of features to be taken into account increases.",
+          "This can be tackled with the use of the Noisy-OR technique.",
+          "The deterministic functions this requires cannot be introduced directly into JavaBayes, although some runaround ways can be implemented.",
+          "A final, high-level issue, that has not been dealt with yet, is the definition of the constructions and the construction grammar framework analysis behind the whole enterprise."
+        ],
+        "speakerNames": {},
+        "summary": "The data collection running in parallel with the project can start shortly with recruiting subjects. Meanwhile, the german parser now works with english sentences. The parser's output modifies the XML used by the system to initiate actions and generate responses. The XML for Map requests also comprise a route, route elements and points of interest along the way. It is at this level that Enter/Vista/Approach tags will be added as action modes. As the project evolves, further enrichment of the ontology (actions, linguistic features) will be necessary. Similarly, object representations will include an EVA vector. This can be incorporated in the database entry for a particular building or inherited from the ontology of the building type. These elements will constitute only a small part of the inputs of the Bayes-net that determines the action mode. The actual number of the inputs can create a combinatorial explosion when setting the probabilities. Noisy-OR's can help avoid this by simplifying the probability tables and applying a deterministic function to produce their complete version. In any case, further to fulfilling the basic requirements (translating the parser and the generator into english), the project is entirely open-ended in terms of focus of research.",
+        "topics": []
+      },
+      "id": "Bed005",
+      "transcript": "../datasets/icsi/Bed005.transcript.json"
+    }
+  ],
+  "profile": "fast",
+  "track": "summarize"
+}

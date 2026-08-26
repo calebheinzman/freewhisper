@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.0800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-140",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.7498625793325875,
+  "text" : "Let's mention in closing this presentation the two major Parisian stores.",
+  "track" : "asr",
+  "wallSeconds" : 1.197070667
+}

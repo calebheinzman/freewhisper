@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.23,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00072127",
+  "model" : "parakeet-v3",
+  "rtfx" : 12.165535431770826,
+  "text" : "And use a different line width.",
+  "track" : "asr",
+  "wallSeconds" : 0.101105291
+}

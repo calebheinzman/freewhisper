@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.815,
+  "dataset" : "librispeech",
+  "id" : "1320-122617-0023",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.504525283970852,
+  "text" : "uncas who had already approached the door in readiness to lead the way now recoiled and placed himself once more in the bottom of the lodge",
+  "track" : "asr",
+  "wallSeconds" : 1.419740958
+}

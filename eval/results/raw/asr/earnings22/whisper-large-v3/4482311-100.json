@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.38,
+  "dataset" : "earnings22",
+  "id" : "4482311-100",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0111162594496217,
+  "text" : "other smaller brands such as Givenchy, Benefit, Fresh, Maison, Kurjian, Aquadiparma, and other",
+  "track" : "asr",
+  "wallSeconds" : 4.664076458
+}

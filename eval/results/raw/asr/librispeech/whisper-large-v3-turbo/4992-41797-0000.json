@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.485,
+  "dataset" : "librispeech",
+  "id" : "4992-41797-0000",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.365978587300397,
+  "text" : "\"Yes, dead these four years, and a good job for her, too.\"",
+  "track" : "asr",
+  "wallSeconds" : 1.256304833
+}

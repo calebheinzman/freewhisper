@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.77,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00132183",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8205219985355314,
+  "text" : "But only the",
+  "track" : "asr",
+  "wallSeconds" : 1.521541625
+}

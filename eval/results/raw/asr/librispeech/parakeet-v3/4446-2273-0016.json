@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.645,
+  "dataset" : "librispeech",
+  "id" : "4446-2273-0016",
+  "model" : "parakeet-v3",
+  "rtfx" : 59.422532750872165,
+  "text" : "Her hair is still like flax, and her blue eyes are just like a baby's, and she has the same three freckles on her little nose, and talks about going back to her band de mer.",
+  "track" : "asr",
+  "wallSeconds" : 0.162312166
+}

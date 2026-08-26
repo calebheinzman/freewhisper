@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.26,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00114021",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.6925851228808545,
+  "text" : "That's it from me now.",
+  "track" : "asr",
+  "wallSeconds" : 1.8192709580000002
+}

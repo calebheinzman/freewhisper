@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.219875,
+  "dataset" : "earnings22",
+  "id" : "4482311-234",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.951499155975861,
+  "text" : "You have the performance of all brands, including Vuitton and Diop, but not only them – Loewe, Ceylène, L'Opiana, Fendi, of course.",
+  "track" : "asr",
+  "wallSeconds" : 4.724508833
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.0800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-193",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.444622383499306,
+  "text" : "and then Q4, significant growth, 22%.",
+  "track" : "asr",
+  "wallSeconds" : 0.633095666
+}

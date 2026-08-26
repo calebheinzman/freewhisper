@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.7000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-276",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2423550426043417,
+  "text" : "We don't often mention that Zenith also had a remarkable performance in 2021.",
+  "track" : "asr",
+  "wallSeconds" : 2.541998208
+}

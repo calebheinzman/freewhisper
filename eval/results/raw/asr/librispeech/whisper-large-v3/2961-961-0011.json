@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.815,
+  "dataset" : "librispeech",
+  "id" : "2961-961-0011",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.3200094292307996,
+  "text" : "the genealogies which you have recited to us out of your own annals solon are a mere children's story",
+  "track" : "asr",
+  "wallSeconds" : 3.368520792
+}

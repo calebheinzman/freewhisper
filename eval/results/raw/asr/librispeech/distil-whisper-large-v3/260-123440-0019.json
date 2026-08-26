@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.63,
+  "dataset" : "librispeech",
+  "id" : "260-123440-0019",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.186876523017645,
+  "text" : "cried Alice again, for this time the mouse was bristling all over, and she felt certain it must be really offended.",
+  "track" : "asr",
+  "wallSeconds" : 1.2782259169999999
+}

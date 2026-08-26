@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.89,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00039438",
+  "model" : "parakeet-v3",
+  "rtfx" : 64.25166055822869,
+  "text" : "Yeah, it can be a crocodile. It can be a crocodile. Well it was it was an at first firstly it was an attempt at a T Rex and then it sort of changed into a pelican, but it can be a crocodile",
+  "track" : "asr",
+  "wallSeconds" : 0.185053583
+}

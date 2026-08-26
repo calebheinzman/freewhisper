@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.915,
+  "dataset" : "librispeech",
+  "id" : "8455-210777-0069",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.663147984379992,
+  "text" : "If you will give us your promise to meet Captain Adelax here at this time tomorrow, we will stretch a point and delay the departure of the John Bright for 24 hours.",
+  "track" : "asr",
+  "wallSeconds" : 1.574212792
+}

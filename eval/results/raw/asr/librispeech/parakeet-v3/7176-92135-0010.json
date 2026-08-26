@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.16,
+  "dataset" : "librispeech",
+  "id" : "7176-92135-0010",
+  "model" : "parakeet-v3",
+  "rtfx" : 21.301503732319308,
+  "text" : "Him, to be or not to be",
+  "track" : "asr",
+  "wallSeconds" : 0.101401292
+}

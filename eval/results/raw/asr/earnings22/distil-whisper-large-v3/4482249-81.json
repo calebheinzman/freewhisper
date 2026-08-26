@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.0400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-81",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.3167426764114674,
+  "text" : "Thank you very much, Rana.",
+  "track" : "asr",
+  "wallSeconds" : 0.615080125
+}

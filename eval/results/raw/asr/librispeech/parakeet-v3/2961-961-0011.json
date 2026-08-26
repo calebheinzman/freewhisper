@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.815,
+  "dataset" : "librispeech",
+  "id" : "2961-961-0011",
+  "model" : "parakeet-v3",
+  "rtfx" : 55.04936127948382,
+  "text" : "The genealogies which you have recited to us out of your own annals, Solon, are a mere children's story.",
+  "track" : "asr",
+  "wallSeconds" : 0.1419635
+}

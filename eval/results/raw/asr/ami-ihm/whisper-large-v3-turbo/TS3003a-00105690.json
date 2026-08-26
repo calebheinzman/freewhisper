@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.28,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00105690",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.4215239553395067,
+  "text" : "Well, it's supposed to be a cat. I like cats because...",
+  "track" : "asr",
+  "wallSeconds" : 1.250904584
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.8599375,
+  "dataset" : "earnings22",
+  "id" : "4482311-240",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.915170747690127,
+  "text" : "Fashion leather goods, I mentioned, up 42% with 51% in Q4.",
+  "track" : "asr",
+  "wallSeconds" : 1.241309208
+}

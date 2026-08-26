@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.540125,
+  "dataset" : "earnings22",
+  "id" : "4482311-49",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.305058321798211,
+  "text" : "moving out of fashion and leather goods,",
+  "track" : "asr",
+  "wallSeconds" : 1.101978625
+}

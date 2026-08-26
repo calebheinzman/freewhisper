@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.61,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0038",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.275422299064627,
+  "text" : "He felt he was up against it, and that perhaps another kind of a job would suit him better.",
+  "track" : "asr",
+  "wallSeconds" : 1.312151083
+}

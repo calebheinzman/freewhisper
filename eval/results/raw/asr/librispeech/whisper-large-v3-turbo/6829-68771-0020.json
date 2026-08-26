@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.615,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0020",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.7591115301021274,
+  "text" : "then she gave a little laugh and replied no miss beth i'm elizabeth parsons",
+  "track" : "asr",
+  "wallSeconds" : 2.623483458
+}

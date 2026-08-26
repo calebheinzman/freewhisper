@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.73,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00017650",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.116746088244008,
+  "text" : "Okay, yeah, I'll go first. Can I grab the...",
+  "track" : "asr",
+  "wallSeconds" : 2.44460225
+}

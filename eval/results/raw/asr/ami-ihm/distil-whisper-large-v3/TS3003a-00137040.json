@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.89,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00137040",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.566842314954492,
+  "text" : "",
+  "track" : "asr",
+  "wallSeconds" : 0.632822375
+}

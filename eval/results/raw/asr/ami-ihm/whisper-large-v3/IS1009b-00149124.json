@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00149124",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.902808394064062,
+  "text" : "later and use it okay it's like a time and timer here timer yeah and then you can use",
+  "track" : "asr",
+  "wallSeconds" : 2.911486
+}

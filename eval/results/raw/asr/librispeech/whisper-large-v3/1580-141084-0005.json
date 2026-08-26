@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.515,
+  "dataset" : "librispeech",
+  "id" : "1580-141084-0005",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.2061834527097253,
+  "text" : "\"'That is very important,' said Holmes.",
+  "track" : "asr",
+  "wallSeconds" : 2.085089125
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.905,
+  "dataset" : "librispeech",
+  "id" : "3575-170457-0040",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.363117568255008,
+  "text" : "Indeed, there were only one or two strangers who could be admitted among the sisters without producing the same result.",
+  "track" : "asr",
+  "wallSeconds" : 0.825649041
+}

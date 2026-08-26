@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.740125,
+  "dataset" : "earnings22",
+  "id" : "4482249-253",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.196259974661514,
+  "text" : "But of course, with MNA, it's always difficult to make such projections.",
+  "track" : "asr",
+  "wallSeconds" : 0.700334667
+}

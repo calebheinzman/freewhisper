@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.375,
+  "dataset" : "librispeech",
+  "id" : "1580-141084-0025",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1039210130022457,
+  "text" : "You know him? I think so.",
+  "track" : "asr",
+  "wallSeconds" : 2.151422042
+}

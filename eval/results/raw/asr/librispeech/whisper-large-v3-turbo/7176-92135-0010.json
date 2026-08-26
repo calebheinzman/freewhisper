@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.16,
+  "dataset" : "librispeech",
+  "id" : "7176-92135-0010",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 0.9561526897511838,
+  "text" : "Him. To be or not to be.",
+  "track" : "asr",
+  "wallSeconds" : 2.259053416
+}

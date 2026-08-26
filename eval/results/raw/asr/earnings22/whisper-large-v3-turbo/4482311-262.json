@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-262",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.3930023876635635,
+  "text" : "looking at the income statement,",
+  "track" : "asr",
+  "wallSeconds" : 1.136673542
+}

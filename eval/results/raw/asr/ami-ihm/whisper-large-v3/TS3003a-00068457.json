@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.23,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00068457",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.6456273818540956,
+  "text" : "I think it wants to draw another animal.",
+  "track" : "asr",
+  "wallSeconds" : 1.976846791
+}

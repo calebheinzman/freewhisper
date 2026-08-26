@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.0400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-154",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.732181072211084,
+  "text" : "can't tell you that I favor one or other of the explanations, but those are the two that we have heard and listened to.",
+  "track" : "asr",
+  "wallSeconds" : 0.8039555
+}

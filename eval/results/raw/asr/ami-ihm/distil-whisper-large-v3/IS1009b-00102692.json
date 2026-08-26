@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.58,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102692",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.210299727326699,
+  "text" : "coming on. Yeah, you see this there on radio, maybe you have no other other. Yeah, a lot of",
+  "track" : "asr",
+  "wallSeconds" : 0.879028125
+}

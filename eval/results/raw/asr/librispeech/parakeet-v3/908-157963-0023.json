@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.625,
+  "dataset" : "librispeech",
+  "id" : "908-157963-0023",
+  "model" : "parakeet-v3",
+  "rtfx" : 49.67437479638345,
+  "text" : "The helpless worm arose and sat upon the lily's leaf, and the bright cloud sailed on to find his partner in the vale.",
+  "track" : "asr",
+  "wallSeconds" : 0.193761875
+}

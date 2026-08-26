@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.375,
+  "dataset" : "librispeech",
+  "id" : "61-70968-0011",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.377012513878777,
+  "text" : "he gave way to the others very readily and retreated unperceived by the squire and mistress fitzuth to the rear of the tent",
+  "track" : "asr",
+  "wallSeconds" : 1.456472875
+}

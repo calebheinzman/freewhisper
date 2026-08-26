@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.86,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00058148",
+  "model" : "parakeet-v3",
+  "rtfx" : 38.62263175916122,
+  "text" : "Yeah, maybe it should have a light so that we can we can just recognize where it is. Exactly.",
+  "track" : "asr",
+  "wallSeconds" : 0.125832958
+}

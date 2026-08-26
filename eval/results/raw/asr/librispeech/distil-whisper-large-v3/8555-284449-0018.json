@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.03,
+  "dataset" : "librispeech",
+  "id" : "8555-284449-0018",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.82365177293214,
+  "text" : "so gipgesizzle ordered the captain to take a file of soldiers and escort the raving beauties to their new home",
+  "track" : "asr",
+  "wallSeconds" : 0.898557375
+}

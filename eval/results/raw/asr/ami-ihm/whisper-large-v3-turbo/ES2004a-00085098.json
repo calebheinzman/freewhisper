@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.96,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00085098",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.166723647436988,
+  "text" : "why everything's doing. Because, I mean, menus on sort of phones now, they've sort of got all these pictures and stuff, which makes it fairly obvious what you're trying to do.",
+  "track" : "asr",
+  "wallSeconds" : 1.777280875
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.73,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00060771",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9281221603480114,
+  "text" : "Yeah, exactly. So today I'm going to talk about the working design of the remote controller. OK. Can you go to the next slide, please?",
+  "track" : "asr",
+  "wallSeconds" : 4.527721417
+}

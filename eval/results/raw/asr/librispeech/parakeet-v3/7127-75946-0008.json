@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.46,
+  "dataset" : "librispeech",
+  "id" : "7127-75946-0008",
+  "model" : "parakeet-v3",
+  "rtfx" : 36.285422270584704,
+  "text" : "Does your Majesty, then, no longer believe the disloyal attempt?",
+  "track" : "asr",
+  "wallSeconds" : 0.122914375
+}

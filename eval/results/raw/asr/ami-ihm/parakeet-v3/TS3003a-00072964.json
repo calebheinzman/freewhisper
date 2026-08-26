@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.2,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00072964",
+  "model" : "parakeet-v3",
+  "rtfx" : 54.46274209084154,
+  "text" : "There. Okay, I'm not much of an artist, but here we go.",
+  "track" : "asr",
+  "wallSeconds" : 0.113839292
+}

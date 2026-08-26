@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-208",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.9865158202248023,
+  "text" : "25% so remarkable performance in the US.",
+  "track" : "asr",
+  "wallSeconds" : 2.003539292
+}

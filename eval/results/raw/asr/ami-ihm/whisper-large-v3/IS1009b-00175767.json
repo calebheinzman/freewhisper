@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.78,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00175767",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.108210866773286,
+  "text" : "We can design different remotes for different people like for aged people there will be big buttons and you know.",
+  "track" : "asr",
+  "wallSeconds" : 3.215997084
+}

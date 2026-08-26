@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.4800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-280",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.725798823008492,
+  "text" : "Now, if we look at how we move from organic growth – organic growth from structure impact in currency, well, organic growth is the main factor.",
+  "track" : "asr",
+  "wallSeconds" : 3.844767417
+}

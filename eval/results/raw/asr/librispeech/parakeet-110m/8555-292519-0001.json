@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 20.82,
+  "dataset" : "librispeech",
+  "id" : "8555-292519-0001",
+  "model" : "parakeet-110m",
+  "rtfx" : 107.86458623890756,
+  "text" : "Guided by you, how we might stroll towards death our only music one another's breath through gardens intimate with hollyhocks, where silent poppies burned between the rocks, by pools where birches bind to confidants above green waters scummed with lily plants.",
+  "track" : "asr",
+  "wallSeconds" : 0.193019792
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-65",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.9590943578874223,
+  "text" : "Kim Jones's latest show was a perfect illustration of Monsieur Dior, of his style, his elegance, his refinement, and",
+  "track" : "asr",
+  "wallSeconds" : 3.7106158750000002
+}

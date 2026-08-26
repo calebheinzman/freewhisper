@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.760125,
+  "dataset" : "earnings22",
+  "id" : "4482311-239",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.684785493220181,
+  "text" : "the performance was relatively stable, again, for want and spirits.",
+  "track" : "asr",
+  "wallSeconds" : 0.663243209
+}

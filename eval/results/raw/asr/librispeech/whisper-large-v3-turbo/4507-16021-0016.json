@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 17.265,
+  "dataset" : "librispeech",
+  "id" : "4507-16021-0016",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 10.588841118478907,
+  "text" : "can one imagine a naturalist refusing to study the viper the bat the scorpion the centipede the tarantula and one who would cast them back into their darkness saying oh how ugly that is",
+  "track" : "asr",
+  "wallSeconds" : 1.630490042
+}

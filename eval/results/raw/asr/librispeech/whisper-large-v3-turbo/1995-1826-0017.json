@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.145,
+  "dataset" : "librispeech",
+  "id" : "1995-1826-0017",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.599111844817515,
+  "text" : "There might be a bit of poetry here and there, but most of this place was such desperate prose.",
+  "track" : "asr",
+  "wallSeconds" : 1.336127541
+}

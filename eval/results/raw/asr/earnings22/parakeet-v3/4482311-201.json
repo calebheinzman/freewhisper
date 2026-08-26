@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.240125,
+  "dataset" : "earnings22",
+  "id" : "4482311-201",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.128911778343934,
+  "text" : "The first region is Asia, thirty five percent of sales, up five points in two years.",
+  "track" : "asr",
+  "wallSeconds" : 0.127407334
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.32,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00014338",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.320516767440699,
+  "text" : "We have our opening acquaintance, tool training, project plan discussion closing.",
+  "track" : "asr",
+  "wallSeconds" : 0.683488417
+}

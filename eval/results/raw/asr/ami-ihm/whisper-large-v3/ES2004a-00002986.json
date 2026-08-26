@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.12,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00002986",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.8398452564198146,
+  "text" : "Yeah. Good. Both",
+  "track" : "asr",
+  "wallSeconds" : 2.524274542
+}

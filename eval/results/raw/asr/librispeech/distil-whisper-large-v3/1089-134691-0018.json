@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.09,
+  "dataset" : "librispeech",
+  "id" : "1089-134691-0018",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.416495798185203,
+  "text" : "Again, again.",
+  "track" : "asr",
+  "wallSeconds" : 0.699649709
+}

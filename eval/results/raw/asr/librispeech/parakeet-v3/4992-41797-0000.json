@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.485,
+  "dataset" : "librispeech",
+  "id" : "4992-41797-0000",
+  "model" : "parakeet-v3",
+  "rtfx" : 43.89081188703701,
+  "text" : "Yes, dead these four years, and a good job for her, too.",
+  "track" : "asr",
+  "wallSeconds" : 0.124969208
+}

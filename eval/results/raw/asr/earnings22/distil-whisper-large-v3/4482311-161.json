@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-161",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.437748576824218,
+  "text" : "Nevertheless, we are vigilant. We're continuing our management efforts.",
+  "track" : "asr",
+  "wallSeconds" : 0.691726041
+}

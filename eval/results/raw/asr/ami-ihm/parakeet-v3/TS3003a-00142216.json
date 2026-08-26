@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.21,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00142216",
+  "model" : "parakeet-v3",
+  "rtfx" : 20.42392735358754,
+  "text" : "But maybe just a little lead. I don't know.",
+  "track" : "asr",
+  "wallSeconds" : 0.108206417
+}

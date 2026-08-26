@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.69,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00026037",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.862906845246896,
+  "text" : "It's about the new remote control.",
+  "track" : "asr",
+  "wallSeconds" : 1.958496458
+}

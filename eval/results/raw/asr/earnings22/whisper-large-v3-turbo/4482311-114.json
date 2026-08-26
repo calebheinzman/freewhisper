@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.640125,
+  "dataset" : "earnings22",
+  "id" : "4482311-114",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.5714637353243273,
+  "text" : "And that's a very prestigious accolade for a watch brand.",
+  "track" : "asr",
+  "wallSeconds" : 1.299222208
+}

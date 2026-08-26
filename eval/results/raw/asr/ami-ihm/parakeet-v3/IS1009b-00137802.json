@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.28,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00137802",
+  "model" : "parakeet-v3",
+  "rtfx" : 22.517045180994327,
+  "text" : "Yeah, but I think that",
+  "track" : "asr",
+  "wallSeconds" : 0.101256625
+}

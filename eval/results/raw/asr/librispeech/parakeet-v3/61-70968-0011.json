@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.375,
+  "dataset" : "librispeech",
+  "id" : "61-70968-0011",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.68549933336864,
+  "text" : "He gave way to the others very readily, and retreated unperceived by the squire and mistress Fitzooth to the rear of the tent.",
+  "track" : "asr",
+  "wallSeconds" : 0.169163209
+}

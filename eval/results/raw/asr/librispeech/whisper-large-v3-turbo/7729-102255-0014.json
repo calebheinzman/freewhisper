@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.295,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0014",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.287198149015356,
+  "text" : "the leaders of the conspiracy became distrustful of their power to crush the town",
+  "track" : "asr",
+  "wallSeconds" : 1.2350723750000001
+}

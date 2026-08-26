@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.9400625,
+  "dataset" : "earnings22",
+  "id" : "4482249-389",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.7315631720398437,
+  "text" : "that is part of their agenda.",
+  "track" : "asr",
+  "wallSeconds" : 1.808511167
+}

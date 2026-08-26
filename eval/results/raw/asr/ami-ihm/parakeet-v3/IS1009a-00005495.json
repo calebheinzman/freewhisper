@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.9,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00005495",
+  "model" : "parakeet-v3",
+  "rtfx" : 45.3830154587704,
+  "text" : "Okay. Okay. Everybody ready? I think so. Uh I think the first thing we do is introduce ourselves.",
+  "track" : "asr",
+  "wallSeconds" : 0.130004583
+}

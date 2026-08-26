@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.69,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00022276",
+  "model" : "parakeet-v3",
+  "rtfx" : 30.775892271099213,
+  "text" : "Three different types of design that we're gonna be concerned with.",
+  "track" : "asr",
+  "wallSeconds" : 0.119899042
+}

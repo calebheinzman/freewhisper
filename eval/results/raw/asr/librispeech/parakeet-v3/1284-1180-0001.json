@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.755,
+  "dataset" : "librispeech",
+  "id" : "1284-1180-0001",
+  "model" : "parakeet-v3",
+  "rtfx" : 50.33120104491598,
+  "text" : "His hat had a peaked crown and a flat brim, and around the brim was a row of tiny golden bells that tinkled when he moved.",
+  "track" : "asr",
+  "wallSeconds" : 0.154079375
+}

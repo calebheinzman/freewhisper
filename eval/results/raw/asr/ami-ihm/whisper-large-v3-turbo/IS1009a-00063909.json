@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.16,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00063909",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.9279404016283481,
+  "text" : "So the light sensor would activate the signal.",
+  "track" : "asr",
+  "wallSeconds" : 1.120366583
+}

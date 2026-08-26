@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.65,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00079796",
+  "model" : "parakeet-v3",
+  "rtfx" : 49.23153795325049,
+  "text" : "Then uh we see you in about thirty minutes and see what we can come up with.",
+  "track" : "asr",
+  "wallSeconds" : 0.114763833
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.62,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00040286",
+  "model" : "parakeet-v3",
+  "rtfx" : 33.52809078843862,
+  "text" : "So these are all things of course.",
+  "track" : "asr",
+  "wallSeconds" : 0.107969166
+}

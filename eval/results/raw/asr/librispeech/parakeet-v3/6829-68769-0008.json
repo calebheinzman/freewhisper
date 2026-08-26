@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.74,
+  "dataset" : "librispeech",
+  "id" : "6829-68769-0008",
+  "model" : "parakeet-v3",
+  "rtfx" : 34.479299152525016,
+  "text" : "Fairview was twelve miles away, but by ten o'clock they drew up at the county drail.",
+  "track" : "asr",
+  "wallSeconds" : 0.137473792
+}

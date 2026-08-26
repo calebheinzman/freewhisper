@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.095,
+  "dataset" : "librispeech",
+  "id" : "4507-16021-0053",
+  "model" : "parakeet-v3",
+  "rtfx" : 64.77096805664685,
+  "text" : "to diminish the number of the shady, to augment the number of the luminous, that is the object",
+  "track" : "asr",
+  "wallSeconds" : 0.124978833
+}

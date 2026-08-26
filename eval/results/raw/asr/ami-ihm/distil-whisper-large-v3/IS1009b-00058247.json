@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.33,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00058247",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.118684709445124,
+  "text" : "Number two. Number two.",
+  "track" : "asr",
+  "wallSeconds" : 0.627747958
+}

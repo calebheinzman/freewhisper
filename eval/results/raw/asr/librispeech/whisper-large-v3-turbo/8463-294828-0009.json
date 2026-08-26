@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.17,
+  "dataset" : "librispeech",
+  "id" : "8463-294828-0009",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.458778209141887,
+  "text" : "not once did he comment on the length or the hardships of the journey",
+  "track" : "asr",
+  "wallSeconds" : 1.205628042
+}

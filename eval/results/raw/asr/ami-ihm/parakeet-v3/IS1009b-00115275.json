@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.97,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00115275",
+  "model" : "parakeet-v3",
+  "rtfx" : 60.099680244240815,
+  "text" : "Uh, it's not like that. I have referred the page to get new ideas or like what can be the working design to how it works and all things.",
+  "track" : "asr",
+  "wallSeconds" : 0.149252042
+}

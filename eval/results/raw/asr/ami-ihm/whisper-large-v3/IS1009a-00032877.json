@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.05,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00032877",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.3295773593658016,
+  "text" : "Am I supposed to wipe off that? No, no, no, that's okay.",
+  "track" : "asr",
+  "wallSeconds" : 3.04608075
+}

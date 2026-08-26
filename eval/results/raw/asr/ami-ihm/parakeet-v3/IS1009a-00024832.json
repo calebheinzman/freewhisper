@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.72,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00024832",
+  "model" : "parakeet-v3",
+  "rtfx" : 27.453556656712333,
+  "text" : "Maybe we should redesign it.",
+  "track" : "asr",
+  "wallSeconds" : 0.099076416
+}

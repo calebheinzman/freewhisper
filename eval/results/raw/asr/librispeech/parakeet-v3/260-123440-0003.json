@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.585,
+  "dataset" : "librispeech",
+  "id" : "260-123440-0003",
+  "model" : "parakeet-v3",
+  "rtfx" : 30.24783608794653,
+  "text" : "Oh, won't she be savage if I've kept her waiting?",
+  "track" : "asr",
+  "wallSeconds" : 0.118520875
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "earnings22",
+  "items": [
+    {
+      "audio": "../datasets/earnings22/4482249-1.wav",
+      "durationSeconds": 10.38,
+      "id": "4482249-1",
+      "reference": "Uh, as always, uh, I will run this call together with our CFO Rainer Lehmann, who will walk you through the details of our financial result in a minute."
+    },
+    {
+      "audio": "../datasets/earnings22/4482249-41.wav",
+      "durationSeconds": 7.1,
+      "id": "4482249-41",
+      "reference": "In Asia Pacific, we also grew over 50% with two specific 52.3 to 897 million."
+    },
+    {
+      "audio": "../datasets/earnings22/4482249-43.wav",
+      "durationSeconds": 7.24,
+      "id": "4482249-43",
+      "reference": "Keep in mind that in 2020, this region was hit the hardest during affected by the shutdowns."
+    },
+    {
+      "audio": "../datasets/earnings22/4482249-55.wav",
+      "durationSeconds": 7.48,
+      "id": "4482249-55",
+      "reference": "COVID attributed here 20 percentage points and the new acquisition contributed around five percentage points."
+    },
+    {
+      "audio": "../datasets/earnings22/4482249-56.wav",
+      "durationSeconds": 11.96,
+      "id": "4482249-56",
+      "reference": "Um, so very strong performance that also is then reflected in a substantial increase of our EBITDA margin from 32.3 to 36.2 percentage points."
+    }
+  ],
+  "profile": "smoke",
+  "track": "asr"
+}

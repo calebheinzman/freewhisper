@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.615,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0020",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.703435271629066,
+  "text" : "Then she gave a little laugh and replied, \"'No, Miss Beth, I'm Elizabeth Parsons.'",
+  "track" : "asr",
+  "wallSeconds" : 0.809161458
+}

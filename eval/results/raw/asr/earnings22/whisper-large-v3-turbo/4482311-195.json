@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.980125,
+  "dataset" : "earnings22",
+  "id" : "4482311-195",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.542694417732406,
+  "text" : "And still compared with 2019, I can't resist the pleasure of showing the figures of fashion and leather goods, quite dramatic, quite remarkable.",
+  "track" : "asr",
+  "wallSeconds" : 1.439755541
+}

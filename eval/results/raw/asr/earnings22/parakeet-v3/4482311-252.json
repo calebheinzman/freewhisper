@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.2999375,
+  "dataset" : "earnings22",
+  "id" : "4482311-252",
+  "model" : "parakeet-v3",
+  "rtfx" : 67.63705932790538,
+  "text" : "Expenses last year uh operating expenses were down fourteen percent compared to twenty nineteen, which was in itself a good performance, looking at a a at significant headwind.",
+  "track" : "asr",
+  "wallSeconds" : 0.16706725
+}

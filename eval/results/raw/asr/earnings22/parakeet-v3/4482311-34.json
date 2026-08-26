@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.180125,
+  "dataset" : "earnings22",
+  "id" : "4482311-34",
+  "model" : "parakeet-v3",
+  "rtfx" : 56.51335867644696,
+  "text" : "There's very strong demand in the US and Europe for champagne with the gradual reopening of restaurants, um resumption of tourism.",
+  "track" : "asr",
+  "wallSeconds" : 0.14474675
+}

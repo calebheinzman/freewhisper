@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.095,
+  "dataset" : "librispeech",
+  "id" : "1995-1826-0024",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.8439366749706183,
+  "text" : "\"The golden fleece! It's the silver fleece!\" He hearkened.",
+  "track" : "asr",
+  "wallSeconds" : 1.325464083
+}

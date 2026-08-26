@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.21,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00146818",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.383623918983096,
+  "text" : "Okay, then I'll meet you in about half an hour, I think. Okay, so good luck.",
+  "track" : "asr",
+  "wallSeconds" : 0.8749285
+}

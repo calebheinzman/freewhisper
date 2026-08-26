@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.36,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00110167",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.735267289933942,
+  "text" : "And of course, there should be a case where we can keep all the things and, you know, different shapes or whatever it is, there should be a case to put, to give a shape. To keep the remote? Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 5.970261792
+}

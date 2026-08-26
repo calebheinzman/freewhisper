@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.875,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0011",
+  "model" : "whisper-large-v3",
+  "rtfx" : 3.1139873347514806,
+  "text" : "but when it came to be a question of lighting a scattered suburb a group of dwellings on the outskirts a remote country residence or a farm-house the alternating current in all elements save its danger was and is ideal",
+  "track" : "asr",
+  "wallSeconds" : 5.0979655
+}

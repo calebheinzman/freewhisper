@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.05,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00143608",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.265338648040803,
+  "text" : "So you have different types of remotes with different light source, which can be used for controlling the different functionalities of a television.",
+  "track" : "asr",
+  "wallSeconds" : 1.444455042
+}

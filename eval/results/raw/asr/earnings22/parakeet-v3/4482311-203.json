@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.360125,
+  "dataset" : "earnings22",
+  "id" : "4482311-203",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.115525542179483,
+  "text" : "Well you have uh several things.",
+  "track" : "asr",
+  "wallSeconds" : 0.102101291
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.4,
+  "dataset" : "earnings22",
+  "id" : "4482311-187",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.981931920855615,
+  "text" : "we offset, as it were, the decline of 2020, and over two years we are registering growth.",
+  "track" : "asr",
+  "wallSeconds" : 0.741339458
+}

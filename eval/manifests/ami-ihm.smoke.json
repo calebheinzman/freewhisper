@@ -1,0 +1,37 @@
+{
+  "dataset": "ami-ihm",
+  "items": [
+    {
+      "audio": "../datasets/ami-ihm/utterances/IS1009a-00005495.wav",
+      "durationSeconds": 5.9,
+      "id": "IS1009a-00005495",
+      "reference": "Okay Everybody ready Uh I think the first thing we do is introduce ourselves"
+    },
+    {
+      "audio": "../datasets/ami-ihm/utterances/IS1009a-00006154.wav",
+      "durationSeconds": 1.03,
+      "id": "IS1009a-00006154",
+      "reference": "Yeah that's a good plan"
+    },
+    {
+      "audio": "../datasets/ami-ihm/utterances/IS1009a-00006200.wav",
+      "durationSeconds": 5.29,
+      "id": "IS1009a-00006200",
+      "reference": "and everybody's name and what your function is So maybe we start with you"
+    },
+    {
+      "audio": "../datasets/ami-ihm/utterances/IS1009a-00008339.wav",
+      "durationSeconds": 3.55,
+      "id": "IS1009a-00008339",
+      "reference": "And I'm a marketing person I wanna figure out how to sell them"
+    },
+    {
+      "audio": "../datasets/ami-ihm/utterances/IS1009a-00008749.wav",
+      "durationSeconds": 1.1,
+      "id": "IS1009a-00008749",
+      "reference": "Mm-hmm And your name is"
+    }
+  ],
+  "profile": "smoke",
+  "track": "asr"
+}

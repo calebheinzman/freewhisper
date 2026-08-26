@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.605,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0009",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.6524628976699125,
+  "text" : "For some years, it was not found feasible to operate motors on alternating current circuits, and that reason was often urged against it seriously.",
+  "track" : "asr",
+  "wallSeconds" : 1.443826166
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.225,
+  "dataset" : "librispeech",
+  "id" : "908-157963-0027",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.314624627690421,
+  "text" : "and lay me down in thy cold bed, and leave my shining lot.",
+  "track" : "asr",
+  "wallSeconds" : 1.210997584
+}

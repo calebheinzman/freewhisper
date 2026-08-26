@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.0000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-225",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.93161795902069,
+  "text" : "uh the fourteen percent which is uh or an organic growth uh compared with twenty nineteen.",
+  "track" : "asr",
+  "wallSeconds" : 0.125215625
+}

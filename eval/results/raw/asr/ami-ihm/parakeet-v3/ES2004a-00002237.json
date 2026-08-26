@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.44,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00002237",
+  "model" : "parakeet-v3",
+  "rtfx" : 14.075793514795139,
+  "text" : "Am I supposed to be standing up there?",
+  "track" : "asr",
+  "wallSeconds" : 0.102303291
+}

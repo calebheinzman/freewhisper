@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.8399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-275",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.0699492134032904,
+  "text" : "and that was completed by Tag Heuer and Hublot and indeed Zenith,",
+  "track" : "asr",
+  "wallSeconds" : 1.2508146660000001
+}

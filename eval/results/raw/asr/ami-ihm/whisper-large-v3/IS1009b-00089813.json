@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.48,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00089813",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.9291505690179609,
+  "text" : "Make a doll.",
+  "track" : "asr",
+  "wallSeconds" : 1.5928527080000001
+}

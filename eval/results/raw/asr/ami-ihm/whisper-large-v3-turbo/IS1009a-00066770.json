@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.89,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00066770",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.068010659448914,
+  "text" : "- Oh yeah, well, but then those people, we can't help everybody.",
+  "track" : "asr",
+  "wallSeconds" : 1.267922583
+}

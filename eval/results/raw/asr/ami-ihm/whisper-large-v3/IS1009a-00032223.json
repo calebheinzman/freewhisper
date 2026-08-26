@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.85,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00032223",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.07587324657511522,
+  "text" : "Would you like just to see? Yes, sure.",
+  "track" : "asr",
+  "wallSeconds" : 37.562647292
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.05,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00095602",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.1977325736248674,
+  "text" : "It looks small. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.64107925
+}

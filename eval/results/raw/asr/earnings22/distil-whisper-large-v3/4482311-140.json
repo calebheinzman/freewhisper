@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.0800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-140",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 11.803552718592954,
+  "text" : "Let's mention in closing this presentation, the two major Parisian stalls.",
+  "track" : "asr",
+  "wallSeconds" : 0.684544958
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.54,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00149124",
+  "model" : "parakeet-v3",
+  "rtfx" : 43.982464143911386,
+  "text" : "Later and use it. Okay, it's like a timer. Timer timer. It's little lock.",
+  "track" : "asr",
+  "wallSeconds" : 0.125959291
+}

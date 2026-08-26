@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.04,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00009682",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.1183031096950646,
+  "text" : "I'm a proposition four, I believe, yes.",
+  "track" : "asr",
+  "wallSeconds" : 0.654201958
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.21,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00120040",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.1616745334097993,
+  "text" : "You are number two?",
+  "track" : "asr",
+  "wallSeconds" : 1.041599833
+}

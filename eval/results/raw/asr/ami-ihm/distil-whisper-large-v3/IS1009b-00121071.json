@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.84,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00121071",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.036814612131765,
+  "text" : "Would you want it to full spleen? Yes. Yes.",
+  "track" : "asr",
+  "wallSeconds" : 0.703525
+}

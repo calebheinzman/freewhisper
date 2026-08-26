@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.94,
+  "dataset" : "librispeech",
+  "id" : "6930-75918-0013",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.332998019221539,
+  "text" : "In those very terms, I even added more.",
+  "track" : "asr",
+  "wallSeconds" : 0.678514042
+}

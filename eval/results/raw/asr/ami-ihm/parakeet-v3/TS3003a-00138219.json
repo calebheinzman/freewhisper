@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.72,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00138219",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.069885000439985,
+  "text" : "Yeah. No, uh I I would I mean uh",
+  "track" : "asr",
+  "wallSeconds" : 0.117902625
+}

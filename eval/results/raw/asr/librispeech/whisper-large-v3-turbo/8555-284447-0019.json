@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.28,
+  "dataset" : "librispeech",
+  "id" : "8555-284447-0019",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.393690397826083,
+  "text" : "before any could stop him he butted his majesty so furiously that the king soared far into the air and tumbled in a heap among the benches where he lay moaning and groaning",
+  "track" : "asr",
+  "wallSeconds" : 1.607835125
+}

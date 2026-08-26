@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.78,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00175767",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.831568901074148,
+  "text" : "we can design different remote for different people like for aged people there will be big buttons and you know well that's a family in a family in a family",
+  "track" : "asr",
+  "wallSeconds" : 0.865726917
+}

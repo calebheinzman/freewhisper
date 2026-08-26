@@ -1,0 +1,266 @@
+{
+ "calib-cross|Bdb001|IS1009a": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary is for an entirely different meeting (designing a remote control from the AMI corpus) rather than the data organization meeting discussed in the reference summary. Therefore, coverage and faithfulness are zero."
+ },
+ "calib-cross|Bed002|IS1009a": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary is for an entirely different meeting (designing a remote control) and shares zero information with the reference text."
+ },
+ "calib-cross|Bed003|IS1009a": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary is completely unrelated to the reference meeting (describing a remote control design project instead of a Bayes-net navigation project)."
+ },
+ "calib-cross|Bed004|IS1009a": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary describes an entirely different meeting about designing a remote control, sharing zero content with the reference."
+ },
+ "calib-cross|ES2004a|TS3003a": {
+  "concision": 0.85,
+  "coverage": 0.6,
+  "faithfulness": 0.65,
+  "note": "The candidate captures several key points like the project introduction, board practice, budget, and remote control discussion, but misses specific design elements mentioned in the reference (LCD display, menu grouping, material aesthetics). It also introduces uncorroborated specifics (favorite animal drawing exercise, corporate website discussion) which lower the faithfulness score relative to the reference."
+ },
+ "calib-cross|ES2004a|qmsum-000": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary is for an entirely different meeting (Wales Bill legislative session instead of a remote control product design kickoff)."
+ },
+ "calib-cross|ES2004b|TS3003b": {
+  "concision": 0.9,
+  "coverage": 0.45,
+  "faithfulness": 0.35,
+  "note": "The candidate introduces significant hallucinated details not supported by the reference, such as an LCD screen, touchscreen, docking station, controlling multiple devices (contradicting the TV-only requirement), and targeting the elderly (contradicting the youth market decision). It also misses key decisions regarding the shell shape, rechargeable batteries, and user manuals."
+ },
+ "calib-cross|IS1009a|ES2004a": {
+  "concision": 0.95,
+  "coverage": 0.6,
+  "faithfulness": 0.7,
+  "note": "The candidate captures the core themes of the meeting well, but misses details such as specific member names/roles, the lost remote locator idea, and the closing tasks/next meeting timeline. Additionally, it introduces ungrounded specifics not found in the reference, such as an LCD display, a menu system, and projected profit/price points."
+ },
+ "calib-cross|IS1009a|qmsum-000": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary is completely unrelated to the reference meeting transcript, describing an entirely different topic and participants."
+ },
+ "calib-cross|IS1009b|ES2004b": {
+  "concision": 0.9,
+  "coverage": 0.5,
+  "faithfulness": 0.4,
+  "note": "The candidate includes significant details not supported by the reference, such as Video Plus capability, customer service plans versus manuals, narrowing to a youth market, and a shell-like shape instead of a T-shape."
+ },
+ "calib-cross|IS1009b|qmsum-000": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The candidate summary is for a completely different meeting (a legislative evidence session on a Welsh bill rather than a product design meeting for a remote control)."
+ },
+ "calib-cross|TS3003a|IS1009b": {
+  "concision": 0.9,
+  "coverage": 0.05,
+  "faithfulness": 0.05,
+  "note": "The candidate summary appears to describe a completely different meeting from the same project series (discussing detailed presentations from marketing, industrial, and interface designers rather than the kickoff meeting covered in the reference)."
+ },
+ "calib-cross|TS3003a|qmsum-000": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The candidate summary describes a completely different meeting (a legislative evidence session in Wales) rather than the project kick-off meeting for designing a remote control described in the reference."
+ },
+ "calib-cross|TS3003b|IS1009c": {
+  "concision": 0.9,
+  "coverage": 0.4,
+  "faithfulness": 0.35,
+  "note": "The candidate summary captures a few high-level topics (industrial designer explaining how the remote works, marketing expert presenting user preferences), but misses most key details from the reference (such as the docking station, LCD screen, touchscreen, elderly target demographic, and audio signal for lost remotes). Furthermore, it includes numerous specific claims unsupported by the reference (e.g., minutes of the last meeting, fruit and vegetable shapes, speech recognition, scroll wheel chip constraints, and rechargeable batteries)."
+ },
+ "calib-cross|qmsum-000|Bdb001": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The candidate summary describes a completely different meeting regarding data organisation formats (XML, ATLAS) and shares zero content or overlap with the reference meeting on the Welsh Bill."
+ },
+ "calib-cross|qmsum-001|Bdb001": {
+  "concision": 0.8,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated candidate summary is about a completely different meeting regarding data formatting and XML structures, completely unrelated to the remote control design meeting described in the reference."
+ },
+ "calib-cross|qmsum-002|Bdb001": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary is entirely about a different topic (data storage/XML/ATLAS formats) rather than remote control design, resulting in zero coverage and faithfulness relative to the reference."
+ },
+ "calib-cross|qmsum-005|Bdb001": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The candidate summary discusses a completely different topic (XML data structures vs. ATLAS technology) than the reference summary (belief-net framework, user compatibility nodes, and endpoint decisions)."
+ },
+ "calib-self|Bdb001": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate is identical to the reference summary."
+ },
+ "calib-self|Bed002": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate summary is an exact, word-for-word match to the human reference summary."
+ },
+ "calib-self|Bed003": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate is identical to the human reference summary."
+ },
+ "calib-self|Bed004": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate is an exact verbatim match to the reference summary."
+ },
+ "calib-self|ES2004a": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate summary is an exact match to the reference summary."
+ },
+ "calib-self|ES2004b": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate is identical to the reference summary."
+ },
+ "calib-self|IS1009a": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate summary is an exact match to the reference summary."
+ },
+ "calib-self|IS1009b": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate summary is completely identical to the reference summary."
+ },
+ "calib-self|TS3003a": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate is identical to the reference summary."
+ },
+ "calib-self|TS3003b": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate summary is identical to the reference summary."
+ },
+ "calib-self|qmsum-000": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate summary is an exact word-for-word copy of the reference summary."
+ },
+ "calib-self|qmsum-001": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate is identical to the reference summary."
+ },
+ "calib-self|qmsum-002": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate summary is word-for-word identical to the reference summary."
+ },
+ "calib-self|qmsum-005": {
+  "concision": 1.0,
+  "coverage": 1.0,
+  "faithfulness": 1.0,
+  "note": "The candidate summary is identical to the reference summary."
+ },
+ "calib-within|Bdb001|Bed002": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary is entirely off-topic compared to the reference summary, discussing intention inferencing and belief-nets rather than data organization options (bespoke XML vs ATLAS)."
+ },
+ "calib-within|Bed002|Bed003": {
+  "concision": 0.9,
+  "coverage": 0.85,
+  "faithfulness": 0.6,
+  "note": "The candidate covers almost all points from the reference, but introduces several specific details not present in the reference text (e.g., code names Vista/Tango, JavaBayes GUI/licensing details, and specific multi-layer network structure specifications)."
+ },
+ "calib-within|Bed003|Bed004": {
+  "concision": 0.85,
+  "coverage": 0.45,
+  "faithfulness": 0.4,
+  "note": "The candidate mentions the Vista/Enter/Tango belief-net and feature clusters, but misses key reference details like the specific multi-layer architecture, JavaBayes implementation, and hand-coded probabilities. It also introduces many claims not found in the reference text (such as hiring a wizard, the SmartKom system, and trajectors/paths)."
+ },
+ "calib-within|Bed004|Bed005": {
+  "concision": 0.9,
+  "coverage": 0.5,
+  "faithfulness": 0.4,
+  "note": "The candidate contains several major technical specifics and details (German parser, XML for Map requests, EVA vectors, Noisy-OR nodes, translating into English) that are completely unsupported by the reference summary."
+ },
+ "calib-within|ES2004a|TS3003a": {
+  "concision": 0.85,
+  "coverage": 0.55,
+  "faithfulness": 0.6,
+  "note": "The candidate captures several core elements (drawing exercise, budget/pricing, initial remote control discussion) but misses key specifics from the reference such as the trendy/fashionable design goals, LCD display, menu grouping, and long-range agenda. Furthermore, it introduces unsupported details not found in the reference, such as discussing the corporate website, audio/video equipment, and drawing favorite animals."
+ },
+ "calib-within|IS1009a|ES2004a": {
+  "concision": 0.95,
+  "coverage": 0.6,
+  "faithfulness": 0.65,
+  "note": "The candidate summary captures the general flow of the meeting (project goals, introductions, board drawing, budget, and remote control discussion). However, it misses key specifics from the reference such as team member names and roles, the finder signal idea, and closing next steps. It also introduces several unmentioned details like the LCD display, menu grouping, price points, and profit aims."
+ },
+ "calib-within|IS1009b|ES2004b": {
+  "concision": 0.9,
+  "coverage": 0.55,
+  "faithfulness": 0.45,
+  "note": "The candidate captures some overarching topics such as the PM's constraints and the discussion of casing options, but it introduces many specific details not supported by the reference (e.g., youth market focus, Video Plus capability, customer service plan vs. manuals, shell-like shape) and omits several key points from the reference (such as the light emitter and clock/alarm features)."
+ },
+ "calib-within|TS3003a|IS1009b": {
+  "concision": 0.9,
+  "coverage": 0.05,
+  "faithfulness": 0.05,
+  "note": "The generated summary appears to describe an entirely different meeting (likely a subsequent design meeting) rather than the kickoff meeting covered in the reference. Almost none of the reference points are captured, and nearly all facts asserted in the candidate are unsupported by the reference."
+ },
+ "calib-within|qmsum-000|qmsum-001": {
+  "concision": 0.9,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated summary is for an entirely different meeting (a product design session) and shares zero substantive points or facts with the reference meeting (a legislative evidence session on a Welsh bill)."
+ },
+ "calib-within|qmsum-001|qmsum-002": {
+  "concision": 0.9,
+  "coverage": 0.2,
+  "faithfulness": 0.2,
+  "note": "The candidate shares almost none of the substantive points from the reference except dropping voice/speech recognition. It hallucinates numerous specific presentations and button design decisions not supported by the reference text."
+ },
+ "calib-within|qmsum-002|qmsum-005": {
+  "concision": 0.85,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The generated candidate discusses an entirely different topic (belief-net framework, probability computation) with zero overlap or factual alignment with the reference meeting summary (remote control functional design)."
+ },
+ "calib-within|qmsum-005|qmsum-006": {
+  "concision": 0.9,
+  "coverage": 0.0,
+  "faithfulness": 0.0,
+  "note": "The candidate summary is completely off-topic, describing a remote control design meeting instead of the belief-net framework discussion detailed in the reference."
+ }
+}

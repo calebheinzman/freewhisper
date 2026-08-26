@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.9800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-76",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.769291122480715,
+  "text" : "Now, there are other brands in fashion and leather goods.",
+  "track" : "asr",
+  "wallSeconds" : 2.814721917
+}

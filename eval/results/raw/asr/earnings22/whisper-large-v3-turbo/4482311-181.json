@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.4400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-181",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.844011581124888,
+  "text" : "And of course, there's a plus a structural impact at plus 10 percent vis-a-vis 2020, and the currency effect only 2 percent.",
+  "track" : "asr",
+  "wallSeconds" : 1.615339458
+}

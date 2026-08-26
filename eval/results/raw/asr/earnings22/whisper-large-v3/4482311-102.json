@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.3600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-102",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.0915499178491226,
+  "text" : "Moving on to watches and jewellery.",
+  "track" : "asr",
+  "wallSeconds" : 2.162120542
+}

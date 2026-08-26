@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.18,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00169762",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.331009735031805,
+  "text" : "You make a banana shaped one. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.654456208
+}

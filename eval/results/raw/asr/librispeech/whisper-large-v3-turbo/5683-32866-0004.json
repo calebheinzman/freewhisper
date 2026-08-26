@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.225,
+  "dataset" : "librispeech",
+  "id" : "5683-32866-0004",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.33058902013376,
+  "text" : "By this time Lord Chalford and Wilder returned, and, disgusted rather with myself, I ruminated on my want of generalship.",
+  "track" : "asr",
+  "wallSeconds" : 1.457210375
+}

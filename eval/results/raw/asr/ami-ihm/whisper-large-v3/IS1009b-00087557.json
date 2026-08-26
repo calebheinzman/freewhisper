@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.1,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00087557",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.2031521700832286,
+  "text" : "Do you think there's any chance of having basically the same machine with the same buttons, but maybe several different shapes?",
+  "track" : "asr",
+  "wallSeconds" : 3.222655292
+}

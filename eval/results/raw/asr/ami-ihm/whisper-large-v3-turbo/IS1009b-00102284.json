@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.45,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00102284",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.2156874515106413,
+  "text" : "Because the clock could be really friendly.",
+  "track" : "asr",
+  "wallSeconds" : 1.105751625
+}

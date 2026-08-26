@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.89,
+  "dataset" : "librispeech",
+  "id" : "6829-68769-0023",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.69934525781817,
+  "text" : "I didn't stop to think whether it was foolish or not. I did it, and I'm glad I did it.",
+  "track" : "asr",
+  "wallSeconds" : 0.857993292
+}

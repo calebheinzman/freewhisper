@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.48,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00081615",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.378192899912076,
+  "text" : "My Greta can answer his mobile phone, but he couldn't even dream of texting or something like that.",
+  "track" : "asr",
+  "wallSeconds" : 0.892793958
+}

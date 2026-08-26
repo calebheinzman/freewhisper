@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.380125,
+  "dataset" : "earnings22",
+  "id" : "4482311-50",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.634814393290177,
+  "text" : "Well, fashion and leather goods, as you've seen the figures for that. Jean-Jacques Guionni will be discussing those in a moment. remarkable",
+  "track" : "asr",
+  "wallSeconds" : 2.5806338330000003
+}

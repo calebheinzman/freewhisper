@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.99,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00037384",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.4688396721892847,
+  "text" : "Well, as you can see, the quality of the work today is",
+  "track" : "asr",
+  "wallSeconds" : 1.21109525
+}

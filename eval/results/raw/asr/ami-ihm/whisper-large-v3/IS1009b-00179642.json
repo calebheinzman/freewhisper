@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.3,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00179642",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.04747467284654248,
+  "text" : "The question is, I don't know. the question is, I don't know. Okay. Okay. Okay. Okay.",
+  "track" : "asr",
+  "wallSeconds" : 48.446884667
+}

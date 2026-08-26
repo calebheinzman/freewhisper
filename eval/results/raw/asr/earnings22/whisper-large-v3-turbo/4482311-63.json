@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.4600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-63",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.199994255269357,
+  "text" : "Of course, we also have Christian Dio, that is a very different brand.",
+  "track" : "asr",
+  "wallSeconds" : 1.242321084
+}

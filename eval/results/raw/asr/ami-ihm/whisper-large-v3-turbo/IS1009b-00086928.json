@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.35,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00086928",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.874200207613109,
+  "text" : "It's a budget we're looking at if you build one mold, I don' think that's going to make a big difference whether it's going to be square or...",
+  "track" : "asr",
+  "wallSeconds" : 2.854550959
+}

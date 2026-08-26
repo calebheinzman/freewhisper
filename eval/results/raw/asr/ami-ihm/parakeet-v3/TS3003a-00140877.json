@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.63,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00140877",
+  "model" : "parakeet-v3",
+  "rtfx" : 16.780668143200746,
+  "text" : "So you can see",
+  "track" : "asr",
+  "wallSeconds" : 0.097135584
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.61,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0038",
+  "model" : "parakeet-v3",
+  "rtfx" : 42.86964219070932,
+  "text" : "He felt he was up against it, and that perhaps another kind of a job would suit him better.",
+  "track" : "asr",
+  "wallSeconds" : 0.130861834
+}

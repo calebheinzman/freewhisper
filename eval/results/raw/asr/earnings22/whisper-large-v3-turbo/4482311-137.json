@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3600625,
+  "dataset" : "earnings22",
+  "id" : "4482311-137",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.5011903173801593,
+  "text" : "Sefra, there's the rebound thanks to the dynamism of the teams.",
+  "track" : "asr",
+  "wallSeconds" : 1.245308625
+}

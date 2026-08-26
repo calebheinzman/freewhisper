@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.21,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00146818",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.860805685086025,
+  "text" : "Okay, then I'll meet you in about half an hour, I think. - Okay. - So, good luck.",
+  "track" : "asr",
+  "wallSeconds" : 1.400831292
+}

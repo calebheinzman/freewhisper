@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.62,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00103983",
+  "model" : "parakeet-v3",
+  "rtfx" : 25.21702983793506,
+  "text" : "Mine is a bit more skinny.",
+  "track" : "asr",
+  "wallSeconds" : 0.103898041
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 14.3,
+  "dataset" : "librispeech",
+  "id" : "7176-88083-0007",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 12.978078350314387,
+  "text" : "but such was his keenness that even while the wide flukes of his engorged victim were still sticking out at the corners of his beak his fierce red eyes were once more peering downward into the torrent in search of fresh prey",
+  "track" : "asr",
+  "wallSeconds" : 1.101858042
+}

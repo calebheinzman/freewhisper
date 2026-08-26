@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00083585",
+  "model" : "parakeet-v3",
+  "rtfx" : 48.19277108433735,
+  "text" : "Yeah, well that has been that has been eliminated. So that's that's unfortunately a mute point now. Mm-hmm.",
+  "track" : "asr",
+  "wallSeconds" : 0.1350825
+}

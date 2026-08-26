@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.59,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00086009",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.450584233725735,
+  "text" : "shape is you can have you know if you want it just build a mold base",
+  "track" : "asr",
+  "wallSeconds" : 1.256014875
+}

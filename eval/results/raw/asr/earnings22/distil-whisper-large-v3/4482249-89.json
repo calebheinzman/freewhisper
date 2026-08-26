@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.9000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-89",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 14.136045657999773,
+  "text" : "So addressing, as I said earlier, innovative areas for our customers in the fields of cell therapy, for example, gene therapies and some others.",
+  "track" : "asr",
+  "wallSeconds" : 0.841824
+}

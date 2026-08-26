@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.83,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00017101",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.2784675521160884,
+  "text" : "Is it okay if I postpone that till later? I just want to get access to a little bit more information. Is that okay?",
+  "track" : "asr",
+  "wallSeconds" : 1.473249292
+}

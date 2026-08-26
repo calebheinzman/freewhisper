@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.24,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00038740",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.240246814884663,
+  "text" : "and the production cost should not exceed, hopefully should be less than 1250 euro.",
+  "track" : "asr",
+  "wallSeconds" : 2.785407375
+}

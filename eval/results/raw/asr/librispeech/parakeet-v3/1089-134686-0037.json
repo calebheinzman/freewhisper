@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.21,
+  "dataset" : "librispeech",
+  "id" : "1089-134686-0037",
+  "model" : "parakeet-v3",
+  "rtfx" : 42.60505492703377,
+  "text" : "In the silence their dark fire kindled the dusk into a tawny glow.",
+  "track" : "asr",
+  "wallSeconds" : 0.122285959
+}

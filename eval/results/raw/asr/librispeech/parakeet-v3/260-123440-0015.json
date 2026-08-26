@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.2,
+  "dataset" : "librispeech",
+  "id" : "260-123440-0015",
+  "model" : "parakeet-v3",
+  "rtfx" : 47.03600490861678,
+  "text" : "I wish I hadn't cried so much, said Alice, as she swam about, trying to find her way out.",
+  "track" : "asr",
+  "wallSeconds" : 0.131813916
+}

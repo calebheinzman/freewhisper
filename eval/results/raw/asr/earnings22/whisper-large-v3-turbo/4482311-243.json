@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.980125,
+  "dataset" : "earnings22",
+  "id" : "4482311-243",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.453291680784597,
+  "text" : "So growth picked up mostly in Q4, that's the retail business of Bulgaria, fine performance.",
+  "track" : "asr",
+  "wallSeconds" : 1.3428550000000001
+}

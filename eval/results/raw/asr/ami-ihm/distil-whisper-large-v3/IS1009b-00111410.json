@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.38,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00111410",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.932953604679799,
+  "text" : "case holder a holder remote holder",
+  "track" : "asr",
+  "wallSeconds" : 0.605143167
+}

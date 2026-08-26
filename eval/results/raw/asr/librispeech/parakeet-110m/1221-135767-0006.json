@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 20.56,
+  "dataset" : "librispeech",
+  "id" : "1221-135767-0006",
+  "model" : "parakeet-110m",
+  "rtfx" : 117.27735130151648,
+  "text" : "The mother herself, as if the red ignominy were so deeply scorched into her brain that all her conceptions assumed its form, had carefully wrought out the similitude, lavishing many hours of morbid ingenuity to create an analogy between the object of her affection and the emblem of her guilt and torture",
+  "track" : "asr",
+  "wallSeconds" : 0.175310917
+}

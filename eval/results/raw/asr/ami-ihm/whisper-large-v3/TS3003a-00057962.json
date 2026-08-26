@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.69,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00057962",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.6933879110574388,
+  "text" : "Yeah, it's a bit of a swordfish.",
+  "track" : "asr",
+  "wallSeconds" : 2.179063625
+}

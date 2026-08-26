@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.71,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00057674",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.5992972095064634,
+  "text" : "You have lost signal with me.",
+  "track" : "asr",
+  "wallSeconds" : 7.8592056249999995
+}

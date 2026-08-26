@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.055,
+  "dataset" : "librispeech",
+  "id" : "1320-122617-0039",
+  "model" : "parakeet-v3",
+  "rtfx" : 45.80718939130166,
+  "text" : "The Mohican started on his feet, and shook his shaggy covering, as though the animal he counterfeited was about to make some desperate effort.",
+  "track" : "asr",
+  "wallSeconds" : 0.154015125
+}

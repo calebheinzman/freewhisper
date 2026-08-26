@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.335,
+  "dataset" : "librispeech",
+  "id" : "5142-36586-0002",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.4583427984176787,
+  "text" : "the variability of multiple parts.",
+  "track" : "asr",
+  "wallSeconds" : 0.675178875
+}

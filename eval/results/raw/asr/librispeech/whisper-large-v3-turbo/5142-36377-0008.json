@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 15.425,
+  "dataset" : "librispeech",
+  "id" : "5142-36377-0008",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.995849933577426,
+  "text" : "mr meddicroft the elder having not spoken one word thus far himself introduced the newcomer to me with a side glance at his sons which had something like defiance in it a glance which as i was sorry to notice was returned with the defiance on their side by the two young men",
+  "track" : "asr",
+  "wallSeconds" : 1.9291257499999999
+}

@@ -1,0 +1,2751 @@
+{
+  "dataset": "ami",
+  "items": [
+    {
+      "audio": "../datasets/ami/IS1009a.Mix-Headset.wav",
+      "id": "IS1009a",
+      "refSegments": [
+        {
+          "end": 60.85,
+          "speaker": "FIE088",
+          "start": 54.95,
+          "text": "Okay Everybody ready Uh I think the first thing we do is introduce ourselves"
+        },
+        {
+          "end": 56.03,
+          "speaker": "FIO089",
+          "start": 55.7,
+          "text": "Okay"
+        },
+        {
+          "end": 57.04,
+          "speaker": "FIO084",
+          "start": 56.9,
+          "text": "Yeah"
+        },
+        {
+          "end": 57.7,
+          "speaker": "FIO089",
+          "start": 57.25,
+          "text": "I think so"
+        },
+        {
+          "end": 62.57,
+          "speaker": "FIO089",
+          "start": 61.54,
+          "text": "Yeah that's a good plan"
+        },
+        {
+          "end": 67.29,
+          "speaker": "FIE088",
+          "start": 62.0,
+          "text": "and everybody's name and what your function is So maybe we start with you"
+        },
+        {
+          "end": 80.83,
+          "speaker": "FIO087",
+          "start": 66.63,
+          "text": "Okay Yeah my name is Francina And I'm uh an user interface my role is uh the main responsibility is user interface And my role is to design uh a television remote control"
+        },
+        {
+          "end": 76.43,
+          "speaker": "FIE088",
+          "start": 76.08,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 82.05,
+          "speaker": "FIE088",
+          "start": 81.04,
+          "text": "Mm-hmm Okay"
+        },
+        {
+          "end": 86.94,
+          "speaker": "FIO089",
+          "start": 83.39,
+          "text": "And I'm a marketing person I wanna figure out how to sell them"
+        },
+        {
+          "end": 88.59,
+          "speaker": "FIE088",
+          "start": 87.49,
+          "text": "Mm-hmm And your name is"
+        },
+        {
+          "end": 89.69,
+          "speaker": "FIO089",
+          "start": 88.82,
+          "text": "My name is Eileen"
+        },
+        {
+          "end": 90.52,
+          "speaker": "FIE088",
+          "start": 90.21,
+          "text": "Okay"
+        },
+        {
+          "end": 107.4,
+          "speaker": "FIO084",
+          "start": 91.31,
+          "text": "Yeah Uh I'm Jeanne-Oui Um uh my role is industrial designer and my responsibilities are uh uh um deal with the technical-functional designs and specifications of user interface and dealing with user interface design"
+        },
+        {
+          "end": 118.17,
+          "speaker": "FIE088",
+          "start": 107.88,
+          "text": "Very good And as you already know I am Betty I am the project manager for today So why don't we look at the presentation to see what we really are supposed to do"
+        },
+        {
+          "end": 119.05,
+          "speaker": "FIO089",
+          "start": 118.76,
+          "text": "Okay"
+        },
+        {
+          "end": 119.91,
+          "speaker": "FIE088",
+          "start": 119.38,
+          "text": "Um"
+        },
+        {
+          "end": 132.39,
+          "speaker": "FIE088",
+          "start": 122.4,
+          "text": "Yes y opening acquaintance tool training well the tools are I think we already I guess the tool is really our the computer as far as I can see"
+        },
+        {
+          "end": 131.49,
+          "speaker": "FIO089",
+          "start": 131.13,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 146.77,
+          "speaker": "FIE088",
+          "start": 132.87,
+          "text": "Uh we get ins each of us will get instructions and we'll take it from there Project plan that falls under the same heading pretty much Um I don't think we have any great discussion at this point Um"
+        },
+        {
+          "end": 145.79,
+          "speaker": "FIO089",
+          "start": 145.55,
+          "text": "No"
+        },
+        {
+          "end": 162.32,
+          "speaker": "FIE088",
+          "start": 149.44,
+          "text": "Here is what this thing should be This thing we are gonna um uh design is a new remote control Uh should be original trendy and of course user friendly"
+        },
+        {
+          "end": 159.78,
+          "speaker": "FIO089",
+          "start": 159.51,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 166.99,
+          "speaker": "FIE088",
+          "start": 165.19,
+          "text": "So maybe you wanna make some notes of that"
+        },
+        {
+          "end": 188.34,
+          "speaker": "FIO089",
+          "start": 188.06,
+          "text": "Okay"
+        },
+        {
+          "end": 195.27,
+          "speaker": "FIE088",
+          "start": 195.04,
+          "text": "Okay"
+        },
+        {
+          "end": 195.82,
+          "speaker": "FIO089",
+          "start": 195.56,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 202.4,
+          "speaker": "FIE088",
+          "start": 196.38,
+          "text": "All right Here is what the functional design is supposed to achieve Um"
+        },
+        {
+          "end": 218.2,
+          "speaker": "FIE088",
+          "start": 203.78,
+          "text": "That is it's gonna be individual work and then at the meeting we'll discuss what uh we have come up with The same goes for the conceptual design there will be individual work whic and then discussion afterwards"
+        },
+        {
+          "end": 222.12,
+          "speaker": "FIE088",
+          "start": 219.44,
+          "text": "Detailed design same thing basically"
+        },
+        {
+          "end": 221.49,
+          "speaker": "FIO089",
+          "start": 220.46,
+          "text": "Mm 'kay so"
+        },
+        {
+          "end": 226.45,
+          "speaker": "FIO089",
+          "start": 222.76,
+          "text": "Three different types of design that we're gonna be concerned with okay"
+        },
+        {
+          "end": 227.27,
+          "speaker": "FIE088",
+          "start": 225.98,
+          "text": "Mm-hmm Mm-hmm"
+        },
+        {
+          "end": 238.38,
+          "speaker": "FIO089",
+          "start": 236.11,
+          "text": "Functional conception"
+        },
+        {
+          "end": 242.5,
+          "speaker": "FIO089",
+          "start": 241.01,
+          "text": "and detailed"
+        },
+        {
+          "end": 245.45,
+          "speaker": "FIE088",
+          "start": 243.94,
+          "text": "I can't write with this thing"
+        },
+        {
+          "end": 251.04,
+          "speaker": "FIO089",
+          "start": 248.32,
+          "text": "Maybe we should redesign it"
+        },
+        {
+          "end": 252.7,
+          "speaker": "FIE088",
+          "start": 251.8,
+          "text": "Yes"
+        },
+        {
+          "end": 254.69,
+          "speaker": "FIO089",
+          "start": 252.79,
+          "text": "After we've finished the remote control we'll get to that"
+        },
+        {
+          "end": 257.74,
+          "speaker": "FIE088",
+          "start": 255.24,
+          "text": "Yeah okay All right"
+        },
+        {
+          "end": 272.52,
+          "speaker": "FIE088",
+          "start": 260.02,
+          "text": "Then tool training try out the white board participant can draw their favourite animal Does anybody want to go and see how the white board works So that in case we have to in the next meeting present something on the white board"
+        },
+        {
+          "end": 275.95,
+          "speaker": "FIE088",
+          "start": 274.68,
+          "text": "You wanna go Eileen and"
+        },
+        {
+          "end": 278.89,
+          "speaker": "FIO089",
+          "start": 276.23,
+          "text": "Okay I'll see what I can do See if I r"
+        },
+        {
+          "end": 279.86,
+          "speaker": "FIE088",
+          "start": 277.59,
+          "text": "Whether you without hanging yourself"
+        },
+        {
+          "end": 285.51,
+          "speaker": "FIO089",
+          "start": 280.08,
+          "text": "See if I remember how to draw a kitty cat or a rabbit or something"
+        },
+        {
+          "end": 291.15,
+          "speaker": "FIE088",
+          "start": 288.1,
+          "text": "And remember you have to press so it works Mm-hmm"
+        },
+        {
+          "end": 297.75,
+          "speaker": "FIO089",
+          "start": 290.06,
+          "text": "So that it will record okay Um uh um traditional kitty cat"
+        },
+        {
+          "end": 310.65,
+          "speaker": "FIE088",
+          "start": 308.92,
+          "text": "Fat a fat cat"
+        },
+        {
+          "end": 318.45,
+          "speaker": "FIO089",
+          "start": 311.19,
+          "text": "I've a very fat cat And it likes to sit like that Okay"
+        },
+        {
+          "end": 318.04,
+          "speaker": "FIE088",
+          "start": 317.63,
+          "text": "Okay"
+        },
+        {
+          "end": 327.5,
+          "speaker": "FIE088",
+          "start": 320.53,
+          "text": "And you're Francine right Would you like s like just to see um how it feels so that you have a little idea"
+        },
+        {
+          "end": 325.08,
+          "speaker": "FIO087",
+          "start": 322.23,
+          "text": "Yes I'm Francina Yes sure"
+        },
+        {
+          "end": 332.82,
+          "speaker": "FIO089",
+          "start": 328.77,
+          "text": "Am I supposed to wipe off that or okay"
+        },
+        {
+          "end": 329.27,
+          "speaker": "FIE088",
+          "start": 329.04,
+          "text": "In"
+        },
+        {
+          "end": 331.53,
+          "speaker": "FIE088",
+          "start": 330.22,
+          "text": "No no No that's okay"
+        },
+        {
+          "end": 333.36,
+          "speaker": "FIO087",
+          "start": 331.58,
+          "text": "No Okay"
+        },
+        {
+          "end": 335.49,
+          "speaker": "FIE088",
+          "start": 333.57,
+          "text": "I don't know we'll get to that later"
+        },
+        {
+          "end": 336.43,
+          "speaker": "FIO089",
+          "start": 336.02,
+          "text": "Okay"
+        },
+        {
+          "end": 339.63,
+          "speaker": "FIO087",
+          "start": 337.47,
+          "text": "What should I draw"
+        },
+        {
+          "end": 348.31,
+          "speaker": "FIO084",
+          "start": 347.67,
+          "text": "Snake"
+        },
+        {
+          "end": 349.78,
+          "speaker": "FIO087",
+          "start": 347.99,
+          "text": "I'm going to draw a snake"
+        },
+        {
+          "end": 358.95,
+          "speaker": "FIO087",
+          "start": 355.86,
+          "text": "How does it look like"
+        },
+        {
+          "end": 358.06,
+          "speaker": "FIO089",
+          "start": 357.32,
+          "text": "Uh okay"
+        },
+        {
+          "end": 360.45,
+          "speaker": "FIE088",
+          "start": 358.58,
+          "text": "Okay Okay"
+        },
+        {
+          "end": 364.82,
+          "speaker": "FIO089",
+          "start": 359.99,
+          "text": "I hope the kitty cat is hungry 'cause I don't like snakes"
+        },
+        {
+          "end": 375.93,
+          "speaker": "FIE088",
+          "start": 367.25,
+          "text": "Here's the project finance uh which of course we all have to think about when we design this thing Um selling price is supposed to be twenty five Euro"
+        },
+        {
+          "end": 386.09,
+          "speaker": "FIE088",
+          "start": 377.25,
+          "text": "Uh profit aim for the company is fifty million Euro the market range unlimited meaning international"
+        },
+        {
+          "end": 377.93,
+          "speaker": "FIO089",
+          "start": 377.48,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 387.02,
+          "speaker": "FIO089",
+          "start": 386.53,
+          "text": "Okay"
+        },
+        {
+          "end": 393.64,
+          "speaker": "FIE088",
+          "start": 387.4,
+          "text": "and the production cost should not exceed hopefully should be less than twelve fifty Euro"
+        },
+        {
+          "end": 398.51,
+          "speaker": "FIO089",
+          "start": 395.23,
+          "text": "Mm 'kay that should keep everybody on their toes and challenged"
+        },
+        {
+          "end": 399.29,
+          "speaker": "FIE088",
+          "start": 398.76,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 400.93,
+          "speaker": "FIO089",
+          "start": 400.24,
+          "text": "Profit"
+        },
+        {
+          "end": 406.48,
+          "speaker": "FIO089",
+          "start": 402.86,
+          "text": "Um is fifty mm"
+        },
+        {
+          "end": 412.67,
+          "speaker": "FIE088",
+          "start": 403.81,
+          "text": "So these are all things of course to remember with the budget and when you design to materials cost etcetera"
+        },
+        {
+          "end": 427.58,
+          "speaker": "FIE088",
+          "start": 419.16,
+          "text": "Now uh the discussion I guess is um does anyone of you have experience with remote control"
+        },
+        {
+          "end": 420.46,
+          "speaker": "FIO089",
+          "start": 420.14,
+          "text": "Oops"
+        },
+        {
+          "end": 431.54,
+          "speaker": "FIO084",
+          "start": 428.69,
+          "text": "Yeah of course using remote control Yeah"
+        },
+        {
+          "end": 434.99,
+          "speaker": "FIE088",
+          "start": 428.95,
+          "text": "I exp I s 'cause we we use 'em we use 'em right everyday And um"
+        },
+        {
+          "end": 430.1,
+          "speaker": "FIO087",
+          "start": 429.73,
+          "text": "Yes"
+        },
+        {
+          "end": 449.23,
+          "speaker": "FIE088",
+          "start": 436.56,
+          "text": "now having used a remote control for years does anybody already have like an idea like things you didn't like with it things you would like to change things you would like to improve with this thing ye any first ideas"
+        },
+        {
+          "end": 460.58,
+          "speaker": "FIE088",
+          "start": 450.37,
+          "text": "Would you like it to be smaller bigger have more have more buttons on it or maybe clearly better marked buttons you know things like that"
+        },
+        {
+          "end": 451.37,
+          "speaker": "FIO084",
+          "start": 451.06,
+          "text": "Uh"
+        },
+        {
+          "end": 454.36,
+          "speaker": "FIO087",
+          "start": 453.94,
+          "text": "Yeah I"
+        },
+        {
+          "end": 461.8,
+          "speaker": "FIO084",
+          "start": 459.86,
+          "text": "Yeah Yeah"
+        },
+        {
+          "end": 486.73,
+          "speaker": "FIO087",
+          "start": 461.46,
+          "text": "Yes I I feel that all the remote should be very compact Yeah those which we get here nowadays it's very long And um and it should have multi-purpose Like uh the remote control which we use for T_V_ it shou uh it should be used f uh for some other purpose also like controlling the uh temperature inside the house or for air-conditioners or for heating system"
+        },
+        {
+          "end": 466.45,
+          "speaker": "FIE088",
+          "start": 465.15,
+          "text": "Small right Mm-hmm"
+        },
+        {
+          "end": 469.68,
+          "speaker": "FIE088",
+          "start": 469.29,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 482.62,
+          "speaker": "FIE088",
+          "start": 481.37,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 484.34,
+          "speaker": "FIO084",
+          "start": 481.7,
+          "text": "Audio player Oh Okay"
+        },
+        {
+          "end": 495.26,
+          "speaker": "FIE088",
+          "start": 486.72,
+          "text": "So it should be a multi-functional uh gadget that would um control all your household uh uh machines basically"
+        },
+        {
+          "end": 489.46,
+          "speaker": "FIO087",
+          "start": 488.48,
+          "text": "Yes exactly"
+        },
+        {
+          "end": 490.4,
+          "speaker": "FIO087",
+          "start": 489.97,
+          "text": "Yes"
+        },
+        {
+          "end": 490.46,
+          "speaker": "FIO084",
+          "start": 490.4,
+          "text": "Hmm"
+        },
+        {
+          "end": 492.92,
+          "speaker": "FIO087",
+          "start": 492.57,
+          "text": "Yes"
+        },
+        {
+          "end": 495.51,
+          "speaker": "FIO084",
+          "start": 493.31,
+          "text": "Divides us Yeah Yeah"
+        },
+        {
+          "end": 495.68,
+          "speaker": "FIO087",
+          "start": 494.72,
+          "text": "Yeah Exactly"
+        },
+        {
+          "end": 502.27,
+          "speaker": "FIO089",
+          "start": 497.24,
+          "text": "At um twelve fifty Euros per"
+        },
+        {
+          "end": 503.46,
+          "speaker": "FIE088",
+          "start": 502.77,
+          "text": "Well"
+        },
+        {
+          "end": 506.75,
+          "speaker": "FIO089",
+          "start": 503.78,
+          "text": "Well who knows if we get a really good designer maybe we can do that"
+        },
+        {
+          "end": 506.79,
+          "speaker": "FIO084",
+          "start": 506.18,
+          "text": "Yeah"
+        },
+        {
+          "end": 513.57,
+          "speaker": "FIO089",
+          "start": 508.17,
+          "text": "We certainly can try to I agree with her that to market something successfully it should do some more things"
+        },
+        {
+          "end": 521.07,
+          "speaker": "FIE088",
+          "start": 513.11,
+          "text": "It should be something new it should be s it it should do something different than than just what we have Now of course the other thing to think there is maybe the design"
+        },
+        {
+          "end": 517.76,
+          "speaker": "FIO089",
+          "start": 517.36,
+          "text": "That's right"
+        },
+        {
+          "end": 518.74,
+          "speaker": "FIO084",
+          "start": 517.8,
+          "text": "Yeah of course"
+        },
+        {
+          "end": 518.5,
+          "speaker": "FIO087",
+          "start": 518.13,
+          "text": "Yeah"
+        },
+        {
+          "end": 525.41,
+          "speaker": "FIO087",
+          "start": 521.06,
+          "text": "Yeah design should be yeah it should be different All the almost all the remotes"
+        },
+        {
+          "end": 538.73,
+          "speaker": "FIE088",
+          "start": 524.22,
+          "text": "Like trendy no like f for earlier we saw maybe it should be something trendy you know Maybe it should different colours or materials or you know Um so yeah shapes right you know like kidney shape feels better in your hand or something you know"
+        },
+        {
+          "end": 533.05,
+          "speaker": "FIO084",
+          "start": 527.83,
+          "text": "Yeah maybe ten I do yeah colours and al shapes also Yeah"
+        },
+        {
+          "end": 528.82,
+          "speaker": "FIO087",
+          "start": 527.9,
+          "text": "Yes exactly"
+        },
+        {
+          "end": 532.69,
+          "speaker": "FIO087",
+          "start": 530.68,
+          "text": "Are different shapes Yes"
+        },
+        {
+          "end": 537.48,
+          "speaker": "FIO087",
+          "start": 537.03,
+          "text": "Yes"
+        },
+        {
+          "end": 539.24,
+          "speaker": "FIO084",
+          "start": 538.09,
+          "text": "Yeah of course yeah"
+        },
+        {
+          "end": 551.13,
+          "speaker": "FIO089",
+          "start": 538.53,
+          "text": "Yeah okay friendly shape that would help I think another thing that would help is um if it beeps when you clap because I think one of the big things that happens is people lose them They can't find it"
+        },
+        {
+          "end": 540.33,
+          "speaker": "FIE088",
+          "start": 539.97,
+          "text": "Yeah"
+        },
+        {
+          "end": 544.57,
+          "speaker": "FIE088",
+          "start": 544.12,
+          "text": "Yes"
+        },
+        {
+          "end": 565.64,
+          "speaker": "FIE088",
+          "start": 552.51,
+          "text": "That is true because they put a newspaper or they put it behind a plant or we you know whatever And and they suddenly the phone rings and they want to turn the T_V_ off and they say where the hell is my my remote control yeah"
+        },
+        {
+          "end": 556.72,
+          "speaker": "FIO084",
+          "start": 555.68,
+          "text": "Yeah"
+        },
+        {
+          "end": 558.63,
+          "speaker": "FIO089",
+          "start": 558.16,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 566.78,
+          "speaker": "FIO089",
+          "start": 566.02,
+          "text": "So some"
+        },
+        {
+          "end": 575.79,
+          "speaker": "FIE088",
+          "start": 566.14,
+          "text": "Well or yeah or if it's really if it's really in a dark spot that it gives out a a sound or a signal Yeah Mm-hmm So if lost"
+        },
+        {
+          "end": 574.67,
+          "speaker": "FIO084",
+          "start": 572.01,
+          "text": "Yeah some beep or something like that so that we can go"
+        },
+        {
+          "end": 576.76,
+          "speaker": "FIO089",
+          "start": 572.64,
+          "text": "Uh so so it's really the beep or or a light should blink"
+        },
+        {
+          "end": 573.25,
+          "speaker": "FIO087",
+          "start": 573.12,
+          "text": "Or a b"
+        },
+        {
+          "end": 581.45,
+          "speaker": "FIE088",
+          "start": 576.74,
+          "text": "If lost uh signal with b throw signal you know"
+        },
+        {
+          "end": 577.78,
+          "speaker": "FIO087",
+          "start": 577.04,
+          "text": "Should ha"
+        },
+        {
+          "end": 577.37,
+          "speaker": "FIO084",
+          "start": 577.06,
+          "text": "Yeah"
+        },
+        {
+          "end": 580.16,
+          "speaker": "FIO087",
+          "start": 578.58,
+          "text": "A fluorescent signal yeah"
+        },
+        {
+          "end": 580.91,
+          "speaker": "FIO089",
+          "start": 580.39,
+          "text": "Mm 'kay"
+        },
+        {
+          "end": 586.34,
+          "speaker": "FIO084",
+          "start": 581.48,
+          "text": "Yeah maybe it should have a light so that we can we can just recognise where it is Yeah yeah"
+        },
+        {
+          "end": 592.54,
+          "speaker": "FIE088",
+          "start": 585.68,
+          "text": "Exactly I mean just that's what I'm saying I'm just saying throw signal meaning just whether it's a beep or whether a light or"
+        },
+        {
+          "end": 587.95,
+          "speaker": "FIO084",
+          "start": 587.0,
+          "text": "May not be beep"
+        },
+        {
+          "end": 593.03,
+          "speaker": "FIO084",
+          "start": 590.86,
+          "text": "Beep or uh it's a light maybe it's a light"
+        },
+        {
+          "end": 605.71,
+          "speaker": "FIO089",
+          "start": 592.25,
+          "text": "And do you think a good c c um clue for that is that it would respond to a clap or it would respond to your voice or it would respond what what should you have to do to make it beep or blink"
+        },
+        {
+          "end": 637.21,
+          "speaker": "FIE088",
+          "start": 605.68,
+          "text": "Okay my my idea is maybe that the minute it's really hidden in in other words if it's like in a dark spot uh meaning you know like a newspaper is on top a sweater is on top or it it's behind a plant at that moment it's it's like it's like um what you call it a light s sensors you know In in that moment it has a sensor i it it gets a certain darkness it ge has a sensor and it gives out a signal whether that be a light signal or a beep I mean that we can discuss that later you know"
+        },
+        {
+          "end": 613.69,
+          "speaker": "FIO089",
+          "start": 613.3,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 618.26,
+          "speaker": "FIO089",
+          "start": 617.96,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 626.09,
+          "speaker": "FIO089",
+          "start": 625.55,
+          "text": "Okay so"
+        },
+        {
+          "end": 628.0,
+          "speaker": "FIO087",
+          "start": 627.79,
+          "text": "Yes"
+        },
+        {
+          "end": 628.67,
+          "speaker": "FIO089",
+          "start": 628.29,
+          "text": "Okay"
+        },
+        {
+          "end": 637.63,
+          "speaker": "FIO084",
+          "start": 634.31,
+          "text": "Yeah probably yeah probably it's a yeah yeah"
+        },
+        {
+          "end": 639.15,
+          "speaker": "FIO087",
+          "start": 638.22,
+          "text": "Yeah And uh"
+        },
+        {
+          "end": 641.25,
+          "speaker": "FIO089",
+          "start": 639.09,
+          "text": "So the light sensor would activate the signal"
+        },
+        {
+          "end": 658.44,
+          "speaker": "FIE088",
+          "start": 641.3,
+          "text": "That's right You know there would be right you have to have some kind of sensor and I I think uh voice or clapping it's not specific enough Uh I know there are the lamps and stuff you know you can clap on and off but I think they only work to certain degree and"
+        },
+        {
+          "end": 642.12,
+          "speaker": "FIO084",
+          "start": 641.81,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 653.24,
+          "speaker": "FIO089",
+          "start": 652.91,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 654.09,
+          "speaker": "FIO087",
+          "start": 653.7,
+          "text": "Yes"
+        },
+        {
+          "end": 661.77,
+          "speaker": "FIO089",
+          "start": 658.19,
+          "text": "But it could be someplace really obvious and you still wouldn't be able to find it"
+        },
+        {
+          "end": 665.07,
+          "speaker": "FIO084",
+          "start": 663.98,
+          "text": "Yeah of course that didn't"
+        },
+        {
+          "end": 664.74,
+          "speaker": "FIE088",
+          "start": 664.08,
+          "text": "What with"
+        },
+        {
+          "end": 667.93,
+          "speaker": "FIO089",
+          "start": 665.22,
+          "text": "Well because you're s because you're silly Because people are silly"
+        },
+        {
+          "end": 666.25,
+          "speaker": "FIO087",
+          "start": 665.4,
+          "text": "Then in that case"
+        },
+        {
+          "end": 667.15,
+          "speaker": "FIO084",
+          "start": 666.11,
+          "text": "I i we can't do it"
+        },
+        {
+          "end": 671.59,
+          "speaker": "FIE088",
+          "start": 667.7,
+          "text": "Oh yeah well but then those people we can't help everybody"
+        },
+        {
+          "end": 679.99,
+          "speaker": "FIO089",
+          "start": 668.66,
+          "text": "I mean it could be on well i if it were like on top of your bookcase and you usually kept it on the coffee table um you know well maybe we have to move along okay"
+        },
+        {
+          "end": 683.95,
+          "speaker": "FIE088",
+          "start": 678.08,
+          "text": "Okay we have uh yeah we have to move along but I think we have some good good points to start with here"
+        },
+        {
+          "end": 683.11,
+          "speaker": "FIO084",
+          "start": 682.07,
+          "text": "Yeah good point"
+        },
+        {
+          "end": 703.98,
+          "speaker": "FIE088",
+          "start": 685.84,
+          "text": "Okay the next meeting will be in thirty minutes I think you all did you get uh notices on your computer for this Okay so well you got the notice um uh The working design I guess that's the function I_D_ uh who is this The industrial designer That's you"
+        },
+        {
+          "end": 692.33,
+          "speaker": "FIO084",
+          "start": 691.65,
+          "text": "Me yeah"
+        },
+        {
+          "end": 693.97,
+          "speaker": "FIO087",
+          "start": 693.82,
+          "text": "Yes"
+        },
+        {
+          "end": 703.28,
+          "speaker": "FIO084",
+          "start": 702.97,
+          "text": "Yeah"
+        },
+        {
+          "end": 707.73,
+          "speaker": "FIO084",
+          "start": 704.61,
+          "text": "Yeah it's functional de yeah exactly technical"
+        },
+        {
+          "end": 711.13,
+          "speaker": "FIE088",
+          "start": 706.82,
+          "text": "Okay So we looking for a working design when we come back"
+        },
+        {
+          "end": 710.7,
+          "speaker": "FIO084",
+          "start": 710.26,
+          "text": "Yeah"
+        },
+        {
+          "end": 715.68,
+          "speaker": "FIO084",
+          "start": 711.71,
+          "text": "Uh working design yeah it's it's uh mainly technical-functional design"
+        },
+        {
+          "end": 714.49,
+          "speaker": "FIE088",
+          "start": 714.21,
+          "text": "Then"
+        },
+        {
+          "end": 744.62,
+          "speaker": "FIE088",
+          "start": 715.72,
+          "text": "And then the technical funct you are the technical function so so you are the working design So you have a working design and then a functional design And the marketing manager is coming up with some user requirement specification like friendliness and what we just discussed in general That would be your idea And of course price That it that it that the price is a good price I mean the price is given but that was"
+        },
+        {
+          "end": 718.7,
+          "speaker": "FIO084",
+          "start": 717.25,
+          "text": "Yeah functional design and you"
+        },
+        {
+          "end": 720.78,
+          "speaker": "FIO087",
+          "start": 720.41,
+          "text": "Okay"
+        },
+        {
+          "end": 741.7,
+          "speaker": "FIO089",
+          "start": 741.37,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 749.86,
+          "speaker": "FIO089",
+          "start": 745.25,
+          "text": "We have to justify that price by having sufficient features to make it sell at that price"
+        },
+        {
+          "end": 746.79,
+          "speaker": "FIE088",
+          "start": 746.33,
+          "text": "That's right"
+        },
+        {
+          "end": 750.08,
+          "speaker": "FIE088",
+          "start": 749.44,
+          "text": "That's right"
+        },
+        {
+          "end": 758.0,
+          "speaker": "FIE088",
+          "start": 751.38,
+          "text": "And you know specifi you you will get specific um instructions for that I think that's the end of the show Yeah"
+        },
+        {
+          "end": 775.95,
+          "speaker": "FIE088",
+          "start": 764.72,
+          "text": "So um we have well we have a twen two two two three minutes Um any questions at this point Or uh suggestions"
+        },
+        {
+          "end": 777.82,
+          "speaker": "FIO089",
+          "start": 777.27,
+          "text": "Mm"
+        },
+        {
+          "end": 787.09,
+          "speaker": "FIE088",
+          "start": 777.8,
+          "text": "I think basically basically you will get instructions to work with and if you have any questions uh uh I guess you can uh"
+        },
+        {
+          "end": 783.2,
+          "speaker": "FIO087",
+          "start": 782.9,
+          "text": "Okay"
+        },
+        {
+          "end": 784.46,
+          "speaker": "FIO084",
+          "start": 784.26,
+          "text": "Yeah"
+        },
+        {
+          "end": 793.93,
+          "speaker": "FIO089",
+          "start": 787.58,
+          "text": "Okay I think I have enough to think about 'til our next meeting How about you people Really Okay"
+        },
+        {
+          "end": 791.28,
+          "speaker": "FIE088",
+          "start": 790.95,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 793.95,
+          "speaker": "FIO084",
+          "start": 791.25,
+          "text": "Yeah even I have Yeah even I have I think yeah"
+        },
+        {
+          "end": 793.13,
+          "speaker": "FIO087",
+          "start": 792.79,
+          "text": "Yes"
+        },
+        {
+          "end": 793.51,
+          "speaker": "FIE088",
+          "start": 793.23,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 794.68,
+          "speaker": "FIO089",
+          "start": 794.48,
+          "text": "'Kay"
+        },
+        {
+          "end": 795.88,
+          "speaker": "FIE088",
+          "start": 795.57,
+          "text": "Okay"
+        },
+        {
+          "end": 797.59,
+          "speaker": "FIO089",
+          "start": 796.5,
+          "text": "Alright well uh"
+        },
+        {
+          "end": 797.81,
+          "speaker": "FIO084",
+          "start": 796.52,
+          "text": "Yeah so let's see"
+        },
+        {
+          "end": 803.61,
+          "speaker": "FIE088",
+          "start": 797.96,
+          "text": "Then uh we see you in about thirty minutes And see what we can come up with"
+        },
+        {
+          "end": 802.4,
+          "speaker": "FIO087",
+          "start": 801.89,
+          "text": "Yes"
+        },
+        {
+          "end": 803.68,
+          "speaker": "FIO084",
+          "start": 803.39,
+          "text": "Hmm"
+        },
+        {
+          "end": 804.53,
+          "speaker": "FIO089",
+          "start": 803.8,
+          "text": "Okay very good"
+        },
+        {
+          "end": 805.72,
+          "speaker": "FIO087",
+          "start": 804.08,
+          "text": "Okay Yes"
+        },
+        {
+          "end": 805.07,
+          "speaker": "FIE088",
+          "start": 804.79,
+          "text": "Okay"
+        },
+        {
+          "end": 805.68,
+          "speaker": "FIO084",
+          "start": 805.49,
+          "text": "Yeah"
+        }
+      ],
+      "rttm": "SPEAKER IS1009a 1 54.95 5.9 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 55.7 0.33 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 56.9 0.14 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 57.25 0.45 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 61.54 1.03 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 62.0 5.29 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 66.63 14.2 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 76.08 0.35 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 81.04 1.01 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 83.39 3.55 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 87.49 1.1 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 88.82 0.87 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 90.21 0.31 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 91.31 16.09 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 107.88 10.29 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 118.76 0.29 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 119.38 0.53 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 122.4 9.99 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 131.13 0.36 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 132.87 13.9 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 145.55 0.24 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 149.44 12.88 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 159.51 0.27 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 165.19 1.8 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 188.06 0.28 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 195.04 0.23 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 195.56 0.26 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 196.38 6.02 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 203.78 14.42 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 219.44 2.68 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 220.46 1.03 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 222.76 3.69 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 225.98 1.29 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 236.11 2.27 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 241.01 1.49 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 243.94 1.51 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 248.32 2.72 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 251.8 0.9 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 252.79 1.9 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 255.24 2.5 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 260.02 12.5 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 274.68 1.27 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 276.23 2.66 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 277.59 2.27 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 280.08 5.43 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 288.1 3.05 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 290.06 7.69 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 308.92 1.73 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 311.19 7.26 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 317.63 0.41 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 320.53 6.97 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 322.23 2.85 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 328.77 4.05 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 329.04 0.23 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 330.22 1.31 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 331.58 1.78 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 333.57 1.92 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 336.02 0.41 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 337.47 2.16 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 347.67 0.64 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 347.99 1.79 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 355.86 3.09 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 357.32 0.74 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 358.58 1.87 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 359.99 4.83 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 367.25 8.68 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 377.25 8.84 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 377.48 0.45 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 386.53 0.49 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 387.4 6.24 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 395.23 3.28 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 398.76 0.53 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 400.24 0.69 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 402.86 3.62 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 403.81 8.86 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 419.16 8.42 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 420.14 0.32 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 428.69 2.85 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 428.95 6.04 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 429.73 0.37 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 436.56 12.67 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 450.37 10.21 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 451.06 0.31 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 453.94 0.42 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 459.86 1.94 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 461.46 25.27 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 465.15 1.3 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 469.29 0.39 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 481.37 1.25 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 481.7 2.64 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 486.72 8.54 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 488.48 0.98 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 489.97 0.43 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 490.4 0.06 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 492.57 0.35 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 493.31 2.2 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 494.72 0.96 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 497.24 5.03 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 502.77 0.69 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 503.78 2.97 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 506.18 0.61 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 508.17 5.4 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 513.11 7.96 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 517.36 0.4 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 517.8 0.94 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 518.13 0.37 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 521.06 4.35 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 524.22 14.51 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 527.83 5.22 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 527.9 0.92 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 530.68 2.01 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 537.03 0.45 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 538.09 1.15 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 538.53 12.6 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 539.97 0.36 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 544.12 0.45 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 552.51 13.13 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 555.68 1.04 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 558.16 0.47 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 566.02 0.76 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 566.14 9.65 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 572.01 2.66 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 572.64 4.12 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 573.12 0.13 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 576.74 4.71 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 577.04 0.74 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 577.06 0.31 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 578.58 1.58 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 580.39 0.52 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 581.48 4.86 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 585.68 6.86 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 587.0 0.95 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 590.86 2.17 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 592.25 13.46 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 605.68 31.53 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 613.3 0.39 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 617.96 0.3 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 625.55 0.54 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 627.79 0.21 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 628.29 0.38 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 634.31 3.32 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 638.22 0.93 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 639.09 2.16 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 641.3 17.14 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 641.81 0.31 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 652.91 0.33 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 653.7 0.39 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 658.19 3.58 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 663.98 1.09 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 664.08 0.66 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 665.22 2.71 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 665.4 0.85 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 666.11 1.04 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 667.7 3.89 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 668.66 11.33 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 678.08 5.87 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 682.07 1.04 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 685.84 18.14 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 691.65 0.68 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 693.82 0.15 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 702.97 0.31 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 704.61 3.12 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 706.82 4.31 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 710.26 0.44 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 711.71 3.97 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 714.21 0.28 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 715.72 28.9 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 717.25 1.45 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 720.41 0.37 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 741.37 0.33 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 745.25 4.61 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 746.33 0.46 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 749.44 0.64 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 751.38 6.62 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 764.72 11.23 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 777.27 0.55 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 777.8 9.29 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 782.9 0.3 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 784.26 0.2 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 787.58 6.35 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 790.95 0.33 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 791.25 2.7 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 792.79 0.34 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 793.23 0.28 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 794.48 0.2 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 795.57 0.31 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 796.5 1.09 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 796.52 1.29 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 797.96 5.65 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 801.89 0.51 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 803.39 0.29 <NA> <NA> FIO084 <NA> <NA>\nSPEAKER IS1009a 1 803.8 0.73 <NA> <NA> FIO089 <NA> <NA>\nSPEAKER IS1009a 1 804.08 1.64 <NA> <NA> FIO087 <NA> <NA>\nSPEAKER IS1009a 1 804.79 0.28 <NA> <NA> FIE088 <NA> <NA>\nSPEAKER IS1009a 1 805.49 0.19 <NA> <NA> FIO084 <NA> <NA>\n"
+    },
+    {
+      "audio": "../datasets/ami/ES2004a.Mix-Headset.wav",
+      "id": "ES2004a",
+      "refSegments": [
+        {
+          "end": 1.76,
+          "speaker": "MEO015",
+          "start": 0.37,
+          "text": "Hmm hmm hmm"
+        },
+        {
+          "end": 14.53,
+          "speaker": "FEE013",
+          "start": 10.99,
+          "text": "Are we we're not allowed to dim the lights so people can see that a bit better"
+        },
+        {
+          "end": 18.15,
+          "speaker": "MEO015",
+          "start": 17.88,
+          "text": "Yeah"
+        },
+        {
+          "end": 20.29,
+          "speaker": "FEE013",
+          "start": 18.87,
+          "text": "Okay that's fine"
+        },
+        {
+          "end": 23.81,
+          "speaker": "FEE013",
+          "start": 22.37,
+          "text": "Am I supposed to be standing up there"
+        },
+        {
+          "end": 26.83,
+          "speaker": "FEE016",
+          "start": 25.15,
+          "text": "So we've got both of these clipped on"
+        },
+        {
+          "end": 25.6,
+          "speaker": "FEE013",
+          "start": 25.18,
+          "text": "Okay"
+        },
+        {
+          "end": 30.48,
+          "speaker": "FEE016",
+          "start": 29.12,
+          "text": "She gonna answer me or not"
+        },
+        {
+          "end": 31.98,
+          "speaker": "FEE013",
+          "start": 29.86,
+          "text": "Yeah I've got"
+        },
+        {
+          "end": 33.39,
+          "speaker": "FEE016",
+          "start": 31.3,
+          "text": "Right both of them okay"
+        },
+        {
+          "end": 34.72,
+          "speaker": "FEE013",
+          "start": 34.26,
+          "text": "Yes"
+        },
+        {
+          "end": 43.29,
+          "speaker": "FEE016",
+          "start": 42.63,
+          "text": "God"
+        },
+        {
+          "end": 53.18,
+          "speaker": "FEE016",
+          "start": 49.75,
+          "text": "Jesus it's gonna fall off"
+        },
+        {
+          "end": 66.33,
+          "speaker": "MEO015",
+          "start": 63.81,
+          "text": "Okay Yep yep"
+        },
+        {
+          "end": 72.06,
+          "speaker": "MEO015",
+          "start": 71.95,
+          "text": "Okay"
+        },
+        {
+          "end": 94.62,
+          "speaker": "FEE013",
+          "start": 80.49,
+          "text": "Okay Hello everybody Um I'm Sarah the Project Manager and this is our first meeting surprisingly enough Okay this is our agenda um"
+        },
+        {
+          "end": 81.66,
+          "speaker": "MEO015",
+          "start": 80.5,
+          "text": "Tu tu tu tu"
+        },
+        {
+          "end": 84.03,
+          "speaker": "MEO015",
+          "start": 83.22,
+          "text": "Hi good morning"
+        },
+        {
+          "end": 115.89,
+          "speaker": "FEE013",
+          "start": 95.68,
+          "text": "we will do some stuff get to know each other a bit better to feel more comfortable with each other Um then we'll go do tool training talk about the project plan discuss our own ideas and everything um and we've got twenty five minutes to do that as far as I can understand"
+        },
+        {
+          "end": 160.95,
+          "speaker": "FEE013",
+          "start": 117.62,
+          "text": "Now we're developing a remote control which you probably already know Um we want it to be original something that's uh people haven't thought of that's not out in the shops um trendy appealing to a wide market but you know not a hunk of metal and user-friendly grannies to kids maybe even pooches should be able to use it Okay um first is the functional design um this is where we all go off and do our individual work um what needs need to be fulfilled by the product um what effects the product has to have and how it's actually going to do that Um conceptual design"
+        },
+        {
+          "end": 167.8,
+          "speaker": "FEE013",
+          "start": 162.31,
+          "text": "what we're thinking how it's gonna go and then the detailed design how we're actually gonna put it into practice and make it work"
+        },
+        {
+          "end": 168.88,
+          "speaker": "MEO015",
+          "start": 168.79,
+          "text": "'Kay"
+        },
+        {
+          "end": 185.8,
+          "speaker": "FEE013",
+          "start": 170.38,
+          "text": "Okay right We're gonna practice with the pens and draw our favourite animal on the white board I'll go first and um sum up the characteristics of that animal So"
+        },
+        {
+          "end": 188.43,
+          "speaker": "MEO015",
+          "start": 188.28,
+          "text": "Oops"
+        },
+        {
+          "end": 192.93,
+          "speaker": "FEE013",
+          "start": 188.83,
+          "text": "Okay I'll leave space for everyone else Um"
+        },
+        {
+          "end": 211.97,
+          "speaker": "FEE013",
+          "start": 211.46,
+          "text": "What's missing"
+        },
+        {
+          "end": 244.33,
+          "speaker": "FEE013",
+          "start": 243.22,
+          "text": "We're running out of blue"
+        },
+        {
+          "end": 250.6,
+          "speaker": "FEE013",
+          "start": 246.93,
+          "text": "Okay I'm not gonna ask you to guess I'm going to tell you that's supposed to be a tiger"
+        },
+        {
+          "end": 252.56,
+          "speaker": "MEO015",
+          "start": 252.48,
+          "text": "Mm"
+        },
+        {
+          "end": 257.24,
+          "speaker": "FEE013",
+          "start": 254.53,
+          "text": "And I see them as majestic"
+        },
+        {
+          "end": 256.25,
+          "speaker": "MEO015",
+          "start": 255.91,
+          "text": "Oh sorry"
+        },
+        {
+          "end": 258.64,
+          "speaker": "MEO015",
+          "start": 258.31,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 262.25,
+          "speaker": "FEE013",
+          "start": 259.89,
+          "text": "and independent"
+        },
+        {
+          "end": 266.97,
+          "speaker": "FEE013",
+          "start": 266.18,
+          "text": "and"
+        },
+        {
+          "end": 269.06,
+          "speaker": "FEE013",
+          "start": 268.71,
+          "text": "proud"
+        },
+        {
+          "end": 275.8,
+          "speaker": "FEE013",
+          "start": 272.31,
+          "text": "Now who would like to go next 'Kay"
+        },
+        {
+          "end": 275.45,
+          "speaker": "MEO015",
+          "start": 275.09,
+          "text": "Yeah me"
+        },
+        {
+          "end": 279.75,
+          "speaker": "MEO015",
+          "start": 279.18,
+          "text": "Cat"
+        },
+        {
+          "end": 286.61,
+          "speaker": "MEO015",
+          "start": 285.15,
+          "text": "Where did this come from"
+        },
+        {
+          "end": 290.1,
+          "speaker": "FEE013",
+          "start": 287.57,
+          "text": "Is that your lapel then There you go"
+        },
+        {
+          "end": 296.02,
+          "speaker": "MEO015",
+          "start": 289.09,
+          "text": "Uh yep Thank you Uh maybe you can guess what I'm trying to make"
+        },
+        {
+          "end": 307.2,
+          "speaker": "FEE016",
+          "start": 306.38,
+          "text": "A kind of dog"
+        },
+        {
+          "end": 310.08,
+          "speaker": "MEO015",
+          "start": 309.22,
+          "text": "Yep"
+        },
+        {
+          "end": 321.86,
+          "speaker": "MEO015",
+          "start": 313.47,
+          "text": "It's actually sitting so it's sitting it's not standing Okay I see it as one thing it's very supportive"
+        },
+        {
+          "end": 316.3,
+          "speaker": "FEE016",
+          "start": 315.85,
+          "text": "Sorry"
+        },
+        {
+          "end": 317.4,
+          "speaker": "MEE014",
+          "start": 316.65,
+          "text": "It's sitting down"
+        },
+        {
+          "end": 318.62,
+          "speaker": "FEE016",
+          "start": 317.9,
+          "text": "Uh"
+        },
+        {
+          "end": 351.47,
+          "speaker": "MEO015",
+          "start": 324.13,
+          "text": "It's your best friend and your you can talk to a dog it can be your best friend it doesn't discriminate between you based on what you are Second it's loyal and third thing it's got intuition dogs can som sometimes can make out between a thief and a person so basically these are the three unique features I think belong to a dog Thank you"
+        },
+        {
+          "end": 345.36,
+          "speaker": "FEE016",
+          "start": 344.91,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 351.09,
+          "speaker": "FEE013",
+          "start": 350.01,
+          "text": "Okay thank you"
+        },
+        {
+          "end": 355.55,
+          "speaker": "MEE014",
+          "start": 353.48,
+          "text": "Yeah I'll have a go"
+        },
+        {
+          "end": 354.82,
+          "speaker": "MEO015",
+          "start": 354.11,
+          "text": "Okay"
+        },
+        {
+          "end": 356.9,
+          "speaker": "MEO015",
+          "start": 356.33,
+          "text": "Sorry"
+        },
+        {
+          "end": 362.14,
+          "speaker": "FEE016",
+          "start": 356.51,
+          "text": "Please please leave me a space at the bottom I'm little you can get to the top with standing on a chair"
+        },
+        {
+          "end": 357.37,
+          "speaker": "MEE014",
+          "start": 356.98,
+          "text": "Thanks"
+        },
+        {
+          "end": 367.65,
+          "speaker": "MEE014",
+          "start": 359.11,
+          "text": "Alright okay Well since you guys have chosen the ones I wanted to do I'll have to have to go for something a bit random"
+        },
+        {
+          "end": 366.01,
+          "speaker": "FEE013",
+          "start": 364.81,
+          "text": "Okay"
+        },
+        {
+          "end": 367.84,
+          "speaker": "MEO015",
+          "start": 365.93,
+          "text": "Does it look like a dog actually"
+        },
+        {
+          "end": 375.29,
+          "speaker": "MEE014",
+          "start": 371.43,
+          "text": "And also my drawing skill isn't that great so yeah"
+        },
+        {
+          "end": 376.83,
+          "speaker": "FEE013",
+          "start": 373.84,
+          "text": "Well as you can see the quality of the work today is um"
+        },
+        {
+          "end": 375.43,
+          "speaker": "MEO015",
+          "start": 375.08,
+          "text": "Mm"
+        },
+        {
+          "end": 378.94,
+          "speaker": "FEE016",
+          "start": 376.8,
+          "text": "I think it's outstandingly good"
+        },
+        {
+          "end": 384.48,
+          "speaker": "MEE014",
+          "start": 379.6,
+          "text": "Okay now I'm gonna have to change what is was originally gonna be because that looks like a beak now so"
+        },
+        {
+          "end": 391.74,
+          "speaker": "FEE016",
+          "start": 391.13,
+          "text": "Crocodile"
+        },
+        {
+          "end": 394.92,
+          "speaker": "FEE013",
+          "start": 393.99,
+          "text": "Gonna be a bird"
+        },
+        {
+          "end": 406.27,
+          "speaker": "MEE014",
+          "start": 394.38,
+          "text": "Yeah it can be a crocodile it can be a crocodile Well it was it was an at first firstly it was an attempt at a T_ Rex and then it sort of changed into a pelican but it can be a crocodile now actually"
+        },
+        {
+          "end": 399.8,
+          "speaker": "FEE013",
+          "start": 396.31,
+          "text": "Is it gonna be it's gonna be a bird"
+        },
+        {
+          "end": 403.35,
+          "speaker": "FEE016",
+          "start": 403.24,
+          "text": "O"
+        },
+        {
+          "end": 420.95,
+          "speaker": "FEE013",
+          "start": 420.11,
+          "text": "That's lovely"
+        },
+        {
+          "end": 426.55,
+          "speaker": "MEE014",
+          "start": 421.2,
+          "text": "Yeah and uh I'll have to think on the spot of uh things that it is Um"
+        },
+        {
+          "end": 422.26,
+          "speaker": "FEE016",
+          "start": 421.44,
+          "text": "Beauti that's"
+        },
+        {
+          "end": 430.22,
+          "speaker": "MEE014",
+          "start": 428.12,
+          "text": "uh scary"
+        },
+        {
+          "end": 434.37,
+          "speaker": "MEE014",
+          "start": 432.48,
+          "text": "uh strong"
+        },
+        {
+          "end": 441.99,
+          "speaker": "MEE014",
+          "start": 438.74,
+          "text": "yeah that's about it I think"
+        },
+        {
+          "end": 441.77,
+          "speaker": "FEE013",
+          "start": 439.85,
+          "text": "Okay it's fine"
+        },
+        {
+          "end": 442.12,
+          "speaker": "FEE016",
+          "start": 441.59,
+          "text": "Okay"
+        },
+        {
+          "end": 450.85,
+          "speaker": "FEE016",
+          "start": 443.16,
+          "text": "Um I'm very impressed with your artistic skills mine's are dreadful Oops this is now coming apart let me just put the top in"
+        },
+        {
+          "end": 446.45,
+          "speaker": "MEE014",
+          "start": 445.23,
+          "text": "Uh uh"
+        },
+        {
+          "end": 451.69,
+          "speaker": "MEE014",
+          "start": 450.45,
+          "text": "Wo"
+        },
+        {
+          "end": 456.94,
+          "speaker": "FEE016",
+          "start": 454.0,
+          "text": "I hope that clicks in I'll just I'll hold it on okay"
+        },
+        {
+          "end": 460.57,
+          "speaker": "FEE016",
+          "start": 457.97,
+          "text": "Oops oh dear what happened there"
+        },
+        {
+          "end": 462.16,
+          "speaker": "FEE013",
+          "start": 461.09,
+          "text": "Technical help"
+        },
+        {
+          "end": 470.42,
+          "speaker": "FEE016",
+          "start": 465.38,
+          "text": "Hopefully that'll stay on two-handed version Okay uh"
+        },
+        {
+          "end": 465.99,
+          "speaker": "MEE014",
+          "start": 465.48,
+          "text": "Hmm"
+        },
+        {
+          "end": 468.7,
+          "speaker": "MEE014",
+          "start": 467.94,
+          "text": "Okay"
+        },
+        {
+          "end": 479.35,
+          "speaker": "FEE016",
+          "start": 474.41,
+          "text": "Again this is off the top of my head I was gonna do a big cat too um"
+        },
+        {
+          "end": 477.64,
+          "speaker": "MEE014",
+          "start": 476.71,
+          "text": "Uh"
+        },
+        {
+          "end": 484.68,
+          "speaker": "FEE016",
+          "start": 481.26,
+          "text": "Oh dear it doesn't look what like what I want it to be"
+        },
+        {
+          "end": 481.66,
+          "speaker": "FEE013",
+          "start": 481.27,
+          "text": "Hmm"
+        },
+        {
+          "end": 484.72,
+          "speaker": "MEE014",
+          "start": 484.48,
+          "text": "S"
+        },
+        {
+          "end": 487.71,
+          "speaker": "FEE016",
+          "start": 487.1,
+          "text": "Uh"
+        },
+        {
+          "end": 487.82,
+          "speaker": "MEE014",
+          "start": 487.43,
+          "text": "Uh"
+        },
+        {
+          "end": 491.41,
+          "speaker": "FEE016",
+          "start": 488.77,
+          "text": "It's not a vampire bat honestly"
+        },
+        {
+          "end": 491.34,
+          "speaker": "FEE013",
+          "start": 489.88,
+          "text": "Okay yeah"
+        },
+        {
+          "end": 518.66,
+          "speaker": "FEE016",
+          "start": 492.9,
+          "text": "Uh and somewhere there's a body behind That's my dreadful that's the worst yet that's it's meant to be an eagle you can tell it's a flying animal could have been a seagull I never thought of a seagull An eagle um again I'm thinking on my feet goodness I suppose they're all so independent I'd put that one down again Da dum um"
+        },
+        {
+          "end": 499.98,
+          "speaker": "MEE014",
+          "start": 497.4,
+          "text": "Okay some sort of bird"
+        },
+        {
+          "end": 504.66,
+          "speaker": "FEE013",
+          "start": 501.19,
+          "text": "A seagu right not a seagull"
+        },
+        {
+          "end": 503.22,
+          "speaker": "MEE014",
+          "start": 501.76,
+          "text": "Ah eagle right okay"
+        },
+        {
+          "end": 502.67,
+          "speaker": "MEO015",
+          "start": 501.78,
+          "text": "Eagle okay"
+        },
+        {
+          "end": 520.95,
+          "speaker": "MEE014",
+          "start": 519.87,
+          "text": "They're good at golf"
+        },
+        {
+          "end": 536.6,
+          "speaker": "FEE016",
+          "start": 520.28,
+          "text": "Indepen independent right did you say they're good at golf Are they Oh Oh right okay I'm not good at golf I'd say they're quite free-spirited flying around everywhere doing their own thing"
+        },
+        {
+          "end": 528.63,
+          "speaker": "MEE014",
+          "start": 524.31,
+          "text": "Yeah no yeah an eagle"
+        },
+        {
+          "end": 525.96,
+          "speaker": "FEE013",
+          "start": 525.5,
+          "text": "Eagle"
+        },
+        {
+          "end": 549.53,
+          "speaker": "FEE016",
+          "start": 541.43,
+          "text": "And uh birds of prey aren't they oh dear intrepid I'll put that intrepid"
+        },
+        {
+          "end": 545.64,
+          "speaker": "FEE013",
+          "start": 545.31,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 556.77,
+          "speaker": "FEE016",
+          "start": 553.66,
+          "text": "There we go hope that pen's gonna be okay"
+        },
+        {
+          "end": 555.15,
+          "speaker": "FEE013",
+          "start": 554.48,
+          "text": "That's lovely"
+        },
+        {
+          "end": 559.33,
+          "speaker": "FEE016",
+          "start": 558.67,
+          "text": "Whoops"
+        },
+        {
+          "end": 561.6,
+          "speaker": "FEE013",
+          "start": 561.11,
+          "text": "Okay"
+        },
+        {
+          "end": 575.32,
+          "speaker": "FEE013",
+          "start": 563.12,
+          "text": "That was fun right Um finance-wise we've got a selling price at twenty five Euros which I don't actually know what that is in Pounds at all Any ideas"
+        },
+        {
+          "end": 577.66,
+          "speaker": "MEE014",
+          "start": 575.11,
+          "text": "It's about mm mm yeah"
+        },
+        {
+          "end": 577.21,
+          "speaker": "FEE016",
+          "start": 576.51,
+          "text": "Seventeen"
+        },
+        {
+          "end": 581.5,
+          "speaker": "MEO015",
+          "start": 576.76,
+          "text": "One point four or something like that One point four Euro would make a Pound or something like that"
+        },
+        {
+          "end": 587.57,
+          "speaker": "MEE014",
+          "start": 580.85,
+          "text": "Yeah yeah something like that so that yeah about seventeen seventeen Pounds something like that"
+        },
+        {
+          "end": 582.92,
+          "speaker": "MEO015",
+          "start": 582.6,
+          "text": "Yeah"
+        },
+        {
+          "end": 587.98,
+          "speaker": "FEE013",
+          "start": 583.85,
+          "text": "D fifteen Seventeen Okay that's expensive"
+        },
+        {
+          "end": 585.97,
+          "speaker": "FEE016",
+          "start": 584.88,
+          "text": "Seventeen Pounds"
+        },
+        {
+          "end": 592.28,
+          "speaker": "FEE016",
+          "start": 588.37,
+          "text": "Should we be making notes of this We can just refer to this later can't we Yeah okay"
+        },
+        {
+          "end": 591.19,
+          "speaker": "MEE014",
+          "start": 590.86,
+          "text": "But"
+        },
+        {
+          "end": 595.93,
+          "speaker": "FEE013",
+          "start": 590.98,
+          "text": "I think so I think so I'll be able to um pull it up or I could put it in the shared folder or something"
+        },
+        {
+          "end": 594.27,
+          "speaker": "FEE016",
+          "start": 593.81,
+          "text": "Okay"
+        },
+        {
+          "end": 608.09,
+          "speaker": "MEE014",
+          "start": 594.19,
+          "text": "Havi having said that though if you wanna get one of those the the ones on the market at the moment they're s they're about twenty pounds anyway So it'd still be yeah we had to buy one"
+        },
+        {
+          "end": 604.22,
+          "speaker": "FEE016",
+          "start": 603.51,
+          "text": "Right"
+        },
+        {
+          "end": 604.22,
+          "speaker": "FEE013",
+          "start": 603.88,
+          "text": "Really"
+        },
+        {
+          "end": 606.02,
+          "speaker": "FEE016",
+          "start": 605.84,
+          "text": "So"
+        },
+        {
+          "end": 607.02,
+          "speaker": "FEE013",
+          "start": 606.66,
+          "text": "Mm"
+        },
+        {
+          "end": 613.93,
+          "speaker": "FEE016",
+          "start": 608.09,
+          "text": "so I suppose later it depends if we want to undercut the price we d or or is it going to make our product look a cheapie-cheapie option"
+        },
+        {
+          "end": 608.98,
+          "speaker": "FEE013",
+          "start": 608.13,
+          "text": "I think"
+        },
+        {
+          "end": 617.82,
+          "speaker": "FEE013",
+          "start": 613.51,
+          "text": "Yeah um production cost's at twelve fifty so"
+        },
+        {
+          "end": 614.89,
+          "speaker": "MEE014",
+          "start": 614.07,
+          "text": "Hmm"
+        },
+        {
+          "end": 619.59,
+          "speaker": "MEO015",
+          "start": 617.54,
+          "text": "Okay pretty huge margin"
+        },
+        {
+          "end": 629.37,
+          "speaker": "FEE013",
+          "start": 619.13,
+          "text": "half of the selling price is taken up by building it Um and profit aim is fifty million Euros which is uh"
+        },
+        {
+          "end": 622.16,
+          "speaker": "MEE014",
+          "start": 621.46,
+          "text": "Yeah"
+        },
+        {
+          "end": 622.23,
+          "speaker": "FEE016",
+          "start": 622.02,
+          "text": "Mm"
+        },
+        {
+          "end": 624.23,
+          "speaker": "FEE016",
+          "start": 623.85,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 631.2,
+          "speaker": "FEE016",
+          "start": 630.37,
+          "text": "In our first year"
+        },
+        {
+          "end": 637.07,
+          "speaker": "FEE013",
+          "start": 631.29,
+          "text": "Yi yes um yeah I presume so Um"
+        },
+        {
+          "end": 635.88,
+          "speaker": "FEE016",
+          "start": 635.54,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 637.0,
+          "speaker": "MEO015",
+          "start": 636.39,
+          "text": "So then"
+        },
+        {
+          "end": 651.49,
+          "speaker": "FEE016",
+          "start": 638.1,
+          "text": "You've got market range international and you did say earlier it's got to be a um accessible and usable by sort of all age groups just t we're not focusing on business market any particular thing it's everyone user-friendly to everyone Okay"
+        },
+        {
+          "end": 645.59,
+          "speaker": "FEE013",
+          "start": 645.18,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 650.29,
+          "speaker": "FEE013",
+          "start": 649.13,
+          "text": "No yeah"
+        },
+        {
+          "end": 655.4,
+          "speaker": "FEE016",
+          "start": 653.41,
+          "text": "Big target group"
+        },
+        {
+          "end": 670.24,
+          "speaker": "FEE013",
+          "start": 653.57,
+          "text": "So yes yes I don't think we have to I don't think it's a case of worrying about different languages and things like that um making that a key point just that it's going to be in the international market like Australia America things like that Okay"
+        },
+        {
+          "end": 662.2,
+          "speaker": "FEE016",
+          "start": 661.85,
+          "text": "No"
+        },
+        {
+          "end": 666.94,
+          "speaker": "FEE016",
+          "start": 666.69,
+          "text": "Mm"
+        },
+        {
+          "end": 704.72,
+          "speaker": "FEE013",
+          "start": 675.2,
+          "text": "What are your experiences with remote controls I mean I've got we got um we had three videos a T_V_ and a sort of amp thing all set up so we got one of the universal remote controls um that you programme each of your things into but that kept losing the signals so we'd have to re-programme it every now and again I think it was quite a cheapie as well so that might have had something to do with it but that was quite good the fact that you could"
+        },
+        {
+          "end": 687.56,
+          "speaker": "MEO015",
+          "start": 687.25,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 688.44,
+          "speaker": "MEE014",
+          "start": 688.13,
+          "text": "Yeah"
+        },
+        {
+          "end": 691.89,
+          "speaker": "FEE016",
+          "start": 691.12,
+          "text": "Alright"
+        },
+        {
+          "end": 692.13,
+          "speaker": "MEE014",
+          "start": 691.23,
+          "text": "Yeah"
+        },
+        {
+          "end": 692.22,
+          "speaker": "MEO015",
+          "start": 691.49,
+          "text": "Yeah that c"
+        },
+        {
+          "end": 701.69,
+          "speaker": "FEE016",
+          "start": 701.09,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 701.88,
+          "speaker": "MEE014",
+          "start": 701.1,
+          "text": "Yeah uh"
+        },
+        {
+          "end": 706.72,
+          "speaker": "MEE014",
+          "start": 705.18,
+          "text": "Use all the ones at the same time"
+        },
+        {
+          "end": 708.91,
+          "speaker": "FEE013",
+          "start": 705.96,
+          "text": "You didn't have six remote controls sitting in front of you"
+        },
+        {
+          "end": 708.55,
+          "speaker": "FEE016",
+          "start": 708.07,
+          "text": "Right"
+        },
+        {
+          "end": 710.93,
+          "speaker": "MEO015",
+          "start": 708.61,
+          "text": "Okay you wanna integrate everything into one like"
+        },
+        {
+          "end": 713.24,
+          "speaker": "MEE014",
+          "start": 711.24,
+          "text": "Yeah 'cause you"
+        },
+        {
+          "end": 736.05,
+          "speaker": "FEE016",
+          "start": 711.88,
+          "text": "Mm-hmm My experience has only been being given the remote control with the object I buy not doing any tampering with it and programming using it to programme T_V_ and uh uh videos and things But basically on off volume up and down channel one two th that basic functions I don't think I could go any further with it than that so I suppose it's got to be something usable by someone like me as well"
+        },
+        {
+          "end": 712.72,
+          "speaker": "MEO015",
+          "start": 712.33,
+          "text": "Okay"
+        },
+        {
+          "end": 728.16,
+          "speaker": "FEE013",
+          "start": 727.67,
+          "text": "Mm"
+        },
+        {
+          "end": 751.76,
+          "speaker": "FEE013",
+          "start": 734.98,
+          "text": "Yeah the main that's the main stuff anyway I mean and you don't want to I hate I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the teletext button or something like that"
+        },
+        {
+          "end": 737.67,
+          "speaker": "FEE016",
+          "start": 737.29,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 746.84,
+          "speaker": "FEE016",
+          "start": 746.42,
+          "text": "Mm"
+        },
+        {
+          "end": 747.95,
+          "speaker": "MEE014",
+          "start": 747.66,
+          "text": "Yeah"
+        },
+        {
+          "end": 755.29,
+          "speaker": "FEE016",
+          "start": 749.82,
+          "text": "Mm And symbols that you don't necessarily understand symbols you're meant to understand that you don't"
+        },
+        {
+          "end": 752.95,
+          "speaker": "FEE013",
+          "start": 752.59,
+          "text": "Yeah"
+        },
+        {
+          "end": 758.06,
+          "speaker": "MEO015",
+          "start": 755.18,
+          "text": "So simplification of symbols you could think of"
+        },
+        {
+          "end": 755.92,
+          "speaker": "FEE013",
+          "start": 755.68,
+          "text": "Um"
+        },
+        {
+          "end": 779.79,
+          "speaker": "FEE013",
+          "start": 757.43,
+          "text": "When they're when you've got the main things on the front of it and a section opens up or something to the other functions where you can do sound or options kind of recording things like that inside it 'Cause it doesn't make when you pick it up it doesn't make it really complicated to look at it's obvious what you're doing um"
+        },
+        {
+          "end": 768.98,
+          "speaker": "FEE016",
+          "start": 768.52,
+          "text": "Oh yeah"
+        },
+        {
+          "end": 772.69,
+          "speaker": "FEE016",
+          "start": 772.32,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 775.84,
+          "speaker": "FEE016",
+          "start": 775.6,
+          "text": "Mm"
+        },
+        {
+          "end": 777.65,
+          "speaker": "FEE016",
+          "start": 777.34,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 778.66,
+          "speaker": "MEE014",
+          "start": 777.92,
+          "text": "Mm"
+        },
+        {
+          "end": 794.48,
+          "speaker": "FEE016",
+          "start": 779.78,
+          "text": "Actually that just raises a point I wonder what our design people think but you know on a mobile phone you can press a key and it gives you a menu it's got a menu display I wonder if incorporating that into the design of a remote control might be useful so you've got a little L_C_D_ display"
+        },
+        {
+          "end": 785.28,
+          "speaker": "MEO015",
+          "start": 784.99,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 787.74,
+          "speaker": "MEO015",
+          "start": 787.08,
+          "text": "Menu alright"
+        },
+        {
+          "end": 792.62,
+          "speaker": "MEE014",
+          "start": 792.17,
+          "text": "Yeah"
+        },
+        {
+          "end": 793.44,
+          "speaker": "MEO015",
+          "start": 792.89,
+          "text": "Uh uh"
+        },
+        {
+          "end": 812.03,
+          "speaker": "MEO015",
+          "start": 794.46,
+          "text": "Right I was thinking on the same lines you instead of having too many b buttons and make it complicated for the user may h maybe have an L_C_D_ di display or something like that like a mobile yeah and with menus And if it's s somewhat similar to what you have on mobile phone people might find it easier to browse and navigate also maybe"
+        },
+        {
+          "end": 805.92,
+          "speaker": "FEE016",
+          "start": 803.8,
+          "text": "With menus yeah yeah"
+        },
+        {
+          "end": 811.49,
+          "speaker": "FEE016",
+          "start": 811.15,
+          "text": "Yeah"
+        },
+        {
+          "end": 815.09,
+          "speaker": "FEE013",
+          "start": 812.35,
+          "text": "What about the older generation What about granny and grandads"
+        },
+        {
+          "end": 823.63,
+          "speaker": "FEE013",
+          "start": 816.15,
+          "text": "Um my grandad can answer his mobile phone but he couldn't even dream of texting or something like that"
+        },
+        {
+          "end": 818.96,
+          "speaker": "MEO015",
+          "start": 816.27,
+          "text": "You mean to save it lesser number"
+        },
+        {
+          "end": 820.26,
+          "speaker": "MEE014",
+          "start": 819.96,
+          "text": "Yeah"
+        },
+        {
+          "end": 827.97,
+          "speaker": "FEE016",
+          "start": 821.35,
+          "text": "Mm-hmm Mm-hmm Can he programme his remote control or is it basic with that too"
+        },
+        {
+          "end": 826.35,
+          "speaker": "MEO015",
+          "start": 826.06,
+          "text": "Right"
+        },
+        {
+          "end": 831.44,
+          "speaker": "FEE013",
+          "start": 828.12,
+          "text": "I don't think they tape things I don't think they use"
+        },
+        {
+          "end": 834.05,
+          "speaker": "MEE014",
+          "start": 829.37,
+          "text": "Yeah my grandad's actually better than me at using teletext so"
+        },
+        {
+          "end": 830.6,
+          "speaker": "FEE016",
+          "start": 830.05,
+          "text": "Right"
+        },
+        {
+          "end": 833.8,
+          "speaker": "FEE016",
+          "start": 833.26,
+          "text": "Right"
+        },
+        {
+          "end": 844.64,
+          "speaker": "FEE016",
+          "start": 834.64,
+          "text": "So that's a problem regardless of of any design modifications you you come up with that's gonna be a problem anyway with the older generation perhaps and that's another issue how we tackle that"
+        },
+        {
+          "end": 839.0,
+          "speaker": "MEE014",
+          "start": 838.64,
+          "text": "Yeah"
+        },
+        {
+          "end": 843.24,
+          "speaker": "FEE013",
+          "start": 841.2,
+          "text": "Mm yeah the age gap"
+        },
+        {
+          "end": 849.58,
+          "speaker": "MEE014",
+          "start": 843.73,
+          "text": "Yeah what it just needs to be as long as it's sort of self-intuitive and you can can work out"
+        },
+        {
+          "end": 861.94,
+          "speaker": "MEE014",
+          "start": 850.98,
+          "text": "what everything's doing 'cause I mean menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do"
+        },
+        {
+          "end": 862.76,
+          "speaker": "FEE013",
+          "start": 862.33,
+          "text": "Mm"
+        },
+        {
+          "end": 863.53,
+          "speaker": "MEO015",
+          "start": 863.21,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 871.74,
+          "speaker": "FEE013",
+          "start": 864.3,
+          "text": "I don't know I d I don't like the you know the new phones that have kind of got a Windows-based running system"
+        },
+        {
+          "end": 865.77,
+          "speaker": "MEE014",
+          "start": 864.43,
+          "text": "But I don't know how"
+        },
+        {
+          "end": 870.69,
+          "speaker": "MEE014",
+          "start": 870.18,
+          "text": "Oh yeah"
+        },
+        {
+          "end": 872.59,
+          "speaker": "FEE016",
+          "start": 872.2,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 883.24,
+          "speaker": "FEE013",
+          "start": 872.95,
+          "text": "I find it really confusing I kept getting lost in the phone I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost but"
+        },
+        {
+          "end": 878.8,
+          "speaker": "FEE016",
+          "start": 878.36,
+          "text": "Right"
+        },
+        {
+          "end": 885.17,
+          "speaker": "FEE013",
+          "start": 884.38,
+          "text": "that's just me"
+        },
+        {
+          "end": 899.31,
+          "speaker": "MEE014",
+          "start": 885.18,
+          "text": "Yeah I don't I don't know how for twenty fi or twelve Euros fifty how much of a excellent screen you could get you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway I'd assume"
+        },
+        {
+          "end": 894.31,
+          "speaker": "FEE013",
+          "start": 893.63,
+          "text": "Yeah"
+        },
+        {
+          "end": 895.75,
+          "speaker": "FEE016",
+          "start": 895.43,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 911.78,
+          "speaker": "FEE016",
+          "start": 898.71,
+          "text": "Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books Obviously it displays less on the screen it displays less on the screen but as long as they can read it that's the main thing"
+        },
+        {
+          "end": 905.7,
+          "speaker": "MEO015",
+          "start": 905.32,
+          "text": "Okay"
+        },
+        {
+          "end": 907.5,
+          "speaker": "FEE013",
+          "start": 905.77,
+          "text": "Teletext has got that option as well"
+        },
+        {
+          "end": 912.35,
+          "speaker": "FEE013",
+          "start": 911.86,
+          "text": "Yeah"
+        },
+        {
+          "end": 934.88,
+          "speaker": "FEE013",
+          "start": 913.69,
+          "text": "Or what about kind of a dual function In that you've got the basic buttons just for your play volume programme things and also and then a menu to go into with obvious pictures obvious symbols and that's where you control recording and things like that"
+        },
+        {
+          "end": 924.04,
+          "speaker": "FEE016",
+          "start": 923.65,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 931.44,
+          "speaker": "FEE016",
+          "start": 930.83,
+          "text": "Yeah"
+        },
+        {
+          "end": 933.37,
+          "speaker": "FEE016",
+          "start": 932.99,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 947.56,
+          "speaker": "FEE016",
+          "start": 934.74,
+          "text": "Mm The other thing is just ch chucking into mobile phone f design features again it could have a flip top remote control so that when you flip over the top your screen is you can have a bigger screen in the the flip over"
+        },
+        {
+          "end": 945.84,
+          "speaker": "FEE013",
+          "start": 945.43,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 946.66,
+          "speaker": "MEO015",
+          "start": 946.04,
+          "text": "Mm okay"
+        },
+        {
+          "end": 953.06,
+          "speaker": "FEE013",
+          "start": 948.48,
+          "text": "I think that's a cost thing I don't I don't know how much we're gonna know about"
+        },
+        {
+          "end": 949.09,
+          "speaker": "MEO015",
+          "start": 948.6,
+          "text": "S"
+        },
+        {
+          "end": 950.21,
+          "speaker": "MEE014",
+          "start": 949.9,
+          "text": "Y"
+        },
+        {
+          "end": 959.24,
+          "speaker": "MEO015",
+          "start": 950.91,
+          "text": "It might it might save a b bit of space it's i instead of looking bulky it might look small But it might have its cost implications"
+        },
+        {
+          "end": 951.41,
+          "speaker": "FEE016",
+          "start": 951.06,
+          "text": "Yeah"
+        },
+        {
+          "end": 955.27,
+          "speaker": "FEE016",
+          "start": 954.93,
+          "text": "Mm-hmm"
+        },
+        {
+          "end": 958.07,
+          "speaker": "FEE013",
+          "start": 956.02,
+          "text": "Yes no that's important"
+        },
+        {
+          "end": 958.6,
+          "speaker": "FEE016",
+          "start": 956.78,
+          "text": "Yeah like smaller"
+        },
+        {
+          "end": 957.6,
+          "speaker": "MEE014",
+          "start": 957.25,
+          "text": "Yeah"
+        },
+        {
+          "end": 960.29,
+          "speaker": "FEE013",
+          "start": 959.48,
+          "text": "Okay"
+        },
+        {
+          "end": 972.45,
+          "speaker": "FEE016",
+          "start": 959.69,
+          "text": "And there's no reason we need to make it look as fashionable and stylish as a mobile phone it can still be lightweight plastic you know Something that's easily moulded and produced Sorry I'm treading on your territory guys"
+        },
+        {
+          "end": 965.57,
+          "speaker": "FEE013",
+          "start": 965.1,
+          "text": "Mm"
+        },
+        {
+          "end": 966.48,
+          "speaker": "MEO015",
+          "start": 966.22,
+          "text": "Right"
+        },
+        {
+          "end": 969.23,
+          "speaker": "FEE013",
+          "start": 968.84,
+          "text": "Yeah"
+        },
+        {
+          "end": 971.68,
+          "speaker": "MEE014",
+          "start": 970.68,
+          "text": "No uh uh"
+        },
+        {
+          "end": 979.94,
+          "speaker": "FEE013",
+          "start": 972.92,
+          "text": "Um right okay we've got half an hour before the next meeting so we're all gonna go off and do our individual things Um"
+        },
+        {
+          "end": 989.51,
+          "speaker": "FEE013",
+          "start": 981.2,
+          "text": "I think that's probably about it and then we'll come back and liaise again and I get to do another fantastic PowerPoint presentation"
+        },
+        {
+          "end": 1014.64,
+          "speaker": "MEE014",
+          "start": 985.49,
+          "text": "Yeah Just just a quick thing about the um about what you're saying about the uh does does it need to be fashionable The sort of I I had a quick look at the company website and it's like the the uh we put the fashion into electronics so I think think the whole design thing might be qui I mean you don't you you can still have plastic and it'd look quite good but"
+        },
+        {
+          "end": 991.47,
+          "speaker": "FEE013",
+          "start": 991.07,
+          "text": "Sure"
+        },
+        {
+          "end": 1005.74,
+          "speaker": "FEE016",
+          "start": 1005.06,
+          "text": "Ah right"
+        },
+        {
+          "end": 1006.25,
+          "speaker": "MEO015",
+          "start": 1005.79,
+          "text": "Okay"
+        },
+        {
+          "end": 1006.44,
+          "speaker": "FEE013",
+          "start": 1005.86,
+          "text": "Okay"
+        },
+        {
+          "end": 1007.5,
+          "speaker": "FEE016",
+          "start": 1006.9,
+          "text": "Okay"
+        },
+        {
+          "end": 1011.3,
+          "speaker": "FEE016",
+          "start": 1009.16,
+          "text": "Sure b y yeah"
+        },
+        {
+          "end": 1024.41,
+          "speaker": "FEE016",
+          "start": 1013.7,
+          "text": "But yeah I mean it doesn't have to be that you know th that was my main point we don't have to use metal I don't know if using plastic does make it cheaper I presume it would Yeah yeah yeah"
+        },
+        {
+          "end": 1018.91,
+          "speaker": "MEE014",
+          "start": 1018.54,
+          "text": "Yeah"
+        },
+        {
+          "end": 1020.49,
+          "speaker": "FEE013",
+          "start": 1019.99,
+          "text": "Mm"
+        },
+        {
+          "end": 1022.96,
+          "speaker": "MEE014",
+          "start": 1022.0,
+          "text": "Yeah Yeah"
+        },
+        {
+          "end": 1023.99,
+          "speaker": "FEE013",
+          "start": 1022.32,
+          "text": "I would it would probably"
+        },
+        {
+          "end": 1041.56,
+          "speaker": "FEE013",
+          "start": 1025.04,
+          "text": "I mean there's Sky remote controls and everything They're kind of moulded and look a bit different and the Telewest remote controls are silver plastic which looks a bit smarter so yeah I guess that's stuff we can think about Okay so let's break it up there"
+        },
+        {
+          "end": 1033.35,
+          "speaker": "FEE016",
+          "start": 1032.93,
+          "text": "Right"
+        },
+        {
+          "end": 1037.95,
+          "speaker": "FEE016",
+          "start": 1037.32,
+          "text": "Okay"
+        },
+        {
+          "end": 1042.3,
+          "speaker": "FEE016",
+          "start": 1042.19,
+          "text": "'Kay"
+        },
+        {
+          "end": 1044.16,
+          "speaker": "FEE013",
+          "start": 1042.4,
+          "text": "Okay So see you in half an hour"
+        },
+        {
+          "end": 1043.43,
+          "speaker": "MEE014",
+          "start": 1042.58,
+          "text": "Okay"
+        },
+        {
+          "end": 1048.48,
+          "speaker": "FEE016",
+          "start": 1046.42,
+          "text": "Do we go back to our room Yep"
+        },
+        {
+          "end": 1049.04,
+          "speaker": "FEE013",
+          "start": 1047.76,
+          "text": "I think so yeah"
+        },
+        {
+          "end": 1048.38,
+          "speaker": "MEO015",
+          "start": 1048.05,
+          "text": "Mm yeah"
+        }
+      ],
+      "rttm": "SPEAKER ES2004a 1 0.37 1.39 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 10.99 3.54 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 17.88 0.27 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 18.87 1.42 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 22.37 1.44 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 25.15 1.68 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 25.18 0.42 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 29.12 1.36 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 29.86 2.12 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 31.3 2.09 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 34.26 0.46 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 42.63 0.66 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 49.75 3.43 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 63.81 2.52 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 71.95 0.11 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 80.49 14.13 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 80.5 1.16 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 83.22 0.81 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 95.68 20.21 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 117.62 43.33 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 162.31 5.49 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 168.79 0.09 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 170.38 15.42 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 188.28 0.15 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 188.83 4.1 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 211.46 0.51 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 243.22 1.11 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 246.93 3.67 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 252.48 0.08 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 254.53 2.71 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 255.91 0.34 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 258.31 0.33 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 259.89 2.36 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 266.18 0.79 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 268.71 0.35 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 272.31 3.49 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 275.09 0.36 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 279.18 0.57 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 285.15 1.46 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 287.57 2.53 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 289.09 6.93 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 306.38 0.82 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 309.22 0.86 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 313.47 8.39 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 315.85 0.45 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 316.65 0.75 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 317.9 0.72 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 324.13 27.34 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 344.91 0.45 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 350.01 1.08 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 353.48 2.07 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 354.11 0.71 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 356.33 0.57 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 356.51 5.63 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 356.98 0.39 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 359.11 8.54 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 364.81 1.2 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 365.93 1.91 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 371.43 3.86 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 373.84 2.99 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 375.08 0.35 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 376.8 2.14 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 379.6 4.88 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 391.13 0.61 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 393.99 0.93 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 394.38 11.89 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 396.31 3.49 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 403.24 0.11 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 420.11 0.84 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 421.2 5.35 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 421.44 0.82 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 428.12 2.1 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 432.48 1.89 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 438.74 3.25 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 439.85 1.92 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 441.59 0.53 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 443.16 7.69 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 445.23 1.22 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 450.45 1.24 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 454.0 2.94 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 457.97 2.6 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 461.09 1.07 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 465.38 5.04 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 465.48 0.51 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 467.94 0.76 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 474.41 4.94 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 476.71 0.93 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 481.26 3.42 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 481.27 0.39 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 484.48 0.24 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 487.1 0.61 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 487.43 0.39 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 488.77 2.64 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 489.88 1.46 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 492.9 25.76 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 497.4 2.58 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 501.19 3.47 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 501.76 1.46 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 501.78 0.89 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 519.87 1.08 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 520.28 16.32 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 524.31 4.32 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 525.5 0.46 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 541.43 8.1 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 545.31 0.33 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 553.66 3.11 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 554.48 0.67 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 558.67 0.66 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 561.11 0.49 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 563.12 12.2 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 575.11 2.55 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 576.51 0.7 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 576.76 4.74 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 580.85 6.72 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 582.6 0.32 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 583.85 4.13 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 584.88 1.09 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 588.37 3.91 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 590.86 0.33 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 590.98 4.95 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 593.81 0.46 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 594.19 13.9 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 603.51 0.71 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 603.88 0.34 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 605.84 0.18 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 606.66 0.36 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 608.09 5.84 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 608.13 0.85 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 613.51 4.31 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 614.07 0.82 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 617.54 2.05 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 619.13 10.24 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 621.46 0.7 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 622.02 0.21 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 623.85 0.38 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 630.37 0.83 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 631.29 5.78 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 635.54 0.34 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 636.39 0.61 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 638.1 13.39 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 645.18 0.41 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 649.13 1.16 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 653.41 1.99 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 653.57 16.67 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 661.85 0.35 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 666.69 0.25 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 675.2 29.52 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 687.25 0.31 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 688.13 0.31 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 691.12 0.77 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 691.23 0.9 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 691.49 0.73 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 701.09 0.6 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 701.1 0.78 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 705.18 1.54 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 705.96 2.95 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 708.07 0.48 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 708.61 2.32 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 711.24 2 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 711.88 24.17 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 712.33 0.39 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 727.67 0.49 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 734.98 16.78 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 737.29 0.38 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 746.42 0.42 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 747.66 0.29 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 749.82 5.47 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 752.59 0.36 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 755.18 2.88 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 755.68 0.24 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 757.43 22.36 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 768.52 0.46 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 772.32 0.37 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 775.6 0.24 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 777.34 0.31 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 777.92 0.74 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 779.78 14.7 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 784.99 0.29 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 787.08 0.66 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 792.17 0.45 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 792.89 0.55 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 794.46 17.57 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 803.8 2.12 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 811.15 0.34 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 812.35 2.74 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 816.15 7.48 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 816.27 2.69 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 819.96 0.3 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 821.35 6.62 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 826.06 0.29 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 828.12 3.32 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 829.37 4.68 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 830.05 0.55 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 833.26 0.54 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 834.64 10 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 838.64 0.36 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 841.2 2.04 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 843.73 5.85 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 850.98 10.96 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 862.33 0.43 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 863.21 0.32 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 864.3 7.44 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 864.43 1.34 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 870.18 0.51 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 872.2 0.39 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 872.95 10.29 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 878.36 0.44 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 884.38 0.79 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 885.18 14.13 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 893.63 0.68 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 895.43 0.32 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 898.71 13.07 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 905.32 0.38 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 905.77 1.73 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 911.86 0.49 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 913.69 21.19 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 923.65 0.39 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 930.83 0.61 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 932.99 0.38 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 934.74 12.82 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 945.43 0.41 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 946.04 0.62 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 948.48 4.58 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 948.6 0.49 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 949.9 0.31 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 950.91 8.33 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 951.06 0.35 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 954.93 0.34 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 956.02 2.05 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 956.78 1.82 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 957.25 0.35 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 959.48 0.81 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 959.69 12.76 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 965.1 0.47 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 966.22 0.26 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 968.84 0.39 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 970.68 1 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 972.92 7.02 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 981.2 8.31 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 985.49 29.15 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 991.07 0.4 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 1005.06 0.68 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 1005.79 0.46 <NA> <NA> MEO015 <NA> <NA>\nSPEAKER ES2004a 1 1005.86 0.58 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 1006.9 0.6 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 1009.16 2.14 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 1013.7 10.71 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 1018.54 0.37 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 1019.99 0.5 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 1022.0 0.96 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 1022.32 1.67 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 1025.04 16.52 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 1032.93 0.42 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 1037.32 0.63 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 1042.19 0.11 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 1042.4 1.76 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 1042.58 0.85 <NA> <NA> MEE014 <NA> <NA>\nSPEAKER ES2004a 1 1046.42 2.06 <NA> <NA> FEE016 <NA> <NA>\nSPEAKER ES2004a 1 1047.76 1.28 <NA> <NA> FEE013 <NA> <NA>\nSPEAKER ES2004a 1 1048.05 0.33 <NA> <NA> MEO015 <NA> <NA>\n"
+    }
+  ],
+  "profile": "fast",
+  "track": "meeting"
+}

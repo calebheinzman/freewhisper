@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.88,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00037960",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.4786606634617,
+  "text" : "Okay, now I'm gonna have to change what it was originally gonna be because that looks like a beak now, so",
+  "track" : "asr",
+  "wallSeconds" : 0.123611083
+}

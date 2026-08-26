@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.38,
+  "dataset" : "earnings22",
+  "id" : "4482311-100",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.792321914639093,
+  "text" : "Other smaller brands, such as Jivanschi, Benefit, Fresh, Mesaun, Curgeon, Aquadjian, Aquadiparment.",
+  "track" : "asr",
+  "wallSeconds" : 0.869136417
+}

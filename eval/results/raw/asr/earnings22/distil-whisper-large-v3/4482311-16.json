@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.3400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-16",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.366167932152242,
+  "text" : "and SEPRA that was quite affected during the course of the year 2021, rebounded well last year.",
+  "track" : "asr",
+  "wallSeconds" : 0.773599625
+}

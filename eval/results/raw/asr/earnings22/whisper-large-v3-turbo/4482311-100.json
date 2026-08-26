@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.38,
+  "dataset" : "earnings22",
+  "id" : "4482311-100",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.54863140646121,
+  "text" : "other smaller brands such as Givenchy, Benefit, Fresh, Maison,",
+  "track" : "asr",
+  "wallSeconds" : 1.6905069579999998
+}

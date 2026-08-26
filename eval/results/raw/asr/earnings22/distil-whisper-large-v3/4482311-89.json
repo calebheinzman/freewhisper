@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.7200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-89",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.51759798078241,
+  "text" : "Moving to perfumes and cosmetics or",
+  "track" : "asr",
+  "wallSeconds" : 0.602103709
+}

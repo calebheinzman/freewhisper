@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.24,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00038740",
+  "model" : "parakeet-v3",
+  "rtfx" : 49.398369421573356,
+  "text" : "and production cost should not exceed hopefully should be less than twelve fifty euro.",
+  "track" : "asr",
+  "wallSeconds" : 0.126319959
+}

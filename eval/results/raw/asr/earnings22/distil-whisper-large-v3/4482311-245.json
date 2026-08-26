@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.039875,
+  "dataset" : "earnings22",
+  "id" : "4482311-245",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 9.349028680403586,
+  "text" : "For CIFR, we're ahead of 2019, but DFS is still lagging behind, but we're getting close to the 2019 number. So we're getting close to the 2019 number.",
+  "track" : "asr",
+  "wallSeconds" : 0.966932
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.3800625,
+  "dataset" : "earnings22",
+  "id" : "4482311-23",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 3.9973524762412467,
+  "text" : "as regards our commitment for the environment.",
+  "track" : "asr",
+  "wallSeconds" : 1.095740875
+}

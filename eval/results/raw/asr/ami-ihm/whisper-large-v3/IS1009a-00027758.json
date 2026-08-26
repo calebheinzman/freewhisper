@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.27,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00027758",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.7649271898426909,
+  "text" : "whether you without hanging yourself.",
+  "track" : "asr",
+  "wallSeconds" : 2.9676027080000003
+}

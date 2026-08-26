@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.16,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00033747",
+  "model" : "parakeet-v3",
+  "rtfx" : 21.65125935652658,
+  "text" : "What should I do?",
+  "track" : "asr",
+  "wallSeconds" : 0.09976325
+}

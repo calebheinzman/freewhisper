@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.320125,
+  "dataset" : "earnings22",
+  "id" : "4482311-264",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.705126273704709,
+  "text" : "Income tax, well, they were up, but the tax rate was slightly down to about 26 percent, so that was a positive effect.",
+  "track" : "asr",
+  "wallSeconds" : 1.6882791670000001
+}

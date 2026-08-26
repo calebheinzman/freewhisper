@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00202439",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.847848673219712,
+  "text" : "And I'll see you after lunch.",
+  "track" : "asr",
+  "wallSeconds" : 0.105250584
+}

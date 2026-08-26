@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 12.25,
+  "dataset" : "librispeech",
+  "id" : "5639-40744-0028",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.384919147576165,
+  "text" : "i have great things to tell you seor said donna estafania to her husband the cream and substance of which is this the fainting girl before you is your daughter and the boy is your grandson and the boy is your grandson",
+  "track" : "asr",
+  "wallSeconds" : 1.179595125
+}

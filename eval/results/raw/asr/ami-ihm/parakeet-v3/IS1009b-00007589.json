@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.14,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00007589",
+  "model" : "parakeet-v3",
+  "rtfx" : 11.564886367382961,
+  "text" : "Okay, you want me to start right now?",
+  "track" : "asr",
+  "wallSeconds" : 0.09857425
+}

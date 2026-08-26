@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.1399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-174",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.6828505564397274,
+  "text" : "Arnaud outlined.",
+  "track" : "asr",
+  "wallSeconds" : 0.581054666
+}

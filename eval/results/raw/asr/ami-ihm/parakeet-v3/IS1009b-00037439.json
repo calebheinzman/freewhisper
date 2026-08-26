@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.43,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00037439",
+  "model" : "parakeet-v3",
+  "rtfx" : 15.545210200049462,
+  "text" : "",
+  "track" : "asr",
+  "wallSeconds" : 0.09198975
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.9000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-84",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.151462411994021,
+  "text" : "great brand growing strong with J.W. Anderson.",
+  "track" : "asr",
+  "wallSeconds" : 2.277549667
+}

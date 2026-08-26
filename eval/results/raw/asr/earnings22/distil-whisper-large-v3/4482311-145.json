@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.1000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-145",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 8.460826687115766,
+  "text" : "the numbers for January confirm growth at a same pace at the end of last year.",
+  "track" : "asr",
+  "wallSeconds" : 0.720977125
+}

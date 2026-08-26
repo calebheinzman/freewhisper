@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.87,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00057113",
+  "model" : "parakeet-v3",
+  "rtfx" : 51.71961119951668,
+  "text" : "Uh I was trying to draw a dolphin, but I think his nose has to be a little bit but it's close.",
+  "track" : "asr",
+  "wallSeconds" : 0.132831625
+}

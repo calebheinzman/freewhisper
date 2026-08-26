@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.725,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0003",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0778868187686594,
+  "text" : "There was a unanimous groan at this, and much reproach, after which, in his preoccupied way, he explained—",
+  "track" : "asr",
+  "wallSeconds" : 3.717719334
+}

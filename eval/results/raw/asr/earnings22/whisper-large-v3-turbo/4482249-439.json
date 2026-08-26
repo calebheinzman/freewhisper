@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.439875,
+  "dataset" : "earnings22",
+  "id" : "4482249-439",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.479117855913205,
+  "text" : "we were touching upon our view regarding corona-related business, particularly vaccine manufacturing, already three months ago.",
+  "track" : "asr",
+  "wallSeconds" : 1.395869834
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.62,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00082135",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.7300235116346783,
+  "text" : "or something like that. Can he program his remote control, or is he basic with that? Is he basic with that too?",
+  "track" : "asr",
+  "wallSeconds" : 2.424887541
+}

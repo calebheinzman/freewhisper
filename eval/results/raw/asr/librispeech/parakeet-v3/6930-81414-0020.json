@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5,
+  "dataset" : "librispeech",
+  "id" : "6930-81414-0020",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.37125008403535,
+  "text" : "I say, you do know what this means, and you must tell us.",
+  "track" : "asr",
+  "wallSeconds" : 0.120856875
+}

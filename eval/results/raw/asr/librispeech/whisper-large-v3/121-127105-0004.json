@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.11,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0004",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.2031062950113567,
+  "text" : "The story's written.",
+  "track" : "asr",
+  "wallSeconds" : 1.7537935
+}

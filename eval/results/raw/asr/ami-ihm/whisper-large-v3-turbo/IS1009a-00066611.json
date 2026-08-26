@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.04,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00066611",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 0.9845028367171281,
+  "text" : "Because you're silly because",
+  "track" : "asr",
+  "wallSeconds" : 1.05637075
+}

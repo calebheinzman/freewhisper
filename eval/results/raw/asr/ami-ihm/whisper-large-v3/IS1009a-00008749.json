@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.1,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00008749",
+  "model" : "whisper-large-v3",
+  "rtfx" : 0.6587567776086263,
+  "text" : "And your name is?",
+  "track" : "asr",
+  "wallSeconds" : 1.669812042
+}

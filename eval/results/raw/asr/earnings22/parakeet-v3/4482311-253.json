@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.0801875,
+  "dataset" : "earnings22",
+  "id" : "4482311-253",
+  "model" : "parakeet-v3",
+  "rtfx" : 43.2494600652812,
+  "text" : "And here they were up well, expenses were up twenty percent, which stands to reason because of course business uh grew.",
+  "track" : "asr",
+  "wallSeconds" : 0.140584125
+}

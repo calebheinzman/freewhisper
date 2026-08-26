@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.55,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00188725",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.597463352146576,
+  "text" : "There's a real idea.",
+  "track" : "asr",
+  "wallSeconds" : 0.596736042
+}

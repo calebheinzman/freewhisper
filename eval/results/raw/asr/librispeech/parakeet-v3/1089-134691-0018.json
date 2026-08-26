@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.09,
+  "dataset" : "librispeech",
+  "id" : "1089-134691-0018",
+  "model" : "parakeet-v3",
+  "rtfx" : 32.85735362726841,
+  "text" : "again again",
+  "track" : "asr",
+  "wallSeconds" : 0.094042875
+}

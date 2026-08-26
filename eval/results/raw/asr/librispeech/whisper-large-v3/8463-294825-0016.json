@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.475,
+  "dataset" : "librispeech",
+  "id" : "8463-294825-0016",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.8205000201628005,
+  "text" : "Milligram, roughly 1 28,000th of an ounce.",
+  "track" : "asr",
+  "wallSeconds" : 2.458115875
+}

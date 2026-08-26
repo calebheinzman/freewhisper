@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.4800625,
+  "dataset" : "earnings22",
+  "id" : "4482249-55",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 10.347288924847353,
+  "text" : "COVID attributed here 20 percentage points, and the new acquisition contributed around 5 percentage points.",
+  "track" : "asr",
+  "wallSeconds" : 0.722900709
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.35,
+  "dataset" : "librispeech",
+  "id" : "2300-131720-0020",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.6156086104685095,
+  "text" : "it was specially suited for a trial plat also in the early days when a yield of six or eight lamps to the horse-power was considered subject for congratulation",
+  "track" : "asr",
+  "wallSeconds" : 3.957014042
+}

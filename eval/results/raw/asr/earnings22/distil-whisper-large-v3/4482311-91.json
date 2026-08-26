@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.2200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-91",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.767122776860512,
+  "text" : "carefully at Christian Jean. Well, it's the perfume.",
+  "track" : "asr",
+  "wallSeconds" : 0.672071583
+}

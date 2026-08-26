@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.18,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00063989",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.0564861985298726,
+  "text" : "Maybe you have to hold it a bit.",
+  "track" : "asr",
+  "wallSeconds" : 1.11691
+}

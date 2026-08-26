@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.025,
+  "dataset" : "librispeech",
+  "id" : "4446-2275-0012",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.426631249267187,
+  "text" : "She looked at his heavy shoulders and big, determined head, thrust forward like a catapult in leash.",
+  "track" : "asr",
+  "wallSeconds" : 1.361080167
+}

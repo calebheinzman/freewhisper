@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 20.82,
+  "dataset" : "librispeech",
+  "id" : "8555-292519-0001",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 11.40584843029994,
+  "text" : "guided by you how we might stroll towards death our only music one another's breath through gardens intimate with hollyhocks where silent poppies burn between the rocks by pools where birches bend to confidants above green waters scummed with lily plants",
+  "track" : "asr",
+  "wallSeconds" : 1.8253793329999999
+}

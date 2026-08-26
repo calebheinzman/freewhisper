@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.55,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00057511",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.9086911836168654,
+  "text" : "It's about... 17. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.652392292
+}

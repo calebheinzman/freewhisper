@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.35,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00014966",
+  "model" : "parakeet-v3",
+  "rtfx" : 75.27180366537456,
+  "text" : "Uh maybe I can sit down. Then I can take some notes or let's see.",
+  "track" : "asr",
+  "wallSeconds" : 0.1242165
+}

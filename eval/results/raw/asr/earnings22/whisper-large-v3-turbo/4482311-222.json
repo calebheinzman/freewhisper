@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.12,
+  "dataset" : "earnings22",
+  "id" : "4482311-222",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 1.4742725595270012,
+  "text" : "And we can be proud of this because it means that our people were able to make up for the absence of tourists.",
+  "track" : "asr",
+  "wallSeconds" : 5.507801083
+}

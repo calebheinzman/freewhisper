@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.22,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00117284",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.267200383763057,
+  "text" : "Did you go back to that slide where she had that side up Betsy?",
+  "track" : "asr",
+  "wallSeconds" : 2.541034584
+}

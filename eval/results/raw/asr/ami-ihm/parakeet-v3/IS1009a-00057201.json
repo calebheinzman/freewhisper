@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.66,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00057201",
+  "model" : "parakeet-v3",
+  "rtfx" : 24.622837374342073,
+  "text" : "Yeah, like that's really.",
+  "track" : "asr",
+  "wallSeconds" : 0.108029792
+}

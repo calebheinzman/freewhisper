@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.77,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00132183",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 4.570909327444273,
+  "text" : "But I need to",
+  "track" : "asr",
+  "wallSeconds" : 0.606006333
+}

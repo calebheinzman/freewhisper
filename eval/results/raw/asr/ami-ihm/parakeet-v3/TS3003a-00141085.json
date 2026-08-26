@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.28,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00141085",
+  "model" : "parakeet-v3",
+  "rtfx" : 12.322245946503335,
+  "text" : "How much is left in the battery?",
+  "track" : "asr",
+  "wallSeconds" : 0.103877167
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.2400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-204",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 7.670706175703955,
+  "text" : "tourism was down in Europe, and that was accounted for a significant part of the business, and that was transferred to Asia and North America.",
+  "track" : "asr",
+  "wallSeconds" : 1.465323041
+}

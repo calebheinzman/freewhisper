@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.12,
+  "dataset" : "librispeech",
+  "id" : "4446-2273-0036",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.4207435427816173,
+  "text" : "Alexander clenched the two hands at his sides.",
+  "track" : "asr",
+  "wallSeconds" : 2.196033208
+}

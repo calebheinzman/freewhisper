@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.29,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00077780",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.766057933905543,
+  "text" : "I think basically you will get instructions to work with. And if you have any questions, I guess you can--",
+  "track" : "asr",
+  "wallSeconds" : 3.358570291
+}

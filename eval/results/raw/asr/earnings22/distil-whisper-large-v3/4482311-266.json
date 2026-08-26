@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.5399375,
+  "dataset" : "earnings22",
+  "id" : "4482311-266",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.8485956791403835,
+  "text" : "So in terms of net profits, this is a remarkable performance.",
+  "track" : "asr",
+  "wallSeconds" : 0.6629005
+}

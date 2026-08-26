@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.325,
+  "dataset" : "librispeech",
+  "id" : "672-122797-0047",
+  "model" : "parakeet-v3",
+  "rtfx" : 32.036703405683674,
+  "text" : "How kind man is, after all",
+  "track" : "asr",
+  "wallSeconds" : 0.103787208
+}

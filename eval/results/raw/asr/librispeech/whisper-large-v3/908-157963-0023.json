@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.625,
+  "dataset" : "librispeech",
+  "id" : "908-157963-0023",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.817382017645812,
+  "text" : "the helpless worm arose and sat upon the lily's leaf and the bright cloud sailed on to find his partner in the vale",
+  "track" : "asr",
+  "wallSeconds" : 3.416292125
+}

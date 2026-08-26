@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.77,
+  "dataset" : "librispeech",
+  "id" : "6829-68771-0014",
+  "model" : "parakeet-v3",
+  "rtfx" : 37.2274282044658,
+  "text" : "We ought to have more attendance, Beth, said Louise, approaching her cousin.",
+  "track" : "asr",
+  "wallSeconds" : 0.128131333
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.735,
+  "dataset" : "librispeech",
+  "id" : "4446-2275-0010",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 5.733106988120486,
+  "text" : "Alexander leaned forward and warmed his hands before the blaze.",
+  "track" : "asr",
+  "wallSeconds" : 0.651479208
+}

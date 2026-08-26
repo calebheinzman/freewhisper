@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.075,
+  "dataset" : "librispeech",
+  "id" : "121-127105-0022",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.50928886687093,
+  "text" : "Well, if I don't know who she was in love with, I know who he was",
+  "track" : "asr",
+  "wallSeconds" : 0.122261791
+}

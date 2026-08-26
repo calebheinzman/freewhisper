@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.3000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-83",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 3.5949827889170827,
+  "text" : "I won't go into the detail, growth.",
+  "track" : "asr",
+  "wallSeconds" : 0.639797917
+}

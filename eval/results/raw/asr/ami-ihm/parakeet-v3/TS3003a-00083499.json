@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.82,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00083499",
+  "model" : "parakeet-v3",
+  "rtfx" : 49.14684414138162,
+  "text" : "It's a real Dutch sheep, uh for recognition. Yeah, I see.",
+  "track" : "asr",
+  "wallSeconds" : 0.118420625
+}

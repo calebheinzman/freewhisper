@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.7600625,
+  "dataset" : "earnings22",
+  "id" : "4482249-406",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 5.391254981335975,
+  "text" : "So roughly two-thirds of our sales revenue of the group are single-use products.",
+  "track" : "asr",
+  "wallSeconds" : 1.253894042
+}

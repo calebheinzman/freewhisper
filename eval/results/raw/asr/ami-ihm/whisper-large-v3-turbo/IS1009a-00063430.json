@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.32,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00063430",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 2.7333041273201055,
+  "text" : "a beep, I mean that we can discuss that later you know",
+  "track" : "asr",
+  "wallSeconds" : 1.214647125
+}

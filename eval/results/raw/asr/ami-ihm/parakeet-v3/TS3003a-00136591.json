@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.02,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00136591",
+  "model" : "parakeet-v3",
+  "rtfx" : 29.69363678735616,
+  "text" : "And other functions for remote control?",
+  "track" : "asr",
+  "wallSeconds" : 0.101705292
+}

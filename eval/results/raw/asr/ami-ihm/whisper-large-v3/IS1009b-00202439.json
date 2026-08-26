@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.51,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00202439",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.3133103504859167,
+  "text" : "And we'll see you after lunch.",
+  "track" : "asr",
+  "wallSeconds" : 1.911200958
+}

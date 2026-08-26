@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.21,
+  "dataset" : "librispeech",
+  "id" : "1089-134686-0037",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.047616857703319,
+  "text" : "In the silence, their dark fire kindled the dusk into a tawny glow.",
+  "track" : "asr",
+  "wallSeconds" : 1.287177167
+}

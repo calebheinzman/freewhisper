@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.33,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00121519",
+  "model" : "parakeet-v3",
+  "rtfx" : 39.5402042239677,
+  "text" : "Uh maybe you have to say the magic word. Yeah.",
+  "track" : "asr",
+  "wallSeconds" : 0.109508792
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 9.8401875,
+  "dataset" : "earnings22",
+  "id" : "4482311-215",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.092599751578938,
+  "text" : "Asia, of course, is the record because we're looking at an overall growth of 30 percent. You can see this on the last bar for Asia, 31 percent, up 31 percent.",
+  "track" : "asr",
+  "wallSeconds" : 2.4043855
+}

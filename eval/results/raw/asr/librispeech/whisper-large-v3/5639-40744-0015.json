@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 11.02,
+  "dataset" : "librispeech",
+  "id" : "5639-40744-0015",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.386518638677109,
+  "text" : "this person was rodolphe who though he had gone to look for his friends had changed his mind in that respect not thinking it advisable to acquaint them with what had passed between him and the girl",
+  "track" : "asr",
+  "wallSeconds" : 4.617604833
+}

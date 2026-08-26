@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.04,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00068207",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 0.9730851514835246,
+  "text" : "Good points to start.",
+  "track" : "asr",
+  "wallSeconds" : 1.068765666
+}

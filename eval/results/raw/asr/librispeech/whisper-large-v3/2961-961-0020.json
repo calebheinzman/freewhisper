@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 6.125,
+  "dataset" : "librispeech",
+  "id" : "2961-961-0020",
+  "model" : "whisper-large-v3",
+  "rtfx" : 2.0856084079148576,
+  "text" : "this is the explanation of the shallows which are found in that part of the atlantic ocean",
+  "track" : "asr",
+  "wallSeconds" : 2.936792917
+}

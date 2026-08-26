@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 10.8000625,
+  "dataset" : "earnings22",
+  "id" : "4482311-81",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 13.311671515324567,
+  "text" : "And today, Ciline is one of the brands that has the highest growth rate of all the world's fashion brands in my view.",
+  "track" : "asr",
+  "wallSeconds" : 0.811322792
+}

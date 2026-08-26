@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.96,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004b-00016866",
+  "model" : "parakeet-v3",
+  "rtfx" : 18.642734544457312,
+  "text" : "Shall we hear for marketing first?",
+  "track" : "asr",
+  "wallSeconds" : 0.105134791
+}

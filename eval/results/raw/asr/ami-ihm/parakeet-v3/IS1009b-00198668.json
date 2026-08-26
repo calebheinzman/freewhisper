@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.76,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00198668",
+  "model" : "parakeet-v3",
+  "rtfx" : 41.13082391296331,
+  "text" : "But I think we do some more research on the other thing.",
+  "track" : "asr",
+  "wallSeconds" : 0.115728292
+}

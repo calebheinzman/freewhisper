@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.3,
+  "dataset" : "librispeech",
+  "id" : "7729-102255-0002",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 6.403317173811534,
+  "text" : "that summer's immigration however being mainly from the free states greatly changed the relative strengths of the two parties",
+  "track" : "asr",
+  "wallSeconds" : 1.296203167
+}

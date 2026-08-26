@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.71,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009a-00066522",
+  "model" : "parakeet-v3",
+  "rtfx" : 23.304803037350236,
+  "text" : "Well because you're s because you're silly, because people are silly.",
+  "track" : "asr",
+  "wallSeconds" : 0.116285042
+}

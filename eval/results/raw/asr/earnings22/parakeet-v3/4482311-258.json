@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.12025,
+  "dataset" : "earnings22",
+  "id" : "4482311-258",
+  "model" : "parakeet-v3",
+  "rtfx" : 50.32570081113771,
+  "text" : "Well this may not be uh uh significant, but uh it's still uh quite good to see that the profits are so up. Up to the U.",
+  "track" : "asr",
+  "wallSeconds" : 0.141483375
+}

@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 1.75,
+  "dataset" : "ami-ihm",
+  "id" : "IS1009b-00112017",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 2.8306569614643466,
+  "text" : "Yeah, I'm bugging him.",
+  "track" : "asr",
+  "wallSeconds" : 0.618231041
+}

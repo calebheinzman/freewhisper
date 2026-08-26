@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 4.7400625,
+  "dataset" : "earnings22",
+  "id" : "4482311-90",
+  "model" : "whisper-large-v3-turbo",
+  "rtfx" : 4.167921804233753,
+  "text" : "also strong growth of perfume and skin",
+  "track" : "asr",
+  "wallSeconds" : 1.137272416
+}

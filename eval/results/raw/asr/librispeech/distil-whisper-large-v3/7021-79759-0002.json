@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5.25,
+  "dataset" : "librispeech",
+  "id" : "7021-79759-0002",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 7.371479570032127,
+  "text" : "They are chiefly formed from combinations of the impressions made in childhood.",
+  "track" : "asr",
+  "wallSeconds" : 0.712204375
+}

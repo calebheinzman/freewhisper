@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 3.0000625,
+  "dataset" : "earnings22",
+  "id" : "4482249-194",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.596295093725836,
+  "text" : "Two questions from my side, please.",
+  "track" : "asr",
+  "wallSeconds" : 1.879390917
+}

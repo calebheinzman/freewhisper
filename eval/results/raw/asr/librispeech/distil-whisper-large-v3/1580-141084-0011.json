@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 5,
+  "dataset" : "librispeech",
+  "id" : "1580-141084-0011",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 6.7169764531057154,
+  "text" : "When we were out in the darkness of the quadrangle, we again looked up at the windows.",
+  "track" : "asr",
+  "wallSeconds" : 0.744382541
+}

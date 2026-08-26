@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 8.0200625,
+  "dataset" : "earnings22",
+  "id" : "4482311-165",
+  "model" : "parakeet-v3",
+  "rtfx" : 62.468093423686106,
+  "text" : "We look after them, uh we motivate them such that they want to remain with us and they have long term motivation.",
+  "track" : "asr",
+  "wallSeconds" : 0.128386542
+}

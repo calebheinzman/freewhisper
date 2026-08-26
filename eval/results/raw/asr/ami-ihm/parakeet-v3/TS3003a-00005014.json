@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 7.87,
+  "dataset" : "ami-ihm",
+  "id" : "TS3003a-00005014",
+  "model" : "parakeet-v3",
+  "rtfx" : 66.38339149963625,
+  "text" : "Uh let's see Let's start off um with a little presentation.",
+  "track" : "asr",
+  "wallSeconds" : 0.11855375
+}

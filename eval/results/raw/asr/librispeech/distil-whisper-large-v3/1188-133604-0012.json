@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 14.65,
+  "dataset" : "librispeech",
+  "id" : "1188-133604-0012",
+  "model" : "distil-whisper-large-v3",
+  "rtfx" : 15.2696812117176,
+  "text" : "it may be that a great colorless will use his utmost force of color as a singer his full power of voice but loud or low the virtue is in both cases always in refinement never in loudness",
+  "track" : "asr",
+  "wallSeconds" : 0.959417541
+}

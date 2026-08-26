@@ -1,0 +1,10 @@
+{
+  "audioSeconds" : 2.07,
+  "dataset" : "ami-ihm",
+  "id" : "ES2004a-00035348",
+  "model" : "whisper-large-v3",
+  "rtfx" : 1.1206901897545158,
+  "text" : "Yeah, I hope we can.",
+  "track" : "asr",
+  "wallSeconds" : 1.8470760419999999
+}
