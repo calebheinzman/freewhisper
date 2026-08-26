@@ -6,24 +6,63 @@ public struct MeetingSummary: Codable, Sendable, Equatable {
     public var keyPoints: [String]
     public var actionItems: [String]
     public var tags: [String]
+    /// Displayed speaker label -> the real name heard in the meeting, e.g.
+    /// `["Speaker 2": "Sarah"]`.
+    ///
+    /// Keyed on the *label*, not the `speakerID`, because that is what the model
+    /// is shown: ``Transcript/plainText`` renders each line through
+    /// `name(for:)`. Callers resolving these back onto a transcript have to map
+    /// the label to its id — see `TranscriptionPipeline.applyNames`.
+    ///
+    /// Only speakers actually named aloud appear here. A diarized voice nobody
+    /// addressed by name is absent rather than guessed at.
+    public var speakerNames: [String: String]
 
     public init(
         title: String,
         summary: String,
         keyPoints: [String] = [],
         actionItems: [String] = [],
-        tags: [String] = []
+        tags: [String] = [],
+        speakerNames: [String: String] = [:]
     ) {
         self.title = title
         self.summary = summary
         self.keyPoints = keyPoints
         self.actionItems = actionItems
         self.tags = tags
+        self.speakerNames = speakerNames
+    }
+
+    /// Decoded by hand so that summaries written before a field existed still
+    /// load. Every meeting already summarized has a `summary.json` with no
+    /// `speakerNames` key, and the synthesized initializer treats a missing key
+    /// for a non-optional property as an error — which would lose the user the
+    /// summary of a meeting they have already had.
+    ///
+    /// `title` and `summary` stay required on purpose: a file missing those is
+    /// corrupt rather than old, and should fail so the UI reports no summary
+    /// instead of rendering a blank one.
+    public init(from decoder: any Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        title = try container.decode(String.self, forKey: .title)
+        summary = try container.decode(String.self, forKey: .summary)
+        keyPoints = try container.decodeIfPresent([String].self, forKey: .keyPoints) ?? []
+        actionItems = try container.decodeIfPresent([String].self, forKey: .actionItems) ?? []
+        tags = try container.decodeIfPresent([String].self, forKey: .tags) ?? []
+        speakerNames = try container.decodeIfPresent([String: String].self, forKey: .speakerNames) ?? [:]
     }
 
     public var markdown: String {
         var lines = ["# \(title)", "", summary, ""]
 
+        if !speakerNames.isEmpty {
+            lines.append("## Who was here")
+            // Sorted because a dictionary has no order and this file gets
+            // written repeatedly — an unstable export is noise in a diff.
+            lines.append(contentsOf: speakerNames.sorted { $0.key < $1.key }.map { "- \($0.value) (\($0.key))" })
+            lines.append("")
+        }
         if !keyPoints.isEmpty {
             lines.append("## Key points")
             lines.append(contentsOf: keyPoints.map { "- \($0)" })
@@ -51,12 +90,40 @@ public struct Summarizer: Sendable {
     /// Above this, summarize in chunks and then combine.
     static let mapReduceThreshold = 8_000
 
+    /// The threshold for the CLI agents, which pay for chunking twice over: a
+    /// process launch per chunk on top of the request, against models that hold
+    /// hundreds of thousands of tokens. Chunking there would spend ten launches
+    /// working around a context limit that isn't there.
+    static let cliMapReduceThreshold = 400_000
+
+    /// Ceilings on how much either step may generate.
+    ///
+    /// Not a cost control — a stall guard. Left uncapped, a 4-bit local model
+    /// that falls into a repetition loop keeps going, and because the transcript
+    /// is chunked, one bad chunk stalls the whole meeting. Measured across AMI:
+    /// uncapped, a 25,000-character meeting took **32 minutes** while a
+    /// 34,000-character one took 82 seconds. Length was not the variable;
+    /// runaway generation was.
+    ///
+    /// The numbers are well clear of what either step legitimately needs. Dense
+    /// notes on a 6,000-character chunk run to a few hundred tokens, and the
+    /// final JSON is a paragraph plus a handful of short arrays. Anything past
+    /// these is a model that has stopped answering the question.
+    static let condenseTokenLimit = 900
+    static let summaryTokenLimit = 1_200
+
     private let client: any ChatCompleting
     private let providerName: String
+    /// Per-provider rather than static, because how much text is worth sending
+    /// in one request depends entirely on what is answering it.
+    let mapReduceThreshold: Int
 
     public init(provider: LLMProvider) {
         self.client = ChatClient.make(for: provider)
         self.providerName = provider.name
+        self.mapReduceThreshold = provider.resolvedBackend == .cliAgent
+            ? Self.cliMapReduceThreshold
+            : Self.mapReduceThreshold
     }
 
     public func summarize(
@@ -69,7 +136,7 @@ public struct Summarizer: Sendable {
         }
 
         let condensed: String
-        if text.count > Self.mapReduceThreshold {
+        if text.count > mapReduceThreshold {
             onProgress?("Summarizing in sections…")
             condensed = try await mapReduce(text, onProgress: onProgress)
         } else {
@@ -83,7 +150,7 @@ public struct Summarizer: Sendable {
                 .user(Self.finalPrompt(transcript: condensed)),
             ],
             temperature: 0.2,
-            maxTokens: nil
+            maxTokens: Self.summaryTokenLimit
         )
         return Self.parse(response)
     }

@@ -235,3 +235,155 @@ struct LLMProviderTests {
         }
     }
 }
+
+@Suite("Speaker naming")
+struct SummarizerSpeakerNameTests {
+    private func pipeline() -> TranscriptionPipeline {
+        TranscriptionPipeline(store: MeetingStore(
+            root: FileManager.default.temporaryDirectory
+                .appendingPathComponent("speaker-names-\(UUID().uuidString)", isDirectory: true)
+        ))
+    }
+
+    private func transcript(names: [String: String]) -> Transcript {
+        Transcript(
+            segments: names.keys.sorted().map { id in
+                TranscriptSegment(
+                    start: 0, end: 1, text: "hi",
+                    channel: id == TranscriptAssembler.localSpeakerID ? .microphone : .system,
+                    speakerID: id,
+                    speakerName: names[id] ?? id
+                )
+            },
+            speakerNames: names,
+            engine: "test"
+        )
+    }
+
+    @Test("parses the speaker map")
+    func parsesMap() {
+        let summary = Summarizer.parse("""
+        {"title":"Standup","summary":"x","speakerNames":{"Speaker 1":"Sarah","Speaker 2":"Dan"}}
+        """)
+        #expect(summary.speakerNames == ["Speaker 1": "Sarah", "Speaker 2": "Dan"])
+    }
+
+    @Test("a response with no speaker map yields an empty one")
+    func missingMap() {
+        #expect(Summarizer.parse(#"{"title":"A","summary":"B"}"#).speakerNames.isEmpty)
+    }
+
+    /// Told to stay silent about speakers it can't identify, a model will
+    /// instead echo the label back or answer "Unknown". Both mean "I don't
+    /// know", and neither is a rename.
+    @Test("drops echoed labels and placeholder names")
+    func dropsNonAnswers() {
+        let summary = Summarizer.parse("""
+        {"title":"A","summary":"B","speakerNames":
+         {"Speaker 1":"Sarah","Speaker 2":"Speaker 2","Speaker 3":"Unknown","Speaker 4":"  "}}
+        """)
+        #expect(summary.speakerNames == ["Speaker 1": "Sarah"])
+    }
+
+    @Test("a non-object speaker map is ignored rather than crashing")
+    func wrongShapeMap() {
+        #expect(Summarizer.parse(#"{"title":"A","summary":"B","speakerNames":["Sarah"]}"#).speakerNames.isEmpty)
+    }
+
+    /// Every meeting summarized before this field existed has a summary.json
+    /// without it. Failing to decode those would lose the user a summary.
+    @Test("decodes a summary written before speakerNames existed")
+    func decodesOldSummaries() throws {
+        let old = Data("""
+        {"actionItems":["Dan: backfill"],"keyPoints":["done"],"summary":"S","tags":["t"],"title":"T"}
+        """.utf8)
+        let summary = try JSONDecoder().decode(MeetingSummary.self, from: old)
+
+        #expect(summary.title == "T")
+        #expect(summary.actionItems == ["Dan: backfill"])
+        #expect(summary.speakerNames.isEmpty)
+    }
+
+    @Test("a summary missing its title is corrupt, not old")
+    func rejectsCorruptSummaries() {
+        #expect(throws: (any Error).self) {
+            try JSONDecoder().decode(MeetingSummary.self, from: Data(#"{"summary":"S"}"#.utf8))
+        }
+    }
+
+    @Test("round-trips through JSON")
+    func roundTrips() throws {
+        let summary = MeetingSummary(title: "T", summary: "S", speakerNames: ["Speaker 1": "Sarah"])
+        let decoded = try JSONDecoder().decode(
+            MeetingSummary.self, from: JSONEncoder().encode(summary)
+        )
+        #expect(decoded == summary)
+    }
+
+    @Test("markdown lists who was there, in a stable order")
+    func markdownSection() {
+        let markdown = MeetingSummary(
+            title: "T", summary: "S", speakerNames: ["Speaker 2": "Dan", "Speaker 1": "Sarah"]
+        ).markdown
+
+        #expect(markdown.contains("""
+        ## Who was here
+        - Sarah (Speaker 1)
+        - Dan (Speaker 2)
+        """))
+    }
+
+    @Test("no speakers named means no section")
+    func markdownOmitsEmptySection() {
+        #expect(!MeetingSummary(title: "T", summary: "S").markdown.contains("Who was here"))
+    }
+
+    // MARK: Resolving labels onto ids
+
+    @Test("maps the label the model saw back onto the speaker id")
+    func resolvesLabels() {
+        let resolved = pipeline().resolveSpeakerIDs(
+            for: ["Speaker 1": "Sarah", "Speaker 2": "Dan"],
+            in: transcript(names: ["speaker_0": "Speaker 1", "speaker_1": "Speaker 2"])
+        )
+        #expect(resolved == ["speaker_0": "Sarah", "speaker_1": "Dan"])
+    }
+
+    /// Re-summarizing is routine. Reverting a correction the user typed every
+    /// time it happened would be maddening.
+    @Test("a name the user typed is never overwritten")
+    func keepsUserNames() {
+        let resolved = pipeline().resolveSpeakerIDs(
+            for: ["Speaker 1": "Sarah", "Priya": "Dan"],
+            in: transcript(names: ["speaker_0": "Speaker 1", "speaker_1": "Priya"])
+        )
+        #expect(resolved == ["speaker_0": "Sarah"])
+    }
+
+    @Test("the local speaker is left alone")
+    func skipsYou() {
+        let resolved = pipeline().resolveSpeakerIDs(
+            for: ["You": "Caleb", "Speaker 1": "Sarah"],
+            in: transcript(names: ["you": "You", "speaker_0": "Speaker 1"])
+        )
+        #expect(resolved == ["speaker_0": "Sarah"])
+    }
+
+    @Test("a label for a speaker who isn't in the transcript is dropped")
+    func ignoresUnknownLabels() {
+        let resolved = pipeline().resolveSpeakerIDs(
+            for: ["Speaker 7": "Nobody"],
+            in: transcript(names: ["speaker_0": "Speaker 1"])
+        )
+        #expect(resolved.isEmpty)
+    }
+
+    @Test("only generated labels count as unclaimed")
+    func generatedNames() {
+        #expect(TranscriptionPipeline.isGeneratedName("Speaker 1"))
+        #expect(TranscriptionPipeline.isGeneratedName("Speaker 12"))
+        #expect(!TranscriptionPipeline.isGeneratedName("Speaker Sarah"))
+        #expect(!TranscriptionPipeline.isGeneratedName("You"))
+        #expect(!TranscriptionPipeline.isGeneratedName("Sarah"))
+    }
+}
