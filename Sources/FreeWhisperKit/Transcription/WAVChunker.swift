@@ -78,7 +78,7 @@ enum WAVChunker {
             let file = directory.appendingPathComponent(
                 String(format: "chunk-%03d.wav", chunks.count)
             )
-            try write(Array(samples[cursor..<end]), to: file)
+            try AudioLoader.write(Array(samples[cursor..<end]), to: file)
             chunks.append(
                 Chunk(url: file, offset: Double(cursor) / rate, isTemporary: true)
             )
@@ -134,27 +134,5 @@ enum WAVChunker {
             sumOfSquares += samples[index] * samples[index]
         }
         return (sumOfSquares / Float(end - start)).squareRoot()
-    }
-
-    private static func write(_ samples: [Float], to url: URL) throws {
-        let file = try AVAudioFile(
-            forWriting: url,
-            settings: AudioFormats.fileSettings,
-            commonFormat: .pcmFormatFloat32,
-            interleaved: false
-        )
-        let format = AudioFormats.processing
-        guard let buffer = AVAudioPCMBuffer(
-            pcmFormat: format,
-            frameCapacity: AVAudioFrameCount(samples.count)
-        ), let channel = buffer.floatChannelData?[0] else {
-            throw AudioCaptureError.bufferAllocationFailed
-        }
-
-        samples.withUnsafeBufferPointer { source in
-            channel.update(from: source.baseAddress!, count: samples.count)
-        }
-        buffer.frameLength = AVAudioFrameCount(samples.count)
-        try file.write(from: buffer)
     }
 }

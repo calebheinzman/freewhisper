@@ -28,6 +28,45 @@ enum AudioLoader {
         return Double(file.length) / file.processingFormat.sampleRate
     }
 
+    // MARK: Writing
+
+    /// Opens a new 16 kHz mono WAV for writing — the format every engine wants,
+    /// and the one `ResamplingRecorder` captures into.
+    ///
+    /// Kept separate from ``write(_:to:)`` so a caller with more samples than it
+    /// wants in memory at once can append piece by piece.
+    static func makeFile(at url: URL) throws -> AVAudioFile {
+        try AVAudioFile(
+            forWriting: url,
+            settings: AudioFormats.fileSettings,
+            commonFormat: .pcmFormatFloat32,
+            interleaved: false
+        )
+    }
+
+    static func append(_ samples: [Float], to file: AVAudioFile) throws {
+        guard !samples.isEmpty else { return }
+
+        let format = AudioFormats.processing
+        guard let buffer = AVAudioPCMBuffer(
+            pcmFormat: format,
+            frameCapacity: AVAudioFrameCount(samples.count)
+        ), let channel = buffer.floatChannelData?[0] else {
+            throw AudioCaptureError.bufferAllocationFailed
+        }
+
+        samples.withUnsafeBufferPointer { source in
+            channel.update(from: source.baseAddress!, count: samples.count)
+        }
+        buffer.frameLength = AVAudioFrameCount(samples.count)
+        try file.write(from: buffer)
+    }
+
+    static func write(_ samples: [Float], to url: URL) throws {
+        let file = try makeFile(at: url)
+        try append(samples, to: file)
+    }
+
     private static func read(_ file: AVAudioFile, format: AVAudioFormat) throws -> [Float] {
         guard let buffer = AVAudioPCMBuffer(
             pcmFormat: format,

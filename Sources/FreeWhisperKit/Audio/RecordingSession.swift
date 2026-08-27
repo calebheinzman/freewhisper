@@ -28,7 +28,8 @@ public final class RecordingSession {
     private let store: MeetingStore
     private let mic = MicRecorder()
     private let systemTap = SystemAudioTap()
-    private var restartCheckTimer: DispatchSourceTimer?
+    private var watchdogTimer: DispatchSourceTimer?
+    private var watchdogs: [AudioStream: StreamWatchdog] = [:]
 
     public private(set) var isRecording = false
 
@@ -94,7 +95,7 @@ public final class RecordingSession {
         try? store.save(metadata)
 
         isRecording = true
-        startWatchingForDeviceChanges()
+        startWatchdog()
 
         Log.audio.info("recording \(self.metadata.id, privacy: .public) mic=\(self.metadata.hasMicAudio, privacy: .public) system=\(self.metadata.hasSystemAudio, privacy: .public)")
     }
@@ -104,8 +105,8 @@ public final class RecordingSession {
         guard isRecording else { return metadata }
         isRecording = false
 
-        restartCheckTimer?.cancel()
-        restartCheckTimer = nil
+        watchdogTimer?.cancel()
+        watchdogTimer = nil
 
         mic.stop()
         systemTap.stop()
@@ -137,50 +138,132 @@ public final class RecordingSession {
         status.systemActive = systemTap.isRunning
         status.micLevel = ResamplingRecorder.meterScale(mic.level)
         status.systemLevel = ResamplingRecorder.meterScale(systemTap.level)
-        status.duration = Date().timeIntervalSince(metadata.startedAt)
+        // Captured audio, not wall clock. A stream that died mid-meeting used to
+        // leave this counting cheerfully upwards while nothing was being
+        // written, which is the one thing the elapsed time is there to show.
+        status.duration = max(mic.duration, systemTap.duration)
 
         if isRecording {
             if !status.micActive && status.systemActive {
                 status.warning = "Microphone not captured — your side won't be transcribed."
             } else if status.micActive && !status.systemActive {
                 status.warning = "System audio not captured — only your side will be transcribed."
+            } else if let gap = captureGap(at: status.duration) {
+                status.warning = gap
             }
         }
         return status
     }
 
-    // MARK: Device changes
+    /// Warns when captured audio has fallen behind the clock.
+    ///
+    /// Restarting a dead stream costs a seam, and enough of them mean the
+    /// recording no longer covers the meeting. The user is the only one who can
+    /// act on that — by fixing the device, or by knowing not to rely on this
+    /// recording — and only while there is still a meeting left to fix it in.
+    ///
+    /// The allowance is deliberately loose. A couple of restarts is a few
+    /// seconds and not worth a banner; a minute missing is.
+    static let captureGapTolerance: TimeInterval = 60
 
-    /// The aggregate device is pinned to whichever output device existed when it
-    /// was created, so switching to headphones mid-call strands it. Rebuild the
-    /// system tap onto the new device, leaving the mic stream untouched.
-    private func startWatchingForDeviceChanges() {
+    private func captureGap(at captured: TimeInterval) -> String? {
+        let elapsed = Date().timeIntervalSince(metadata.startedAt)
+        let missing = elapsed - captured
+        guard missing > Self.captureGapTolerance else { return nil }
+        return "Audio capture has dropped \(Int(missing / 60)) min — check your input and output devices."
+    }
+
+    // MARK: Keeping the streams alive
+
+    /// Restarts either stream once it stops producing audio.
+    ///
+    /// This used to watch only for a change of default output device, which
+    /// strands the aggregate device the system tap is built on. That is a real
+    /// failure and it is not the only one: the mic engine stops on any audio
+    /// configuration change, and the tap can be lost without the *default*
+    /// device changing at all. Both of those leave a stream that reports itself
+    /// as running while writing nothing.
+    ///
+    /// See ``StreamWatchdog`` for why the test is captured seconds rather than
+    /// any particular cause.
+    private func startWatchdog() {
+        let now = Date()
+        watchdogs = [
+            .microphone: StreamWatchdog(startedAt: metadata.micStartedAt ?? now),
+            .system: StreamWatchdog(startedAt: metadata.systemStartedAt ?? now),
+        ]
+
         let timer = DispatchSource.makeTimerSource(
-            queue: DispatchQueue(label: "dev.freewhisper.device-watch")
+            queue: DispatchQueue(label: "dev.freewhisper.stream-watchdog")
         )
         timer.schedule(deadline: .now() + 1, repeating: 1)
         timer.setEventHandler { [weak self] in
-            guard let self, self.isRecording, self.systemTap.needsRestart else { return }
-            self.restartSystemTap()
+            guard let self, self.isRecording else { return }
+            self.checkStreams()
         }
-        restartCheckTimer = timer
+        watchdogTimer = timer
         timer.resume()
     }
 
-    private func restartSystemTap() {
-        Log.audio.notice("restarting system tap after output device change")
-        systemTap.stop()
+    private func checkStreams() {
+        if metadata.hasMicAudio,
+           watchdogs[.microphone]?.shouldRestart(
+               captured: mic.duration,
+               forced: mic.needsRestart
+           ) == true {
+            restart(.microphone)
+        }
 
-        // Recording continues into a numbered sibling file; the assembler
-        // stitches the segments back together by their start timestamps.
-        let segmentURL = paths.directory.appendingPathComponent(
-            "system-\(Int(Date().timeIntervalSince(metadata.startedAt))).wav"
-        )
+        if metadata.hasSystemAudio,
+           watchdogs[.system]?.shouldRestart(
+               captured: systemTap.duration,
+               forced: systemTap.needsRestart
+           ) == true {
+            restart(.system)
+        }
+    }
+
+    /// Rebuilds one capture stream, continuing into a new segment file.
+    ///
+    /// A new file rather than the original, because the piece already on disk is
+    /// finished and its header says how long it is. The name carries the offset
+    /// in seconds from the moment *this stream* opened — the clock its own
+    /// timestamps are on, which is what lets ``TranscriptionPipeline`` put the
+    /// pieces back in the right place.
+    private func restart(_ stream: AudioStream) {
+        let origin = (stream == .microphone ? metadata.micStartedAt : metadata.systemStartedAt)
+            ?? metadata.startedAt
+        let captured = stream == .microphone ? mic.duration : systemTap.duration
+        let url = paths.audioSegment(stream, restartedAt: Date().timeIntervalSince(origin))
+
+        Log.audio.notice("""
+            restarting \(stream.rawValue, privacy: .public) capture into \
+            \(url.lastPathComponent, privacy: .public) after \
+            \(Int(captured), privacy: .public)s captured
+            """)
+
         do {
-            try systemTap.start(writingTo: segmentURL)
+            switch stream {
+            case .microphone:
+                mic.stop()
+                try mic.start(writingTo: url)
+            case .system:
+                systemTap.stop()
+                try systemTap.start(writingTo: url)
+            }
         } catch {
-            Log.audio.error("could not restart system tap: \(error.localizedDescription, privacy: .public)")
-            metadata.systemAudioError = "System audio stopped when the output device changed."
+            // Not fatal, and not final: the watchdog keeps trying on a widening
+            // backoff, so a device that comes back is picked up again. Record it
+            // so a meeting that never recovered says why.
+            Log.audio.error("""
+                could not restart \(stream.rawValue, privacy: .public) capture: \
+                \(error.localizedDescription, privacy: .public)
+                """)
+            let message = "\(stream.displayName) stopped mid-recording and could not be restarted."
+            switch stream {
+            case .microphone: metadata.micError = message
+            case .system: metadata.systemAudioError = message
+            }
             try? store.save(metadata)
         }
     }

@@ -70,33 +70,40 @@ public struct TranscriptionPipeline: Sendable {
         progress: ProgressHandler?
     ) async throws -> Transcript {
         let (asr, diarizer) = await Self.engines(for: model)
-        let fileManager = FileManager.default
 
         var micSegments: [RawSegment] = []
         var systemSegments: [RawSegment] = []
         var systemTurns: [SpeakerTurn] = []
 
-        if metadata.hasMicAudio, fileManager.fileExists(atPath: paths.micAudio.path) {
+        // Each stream is however many pieces capture was restarted into, joined
+        // back into one file so the engines see the whole call and the diarizer
+        // clusters every remote voice in a single pass. Timestamps come back on
+        // the joined file's clock and are rebased onto the meeting's.
+        if metadata.hasMicAudio, let mic = try StreamJoiner.join(paths.segments(of: .microphone)) {
+            defer { mic.cleanUp() }
             // No word timings: the mic channel is the local user by definition,
             // so there is no speaker to place and nothing to place it with.
-            micSegments = try await asr.transcribe(url: paths.micAudio, progress: progress)
+            micSegments = try await asr
+                .transcribe(url: mic.url, progress: progress)
+                .map(mic.rebase)
         }
 
-        if metadata.hasSystemAudio, fileManager.fileExists(atPath: paths.systemAudio.path) {
+        if metadata.hasSystemAudio, let system = try StreamJoiner.join(paths.segments(of: .system)) {
+            defer { system.cleanUp() }
             // Word timings here, because this is the channel that gets diarized
             // and a speaker change lands mid-segment more often than not.
-            systemSegments = try await asr.transcribe(
-                url: paths.systemAudio,
-                wordTimings: true,
-                progress: progress
-            )
+            systemSegments = try await asr
+                .transcribe(url: system.url, wordTimings: true, progress: progress)
+                .map(system.rebase)
 
             // Diarization is only worth running when there is remote speech to
             // split, and a failure here shouldn't cost us the transcript — an
             // unlabelled transcript beats none.
             if !systemSegments.isEmpty {
                 do {
-                    systemTurns = try await diarizer.diarize(url: paths.systemAudio, progress: progress)
+                    systemTurns = try await diarizer
+                        .diarize(url: system.url, progress: progress)
+                        .map(system.rebase)
                 } catch {
                     Log.transcription.error("diarization failed, continuing unlabelled: \(error.localizedDescription, privacy: .public)")
                 }
