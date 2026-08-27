@@ -8,7 +8,7 @@
   },
   "itemCount" : 5,
   "model" : "parakeet-v3",
-  "modelLoadSeconds" : 0.656026916,
-  "totalWallSeconds" : 56.399015417,
+  "modelLoadSeconds" : 0.500057,
+  "totalWallSeconds" : 41.36763825,
   "track" : "meeting"
 }

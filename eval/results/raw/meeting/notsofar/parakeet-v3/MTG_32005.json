@@ -3,1113 +3,1022 @@
   "dataset" : "notsofar",
   "id" : "MTG_32005",
   "model" : "parakeet-v3",
-  "rtfx" : 40.214111794588646,
+  "rtfx" : 78.3761193506996,
   "segments" : [
     {
       "end" : 14.4,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 7.2,
       "text" : "Okay guys, I think we have to discuss this the issue of um our students using chat GTP GPT"
     },
     {
       "end" : 15.84,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 15.040000000000001,
       "text" : "to um"
     },
     {
       "end" : 24.8,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 16.72,
       "text" : "either do their assignments or uh or edit their assignments or improve their assignments or whatever the heck they're doing."
     },
     {
       "end" : 42.48,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 24.8,
       "text" : "Uh there's been a lot of plagiarism in that a lot a lot a lot we're talking we're talking serious plagiarism here and a serious educational issue as an issue but how do we go forward with uh you know grading evaluating uh anything anything for the for the future of these students and for the future of the college."
     },
     {
-      "end" : 44.56,
-      "speaker" : "speaker_1",
+      "end" : 43.76,
+      "speaker" : "speaker_S1",
       "start" : 43.2,
-      "text" : "Who wants to start?"
+      "text" : "Who wants"
+    },
+    {
+      "end" : 44.56,
+      "speaker" : "speaker_S2",
+      "start" : 43.76,
+      "text" : "to start?"
     },
     {
       "end" : 45.36,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S2",
       "start" : 44.800000000000004,
       "text" : "Okay."
     },
     {
       "end" : 45.76,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S2",
       "start" : 45.36,
       "text" : "Go ahead."
     },
     {
       "end" : 52.08,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 46.08,
       "text" : "Well the software that's available to identify chat GPT uh that's being used."
     },
     {
       "end" : 53.6,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 52.08,
       "text" : "It's not always accurate."
     },
     {
       "end" : 62.24,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 53.6,
       "text" : "I remember writing an assignment and having it uh having it tagged as being chat GPT when I wrote it myself."
     },
     {
       "end" : 64.39999999999999,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 62.24,
       "text" : "But uh for the most part um"
     },
     {
       "end" : 71.28,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 65.04,
       "text" : "you know, we can rely on technology like software to identify chat GPT."
     },
     {
       "end" : 71.52,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 71.28,
       "text" : "Um"
     },
     {
       "end" : 82.16,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 72.16,
       "text" : "except for that software, I feel like it's there's also the problem that creativity stopped for the students because everything everything is uh competition win."
     },
     {
       "end" : 89.03999999999999,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 82.16,
       "text" : "Not just competition, but everything you have to write a paper about an original idea, you go on chat GPT, give me this original idea."
     },
     {
       "end" : 95.2,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 89.04,
       "text" : "Might not be as original because it's chat GPT had to be put in there, but also they don't really have to think about it twice."
     },
     {
       "end" : 97.6,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 95.2,
       "text" : "They're like, oh, here's an idea and I'm done."
     },
     {
       "end" : 115.67999999999999,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S4",
       "start" : 99.76,
       "text" : "And we were talking about time uh uh earlier on another subject and and again they can gain time but what's the point of having more time if if the creativity is not there and they have and it doesn't teach them how to think and how to research."
     },
     {
       "end" : 118,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S4",
       "start" : 115.68,
       "text" : "How to think, how to research and how to be creativity."
     },
     {
       "end" : 118.56,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S3",
       "start" : 118,
       "text" : "I like it."
     },
     {
       "end" : 121.12,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 118.96000000000001,
       "text" : "Creativity and also just hard work in general."
     },
     {
       "end" : 125.92,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 121.12,
       "text" : "Like they they become lazier, they can just type out, write me this the write me this essay."
     },
     {
       "end" : 126.48,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 126.08,
       "text" : "Yes."
     },
     {
       "end" : 127.12,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 126.56,
       "text" : "It's in there."
     },
     {
       "end" : 128.4,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 127.12,
       "text" : "So how how do we stop that?"
     },
     {
-      "end" : 129.28,
-      "speaker" : "speaker_4",
+      "end" : 128.96,
+      "speaker" : "speaker_S3",
       "start" : 128.4,
-      "text" : "How do we stop that?"
+      "text" : "How do we stop"
+    },
+    {
+      "end" : 129.28,
+      "speaker" : "speaker_S2",
+      "start" : 129.12,
+      "text" : "that?"
     },
     {
       "end" : 132.24,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 129.52,
       "text" : "Well I think you know one thing that we might consider."
     },
     {
       "end" : 132.88000000000002,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 132.24,
       "text" : "Sorry I don't have to"
     },
     {
       "end" : 134.24,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 133.6,
       "text" : "Okay, go ahead."
     },
     {
       "end" : 134.48000000000002,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S2",
       "start" : 134.4,
       "text" : "go."
     },
     {
       "end" : 135.76000000000002,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S2",
       "start" : 135.44,
       "text" : "sorry."
     },
     {
       "end" : 136.8,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S2",
       "start" : 136.16,
       "text" : "okay."
     },
     {
       "end" : 139.28000000000003,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 136.8,
       "text" : "As soon as you can bring up on it when you come back."
     },
     {
       "end" : 143.76,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 140.16,
       "text" : "One thing we might do is what uh other schools let's say like I"
     },
     {
       "end" : 155.68,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 144.4,
       "text" : "schools uh like Princeton and actually Harvard have done where you actually have the students sign a a document saying stating from the very beginning that"
     },
     {
       "end" : 162.8,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 156.48,
       "text" : "there's they'll they will not be cheating and uh and that and that they won't use chat GPT."
     },
     {
       "end" : 164.56,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 162.8,
       "text" : "You can just add that to that document."
     },
     {
-      "end" : 169.28000000000003,
-      "speaker" : "speaker_1",
+      "end" : 166.00000000000003,
+      "speaker" : "speaker_S2",
       "start" : 165.04,
-      "text" : "Yes, okay okay, but that's okay, but that's a that's a way to catch them after the fact, okay?"
+      "text" : "Yes, okay okay,"
+    },
+    {
+      "end" : 169.28000000000003,
+      "speaker" : "speaker_S1",
+      "start" : 166,
+      "text" : "but that's okay, but that's a that's a way to catch them after the fact, okay?"
     },
     {
       "end" : 170.16000000000003,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 169.52,
       "text" : "Maybe."
     },
     {
       "end" : 171.2,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 170.16,
       "text" : "No, not even."
     },
     {
       "end" : 172.96,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 171.20000000000002,
       "text" : "But uh that's not a way to catch them."
     },
     {
       "end" : 174.56,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 172.96,
       "text" : "It's a way it's interesting."
     },
     {
       "end" : 178.16,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 174.72,
       "text" : "It's always been frowned upon and not allowed to to cheat."
     },
     {
       "end" : 197.92000000000002,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 178.16,
       "text" : "Okay, but here we've got here we've got software that cheats for them, software that helps them cheat, software that um frankly the faculty isn't yet um technologically uh astute enough to always um you know to always be able to even s even sort of sense when they missed Welcome back, welcome back."
     },
     {
       "end" : 200.16,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 198.88,
       "text" : "hi, welcome back."
     },
     {
       "end" : 202.24,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 200.8,
       "text" : "What did I miss?"
     },
     {
       "end" : 207.52,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 202.24,
       "text" : "Kind of an arms race between the the students level switch me up of the digital knowledge and the and the faculty"
     },
     {
       "end" : 210,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 208.32,
       "text" : "uh knowledge of of digital uh"
     },
     {
       "end" : 220.8,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 210.64000000000001,
       "text" : "what I suggested is that uh we might have in place uh a form a document that's signed by students saying that they won't cheat uh"
     },
     {
       "end" : 223.52,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 221.52,
       "text" : "and they won't use chat GPT."
     },
     {
       "end" : 225.76,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S2",
       "start" : 223.52,
       "text" : "How is that different from the regular plagiarism"
     },
     {
       "end" : 228.08,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S2",
       "start" : 226.64000000000001,
       "text" : "the regular plagiarism rules?"
     },
     {
       "end" : 229.68,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S2",
       "start" : 228.24,
       "text" : "Plagiarism rules, you know."
     },
     {
       "end" : 233.68,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 229.76,
       "text" : "Well it it it really isn't, but uh any threat of them"
     },
     {
       "end" : 251.84,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 234.56,
       "text" : "not uh adhering to this uh you know this rule that we've put in place and make it very uh understandable that they can be uh they can be uh expelled from school, suspended, and uh thrown out of school."
     },
     {
       "end" : 254.48,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 251.84,
       "text" : "Then they start to uh uh"
     },
     {
       "end" : 263.28,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 255.12,
       "text" : "you know understand and and be afraid because schools cost so much these uh these days they nobody wants to uh to get thrown out of school."
     },
     {
       "end" : 264,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S2",
       "start" : 263.76,
       "text" : "okay."
     },
     {
-      "end" : 276.96,
-      "speaker" : "speaker_1",
+      "end" : 275.52,
+      "speaker" : "speaker_S1",
       "start" : 264.4,
-      "text" : "If we've got an actual action item we can assign to somebody to to to take on to I don' I don't help us try to figure out what might be recommended to do maybe if we had"
+      "text" : "If we've got an actual action item we can assign to somebody to to to take on to I don' I don't help us try to figure out what might be recommended to do maybe"
+    },
+    {
+      "end" : 276.96,
+      "speaker" : "speaker_S4",
+      "start" : 276,
+      "text" : "if we had"
     },
     {
       "end" : 295.92,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S4",
       "start" : 277.84000000000003,
       "text" : "quantitatively exactly uh how many in percentage uh how many students use it compared to the totality student on a specific assignment would uh would that give us more of uh how bad the problem is and how we"
     },
     {
-      "end" : 314.08,
-      "speaker" : "speaker_2",
+      "end" : 304.08,
+      "speaker" : "speaker_S1",
       "start" : 296.56,
-      "text" : "quantify that we have to identify the uses of of uh of chat chat gpt which isn't easy as it sounds let's start with this yeah okay if if we're gonna have let's say software let's let's uh let's all agree on a software that that can be used."
+      "text" : "quantify that we have to identify the uses of of uh of chat chat gpt which isn't easy as it sounds"
+    },
+    {
+      "end" : 314.08,
+      "speaker" : "speaker_S2",
+      "start" : 304.48,
+      "text" : "let's start with this yeah okay if if we're gonna have let's say software let's let's uh let's all agree on a software that that can be used."
     },
     {
       "end" : 315.04,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 314.24,
       "text" : "Okay."
     },
     {
-      "end" : 317.12,
-      "speaker" : "speaker_2",
+      "end" : 316.64000000000004,
+      "speaker" : "speaker_S2",
       "start" : 315.04,
-      "text" : "And I think it's more than software."
+      "text" : "And I think it's more than"
+    },
+    {
+      "end" : 317.12,
+      "speaker" : "speaker_S3",
+      "start" : 316.72,
+      "text" : "software."
     },
     {
       "end" : 320.56000000000006,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 317.12,
       "text" : "I think it comes from the root of the assignment that you give to students."
     },
     {
       "end" : 328.15999999999997,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 320.56,
       "text" : "If you give them assignments that can't be done on Chat GPTs, it comes to understanding or if it comes to Can anything be done on Chat GPT."
     },
     {
       "end" : 331.84000000000003,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 328.32,
       "text" : "There's certain things as of right now that can't be done on Chat GPT."
     },
     {
       "end" : 338,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 331.84000000000003,
       "text" : "So maybe understanding what can't be done on Chat GPT and then following that, then we can though that's fine"
     },
     {
       "end" : 349.84000000000003,
-      "speaker" : "speaker_4",
+      "speaker" : "speaker_S3",
       "start" : 339.76,
       "text" : "It can change, but adapting to the assignments and creating assignments that can't be done on chat GPT, having problems problem solving skills that can be done through that."
     },
     {
       "end" : 356.08,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 350.32,
       "text" : "I mean for for a while we thought that the ch chat GP G chat GPT wasn't good at at at math."
     },
     {
       "end" : 358.32000000000005,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 356.08,
       "text" : "It turned that now all of a sudden it is."
     },
     {
       "end" : 360.32,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 358.32,
       "text" : "And these things are just racing ahead."
     },
     {
       "end" : 362.00000000000006,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 360.64,
       "text" : "So Sarah, you seem"
     },
     {
       "end" : 365.76000000000005,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S4",
       "start" : 362.64,
       "text" : "s would you be ready to take this assignment on your uh"
     },
     {
       "end" : 367.84,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S4",
       "start" : 366.40000000000003,
       "text" : "and make it, you know"
     },
     {
       "end" : 372.56,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 368.96,
       "text" : "You might know the most about uh yes assignment of what?"
     },
     {
-      "end" : 384.64000000000004,
-      "speaker" : "speaker_1",
+      "end" : 372.8,
+      "speaker" : "speaker_S1",
       "start" : 372.56,
-      "text" : "What of finding out what we were just uh saying now lately that find out, oh yet you were proposing uh find a few assignments that cannot be found on Chat GPT."
+      "text" : "What"
+    },
+    {
+      "end" : 384.64000000000004,
+      "speaker" : "speaker_S4",
+      "start" : 373.04,
+      "text" : "of finding out what we were just uh saying now lately that find out, oh yet you were proposing uh find a few assignments that cannot be found on Chat GPT."
+    },
+    {
+      "end" : 392.00000000000006,
+      "speaker" : "speaker_S3",
+      "start" : 384.96000000000004,
+      "text" : "I think I think for all of us we're teaching different things, so I think for all of us we have to find something that can be do"
     },
     {
       "end" : 392.48,
-      "speaker" : "speaker_4",
-      "start" : 384.96000000000004,
-      "text" : "I think I think for all of us we're teaching different things, so I think for all of us we have to find something that can be do differently."
+      "speaker" : "speaker_S1",
+      "start" : 392,
+      "text" : "differently."
     },
     {
       "end" : 393.68,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 392.48,
       "text" : "You mean each one of us?"
     },
     {
       "end" : 394.32,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 393.68,
       "text" : "Yes."
     },
     {
       "end" : 396.24,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 394.32,
       "text" : "Okay, that could be also an option."
     },
     {
       "end" : 401.76000000000005,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 397.2,
       "text" : "also we haven't even talked yet about the the the the skill or the art of prompt writing."
     },
     {
       "end" : 406.48,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 401.76,
       "text" : "I mean who's who's gonna win that that uh arms race, the the the students or us"
     },
     {
       "end" : 415.12,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 407.52,
       "text" : "Writing prompts is a i is considered to be a skill, I'm not so sure if it really is, but it's considered to be a skill already."
     },
     {
       "end" : 417.68,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 415.12,
       "text" : "And we're not skilled at it, frankly."
     },
     {
       "end" : 420.24,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S2",
       "start" : 417.92,
       "text" : "Well, we better start being because uh"
     },
     {
       "end" : 425.44,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 421.12,
       "text" : "it's definitely a part of our lives now and uh it's it's technology that we can't."
     },
     {
       "end" : 431.04,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 425.44,
       "text" : "We're gonna have to have right the the faculty is gonna have to take some action also to educate itself."
     },
     {
       "end" : 431.52000000000004,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 431.04,
       "text" : "Okay?"
     },
     {
       "end" : 434.72,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 431.52,
       "text" : "Not just to deal with the problem, but using this stuff."
     },
     {
       "end" : 435.6,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 434.72,
       "text" : "Right."
     },
     {
       "end" : 436.16,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 435.6,
       "text" : "Alright, so"
     },
     {
       "end" : 437.76,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 437.04,
       "text" : "we can't leave it behind."
     },
     {
-      "end" : 439.12,
-      "speaker" : "speaker_2",
+      "end" : 438.32,
+      "speaker" : "speaker_S1",
       "start" : 438.08,
-      "text" : "How do we where do we start?"
+      "text" : "How do"
+    },
+    {
+      "end" : 439.12,
+      "speaker" : "speaker_S2",
+      "start" : 438.32,
+      "text" : "we where do we start?"
     },
     {
       "end" : 439.68,
-      "speaker" : "speaker_2",
+      "speaker" : "speaker_S2",
       "start" : 439.12,
       "text" : "What do we do first"
     },
     {
       "end" : 441.84,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 440.96000000000004,
       "text" : "Okay."
     },
     {
       "end" : 445.12,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 441.84000000000003,
       "text" : "We had a suggestion for Sarah."
     },
     {
       "end" : 446.32,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 445.12,
       "text" : "Yeah, for Sarah, right?"
     },
     {
       "end" : 452,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 446.8,
       "text" : "Yeah, doing different assignments, creating different assignments, assigning different assignments."
     },
     {
       "end" : 453.44000000000005,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 452.08,
       "text" : "Creating different assignments."
     },
     {
       "end" : 454,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 453.44,
       "text" : "Okay."
     },
     {
       "end" : 457.36,
-      "speaker" : "speaker_1",
+      "speaker" : "speaker_S1",
       "start" : 454,
       "text" : "And here we're gonna get off topic again"
     }
   ],
   "speakerTurns" : [
     {
-      "end" : 9.939374923706055,
-      "speaker" : "speaker_1",
-      "start" : 7.408124923706055
+      "end" : 14.329371452331543,
+      "speaker" : "speaker_S1",
+      "start" : 7.453310489654541
     },
     {
-      "end" : 14.26937484741211,
-      "speaker" : "speaker_1",
-      "start" : 10
+      "end" : 19.3887939453125,
+      "speaker" : "speaker_S1",
+      "start" : 16.977928161621094
     },
     {
-      "end" : 19.939374923706055,
-      "speaker" : "speaker_1",
-      "start" : 16.935625076293945
+      "end" : 21.035654067993164,
+      "speaker" : "speaker_S1",
+      "start" : 19.541595458984375
     },
     {
-      "end" : 21.029375076293945,
-      "speaker" : "speaker_1",
-      "start" : 20
+      "end" : 24.159591674804688,
+      "speaker" : "speaker_S1",
+      "start" : 21.324277877807617
     },
     {
-      "end" : 24.134374618530273,
-      "speaker" : "speaker_1",
-      "start" : 21.299375534057617
+      "end" : 36.027164459228516,
+      "speaker" : "speaker_S1",
+      "start" : 25.0933780670166
     },
     {
-      "end" : 29.939374923706055,
-      "speaker" : "speaker_1",
-      "start" : 25.0625
+      "end" : 42.27504348754883,
+      "speaker" : "speaker_S1",
+      "start" : 36.570457458496094
     },
     {
-      "end" : 35.973751068115234,
-      "speaker" : "speaker_1",
-      "start" : 30
+      "end" : 50.62818145751953,
+      "speaker" : "speaker_S2",
+      "start" : 45.97623062133789
     },
     {
-      "end" : 39.93937683105469,
-      "speaker" : "speaker_1",
-      "start" : 36.53062438964844
+      "end" : 54.87266540527344,
+      "speaker" : "speaker_S2",
+      "start" : 50.7979621887207
     },
     {
-      "end" : 42.29499816894531,
-      "speaker" : "speaker_1",
-      "start" : 40
+      "end" : 56.89303970336914,
+      "speaker" : "speaker_S2",
+      "start" : 55.22920227050781
     },
     {
-      "end" : 44.43812561035156,
-      "speaker" : "speaker_1",
-      "start" : 43.307498931884766
+      "end" : 61.799659729003906,
+      "speaker" : "speaker_S2",
+      "start" : 58.13242721557617
     },
     {
-      "end" : 49.93937683105469,
-      "speaker" : "speaker_2",
-      "start" : 45.939998626708984
+      "end" : 64.77079772949219,
+      "speaker" : "speaker_S2",
+      "start" : 62.207130432128906
     },
     {
-      "end" : 54.82624816894531,
-      "speaker" : "speaker_2",
-      "start" : 50.84375
+      "end" : 70.67911529541016,
+      "speaker" : "speaker_S2",
+      "start" : 65.19524383544922
     },
     {
-      "end" : 56.834373474121094,
-      "speaker" : "speaker_2",
-      "start" : 55.21437454223633
+      "end" : 74.90662384033203,
+      "speaker" : "speaker_S3",
+      "start" : 72.037353515625
     },
     {
-      "end" : 59.93937683105469,
-      "speaker" : "speaker_2",
-      "start" : 58.11687469482422
+      "end" : 88.72665405273438,
+      "speaker" : "speaker_S3",
+      "start" : 75.22920227050781
     },
     {
-      "end" : 61.78874969482422,
-      "speaker" : "speaker_2",
-      "start" : 60
+      "end" : 92.10526275634766,
+      "speaker" : "speaker_S3",
+      "start" : 89.11714935302734
     },
     {
-      "end" : 64.74187469482422,
-      "speaker" : "speaker_2",
-      "start" : 62.176876068115234
+      "end" : 99.71137237548828,
+      "speaker" : "speaker_S3",
+      "start" : 92.29202270507812
     },
     {
-      "end" : 69.93937683105469,
-      "speaker" : "speaker_2",
-      "start" : 65.16374969482422
+      "end" : 101.74872589111328,
+      "speaker" : "speaker_S4",
+      "start" : 99.71137237548828
     },
     {
-      "end" : 74.86000061035156,
-      "speaker" : "speaker_4",
-      "start" : 72.04187774658203
+      "end" : 115.36502838134766,
+      "speaker" : "speaker_S4",
+      "start" : 101.93548583984375
     },
     {
-      "end" : 79.93937683105469,
-      "speaker" : "speaker_4",
-      "start" : 75.2143783569336
+      "end" : 117.9966049194336,
+      "speaker" : "speaker_S4",
+      "start" : 115.78947448730469
     },
     {
-      "end" : 88.65687561035156,
-      "speaker" : "speaker_4",
-      "start" : 80
+      "end" : 128.93038940429688,
+      "speaker" : "speaker_S3",
+      "start" : 117.9966049194336
     },
     {
-      "end" : 92.09249877929688,
-      "speaker" : "speaker_4",
-      "start" : 90
+      "end" : 134.5670623779297,
+      "speaker" : "speaker_S2",
+      "start" : 129.21900939941406
     },
     {
-      "end" : 99.75375366210938,
-      "speaker" : "speaker_4",
-      "start" : 92.27812194824219
+      "end" : 135.9083251953125,
+      "speaker" : "speaker_S2",
+      "start" : 134.85568237304688
     },
     {
-      "end" : 109.93937683105469,
-      "speaker" : "speaker_1",
-      "start" : 100
+      "end" : 165.8404083251953,
+      "speaker" : "speaker_S2",
+      "start" : 137.31748962402344
     },
     {
-      "end" : 115.3324966430664,
-      "speaker" : "speaker_1",
-      "start" : 110
+      "end" : 179.33786010742188,
+      "speaker" : "speaker_S1",
+      "start" : 165.8404083251953
     },
     {
-      "end" : 119.93937683105469,
-      "speaker" : "speaker_1",
-      "start" : 115.73750305175781
+      "end" : 188.96434020996094,
+      "speaker" : "speaker_S1",
+      "start" : 179.7962646484375
     },
     {
-      "end" : 128.87625122070312,
-      "speaker" : "speaker_4",
-      "start" : 120
+      "end" : 200.0848846435547,
+      "speaker" : "speaker_S1",
+      "start" : 189.5076446533203
     },
     {
-      "end" : 134.21875,
-      "speaker" : "speaker_2",
-      "start" : 130.50625610351562
+      "end" : 210.23768615722656,
+      "speaker" : "speaker_S1",
+      "start" : 200.6791229248047
     },
     {
-      "end" : 133.52687072753906,
-      "speaker" : "speaker_1",
-      "start" : 132.21063232421875
+      "end" : 220.4923553466797,
+      "speaker" : "speaker_S2",
+      "start" : 210.57725524902344
     },
     {
-      "end" : 139.14625549316406,
-      "speaker" : "speaker_1",
-      "start" : 133.9824981689453
+      "end" : 225.85739135742188,
+      "speaker" : "speaker_S2",
+      "start" : 220.66213989257812
     },
     {
-      "end" : 139.66937255859375,
-      "speaker" : "speaker_2",
-      "start" : 136.31124877929688
+      "end" : 251.44313049316406,
+      "speaker" : "speaker_S2",
+      "start" : 233.83700561523438
     },
     {
-      "end" : 149.9393768310547,
-      "speaker" : "speaker_2",
-      "start" : 140
+      "end" : 254.80474853515625,
+      "speaker" : "speaker_S2",
+      "start" : 251.78268432617188
     },
     {
-      "end" : 159.9393768310547,
-      "speaker" : "speaker_2",
-      "start" : 150
+      "end" : 264.0068054199219,
+      "speaker" : "speaker_S2",
+      "start" : 255.1782684326172
     },
     {
-      "end" : 165.77125549316406,
-      "speaker" : "speaker_2",
-      "start" : 160
+      "end" : 272.0203857421875,
+      "speaker" : "speaker_S1",
+      "start" : 265.92529296875
     },
     {
-      "end" : 169.9393768310547,
-      "speaker" : "speaker_1",
-      "start" : 164.67437744140625
+      "end" : 274.0068054199219,
+      "speaker" : "speaker_S1",
+      "start" : 272.7843933105469
     },
     {
-      "end" : 179.28125,
-      "speaker" : "speaker_1",
-      "start" : 170
+      "end" : 279.9320983886719,
+      "speaker" : "speaker_S4",
+      "start" : 277.8947448730469
     },
     {
-      "end" : 188.91000366210938,
-      "speaker" : "speaker_1",
-      "start" : 180
+      "end" : 281.3582458496094,
+      "speaker" : "speaker_S4",
+      "start" : 280.220703125
     },
     {
-      "end" : 199.9393768310547,
-      "speaker" : "speaker_1",
-      "start" : 190
+      "end" : 282.8183288574219,
+      "speaker" : "speaker_S4",
+      "start" : 281.816650390625
     },
     {
-      "end" : 209.9393768310547,
-      "speaker" : "speaker_1",
-      "start" : 200.6750030517578
+      "end" : 286.8081359863281,
+      "speaker" : "speaker_S4",
+      "start" : 283.6842041015625
     },
     {
-      "end" : 219.9393768310547,
-      "speaker" : "speaker_2",
-      "start" : 210
+      "end" : 290.7809753417969,
+      "speaker" : "speaker_S4",
+      "start" : 287.87774658203125
     },
     {
-      "end" : 224.26937866210938,
-      "speaker" : "speaker_2",
-      "start" : 220.70875549316406
+      "end" : 296.2648620605469,
+      "speaker" : "speaker_S4",
+      "start" : 291.2733459472656
     },
     {
-      "end" : 225.8387451171875,
-      "speaker" : "speaker_4",
-      "start" : 223.45938110351562
+      "end" : 301.5959167480469,
+      "speaker" : "speaker_S1",
+      "start" : 296.2648620605469
     },
     {
-      "end" : 229.9393768310547,
-      "speaker" : "speaker_4",
-      "start" : 226.85125732421875
+      "end" : 304.0068054199219,
+      "speaker" : "speaker_S1",
+      "start" : 302.037353515625
     },
     {
-      "end" : 239.9393768310547,
-      "speaker" : "speaker_2",
-      "start" : 230
+      "end" : 316.82513427734375,
+      "speaker" : "speaker_S2",
+      "start" : 304.0068054199219
     },
     {
-      "end" : 249.9393768310547,
-      "speaker" : "speaker_2",
-      "start" : 240
+      "end" : 326.84210205078125,
+      "speaker" : "speaker_S3",
+      "start" : 316.82513427734375
     },
     {
-      "end" : 254.7587432861328,
-      "speaker" : "speaker_2",
-      "start" : 250
+      "end" : 332.32598876953125,
+      "speaker" : "speaker_S3",
+      "start" : 327.7079772949219
     },
     {
-      "end" : 259.9393615722656,
-      "speaker" : "speaker_2",
-      "start" : 255.14688110351562
+      "end" : 349.779296875,
+      "speaker" : "speaker_S3",
+      "start" : 332.7164611816406
     },
     {
-      "end" : 261.3837585449219,
-      "speaker" : "speaker_2",
-      "start" : 260
+      "end" : 358.1663818359375,
+      "speaker" : "speaker_S1",
+      "start" : 349.779296875
     },
     {
-      "end" : 264.60687255859375,
-      "speaker" : "speaker_1",
-      "start" : 261.3837585449219
+      "end" : 360.2546691894531,
+      "speaker" : "speaker_S1",
+      "start" : 358.4040832519531
     },
     {
-      "end" : 269.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 266.3956298828125
+      "end" : 361.9015197753906,
+      "speaker" : "speaker_S1",
+      "start" : 360.6621398925781
     },
     {
-      "end" : 272.00811767578125,
-      "speaker" : "speaker_1",
-      "start" : 270
+      "end" : 366.1629943847656,
+      "speaker" : "speaker_S4",
+      "start" : 362.66552734375
     },
     {
-      "end" : 274.32000732421875,
-      "speaker" : "speaker_1",
-      "start" : 272.7674865722656
+      "end" : 367.5891418457031,
+      "speaker" : "speaker_S4",
+      "start" : 366.553466796875
     },
     {
-      "end" : 279.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 277.8299865722656
+      "end" : 370.73004150390625,
+      "speaker" : "speaker_S1",
+      "start" : 368.7945556640625
     },
     {
-      "end" : 281.3500061035156,
-      "speaker" : "speaker_1",
-      "start" : 280.2193603515625
+      "end" : 372.0033874511719,
+      "speaker" : "speaker_S1",
+      "start" : 371.001708984375
     },
     {
-      "end" : 282.8012390136719,
-      "speaker" : "speaker_1",
-      "start" : 281.78875732421875
+      "end" : 383.85400390625,
+      "speaker" : "speaker_S4",
+      "start" : 373.0899963378906
     },
     {
-      "end" : 286.7668762207031,
-      "speaker" : "speaker_1",
-      "start" : 283.661865234375
+      "end" : 392.0033874511719,
+      "speaker" : "speaker_S3",
+      "start" : 384.99151611328125
     },
     {
-      "end" : 289.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 287.7962646484375
+      "end" : 394.0916748046875,
+      "speaker" : "speaker_S1",
+      "start" : 392.0033874511719
     },
     {
-      "end" : 299.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 291.29937744140625
+      "end" : 396.45159912109375,
+      "speaker" : "speaker_S1",
+      "start" : 394.4142761230469
     },
     {
-      "end" : 301.5693664550781,
-      "speaker" : "speaker_1",
-      "start" : 300
+      "end" : 401.7657165527344,
+      "speaker" : "speaker_S1",
+      "start" : 396.7911682128906
     },
     {
-      "end" : 309.9393615722656,
-      "speaker" : "speaker_2",
-      "start" : 301.5693664550781
+      "end" : 406.4006652832031,
+      "speaker" : "speaker_S1",
+      "start" : 401.9015197753906
     },
     {
-      "end" : 303.9825134277344,
-      "speaker" : "speaker_1",
-      "start" : 301.974365234375
+      "end" : 414.29541015625,
+      "speaker" : "speaker_S1",
+      "start" : 407.8098449707031
     },
     {
-      "end" : 316.8343811035156,
-      "speaker" : "speaker_2",
-      "start" : 310
+      "end" : 417.1986389160156,
+      "speaker" : "speaker_S1",
+      "start" : 415.3480529785156
     },
     {
-      "end" : 319.9393615722656,
-      "speaker" : "speaker_4",
-      "start" : 315.771240234375
+      "end" : 425.2461853027344,
+      "speaker" : "speaker_S2",
+      "start" : 417.9966125488281
     },
     {
-      "end" : 328.60626220703125,
-      "speaker" : "speaker_4",
-      "start" : 320.59063720703125
+      "end" : 433.1069641113281,
+      "speaker" : "speaker_S1",
+      "start" : 425.2461853027344
     },
     {
-      "end" : 329.9393615722656,
-      "speaker" : "speaker_4",
-      "start" : 327.7118835449219
+      "end" : 434.9066162109375,
+      "speaker" : "speaker_S1",
+      "start" : 433.4974670410156
     },
     {
-      "end" : 332.3118896484375,
-      "speaker" : "speaker_4",
-      "start" : 330
+      "end" : 438.3361511230469,
+      "speaker" : "speaker_S1",
+      "start" : 435.7894592285156
     },
     {
-      "end" : 339.9393615722656,
-      "speaker" : "speaker_4",
-      "start" : 332.70001220703125
+      "end" : 440.3565368652344,
+      "speaker" : "speaker_S2",
+      "start" : 438.3361511230469
     },
     {
-      "end" : 349.7200012207031,
-      "speaker" : "speaker_4",
-      "start" : 340
+      "end" : 443.7181701660156,
+      "speaker" : "speaker_S1",
+      "start" : 442.037353515625
     },
     {
-      "end" : 359.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 350.2699890136719
+      "end" : 447.5382080078125,
+      "speaker" : "speaker_S1",
+      "start" : 444.4312438964844
     },
     {
-      "end" : 361.974365234375,
-      "speaker" : "speaker_1",
-      "start" : 360.67498779296875
+      "end" : 454.702880859375,
+      "speaker" : "speaker_S1",
+      "start" : 448.04754638671875
     },
     {
-      "end" : 361.8731384277344,
-      "speaker" : "speaker_1",
-      "start" : 360.67498779296875
-    },
-    {
-      "end" : 365.94000244140625,
-      "speaker" : "speaker_1",
-      "start" : 362.6493835449219
-    },
-    {
-      "end" : 367.5262451171875,
-      "speaker" : "speaker_1",
-      "start" : 366.5137634277344
-    },
-    {
-      "end" : 369.7706298828125,
-      "speaker" : "speaker_1",
-      "start" : 368.7412414550781
-    },
-    {
-      "end" : 369.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 368.7412414550781
-    },
-    {
-      "end" : 372.00811767578125,
-      "speaker" : "speaker_1",
-      "start" : 370
-    },
-    {
-      "end" : 378.7074890136719,
-      "speaker" : "speaker_1",
-      "start" : 373.05438232421875
-    },
-    {
-      "end" : 379.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 378.9268798828125
-    },
-    {
-      "end" : 383.8475036621094,
-      "speaker" : "speaker_4",
-      "start" : 380
-    },
-    {
-      "end" : 389.9393615722656,
-      "speaker" : "speaker_4",
-      "start" : 384.96124267578125
-    },
-    {
-      "end" : 394.11749267578125,
-      "speaker" : "speaker_1",
-      "start" : 390
-    },
-    {
-      "end" : 396.4125061035156,
-      "speaker" : "speaker_1",
-      "start" : 394.3706359863281
-    },
-    {
-      "end" : 399.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 396.7331237792969
-    },
-    {
-      "end" : 401.6199951171875,
-      "speaker" : "speaker_1",
-      "start" : 400
-    },
-    {
-      "end" : 406.4462585449219,
-      "speaker" : "speaker_1",
-      "start" : 401.9068603515625
-    },
-    {
-      "end" : 409.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 407.7456359863281
-    },
-    {
-      "end" : 414.25250244140625,
-      "speaker" : "speaker_1",
-      "start" : 410
-    },
-    {
-      "end" : 417.1549987792969,
-      "speaker" : "speaker_1",
-      "start" : 415.31561279296875
-    },
-    {
-      "end" : 419.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 417.9649963378906
-    },
-    {
-      "end" : 425.23126220703125,
-      "speaker" : "speaker_2",
-      "start" : 420
-    },
-    {
-      "end" : 429.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 424.7081298828125
-    },
-    {
-      "end" : 433.1050109863281,
-      "speaker" : "speaker_1",
-      "start" : 430
-    },
-    {
-      "end" : 434.9106140136719,
-      "speaker" : "speaker_1",
-      "start" : 433.4593811035156
-    },
-    {
-      "end" : 438.2856140136719,
-      "speaker" : "speaker_1",
-      "start" : 435.771240234375
-    },
-    {
-      "end" : 439.9393615722656,
-      "speaker" : "speaker_2",
-      "start" : 437.84686279296875
-    },
-    {
-      "end" : 443.69561767578125,
-      "speaker" : "speaker_1",
-      "start" : 442.0418701171875
-    },
-    {
-      "end" : 447.4418640136719,
-      "speaker" : "speaker_1",
-      "start" : 444.4043884277344
-    },
-    {
-      "end" : 449.9393615722656,
-      "speaker" : "speaker_1",
-      "start" : 447.9987487792969
-    },
-    {
-      "end" : 454.67437744140625,
-      "speaker" : "speaker_1",
-      "start" : 450
-    },
-    {
-      "end" : 456.9018859863281,
-      "speaker" : "speaker_1",
-      "start" : 455.4168701171875
+      "end" : 456.9439697265625,
+      "speaker" : "speaker_S1",
+      "start" : 455.4499206542969
     }
   ],
   "text" : "Okay guys, I think we have to discuss this the issue of um our students using chat GTP GPT to um either do their assignments or uh or edit their assignments or improve their assignments or whatever the heck they're doing. Uh there's been a lot of plagiarism in that a lot a lot a lot we're talking we're talking serious plagiarism here and a serious educational issue as an issue but how do we go forward with uh you know grading evaluating uh anything anything for the for the future of these students and for the future of the college. Who wants to start? Okay. Go ahead. Well the software that's available to identify chat GPT uh that's being used. It's not always accurate. I remember writing an assignment and having it uh having it tagged as being chat GPT when I wrote it myself. But uh for the most part um you know, we can rely on technology like software to identify chat GPT. Um except for that software, I feel like it's there's also the problem that creativity stopped for the students because everything everything is uh competition win. Not just competition, but everything you have to write a paper about an original idea, you go on chat GPT, give me this original idea. Might not be as original because it's chat GPT had to be put in there, but also they don't really have to think about it twice. They're like, oh, here's an idea and I'm done. And we were talking about time uh uh earlier on another subject and and again they can gain time but what's the point of having more time if if the creativity is not there and they have and it doesn't teach them how to think and how to research. How to think, how to research and how to be creativity. I like it. Creativity and also just hard work in general. Like they they become lazier, they can just type out, write me this the write me this essay. Yes. It's in there. So how how do we stop that? How do we stop that? Well I think you know one thing that we might consider. Sorry I don't have to Okay, go ahead. go. sorry. okay. As soon as you can bring up on it when you come back. One thing we might do is what uh other schools let's say like I schools uh like Princeton and actually Harvard have done where you actually have the students sign a a document saying stating from the very beginning that there's they'll they will not be cheating and uh and that and that they won't use chat GPT. You can just add that to that document. Yes, okay okay, but that's okay, but that's a that's a way to catch them after the fact, okay? Maybe. No, not even. But uh that's not a way to catch them. It's a way it's interesting. It's always been frowned upon and not allowed to to cheat. Okay, but here we've got here we've got software that cheats for them, software that helps them cheat, software that um frankly the faculty isn't yet um technologically uh astute enough to always um you know to always be able to even s even sort of sense when they missed Welcome back, welcome back. hi, welcome back. What did I miss? Kind of an arms race between the the students level switch me up of the digital knowledge and the and the faculty uh knowledge of of digital uh what I suggested is that uh we might have in place uh a form a document that's signed by students saying that they won't cheat uh and they won't use chat GPT. How is that different from the regular plagiarism the regular plagiarism rules? Plagiarism rules, you know. Well it it it really isn't, but uh any threat of them not uh adhering to this uh you know this rule that we've put in place and make it very uh understandable that they can be uh they can be uh expelled from school, suspended, and uh thrown out of school. Then they start to uh uh you know understand and and be afraid because schools cost so much these uh these days they nobody wants to uh to get thrown out of school. okay. If we've got an actual action item we can assign to somebody to to to take on to I don' I don't help us try to figure out what might be recommended to do maybe if we had quantitatively exactly uh how many in percentage uh how many students use it compared to the totality student on a specific assignment would uh would that give us more of uh how bad the problem is and how we quantify that we have to identify the uses of of uh of chat chat gpt which isn't easy as it sounds let's start with this yeah okay if if we're gonna have let's say software let's let's uh let's all agree on a software that that can be used. Okay. And I think it's more than software. I think it comes from the root of the assignment that you give to students. If you give them assignments that can't be done on Chat GPTs, it comes to understanding or if it comes to Can anything be done on Chat GPT. There's certain things as of right now that can't be done on Chat GPT. So maybe understanding what can't be done on Chat GPT and then following that, then we can though that's fine It can change, but adapting to the assignments and creating assignments that can't be done on chat GPT, having problems problem solving skills that can be done through that. I mean for for a while we thought that the ch chat GP G chat GPT wasn't good at at at math. It turned that now all of a sudden it is. And these things are just racing ahead. So Sarah, you seem s would you be ready to take this assignment on your uh and make it, you know You might know the most about uh yes assignment of what? What of finding out what we were just uh saying now lately that find out, oh yet you were proposing uh find a few assignments that cannot be found on Chat GPT. I think I think for all of us we're teaching different things, so I think for all of us we have to find something that can be do differently. You mean each one of us? Yes. Okay, that could be also an option. also we haven't even talked yet about the the the the skill or the art of prompt writing. I mean who's who's gonna win that that uh arms race, the the the students or us Writing prompts is a i is considered to be a skill, I'm not so sure if it really is, but it's considered to be a skill already. And we're not skilled at it, frankly. Well, we better start being because uh it's definitely a part of our lives now and uh it's it's technology that we can't. We're gonna have to have right the the faculty is gonna have to take some action also to educate itself. Okay? Not just to deal with the problem, but using this stuff. Right. Alright, so we can't leave it behind. How do we where do we start? What do we do first Okay. We had a suggestion for Sarah. Yeah, for Sarah, right? Yeah, doing different assignments, creating different assignments, assigning different assignments. Creating different assignments. Okay. And here we're gonna get off topic again",
   "track" : "meeting",
-  "wallSeconds" : 11.460843083
+  "wallSeconds" : 5.880459875
 }

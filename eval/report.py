@@ -194,9 +194,10 @@ def render(report: dict) -> str:
             "the speaker labels are wrong. **Speakers** and **Diarizer** are both "
             "`1 − DER`, and the gap between them is worth looking at: **Diarizer** is "
             "the turns the diarizer produced, and **Speakers** is what survived "
-            "assembly, which attributes each whole ASR segment to whichever turn it "
-            "overlaps most. A segment that runs across a speaker change takes one label "
-            "for all of it.\n"
+            "assembly, which labels each *word* by the turn it falls in and cuts the "
+            "segment where the speaker changes. What is left of the gap is words whose "
+            "own timing puts them on the wrong side of a boundary, plus whatever "
+            "arrived with no word timings to cut on.\n"
         )
         out.append(
             "\nNeither speaker column is a property of the ASR model — the diarizer "

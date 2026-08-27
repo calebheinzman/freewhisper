@@ -3,7 +3,7 @@
 Every score is 0 to 1, higher is better, and each is an average over three deliberately different corpora — the per-corpus numbers are underneath each table. Speed and latency were measured on one machine and do not transfer.
 
 - **Measured on:** Apple M1 Max, 32 GB, macOS 26.5.1
-- **Date:** 2026-08-26  
+- **Date:** 2026-08-27  
 - **Profile:** `fast`, 13.5 hours of audio transcribed in total
 
 
@@ -31,13 +31,13 @@ The headline is `1 − tcpWER`: words *and* the speaker they were attributed to,
 
 | Model                   | Score    | Words | Speakers | Diarizer | AMI close | NOTSOFAR | AMI far | Speed |
 |-------------------------|----------|-------|----------|----------|-----------|----------|---------|-------|
-| Distil-Whisper large-v3 | **0.50** | 0.58  | 0.60     | 0.90     | 0.64      | 0.50     | 0.35    | 17×   |
-| Whisper large-v3 turbo  | **0.48** | 0.57  | 0.59     | 0.90     | 0.63      | 0.49     | 0.32    | 9×    |
-| Whisper large-v3        | **0.39** | 0.47  | 0.50     | 0.90     | 0.49      | 0.44     | 0.24    | 2×    |
-| Parakeet TDT 0.6b v3    | **0.35** | 0.74  | 0.64     | 0.82     | 0.43      | 0.38     | 0.25    | 53×   |
-| Parakeet TDT-CTC 110M   | **0.34** | 0.70  | 0.59     | 0.82     | 0.41      | 0.36     | 0.24    | 59×   |
+| Parakeet TDT 0.6b v3    | **0.61** | 0.74  | 0.82     | 0.87     | 0.73      | 0.45     | 0.65    | 61×   |
+| Parakeet TDT-CTC 110M   | **0.59** | 0.71  | 0.75     | 0.87     | 0.72      | 0.43     | 0.63    | 80×   |
+| Distil-Whisper large-v3 | **0.49** | 0.57  | 0.65     | 0.90     | 0.63      | 0.49     | 0.36    | 18×   |
+| Whisper large-v3 turbo  | **0.48** | 0.55  | 0.62     | 0.90     | 0.62      | 0.48     | 0.34    | 9×    |
+| Whisper large-v3        | **0.45** | 0.52  | 0.59     | 0.90     | 0.64      | 0.44     | 0.26    | 2×    |
 
-A high **Words** with a low **Score** means the transcript is right and the speaker labels are wrong. **Speakers** and **Diarizer** are both `1 − DER`, and the gap between them is worth looking at: **Diarizer** is the turns the diarizer produced, and **Speakers** is what survived assembly, which attributes each whole ASR segment to whichever turn it overlaps most. A segment that runs across a speaker change takes one label for all of it.
+A high **Words** with a low **Score** means the transcript is right and the speaker labels are wrong. **Speakers** and **Diarizer** are both `1 − DER`, and the gap between them is worth looking at: **Diarizer** is the turns the diarizer produced, and **Speakers** is what survived assembly, which labels each *word* by the turn it falls in and cuts the segment where the speaker changes. What is left of the gap is words whose own timing puts them on the wrong side of a boundary, plus whatever arrived with no word timings to cut on.
 
 
 Neither speaker column is a property of the ASR model — the diarizer follows from the engine, so every Whisper row shares one and both Parakeet rows share another. That is why they cluster.

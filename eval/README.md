@@ -96,14 +96,16 @@ it was the highest-scoring model in the table.
 `calibrate_der.py` runs the real pipeline over AMI and checks the diarizer
 against pyannote's published 18.8% on the same condition. It also prints the
 diarizer's error rate beside the finished transcript's, which is the more
-interesting number: they are currently 0.15 and 0.34, so assembly is losing more
-of the speaker accuracy than the diarizer ever gets wrong.
+interesting number: they are currently 0.095 and 0.152. The gap between them is
+what assembly costs, and it used to be the larger of the two problems — 0.15 and
+0.34, a diarizer that was right nine times in ten feeding a transcript that was
+right two times in three.
 
 A scoring harness that is quietly wrong looks exactly like one that works, so
 both checks compare against numbers somebody else published:
 
 - **Diarization** should land near pyannote's **18.8% DER** on the AMI headset
-  mix. It gets 14.8%. That is why the reference RTTMs come from pyannote's AMI
+  mix. It gets 9.5%. That is why the reference RTTMs come from pyannote's AMI
   setup rather than being derived from the word timings — same reference, same
   collar, comparable answer.
 - **Whisper on LibriSpeech test-clean** should land in the low single digits of

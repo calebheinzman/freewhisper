@@ -8,7 +8,7 @@
   },
   "itemCount" : 5,
   "model" : "distil-whisper-large-v3",
-  "modelLoadSeconds" : 5.648465958,
-  "totalWallSeconds" : 130.375097375,
+  "modelLoadSeconds" : 5.112382459,
+  "totalWallSeconds" : 123.942925459,
   "track" : "meeting"
 }

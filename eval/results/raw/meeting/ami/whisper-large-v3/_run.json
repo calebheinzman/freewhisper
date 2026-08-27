@@ -8,7 +8,7 @@
   },
   "itemCount" : 2,
   "model" : "whisper-large-v3",
-  "modelLoadSeconds" : 5.21949925,
-  "totalWallSeconds" : 660.604130083,
+  "modelLoadSeconds" : 5.280819,
+  "totalWallSeconds" : 700.923876334,
   "track" : "meeting"
 }

@@ -57,9 +57,15 @@ public enum ModelScorecard {
     ///
     /// Meetings are `1 − tcpWER`, which scores words *and* who said them, and
     /// which nothing reaches 0.9 on — the published state of the art on this
-    /// kind of audio is around 0.69, and the best model here manages 0.50.
+    /// kind of audio is around 0.69, and the best model here manages 0.61.
     /// Judging that against the dictation boundaries would label every option
     /// "Poor", which tells the user nothing except that the scale is wrong.
+    ///
+    /// The 0.60 bar below was set when the best model managed 0.50 and nothing
+    /// cleared it. Word-level speaker attribution moved the Parakeet rows past
+    /// it without the bar moving, which is the right way round: the boundary
+    /// was drawn at what a genuinely usable meeting transcript looks like, not
+    /// at whatever the field happened to be scoring that week.
     ///
     /// Summaries are a judged rubric and sit between the two.
     public static func quality(for accuracy: Double, role: Role) -> Quality {

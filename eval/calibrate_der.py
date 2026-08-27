@@ -123,7 +123,7 @@ def main() -> int:
         print(f"  diarizer turns         DER {measured:.3f}   "
               f"(published {published:.3f} — {label})")
         print(f"  finished transcript    DER {abs(against_ours):.3f}   "
-              "(after assembly attributes each ASR segment to a turn)")
+              "(after assembly labels each word and cuts on speaker changes)")
         detail = against_rttm[:]
         print(f"  miss {detail['missed detection']:.0f}s  "
               f"false alarm {detail['false alarm']:.0f}s  "
@@ -144,8 +144,9 @@ def main() -> int:
             print(
                 f"\nNote: on {channel} the diarizer is right {(1 - measured) * 100:.0f}% of the "
                 f"time but the finished transcript is only {(1 - delivered) * 100:.0f}%. "
-                "Assembly — attributing whole ASR segments to whichever turn they overlap "
-                "most — is losing most of the diarizer's accuracy."
+                "The remainder is what assembly costs: words whose own timing puts them "
+                "on the wrong side of a turn boundary, and segments that arrived with no "
+                "word timings to cut on."
             )
     return 0 if ok else 1
 

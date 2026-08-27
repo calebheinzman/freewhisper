@@ -8,7 +8,7 @@
   },
   "itemCount" : 5,
   "model" : "whisper-large-v3-turbo",
-  "modelLoadSeconds" : 5.961532958,
-  "totalWallSeconds" : 240.998314125,
+  "modelLoadSeconds" : 4.974516833,
+  "totalWallSeconds" : 242.2061765,
   "track" : "meeting"
 }

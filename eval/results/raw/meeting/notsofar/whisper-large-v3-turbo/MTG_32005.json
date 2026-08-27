@@ -3,775 +3,865 @@
   "dataset" : "notsofar",
   "id" : "MTG_32005",
   "model" : "whisper-large-v3-turbo",
-  "rtfx" : 10.630965574488508,
+  "rtfx" : 10.897497022858472,
   "segments" : [
     {
-      "end" : 16.399999618530273,
+      "end" : 15.199999809265137,
       "speaker" : "speaker_0",
-      "start" : 0,
+      "start" : 7.5,
       "text" : "Okay guys, I think we have to discuss the issue of our students using GPT to"
     },
     {
-      "end" : 20.69999885559082,
+      "end" : 20.439998626708984,
       "speaker" : "speaker_0",
-      "start" : 16.399999618530273,
+      "start" : 16.979999542236328,
       "text" : "either do their assignments or edit their assignments"
     },
     {
-      "end" : 24.34000015258789,
+      "end" : 23.939998626708984,
       "speaker" : "speaker_0",
-      "start" : 20.69999885559082,
+      "start" : 20.739999771118164,
       "text" : "or improve their assignments or whatever the heck they're doing."
     },
     {
       "end" : 27.31999969482422,
       "speaker" : "speaker_0",
-      "start" : 24.34000015258789,
+      "start" : 25.479999542236328,
       "text" : "- There's been a lot of plagiarism in that area."
     },
     {
-      "end" : 28.65999984741211,
+      "end" : 28.31999969482422,
       "speaker" : "speaker_0",
-      "start" : 27.31999969482422,
+      "start" : 27.34000015258789,
       "text" : "- A lot, a lot."
     },
     {
-      "end" : 31.079998016357422,
+      "end" : 30.939998626708984,
       "speaker" : "speaker_0",
-      "start" : 28.65999984741211,
+      "start" : 28.619998931884766,
       "text" : "We're talking serious plagiarism here"
     },
     {
-      "end" : 33,
+      "end" : 32.459999084472656,
       "speaker" : "speaker_0",
-      "start" : 31.079998016357422,
+      "start" : 31.119998931884766,
       "text" : "and a serious educational issue."
     },
     {
-      "end" : 40.5,
+      "end" : 40.20000076293945,
       "speaker" : "speaker_0",
-      "start" : 33,
-      "text" : "But how do we go forward with grading, evaluating, anything, anything for the future of these"
+      "start" : 33.060001373291016,
+      "text" : "But how do we go forward with, you know, grading, evaluating anything, anything for the future"
     },
     {
-      "end" : 42.5,
+      "end" : 41.939998626708984,
       "speaker" : "speaker_0",
-      "start" : 40.5,
-      "text" : "students and for the future of the college."
+      "start" : 40.20000076293945,
+      "text" : "of these students and the future of the college."
     },
     {
-      "end" : 44.5,
+      "end" : 44.040000915527344,
       "speaker" : "speaker_0",
-      "start" : 42.5,
+      "start" : 42.84000015258789,
       "text" : "Who wants to start?"
     },
     {
-      "end" : 45.5,
+      "end" : 45.86000061035156,
       "speaker" : "speaker_0",
-      "start" : 44.5,
-      "text" : "Go ahead."
+      "start" : 44.70000076293945,
+      "text" : "Okay, go ahead."
     },
     {
-      "end" : 51.86000061035156,
+      "end" : 52.31999969482422,
       "speaker" : "speaker_1",
-      "start" : 45.5,
-      "text" : "Well, there's software that's available to identify chat GPT that's being used."
+      "start" : 46,
+      "text" : "Well, there's software that's available to identify CHAT GPT that's being used; it's not"
     },
     {
-      "end" : 53.69999694824219,
+      "end" : 53.08000183105469,
       "speaker" : "speaker_1",
-      "start" : 51.86000061035156,
-      "text" : "It's not always accurate."
+      "start" : 52.40999984741211,
+      "text" : "always accurate."
     },
     {
-      "end" : 61.70000076293945,
+      "end" : 53.63999938964844,
       "speaker" : "speaker_1",
-      "start" : 53.70000076293945,
-      "text" : "I remember writing an assignment and having it tagged as being ChatGPT when I wrote it myself."
-    },
-    {
-      "end" : 54.73999786376953,
-      "speaker" : "speaker_1",
-      "start" : 53.73999786376953,
+      "start" : 53.48999786376953,
       "text" : "Right?"
     },
     {
-      "end" : 55.81999969482422,
+      "end" : 61.279998779296875,
       "speaker" : "speaker_1",
-      "start" : 54.73999786376953,
-      "text" : "Yeah."
+      "start" : 53.720001220703125,
+      "text" : "I remember writing an assignment and having it tagged as being ChatGPT when I wrote it myself."
     },
     {
-      "end" : 70.69999694824219,
+      "end" : 70.5,
       "speaker" : "speaker_1",
-      "start" : 61.70000076293945,
+      "start" : 62.209999084472656,
       "text" : "But for the most part, we can rely on technology like software to identify ChatGPT."
     },
     {
-      "end" : 77.5,
+      "end" : 77.47999572753906,
       "speaker" : "speaker_2",
-      "start" : 70.69999694824219,
+      "start" : 71.89999389648438,
       "text" : "Except for that software, I feel like there's also the problem that creativity stops for the"
     },
     {
-      "end" : 80.5,
+      "end" : 80.65999603271484,
       "speaker" : "speaker_2",
-      "start" : 77.5,
+      "start" : 77.68000030517578,
       "text" : "students because everything is..."
     },
     {
-      "end" : 82.0999984741211,
+      "end" : 81.67999267578125,
       "speaker" : "speaker_2",
-      "start" : 80.5,
+      "start" : 80.72000122070312,
       "text" : "Competition and win."
     },
     {
-      "end" : 86.0999984741211,
+      "end" : 85.93999481201172,
       "speaker" : "speaker_2",
-      "start" : 82.0999984741211,
+      "start" : 81.95999908447266,
       "text" : "Not just competition, but everything you have to write a paper about an original idea."
     },
     {
-      "end" : 88.89999389648438,
+      "end" : 88.39999389648438,
       "speaker" : "speaker_2",
-      "start" : 86.0999984741211,
+      "start" : 85.98999786376953,
       "text" : "You go and chat to PT, give me this original idea."
     },
     {
-      "end" : 94.26000213623047,
+      "end" : 94.13999938964844,
       "speaker" : "speaker_2",
-      "start" : 88.9000015258789,
+      "start" : 89.0999984741211,
       "text" : "might not be as original because it's CHAP-TPT had to be put in there, but also they don't"
     },
     {
-      "end" : 97.77999877929688,
+      "end" : 96.36000061035156,
       "speaker" : "speaker_2",
-      "start" : 94.26000213623047,
-      "text" : "really have to think about it twice. They're like, \"Oh, here's an idea. I'm done.\""
+      "start" : 94.19000244140625,
+      "text" : "really have to think about it twice. They're like, \"Oh, here's an idea."
     },
     {
-      "end" : 106.5,
+      "end" : 97.58000183105469,
       "speaker" : "speaker_3",
-      "start" : 97.77999877929688,
-      "text" : "And we were talking about time earlier on another subject, and again, they can gain time,"
+      "start" : 97.0999984741211,
+      "text" : "I'm done.\""
     },
     {
-      "end" : 112.4000015258789,
+      "end" : 98.63999938964844,
+      "speaker" : "speaker_2",
+      "start" : 97.68000030517578,
+      "text" : "And we were talking about"
+    },
+    {
+      "end" : 106.26000213623047,
       "speaker" : "speaker_3",
-      "start" : 106.5,
+      "start" : 98.63999938964844,
+      "text" : "time earlier on another subject, and again, they can gain time,"
+    },
+    {
+      "end" : 112.3800048828125,
+      "speaker" : "speaker_3",
+      "start" : 106.44000244140625,
       "text" : "but what's the point of having more time if their creativity is not there and it doesn't"
     },
     {
-      "end" : 115.4000015258789,
+      "end" : 115,
       "speaker" : "speaker_3",
-      "start" : 112.4000015258789,
+      "start" : 112.54000091552734,
       "text" : "teach them how to think and how to research?"
     },
     {
-      "end" : 118.0999984741211,
+      "end" : 117.86000061035156,
       "speaker" : "speaker_3",
-      "start" : 115.4000015258789,
+      "start" : 115.77999877929688,
       "text" : "how to think, how to research, and how to beat creativity."
     },
     {
-      "end" : 119.0999984741211,
+      "end" : 118.44000244140625,
       "speaker" : "speaker_2",
-      "start" : 118.0999984741211,
+      "start" : 118.02000427246094,
       "text" : "I like--"
     },
     {
-      "end" : 121.0999984741211,
+      "end" : 120.84000396728516,
       "speaker" : "speaker_2",
-      "start" : 119.0999984741211,
+      "start" : 118.8800048828125,
       "text" : "- Creativity and also just hard work in general."
     },
     {
-      "end" : 124.13999938964844,
+      "end" : 123.8800048828125,
       "speaker" : "speaker_2",
-      "start" : 121.0999984741211,
+      "start" : 121.05999755859375,
       "text" : "They become lazier, they can just type out,"
     },
     {
-      "end" : 127.13999938964844,
+      "end" : 127.02000427246094,
       "speaker" : "speaker_2",
       "start" : 124.13999938964844,
       "text" : "write me this essay, and it's in there."
     },
     {
-      "end" : 128.47999572753906,
+      "end" : 128.3000030517578,
       "speaker" : "speaker_2",
-      "start" : 127.13999938964844,
+      "start" : 127.08000183105469,
       "text" : "So how do we stop that?"
     },
     {
-      "end" : 129.47999572753906,
+      "end" : 128.8000030517578,
       "speaker" : "speaker_2",
-      "start" : 128.47999572753906,
-      "text" : "- How do we stop that?"
+      "start" : 128.4199981689453,
+      "text" : "- How do we"
     },
     {
-      "end" : 130.5,
+      "end" : 129.22000122070312,
       "speaker" : "speaker_1",
-      "start" : 129.47999572753906,
+      "start" : 128.8000030517578,
+      "text" : "stop that?"
+    },
+    {
+      "end" : 130,
+      "speaker" : "speaker_1",
+      "start" : 129.32000732421875,
       "text" : "- Well, I think,"
     },
     {
-      "end" : 132.25999450683594,
+      "end" : 132.0800018310547,
       "speaker" : "speaker_1",
-      "start" : 130.5,
+      "start" : 130.55999755859375,
       "text" : "One thing that we might consider--"
     },
     {
-      "end" : 133.63999938964844,
+      "end" : 133.4600067138672,
       "speaker" : "speaker_1",
-      "start" : 132.25999450683594,
+      "start" : 132.0800018310547,
       "text" : "Sorry, I have to take this call."
     },
     {
-      "end" : 134.25999450683594,
+      "end" : 134.24000549316406,
       "speaker" : "speaker_1",
-      "start" : 133.63999938964844,
+      "start" : 133.60000610351562,
       "text" : "OK, go ahead."
     },
     {
       "end" : 135.33999633789062,
       "speaker" : "speaker_1",
-      "start" : 134.25999450683594,
+      "start" : 134.47999572753906,
       "text" : "Oh, sorry."
     },
     {
-      "end" : 135.83999633789062,
+      "end" : 135.5399932861328,
       "speaker" : "speaker_1",
-      "start" : 135.33999633789062,
+      "start" : 135.42999267578125,
       "text" : "Sorry."
     },
     {
-      "end" : 140.17999267578125,
+      "end" : 139.10000610351562,
       "speaker" : "speaker_1",
-      "start" : 135.83999633789062,
+      "start" : 136.74000549316406,
       "text" : "I'll bring you up on it when you come back."
     },
     {
-      "end" : 143.13999938964844,
+      "end" : 142.8800048828125,
       "speaker" : "speaker_1",
-      "start" : 140.17999267578125,
+      "start" : 140.1199951171875,
       "text" : "One thing we might do is what other schools,"
     },
     {
-      "end" : 146.67999267578125,
+      "end" : 146.4600067138672,
       "speaker" : "speaker_1",
-      "start" : 143.13999938964844,
+      "start" : 143.17999267578125,
       "text" : "let's say like schools like Princeton and actually Harvard"
     },
     {
-      "end" : 152.8000030517578,
+      "end" : 152.33999633789062,
       "speaker" : "speaker_1",
-      "start" : 146.67999267578125,
+      "start" : 146.66000366210938,
       "text" : "have done, where you actually have the students sign a document"
     },
     {
-      "end" : 161.55999755859375,
+      "end" : 161.54000854492188,
       "speaker" : "speaker_1",
-      "start" : 152.8000030517578,
+      "start" : 152.9199981689453,
       "text" : "saying, stating from the very beginning that they will not be cheating and that they won't"
     },
     {
-      "end" : 162.55999755859375,
+      "end" : 162.6199951171875,
       "speaker" : "speaker_1",
       "start" : 161.55999755859375,
       "text" : "use chat GPT."
     },
     {
-      "end" : 164.8000030517578,
+      "end" : 164.5,
       "speaker" : "speaker_1",
-      "start" : 162.55999755859375,
+      "start" : 162.6199951171875,
       "text" : "You can just add that to that document."
     },
     {
-      "end" : 165.8000030517578,
+      "end" : 164.9199981689453,
       "speaker" : "speaker_1",
       "start" : 164.8000030517578,
       "text" : "Yes."
     },
     {
-      "end" : 169.55999755859375,
-      "speaker" : "speaker_0",
-      "start" : 165.8000030517578,
-      "text" : "Okay, but that's a way to catch them after the fact, okay?"
+      "end" : 165.48001098632812,
+      "speaker" : "speaker_1",
+      "start" : 165.1999969482422,
+      "text" : "Okay,"
     },
     {
-      "end" : 170.55999755859375,
+      "end" : 169.05999755859375,
       "speaker" : "speaker_0",
-      "start" : 169.55999755859375,
+      "start" : 165.74000549316406,
+      "text" : "but that's a way to catch them after the fact, okay?"
+    },
+    {
+      "end" : 169.82000732421875,
+      "speaker" : "speaker_0",
+      "start" : 169.66000366210938,
       "text" : "Maybe."
     },
     {
-      "end" : 171.55999755859375,
+      "end" : 170.82000732421875,
       "speaker" : "speaker_0",
-      "start" : 170.55999755859375,
+      "start" : 170.10000610351562,
       "text" : "No, not even."
     },
     {
-      "end" : 173.55999755859375,
+      "end" : 172.9600067138672,
       "speaker" : "speaker_0",
-      "start" : 171.55999755859375,
+      "start" : 171.5800018310547,
       "text" : "That's not a way to catch them."
     },
     {
-      "end" : 179.5,
+      "end" : 178.3000030517578,
       "speaker" : "speaker_0",
-      "start" : 173.55999755859375,
+      "start" : 173.90000915527344,
       "text" : "It's always been frowned upon and not allowed to cheat, okay?"
     },
     {
-      "end" : 185.25999450683594,
+      "end" : 184.17999267578125,
       "speaker" : "speaker_0",
-      "start" : 179.5,
+      "start" : 179.8000030517578,
       "text" : "Here we've got software that cheats for them, software that helps them cheat, software that"
     },
     {
-      "end" : 195.1999969482422,
+      "end" : 194.82000732421875,
       "speaker" : "speaker_0",
-      "start" : 185.25999450683594,
+      "start" : 185.3800048828125,
       "text" : "frankly the faculty isn't yet technologically astute enough to always be able to even sort"
     },
     {
-      "end" : 196.0399932861328,
+      "end" : 195.8199920654297,
       "speaker" : "speaker_0",
-      "start" : 195.1999969482422,
+      "start" : 195.22000122070312,
       "text" : "Since--"
     },
     {
-      "end" : 196.86000061035156,
+      "end" : 196.55999755859375,
       "speaker" : "speaker_0",
-      "start" : 196.0399932861328,
+      "start" : 195.89999389648438,
       "text" : "- What did I miss?"
     },
     {
-      "end" : 198.89999389648438,
+      "end" : 198.25999450683594,
       "speaker" : "speaker_0",
-      "start" : 196.86000061035156,
+      "start" : 196.63999938964844,
       "text" : "- Something that's suspicious."
     },
     {
-      "end" : 200.89999389648438,
+      "end" : 199.8000030517578,
       "speaker" : "speaker_0",
-      "start" : 198.89999389648438,
+      "start" : 198.87998962402344,
       "text" : "- Hi, I wanna come back."
     },
     {
-      "end" : 201.739990234375,
+      "end" : 201.66000366210938,
       "speaker" : "speaker_0",
-      "start" : 200.89999389648438,
+      "start" : 200.66000366210938,
       "text" : "- What did I miss?"
     },
     {
-      "end" : 204.33999633789062,
+      "end" : 204.01998901367188,
       "speaker" : "speaker_0",
-      "start" : 201.739990234375,
+      "start" : 201.83999633789062,
       "text" : "- It's kind of an arms race between the students"
     },
     {
-      "end" : 208.94000244140625,
+      "end" : 208.72000122070312,
       "speaker" : "speaker_0",
       "start" : 204.33999633789062,
       "text" : "level of the knowledge and the faculty's knowledge"
     },
     {
-      "end" : 210.66000366210938,
+      "end" : 210.1999969482422,
       "speaker" : "speaker_0",
-      "start" : 208.94000244140625,
+      "start" : 209.1999969482422,
       "text" : "of digital--"
     },
     {
-      "end" : 214.66000366210938,
+      "end" : 214.0399932861328,
       "speaker" : "speaker_1",
-      "start" : 210.66000366210938,
+      "start" : 210.45999145507812,
       "text" : "- What I suggested is that we might have in place"
     },
     {
       "end" : 218,
       "speaker" : "speaker_1",
-      "start" : 214.66000366210938,
+      "start" : 215.09999084472656,
       "text" : "a form, a document that's signed by students"
     },
     {
-      "end" : 223.5,
+      "end" : 223.32000732421875,
       "speaker" : "speaker_1",
-      "start" : 218,
+      "start" : 218.05999755859375,
       "text" : "saying that they won't cheat and they won't use chat GPT."
     },
     {
-      "end" : 226.24000549316406,
+      "end" : 225.63999938964844,
       "speaker" : "speaker_1",
-      "start" : 223.5,
+      "start" : 223.4600067138672,
       "text" : "How is that different from the regular plagiarism?"
     },
     {
-      "end" : 228.24000549316406,
+      "end" : 227.97999572753906,
       "speaker" : "speaker_2",
-      "start" : 226.24000549316406,
+      "start" : 226.75999450683594,
       "text" : "The plagiarism rules."
     },
     {
-      "end" : 229.63999938964844,
+      "end" : 229.24000549316406,
       "speaker" : "speaker_2",
-      "start" : 228.24000549316406,
+      "start" : 228,
       "text" : "Plagiarism rules, you know?"
     },
     {
-      "end" : 234.3000030517578,
-      "speaker" : "speaker_1",
-      "start" : 229.63999938964844,
-      "text" : "Well, it really isn't, but any threat of them"
+      "end" : 230.6199951171875,
+      "speaker" : "speaker_2",
+      "start" : 229.5399932861328,
+      "text" : "Well, it really"
     },
     {
-      "end" : 245.82000732421875,
+      "end" : 233.72000122070312,
       "speaker" : "speaker_1",
-      "start" : 234.3000030517578,
+      "start" : 230.6199951171875,
+      "text" : "isn't, but any threat of them"
+    },
+    {
+      "end" : 243.63999938964844,
+      "speaker" : "speaker_1",
+      "start" : 234.32000732421875,
       "text" : "not adhering to this rule that we put in place and make it very understandable that they can"
     },
     {
-      "end" : 255,
+      "end" : 264.2799987792969,
       "speaker" : "speaker_1",
-      "start" : 245.82000732421875,
+      "start" : 246.1800079345703,
       "text" : "be expelled from school, suspended, and thrown out of school. Then they start to get a lot"
     },
     {
-      "end" : 260,
+      "end" : 260.0199890136719,
       "speaker" : "speaker_1",
-      "start" : 255,
+      "start" : 255.3800048828125,
       "text" : "understand and be afraid because schools cost so much these days."
     },
     {
-      "end" : 264,
+      "end" : 263.32000732421875,
       "speaker" : "speaker_1",
-      "start" : 260,
+      "start" : 260.82000732421875,
       "text" : "Nobody wants to get thrown out of school."
     },
     {
-      "end" : 265,
-      "speaker" : "speaker_0",
-      "start" : 264,
-      "text" : "Okay, okay."
+      "end" : 263.6400146484375,
+      "speaker" : "speaker_1",
+      "start" : 263.5,
+      "text" : "Okay,"
     },
     {
-      "end" : 270,
+      "end" : 263.82000732421875,
       "speaker" : "speaker_0",
-      "start" : 265,
+      "start" : 263.70001220703125,
+      "text" : "okay."
+    },
+    {
+      "end" : 269.760009765625,
+      "speaker" : "speaker_0",
+      "start" : 264.5,
       "text" : "We got an actual action item we can assign to somebody to take on,"
     },
     {
-      "end" : 275,
+      "end" : 274.1600036621094,
       "speaker" : "speaker_0",
-      "start" : 270,
+      "start" : 269.9599914550781,
       "text" : "to help us try to figure out what might be recommended to do."
     },
     {
-      "end" : 283,
-      "speaker" : "speaker_3",
-      "start" : 275,
-      "text" : "Maybe if we had, quantitatively, exactly how many in percentage."
+      "end" : 275.0799865722656,
+      "speaker" : "speaker_0",
+      "start" : 274.55999755859375,
+      "text" : "Maybe"
     },
     {
-      "end" : 290.8399963378906,
+      "end" : 282.4200134277344,
       "speaker" : "speaker_3",
-      "start" : 283,
+      "start" : 275.0799865722656,
+      "text" : "if we had, quantitatively, exactly how many in percentage."
+    },
+    {
+      "end" : 290.5199890136719,
+      "speaker" : "speaker_3",
+      "start" : 283.7200012207031,
       "text" : "how many students use it compared to the total total student on a specific assignment,"
     },
     {
-      "end" : 296.2799987792969,
+      "end" : 296.8599853515625,
       "speaker" : "speaker_3",
-      "start" : 290.8399963378906,
+      "start" : 291.5199890136719,
       "text" : "would that give us more of how bad the problem is and how we should..."
     },
     {
-      "end" : 304.2799987792969,
+      "end" : 302,
       "speaker" : "speaker_0",
-      "start" : 296.2799987792969,
-      "text" : "In order to quantify that, we have to identify the uses of JetGPT, which is as easy as it sounds."
+      "start" : 296.8599853515625,
+      "text" : "In order to quantify that, we have to identify the uses of JetGPT,"
+    },
+    {
+      "end" : 304.2200012207031,
+      "speaker" : "speaker_1",
+      "start" : 302.1600036621094,
+      "text" : "which is as easy as it sounds."
     },
     {
       "end" : 307.5,
       "speaker" : "speaker_1",
-      "start" : 304.2799987792969,
+      "start" : 304.260009765625,
       "text" : "Let's start with this, okay? If we're going to have..."
     },
     {
-      "end" : 309.5,
+      "end" : 308.739990234375,
       "speaker" : "speaker_1",
-      "start" : 307.5,
+      "start" : 307.7799987792969,
       "text" : "Let's say a software."
     },
     {
-      "end" : 314.5,
+      "end" : 313.6400146484375,
       "speaker" : "speaker_1",
-      "start" : 309.5,
+      "start" : 310.1000061035156,
       "text" : "Let's all agree on a software that can be used."
     },
     {
-      "end" : 316.5,
+      "end" : 317,
       "speaker" : "speaker_1",
-      "start" : 314.5,
+      "start" : 315.4599914550781,
       "text" : "I think it's more than a software."
     },
     {
-      "end" : 320.5,
+      "end" : 320.0400085449219,
       "speaker" : "speaker_2",
-      "start" : 316.5,
+      "start" : 317.1099853515625,
       "text" : "I think it comes from the root of the assignment that you give to students."
     },
     {
-      "end" : 323.5,
+      "end" : 323.3999938964844,
       "speaker" : "speaker_2",
-      "start" : 320.5,
+      "start" : 320.6000061035156,
       "text" : "If you give them assignments that can't be done on CHI GPT,"
     },
     {
-      "end" : 326.5,
+      "end" : 326.3800048828125,
       "speaker" : "speaker_2",
-      "start" : 323.5,
+      "start" : 323.55999755859375,
       "text" : "if it comes to understanding or if it comes to…"
     },
     {
-      "end" : 328.5,
-      "speaker" : "speaker_1",
-      "start" : 326.5,
-      "text" : "Can anything be done on CHI GPT?"
+      "end" : 326.44000244140625,
+      "speaker" : "speaker_2",
+      "start" : 326.3800048828125,
+      "text" : "Can"
     },
     {
-      "end" : 332.5,
+      "end" : 327.67999267578125,
+      "speaker" : "speaker_1",
+      "start" : 326.44000244140625,
+      "text" : "anything be done on CHI"
+    },
+    {
+      "end" : 327.8999938964844,
       "speaker" : "speaker_2",
-      "start" : 328.5,
+      "start" : 327.67999267578125,
+      "text" : "GPT?"
+    },
+    {
+      "end" : 331.6000061035156,
+      "speaker" : "speaker_2",
+      "start" : 328.05999755859375,
       "text" : "There are certain things as of right now that can't be done on CHI GPT."
     },
     {
-      "end" : 336.5,
+      "end" : 336.260009765625,
       "speaker" : "speaker_2",
-      "start" : 332.5,
+      "start" : 332.739990234375,
       "text" : "understanding what can't be done on chat GPT and then following that,"
     },
     {
-      "end" : 339.5,
+      "end" : 339.29998779296875,
       "speaker" : "speaker_2",
-      "start" : 336.5,
+      "start" : 336.7200012207031,
       "text" : "then we can find the cracks."
     },
     {
-      "end" : 345.5,
-      "speaker" : "speaker_2",
-      "start" : 339.5,
-      "text" : "We can change, but adapting to the assignments and creating assignments that can't be done on chat GPT,"
+      "end" : 340.1000061035156,
+      "speaker" : "speaker_1",
+      "start" : 339.55999755859375,
+      "text" : "We can change,"
     },
     {
-      "end" : 349.5,
+      "end" : 345.4200134277344,
       "speaker" : "speaker_2",
-      "start" : 345.5,
+      "start" : 340.4599914550781,
+      "text" : "but adapting to the assignments and creating assignments that can't be done on chat GPT,"
+    },
+    {
+      "end" : 349.4800109863281,
+      "speaker" : "speaker_2",
+      "start" : 345.8399963378906,
       "text" : "having problem solving skills that can be done through that."
     },
     {
-      "end" : 355.5,
+      "end" : 355.9200134277344,
       "speaker" : "speaker_0",
-      "start" : 349.5,
+      "start" : 350.17999267578125,
       "text" : "I mean, for a while we thought that the chat GPT wasn't good at math."
     },
     {
-      "end" : 358.5,
+      "end" : 357.9800109863281,
       "speaker" : "speaker_0",
-      "start" : 355.5,
+      "start" : 356.0400085449219,
       "text" : "It turned out that all of a sudden it is."
     },
     {
-      "end" : 360.5,
+      "end" : 360.1000061035156,
       "speaker" : "speaker_0",
-      "start" : 358.5,
+      "start" : 358.4200134277344,
       "text" : "And these things are just racing ahead."
     },
     {
-      "end" : 368.739990234375,
+      "end" : 367.4200134277344,
       "speaker" : "speaker_3",
-      "start" : 360.5,
+      "start" : 360.55999755859375,
       "text" : "So Sarah, would you be ready to take this assignment on your... and make it happen?"
     },
     {
-      "end" : 370.739990234375,
+      "end" : 369.70001220703125,
       "speaker" : "speaker_3",
       "start" : 368.739990234375,
-      "text" : "You might know the most about..."
+      "text" : "You might know the most"
     },
     {
-      "end" : 371.739990234375,
+      "end" : 370.67999267578125,
+      "speaker" : "speaker_0",
+      "start" : 369.70001220703125,
+      "text" : "about..."
+    },
+    {
+      "end" : 370.8800048828125,
       "speaker" : "speaker_3",
       "start" : 370.739990234375,
       "text" : "Yes."
     },
     {
-      "end" : 372.739990234375,
+      "end" : 372,
       "speaker" : "speaker_3",
-      "start" : 371.739990234375,
+      "start" : 371.17999267578125,
       "text" : "Assignment of what?"
     },
     {
-      "end" : 379.0199890136719,
+      "end" : 378.3999938964844,
       "speaker" : "speaker_3",
-      "start" : 372.739990234375,
+      "start" : 372.6600036621094,
       "text" : "Of finding out what we were just saying now lately, that find out, or yet you were proposing"
     },
     {
-      "end" : 384.3999938964844,
+      "end" : 383.70001220703125,
       "speaker" : "speaker_3",
-      "start" : 379.0199890136719,
+      "start" : 378.8399963378906,
       "text" : "find a few assignments that cannot be found on the CHAT GPT."
     },
     {
-      "end" : 388.3999938964844,
+      "end" : 388.2200012207031,
       "speaker" : "speaker_2",
-      "start" : 384.3999938964844,
+      "start" : 384.5,
       "text" : "I think for all of us we're teaching different things."
     },
     {
-      "end" : 392.3999938964844,
+      "end" : 392.2599792480469,
       "speaker" : "speaker_2",
-      "start" : 388.3999938964844,
+      "start" : 388.29998779296875,
       "text" : "So I think for all of us we have to find something that we can do differently."
     },
     {
-      "end" : 393.3999938964844,
+      "end" : 393.3599853515625,
       "speaker" : "speaker_2",
-      "start" : 392.3999938964844,
+      "start" : 392.3800048828125,
       "text" : "You mean each one of us?"
     },
     {
-      "end" : 394.3999938964844,
+      "end" : 393.6999816894531,
       "speaker" : "speaker_2",
-      "start" : 393.3999938964844,
+      "start" : 393.55999755859375,
       "text" : "Yes."
     },
     {
-      "end" : 396.3999938964844,
+      "end" : 395.97998046875,
       "speaker" : "speaker_0",
-      "start" : 394.3999938964844,
+      "start" : 394.3399963378906,
       "text" : "Okay, that could be also an option."
     },
     {
-      "end" : 401.3999938964844,
+      "end" : 401.3399963378906,
       "speaker" : "speaker_0",
-      "start" : 396.3999938964844,
+      "start" : 396.55999755859375,
       "text" : "Also we haven't even talked yet about the skill or the art of prompt writing."
     },
     {
-      "end" : 407.1000061035156,
+      "end" : 406.05999755859375,
       "speaker" : "speaker_0",
-      "start" : 401.3999938964844,
+      "start" : 402.1000061035156,
       "text" : "Who's going to win that arms race? The students or us?"
     },
     {
-      "end" : 410.8800048828125,
+      "end" : 410.760009765625,
       "speaker" : "speaker_0",
-      "start" : 407.1000061035156,
+      "start" : 407.55999755859375,
       "text" : "Writing prompts is considered to be a skill."
     },
     {
-      "end" : 414.5,
+      "end" : 414.17999267578125,
       "speaker" : "speaker_0",
       "start" : 410.8800048828125,
       "text" : "I'm not so sure if it really is, but it's considered to be a skill already."
     },
     {
-      "end" : 417.3399963378906,
+      "end" : 417,
       "speaker" : "speaker_0",
-      "start" : 414.5,
+      "start" : 415.0199890136719,
       "text" : "And we're not skilled at it, frankly."
     },
     {
-      "end" : 423.82000732421875,
+      "end" : 423.8000183105469,
       "speaker" : "speaker_1",
-      "start" : 417.3399963378906,
+      "start" : 417.7799987792969,
       "text" : "Well, we better start being, because it's definitely a part of our lives now, and it's"
     },
     {
-      "end" : 426.3399963378906,
-      "speaker" : "speaker_0",
-      "start" : 423.82000732421875,
-      "text" : "technology that we have to face."
+      "end" : 424.9800109863281,
+      "speaker" : "speaker_1",
+      "start" : 424.02001953125,
+      "text" : "technology that we have"
     },
     {
-      "end" : 431.760009765625,
+      "end" : 425.9200134277344,
       "speaker" : "speaker_0",
-      "start" : 426.3399963378906,
+      "start" : 424.9800109863281,
+      "text" : "to face."
+    },
+    {
+      "end" : 431.3000183105469,
+      "speaker" : "speaker_0",
+      "start" : 426.2900085449219,
       "text" : "Right, the faculty's going to have to take some action also to educate itself, okay?"
     },
     {
-      "end" : 435,
+      "end" : 434.239990234375,
       "speaker" : "speaker_0",
-      "start" : 431.760009765625,
+      "start" : 431.70001220703125,
       "text" : "Not just to deal with the problem, but using this stuff."
     },
     {
-      "end" : 437.8999938964844,
+      "end" : 437.7200012207031,
       "speaker" : "speaker_0",
-      "start" : 435,
+      "start" : 435.17999267578125,
       "text" : "All right, so we can't leave it behind."
     },
     {
-      "end" : 439.3399963378906,
-      "speaker" : "speaker_1",
-      "start" : 437.8999938964844,
-      "text" : "How do we, where do we start?"
+      "end" : 438.0400085449219,
+      "speaker" : "speaker_0",
+      "start" : 437.8500061035156,
+      "text" : "How"
     },
     {
-      "end" : 440.8999938964844,
+      "end" : 439.1199951171875,
       "speaker" : "speaker_1",
-      "start" : 439.3399963378906,
+      "start" : 438.0400085449219,
+      "text" : "do we, where do we start?"
+    },
+    {
+      "end" : 440,
+      "speaker" : "speaker_1",
+      "start" : 439.29998779296875,
       "text" : "What do we do first?"
     },
     {
-      "end" : 441.8999938964844,
+      "end" : 441.1199951171875,
       "speaker" : "speaker_0",
-      "start" : 440.8999938964844,
+      "start" : 441,
       "text" : "Okay."
     },
     {
-      "end" : 444.3999938964844,
+      "end" : 443.44000244140625,
       "speaker" : "speaker_0",
-      "start" : 441.8999938964844,
+      "start" : 442,
       "text" : "We had a suggestion for?"
     },
     {
-      "end" : 445.3999938964844,
+      "end" : 444.79998779296875,
       "speaker" : "speaker_0",
       "start" : 444.3999938964844,
       "text" : "Sarah."
     },
     {
-      "end" : 446.3999938964844,
+      "end" : 445.8800048828125,
       "speaker" : "speaker_0",
-      "start" : 445.3999938964844,
-      "text" : "Yeah, for Sarah, right?"
+      "start" : 445.1600036621094,
+      "text" : "Yeah, for Sarah,"
     },
     {
-      "end" : 452,
+      "end" : 446.260009765625,
       "speaker" : "speaker_2",
-      "start" : 446.3999938964844,
+      "start" : 446,
+      "text" : "right?"
+    },
+    {
+      "end" : 451.9800109863281,
+      "speaker" : "speaker_2",
+      "start" : 446.5799865722656,
       "text" : "Yeah, doing different assignments, creating different assignments, assigning different assignments."
     },
     {
-      "end" : 453,
+      "end" : 453.1600036621094,
       "speaker" : "speaker_2",
-      "start" : 452,
+      "start" : 451.9800109863281,
       "text" : "Creating different assignments."
     },
     {
-      "end" : 454,
+      "end" : 453.5799865722656,
       "speaker" : "speaker_2",
-      "start" : 453,
+      "start" : 453.45001220703125,
       "text" : "Okay."
     },
     {
-      "end" : 460.8800048828125,
+      "end" : 454.5400085449219,
+      "speaker" : "speaker_2",
+      "start" : 453.989990234375,
+      "text" : "And here,"
+    },
+    {
+      "end" : 456.79998779296875,
       "speaker" : "speaker_0",
-      "start" : 454,
-      "text" : "And here, we're going to get off topic again."
+      "start" : 454.67999267578125,
+      "text" : "we're going to get off topic again."
     }
   ],
   "speakerTurns" : [
@@ -1341,7 +1431,7 @@
       "start" : 455.44989013671875
     }
   ],
-  "text" : "Okay guys, I think we have to discuss the issue of our students using GPT to either do their assignments or edit their assignments or improve their assignments or whatever the heck they're doing. - There's been a lot of plagiarism in that area. - A lot, a lot. We're talking serious plagiarism here and a serious educational issue. But how do we go forward with grading, evaluating, anything, anything for the future of these students and for the future of the college. Who wants to start? Go ahead. Well, there's software that's available to identify chat GPT that's being used. It's not always accurate. I remember writing an assignment and having it tagged as being ChatGPT when I wrote it myself. Right? Yeah. But for the most part, we can rely on technology like software to identify ChatGPT. Except for that software, I feel like there's also the problem that creativity stops for the students because everything is... Competition and win. Not just competition, but everything you have to write a paper about an original idea. You go and chat to PT, give me this original idea. might not be as original because it's CHAP-TPT had to be put in there, but also they don't really have to think about it twice. They're like, \"Oh, here's an idea. I'm done.\" And we were talking about time earlier on another subject, and again, they can gain time, but what's the point of having more time if their creativity is not there and it doesn't teach them how to think and how to research? how to think, how to research, and how to beat creativity. I like-- - Creativity and also just hard work in general. They become lazier, they can just type out, write me this essay, and it's in there. So how do we stop that? - How do we stop that? - Well, I think, One thing that we might consider-- Sorry, I have to take this call. OK, go ahead. Oh, sorry. Sorry. I'll bring you up on it when you come back. One thing we might do is what other schools, let's say like schools like Princeton and actually Harvard have done, where you actually have the students sign a document saying, stating from the very beginning that they will not be cheating and that they won't use chat GPT. You can just add that to that document. Yes. Okay, but that's a way to catch them after the fact, okay? Maybe. No, not even. That's not a way to catch them. It's always been frowned upon and not allowed to cheat, okay? Here we've got software that cheats for them, software that helps them cheat, software that frankly the faculty isn't yet technologically astute enough to always be able to even sort Since-- - What did I miss? - Something that's suspicious. - Hi, I wanna come back. - What did I miss? - It's kind of an arms race between the students level of the knowledge and the faculty's knowledge of digital-- - What I suggested is that we might have in place a form, a document that's signed by students saying that they won't cheat and they won't use chat GPT. How is that different from the regular plagiarism? The plagiarism rules. Plagiarism rules, you know? Well, it really isn't, but any threat of them not adhering to this rule that we put in place and make it very understandable that they can be expelled from school, suspended, and thrown out of school. Then they start to get a lot understand and be afraid because schools cost so much these days. Nobody wants to get thrown out of school. Okay, okay. We got an actual action item we can assign to somebody to take on, to help us try to figure out what might be recommended to do. Maybe if we had, quantitatively, exactly how many in percentage. how many students use it compared to the total total student on a specific assignment, would that give us more of how bad the problem is and how we should... In order to quantify that, we have to identify the uses of JetGPT, which is as easy as it sounds. Let's start with this, okay? If we're going to have... Let's say a software. Let's all agree on a software that can be used. I think it's more than a software. I think it comes from the root of the assignment that you give to students. If you give them assignments that can't be done on CHI GPT, if it comes to understanding or if it comes to… Can anything be done on CHI GPT? There are certain things as of right now that can't be done on CHI GPT. understanding what can't be done on chat GPT and then following that, then we can find the cracks. We can change, but adapting to the assignments and creating assignments that can't be done on chat GPT, having problem solving skills that can be done through that. I mean, for a while we thought that the chat GPT wasn't good at math. It turned out that all of a sudden it is. And these things are just racing ahead. So Sarah, would you be ready to take this assignment on your... and make it happen? You might know the most about... Yes. Assignment of what? Of finding out what we were just saying now lately, that find out, or yet you were proposing find a few assignments that cannot be found on the CHAT GPT. I think for all of us we're teaching different things. So I think for all of us we have to find something that we can do differently. You mean each one of us? Yes. Okay, that could be also an option. Also we haven't even talked yet about the skill or the art of prompt writing. Who's going to win that arms race? The students or us? Writing prompts is considered to be a skill. I'm not so sure if it really is, but it's considered to be a skill already. And we're not skilled at it, frankly. Well, we better start being, because it's definitely a part of our lives now, and it's technology that we have to face. Right, the faculty's going to have to take some action also to educate itself, okay? Not just to deal with the problem, but using this stuff. All right, so we can't leave it behind. How do we, where do we start? What do we do first? Okay. We had a suggestion for? Sarah. Yeah, for Sarah, right? Yeah, doing different assignments, creating different assignments, assigning different assignments. Creating different assignments. Okay. And here, we're going to get off topic again.",
+  "text" : "Okay guys, I think we have to discuss the issue of our students using GPT to either do their assignments or edit their assignments or improve their assignments or whatever the heck they're doing. - There's been a lot of plagiarism in that area. - A lot, a lot. We're talking serious plagiarism here and a serious educational issue. But how do we go forward with, you know, grading, evaluating anything, anything for the future of these students and the future of the college. Who wants to start? Okay, go ahead. Well, there's software that's available to identify CHAT GPT that's being used; it's not always accurate. Right? I remember writing an assignment and having it tagged as being ChatGPT when I wrote it myself. But for the most part, we can rely on technology like software to identify ChatGPT. Except for that software, I feel like there's also the problem that creativity stops for the students because everything is... Competition and win. Not just competition, but everything you have to write a paper about an original idea. You go and chat to PT, give me this original idea. might not be as original because it's CHAP-TPT had to be put in there, but also they don't really have to think about it twice. They're like, \"Oh, here's an idea. I'm done.\" And we were talking about time earlier on another subject, and again, they can gain time, but what's the point of having more time if their creativity is not there and it doesn't teach them how to think and how to research? how to think, how to research, and how to beat creativity. I like-- - Creativity and also just hard work in general. They become lazier, they can just type out, write me this essay, and it's in there. So how do we stop that? - How do we stop that? - Well, I think, One thing that we might consider-- Sorry, I have to take this call. OK, go ahead. Oh, sorry. Sorry. I'll bring you up on it when you come back. One thing we might do is what other schools, let's say like schools like Princeton and actually Harvard have done, where you actually have the students sign a document saying, stating from the very beginning that they will not be cheating and that they won't use chat GPT. You can just add that to that document. Yes. Okay, but that's a way to catch them after the fact, okay? Maybe. No, not even. That's not a way to catch them. It's always been frowned upon and not allowed to cheat, okay? Here we've got software that cheats for them, software that helps them cheat, software that frankly the faculty isn't yet technologically astute enough to always be able to even sort Since-- - What did I miss? - Something that's suspicious. - Hi, I wanna come back. - What did I miss? - It's kind of an arms race between the students level of the knowledge and the faculty's knowledge of digital-- - What I suggested is that we might have in place a form, a document that's signed by students saying that they won't cheat and they won't use chat GPT. How is that different from the regular plagiarism? The plagiarism rules. Plagiarism rules, you know? Well, it really isn't, but any threat of them not adhering to this rule that we put in place and make it very understandable that they can be expelled from school, suspended, and thrown out of school. Then they start to get a lot understand and be afraid because schools cost so much these days. Nobody wants to get thrown out of school. Okay, okay. We got an actual action item we can assign to somebody to take on, to help us try to figure out what might be recommended to do. Maybe if we had, quantitatively, exactly how many in percentage. how many students use it compared to the total total student on a specific assignment, would that give us more of how bad the problem is and how we should... In order to quantify that, we have to identify the uses of JetGPT, which is as easy as it sounds. Let's start with this, okay? If we're going to have... Let's say a software. Let's all agree on a software that can be used. I think it's more than a software. I think it comes from the root of the assignment that you give to students. If you give them assignments that can't be done on CHI GPT, if it comes to understanding or if it comes to… Can anything be done on CHI GPT? There are certain things as of right now that can't be done on CHI GPT. understanding what can't be done on chat GPT and then following that, then we can find the cracks. We can change, but adapting to the assignments and creating assignments that can't be done on chat GPT, having problem solving skills that can be done through that. I mean, for a while we thought that the chat GPT wasn't good at math. It turned out that all of a sudden it is. And these things are just racing ahead. So Sarah, would you be ready to take this assignment on your... and make it happen? You might know the most about... Yes. Assignment of what? Of finding out what we were just saying now lately, that find out, or yet you were proposing find a few assignments that cannot be found on the CHAT GPT. I think for all of us we're teaching different things. So I think for all of us we have to find something that we can do differently. You mean each one of us? Yes. Okay, that could be also an option. Also we haven't even talked yet about the skill or the art of prompt writing. Who's going to win that arms race? The students or us? Writing prompts is considered to be a skill. I'm not so sure if it really is, but it's considered to be a skill already. And we're not skilled at it, frankly. Well, we better start being, because it's definitely a part of our lives now, and it's technology that we have to face. Right, the faculty's going to have to take some action also to educate itself, okay? Not just to deal with the problem, but using this stuff. All right, so we can't leave it behind. How do we, where do we start? What do we do first? Okay. We had a suggestion for? Sarah. Yeah, for Sarah, right? Yeah, doing different assignments, creating different assignments, assigning different assignments. Creating different assignments. Okay. And here, we're going to get off topic again.",
   "track" : "meeting",
-  "wallSeconds" : 43.353317417
+  "wallSeconds" : 42.292980125
 }

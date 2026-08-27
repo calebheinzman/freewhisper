@@ -3,229 +3,193 @@
   "dataset" : "ami-sdm",
   "id" : "ES2004a",
   "model" : "whisper-large-v3",
-  "rtfx" : 1.819525385516678,
+  "rtfx" : 2.076841893753884,
   "segments" : [
     {
-      "end" : 11.34000015258789,
+      "end" : 157.52000427246094,
       "speaker" : "speaker_0",
-      "start" : 0,
-      "text" : "Are we?"
-    },
-    {
-      "end" : 24.5,
-      "speaker" : "speaker_0",
-      "start" : 22.5,
-      "text" : "Okay."
-    },
-    {
-      "end" : 90,
-      "speaker" : "speaker_0",
-      "start" : 67.5,
-      "text" : "Hello everybody. I'm Sarah, the Project Manager, and this is our first interview."
-    },
-    {
-      "end" : 157.5,
-      "speaker" : "speaker_0",
-      "start" : 149,
+      "start" : 150.1999969482422,
       "text" : "What needs need to be fulfilled by the product, what effect the product has to have and how it's"
     },
     {
-      "end" : 184.5,
+      "end" : 183.10000610351562,
       "speaker" : "speaker_0",
-      "start" : 180,
+      "start" : 180.02000427246094,
       "text" : "and so what's the characteristics of that animal?"
     },
     {
-      "end" : 183.8000030517578,
-      "speaker" : "speaker_0",
-      "start" : 181.97999572753906,
-      "text" : "Agur first."
-    },
-    {
-      "end" : 296.70001220703125,
-      "speaker" : "speaker_1",
-      "start" : 291.70001220703125,
-      "text" : "Maybe you can guess what I'm trying to make."
-    },
-    {
-      "end" : 318.9000244140625,
-      "speaker" : "speaker_1",
-      "start" : 314.20001220703125,
-      "text" : "So, it's sitting, it's standing, it's standing"
-    },
-    {
-      "end" : 321.9000244140625,
-      "speaker" : "speaker_1",
-      "start" : 318.9000244140625,
-      "text" : "Okay, I see it as one thing, it's very supportive"
-    },
-    {
-      "end" : 358.20001220703125,
+      "end" : 358.08001708984375,
       "speaker" : "speaker_3",
-      "start" : 355.70001220703125,
+      "start" : 356.260009765625,
       "text" : "Please leave me a place at the bottom."
     },
     {
-      "end" : 406,
+      "end" : 382.4200134277344,
       "speaker" : "speaker_2",
-      "start" : 402,
+      "start" : 380.7200012207031,
+      "text" : "It was originally going to be."
+    },
+    {
+      "end" : 383.58001708984375,
+      "speaker" : "speaker_2",
+      "start" : 382.7400207519531,
+      "text" : "That looks like a beak."
+    },
+    {
+      "end" : 396.82000732421875,
+      "speaker" : "speaker_2",
+      "start" : 395.8700256347656,
+      "text" : "It can be a crocodile."
+    },
+    {
+      "end" : 401.52001953125,
+      "speaker" : "speaker_2",
+      "start" : 399.3600158691406,
+      "text" : "Firstly it was an attempt at a T-Rex."
+    },
+    {
+      "end" : 405.29998779296875,
+      "speaker" : "speaker_2",
+      "start" : 402.0199890136719,
       "text" : "and then it sort of changed into a pelican but it can be perfect."
     },
     {
-      "end" : 424.5,
+      "end" : 424.1000061035156,
       "speaker" : "speaker_2",
-      "start" : 421,
+      "start" : 421.20001220703125,
       "text" : "Yeah and I'll have to think on the spot one time."
     },
     {
-      "end" : 440.5,
+      "end" : 489.8599853515625,
+      "speaker" : "speaker_3",
+      "start" : 488.4800109863281,
+      "text" : "It's not that bad, honestly!"
+    },
+    {
+      "end" : 524.0599975585938,
+      "speaker" : "speaker_3",
+      "start" : 520.47998046875,
+      "text" : "Independent. Independent. Did you say they're good at golf?"
+    },
+    {
+      "end" : 524.4400024414062,
       "speaker" : "speaker_2",
-      "start" : 434.5,
-      "text" : "Yeah that's funny..."
+      "start" : 524.3400268554688,
+      "text" : "Yeah!"
     },
     {
-      "end" : 446.5,
-      "speaker" : "speaker_3",
-      "start" : 440.5,
-      "text" : "I'm very impressed with your artistic skill..."
-    },
-    {
-      "end" : 491.5,
-      "speaker" : "speaker_3",
-      "start" : 483.5,
-      "text" : "It's not a bouncer bat honestly."
-    },
-    {
-      "end" : 522.1400146484375,
-      "speaker" : "speaker_3",
-      "start" : 520.4600219726562,
-      "text" : "Independent."
-    },
-    {
-      "end" : 526.1400146484375,
+      "end" : 525.7000122070312,
       "speaker" : "speaker_2",
-      "start" : 525.1799926757812,
-      "text" : "Eagle."
+      "start" : 525.3599853515625,
+      "text" : "Ego."
     },
     {
-      "end" : 595,
+      "end" : 530.5800170898438,
+      "speaker" : "speaker_3",
+      "start" : 526.739990234375,
+      "text" : "Alright. They're quite free-spirited."
+    },
+    {
+      "end" : 591.4000244140625,
       "speaker" : "speaker_0",
-      "start" : 591,
-      "text" : "I'd be able to put it up or I could put it in the share folder."
+      "start" : 591.02001953125,
+      "text" : "I'd think so."
     },
     {
-      "end" : 600,
+      "end" : 599.5999755859375,
       "speaker" : "speaker_2",
-      "start" : 595,
-      "text" : "Having said the if you want to get one of those, the ones on the market at the moment"
+      "start" : 595.239990234375,
+      "text" : "Having said they, if you want to get one of those, they're the ones on the market at the moment."
     },
     {
-      "end" : 661.5,
-      "speaker" : "speaker_0",
-      "start" : 652.5,
-      "text" : "I don't think it's a case of worrying about different languages and things like that making"
-    },
-    {
-      "end" : 747.219970703125,
-      "speaker" : "speaker_0",
-      "start" : 742.5,
-      "text" : "and seeing a million tiny little buttons with tiny little words saying what they'll do"
-    },
-    {
-      "end" : 824,
-      "speaker" : "speaker_0",
-      "start" : 817,
-      "text" : "My grandad can answer his mobile phone but he couldn't even dream of texting or something like that"
-    },
-    {
-      "end" : 828,
+      "end" : 654.5399780273438,
       "speaker" : "speaker_3",
-      "start" : 824,
-      "text" : "Can he program his remote control or is he basically without two?"
+      "start" : 652.52001953125,
+      "text" : "Big target group. Yes."
     },
     {
-      "end" : 832.5,
-      "speaker" : "speaker_2",
-      "start" : 830,
-      "text" : "My grandad does better than me at using tabletop"
-    },
-    {
-      "end" : 834.5,
-      "speaker" : "speaker_2",
-      "start" : 833,
-      "text" : "What about the younger generation?"
-    },
-    {
-      "end" : 893.5399780273438,
-      "speaker" : "speaker_2",
-      "start" : 885.5399780273438,
-      "text" : "Yeah. I don't know how for 25 or 12 Euros 50 how much of an excellent screen you'd get."
-    },
-    {
-      "end" : 894.5399780273438,
-      "speaker" : "speaker_2",
-      "start" : 893.5399780273438,
-      "text" : "Yeah."
-    },
-    {
-      "end" : 970.9400024414062,
-      "speaker" : "speaker_3",
-      "start" : 968.9400024414062,
-      "text" : "- Yes, sorry I'm trading in your territory, girl."
-    },
-    {
-      "end" : 972.9400024414062,
-      "speaker" : "speaker_3",
-      "start" : 970.9400024414062,
-      "text" : "- No, no."
-    },
-    {
-      "end" : 976.3800048828125,
+      "end" : 661.2000122070312,
       "speaker" : "speaker_0",
-      "start" : 972.9400024414062,
+      "start" : 655,
+      "text" : "I don't think it's a case of worrying about different languages and things like that."
+    },
+    {
+      "end" : 752.9000244140625,
+      "speaker" : "speaker_0",
+      "start" : 750.8599853515625,
+      "text" : "And it's the symbols that you don't necessarily understand"
+    },
+    {
+      "end" : 863.9000244140625,
+      "speaker" : "speaker_2",
+      "start" : 863.3800048828125,
+      "text" : "I"
+    },
+    {
+      "end" : 871.4400024414062,
+      "speaker" : "speaker_0",
+      "start" : 863.9000244140625,
+      "text" : "don't know how. I don't like the new phones that kind of got a Windows based running system."
+    },
+    {
+      "end" : 884.97998046875,
+      "speaker" : "speaker_0",
+      "start" : 872.8699951171875,
+      "text" : "I find it really confusng. I kept getting lost in the phone. I had not got any experience"
+    },
+    {
+      "end" : 922.1199951171875,
+      "speaker" : "speaker_0",
+      "start" : 913.5800170898438,
+      "text" : "What about a dual function in that you've got the basic buttons just for your play, volume, programs?"
+    },
+    {
+      "end" : 971.260009765625,
+      "speaker" : "speaker_3",
+      "start" : 970.6600341796875,
+      "text" : "- No, no, no!"
+    },
+    {
+      "end" : 976.0400390625,
+      "speaker" : "speaker_0",
+      "start" : 973.6799926757812,
       "text" : "- Right, okay, we've got half an hour before the next meeting"
     },
     {
-      "end" : 983.3400268554688,
+      "end" : 982.6799926757812,
       "speaker" : "speaker_0",
-      "start" : 980.3800048828125,
+      "start" : 980.8800048828125,
       "text" : "I think that's probably about it"
     },
     {
-      "end" : 987.6000366210938,
+      "end" : 986.780029296875,
       "speaker" : "speaker_0",
-      "start" : 985.9000244140625,
-      "text" : "and I get to do another..."
+      "start" : 985.6400146484375,
+      "text" : "and I get to do another."
     },
     {
-      "end" : 997.5999755859375,
+      "end" : 996.3199462890625,
       "speaker" : "speaker_2",
-      "start" : 987.5999755859375,
-      "text" : "Just a quick thing about what you were saying about the doesn't need to be fashionable."
+      "start" : 989.0399780273438,
+      "text" : "Just a quick thing about the, what you were saying about the, doesn't need to be fashionable,"
     },
     {
-      "end" : 990.47998046875,
+      "end" : 995.6799926757812,
       "speaker" : "speaker_2",
-      "start" : 987.6199951171875,
-      "text" : "- Yes, yes yes. - I'm going."
+      "start" : 993.1400146484375,
+      "text" : "Subtitles by the Amara.org community"
     },
     {
-      "end" : 1005.0999755859375,
+      "end" : 1003.5799560546875,
       "speaker" : "speaker_2",
-      "start" : 997.5999755859375,
-      "text" : "I had a quick quick look at the company website and it's like the we put the fashion into electronics."
+      "start" : 996.5899658203125,
+      "text" : "the, so I had a quick look at the company website and it's like the, we put the fashion"
     },
     {
-      "end" : 1010.0999755859375,
+      "end" : 1009.0599975585938,
       "speaker" : "speaker_2",
-      "start" : 1005.0999755859375,
-      "text" : "So I'm thinking the whole design thing might be for."
-    },
-    {
-      "end" : 1014.3399658203125,
-      "speaker" : "speaker_2",
-      "start" : 1010.0999755859375,
-      "text" : "You can still have plastic and it'd look quite good."
+      "start" : 1003.7999877929688,
+      "text" : "into electronics, so I thought the whole design thing might be fun."
     }
   ],
   "speakerTurns" : [
@@ -1135,7 +1099,7 @@
       "start" : 1048.9473876953125
     }
   ],
-  "text" : "Are we? Okay. Hello everybody. I'm Sarah, the Project Manager, and this is our first interview. What needs need to be fulfilled by the product, what effect the product has to have and how it's and so what's the characteristics of that animal? Agur first. Maybe you can guess what I'm trying to make. So, it's sitting, it's standing, it's standing Okay, I see it as one thing, it's very supportive Please leave me a place at the bottom. and then it sort of changed into a pelican but it can be perfect. Yeah and I'll have to think on the spot one time. Yeah that's funny... I'm very impressed with your artistic skill... It's not a bouncer bat honestly. Independent. Eagle. I'd be able to put it up or I could put it in the share folder. Having said the if you want to get one of those, the ones on the market at the moment I don't think it's a case of worrying about different languages and things like that making and seeing a million tiny little buttons with tiny little words saying what they'll do My grandad can answer his mobile phone but he couldn't even dream of texting or something like that Can he program his remote control or is he basically without two? My grandad does better than me at using tabletop What about the younger generation? Yeah. I don't know how for 25 or 12 Euros 50 how much of an excellent screen you'd get. Yeah. - Yes, sorry I'm trading in your territory, girl. - No, no. - Right, okay, we've got half an hour before the next meeting I think that's probably about it and I get to do another... Just a quick thing about what you were saying about the doesn't need to be fashionable. - Yes, yes yes. - I'm going. I had a quick quick look at the company website and it's like the we put the fashion into electronics. So I'm thinking the whole design thing might be for. You can still have plastic and it'd look quite good.",
+  "text" : "What needs need to be fulfilled by the product, what effect the product has to have and how it's and so what's the characteristics of that animal? Please leave me a place at the bottom. It was originally going to be. That looks like a beak. It can be a crocodile. Firstly it was an attempt at a T-Rex. and then it sort of changed into a pelican but it can be perfect. Yeah and I'll have to think on the spot one time. It's not that bad, honestly! Independent. Independent. Did you say they're good at golf? Yeah! Ego. Alright. They're quite free-spirited. I'd think so. Having said they, if you want to get one of those, they're the ones on the market at the moment. Big target group. Yes. I don't think it's a case of worrying about different languages and things like that. And it's the symbols that you don't necessarily understand I don't know how. I don't like the new phones that kind of got a Windows based running system. I find it really confusng. I kept getting lost in the phone. I had not got any experience What about a dual function in that you've got the basic buttons just for your play, volume, programs? - No, no, no! - Right, okay, we've got half an hour before the next meeting I think that's probably about it and I get to do another. Just a quick thing about the, what you were saying about the, doesn't need to be fashionable, Subtitles by the Amara.org community the, so I had a quick look at the company website and it's like the, we put the fashion into electronics, so I thought the whole design thing might be fun.",
   "track" : "meeting",
-  "wallSeconds" : 576.71890475
+  "wallSeconds" : 505.264599417
 }

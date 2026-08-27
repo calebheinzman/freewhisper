@@ -3,403 +3,493 @@
   "dataset" : "notsofar",
   "id" : "MTG_32004",
   "model" : "whisper-large-v3-turbo",
-  "rtfx" : 8.524123493804098,
+  "rtfx" : 8.249245465506418,
   "segments" : [
     {
-      "end" : 14.399999618530273,
+      "end" : 13.65999984741211,
       "speaker" : "speaker_0",
-      "start" : 0,
+      "start" : 6.619999885559082,
       "text" : "So the meeting's topic is about whether we should be bringing personal weapons to work."
     },
     {
-      "end" : 24.69999885559082,
+      "end" : 20.81999969482422,
       "speaker" : "speaker_0",
-      "start" : 14.399999618530273,
+      "start" : 15.039999961853027,
       "text" : "Of course, the situation with the crime in the neighborhood has gotten a little bit more"
     },
     {
-      "end" : 35.7400016784668,
+      "end" : 34.92000198364258,
       "speaker" : "speaker_0",
-      "start" : 24.700000762939453,
+      "start" : 25.060001373291016,
       "text" : "Everybody has a right to personal defense, but is it too much to expect people to be bringing"
     },
     {
-      "end" : 36.7400016784668,
+      "end" : 36.47999954223633,
       "speaker" : "speaker_0",
-      "start" : 35.7400016784668,
+      "start" : 35.84000015258789,
       "text" : "weapons to work?"
     },
     {
-      "end" : 38.459999084472656,
+      "end" : 38.02000045776367,
       "speaker" : "speaker_0",
-      "start" : 36.7400016784668,
+      "start" : 36.55000305175781,
       "text" : "And what type of weapons should they bring?"
     },
     {
-      "end" : 42.5,
+      "end" : 41.26000213623047,
       "speaker" : "speaker_0",
-      "start" : 38.459999084472656,
+      "start" : 38.20000076293945,
       "text" : "Anybody have anything to the top for them?"
     },
     {
-      "end" : 45.36000061035156,
+      "end" : 44.97999954223633,
       "speaker" : "speaker_1",
-      "start" : 42.5,
+      "start" : 42.86000061035156,
       "text" : "- The first thing, is it limited by age?"
     },
     {
-      "end" : 47.20000076293945,
+      "end" : 47.08000183105469,
       "speaker" : "speaker_0",
-      "start" : 46.36000061035156,
+      "start" : 46.279998779296875,
       "text" : "- Is what?"
     },
     {
-      "end" : 49.73999786376953,
-      "speaker" : "speaker_1",
-      "start" : 47.20000076293945,
-      "text" : "- Do you limit the port of any--"
+      "end" : 47.36000061035156,
+      "speaker" : "speaker_0",
+      "start" : 47.26000213623047,
+      "text" : "- Do"
     },
     {
-      "end" : 52.26000213623047,
+      "end" : 49.70000076293945,
+      "speaker" : "speaker_1",
+      "start" : 47.36000061035156,
+      "text" : "you limit the port of any--"
+    },
+    {
+      "end" : 52.02000045776367,
       "speaker" : "speaker_0",
-      "start" : 49.73999786376953,
+      "start" : 49.720001220703125,
       "text" : "- No, anybody should be able to have a weapon."
     },
     {
-      "end" : 55.099998474121094,
-      "speaker" : "speaker_2",
-      "start" : 52.26000213623047,
-      "text" : "- Well, I think that's a different discussion"
+      "end" : 53.31999969482422,
+      "speaker" : "speaker_0",
+      "start" : 52.91999816894531,
+      "text" : "- Well,"
     },
     {
-      "end" : 56.68000030517578,
+      "end" : 54.86000061035156,
       "speaker" : "speaker_2",
-      "start" : 55.099998474121094,
+      "start" : 53.31999969482422,
+      "text" : "I think that's a different discussion"
+    },
+    {
+      "end" : 56.5,
+      "speaker" : "speaker_2",
+      "start" : 55.13999938964844,
       "text" : "if someone should be able to have a weapon"
     },
     {
-      "end" : 58.65999984741211,
+      "end" : 58.220001220703125,
       "speaker" : "speaker_2",
-      "start" : 56.68000030517578,
+      "start" : 56.65999984741211,
       "text" : "or not have a weapon, but bring it to work."
     },
     {
       "end" : 60.19999694824219,
       "speaker" : "speaker_2",
-      "start" : 58.65999984741211,
+      "start" : 58.63999938964844,
       "text" : "I personally think it's..."
     },
     {
-      "end" : 66.12000274658203,
+      "end" : 66.04000091552734,
       "speaker" : "speaker_2",
-      "start" : 60.20000076293945,
+      "start" : 60.65999984741211,
       "text" : "reasonable to bring something to work especially like in proper companies"
     },
     {
-      "end" : 70.04000091552734,
+      "end" : 70.02000427246094,
       "speaker" : "speaker_2",
-      "start" : 66.12000274658203,
+      "start" : 66.23999786376953,
       "text" : "where you have security in the office there is no reason for someone to carry"
     },
     {
-      "end" : 75.13999938964844,
+      "end" : 75.12000274658203,
       "speaker" : "speaker_2",
-      "start" : 70.04000091552734,
+      "start" : 70.18000030517578,
       "text" : "personal weapons god forbid something happens or something there's security for"
     },
     {
-      "end" : 79,
+      "end" : 75.8800048828125,
+      "speaker" : "speaker_2",
+      "start" : 75.16000366210938,
+      "text" : "that i"
+    },
+    {
+      "end" : 77.66000366210938,
       "speaker" : "speaker_0",
-      "start" : 75.13999938964844,
-      "text" : "that I have it on the way to work exactly"
+      "start" : 75.8800048828125,
+      "text" : "have it on the way to work exactly"
+    },
+    {
+      "end" : 79.4000015258789,
+      "speaker" : "speaker_0",
+      "start" : 77.69000244140625,
+      "text" : "i take the subway right"
+    },
+    {
+      "end" : 81.95999908447266,
+      "speaker" : "speaker_1",
+      "start" : 79.4000015258789,
+      "text" : "if you get on the subway you get an impact including"
     },
     {
       "end" : 84.19999694824219,
       "speaker" : "speaker_1",
-      "start" : 79,
-      "text" : "right it should get on the subway including other way to yeah"
+      "start" : 82.0999984741211,
+      "text" : "the way it is up yeah all right"
     },
     {
-      "end" : 85.03999328613281,
+      "end" : 84.79999542236328,
       "speaker" : "speaker_1",
-      "start" : 84.19999694824219,
+      "start" : 84.33999633789062,
       "text" : "- That's a good point."
     },
     {
-      "end" : 85.27999877929688,
+      "end" : 85.23999786376953,
       "speaker" : "speaker_1",
-      "start" : 84.22000122070312,
-      "text" : "okay"
-    },
-    {
-      "end" : 85.86000061035156,
-      "speaker" : "speaker_1",
-      "start" : 85.03999328613281,
+      "start" : 84.79999542236328,
       "text" : "- That's a point."
     },
     {
-      "end" : 86.69999694824219,
+      "end" : 86.2199935913086,
       "speaker" : "speaker_1",
-      "start" : 85.86000061035156,
+      "start" : 85.5999984741211,
       "text" : "- That's a good point."
     },
     {
-      "end" : 90.57999420166016,
+      "end" : 90.31999969482422,
       "speaker" : "speaker_1",
-      "start" : 86.69999694824219,
+      "start" : 86.43999481201172,
       "text" : "- Oh, then you can do the way you can--"
     },
     {
-      "end" : 92.05999755859375,
+      "end" : 91.89999389648438,
       "speaker" : "speaker_1",
-      "start" : 90.57999420166016,
+      "start" : 90.47999572753906,
       "text" : "- But would you really feel comfortable"
     },
     {
-      "end" : 94.27999877929688,
+      "end" : 94.07999420166016,
       "speaker" : "speaker_1",
-      "start" : 92.05999755859375,
+      "start" : 92.13999938964844,
       "text" : "having everyone carry these types of weapons just around?"
     },
     {
-      "end" : 99.5,
+      "end" : 100,
       "speaker" : "speaker_1",
-      "start" : 94.27999877929688,
+      "start" : 94.07999420166016,
       "text" : "- No, if there is, let's say, a gun,"
     },
     {
-      "end" : 102.95999908447266,
+      "end" : 102.45999908447266,
       "speaker" : "speaker_1",
-      "start" : 99.5,
+      "start" : 99.54000091552734,
       "text" : "lockers or whatever, and when you walk into the building,"
     },
     {
-      "end" : 106.77999877929688,
+      "end" : 106.58000183105469,
       "speaker" : "speaker_1",
-      "start" : 102.95999908447266,
+      "start" : 102.91999816894531,
       "text" : "if you have a weapon, then you drop it in your own weapon"
     },
     {
-      "end" : 108.97999572753906,
+      "end" : 108.87999725341797,
       "speaker" : "speaker_1",
-      "start" : 106.77999877929688,
+      "start" : 106.72000122070312,
       "text" : "with a locker and a thing."
     },
     {
-      "end" : 110.4000015258789,
+      "end" : 110.12000274658203,
       "speaker" : "speaker_1",
-      "start" : 108.97999572753906,
+      "start" : 108.94000244140625,
       "text" : "- But you think it's a little excessive"
     },
     {
-      "end" : 111.9000015258789,
+      "end" : 111.80000305175781,
       "speaker" : "speaker_1",
-      "start" : 110.4000015258789,
+      "start" : 110.44000244140625,
       "text" : "that everyone would have a weapon on them?"
     },
     {
-      "end" : 114.4000015258789,
+      "end" : 114.0999984741211,
       "speaker" : "speaker_1",
-      "start" : 111.9000015258789,
+      "start" : 111.83999633789062,
       "text" : "Like, would you truly feel safe that everyone"
     },
     {
-      "end" : 115.54000091552734,
-      "speaker" : "speaker_0",
-      "start" : 114.4000015258789,
-      "text" : "is carrying a weapon?"
-    },
-    {
-      "end" : 116.37999725341797,
+      "end" : 114.72000122070312,
       "speaker" : "speaker_1",
-      "start" : 115.54000091552734,
-      "text" : "- Depends which town you live in."
+      "start" : 114.19999694824219,
+      "text" : "is carrying"
     },
     {
-      "end" : 118.63999938964844,
+      "end" : 115.26000213623047,
       "speaker" : "speaker_0",
-      "start" : 116.37999725341797,
+      "start" : 114.72000122070312,
+      "text" : "a weapon?"
+    },
+    {
+      "end" : 115.55999755859375,
+      "speaker" : "speaker_0",
+      "start" : 115.44000244140625,
+      "text" : "- Depends"
+    },
+    {
+      "end" : 116.22000122070312,
+      "speaker" : "speaker_1",
+      "start" : 115.55999755859375,
+      "text" : "which town you live"
+    },
+    {
+      "end" : 116.31999969482422,
+      "speaker" : "speaker_0",
+      "start" : 116.22000122070312,
+      "text" : "in."
+    },
+    {
+      "end" : 118.44000244140625,
+      "speaker" : "speaker_0",
+      "start" : 116.31999969482422,
       "text" : "- Look at the crime that's been happening in the city"
     },
     {
-      "end" : 120.37999725341797,
+      "end" : 120.18000030517578,
       "speaker" : "speaker_0",
-      "start" : 118.63999938964844,
+      "start" : 118.69999694824219,
       "text" : "from over the past six months."
     },
     {
-      "end" : 121.0999984741211,
+      "end" : 120.63999938964844,
       "speaker" : "speaker_1",
-      "start" : 120.37999725341797,
+      "start" : 120.30000305175781,
       "text" : "- Yes."
     },
     {
-      "end" : 129.0399932861328,
+      "end" : 128.9199981689453,
       "speaker" : "speaker_0",
-      "start" : 121.0999984741211,
+      "start" : 121.72000122070312,
       "text" : "So many people have been assaulted and to know that there might be somebody with a personal weapon."
     },
     {
-      "end" : 131.0399932861328,
+      "end" : 130.24000549316406,
       "speaker" : "speaker_0",
-      "start" : 129.0399932861328,
+      "start" : 129.36000061035156,
       "text" : "Yeah. When did you see?"
     },
     {
-      "end" : 136.60000610351562,
-      "speaker" : "speaker_2",
-      "start" : 131.0399932861328,
-      "text" : "Of course you can look at it from a side of what has been happening and the bad side of it,"
+      "end" : 132.5,
+      "speaker" : "speaker_0",
+      "start" : 131.13999938964844,
+      "text" : "Of course you"
     },
     {
-      "end" : 141.10000610351562,
+      "end" : 136.52000427246094,
       "speaker" : "speaker_2",
-      "start" : 136.60000610351562,
+      "start" : 132.5,
+      "text" : "can look at it from a side of what has been happening and the bad side of it,"
+    },
+    {
+      "end" : 140.86000061035156,
+      "speaker" : "speaker_2",
+      "start" : 136.52000427246094,
       "text" : "but also think in certain areas where crime is not so high,"
     },
     {
-      "end" : 147.1999969482422,
+      "end" : 146.72000122070312,
       "speaker" : "speaker_2",
-      "start" : 141.10000610351562,
+      "start" : 141.3000030517578,
       "text" : "and this regulation would be standing for many places, not just the city we're living in,"
     },
     {
-      "end" : 153.63999938964844,
+      "end" : 153.6199951171875,
       "speaker" : "speaker_2",
-      "start" : 147.1999969482422,
+      "start" : 147.66000366210938,
       "text" : "Would you feel comfortable walking into the office knowing that there's no potential danger around?"
     },
     {
-      "end" : 156.25999450683594,
+      "end" : 156.22000122070312,
       "speaker" : "speaker_2",
-      "start" : 153.75999450683594,
+      "start" : 153.67999267578125,
       "text" : "I know you carry the weapons for that one time that it's not."
     },
     {
-      "end" : 157.86000061035156,
+      "end" : 157.83999633789062,
       "speaker" : "speaker_2",
-      "start" : 156.87998962402344,
+      "start" : 157.16000366210938,
       "text" : "Would you feel comfortable?"
     },
     {
-      "end" : 160.59999084472656,
+      "end" : 160.55999755859375,
       "speaker" : "speaker_2",
-      "start" : 157.97999572753906,
+      "start" : 157.95999145507812,
       "text" : "You don't know what's going on in the next person next to you's head."
     },
     {
-      "end" : 166,
+      "end" : 165.739990234375,
       "speaker" : "speaker_1",
-      "start" : 161.37998962402344,
+      "start" : 161.67999267578125,
       "text" : "Yeah, but you would have to have security at the entrance of the building asking you,"
     },
     {
-      "end" : 171.75999450683594,
+      "end" : 171.3800048828125,
       "speaker" : "speaker_1",
-      "start" : 166,
+      "start" : 166.16000366210938,
       "text" : "Are you carrying a weapon? And if you are, then you have the possibility, not the opposite,"
     },
     {
-      "end" : 176.4600067138672,
+      "end" : 175.8800048828125,
       "speaker" : "speaker_1",
-      "start" : 171.75999450683594,
+      "start" : 171.63999938964844,
       "text" : "you must leave your weapon at the entrance so that you don't go in the working environment"
     },
     {
-      "end" : 182.45999145507812,
+      "end" : 181.94000244140625,
       "speaker" : "speaker_1",
-      "start" : 176.4600067138672,
+      "start" : 176.5399932861328,
       "text" : "with it, because when you travel, that's when you want to really protect yourself."
     },
     {
-      "end" : 188.5,
+      "end" : 188.3000030517578,
       "speaker" : "speaker_0",
-      "start" : 182.45999145507812,
+      "start" : 182.39999389648438,
       "text" : "We can assume that when you're at the workplace that the security within the workplace is"
     },
     {
       "end" : 190.5399932861328,
       "speaker" : "speaker_0",
-      "start" : 188.5,
+      "start" : 188.52000427246094,
       "text" : "is strong enough that--"
     },
     {
-      "end" : 192.5,
+      "end" : 192.16000366210938,
       "speaker" : "speaker_0",
       "start" : 190.5399932861328,
       "text" : "But not every workplace is like that."
     },
     {
-      "end" : 194.27999877929688,
+      "end" : 193.5,
       "speaker" : "speaker_0",
       "start" : 192.5,
-      "text" : "There are many workplaces that do not have security."
+      "text" : "There are many workplaces that"
     },
     {
-      "end" : 195.27999877929688,
+      "end" : 194.05999755859375,
+      "speaker" : "speaker_1",
+      "start" : 193.5,
+      "text" : "do not have"
+    },
+    {
+      "end" : 194.25999450683594,
+      "speaker" : "speaker_0",
+      "start" : 194.05999755859375,
+      "text" : "security."
+    },
+    {
+      "end" : 194.6199951171875,
       "speaker" : "speaker_0",
       "start" : 194.27999877929688,
       "text" : "That's true."
     },
     {
-      "end" : 197.33999633789062,
+      "end" : 196.77999877929688,
       "speaker" : "speaker_0",
-      "start" : 195.27999877929688,
+      "start" : 194.75999450683594,
       "text" : "When we're talking about our workplace in particular,"
     },
     {
-      "end" : 202.74000549316406,
+      "end" : 202.17999267578125,
       "speaker" : "speaker_0",
-      "start" : 197.33999633789062,
+      "start" : 197.3699951171875,
       "text" : "our office, which is located downtown in not such a great area,"
     },
     {
-      "end" : 206.6199951171875,
+      "end" : 206.60000610351562,
       "speaker" : "speaker_0",
-      "start" : 202.74000549316406,
+      "start" : 202.82000732421875,
       "text" : "and people have been assaulted, and we want to feel that everybody is--"
     },
     {
-      "end" : 208.6199951171875,
+      "end" : 208.3800048828125,
       "speaker" : "speaker_0",
       "start" : 206.6199951171875,
       "text" : "Okay, if we're limiting it to that, okay."
     },
     {
+      "end" : 210.32000732421875,
+      "speaker" : "speaker_0",
+      "start" : 208.61000061035156,
+      "text" : "And about these weapons, are they going to"
+    },
+    {
       "end" : 211.1999969482422,
-      "speaker" : "speaker_0",
-      "start" : 208.6199951171875,
-      "text" : "And about these weapons, are they going to carry--"
-    },
-    {
-      "end" : 238.1999969482422,
-      "speaker" : "speaker_0",
-      "start" : 231.1999969482422,
-      "text" : "If people thought that having a gun is a little bit too dangerous, you can always carry a knife."
-    },
-    {
-      "end" : 240.6999969482422,
       "speaker" : "speaker_2",
-      "start" : 238.1999969482422,
-      "text" : "But where does it stop? There's so many things you can use as a weapon."
+      "start" : 210.32000732421875,
+      "text" : "carry--"
     },
     {
-      "end" : 243.89999389648438,
+      "end" : 237.8199920654297,
+      "speaker" : "speaker_0",
+      "start" : 231.3000030517578,
+      "text" : "If people thought that having a gun is a little bit too dangerous, you can always"
+    },
+    {
+      "end" : 237.8199920654297,
       "speaker" : "speaker_2",
-      "start" : 240.6999969482422,
+      "start" : 237.8199920654297,
+      "text" : "carry a knife."
+    },
+    {
+      "end" : 237.8199920654297,
+      "speaker" : "speaker_2",
+      "start" : 237.8199920654297,
+      "text" : "But"
+    },
+    {
+      "end" : 239.36000061035156,
+      "speaker" : "speaker_0",
+      "start" : 237.8199920654297,
+      "text" : "where does it stop? There's so many"
+    },
+    {
+      "end" : 240.5,
+      "speaker" : "speaker_2",
+      "start" : 239.36000061035156,
+      "text" : "things you can use as a weapon."
+    },
+    {
+      "end" : 243.63999938964844,
+      "speaker" : "speaker_2",
+      "start" : 240.6699981689453,
       "text" : "So where does it stop? You walk into the office with a collection of weapons,"
     },
     {
-      "end" : 246.6999969482422,
+      "end" : 246.72000122070312,
       "speaker" : "speaker_2",
-      "start" : 243.89999389648438,
+      "start" : 243.8300018310547,
       "text" : "and you're like, \"I'm going to admit all this to the security guard,\""
     },
     {
-      "end" : 249.6999969482422,
+      "end" : 248.8199920654297,
       "speaker" : "speaker_2",
-      "start" : 246.6999969482422,
-      "text" : "and then you take it all of it. I think that's, it becomes like..."
+      "start" : 246.72000122070312,
+      "text" : "and then you take it all of it. I think that's, it"
+    },
+    {
+      "end" : 249.66000366210938,
+      "speaker" : "speaker_1",
+      "start" : 248.8199920654297,
+      "text" : "becomes like..."
     },
     {
       "end" : 252.09999084472656,
@@ -408,189 +498,243 @@
       "text" : "Now, are we discussing the fact that"
     },
     {
-      "end" : 258.1400146484375,
+      "end" : 258.1000061035156,
       "speaker" : "speaker_1",
-      "start" : 252.10000610351562,
+      "start" : 252.12001037597656,
       "text" : "Do we think about the law that should be made or about how people feel about it and how..."
     },
     {
-      "end" : 263.3399963378906,
-      "speaker" : "speaker_2",
-      "start" : 258.1400146484375,
-      "text" : "I think both. It goes together. It goes together. It depends on the law. That's how people are going to feel about it."
+      "end" : 259.1600036621094,
+      "speaker" : "speaker_1",
+      "start" : 258.1600036621094,
+      "text" : "I think both. It"
     },
     {
-      "end" : 264.3399963378906,
+      "end" : 259.8399963378906,
+      "speaker" : "speaker_0",
+      "start" : 259.1600036621094,
+      "text" : "goes together."
+    },
+    {
+      "end" : 263.2200012207031,
       "speaker" : "speaker_2",
-      "start" : 263.3399963378906,
+      "start" : 260.0400085449219,
+      "text" : "It goes together. It depends on the law. That's how people are going to feel about it."
+    },
+    {
+      "end" : 263.4800109863281,
+      "speaker" : "speaker_2",
+      "start" : 263.3800048828125,
       "text" : "Right."
     },
     {
-      "end" : 265.3399963378906,
+      "end" : 265.1400146484375,
       "speaker" : "speaker_0",
-      "start" : 264.3399963378906,
+      "start" : 264.6600036621094,
       "text" : "So..."
     },
     {
-      "end" : 274.3000183105469,
+      "end" : 274.0400085449219,
       "speaker" : "speaker_0",
-      "start" : 265.3399963378906,
+      "start" : 265.3000183105469,
       "text" : "But if people have some access to a weapon that they can defend themselves with or at least"
     },
     {
-      "end" : 279.29998779296875,
+      "end" : 279.2599792480469,
       "speaker" : "speaker_0",
-      "start" : 274.29998779296875,
+      "start" : 274.3599853515625,
       "text" : "show a potential threat that they have this weapon and maybe they'll leave them alone"
     },
     {
-      "end" : 282.29998779296875,
+      "end" : 281.8399963378906,
       "speaker" : "speaker_0",
-      "start" : 279.29998779296875,
+      "start" : 279.5,
       "text" : "because they're not that easily to be bothered."
     },
     {
-      "end" : 286.29998779296875,
+      "end" : 285.0999755859375,
       "speaker" : "speaker_0",
-      "start" : 282.29998779296875,
-      "text" : "The environment is changing."
+      "start" : 282.2799987792969,
+      "text" : "The environment is"
     },
     {
-      "end" : 295.3999938964844,
+      "end" : 285.8199768066406,
       "speaker" : "speaker_1",
-      "start" : 286.29998779296875,
+      "start" : 285.0999755859375,
+      "text" : "changing."
+    },
+    {
+      "end" : 294.91998291015625,
+      "speaker" : "speaker_1",
+      "start" : 286.40997314453125,
       "text" : "I don't remember any time when you had to lock in stores the toothpaste and now it's locked."
     },
     {
-      "end" : 298.2799987792969,
+      "end" : 298.1199951171875,
       "speaker" : "speaker_1",
-      "start" : 295.3999938964844,
+      "start" : 295.7799987792969,
       "text" : "To buy your toothpaste, you have to ask them."
     },
     {
-      "end" : 300.3999938964844,
+      "end" : 300.29998779296875,
       "speaker" : "speaker_1",
-      "start" : 298.2799987792969,
+      "start" : 298.17999267578125,
       "text" : "- But is that a reason to carry a lot of change?"
     },
     {
-      "end" : 302.3999938964844,
+      "end" : 302.17999267578125,
       "speaker" : "speaker_1",
-      "start" : 300.3999938964844,
+      "start" : 300.47998046875,
       "text" : "- Is that a reason to carry a lot of change?"
     },
     {
-      "end" : 304.3999938964844,
+      "end" : 304.0199890136719,
       "speaker" : "speaker_1",
-      "start" : 302.3999938964844,
+      "start" : 302.44000244140625,
       "text" : "- Shoplifting, yeah, that's a good point."
     },
     {
-      "end" : 306.3999938964844,
+      "end" : 305.8999938964844,
       "speaker" : "speaker_1",
-      "start" : 304.3999938964844,
+      "start" : 304.0199890136719,
       "text" : "- But it's not, the environment,"
     },
     {
-      "end" : 307.3999938964844,
+      "end" : 307.2799987792969,
       "speaker" : "speaker_1",
-      "start" : 306.3999938964844,
+      "start" : 306.2599792480469,
       "text" : "but I'm saying it's subject."
     },
     {
-      "end" : 309.3999938964844,
+      "end" : 309.17999267578125,
       "speaker" : "speaker_0",
-      "start" : 307.3999938964844,
+      "start" : 307.6000061035156,
       "text" : "- If you take the toothpaste and you put it"
     },
     {
-      "end" : 311.3999938964844,
+      "end" : 310.67999267578125,
       "speaker" : "speaker_0",
-      "start" : 309.3999938964844,
+      "start" : 309.17999267578125,
       "text" : "to somebody's office, that's gonna be different."
     },
     {
-      "end" : 312,
-      "speaker" : "speaker_2",
-      "start" : 311.3999938964844,
+      "end" : 311.17999267578125,
+      "speaker" : "speaker_0",
+      "start" : 311.0799865722656,
       "text" : "- Sure."
     },
     {
-      "end" : 313,
+      "end" : 312.7799987792969,
       "speaker" : "speaker_2",
-      "start" : 312,
+      "start" : 312.20001220703125,
       "text" : "That's true."
     },
     {
-      "end" : 314,
+      "end" : 313.1400146484375,
       "speaker" : "speaker_2",
-      "start" : 313,
-      "text" : "That's right."
+      "start" : 312.7799987792969,
+      "text" : "Yes, exactly."
     },
     {
-      "end" : 317,
+      "end" : 315.4599914550781,
       "speaker" : "speaker_2",
-      "start" : 314,
-      "text" : "Yes, exactly where do you stop a weapon and where it continues being something else?"
+      "start" : 313.5400085449219,
+      "text" : "Where do you stop a weapon and where"
     },
     {
-      "end" : 323.44000244140625,
+      "end" : 315.8999938964844,
       "speaker" : "speaker_0",
-      "start" : 317,
-      "text" : "Well, look I don't think having a personal hand grenade, for example, is a good idea,"
+      "start" : 315.4599914550781,
+      "text" : "it continues"
     },
     {
-      "end" : 330.4599914550781,
+      "end" : 316.8399963378906,
+      "speaker" : "speaker_2",
+      "start" : 315.8999938964844,
+      "text" : "being something else?"
+    },
+    {
+      "end" : 316.9200134277344,
+      "speaker" : "speaker_2",
+      "start" : 316.8399963378906,
+      "text" : "Well,"
+    },
+    {
+      "end" : 323.3599853515625,
       "speaker" : "speaker_0",
-      "start" : 323.44000244140625,
-      "text" : "because that causes a little bit more of a spread of danger to a certain area."
+      "start" : 317.1400146484375,
+      "text" : "look, I don't think having a personal hand grenade for example is a good idea, because"
     },
     {
-      "end" : 333.20001220703125,
-      "speaker" : "speaker_1",
-      "start" : 330.4599914550781,
-      "text" : "Also, do we trust our fellow employees?"
+      "end" : 330.3399963378906,
+      "speaker" : "speaker_0",
+      "start" : 323.7200012207031,
+      "text" : "that causes a little bit more of a spread of danger to a certain area."
     },
     {
-      "end" : 337.84002685546875,
+      "end" : 330.8399963378906,
+      "speaker" : "speaker_0",
+      "start" : 330.3699951171875,
+      "text" : "But also do"
+    },
+    {
+      "end" : 332.67999267578125,
       "speaker" : "speaker_1",
-      "start" : 333.20001220703125,
+      "start" : 330.8399963378906,
+      "text" : "we trust our fellow employees?"
+    },
+    {
+      "end" : 337.05999755859375,
+      "speaker" : "speaker_1",
+      "start" : 334.8000183105469,
       "text" : "to know how to handle weapons,"
     },
     {
-      "end" : 340.2400207519531,
+      "end" : 339.70001220703125,
       "speaker" : "speaker_1",
-      "start" : 337.84002685546875,
-      "text" : "and not to freak out and mishandle weapons."
+      "start" : 337.760009765625,
+      "text" : "and not to freak out and mishandle"
     },
     {
-      "end" : 343.6800231933594,
+      "end" : 340.05999755859375,
       "speaker" : "speaker_0",
-      "start" : 340.2400207519531,
+      "start" : 339.70001220703125,
+      "text" : "weapons."
+    },
+    {
+      "end" : 343.5400085449219,
+      "speaker" : "speaker_0",
+      "start" : 340.1400146484375,
       "text" : "- We have a special weapons training that goes on."
     },
     {
-      "end" : 346.760009765625,
+      "end" : 346.4800109863281,
       "speaker" : "speaker_0",
-      "start" : 343.6800231933594,
+      "start" : 343.70001220703125,
       "text" : "We have a nice room, we have a hand-gun room."
     },
     {
-      "end" : 348.6000061035156,
-      "speaker" : "speaker_2",
-      "start" : 346.760009765625,
-      "text" : "- But that goes all the way back to"
+      "end" : 347.46002197265625,
+      "speaker" : "speaker_0",
+      "start" : 346.52001953125,
+      "text" : "- But that goes all the way"
     },
     {
-      "end" : 350.3399963378906,
+      "end" : 347.9200134277344,
       "speaker" : "speaker_2",
-      "start" : 348.6000061035156,
+      "start" : 347.46002197265625,
+      "text" : "back to"
+    },
+    {
+      "end" : 350.2400207519531,
+      "speaker" : "speaker_2",
+      "start" : 348.67999267578125,
       "text" : "to gun regulations in general."
     },
     {
-      "end" : 350.8399963378906,
+      "end" : 350.7799987792969,
       "speaker" : "speaker_2",
-      "start" : 350.3399963378906,
+      "start" : 350.2900085449219,
       "text" : "Right, right."
     },
     {
@@ -600,69 +744,75 @@
       "text" : "Who's going to be able to carry a gun?"
     },
     {
-      "end" : 353.3399963378906,
+      "end" : 353.32000732421875,
       "speaker" : "speaker_2",
-      "start" : 352.1000061035156,
+      "start" : 352.2799987792969,
       "text" : "What are the regulations for it?"
     },
     {
-      "end" : 354.8399963378906,
+      "end" : 354.70001220703125,
       "speaker" : "speaker_2",
-      "start" : 353.3399963378906,
+      "start" : 353.3800048828125,
       "text" : "Is it based on mental health?"
     },
     {
-      "end" : 357.2799987792969,
+      "end" : 357.2200012207031,
       "speaker" : "speaker_2",
-      "start" : 354.8399963378906,
+      "start" : 354.8500061035156,
       "text" : "If certain people won't be able to carry it based on that."
     },
     {
-      "end" : 360.4800109863281,
+      "end" : 360.1400146484375,
       "speaker" : "speaker_2",
-      "start" : 357.2799987792969,
-      "text" : "Are we in a state that has good gun regulation or not?"
+      "start" : 357.3800048828125,
+      "text" : "Are we in a state that has good gun regulation or"
     },
     {
-      "end" : 365.2799987792969,
+      "end" : 360.3399963378906,
       "speaker" : "speaker_0",
-      "start" : 360.4800109863281,
+      "start" : 360.1400146484375,
+      "text" : "not?"
+    },
+    {
+      "end" : 365.260009765625,
+      "speaker" : "speaker_0",
+      "start" : 360.5400085449219,
       "text" : "Well, you know, we take a look at New York during the 1970s and 1980s"
     },
     {
-      "end" : 369.3800048828125,
+      "end" : 369.1199951171875,
       "speaker" : "speaker_0",
-      "start" : 366.08001708984375,
+      "start" : 366.55999755859375,
       "text" : "when these kind of things were a big problem."
     },
     {
-      "end" : 375.5,
+      "end" : 375.3399963378906,
       "speaker" : "speaker_0",
-      "start" : 369.3800048828125,
+      "start" : 369.6600036621094,
       "text" : "And, you know, we can also go back to see how they handled that discussion back then."
     },
     {
-      "end" : 377.5,
+      "end" : 377.3800048828125,
       "speaker" : "speaker_0",
-      "start" : 375.5,
+      "start" : 375.67999267578125,
       "text" : "and how they got through it."
     },
     {
-      "end" : 378.5,
+      "end" : 377.94000244140625,
       "speaker" : "speaker_0",
-      "start" : 377.5,
+      "start" : 377.3800048828125,
       "text" : "How well it worked."
     },
     {
-      "end" : 379.5,
+      "end" : 378.70001220703125,
       "speaker" : "speaker_0",
-      "start" : 378.5,
+      "start" : 378.2200012207031,
       "text" : "That's right."
     },
     {
-      "end" : 380.5,
+      "end" : 379.0799865722656,
       "speaker" : "speaker_0",
-      "start" : 379.5,
+      "start" : 378.79998779296875,
       "text" : "Mm-hmm."
     }
   ],
@@ -1068,7 +1218,7 @@
       "start" : 375.9422607421875
     }
   ],
-  "text" : "So the meeting's topic is about whether we should be bringing personal weapons to work. Of course, the situation with the crime in the neighborhood has gotten a little bit more Everybody has a right to personal defense, but is it too much to expect people to be bringing weapons to work? And what type of weapons should they bring? Anybody have anything to the top for them? - The first thing, is it limited by age? - Is what? - Do you limit the port of any-- - No, anybody should be able to have a weapon. - Well, I think that's a different discussion if someone should be able to have a weapon or not have a weapon, but bring it to work. I personally think it's... reasonable to bring something to work especially like in proper companies where you have security in the office there is no reason for someone to carry personal weapons god forbid something happens or something there's security for that I have it on the way to work exactly right it should get on the subway including other way to yeah - That's a good point. okay - That's a point. - That's a good point. - Oh, then you can do the way you can-- - But would you really feel comfortable having everyone carry these types of weapons just around? - No, if there is, let's say, a gun, lockers or whatever, and when you walk into the building, if you have a weapon, then you drop it in your own weapon with a locker and a thing. - But you think it's a little excessive that everyone would have a weapon on them? Like, would you truly feel safe that everyone is carrying a weapon? - Depends which town you live in. - Look at the crime that's been happening in the city from over the past six months. - Yes. So many people have been assaulted and to know that there might be somebody with a personal weapon. Yeah. When did you see? Of course you can look at it from a side of what has been happening and the bad side of it, but also think in certain areas where crime is not so high, and this regulation would be standing for many places, not just the city we're living in, Would you feel comfortable walking into the office knowing that there's no potential danger around? I know you carry the weapons for that one time that it's not. Would you feel comfortable? You don't know what's going on in the next person next to you's head. Yeah, but you would have to have security at the entrance of the building asking you, Are you carrying a weapon? And if you are, then you have the possibility, not the opposite, you must leave your weapon at the entrance so that you don't go in the working environment with it, because when you travel, that's when you want to really protect yourself. We can assume that when you're at the workplace that the security within the workplace is is strong enough that-- But not every workplace is like that. There are many workplaces that do not have security. That's true. When we're talking about our workplace in particular, our office, which is located downtown in not such a great area, and people have been assaulted, and we want to feel that everybody is-- Okay, if we're limiting it to that, okay. And about these weapons, are they going to carry-- If people thought that having a gun is a little bit too dangerous, you can always carry a knife. But where does it stop? There's so many things you can use as a weapon. So where does it stop? You walk into the office with a collection of weapons, and you're like, \"I'm going to admit all this to the security guard,\" and then you take it all of it. I think that's, it becomes like... Now, are we discussing the fact that Do we think about the law that should be made or about how people feel about it and how... I think both. It goes together. It goes together. It depends on the law. That's how people are going to feel about it. Right. So... But if people have some access to a weapon that they can defend themselves with or at least show a potential threat that they have this weapon and maybe they'll leave them alone because they're not that easily to be bothered. The environment is changing. I don't remember any time when you had to lock in stores the toothpaste and now it's locked. To buy your toothpaste, you have to ask them. - But is that a reason to carry a lot of change? - Is that a reason to carry a lot of change? - Shoplifting, yeah, that's a good point. - But it's not, the environment, but I'm saying it's subject. - If you take the toothpaste and you put it to somebody's office, that's gonna be different. - Sure. That's true. That's right. Yes, exactly where do you stop a weapon and where it continues being something else? Well, look I don't think having a personal hand grenade, for example, is a good idea, because that causes a little bit more of a spread of danger to a certain area. Also, do we trust our fellow employees? to know how to handle weapons, and not to freak out and mishandle weapons. - We have a special weapons training that goes on. We have a nice room, we have a hand-gun room. - But that goes all the way back to to gun regulations in general. Right, right. Who's going to be able to carry a gun? What are the regulations for it? Is it based on mental health? If certain people won't be able to carry it based on that. Are we in a state that has good gun regulation or not? Well, you know, we take a look at New York during the 1970s and 1980s when these kind of things were a big problem. And, you know, we can also go back to see how they handled that discussion back then. and how they got through it. How well it worked. That's right. Mm-hmm.",
+  "text" : "So the meeting's topic is about whether we should be bringing personal weapons to work. Of course, the situation with the crime in the neighborhood has gotten a little bit more Everybody has a right to personal defense, but is it too much to expect people to be bringing weapons to work? And what type of weapons should they bring? Anybody have anything to the top for them? - The first thing, is it limited by age? - Is what? - Do you limit the port of any-- - No, anybody should be able to have a weapon. - Well, I think that's a different discussion if someone should be able to have a weapon or not have a weapon, but bring it to work. I personally think it's... reasonable to bring something to work especially like in proper companies where you have security in the office there is no reason for someone to carry personal weapons god forbid something happens or something there's security for that i have it on the way to work exactly i take the subway right if you get on the subway you get an impact including the way it is up yeah all right - That's a good point. - That's a point. - That's a good point. - Oh, then you can do the way you can-- - But would you really feel comfortable having everyone carry these types of weapons just around? - No, if there is, let's say, a gun, lockers or whatever, and when you walk into the building, if you have a weapon, then you drop it in your own weapon with a locker and a thing. - But you think it's a little excessive that everyone would have a weapon on them? Like, would you truly feel safe that everyone is carrying a weapon? - Depends which town you live in. - Look at the crime that's been happening in the city from over the past six months. - Yes. So many people have been assaulted and to know that there might be somebody with a personal weapon. Yeah. When did you see? Of course you can look at it from a side of what has been happening and the bad side of it, but also think in certain areas where crime is not so high, and this regulation would be standing for many places, not just the city we're living in, Would you feel comfortable walking into the office knowing that there's no potential danger around? I know you carry the weapons for that one time that it's not. Would you feel comfortable? You don't know what's going on in the next person next to you's head. Yeah, but you would have to have security at the entrance of the building asking you, Are you carrying a weapon? And if you are, then you have the possibility, not the opposite, you must leave your weapon at the entrance so that you don't go in the working environment with it, because when you travel, that's when you want to really protect yourself. We can assume that when you're at the workplace that the security within the workplace is is strong enough that-- But not every workplace is like that. There are many workplaces that do not have security. That's true. When we're talking about our workplace in particular, our office, which is located downtown in not such a great area, and people have been assaulted, and we want to feel that everybody is-- Okay, if we're limiting it to that, okay. And about these weapons, are they going to carry-- If people thought that having a gun is a little bit too dangerous, you can always carry a knife. But where does it stop? There's so many things you can use as a weapon. So where does it stop? You walk into the office with a collection of weapons, and you're like, \"I'm going to admit all this to the security guard,\" and then you take it all of it. I think that's, it becomes like... Now, are we discussing the fact that Do we think about the law that should be made or about how people feel about it and how... I think both. It goes together. It goes together. It depends on the law. That's how people are going to feel about it. Right. So... But if people have some access to a weapon that they can defend themselves with or at least show a potential threat that they have this weapon and maybe they'll leave them alone because they're not that easily to be bothered. The environment is changing. I don't remember any time when you had to lock in stores the toothpaste and now it's locked. To buy your toothpaste, you have to ask them. - But is that a reason to carry a lot of change? - Is that a reason to carry a lot of change? - Shoplifting, yeah, that's a good point. - But it's not, the environment, but I'm saying it's subject. - If you take the toothpaste and you put it to somebody's office, that's gonna be different. - Sure. That's true. Yes, exactly. Where do you stop a weapon and where it continues being something else? Well, look, I don't think having a personal hand grenade for example is a good idea, because that causes a little bit more of a spread of danger to a certain area. But also do we trust our fellow employees? to know how to handle weapons, and not to freak out and mishandle weapons. - We have a special weapons training that goes on. We have a nice room, we have a hand-gun room. - But that goes all the way back to to gun regulations in general. Right, right. Who's going to be able to carry a gun? What are the regulations for it? Is it based on mental health? If certain people won't be able to carry it based on that. Are we in a state that has good gun regulation or not? Well, you know, we take a look at New York during the 1970s and 1980s when these kind of things were a big problem. And, you know, we can also go back to see how they handled that discussion back then. and how they got through it. How well it worked. That's right. Mm-hmm.",
   "track" : "meeting",
-  "wallSeconds" : 45.095853583
+  "wallSeconds" : 46.598519417
 }

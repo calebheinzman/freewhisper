@@ -3,433 +3,439 @@
   "dataset" : "ami-sdm",
   "id" : "ES2004a",
   "model" : "distil-whisper-large-v3",
-  "rtfx" : 16.766763675639357,
+  "rtfx" : 17.253963869394827,
   "segments" : [
     {
-      "end" : 12,
+      "end" : 30.100000381469727,
       "speaker" : "speaker_0",
-      "start" : 0,
-      "text" : "Are we?"
-    },
-    {
-      "end" : 24.5,
-      "speaker" : "speaker_0",
-      "start" : 22.5,
-      "text" : "I'm just be standing up there."
-    },
-    {
-      "end" : 30.5,
-      "speaker" : "speaker_2",
-      "start" : 29.5,
+      "start" : 29.920000076293945,
       "text" : "Yeah."
     },
     {
-      "end" : 31.5,
+      "end" : 31.31999969482422,
       "speaker" : "speaker_0",
-      "start" : 30.5,
+      "start" : 31.229999542236328,
       "text" : "Okay."
     },
     {
-      "end" : 33.5,
+      "end" : 34.040000915527344,
       "speaker" : "speaker_0",
-      "start" : 31.5,
+      "start" : 33.31999969482422,
       "text" : "Sorry, I'm just."
     },
     {
-      "end" : 34.5,
+      "end" : 34.400001525878906,
       "speaker" : "speaker_0",
-      "start" : 33.5,
+      "start" : 34.279998779296875,
       "text" : "Yes."
     },
     {
-      "end" : 72.5,
+      "end" : 34.599998474121094,
       "speaker" : "speaker_0",
-      "start" : 71.5,
-      "text" : "Hello, I'm"
+      "start" : 34.400001525878906,
+      "text" : "Yes."
     },
     {
-      "end" : 73.5,
-      "speaker" : "speaker_0",
-      "start" : 72.5,
-      "text" : "here."
+      "end" : 40.47999954223633,
+      "speaker" : "speaker_2",
+      "start" : 39.73999786376953,
+      "text" : "Oh, it's really?"
     },
     {
-      "end" : 74.5,
-      "speaker" : "speaker_0",
-      "start" : 73.5,
-      "text" : "Okay,"
+      "end" : 51.779998779296875,
+      "speaker" : "speaker_2",
+      "start" : 51.69000244140625,
+      "text" : "Oh, sorry."
     },
     {
-      "end" : 75.5,
+      "end" : 82.13999938964844,
       "speaker" : "speaker_0",
-      "start" : 74.5,
-      "text" : "Hello,"
+      "start" : 81.91999816894531,
+      "text" : "Hello, everybody."
     },
     {
-      "end" : 77.5,
+      "end" : 82.62000274658203,
       "speaker" : "speaker_0",
-      "start" : 76.5,
-      "text" : "Hello,"
+      "start" : 82.13999938964844,
+      "text" : "\"Hello everybody."
     },
     {
-      "end" : 80.5,
+      "end" : 120.9000015258789,
       "speaker" : "speaker_0",
-      "start" : 77.5,
-      "text" : "everybody."
+      "start" : 117.72000122070312,
+      "text" : "Now we are developing remote control, which you probably already know."
     },
     {
-      "end" : 85.5,
+      "end" : 157.6999969482422,
       "speaker" : "speaker_0",
-      "start" : 80.5,
-      "text" : "I'm Sarah, the project manager."
-    },
-    {
-      "end" : 157.47999572753906,
-      "speaker" : "speaker_0",
-      "start" : 149,
+      "start" : 150.55999755859375,
       "text" : "What needs need to be fulfilled by the product, and what effects the product has to have and how it's"
     },
     {
-      "end" : 178.5,
+      "end" : 178.22000122070312,
       "speaker" : "speaker_0",
-      "start" : 170.5,
+      "start" : 170.3800048828125,
       "text" : "Okay, right, we're going to practice with the pens and draw our favourite animal on the whiteboard."
     },
     {
-      "end" : 180,
+      "end" : 183.3000030517578,
       "speaker" : "speaker_0",
-      "start" : 178.5,
-      "text" : "I'll go first."
-    },
-    {
-      "end" : 184,
-      "speaker" : "speaker_0",
-      "start" : 180,
+      "start" : 180.3800048828125,
       "text" : "And so characteristics of that's animal."
     },
     {
-      "end" : 279,
-      "speaker" : "speaker_0",
-      "start" : 277,
-      "text" : "Got."
-    },
-    {
-      "end" : 283,
-      "speaker" : "speaker_0",
-      "start" : 279,
-      "text" : "I'm going to go."
-    },
-    {
-      "end" : 291,
+      "end" : 289.94000244140625,
       "speaker" : "speaker_1",
-      "start" : 289,
+      "start" : 289.0799865722656,
       "text" : "Oh, yeah."
     },
     {
-      "end" : 298.70001220703125,
+      "end" : 296.02001953125,
       "speaker" : "speaker_1",
-      "start" : 291.70001220703125,
+      "start" : 293.3000183105469,
       "text" : "maybe you can guess what I'm trying to make"
     },
     {
-      "end" : 318.20001220703125,
+      "end" : 299,
       "speaker" : "speaker_1",
-      "start" : 316.20001220703125,
+      "start" : 298.46002197265625,
+      "text" : "I find a look"
+    },
+    {
+      "end" : 318.34002685546875,
+      "speaker" : "speaker_1",
+      "start" : 317.0400085449219,
       "text" : "It's not standing."
     },
     {
-      "end" : 320.20001220703125,
+      "end" : 320.70001220703125,
       "speaker" : "speaker_1",
-      "start" : 318.20001220703125,
+      "start" : 319.3600158691406,
       "text" : "Okay, I see it as one thing."
     },
     {
-      "end" : 322.20001220703125,
+      "end" : 321.6800231933594,
       "speaker" : "speaker_1",
-      "start" : 320.20001220703125,
+      "start" : 320.7200012207031,
+      "text" : "yeah"
+    },
+    {
+      "end" : 321.55999755859375,
+      "speaker" : "speaker_1",
+      "start" : 320.8000183105469,
       "text" : "It's very supporting."
+    },
+    {
+      "end" : 325.3000183105469,
+      "speaker" : "speaker_1",
+      "start" : 324.1800231933594,
+      "text" : "It's your best friend in you."
+    },
+    {
+      "end" : 343.70001220703125,
+      "speaker" : "speaker_1",
+      "start" : 340.7200012207031,
+      "text" : "And dogs can sometimes make out between a three phantom."
     },
     {
       "end" : 358.20001220703125,
       "speaker" : "speaker_3",
-      "start" : 356.70001220703125,
+      "start" : 356.260009765625,
       "text" : "You give me a space at the bottom."
     },
     {
-      "end" : 361.8000183105469,
-      "speaker" : "speaker_3",
-      "start" : 358.20001220703125,
-      "text" : "on the top standing on a chair"
-    },
-    {
-      "end" : 364.6000061035156,
-      "speaker" : "speaker_2",
-      "start" : 361.8000183105469,
-      "text" : "since you guys have chosen new ones i wanted to do it"
-    },
-    {
-      "end" : 366.6000061035156,
-      "speaker" : "speaker_2",
-      "start" : 364.6000061035156,
-      "text" : "okay"
-    },
-    {
-      "end" : 373.8000183105469,
-      "speaker" : "speaker_2",
-      "start" : 366.6000061035156,
-      "text" : "and also my drawing skill isn't that great"
-    },
-    {
-      "end" : 377.96002197265625,
-      "speaker" : "speaker_0",
-      "start" : 373.8000183105469,
-      "text" : "well as you can say the quality of the work today is and i think it's outstanding"
-    },
-    {
-      "end" : 380.6800231933594,
-      "speaker" : "speaker_2",
-      "start" : 377.96002197265625,
-      "text" : "good okay now i'm going to have to choose"
-    },
-    {
-      "end" : 387.70001220703125,
+      "end" : 384.3000183105469,
       "speaker" : "speaker_2",
       "start" : 380.70001220703125,
       "text" : "change what it was originally for me because that looks like a beak outside"
     },
     {
-      "end" : 397.70001220703125,
+      "end" : 396.8600158691406,
       "speaker" : "speaker_2",
-      "start" : 392.70001220703125,
+      "start" : 394.05999755859375,
       "text" : "yeah it can be a crocodile it can be a crocodile"
     },
     {
       "end" : 402,
       "speaker" : "speaker_2",
-      "start" : 397.70001220703125,
+      "start" : 397.8800048828125,
       "text" : "it was a it was in a first it was an attempt at a tewrex"
     },
     {
-      "end" : 405.44000244140625,
+      "end" : 405.4200134277344,
       "speaker" : "speaker_2",
-      "start" : 402,
+      "start" : 402.1000061035156,
       "text" : "And then it's sort of changed into a pelican, but it can be perfect."
     },
     {
-      "end" : 406,
+      "end" : 405.9200134277344,
       "speaker" : "speaker_2",
-      "start" : 405.44000244140625,
+      "start" : 405.6199951171875,
       "text" : "Yeah."
     },
     {
-      "end" : 407,
+      "end" : 421.4200134277344,
       "speaker" : "speaker_2",
-      "start" : 406,
+      "start" : 421.32000732421875,
       "text" : "Yeah."
     },
     {
-      "end" : 424.5,
+      "end" : 424,
       "speaker" : "speaker_2",
-      "start" : 423,
+      "start" : 421.739990234375,
       "text" : "And I'll have to think on the spot once."
     },
     {
-      "end" : 441.5,
-      "speaker" : "speaker_2",
-      "start" : 439.5,
-      "text" : "Yeah, that's funny, thank you."
-    },
-    {
-      "end" : 447.5,
+      "end" : 489.94000244140625,
       "speaker" : "speaker_3",
-      "start" : 446.5,
-      "text" : "I'm very impressed with your artistic skills."
-    },
-    {
-      "end" : 490.5,
-      "speaker" : "speaker_3",
-      "start" : 487.5,
+      "start" : 488.6199951171875,
       "text" : "It's not a bounce about on it."
     },
     {
-      "end" : 494.5,
+      "end" : 501.4800109863281,
       "speaker" : "speaker_3",
-      "start" : 490.5,
-      "text" : "I'm not going to be."
-    },
-    {
-      "end" : 502,
-      "speaker" : "speaker_3",
-      "start" : 500,
+      "start" : 500.55999755859375,
       "text" : "It's meant to be an eagle."
     },
     {
-      "end" : 504,
+      "end" : 503.4800109863281,
       "speaker" : "speaker_2",
-      "start" : 502,
+      "start" : 501.9599914550781,
       "text" : "Right, not a seagull."
     },
     {
-      "end" : 508,
+      "end" : 507.6600036621094,
       "speaker" : "speaker_3",
-      "start" : 504,
-      "text" : "Could I be a seagel, then a bit of a seagull."
+      "start" : 505.739990234375,
+      "text" : "Could I have been a seagull and then the book would be a eagle."
     },
     {
-      "end" : 521.5,
+      "end" : 524.219970703125,
       "speaker" : "speaker_3",
-      "start" : 520.5,
-      "text" : "Dependent."
+      "start" : 523.260009765625,
+      "text" : "Did you say they're good at golf?"
     },
     {
-      "end" : 526.5,
+      "end" : 525.8599853515625,
       "speaker" : "speaker_2",
-      "start" : 525.5,
+      "start" : 525.7000122070312,
       "text" : "Ego."
     },
     {
-      "end" : 529.5,
-      "speaker" : "speaker_3",
-      "start" : 527.5,
+      "end" : 528.5999755859375,
+      "speaker" : "speaker_2",
+      "start" : 528,
       "text" : "I'm not good at golf."
     },
     {
-      "end" : 548,
+      "end" : 556.1199951171875,
       "speaker" : "speaker_3",
-      "start" : 547,
-      "text" : "Yeah."
+      "start" : 554.6799926757812,
+      "text" : "That's something to be okay."
     },
     {
-      "end" : 574.5,
+      "end" : 561.4199829101562,
       "speaker" : "speaker_0",
-      "start" : 569.5,
+      "start" : 561.1199951171875,
+      "text" : "Okay."
+    },
+    {
+      "end" : 563.760009765625,
+      "speaker" : "speaker_0",
+      "start" : 562.97998046875,
+      "text" : "That is fine."
+    },
+    {
+      "end" : 573.5999755859375,
+      "speaker" : "speaker_0",
+      "start" : 570.4600219726562,
       "text" : "which I don't actually know what that is in pounds at all."
     },
     {
-      "end" : 595,
+      "end" : 595.1400146484375,
       "speaker" : "speaker_0",
-      "start" : 591,
+      "start" : 591.02001953125,
       "text" : "I think so I'd be able to put up or I can put it in the shareholders"
     },
     {
-      "end" : 655.5,
-      "speaker" : "speaker_0",
-      "start" : 654.5,
-      "text" : "Yes, yes."
+      "end" : 602.3200073242188,
+      "speaker" : "speaker_2",
+      "start" : 598.4299926757812,
+      "text" : "the ones on the market at the moment they're about 20 pounds anyway"
     },
     {
-      "end" : 660.5,
+      "end" : 649.5800170898438,
+      "speaker" : "speaker_3",
+      "start" : 649.0800170898438,
+      "text" : "It's everyone."
+    },
+    {
+      "end" : 654.2000122070312,
+      "speaker" : "speaker_3",
+      "start" : 653.4199829101562,
+      "text" : "Big target group."
+    },
+    {
+      "end" : 654.8200073242188,
+      "speaker" : "speaker_3",
+      "start" : 654.5399780273438,
+      "text" : "Yes,"
+    },
+    {
+      "end" : 655.4000244140625,
       "speaker" : "speaker_0",
-      "start" : 655.5,
+      "start" : 655.2000122070312,
+      "text" : "yes."
+    },
+    {
+      "end" : 660.3400268554688,
+      "speaker" : "speaker_0",
+      "start" : 655.760009765625,
       "text" : "I don't think we have to, I don't think it's a case of worrying about different languages"
     },
     {
-      "end" : 737.1199951171875,
+      "end" : 704.7999877929688,
       "speaker" : "speaker_0",
-      "start" : 735.02001953125,
+      "start" : 702.7100219726562,
+      "text" : "But that was quite good, the fact that you could..."
+    },
+    {
+      "end" : 705.8599853515625,
+      "speaker" : "speaker_2",
+      "start" : 705.3599853515625,
+      "text" : "You saw the"
+    },
+    {
+      "end" : 706.1400146484375,
+      "speaker" : "speaker_0",
+      "start" : 705.8599853515625,
+      "text" : "one..."
+    },
+    {
+      "end" : 711.4400024414062,
+      "speaker" : "speaker_1",
+      "start" : 711.3599853515625,
+      "text" : "Yeah."
+    },
+    {
+      "end" : 737.0599975585938,
+      "speaker" : "speaker_0",
+      "start" : 735.0800170898438,
       "text" : "Yeah, that's the main stuff anyway."
     },
     {
       "end" : 742.47998046875,
       "speaker" : "speaker_0",
-      "start" : 737.4199829101562,
+      "start" : 737.3200073242188,
       "text" : "I mean, and you don't want to, I hate, I hate looking at a control."
     },
     {
-      "end" : 823,
+      "end" : 813.5599975585938,
       "speaker" : "speaker_0",
-      "start" : 815,
+      "start" : 812.4000244140625,
+      "text" : "What about the older generation?"
+    },
+    {
+      "end" : 822.5800170898438,
+      "speaker" : "speaker_0",
+      "start" : 817.3200073242188,
       "text" : "My granddad can answer his mobile phone, but he couldn't even dream of texting or something"
     },
     {
-      "end" : 827,
+      "end" : 826.9000244140625,
       "speaker" : "speaker_3",
-      "start" : 824,
+      "start" : 823.8800048828125,
       "text" : "Can he program his remote control or is he basically without too?"
     },
     {
-      "end" : 831,
+      "end" : 832.47998046875,
       "speaker" : "speaker_2",
-      "start" : 830,
-      "text" : "Yeah."
-    },
-    {
-      "end" : 832,
-      "speaker" : "speaker_2",
-      "start" : 831,
+      "start" : 830.4600219726562,
       "text" : "My granddad, that's better than me using TEDx."
     },
     {
-      "end" : 875.4000244140625,
+      "end" : 875.3200073242188,
       "speaker" : "speaker_0",
-      "start" : 867.719970703125,
+      "start" : 867.8400268554688,
       "text" : "phones that kind of got a windows-based running system. I find it really confusing. I kept getting"
     },
     {
-      "end" : 877.47998046875,
-      "speaker" : "speaker_0",
-      "start" : 875.4000244140625,
-      "text" : "lost in the phone. I did, I've not. I've not."
+      "end" : 907.5,
+      "speaker" : "speaker_3",
+      "start" : 905.7000122070312,
+      "text" : "Okay, it displays on the screen."
     },
     {
-      "end" : 922,
+      "end" : 922.3599853515625,
       "speaker" : "speaker_0",
-      "start" : 913,
+      "start" : 913.9199829101562,
       "text" : "Or what about kind of a dual function in that you've got the basic buttons just for your play volume program?"
     },
     {
-      "end" : 971.7000122070312,
+      "end" : 932.8200073242188,
+      "speaker" : "speaker_0",
+      "start" : 923.8200073242188,
+      "text" : "and also a menu to go into with obvious pictures, obvious symbols and that's where you control"
+    },
+    {
+      "end" : 970.780029296875,
       "speaker" : "speaker_3",
       "start" : 970.7000122070312,
       "text" : "no."
     },
     {
-      "end" : 975.7000122070312,
+      "end" : 976.1600341796875,
       "speaker" : "speaker_0",
-      "start" : 971.7000122070312,
+      "start" : 973.52001953125,
       "text" : "Right, okay, we've got half an hour before the next meeting,"
     },
     {
-      "end" : 978.7000122070312,
+      "end" : 985.0599975585938,
       "speaker" : "speaker_0",
-      "start" : 975.7000122070312,
-      "text" : "so we're all going to go off and do our individual things."
+      "start" : 981.1699829101562,
+      "text" : "I think that's probably about it, and then we'll come back in aise again,"
     },
     {
-      "end" : 987.7000122070312,
+      "end" : 986.8599853515625,
       "speaker" : "speaker_0",
-      "start" : 985.7000122070312,
+      "start" : 985.9500122070312,
       "text" : "and I get to do another."
     },
     {
-      "end" : 996.5999755859375,
+      "end" : 988.2999877929688,
+      "speaker" : "speaker_0",
+      "start" : 987.6799926757812,
+      "text" : "Fantastic."
+    },
+    {
+      "end" : 996.5199584960938,
       "speaker" : "speaker_2",
-      "start" : 988.5999755859375,
+      "start" : 989.6699829101562,
       "text" : "Just a quick thing about the, what you were saying about the, doesn't need to be fashionable."
     },
     {
-      "end" : 1004.5999755859375,
+      "end" : 1004.7599487304688,
       "speaker" : "speaker_2",
-      "start" : 996.5999755859375,
+      "start" : 997.3099975585938,
       "text" : "So I had a quick look at the company website and it's like the, we put the fashion into electronics."
     },
     {
-      "end" : 1009.5999755859375,
+      "end" : 1009.1399536132812,
       "speaker" : "speaker_2",
-      "start" : 1004.5999755859375,
+      "start" : 1005.1599731445312,
       "text" : "So I think the whole design thing might be quite."
     },
     {
-      "end" : 1010.5999755859375,
+      "end" : 1014.219970703125,
       "speaker" : "speaker_2",
-      "start" : 1009.5999755859375,
-      "text" : "Sure."
+      "start" : 1010.8999633789062,
+      "text" : "You can still have plastic and it look quite good."
     },
     {
-      "end" : 1014.0999755859375,
-      "speaker" : "speaker_2",
-      "start" : 1010.0999755859375,
-      "text" : "You can still have plastic and it look quite good."
+      "end" : 1022.2599487304688,
+      "speaker" : "speaker_3",
+      "start" : 1022.1399536132812,
+      "text" : "Yeah."
     }
   ],
   "speakerTurns" : [
@@ -1339,7 +1345,7 @@
       "start" : 1048.9473876953125
     }
   ],
-  "text" : "Are we? I'm just be standing up there. Yeah. Okay. Sorry, I'm just. Yes. Hello, I'm here. Okay, Hello, Hello, everybody. I'm Sarah, the project manager. What needs need to be fulfilled by the product, and what effects the product has to have and how it's Okay, right, we're going to practice with the pens and draw our favourite animal on the whiteboard. I'll go first. And so characteristics of that's animal. Got. I'm going to go. Oh, yeah. maybe you can guess what I'm trying to make It's not standing. Okay, I see it as one thing. It's very supporting. You give me a space at the bottom. on the top standing on a chair since you guys have chosen new ones i wanted to do it okay and also my drawing skill isn't that great well as you can say the quality of the work today is and i think it's outstanding good okay now i'm going to have to choose change what it was originally for me because that looks like a beak outside yeah it can be a crocodile it can be a crocodile it was a it was in a first it was an attempt at a tewrex And then it's sort of changed into a pelican, but it can be perfect. Yeah. Yeah. And I'll have to think on the spot once. Yeah, that's funny, thank you. I'm very impressed with your artistic skills. It's not a bounce about on it. I'm not going to be. It's meant to be an eagle. Right, not a seagull. Could I be a seagel, then a bit of a seagull. Dependent. Ego. I'm not good at golf. Yeah. which I don't actually know what that is in pounds at all. I think so I'd be able to put up or I can put it in the shareholders Yes, yes. I don't think we have to, I don't think it's a case of worrying about different languages Yeah, that's the main stuff anyway. I mean, and you don't want to, I hate, I hate looking at a control. My granddad can answer his mobile phone, but he couldn't even dream of texting or something Can he program his remote control or is he basically without too? Yeah. My granddad, that's better than me using TEDx. phones that kind of got a windows-based running system. I find it really confusing. I kept getting lost in the phone. I did, I've not. I've not. Or what about kind of a dual function in that you've got the basic buttons just for your play volume program? no. Right, okay, we've got half an hour before the next meeting, so we're all going to go off and do our individual things. and I get to do another. Just a quick thing about the, what you were saying about the, doesn't need to be fashionable. So I had a quick look at the company website and it's like the, we put the fashion into electronics. So I think the whole design thing might be quite. Sure. You can still have plastic and it look quite good.",
+  "text" : "Yeah. Okay. Sorry, I'm just. Yes. Yes. Oh, it's really? Oh, sorry. Hello, everybody. \"Hello everybody. Now we are developing remote control, which you probably already know. What needs need to be fulfilled by the product, and what effects the product has to have and how it's Okay, right, we're going to practice with the pens and draw our favourite animal on the whiteboard. And so characteristics of that's animal. Oh, yeah. maybe you can guess what I'm trying to make I find a look It's not standing. Okay, I see it as one thing. yeah It's very supporting. It's your best friend in you. And dogs can sometimes make out between a three phantom. You give me a space at the bottom. change what it was originally for me because that looks like a beak outside yeah it can be a crocodile it can be a crocodile it was a it was in a first it was an attempt at a tewrex And then it's sort of changed into a pelican, but it can be perfect. Yeah. Yeah. And I'll have to think on the spot once. It's not a bounce about on it. It's meant to be an eagle. Right, not a seagull. Could I have been a seagull and then the book would be a eagle. Did you say they're good at golf? Ego. I'm not good at golf. That's something to be okay. Okay. That is fine. which I don't actually know what that is in pounds at all. I think so I'd be able to put up or I can put it in the shareholders the ones on the market at the moment they're about 20 pounds anyway It's everyone. Big target group. Yes, yes. I don't think we have to, I don't think it's a case of worrying about different languages But that was quite good, the fact that you could... You saw the one... Yeah. Yeah, that's the main stuff anyway. I mean, and you don't want to, I hate, I hate looking at a control. What about the older generation? My granddad can answer his mobile phone, but he couldn't even dream of texting or something Can he program his remote control or is he basically without too? My granddad, that's better than me using TEDx. phones that kind of got a windows-based running system. I find it really confusing. I kept getting Okay, it displays on the screen. Or what about kind of a dual function in that you've got the basic buttons just for your play volume program? and also a menu to go into with obvious pictures, obvious symbols and that's where you control no. Right, okay, we've got half an hour before the next meeting, I think that's probably about it, and then we'll come back in aise again, and I get to do another. Fantastic. Just a quick thing about the, what you were saying about the, doesn't need to be fashionable. So I had a quick look at the company website and it's like the, we put the fashion into electronics. So I think the whole design thing might be quite. You can still have plastic and it look quite good. Yeah.",
   "track" : "meeting",
-  "wallSeconds" : 62.585404542
+  "wallSeconds" : 60.818180416
 }

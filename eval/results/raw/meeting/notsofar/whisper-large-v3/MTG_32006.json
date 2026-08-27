@@ -3,720 +3,1008 @@
   "dataset" : "notsofar",
   "id" : "MTG_32006",
   "model" : "whisper-large-v3",
-  "rtfx" : 1.4943873777444434,
+  "rtfx" : 1.3927624554780946,
   "segments" : [
     {
-      "end" : 10.960000038146973,
+      "end" : 10.520000457763672,
       "speaker" : "speaker_0",
-      "start" : 6.559999942779541,
+      "start" : 6.279999256134033,
       "text" : "Okay ladies, you've been working at the call center now for two months."
     },
     {
-      "end" : 17.68000030517578,
+      "end" : 16.799999237060547,
       "speaker" : "speaker_0",
-      "start" : 10.960000038146973,
+      "start" : 11.5600004196167,
       "text" : "You've been working regular weekly hours and that's everything has been fine up until now"
     },
     {
-      "end" : 24,
+      "end" : 23.3799991607666,
       "speaker" : "speaker_0",
-      "start" : 17.68000030517578,
+      "start" : 17.200000762939453,
       "text" : "but you're going to have to work a weekend shift coming up this weekend."
     },
     {
-      "end" : 31,
+      "end" : 30.360000610351562,
       "speaker" : "speaker_0",
-      "start" : 24,
+      "start" : 24.020000457763672,
       "text" : "Now this weekend shift is going to be divided by 8 hours. So it's an 8 hour shift."
     },
     {
-      "end" : 39,
+      "end" : 34.29999923706055,
+      "speaker" : "speaker_0",
+      "start" : 31.44000244140625,
+      "text" : "There's a regular day shift. I can't do it."
+    },
+    {
+      "end" : 38.68000030517578,
       "speaker" : "speaker_1",
-      "start" : 31,
-      "text" : "There's a regular day shift. I can't do it. Right away we have a can do it. Come on girls."
+      "start" : 34.619998931884766,
+      "text" : "Right away we have a can do it. Come on girls."
     },
     {
-      "end" : 45.19999694824219,
-      "speaker" : "speaker_0",
-      "start" : 39,
-      "text" : "I can't do it. I can do it. Alright give me a shift that you can go to. But not at night."
+      "end" : 39.76000213623047,
+      "speaker" : "speaker_1",
+      "start" : 39.09000015258789,
+      "text" : "I can't do it."
     },
     {
-      "end" : 50.20000076293945,
+      "end" : 44.73999786376953,
       "speaker" : "speaker_0",
-      "start" : 45.20000076293945,
+      "start" : 40.459999084472656,
+      "text" : "I can do it. Alright give me a shift that you can go to. But not at night."
+    },
+    {
+      "end" : 50.08000183105469,
+      "speaker" : "speaker_0",
+      "start" : 45.220001220703125,
       "text" : "Not at night. Okay. Well, that's fine. If she's going to be agreeable."
     },
     {
-      "end" : 53.20000076293945,
+      "end" : 52.31999969482422,
       "speaker" : "speaker_1",
-      "start" : 50.20000076293945,
-      "text" : "I'm going to be, you know, I might as well get a shift."
+      "start" : 50.13999938964844,
+      "text" : "I'm going to be, you know, I might as well get"
     },
     {
-      "end" : 60.20000076293945,
+      "end" : 52.779998779296875,
       "speaker" : "speaker_0",
-      "start" : 53.20000076293945,
+      "start" : 52.31999969482422,
+      "text" : "a shift."
+    },
+    {
+      "end" : 59.220001220703125,
+      "speaker" : "speaker_0",
+      "start" : 52.86000061035156,
       "text" : "Alright, so I'm going to give you the 6:00 a.m. to 2:00 p.m. shift on Saturday."
     },
     {
-      "end" : 62.20000076293945,
+      "end" : 61.36000061035156,
       "speaker" : "speaker_1",
-      "start" : 60.20000076293945,
+      "start" : 60.29999923706055,
       "text" : "I would work on that."
     },
     {
-      "end" : 66.19999694824219,
+      "end" : 65.27999877929688,
       "speaker" : "speaker_0",
-      "start" : 62.20000076293945,
+      "start" : 61.70000076293945,
       "text" : "Okay. Alright, so who wants 2:00 p.m. to 10:00?"
     },
     {
-      "end" : 68.19999694824219,
+      "end" : 66.81999969482422,
       "speaker" : "speaker_0",
-      "start" : 66.19999694824219,
+      "start" : 65.52000427246094,
       "text" : "I can. I'm going away for the weekend."
     },
     {
-      "end" : 69.19999694824219,
+      "end" : 68.5999984741211,
       "speaker" : "speaker_0",
-      "start" : 68.19999694824219,
+      "start" : 67.33999633789062,
       "text" : "You're going away for the weekend?"
     },
     {
-      "end" : 72.19999694824219,
+      "end" : 71.3800048828125,
       "speaker" : "speaker_1",
-      "start" : 69.19999694824219,
+      "start" : 68.91999816894531,
       "text" : "I'm in exams here. I can't do it."
     },
     {
-      "end" : 73.80000305175781,
+      "end" : 73.52000427246094,
       "speaker" : "speaker_1",
-      "start" : 72.19999694824219,
+      "start" : 71.69999694824219,
       "text" : "I can do two shifts."
     },
     {
-      "end" : 78.80000305175781,
-      "speaker" : "speaker_1",
-      "start" : 73.80000305175781,
-      "text" : "- But not one, you know, back to back."
+      "end" : 98.62000274658203,
+      "speaker" : "speaker_2",
+      "start" : 94.31999969482422,
+      "text" : "But I'm I'm a plans for a long time to go away this weekend. So I just can't where you"
     },
     {
-      "end" : 80.72000122070312,
-      "speaker" : "speaker_1",
-      "start" : 79.72000122070312,
-      "text" : "I don't want back to back."
-    },
-    {
-      "end" : 83.9800033569336,
+      "end" : 98.86000061035156,
       "speaker" : "speaker_0",
-      "start" : 80.72000122070312,
-      "text" : "- Alright well, we still need two people"
+      "start" : 98.62000274658203,
+      "text" : "going"
     },
     {
-      "end" : 85.18000030517578,
-      "speaker" : "speaker_0",
-      "start" : 83.9800033569336,
-      "text" : "to fill in two more TPs."
-    },
-    {
-      "end" : 86.9800033569336,
-      "speaker" : "speaker_1",
-      "start" : 85.18000030517578,
-      "text" : "- Linda, see, thank you."
-    },
-    {
-      "end" : 87.77999877929688,
-      "speaker" : "speaker_1",
-      "start" : 86.9800033569336,
-      "text" : "- Thank you, Linda."
-    },
-    {
-      "end" : 90.06000518798828,
-      "speaker" : "speaker_1",
-      "start" : 87.77999877929688,
-      "text" : "Thank you, Rochelle."
-    },
-    {
-      "end" : 91.12000274658203,
+      "end" : 102.70000457763672,
       "speaker" : "speaker_2",
-      "start" : 90.06000518798828,
-      "text" : "- Thank you, Rochelle."
-    },
-    {
-      "end" : 92.8800048828125,
-      "speaker" : "speaker_2",
-      "start" : 91.12000274658203,
-      "text" : "- Thank you, Rochelle, thank you very much."
-    },
-    {
-      "end" : 94.27999877929688,
-      "speaker" : "speaker_2",
-      "start" : 92.8800048828125,
-      "text" : "- Thank you very much, sorry for the mistake."
-    },
-    {
-      "end" : 99.02000427246094,
-      "speaker" : "speaker_2",
-      "start" : 94.30000305175781,
-      "text" : "But I'm I'm a plans for a long time to go away this weekend. So I just can't where you going"
-    },
-    {
-      "end" : 102.77999877929688,
-      "speaker" : "speaker_2",
-      "start" : 99.10000610351562,
+      "start" : 99.18000030517578,
       "text" : "I'm going there to visit my my boyfriend in"
     },
     {
-      "end" : 106.80000305175781,
+      "end" : 104.66000366210938,
       "speaker" : "speaker_0",
-      "start" : 103.66000366210938,
-      "text" : "How far away in a different state in a different state? Yeah"
+      "start" : 103.62000274658203,
+      "text" : "How far away"
     },
     {
-      "end" : 110.5,
+      "end" : 105.9000015258789,
+      "speaker" : "speaker_2",
+      "start" : 104.66000366210938,
+      "text" : "in a different state in"
+    },
+    {
+      "end" : 106.77999877929688,
       "speaker" : "speaker_0",
-      "start" : 108.02000427246094,
+      "start" : 105.9000015258789,
+      "text" : "a different state? Yeah"
+    },
+    {
+      "end" : 110.36000061035156,
+      "speaker" : "speaker_0",
+      "start" : 108.4800033569336,
       "text" : "Well since it's call center"
     },
     {
-      "end" : 113.72000122070312,
+      "end" : 113.41999816894531,
       "speaker" : "speaker_0",
-      "start" : 110.5,
+      "start" : 110.5199966430664,
       "text" : "there is a possibility of doing this remotely"
     },
     {
-      "end" : 117.68000030517578,
+      "end" : 117.62000274658203,
       "speaker" : "speaker_0",
-      "start" : 113.72000122070312,
+      "start" : 116.19999694824219,
       "text" : "we'll give you the headset"
     },
     {
-      "end" : 120.0999984741211,
+      "end" : 119.95999908447266,
       "speaker" : "speaker_0",
-      "start" : 117.68000030517578,
+      "start" : 117.83000183105469,
       "text" : "that you need and the connection to the internet"
     },
     {
-      "end" : 121.0199966430664,
+      "end" : 120.83999633789062,
       "speaker" : "speaker_0",
-      "start" : 120.0999984741211,
+      "start" : 120.18000030517578,
       "text" : "where goes my weekend"
     },
     {
-      "end" : 124.04000091552734,
+      "end" : 123.80000305175781,
       "speaker" : "speaker_0",
-      "start" : 121.0199966430664,
+      "start" : 121.91999816894531,
       "text" : "you'll still be able to be with your boyfriend"
     },
     {
-      "end" : 126,
+      "end" : 125.4000015258789,
       "speaker" : "speaker_0",
-      "start" : 124.04000091552734,
+      "start" : 124.16000366210938,
       "text" : "it's just that you'll have to be"
     },
     {
-      "end" : 130,
+      "end" : 126.23999786376953,
       "speaker" : "speaker_3",
-      "start" : 126,
-      "text" : "Well then you don't really have an option because I can't do it. I'm studying in the most important thing."
+      "start" : 126.0199966430664,
+      "text" : "Well"
     },
     {
-      "end" : 132,
+      "end" : 127.55999755859375,
       "speaker" : "speaker_0",
-      "start" : 130,
-      "text" : "I'm going to go to the beach in a headset."
+      "start" : 126.23999786376953,
+      "text" : "then you don't really have an option because"
     },
     {
-      "end" : 135,
+      "end" : 130.0399932861328,
+      "speaker" : "speaker_3",
+      "start" : 127.55999755859375,
+      "text" : "I can't do it. I'm studying in the most important thing."
+    },
+    {
+      "end" : 130.9199981689453,
+      "speaker" : "speaker_3",
+      "start" : 130.0800018310547,
+      "text" : "I'm going to go to the beach"
+    },
+    {
+      "end" : 131.5399932861328,
+      "speaker" : "speaker_0",
+      "start" : 130.9199981689453,
+      "text" : "in a headset."
+    },
+    {
+      "end" : 134.6999969482422,
       "speaker" : "speaker_0",
       "start" : 132,
-      "text" : "Yes, but you have to take a break from studying at some point, don't you?"
+      "text" : "Yes, but you have to take a break from studying at some point,"
     },
     {
-      "end" : 136,
+      "end" : 134.89999389648438,
       "speaker" : "speaker_3",
-      "start" : 135,
+      "start" : 134.8000030517578,
+      "text" : "don't you?"
+    },
+    {
+      "end" : 135.55999755859375,
+      "speaker" : "speaker_3",
+      "start" : 134.9199981689453,
       "text" : "No, I can't."
     },
     {
-      "end" : 139,
+      "end" : 139.27999877929688,
       "speaker" : "speaker_3",
-      "start" : 136,
+      "start" : 136.16000366210938,
       "text" : "I'm a true nerd and I can't do it. I have to study as much as I can."
     },
     {
-      "end" : 140,
+      "end" : 140.02000427246094,
       "speaker" : "speaker_3",
-      "start" : 139,
+      "start" : 139.3800048828125,
       "text" : "You are a nerd."
     },
     {
-      "end" : 141,
+      "end" : 140.3800048828125,
       "speaker" : "speaker_3",
-      "start" : 140,
+      "start" : 140.22000122070312,
       "text" : "Right."
     },
     {
-      "end" : 143,
+      "end" : 142.10000610351562,
       "speaker" : "speaker_3",
-      "start" : 141,
+      "start" : 140.74000549316406,
       "text" : "So I can't. I have to do it."
     },
     {
-      "end" : 148,
+      "end" : 147.77999877929688,
       "speaker" : "speaker_0",
-      "start" : 143,
+      "start" : 142.52000427246094,
       "text" : "Well, we are in trouble and if you can't take a shift..."
     },
     {
-      "end" : 150,
+      "end" : 149.36000061035156,
       "speaker" : "speaker_0",
-      "start" : 148,
-      "text" : "Can you work? Can you take the shift?"
+      "start" : 147.77999877929688,
+      "text" : "Can you work? Can you take the"
     },
     {
-      "end" : 152.5,
+      "end" : 149.54000854492188,
+      "speaker" : "speaker_3",
+      "start" : 149.36000061035156,
+      "text" : "shift?"
+    },
+    {
+      "end" : 152.0800018310547,
       "speaker" : "speaker_0",
-      "start" : 150,
+      "start" : 150.10000610351562,
       "text" : "I've been taking shifts the last three weekends."
     },
     {
-      "end" : 153.86000061035156,
+      "end" : 153.74000549316406,
       "speaker" : "speaker_0",
-      "start" : 152.5,
+      "start" : 152.52000427246094,
       "text" : "I've been taking a shift."
     },
     {
-      "end" : 154.66000366210938,
+      "end" : 154.16000366210938,
       "speaker" : "speaker_0",
-      "start" : 153.86000061035156,
-      "text" : "That's been nice."
+      "start" : 154.05999755859375,
+      "text" : "That's"
     },
     {
-      "end" : 156.1999969482422,
+      "end" : 154.52000427246094,
       "speaker" : "speaker_3",
-      "start" : 154.66000366210938,
-      "text" : "So are you mad now?"
+      "start" : 154.16000366210938,
+      "text" : "been nice."
     },
     {
-      "end" : 157.83999633789062,
+      "end" : 155.25999450683594,
       "speaker" : "speaker_0",
-      "start" : 156.60000610351562,
-      "text" : "No, I'm not mad."
+      "start" : 154.72000122070312,
+      "text" : "So are"
     },
     {
-      "end" : 160.25999450683594,
+      "end" : 156.02000427246094,
+      "speaker" : "speaker_3",
+      "start" : 155.25999450683594,
+      "text" : "you mad now?"
+    },
+    {
+      "end" : 156.86000061035156,
+      "speaker" : "speaker_3",
+      "start" : 156.4600067138672,
+      "text" : "No,"
+    },
+    {
+      "end" : 157.60000610351562,
       "speaker" : "speaker_0",
-      "start" : 158.0399932861328,
+      "start" : 156.8800048828125,
+      "text" : "I'm not mad."
+    },
+    {
+      "end" : 160.05999755859375,
+      "speaker" : "speaker_0",
+      "start" : 158,
       "text" : "This has been my part of my job."
     },
     {
-      "end" : 163.39999389648438,
+      "end" : 163.3000030517578,
       "speaker" : "speaker_0",
-      "start" : 160.36000061035156,
+      "start" : 160.24000549316406,
       "text" : "But now I need you guys to step up."
     },
     {
-      "end" : 165.77999877929688,
+      "end" : 165.02000427246094,
+      "speaker" : "speaker_0",
+      "start" : 164.24000549316406,
+      "text" : "This wasn't"
+    },
+    {
+      "end" : 165.67999267578125,
       "speaker" : "speaker_3",
-      "start" : 164.5399932861328,
-      "text" : "This wasn't part of my agreement."
+      "start" : 165.02000427246094,
+      "text" : "part of my agreement."
     },
     {
-      "end" : 170,
-      "speaker" : "speaker_0",
-      "start" : 166.02000427246094,
-      "text" : "I didn't check the small print."
-    },
-    {
-      "end" : 171,
-      "speaker" : "speaker_0",
-      "start" : 170,
-      "text" : "Okay."
-    },
-    {
-      "end" : 172,
-      "speaker" : "speaker_0",
-      "start" : 171,
-      "text" : "You did sign something."
-    },
-    {
-      "end" : 175,
+      "end" : 165.94000244140625,
       "speaker" : "speaker_3",
-      "start" : 172,
-      "text" : "You can't force me to work on a weekend."
+      "start" : 165.83999633789062,
+      "text" : "I"
     },
     {
-      "end" : 177,
+      "end" : 169.72000122070312,
       "speaker" : "speaker_0",
-      "start" : 175,
-      "text" : "I can't force you to work on a weekend."
+      "start" : 165.94000244140625,
+      "text" : "didn't check the small print."
     },
     {
-      "end" : 180,
+      "end" : 172.3800048828125,
       "speaker" : "speaker_0",
-      "start" : 177,
-      "text" : "But if you want to continue work with us-"
+      "start" : 170.02000427246094,
+      "text" : "Okay, you did sign something."
     },
     {
-      "end" : 181,
+      "end" : 173.36000061035156,
       "speaker" : "speaker_0",
-      "start" : 180,
-      "text" : "Are we paying double?"
+      "start" : 172.3800048828125,
+      "text" : "But you can't force me to"
     },
     {
-      "end" : 183,
+      "end" : 174.52000427246094,
+      "speaker" : "speaker_3",
+      "start" : 173.36000061035156,
+      "text" : "work on a weekend."
+    },
+    {
+      "end" : 177.32000732421875,
+      "speaker" : "speaker_0",
+      "start" : 175.05999755859375,
+      "text" : "I can't force you to work on a weekend,"
+    },
+    {
+      "end" : 180.63999938964844,
+      "speaker" : "speaker_0",
+      "start" : 178,
+      "text" : "but if you want to continue work with us--"
+    },
+    {
+      "end" : 180.8800048828125,
+      "speaker" : "speaker_0",
+      "start" : 180.66000366210938,
+      "text" : "Oh, we"
+    },
+    {
+      "end" : 181.47999572753906,
       "speaker" : "speaker_1",
-      "start" : 181,
-      "text" : "Maybe that would be an incentive."
+      "start" : 180.8800048828125,
+      "text" : "paid double."
     },
     {
-      "end" : 184,
+      "end" : 182.66000366210938,
+      "speaker" : "speaker_1",
+      "start" : 181.72000122070312,
+      "text" : "Maybe that will be an incentive."
+    },
+    {
+      "end" : 183.66000366210938,
       "speaker" : "speaker_0",
-      "start" : 183,
+      "start" : 183.05999755859375,
       "text" : "Yes, of course."
     },
     {
-      "end" : 186,
+      "end" : 186.10000610351562,
       "speaker" : "speaker_0",
-      "start" : 184,
-      "text" : "You get time and a half, actually."
+      "start" : 183.86000061035156,
+      "text" : "You get time in a half actually."
     },
     {
-      "end" : 191,
-      "speaker" : "speaker_2",
-      "start" : 186,
-      "text" : "That also only works if we know ahead of time."
+      "end" : 187.17999267578125,
+      "speaker" : "speaker_0",
+      "start" : 186.14999389648438,
+      "text" : "We just paid double that."
     },
     {
-      "end" : 194,
+      "end" : 190.66000366210938,
       "speaker" : "speaker_2",
-      "start" : 191,
+      "start" : 188.36000061035156,
+      "text" : "Yeah, that also works if we know ahead of time."
+    },
+    {
+      "end" : 193.02000427246094,
+      "speaker" : "speaker_2",
+      "start" : 191.05999755859375,
       "text" : "I made these plans a month ago."
     },
     {
-      "end" : 196,
+      "end" : 193.72000122070312,
+      "speaker" : "speaker_0",
+      "start" : 193.44000244140625,
+      "text" : "All right."
+    },
+    {
+      "end" : 194.45999145507812,
+      "speaker" : "speaker_0",
+      "start" : 193.88999938964844,
+      "text" : "If I know ahead"
+    },
+    {
+      "end" : 195.9199981689453,
       "speaker" : "speaker_2",
-      "start" : 194,
-      "text" : "If I know ahead of time-"
+      "start" : 194.45999145507812,
+      "text" : "of time, that's why you get--"
     },
     {
-      "end" : 199.8000030517578,
+      "end" : 198,
       "speaker" : "speaker_0",
-      "start" : 196,
-      "text" : "I'm saying you can still work remotely., okay?"
+      "start" : 195.97000122070312,
+      "text" : "But I'm saying you can still work remotely."
     },
     {
-      "end" : 247.1999969482422,
+      "end" : 199.39999389648438,
+      "speaker" : "speaker_3",
+      "start" : 198.39999389648438,
+      "text" : "Oh no..."
+    },
+    {
+      "end" : 200.36000061035156,
+      "speaker" : "speaker_3",
+      "start" : 199.4199981689453,
+      "text" : "- Night shift."
+    },
+    {
+      "end" : 199.97999572753906,
+      "speaker" : "speaker_3",
+      "start" : 199.8699951171875,
+      "text" : "No."
+    },
+    {
+      "end" : 202.0399932861328,
+      "speaker" : "speaker_3",
+      "start" : 200.61000061035156,
+      "text" : "- The point is that we can't do it,"
+    },
+    {
+      "end" : 205.67999267578125,
+      "speaker" : "speaker_3",
+      "start" : 202.45999145507812,
+      "text" : "we can't work at that time in general."
+    },
+    {
+      "end" : 206.45999145507812,
+      "speaker" : "speaker_1",
+      "start" : 206.0699920654297,
+      "text" : "- Who is we?"
+    },
+    {
+      "end" : 207.22000122070312,
+      "speaker" : "speaker_3",
+      "start" : 206.86000061035156,
+      "text" : "- Okay."
+    },
+    {
+      "end" : 208,
+      "speaker" : "speaker_3",
+      "start" : 207.47999572753906,
+      "text" : "- Me and Linda."
+    },
+    {
+      "end" : 208.72000122070312,
+      "speaker" : "speaker_3",
+      "start" : 208.29998779296875,
+      "text" : "- Oh,"
+    },
+    {
+      "end" : 210.6199951171875,
+      "speaker" : "speaker_1",
+      "start" : 208.83999633789062,
+      "text" : "you are now her lawyer?"
+    },
+    {
+      "end" : 212.63999938964844,
+      "speaker" : "speaker_1",
+      "start" : 211.1199951171875,
+      "text" : "- No, I understand that it's a work for her."
+    },
+    {
+      "end" : 213.6599884033203,
+      "speaker" : "speaker_1",
+      "start" : 213.5699920654297,
+      "text" : "And I"
+    },
+    {
+      "end" : 215.36000061035156,
+      "speaker" : "speaker_3",
+      "start" : 213.6599884033203,
+      "text" : "understand that her exams are important."
+    },
+    {
+      "end" : 217.8599853515625,
+      "speaker" : "speaker_3",
+      "start" : 216.5699920654297,
+      "text" : "- Yeah but if one of us has to work,"
+    },
+    {
+      "end" : 219.739990234375,
+      "speaker" : "speaker_3",
+      "start" : 218.19000244140625,
+      "text" : "then you have to take the shift."
+    },
+    {
+      "end" : 223.17999267578125,
       "speaker" : "speaker_0",
-      "start" : 244.6999969482422,
+      "start" : 219.89999389648438,
+      "text" : "- Alright, so let's take a look at what's happened"
+    },
+    {
+      "end" : 229.37998962402344,
+      "speaker" : "speaker_0",
+      "start" : 223.51998901367188,
+      "text" : "in previous weekends, alright?, okay. to the other side, okay."
+    },
+    {
+      "end" : 233.8000030517578,
+      "speaker" : "speaker_0",
+      "start" : 227.02000427246094,
+      "text" : "typically you get one call per every three hours one call for every three hours"
+    },
+    {
+      "end" : 238.27999877929688,
+      "speaker" : "speaker_0",
+      "start" : 233.9600067138672,
+      "text" : "that's that's the maximum that they don't get it's not like you're online"
+    },
+    {
+      "end" : 243.24000549316406,
+      "speaker" : "speaker_0",
+      "start" : 238.72999572753906,
+      "text" : "you're gonna be always answering the phone it's gonna be something that happens"
+    },
+    {
+      "end" : 246.1199951171875,
+      "speaker" : "speaker_0",
+      "start" : 244.72000122070312,
       "text" : "All right, does that change your attitude?"
     },
     {
-      "end" : 248.39999389648438,
+      "end" : 247.0399932861328,
       "speaker" : "speaker_0",
-      "start" : 247.1999969482422,
+      "start" : 246.1199951171875,
       "text" : "- So why can't you do it?"
     },
     {
-      "end" : 249.66000366210938,
+      "end" : 249.17999267578125,
       "speaker" : "speaker_0",
-      "start" : 248.39999389648438,
+      "start" : 248.05999755859375,
       "text" : "- So why can't you do it?"
     },
     {
-      "end" : 252.8199920654297,
+      "end" : 252.13999938964844,
       "speaker" : "speaker_0",
-      "start" : 249.66000366210938,
+      "start" : 249.37998962402344,
       "text" : "- Because I've done the last three weekends."
     },
     {
-      "end" : 255.83999633789062,
+      "end" : 255.13999938964844,
       "speaker" : "speaker_0",
-      "start" : 252.8199920654297,
+      "start" : 252.8800048828125,
       "text" : "- So you can take another shift?"
     },
     {
-      "end" : 256.8800048828125,
+      "end" : 256.3800048828125,
       "speaker" : "speaker_1",
-      "start" : 255.83999633789062,
+      "start" : 255.6199951171875,
       "text" : "- Three shifts?"
     },
     {
-      "end" : 257.7200012207031,
+      "end" : 256.8999938964844,
+      "speaker" : "speaker_1",
+      "start" : 256.760009765625,
+      "text" : "I"
+    },
+    {
+      "end" : 257.55999755859375,
       "speaker" : "speaker_3",
-      "start" : 256.8800048828125,
-      "text" : "I brought my bed."
+      "start" : 256.8999938964844,
+      "text" : "brought my bed."
     },
     {
-      "end" : 259.8800048828125,
-      "speaker" : "speaker_1",
-      "start" : 257.7200012207031,
-      "text" : "- If it's every three hours?"
+      "end" : 258.7200012207031,
+      "speaker" : "speaker_3",
+      "start" : 257.8599853515625,
+      "text" : "- If it's"
     },
     {
-      "end" : 263.20001220703125,
+      "end" : 259.5799865722656,
       "speaker" : "speaker_1",
-      "start" : 259.8800048828125,
+      "start" : 258.7200012207031,
+      "text" : "every three hours?"
+    },
+    {
+      "end" : 262.8399963378906,
+      "speaker" : "speaker_1",
+      "start" : 260.0799865722656,
       "text" : "- I cannot, I have to go shower, eat."
     },
     {
-      "end" : 264.94000244140625,
+      "end" : 264.760009765625,
       "speaker" : "speaker_1",
-      "start" : 263.20001220703125,
-      "text" : "I have a baby is at home."
+      "start" : 263.2200012207031,
+      "text" : "I have the babies at home."
     },
     {
-      "end" : 265.46002197265625,
+      "end" : 265.2200012207031,
       "speaker" : "speaker_1",
-      "start" : 264.94000244140625,
+      "start" : 264.8700256347656,
       "text" : "I can't."
     },
     {
-      "end" : 266.4000244140625,
+      "end" : 265.96002197265625,
       "speaker" : "speaker_1",
-      "start" : 265.46002197265625,
-      "text" : "That's a little more."
+      "start" : 265.32000732421875,
+      "text" : "That's a little more of"
     },
     {
-      "end" : 267.3000183105469,
+      "end" : 266.260009765625,
       "speaker" : "speaker_0",
-      "start" : 266.4000244140625,
-      "text" : "Yeah, yeah."
+      "start" : 265.96002197265625,
+      "text" : "a..."
     },
     {
-      "end" : 267.8000183105469,
+      "end" : 266.7799987792969,
       "speaker" : "speaker_0",
-      "start" : 267.3000183105469,
-      "text" : "Yeah."
+      "start" : 266.260009765625,
+      "text" : "Yeah, yeah, yeah."
     },
     {
-      "end" : 270.94000244140625,
-      "speaker" : "speaker_1",
-      "start" : 267.8000183105469,
-      "text" : "So two shifts I think have been very nice."
+      "end" : 267.4200134277344,
+      "speaker" : "speaker_0",
+      "start" : 267.08001708984375,
+      "text" : "Two"
     },
     {
-      "end" : 274.32000732421875,
+      "end" : 270.3000183105469,
       "speaker" : "speaker_1",
-      "start" : 270.94000244140625,
-      "text" : "But I think if you're paid 1 and 1\/2 and everything,"
+      "start" : 267.4200134277344,
+      "text" : "shifts, I think I've been very nice,"
     },
     {
-      "end" : 282.3600158691406,
+      "end" : 273.44000244140625,
       "speaker" : "speaker_1",
-      "start" : 274.32000732421875,
-      "text" : "you can do-- excuse me, Linda.."
+      "start" : 270.8500061035156,
+      "text" : "but I think if you're paid 1.5 and everything,"
     },
     {
-      "end" : 284.0199890136719,
+      "end" : 275.05999755859375,
       "speaker" : "speaker_1",
-      "start" : 278.3999938964844,
+      "start" : 274.3000183105469,
+      "text" : "you can do..."
+    },
+    {
+      "end" : 291.0400085449219,
+      "speaker" : "speaker_1",
+      "start" : 275.2200012207031,
+      "text" : "Excuse me, Linda, but you can do...,"
+    },
+    {
+      "end" : 283.97998046875,
+      "speaker" : "speaker_1",
+      "start" : 278.41998291015625,
       "text" : "You can exchange a shift with me that will be more convenient with you so that you can do one in the future."
     },
     {
-      "end" : 285.5,
+      "end" : 285.1999816894531,
       "speaker" : "speaker_1",
-      "start" : 284.0199890136719,
+      "start" : 283.97998046875,
       "text" : "In the future but not this week."
     },
     {
-      "end" : 289.8399963378906,
+      "end" : 289.6000061035156,
       "speaker" : "speaker_0",
-      "start" : 285.5,
+      "start" : 285.29998779296875,
       "text" : "Would it be easier to make it a four hour shift and then you split four hour shifts?"
     },
     {
-      "end" : 291.8399963378906,
+      "end" : 291.5799865722656,
       "speaker" : "speaker_0",
-      "start" : 289.8399963378906,
+      "start" : 289.82000732421875,
       "text" : "No, I can't work."
     },
     {
-      "end" : 292.53997802734375,
+      "end" : 292.4800109863281,
       "speaker" : "speaker_3",
-      "start" : 291.8399963378906,
+      "start" : 291.0400085449219,
+      "text" : "A.D.P.A.C.A.P.C.E.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C"
+    },
+    {
+      "end" : 292,
+      "speaker" : "speaker_3",
+      "start" : 291.8599853515625,
       "text" : "No."
     },
     {
-      "end" : 293.67999267578125,
+      "end" : 293.5400085449219,
       "speaker" : "speaker_0",
-      "start" : 292.53997802734375,
+      "start" : 292.739990234375,
       "text" : "Absolutely not."
     },
     {
-      "end" : 294.6000061035156,
+      "end" : 294.3599853515625,
       "speaker" : "speaker_3",
-      "start" : 293.67999267578125,
+      "start" : 293.5400085449219,
       "text" : "No, I won't do it."
     },
     {
-      "end" : 296.6000061035156,
+      "end" : 295.1600036621094,
       "speaker" : "speaker_3",
-      "start" : 294.6000061035156,
+      "start" : 294.6199951171875,
       "text" : "Ah!"
     },
     {
-      "end" : 298.6000061035156,
+      "end" : 295.4800109863281,
+      "speaker" : "speaker_3",
+      "start" : 295.1600036621094,
+      "text" : "- Ah!"
+    },
+    {
+      "end" : 296.6400146484375,
       "speaker" : "speaker_0",
-      "start" : 296.6000061035156,
+      "start" : 296.4800109863281,
+      "text" : "- Okay."
+    },
+    {
+      "end" : 297.02001953125,
+      "speaker" : "speaker_0",
+      "start" : 296.8999938964844,
       "text" : "Well."
     },
     {
-      "end" : 301.7200012207031,
-      "speaker" : "speaker_0",
-      "start" : 298.6000061035156,
-      "text" : "That will look good on your employment record, actually."
-    },
-    {
-      "end" : 312.17999267578125,
-      "speaker" : "speaker_0",
-      "start" : 301.7200012207031,
-      "text" : "I just want to let you know that, you can't just say I'm not responsible for what's going on."
-    },
-    {
-      "end" : 316.8000183105469,
+      "end" : 297.8800048828125,
       "speaker" : "speaker_3",
-      "start" : 312.17999267578125,
-      "text" : "I didn't agree to this. I need to work."
+      "start" : 297.3600158691406,
+      "text" : "- Look at that."
     },
     {
-      "end" : 318.79998779296875,
+      "end" : 301.8000183105469,
+      "speaker" : "speaker_0",
+      "start" : 297.9200134277344,
+      "text" : "- That won't look good on your employment record, Ashley, you know."
+    },
+    {
+      "end" : 302.5400085449219,
+      "speaker" : "speaker_0",
+      "start" : 301.9599914550781,
+      "text" : "- So you're"
+    },
+    {
+      "end" : 303.58001708984375,
       "speaker" : "speaker_3",
-      "start" : 316.79998779296875,
-      "text" : "You just don't know that you agree to it."
+      "start" : 302.5400085449219,
+      "text" : "planning my employment"
     },
     {
-      "end" : 320.79998779296875,
+      "end" : 303.8000183105469,
+      "speaker" : "speaker_0",
+      "start" : 303.58001708984375,
+      "text" : "now?"
+    },
+    {
+      "end" : 311.760009765625,
+      "speaker" : "speaker_0",
+      "start" : 304.2200012207031,
+      "text" : "- Well, I just wanna let you know that you can't just say I'm not responsible for what's"
+    },
+    {
+      "end" : 311.8000183105469,
+      "speaker" : "speaker_3",
+      "start" : 311.760009765625,
+      "text" : "going on."
+    },
+    {
+      "end" : 313.3000183105469,
+      "speaker" : "speaker_3",
+      "start" : 311.8000183105469,
+      "text" : "- But I didn't agree to this."
+    },
+    {
+      "end" : 316.52001953125,
+      "speaker" : "speaker_3",
+      "start" : 313.5400085449219,
+      "text" : "You can't tell me two days in advance that I need to work."
+    },
+    {
+      "end" : 317.8399963378906,
+      "speaker" : "speaker_3",
+      "start" : 316.8199768066406,
+      "text" : "You just don't know that"
+    },
+    {
+      "end" : 318.5799865722656,
+      "speaker" : "speaker_1",
+      "start" : 317.8399963378906,
+      "text" : "you agree to it."
+    },
+    {
+      "end" : 319.29998779296875,
+      "speaker" : "speaker_1",
+      "start" : 318.5799865722656,
+      "text" : "We just don't know that we"
+    },
+    {
+      "end" : 319.7200012207031,
       "speaker" : "speaker_2",
-      "start" : 318.79998779296875,
-      "text" : "We just don't know that we agree to it."
+      "start" : 319.29998779296875,
+      "text" : "agree to it."
     },
     {
-      "end" : 322.79998779296875,
+      "end" : 321.29998779296875,
+      "speaker" : "speaker_2",
+      "start" : 320.6999816894531,
+      "text" : "It's not"
+    },
+    {
+      "end" : 321.5999755859375,
       "speaker" : "speaker_1",
-      "start" : 320.79998779296875,
-      "text" : "It's not fair."
+      "start" : 321.29998779296875,
+      "text" : "fair."
     },
     {
-      "end" : 324.79998779296875,
+      "end" : 322.0799865722656,
       "speaker" : "speaker_1",
-      "start" : 322.79998779296875,
-      "text" : "That's definitely not fair."
+      "start" : 322,
+      "text" : "That's"
     },
     {
-      "end" : 326.79998779296875,
-      "speaker" : "speaker_3",
-      "start" : 324.79998779296875,
+      "end" : 323.5799865722656,
+      "speaker" : "speaker_2",
+      "start" : 322.0799865722656,
+      "text" : "definitely not fair."
+    },
+    {
+      "end" : 325,
+      "speaker" : "speaker_1",
+      "start" : 323.5799865722656,
       "text" : "So what are we going to do?"
     },
     {
-      "end" : 328.79998779296875,
+      "end" : 328.67999267578125,
       "speaker" : "speaker_3",
-      "start" : 326.79998779296875,
+      "start" : 326.8599853515625,
       "text" : "It's just a call center for the internet."
     },
     {
-      "end" : 330.79998779296875,
+      "end" : 330.94000244140625,
       "speaker" : "speaker_3",
-      "start" : 328.79998779296875,
+      "start" : 328.8399963378906,
       "text" : "It's not like the world if we don't answer."
     },
     {
-      "end" : 332.79998779296875,
+      "end" : 333.3399963378906,
       "speaker" : "speaker_3",
-      "start" : 330.79998779296875,
+      "start" : 331.8399963378906,
       "text" : "What if we close for eight hours?"
     },
     {
-      "end" : 334.79998779296875,
+      "end" : 333.8799743652344,
       "speaker" : "speaker_3",
-      "start" : 332.79998779296875,
+      "start" : 333.7799987792969,
       "text" : "No."
     },
     {
-      "end" : 336.79998779296875,
+      "end" : 336.44000244140625,
       "speaker" : "speaker_0",
-      "start" : 334.79998779296875,
+      "start" : 334.97998046875,
       "text" : "That could harm the business."
     },
     {
-      "end" : 340.79998779296875,
+      "end" : 339.5,
       "speaker" : "speaker_0",
-      "start" : 336.79998779296875,
+      "start" : 336.5199890136719,
       "text" : "That's right. Our customers would be very angry with us."
     },
     {
-      "end" : 342.79998779296875,
-      "speaker" : "speaker_3",
-      "start" : 340.79998779296875,
-      "text" : "And the owners need to deal with it."
+      "end" : 341.5199890136719,
+      "speaker" : "speaker_0",
+      "start" : 340.7599792480469,
+      "text" : "And the owners"
     },
     {
-      "end" : 345.29998779296875,
+      "end" : 342.3799743652344,
       "speaker" : "speaker_3",
-      "start" : 342.79998779296875,
+      "start" : 341.5199890136719,
+      "text" : "need to deal with it."
+    },
+    {
+      "end" : 344.8999938964844,
+      "speaker" : "speaker_3",
+      "start" : 343.739990234375,
       "text" : "They take the shift."
     },
     {
-      "end" : 347.29998779296875,
+      "end" : 346.47998046875,
       "speaker" : "speaker_0",
-      "start" : 345.29998779296875,
+      "start" : 345.3199768066406,
       "text" : "The owners take the shift?"
     },
     {
-      "end" : 348.29998779296875,
+      "end" : 346.55999755859375,
       "speaker" : "speaker_0",
-      "start" : 347.29998779296875,
+      "start" : 346.47998046875,
       "text" : "Yes."
     },
     {
-      "end" : 352.29998779296875,
+      "end" : 352.3199768066406,
       "speaker" : "speaker_0",
-      "start" : 348.29998779296875,
+      "start" : 347.94000244140625,
       "text" : "I don't know that the owners would actually do something like that."
     },
     {
-      "end" : 357.29998779296875,
+      "end" : 356.44000244140625,
       "speaker" : "speaker_0",
-      "start" : 352.29998779296875,
+      "start" : 352.94000244140625,
       "text" : "Maybe we'll have to hire extra workers to take the shift."
     },
     {
-      "end" : 362.29998779296875,
+      "end" : 361.739990234375,
       "speaker" : "speaker_0",
-      "start" : 357.29998779296875,
+      "start" : 358.1199951171875,
       "text" : "That means you have less hours during the week."
     },
     {
-      "end" : 366.29998779296875,
+      "end" : 362.9599914550781,
       "speaker" : "speaker_1",
-      "start" : 362.29998779296875,
+      "start" : 362.0199890136719,
       "text" : "Maybe you can temp."
     },
     {
-      "end" : 369.29998779296875,
-      "speaker" : "speaker_0",
-      "start" : 366.29998779296875,
+      "end" : 365.5199890136719,
+      "speaker" : "speaker_1",
+      "start" : 364.8799743652344,
       "text" : "Maybe you can temp."
     },
     {
-      "end" : 373.6999816894531,
+      "end" : 373,
       "speaker" : "speaker_0",
-      "start" : 369.29998779296875,
+      "start" : 369.47998046875,
       "text" : "Maybe we can send the service out to India."
     },
     {
-      "end" : 375.70001220703125,
+      "end" : 375.3600158691406,
       "speaker" : "speaker_0",
-      "start" : 373.70001220703125,
+      "start" : 373.7200012207031,
       "text" : "And just let them do the work."
     },
     {
-      "end" : 377.70001220703125,
+      "end" : 376.46002197265625,
       "speaker" : "speaker_1",
-      "start" : 375.70001220703125,
+      "start" : 375.69000244140625,
       "text" : "Oh, here we go."
     }
   ],
@@ -1407,7 +1695,7 @@
       "start" : 375.6026916503906
     }
   ],
-  "text" : "Okay ladies, you've been working at the call center now for two months. You've been working regular weekly hours and that's everything has been fine up until now but you're going to have to work a weekend shift coming up this weekend. Now this weekend shift is going to be divided by 8 hours. So it's an 8 hour shift. There's a regular day shift. I can't do it. Right away we have a can do it. Come on girls. I can't do it. I can do it. Alright give me a shift that you can go to. But not at night. Not at night. Okay. Well, that's fine. If she's going to be agreeable. I'm going to be, you know, I might as well get a shift. Alright, so I'm going to give you the 6:00 a.m. to 2:00 p.m. shift on Saturday. I would work on that. Okay. Alright, so who wants 2:00 p.m. to 10:00? I can. I'm going away for the weekend. You're going away for the weekend? I'm in exams here. I can't do it. I can do two shifts. - But not one, you know, back to back. I don't want back to back. - Alright well, we still need two people to fill in two more TPs. - Linda, see, thank you. - Thank you, Linda. Thank you, Rochelle. - Thank you, Rochelle. - Thank you, Rochelle, thank you very much. - Thank you very much, sorry for the mistake. But I'm I'm a plans for a long time to go away this weekend. So I just can't where you going I'm going there to visit my my boyfriend in How far away in a different state in a different state? Yeah Well since it's call center there is a possibility of doing this remotely we'll give you the headset that you need and the connection to the internet where goes my weekend you'll still be able to be with your boyfriend it's just that you'll have to be Well then you don't really have an option because I can't do it. I'm studying in the most important thing. I'm going to go to the beach in a headset. Yes, but you have to take a break from studying at some point, don't you? No, I can't. I'm a true nerd and I can't do it. I have to study as much as I can. You are a nerd. Right. So I can't. I have to do it. Well, we are in trouble and if you can't take a shift... Can you work? Can you take the shift? I've been taking shifts the last three weekends. I've been taking a shift. That's been nice. So are you mad now? No, I'm not mad. This has been my part of my job. But now I need you guys to step up. This wasn't part of my agreement. I didn't check the small print. Okay. You did sign something. You can't force me to work on a weekend. I can't force you to work on a weekend. But if you want to continue work with us- Are we paying double? Maybe that would be an incentive. Yes, of course. You get time and a half, actually. That also only works if we know ahead of time. I made these plans a month ago. If I know ahead of time- I'm saying you can still work remotely., okay? All right, does that change your attitude? - So why can't you do it? - So why can't you do it? - Because I've done the last three weekends. - So you can take another shift? - Three shifts? I brought my bed. - If it's every three hours? - I cannot, I have to go shower, eat. I have a baby is at home. I can't. That's a little more. Yeah, yeah. Yeah. So two shifts I think have been very nice. But I think if you're paid 1 and 1\/2 and everything, you can do-- excuse me, Linda.. You can exchange a shift with me that will be more convenient with you so that you can do one in the future. In the future but not this week. Would it be easier to make it a four hour shift and then you split four hour shifts? No, I can't work. No. Absolutely not. No, I won't do it. Ah! Well. That will look good on your employment record, actually. I just want to let you know that, you can't just say I'm not responsible for what's going on. I didn't agree to this. I need to work. You just don't know that you agree to it. We just don't know that we agree to it. It's not fair. That's definitely not fair. So what are we going to do? It's just a call center for the internet. It's not like the world if we don't answer. What if we close for eight hours? No. That could harm the business. That's right. Our customers would be very angry with us. And the owners need to deal with it. They take the shift. The owners take the shift? Yes. I don't know that the owners would actually do something like that. Maybe we'll have to hire extra workers to take the shift. That means you have less hours during the week. Maybe you can temp. Maybe you can temp. Maybe we can send the service out to India. And just let them do the work. Oh, here we go.",
+  "text" : "Okay ladies, you've been working at the call center now for two months. You've been working regular weekly hours and that's everything has been fine up until now but you're going to have to work a weekend shift coming up this weekend. Now this weekend shift is going to be divided by 8 hours. So it's an 8 hour shift. There's a regular day shift. I can't do it. Right away we have a can do it. Come on girls. I can't do it. I can do it. Alright give me a shift that you can go to. But not at night. Not at night. Okay. Well, that's fine. If she's going to be agreeable. I'm going to be, you know, I might as well get a shift. Alright, so I'm going to give you the 6:00 a.m. to 2:00 p.m. shift on Saturday. I would work on that. Okay. Alright, so who wants 2:00 p.m. to 10:00? I can. I'm going away for the weekend. You're going away for the weekend? I'm in exams here. I can't do it. I can do two shifts. But I'm I'm a plans for a long time to go away this weekend. So I just can't where you going I'm going there to visit my my boyfriend in How far away in a different state in a different state? Yeah Well since it's call center there is a possibility of doing this remotely we'll give you the headset that you need and the connection to the internet where goes my weekend you'll still be able to be with your boyfriend it's just that you'll have to be Well then you don't really have an option because I can't do it. I'm studying in the most important thing. I'm going to go to the beach in a headset. Yes, but you have to take a break from studying at some point, don't you? No, I can't. I'm a true nerd and I can't do it. I have to study as much as I can. You are a nerd. Right. So I can't. I have to do it. Well, we are in trouble and if you can't take a shift... Can you work? Can you take the shift? I've been taking shifts the last three weekends. I've been taking a shift. That's been nice. So are you mad now? No, I'm not mad. This has been my part of my job. But now I need you guys to step up. This wasn't part of my agreement. I didn't check the small print. Okay, you did sign something. But you can't force me to work on a weekend. I can't force you to work on a weekend, but if you want to continue work with us-- Oh, we paid double. Maybe that will be an incentive. Yes, of course. You get time in a half actually. We just paid double that. Yeah, that also works if we know ahead of time. I made these plans a month ago. All right. If I know ahead of time, that's why you get-- But I'm saying you can still work remotely. Oh no... - Night shift. No. - The point is that we can't do it, we can't work at that time in general. - Who is we? - Okay. - Me and Linda. - Oh, you are now her lawyer? - No, I understand that it's a work for her. And I understand that her exams are important. - Yeah but if one of us has to work, then you have to take the shift. - Alright, so let's take a look at what's happened in previous weekends, alright?, okay. to the other side, okay. typically you get one call per every three hours one call for every three hours that's that's the maximum that they don't get it's not like you're online you're gonna be always answering the phone it's gonna be something that happens All right, does that change your attitude? - So why can't you do it? - So why can't you do it? - Because I've done the last three weekends. - So you can take another shift? - Three shifts? I brought my bed. - If it's every three hours? - I cannot, I have to go shower, eat. I have the babies at home. I can't. That's a little more of a... Yeah, yeah, yeah. Two shifts, I think I've been very nice, but I think if you're paid 1.5 and everything, you can do... Excuse me, Linda, but you can do..., You can exchange a shift with me that will be more convenient with you so that you can do one in the future. In the future but not this week. Would it be easier to make it a four hour shift and then you split four hour shifts? No, I can't work. A.D.P.A.C.A.P.C.E.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C No. Absolutely not. No, I won't do it. Ah! - Ah! - Okay. Well. - Look at that. - That won't look good on your employment record, Ashley, you know. - So you're planning my employment now? - Well, I just wanna let you know that you can't just say I'm not responsible for what's going on. - But I didn't agree to this. You can't tell me two days in advance that I need to work. You just don't know that you agree to it. We just don't know that we agree to it. It's not fair. That's definitely not fair. So what are we going to do? It's just a call center for the internet. It's not like the world if we don't answer. What if we close for eight hours? No. That could harm the business. That's right. Our customers would be very angry with us. And the owners need to deal with it. They take the shift. The owners take the shift? Yes. I don't know that the owners would actually do something like that. Maybe we'll have to hire extra workers to take the shift. That means you have less hours during the week. Maybe you can temp. Maybe you can temp. Maybe we can send the service out to India. And just let them do the work. Oh, here we go.",
   "track" : "meeting",
-  "wallSeconds" : 256.2873795
+  "wallSeconds" : 274.987757958
 }
