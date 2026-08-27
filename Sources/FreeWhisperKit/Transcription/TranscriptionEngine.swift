@@ -72,7 +72,26 @@ public protocol TranscriptionEngine: Sendable {
     func prepare(progress: ProgressHandler?) async throws
 
     /// `url` must be a 16 kHz mono WAV — what `ResamplingRecorder` writes.
-    func transcribe(url: URL, progress: ProgressHandler?) async throws -> [RawSegment]
+    ///
+    /// `wordTimings` asks for per-word spans in each ``RawSegment``. It is a
+    /// per-call flag rather than a property of the engine because meetings and
+    /// dictation share one cached instance: meetings need the timings to place
+    /// speaker labels, and dictation throws every timestamp away, so making
+    /// Whisper compute them there would be latency spent on nothing. Engines
+    /// that get the timings for free may ignore the flag and always supply them.
+    func transcribe(
+        url: URL,
+        wordTimings: Bool,
+        progress: ProgressHandler?
+    ) async throws -> [RawSegment]
+}
+
+extension TranscriptionEngine {
+    /// Transcribe without word timings — the dictation path, and every caller
+    /// that only wants the text.
+    public func transcribe(url: URL, progress: ProgressHandler?) async throws -> [RawSegment] {
+        try await transcribe(url: url, wordTimings: false, progress: progress)
+    }
 }
 
 /// Splits an audio file into per-speaker turns.

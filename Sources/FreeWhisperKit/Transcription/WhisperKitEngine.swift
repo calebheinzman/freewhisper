@@ -59,7 +59,11 @@ public actor WhisperKitEngine: TranscriptionEngine {
         }
     }
 
-    public func transcribe(url: URL, progress: ProgressHandler?) async throws -> [RawSegment] {
+    public func transcribe(
+        url: URL,
+        wordTimings: Bool,
+        progress: ProgressHandler?
+    ) async throws -> [RawSegment] {
         try await prepare(progress: progress)
         guard let pipe else { throw TranscriptionError.modelUnavailable(modelName) }
 
@@ -75,6 +79,10 @@ public actor WhisperKitEngine: TranscriptionEngine {
             let options = DecodingOptions(
                 task: .transcribe,
                 skipSpecialTokens: true,
+                // Costs a cross-attention DTW pass per window, which is why it
+                // is asked for rather than always on. Meetings need it: without
+                // it a speaker label can only be applied to a whole segment.
+                wordTimestamps: wordTimings,
                 chunkingStrategy: duration > Self.whisperWindowSeconds ? .vad : .none
             )
             let results = try await pipe.transcribe(audioArray: samples, decodeOptions: options)
@@ -86,7 +94,8 @@ public actor WhisperKitEngine: TranscriptionEngine {
                     RawSegment(
                         start: TimeInterval($0.start),
                         end: TimeInterval($0.end),
-                        text: $0.text.trimmingCharacters(in: .whitespacesAndNewlines)
+                        text: $0.text.trimmingCharacters(in: .whitespacesAndNewlines),
+                        words: Self.words(from: $0)
                     )
                 }
                 .filter { $0.text.containsSpeech }
@@ -98,6 +107,27 @@ public actor WhisperKitEngine: TranscriptionEngine {
                 reason: error.localizedDescription
             )
         }
+    }
+
+    /// Whisper's word timings, or nil if this run did not produce any.
+    ///
+    /// Nil is a normal outcome, not an error: `wordTimestamps` was not asked
+    /// for, or the converted model ships without the alignment heads the DTW
+    /// pass needs. The assembler falls back to segment-level attribution, which
+    /// is what it did before word timings existed.
+    static func words(from segment: TranscriptionSegment) -> [TimedWord]? {
+        guard let words = segment.words, !words.isEmpty else { return nil }
+
+        let timed = words.compactMap { word -> TimedWord? in
+            let text = word.word.trimmingCharacters(in: .whitespacesAndNewlines)
+            guard !text.isEmpty else { return nil }
+            return TimedWord(
+                start: TimeInterval(word.start),
+                end: TimeInterval(max(word.end, word.start)),
+                text: text
+            )
+        }
+        return timed.isEmpty ? nil : timed
     }
 
     /// Whisper invents text over silence, and "Thank you." over a quiet
@@ -194,16 +224,23 @@ public actor SpeakerKitDiarizer: DiarizationEngine {
                 PyannoteDiarizationOptions(clusterDistanceThreshold: $0)
             }
             let result = try await speakerKit.diarize(audioArray: samples, options: options)
-            return result.segments.compactMap { segment in
-                // Drop `.noMatch` and overlapping-speech `.multiple` spans: with
-                // nobody to attribute the words to, a turn here would only cause
-                // the assembler to mislabel them.
-                guard let id = segment.speaker.speakerId else { return nil }
-                return SpeakerTurn(
-                    start: TimeInterval(segment.startTime),
-                    end: TimeInterval(segment.endTime),
-                    speakerID: "speaker_\(id)"
-                )
+            return result.segments.flatMap { segment in
+                // `.multiple` is two or more people talking at once, and it is
+                // common — in a four-way call, crosstalk is most of the hard
+                // part. Dropping those spans did not make the words go away; it
+                // left them with no turn to match, so the assembler fell back to
+                // the *nearest* turn, which is a guess made from somewhere else
+                // in the recording. Emitting one turn per speaker instead keeps
+                // the choice local: the words land on one of the people who was
+                // actually talking. `.noMatch` still yields nothing, because
+                // there really is no candidate there.
+                segment.speaker.speakerIds.map { id in
+                    SpeakerTurn(
+                        start: TimeInterval(segment.startTime),
+                        end: TimeInterval(segment.endTime),
+                        speakerID: "speaker_\(id)"
+                    )
+                }
             }
         } catch {
             throw TranscriptionError.engineFailed(

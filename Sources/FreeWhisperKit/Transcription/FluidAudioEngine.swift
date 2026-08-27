@@ -91,7 +91,14 @@ public actor FluidAudioEngine: TranscriptionEngine {
         }
     }
 
-    public func transcribe(url: URL, progress: ProgressHandler?) async throws -> [RawSegment] {
+    /// `wordTimings` is ignored: Parakeet returns per-token timings from every
+    /// decode whether or not anyone wants them, so there is nothing to switch
+    /// off and no cost to always supplying the words.
+    public func transcribe(
+        url: URL,
+        wordTimings: Bool,
+        progress: ProgressHandler?
+    ) async throws -> [RawSegment] {
         try await prepare(progress: progress)
         guard let manager else { throw TranscriptionError.modelUnavailable("parakeet") }
 
@@ -154,11 +161,18 @@ public actor FluidAudioEngine: TranscriptionEngine {
             let text = currentTokens
                 .map(\.token)
                 .joined()
-                // Parakeet uses the SentencePiece word-boundary marker.
+                // Older FluidAudio passed the SentencePiece marker through raw;
+                // 0.15 hands back a plain leading space instead. Both mean the
+                // same thing — see ``startsWord(_:)``.
                 .replacingOccurrences(of: "\u{2581}", with: " ")
                 .trimmingCharacters(in: .whitespacesAndNewlines)
             if text.containsSpeech {
-                segments.append(RawSegment(start: first.startTime, end: last.endTime, text: text))
+                segments.append(RawSegment(
+                    start: first.startTime,
+                    end: last.endTime,
+                    text: text,
+                    words: words(from: currentTokens)
+                ))
             }
             currentTokens = []
         }
@@ -181,31 +195,111 @@ public actor FluidAudioEngine: TranscriptionEngine {
 
         return segments
     }
+
+    /// Does this token begin a new word?
+    ///
+    /// FluidAudio has used two conventions. Up to 0.14 the raw SentencePiece
+    /// marker `▁` came through; 0.15 replaces it with a plain leading space, so
+    /// `" H"`, `"ow"`, `" do"`, `"es"` is what a Parakeet decode looks like now.
+    /// Accepting both is a two-character guard against a silent regression:
+    /// keying on `▁` alone made every segment come back as one enormous word,
+    /// which is not a crash and not a wrong transcript — it just quietly turned
+    /// word-level speaker attribution back into segment-level.
+    static func startsWord(_ token: String) -> Bool {
+        token.hasPrefix(" ") || token.hasPrefix("\u{2581}")
+    }
+
+    /// Reassemble sub-word tokens into words.
+    ///
+    /// Parakeet decodes pieces, so "microphone" arrives as five tokens and a
+    /// question mark arrives as its own. A new word starts at a boundary marker,
+    /// and everything after it — including trailing punctuation — belongs to the
+    /// word it was attached to, which is what makes a word's span the span of
+    /// the audio it was actually spoken in.
+    static func words(from timings: [TokenTiming]) -> [TimedWord]? {
+        var words: [TimedWord] = []
+        var text = ""
+        var start: TimeInterval = 0
+        var end: TimeInterval = 0
+
+        func flush() {
+            let trimmed = text.trimmingCharacters(in: .whitespacesAndNewlines)
+            // Punctuation on its own is not a word, but it did happen inside
+            // the previous one's neighbourhood, so extend that instead of
+            // emitting a wordless span the assembler would have to label.
+            if trimmed.containsSpeech {
+                words.append(TimedWord(start: start, end: max(end, start), text: trimmed))
+            } else if !trimmed.isEmpty, var last = words.popLast() {
+                last.text += trimmed
+                last.end = max(last.end, end)
+                words.append(last)
+            }
+            text = ""
+        }
+
+        for timing in timings {
+            if startsWord(timing.token) {
+                flush()
+                start = timing.startTime
+            } else if text.isEmpty {
+                start = timing.startTime
+            }
+            text += timing.token.drop { $0 == " " || $0 == "\u{2581}" }
+            end = timing.endTime
+        }
+        flush()
+
+        return words.isEmpty ? nil : words
+    }
 }
 
-/// pyannote diarization, from FluidAudio.
+/// pyannote community-1 diarization, from FluidAudio.
+///
+/// This is the *offline* pipeline — segmentation, WeSpeaker embeddings and VBx
+/// clustering — rather than the streaming `DiarizerManager` this used to call.
+/// The difference is not marginal. On FluidAudio's own AMI single-distant-mic
+/// benchmark, the arrangement closest to what a call actually sounds like, the
+/// streaming pipeline scores 17.7% DER and this one 10.6%, and it gets the
+/// speaker count right on 12 of 16 meetings. Guessing how many people are in
+/// the room is most of what a diarizer is for, and it is exactly what fell over
+/// on longer calls: the more people talk, the more ways there are to merge two
+/// of them into one.
+///
+/// It costs a slower pass — around 70x realtime rather than 130x — which is a
+/// quarter of a minute on an hour of audio, and nothing next to transcribing it.
 ///
 /// Its `TimedSpeakerSegment` carries a speaker embedding, which is the hook for
 /// cross-meeting speaker memory later.
 public actor FluidAudioDiarizer: DiarizationEngine {
     public nonisolated let kind = EngineKind.fluidAudio
 
-    private var manager: DiarizerManager?
+    static let displayName = "pyannote community-1 (FluidAudio)"
+
+    private var manager: OfflineDiarizerManager?
 
     public init() {}
 
     public func prepare(progress: ProgressHandler?) async throws {
         guard manager == nil else { return }
 
-        progress?(.downloadingModel(name: "pyannote (FluidAudio)", fraction: nil))
+        progress?(.downloadingModel(name: Self.displayName, fraction: nil))
         do {
-            let models = try await DiarizerModels.downloadIfNeeded()
-            progress?(.loadingModel(name: "pyannote (FluidAudio)"))
-            let manager = DiarizerManager()
-            manager.initialize(models: consume models)
+            // Loading the models by hand rather than through the manager's own
+            // `prepareModels()`, which swallows the error and leaves the manager
+            // silently uninitialised — the failure would then surface much later
+            // as "model not loaded" from the middle of a meeting.
+            let models = try await OfflineDiarizerModels.load(
+                progressHandler: { progress?(.downloadingModel(
+                    name: Self.displayName,
+                    fraction: $0.fractionCompleted
+                )) }
+            )
+            progress?(.loadingModel(name: Self.displayName))
+            let manager = OfflineDiarizerManager()
+            manager.initialize(models: models)
             self.manager = manager
         } catch {
-            throw TranscriptionError.modelUnavailable("pyannote (FluidAudio)")
+            throw TranscriptionError.modelUnavailable(Self.displayName)
         }
     }
 
@@ -213,12 +307,18 @@ public actor FluidAudioDiarizer: DiarizationEngine {
         try await prepare(progress: progress)
         guard let manager else { throw TranscriptionError.modelUnavailable("pyannote") }
 
-        let samples = try AudioLoader.loadSamples(from: url)
-        guard !samples.isEmpty else { throw TranscriptionError.audioFileEmpty(url) }
+        guard AudioLoader.duration(of: url) > 0 else {
+            throw TranscriptionError.audioFileEmpty(url)
+        }
 
         progress?(.diarizing(fraction: nil))
         do {
-            let result = try manager.performCompleteDiarization(samples)
+            // The URL overload streams the file from disk instead of holding
+            // every sample in memory, which matters on a long meeting.
+            let result = try await manager.process(url) { done, total in
+                guard total > 0 else { return }
+                progress?(.diarizing(fraction: Double(done) / Double(total)))
+            }
             return result.segments.map {
                 SpeakerTurn(
                     start: TimeInterval($0.startTimeSeconds),

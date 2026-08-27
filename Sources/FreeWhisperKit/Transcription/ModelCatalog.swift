@@ -153,11 +153,14 @@ public enum ModelCatalog {
         group: .diarization(engine: .whisperKit)
     )
 
+    /// The offline community-1 pipeline, which is four models rather than the
+    /// streaming pipeline's two — segmentation, filterbank, embedding and the
+    /// PLDA transform that VBx clustering needs.
     public static let fluidAudioDiarizer = Model(
         id: "fluidaudio-diarizer",
-        name: "Pyannote (FluidAudio)",
+        name: "Pyannote community-1 (FluidAudio)",
         detail: "Works out who said what. Used with Parakeet.",
-        approximateBytes: 13 * 1_024 * 1_024,
+        approximateBytes: 21 * 1_024 * 1_024,
         group: .diarization(engine: .fluidAudio)
     )
 
@@ -287,7 +290,7 @@ public enum ModelCatalog {
         case .diarization(engine: .whisperKit), .diarization(engine: .cloud):
             return directoryHasCompiledModels(speakerKitDirectory())
         case .diarization(engine: .fluidAudio):
-            return directoryHasCompiledModels(DiarizerModels.defaultModelsDirectory())
+            return hasOfflineDiarizerModels()
         case .summarization:
             return summarizerSnapshot(model) != nil
         }
@@ -335,7 +338,12 @@ public enum ModelCatalog {
             progress?(1)
 
         case .diarization(engine: .fluidAudio):
-            _ = try await DiarizerModels.downloadIfNeeded(progressHandler: { progress?($0.fractionCompleted) })
+            // `load` rather than a bare download: it is the only public entry
+            // point that fetches the offline variant, and it compiles the
+            // models too, which is work the first meeting would otherwise pay.
+            _ = try await OfflineDiarizerModels.load(
+                progressHandler: { progress?($0.fractionCompleted) }
+            )
             progress?(1)
 
         case .summarization:
@@ -401,9 +409,33 @@ public enum ModelCatalog {
         case .diarization(engine: .whisperKit), .diarization(engine: .cloud):
             return speakerKitDirectory()
         case .diarization(engine: .fluidAudio):
-            return DiarizerModels.defaultModelsDirectory()
+            return offlineDiarizerDirectory()
         case .summarization:
             return summarizerRepoDirectory(model)
+        }
+    }
+
+    /// Where FluidAudio caches the diarizer repo.
+    ///
+    /// `DiarizerModels.defaultModelsDirectory()` already resolves to it, and
+    /// the offline variant lands in the same folder — different files, same
+    /// repo — so this is a name for what that path means rather than a
+    /// different path.
+    private static func offlineDiarizerDirectory() -> URL {
+        DiarizerModels.defaultModelsDirectory()
+    }
+
+    /// Check the offline pipeline's four models by name.
+    ///
+    /// The generic "is there any `.mlmodelc` in here" test is wrong for this
+    /// one: anybody who ran an older build has the streaming pipeline's two
+    /// models sitting in this very folder, and that would report the offline
+    /// models as present, skip the download, and fail in the middle of the
+    /// first meeting instead of during setup.
+    private static func hasOfflineDiarizerModels() -> Bool {
+        let directory = offlineDiarizerDirectory()
+        return ModelNames.OfflineDiarizer.requiredModels.allSatisfy {
+            FileManager.default.fileExists(atPath: directory.appendingPathComponent($0).path)
         }
     }
 

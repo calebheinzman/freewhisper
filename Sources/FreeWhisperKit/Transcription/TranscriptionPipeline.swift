@@ -77,11 +77,19 @@ public struct TranscriptionPipeline: Sendable {
         var systemTurns: [SpeakerTurn] = []
 
         if metadata.hasMicAudio, fileManager.fileExists(atPath: paths.micAudio.path) {
+            // No word timings: the mic channel is the local user by definition,
+            // so there is no speaker to place and nothing to place it with.
             micSegments = try await asr.transcribe(url: paths.micAudio, progress: progress)
         }
 
         if metadata.hasSystemAudio, fileManager.fileExists(atPath: paths.systemAudio.path) {
-            systemSegments = try await asr.transcribe(url: paths.systemAudio, progress: progress)
+            // Word timings here, because this is the channel that gets diarized
+            // and a speaker change lands mid-segment more often than not.
+            systemSegments = try await asr.transcribe(
+                url: paths.systemAudio,
+                wordTimings: true,
+                progress: progress
+            )
 
             // Diarization is only worth running when there is remote speech to
             // split, and a failure here shouldn't cost us the transcript — an

@@ -82,6 +82,140 @@ struct TranscriptAssemblerTests {
         #expect(transcript.name(for: transcript.segments[0].speakerID) == "Speaker 1")
     }
 
+    @Test("a segment straddling a speaker change is cut at the change")
+    func splitsAtSpeakerChange() {
+        let turns = [
+            SpeakerTurn(start: 0, end: 2, speakerID: "speaker_0"),
+            SpeakerTurn(start: 2, end: 4, speakerID: "speaker_1"),
+        ]
+        // One ASR segment, two speakers: exactly the case the old whole-segment
+        // vote gave entirely to whoever held the longer half.
+        let segment = RawSegment(
+            start: 0,
+            end: 4,
+            text: "are we agreed yes we are",
+            words: [
+                TimedWord(start: 0.0, end: 0.5, text: "are"),
+                TimedWord(start: 0.5, end: 1.0, text: "we"),
+                TimedWord(start: 1.0, end: 1.8, text: "agreed"),
+                TimedWord(start: 2.2, end: 2.6, text: "yes"),
+                TimedWord(start: 2.6, end: 3.0, text: "we"),
+                TimedWord(start: 3.0, end: 3.6, text: "are"),
+            ]
+        )
+
+        let pieces = TranscriptAssembler.split(segment, by: turns)
+        #expect(pieces.map(\.speakerID) == ["speaker_0", "speaker_1"])
+        #expect(pieces.map(\.segment.text) == ["are we agreed", "yes we are"])
+        #expect(pieces[0].segment.start == 0.0)
+        #expect(pieces[1].segment.start == 2.2)
+        #expect(pieces[1].segment.end == 3.6)
+    }
+
+    @Test("separately-timed punctuation rejoins without a space before it")
+    func joinsPunctuationTightly() {
+        let text = TranscriptAssembler.join([
+            TimedWord(start: 0, end: 1, text: "Yes"),
+            TimedWord(start: 1, end: 1.1, text: ","),
+            TimedWord(start: 1.1, end: 2, text: "exactly"),
+            TimedWord(start: 2, end: 2.1, text: "."),
+        ])
+        #expect(text == "Yes, exactly.")
+    }
+
+    @Test("a split contraction closes up, but an opening quote keeps its space")
+    func joinsContractionsAndQuotes() {
+        #expect(
+            TranscriptAssembler.join([
+                TimedWord(start: 0, end: 1, text: "it"),
+                TimedWord(start: 1, end: 1.2, text: "'s"),
+                TimedWord(start: 1.2, end: 2, text: "fine"),
+            ]) == "it's fine"
+        )
+        #expect(
+            TranscriptAssembler.join([
+                TimedWord(start: 0, end: 1, text: "she"),
+                TimedWord(start: 1, end: 1.2, text: "said"),
+                TimedWord(start: 1.2, end: 2, text: "\"no"),
+            ]) == "she said \"no"
+        )
+    }
+
+    @Test("a segment with no word timings keeps the whole-segment vote")
+    func splitFallsBackWithoutWords() {
+        let turns = [
+            SpeakerTurn(start: 0, end: 2, speakerID: "speaker_0"),
+            SpeakerTurn(start: 2, end: 4, speakerID: "speaker_1"),
+        ]
+        let pieces = TranscriptAssembler.split(segment(1.5, 4, "no words here"), by: turns)
+
+        #expect(pieces.count == 1)
+        #expect(pieces[0].speakerID == "speaker_1")
+        #expect(pieces[0].segment.text == "no words here")
+    }
+
+    /// The diarizer flickers for a word at a time. Cutting on that would make a
+    /// sentence into three lines and put one word in a stranger's mouth.
+    @Test("a one-word speaker island is smoothed away rather than cut")
+    func smoothsSingleWordJitter() {
+        #expect(
+            TranscriptAssembler.smooth(["a", "a", "b", "a", "a"])
+                == ["a", "a", "a", "a", "a"]
+        )
+        // A genuine change of speaker is two-sided, and must survive.
+        #expect(
+            TranscriptAssembler.smooth(["a", "a", "b", "b", "b"])
+                == ["a", "a", "b", "b", "b"]
+        )
+    }
+
+    @Test("crosstalk gives every overlapping speaker a turn, and words go to the nearer one")
+    func overlappingTurnsAreResolvedLocally() {
+        // What `.multiple` now produces: one turn per person talking at once.
+        let turns = [
+            SpeakerTurn(start: 0, end: 3, speakerID: "speaker_0"),
+            SpeakerTurn(start: 2, end: 5, speakerID: "speaker_1"),
+        ]
+        #expect(
+            TranscriptAssembler.speaker(
+                at: TimedWord(start: 0.5, end: 1.0, text: "early"), in: turns
+            ) == "speaker_0"
+        )
+        #expect(
+            TranscriptAssembler.speaker(
+                at: TimedWord(start: 4.0, end: 4.5, text: "late"), in: turns
+            ) == "speaker_1"
+        )
+    }
+
+    @Test("splitting a segment produces one transcript line per speaker")
+    func assembleEmitsOneLinePerSpeaker() {
+        let transcript = TranscriptAssembler.assemble(.init(
+            systemSegments: [RawSegment(
+                start: 0,
+                end: 4,
+                text: "hello hi",
+                words: [
+                    TimedWord(start: 0.0, end: 1.0, text: "hello"),
+                    TimedWord(start: 3.0, end: 3.5, text: "hi"),
+                ]
+            )],
+            systemTurns: [
+                SpeakerTurn(start: 0, end: 2, speakerID: "speaker_0"),
+                SpeakerTurn(start: 2.5, end: 4, speakerID: "speaker_1"),
+            ],
+            systemOffset: 1,
+            engine: "test"
+        ))
+
+        #expect(transcript.segments.map(\.text) == ["hello", "hi"])
+        #expect(transcript.name(for: transcript.segments[0].speakerID) == "Speaker 1")
+        #expect(transcript.name(for: transcript.segments[1].speakerID) == "Speaker 2")
+        // Both halves land on the mic timeline, not just the segment they came from.
+        #expect(transcript.segments[0].start == 1.0)
+        #expect(transcript.segments[1].start == 4.0)
+    }
+
     @Test("speakers are numbered by when they first spoke, not by cluster index")
     func speakersNumberedByFirstAppearance() {
         let transcript = TranscriptAssembler.assemble(.init(
@@ -144,6 +278,37 @@ struct EchoSuppressionTests {
         #expect(transcript.segments.count == 2)
     }
 
+    /// Echo has to be caught before the segment is cut into speaker runs. Each
+    /// run on its own is far too short to look like the sentence the user said,
+    /// so testing after the split would let every echo through.
+    @Test("an echo is dropped even when its words would split it across speakers")
+    func dropsEchoThatWouldHaveBeenSplit() {
+        let transcript = TranscriptAssembler.assemble(.init(
+            micSegments: [segment(0, 3, "Can everyone hear me okay")],
+            systemSegments: [RawSegment(
+                start: 0,
+                end: 3,
+                text: "Can everyone hear me okay",
+                words: [
+                    TimedWord(start: 0.0, end: 0.5, text: "Can"),
+                    TimedWord(start: 0.5, end: 1.0, text: "everyone"),
+                    TimedWord(start: 1.0, end: 1.4, text: "hear"),
+                    TimedWord(start: 2.1, end: 2.4, text: "me"),
+                    TimedWord(start: 2.4, end: 2.8, text: "okay"),
+                ]
+            )],
+            // A speaker change mid-utterance, which would otherwise cut it in two.
+            systemTurns: [
+                SpeakerTurn(start: 0, end: 1.8, speakerID: "speaker_0"),
+                SpeakerTurn(start: 1.8, end: 3, speakerID: "speaker_1"),
+            ],
+            engine: "test"
+        ))
+
+        #expect(transcript.segments.count == 1)
+        #expect(transcript.segments[0].channel == .microphone)
+    }
+
     @Test("similarity is word-order and punctuation insensitive")
     func similarityScoring() {
         #expect(TranscriptAssembler.similarity("Hello there", "hello there!") > 0.9)
@@ -197,6 +362,94 @@ struct ParakeetGroupingTests {
     @Test("an empty token stream is handled")
     func handlesEmpty() {
         #expect(FluidAudioEngine.groupIntoSegments([]).isEmpty)
+    }
+
+    /// Parakeet decodes sub-word pieces, so the words a speaker label has to be
+    /// placed on have to be put back together before they can be timed.
+    ///
+    /// The tokens here are copied from a real v3 decode: FluidAudio 0.15 marks
+    /// a word boundary with a leading space, not the SentencePiece `▁` an
+    /// earlier version passed through. Keying on the wrong one is invisible —
+    /// the transcript is identical and only the speaker labels quietly get
+    /// worse — so it is pinned by a test rather than left to a code comment.
+    @Test("a leading space starts a new word, as FluidAudio 0.15 emits them")
+    func rejoinsSpaceMarkedPieces() {
+        let words = FluidAudioEngine.words(from: [
+            token(" H", 0, 0.1),
+            token("ow", 0.1, 0.2),
+            token(" do", 0.2, 0.3),
+            token("es", 0.3, 0.4),
+            token(" that", 0.4, 0.6),
+            token(" work", 0.6, 0.9),
+            token("?", 0.9, 1.0),
+        ])
+
+        #expect(words?.map(\.text) == ["How", "does", "that", "work?"])
+        #expect(words?[0].start == 0)
+        #expect(words?[3].end == 1.0)
+    }
+
+    @Test("the older SentencePiece marker still starts a new word")
+    func rejoinsSubwordPieces() {
+        let words = FluidAudioEngine.words(from: [
+            token("\u{2581}It", 0, 0.2),
+            token("\u{2581}is", 0.2, 0.4),
+            token("\u{2581}un", 0.5, 0.7),
+            token("bel", 0.7, 0.9),
+            token("ievable", 0.9, 1.2),
+        ])
+
+        #expect(words?.map(\.text) == ["It", "is", "unbelievable"])
+        #expect(words?[2].start == 0.5)
+        #expect(words?[2].end == 1.2)
+    }
+
+    /// The failure this guards against: one word per segment is exactly what
+    /// the assembler cannot cut, so attribution silently falls back to whole
+    /// segments while every other signal says the pipeline is working.
+    @Test("a multi-word sentence yields more than one word")
+    func sentenceYieldsSeveralWords() {
+        let segments = FluidAudioEngine.groupIntoSegments([
+            token(" The", 0, 0.2),
+            token(" m", 0.2, 0.3),
+            token("ic", 0.3, 0.4),
+            token(" is", 0.4, 0.6),
+            token(" right", 0.6, 0.9),
+            token(".", 0.9, 1.0),
+        ])
+
+        #expect(segments.count == 1)
+        #expect(segments[0].text == "The mic is right.")
+        #expect((segments[0].words?.count ?? 0) > 1)
+        #expect(segments[0].words?.map(\.text) == ["The", "mic", "is", "right."])
+    }
+
+    @Test("punctuation joins the word it follows instead of becoming its own")
+    func punctuationAttachesToPreviousWord() {
+        let words = FluidAudioEngine.words(from: [
+            token("\u{2581}Done", 0, 0.4),
+            token(".", 0.4, 0.5),
+            token("\u{2581}Next", 0.6, 1.0),
+        ])
+
+        #expect(words?.map(\.text) == ["Done.", "Next"])
+        #expect(words?[0].end == 0.5)
+    }
+
+    @Test("a segment carries the words it was built from")
+    func segmentsCarryWords() {
+        let segments = FluidAudioEngine.groupIntoSegments([
+            token("\u{2581}Hello", 0, 0.4),
+            token("\u{2581}there", 0.4, 0.8),
+        ])
+
+        #expect(segments.count == 1)
+        #expect(segments[0].words?.map(\.text) == ["Hello", "there"])
+    }
+
+    @Test("punctuation-only output produces no words")
+    func punctuationOnlyProducesNoWords() {
+        #expect(FluidAudioEngine.words(from: [token(".", 0, 0.1)]) == nil)
     }
 }
 

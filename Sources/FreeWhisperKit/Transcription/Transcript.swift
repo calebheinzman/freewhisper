@@ -8,8 +8,12 @@ public enum TranscriptChannel: String, Codable, Sendable {
     case system
 }
 
-/// A span of speech with a start time, in seconds from the meeting start.
-public struct RawSegment: Sendable, Equatable {
+/// One word, with the span of audio it was recognised from.
+///
+/// The unit a diarizer's turns can actually be compared against. A segment is
+/// whatever the ASR engine felt like emitting and routinely runs across a
+/// speaker change; a word does not.
+public struct TimedWord: Sendable, Equatable {
     public var start: TimeInterval
     public var end: TimeInterval
     public var text: String
@@ -18,6 +22,32 @@ public struct RawSegment: Sendable, Equatable {
         self.start = start
         self.end = end
         self.text = text
+    }
+}
+
+/// A span of speech with a start time, in seconds from the meeting start.
+public struct RawSegment: Sendable, Equatable {
+    public var start: TimeInterval
+    public var end: TimeInterval
+    public var text: String
+    /// Word-level timings, when the engine produced them.
+    ///
+    /// Optional rather than required because not every engine can: the cloud
+    /// endpoints return segments only, and Whisper needs to be asked for these
+    /// specifically. ``TranscriptAssembler`` attributes word by word when they
+    /// are here and falls back to the whole segment when they are not.
+    public var words: [TimedWord]?
+
+    public init(
+        start: TimeInterval,
+        end: TimeInterval,
+        text: String,
+        words: [TimedWord]? = nil
+    ) {
+        self.start = start
+        self.end = end
+        self.text = text
+        self.words = words
     }
 }
 

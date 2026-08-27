@@ -51,7 +51,16 @@ public actor CloudTranscriptionEngine: TranscriptionEngine {
         }
     }
 
-    public func transcribe(url: URL, progress: ProgressHandler?) async throws -> [RawSegment] {
+    /// `wordTimings` is ignored. Word-level timestamps are an OpenAI extension
+    /// (`timestamp_granularities[]`) that most of the endpoints copying this
+    /// shape reject outright, and a 400 here costs the whole transcript. So
+    /// cloud transcripts keep segment-level speaker labels; the assembler
+    /// already falls back to that when no words arrive.
+    public func transcribe(
+        url: URL,
+        wordTimings: Bool,
+        progress: ProgressHandler?
+    ) async throws -> [RawSegment] {
         try await prepare(progress: progress)
 
         let provider = configured
