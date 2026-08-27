@@ -35,11 +35,15 @@ public final class SystemAudioTap {
     // Retained past stop() so callers can still ask "did this stream actually
     // capture anything?" after the recorder has been torn down.
     private var finalPeak: Float = 0
-    private var finalDuration: TimeInterval = 0
+    /// Seconds captured by recorders that have already been closed. The live
+    /// recorder's own duration is added on top, so a restart continues the count
+    /// rather than dropping it back to zero — which it did, leaving the watchdog
+    /// that polls this unable to tell a restarted stream from a stalled one.
+    private var capturedBeforeRestart: TimeInterval = 0
 
     public var level: Float { recorder?.level ?? 0 }
-    public var peak: Float { recorder?.peak ?? finalPeak }
-    public var duration: TimeInterval { recorder?.duration ?? finalDuration }
+    public var peak: Float { max(finalPeak, recorder?.peak ?? 0) }
+    public var duration: TimeInterval { capturedBeforeRestart + (recorder?.duration ?? 0) }
 
     // MARK: Lifecycle
 
@@ -86,7 +90,7 @@ public final class SystemAudioTap {
         queue.sync {}
 
         finalPeak = max(finalPeak, recorder?.peak ?? 0)
-        finalDuration += recorder?.duration ?? 0
+        capturedBeforeRestart += recorder?.duration ?? 0
         recorder?.close()
         recorder = nil
     }

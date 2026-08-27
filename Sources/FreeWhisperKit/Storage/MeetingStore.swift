@@ -1,11 +1,39 @@
 import Foundation
 
+/// One of the two capture streams.
+public enum AudioStream: String, Sendable, CaseIterable {
+    /// The microphone — always the local user.
+    case microphone = "mic"
+    /// Everything the Mac played — everyone else on the call.
+    case system
+
+    public var displayName: String {
+        switch self {
+        case .microphone: "Microphone"
+        case .system: "System audio"
+        }
+    }
+}
+
+/// A piece of one capture stream, and where it sits on that stream's clock.
+public struct AudioSegment: Sendable, Equatable {
+    public let url: URL
+    /// Seconds from the moment the stream first opened. Non-zero only for a
+    /// piece written after capture was restarted mid-meeting.
+    public let offset: TimeInterval
+
+    public init(url: URL, offset: TimeInterval) {
+        self.url = url
+        self.offset = offset
+    }
+}
+
 /// Filesystem layout for one meeting.
 public struct MeetingPaths: Sendable {
     public let directory: URL
 
-    public var micAudio: URL { directory.appendingPathComponent("mic.wav") }
-    public var systemAudio: URL { directory.appendingPathComponent("system.wav") }
+    public var micAudio: URL { audio(.microphone) }
+    public var systemAudio: URL { audio(.system) }
     public var metadata: URL { directory.appendingPathComponent("meta.json") }
     public var transcriptJSON: URL { directory.appendingPathComponent("transcript.json") }
     public var transcriptMarkdown: URL { directory.appendingPathComponent("transcript.md") }
@@ -25,6 +53,61 @@ public struct MeetingPaths: Sendable {
 
     public init(directory: URL) {
         self.directory = directory
+    }
+
+    // MARK: Audio
+
+    /// Where a stream starts recording.
+    public func audio(_ stream: AudioStream) -> URL {
+        directory.appendingPathComponent("\(stream.rawValue).wav")
+    }
+
+    /// A free path for a stream to continue into after it has been restarted.
+    ///
+    /// The number is the offset in seconds from the moment that stream first
+    /// opened, which is what puts the piece back on the meeting's timeline. Two
+    /// restarts inside one second would name the same file and the second would
+    /// truncate the first, so step forward until the name is free — a second of
+    /// drift on a piece boundary is nothing next to losing the piece.
+    public func audioSegment(_ stream: AudioStream, restartedAt offset: TimeInterval) -> URL {
+        var seconds = max(1, Int(offset))
+        var url = directory.appendingPathComponent("\(stream.rawValue)-\(seconds).wav")
+        while FileManager.default.fileExists(atPath: url.path) {
+            seconds += 1
+            url = directory.appendingPathComponent("\(stream.rawValue)-\(seconds).wav")
+        }
+        return url
+    }
+
+    /// Every piece of one stream that exists on disk, earliest first.
+    ///
+    /// Usually one. A stream that was restarted mid-meeting — a headset
+    /// connecting, a device going away — has its remainder in numbered siblings,
+    /// and all of them are part of the recording.
+    public func segments(of stream: AudioStream) -> [AudioSegment] {
+        let names = (try? FileManager.default.contentsOfDirectory(atPath: directory.path)) ?? []
+        return names
+            .compactMap { name in
+                Self.offset(ofSegment: name, in: stream).map {
+                    AudioSegment(url: directory.appendingPathComponent(name), offset: $0)
+                }
+            }
+            .sorted { $0.offset < $1.offset }
+    }
+
+    /// `mic.wav` → 0, `system-2622.wav` → 2622, anything else → nil.
+    static func offset(ofSegment name: String, in stream: AudioStream) -> TimeInterval? {
+        guard name.hasSuffix(".wav") else { return nil }
+
+        let stem = name.dropLast(4)
+        if stem == stream.rawValue { return 0 }
+
+        let prefix = "\(stream.rawValue)-"
+        guard stem.hasPrefix(prefix) else { return nil }
+
+        let seconds = stem.dropFirst(prefix.count)
+        guard !seconds.isEmpty, seconds.allSatisfy(\.isNumber) else { return nil }
+        return TimeInterval(seconds)
     }
 }
 
